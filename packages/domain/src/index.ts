@@ -5,3 +5,7 @@ export * from './publishable';
 export * from './schemas/content';
 export * from './schemas/user';
 export * from './words';
+export * from './feed';
+export * from './random';
+export * from './review';
+export * from './stats';
