@@ -1,0 +1,8 @@
+pnpm-lock.yaml
+docs/SPEC.md
+build/
+dist/
+.react-router/
+coverage/
+playwright-report/
+test-results/
