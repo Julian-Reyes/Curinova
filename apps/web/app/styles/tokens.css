@@ -1,0 +1,88 @@
+/*
+ * Design tokens (§8). Light values are the spec palette; dark is its own palette,
+ * not an inversion. Text/background pairs are checked for WCAG AA by
+ * app/styles/tokens.test.ts — add new text colors there too.
+ * Mint (--accent) is decorative only: never use it for small text on light surfaces.
+ */
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f7faf8;
+  --surface: #ffffff;
+  --surface-2: #f2eee6;
+  --surface-sunken: #f2f7f4;
+  --ink: #15312d;
+  --muted: #5e746f;
+  --primary: #087f75;
+  --primary-strong: #066960;
+  --on-primary: #ffffff;
+  --accent: #83e6cd;
+  --accent-soft: #ddf8ec;
+  --glow-1: #ddf8ec;
+  --glow-2: #ddf5fa;
+  --line: rgb(21 49 45 / 0.1);
+  --line-strong: rgb(21 49 45 / 0.18);
+  --success: #0a6b45;
+  --success-soft: #e2f6ec;
+  --danger: #a8322b;
+  --danger-soft: #fbe9e7;
+  --shadow-card: 0 1px 2px rgb(21 49 45 / 0.06), 0 12px 32px -12px rgb(21 49 45 / 0.18);
+  --shadow-sheet: 0 -8px 40px -8px rgb(21 49 45 / 0.25);
+  --scrim: rgb(10 25 22 / 0.42);
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0c1715;
+  --surface: #13221f;
+  --surface-2: #1a2d29;
+  --surface-sunken: #0f1d1a;
+  --ink: #e7f3ef;
+  --muted: #9db6af;
+  --primary: #5ccfbc;
+  --primary-strong: #7fdccb;
+  --on-primary: #06201c;
+  --accent: #83e6cd;
+  --accent-soft: #173a33;
+  --glow-1: #12332b;
+  --glow-2: #10303a;
+  --line: rgb(231 243 239 / 0.1);
+  --line-strong: rgb(231 243 239 / 0.18);
+  --success: #74d9a8;
+  --success-soft: #12322a;
+  --danger: #ff9b8f;
+  --danger-soft: #3a1d1b;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 16px 40px -16px rgb(0 0 0 / 0.6);
+  --shadow-sheet: 0 -8px 40px -8px rgb(0 0 0 / 0.6);
+  --scrim: rgb(0 0 0 / 0.55);
+}
+
+:root {
+  --radius-card: 24px;
+  --radius-control: 14px;
+  --space: 8px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 420ms;
+  --nav-height: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+/* Reduced motion: OS setting or the in-app override (data-motion="reduce"). */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur: 0ms;
+    --dur-slow: 0ms;
+  }
+}
+[data-motion='reduce'] {
+  --dur-fast: 0ms;
+  --dur: 0ms;
+  --dur-slow: 0ms;
+}

@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "{{appName}}",
+    "tagline": "Role com curiosidade. Saia sabendo mais."
+  },
+  "nav": {
+    "label": "Navegação principal",
+    "discover": "Descobrir",
+    "explore": "Explorar",
+    "review": "Revisar",
+    "library": "Biblioteca",
+    "you": "Você",
+    "soon": "Em breve"
+  },
+  "shell": {
+    "status": "Em construção",
+    "title": "A base do {{appName}} está pronta.",
+    "body": "Este é o esqueleto do app: idiomas, temas e instalação já funcionam. O feed de lições chega na próxima etapa."
+  },
+  "settings": {
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "theme": {
+    "system": "Sistema",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "pwa": {
+    "updateAvailable": "Nova versão disponível.",
+    "update": "Atualizar",
+    "dismiss": "Agora não"
+  },
+  "language": {
+    "pt-BR": "Português",
+    "en": "English"
+  }
+}

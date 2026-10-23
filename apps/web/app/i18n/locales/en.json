@@ -1,0 +1,38 @@
+{
+  "app": {
+    "name": "{{appName}}",
+    "tagline": "Scroll with curiosity. Leave with knowledge."
+  },
+  "nav": {
+    "label": "Main navigation",
+    "discover": "Discover",
+    "explore": "Explore",
+    "review": "Review",
+    "library": "Library",
+    "you": "You",
+    "soon": "Soon"
+  },
+  "shell": {
+    "status": "Under construction",
+    "title": "The {{appName}} foundation is ready.",
+    "body": "This is the app skeleton: languages, themes and installing already work. The lesson feed arrives in the next stage."
+  },
+  "settings": {
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "pwa": {
+    "updateAvailable": "A new version is available.",
+    "update": "Update",
+    "dismiss": "Not now"
+  },
+  "language": {
+    "pt-BR": "Português",
+    "en": "English"
+  }
+}
