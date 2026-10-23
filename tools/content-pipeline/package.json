@@ -1,0 +1,14 @@
+{
+  "name": "@lumen/content-pipeline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "tsx src/validate/cli.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@lumen/domain": "workspace:*",
+    "zod": "^4.6.7"
+  }
+}
