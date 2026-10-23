@@ -1,0 +1,56 @@
+[
+  {
+    "id": "fixture_q_a2_1__pt-BR",
+    "questionGroupId": "fixture_qg_a2_1",
+    "conceptId": "fixture_concept_a2",
+    "locale": "pt-BR",
+    "prompt": "FIXTURE: pergunta de teste 1 com uma opção correta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "FIXTURE: opção correta"
+      },
+      {
+        "id": "b",
+        "text": "FIXTURE: opção errada um, com um rótulo mais longo para testar quebra de linha"
+      },
+      {
+        "id": "c",
+        "text": "FIXTURE: opção errada dois"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "FIXTURE: explicação de teste.",
+    "misconception": "FIXTURE: equívoco de teste.",
+    "claimIds": ["c1"],
+    "status": "reviewed",
+    "fixture": true
+  },
+  {
+    "id": "fixture_q_a2_2__pt-BR",
+    "questionGroupId": "fixture_qg_a2_2",
+    "conceptId": "fixture_concept_a2",
+    "locale": "pt-BR",
+    "prompt": "FIXTURE: pergunta de teste 2 com uma opção correta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "FIXTURE: opção correta"
+      },
+      {
+        "id": "b",
+        "text": "FIXTURE: opção errada um, com um rótulo mais longo para testar quebra de linha"
+      },
+      {
+        "id": "c",
+        "text": "FIXTURE: opção errada dois"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "FIXTURE: explicação de teste.",
+    "misconception": "FIXTURE: equívoco de teste.",
+    "claimIds": ["c2"],
+    "status": "reviewed",
+    "fixture": true
+  }
+]

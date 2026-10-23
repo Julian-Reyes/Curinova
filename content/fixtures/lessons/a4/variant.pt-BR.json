@@ -1,0 +1,82 @@
+{
+  "id": "fixture_lesson_a4__pt-BR",
+  "conceptId": "fixture_concept_a4",
+  "locale": "pt-BR",
+  "slug": "fixture-licao-a4",
+  "title": "FIXTURE: título de teste A4 com comprimento realista?",
+  "hook": "FIXTURE: gancho de teste.",
+  "summary": "FIXTURE: resumo de teste.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "FIXTURE: Este parágrafo é texto de teste para desenvolvimento e não descreve nenhum fato real. Ele existe apenas para medir o layout do cartão, a contagem de palavras e o comportamento da interface com frases de tamanho realista em português, incluindo acentuação como ã, ç, é e ô. Este parágrafo é texto de teste para desenvolvimento e não descreve nenhum fato real. Ele existe apenas para medir o layout do cartão, a contagem de palavras e o comportamento da interface com."
+    },
+    {
+      "type": "takeaway",
+      "text": "FIXTURE: Este parágrafo é texto de teste para desenvolvimento e não descreve."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "FIXTURE: subtítulo"
+    },
+    {
+      "type": "paragraph",
+      "text": "FIXTURE: Este parágrafo é texto de teste para desenvolvimento e não descreve nenhum fato real. Ele existe apenas para medir o layout do cartão, a contagem de palavras e o comportamento da interface com frases de tamanho realista em português, incluindo acentuação como ã, ç, é e ô. Este parágrafo é texto de teste para desenvolvimento e não descreve nenhum fato real. Ele existe apenas para medir o layout do cartão, a contagem de palavras e o comportamento da interface com frases de tamanho realista em português, incluindo acentuação como ã, ç, é e ô. Este parágrafo é texto de teste para desenvolvimento e não descreve nenhum fato real. Ele existe apenas para medir o layout do cartão, a contagem."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "FIXTURE: ilustração de teste",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "FIXTURE: claim one",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "fixture_src_alpha",
+          "excerpt": "FIXTURE: fake excerpt alpha",
+          "locator": "p1"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "FIXTURE: high-stakes claim two",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "fixture_src_beta",
+          "excerpt": "FIXTURE: fake excerpt beta",
+          "locator": "p2"
+        },
+        {
+          "sourceId": "fixture_src_gamma",
+          "excerpt": "FIXTURE: fake excerpt gamma",
+          "locator": "p3"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": ["fixture_src_alpha", "fixture_src_beta", "fixture_src_gamma"],
+  "quizIds": ["fixture_q_a4_1__pt-BR", "fixture_q_a4_2__pt-BR"],
+  "contentLicense": "fixture",
+  "generation": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "fixture-reviewer",
+  "reviewedAt": "2026-10-23T00:00:00Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-10-23T00:00:00Z",
+  "updatedAt": "2026-10-23T00:00:00Z",
+  "fixture": true
+}

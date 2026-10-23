@@ -1,0 +1,56 @@
+[
+  {
+    "id": "fixture_q_a1_1__en",
+    "questionGroupId": "fixture_qg_a1_1",
+    "conceptId": "fixture_concept_a1",
+    "locale": "en",
+    "prompt": "FIXTURE: test question 1 with one correct option?",
+    "options": [
+      {
+        "id": "a",
+        "text": "FIXTURE: correct option"
+      },
+      {
+        "id": "b",
+        "text": "FIXTURE: wrong option one, with a longer label to test wrapping"
+      },
+      {
+        "id": "c",
+        "text": "FIXTURE: wrong option two"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "FIXTURE: test explanation.",
+    "misconception": "FIXTURE: test misconception.",
+    "claimIds": ["c1"],
+    "status": "reviewed",
+    "fixture": true
+  },
+  {
+    "id": "fixture_q_a1_2__en",
+    "questionGroupId": "fixture_qg_a1_2",
+    "conceptId": "fixture_concept_a1",
+    "locale": "en",
+    "prompt": "FIXTURE: test question 2 with one correct option?",
+    "options": [
+      {
+        "id": "a",
+        "text": "FIXTURE: correct option"
+      },
+      {
+        "id": "b",
+        "text": "FIXTURE: wrong option one, with a longer label to test wrapping"
+      },
+      {
+        "id": "c",
+        "text": "FIXTURE: wrong option two"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "FIXTURE: test explanation.",
+    "misconception": "FIXTURE: test misconception.",
+    "claimIds": ["c2"],
+    "status": "reviewed",
+    "fixture": true
+  }
+]

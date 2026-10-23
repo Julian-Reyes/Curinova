@@ -1,0 +1,20 @@
+{
+  "id": "fixture_concept_a1",
+  "topicId": "fixture_topic_a",
+  "clusterId": "fixture_cluster_a",
+  "clusterOrder": 1,
+  "tags": ["fixture"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "fixture_concept_a2",
+      "type": "next",
+      "reason": {
+        "pt-BR": "FIXTURE: motivo de teste.",
+        "en": "FIXTURE: test reason."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "fixture": true
+}

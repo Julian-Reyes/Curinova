@@ -1,0 +1,12 @@
+{
+  "id": "fixture_src_beta",
+  "title": "FIXTURE: fake source beta",
+  "publisher": "FIXTURE Publisher Beta",
+  "url": "https://example.invalid/fixture/fixture_src_beta",
+  "language": "en",
+  "type": "reference",
+  "license": "none (fixture)",
+  "accessedAt": "2026-10-23T00:00:00Z",
+  "snapshotHash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "fixture": true
+}

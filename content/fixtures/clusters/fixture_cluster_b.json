@@ -1,0 +1,32 @@
+{
+  "id": "fixture_cluster_b",
+  "topicId": "fixture_topic_b",
+  "slug": {
+    "pt-BR": "fixture-trilha-b",
+    "en": "fixture-trail-b"
+  },
+  "title": {
+    "pt-BR": "FIXTURE Trilha B",
+    "en": "FIXTURE Trail B"
+  },
+  "hook": {
+    "pt-BR": "FIXTURE: trilha de teste.",
+    "en": "FIXTURE: test trail."
+  },
+  "conceptIds": [
+    "fixture_concept_b1",
+    "fixture_concept_b2",
+    "fixture_concept_b3",
+    "fixture_concept_b4"
+  ],
+  "links": [
+    {
+      "clusterId": "fixture_cluster_a",
+      "reason": {
+        "pt-BR": "FIXTURE: ligação de teste.",
+        "en": "FIXTURE: test link."
+      }
+    }
+  ],
+  "fixture": true
+}

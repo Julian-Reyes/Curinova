@@ -1,0 +1,40 @@
+[
+  {
+    "id": "fixture_topic_a",
+    "slug": {
+      "pt-BR": "fixture-topico-a",
+      "en": "fixture-topic-a"
+    },
+    "name": {
+      "pt-BR": "FIXTURE Tópico Alfa",
+      "en": "FIXTURE Topic Alpha"
+    },
+    "description": {
+      "pt-BR": "FIXTURE: tópico de teste, não publicado.",
+      "en": "FIXTURE: test topic, never published."
+    },
+    "icon": "fixture",
+    "accentColor": "#087F75",
+    "sortOrder": 0,
+    "fixture": true
+  },
+  {
+    "id": "fixture_topic_b",
+    "slug": {
+      "pt-BR": "fixture-topico-b",
+      "en": "fixture-topic-b"
+    },
+    "name": {
+      "pt-BR": "FIXTURE Tópico Beta",
+      "en": "FIXTURE Topic Beta"
+    },
+    "description": {
+      "pt-BR": "FIXTURE: tópico de teste, não publicado.",
+      "en": "FIXTURE: test topic, never published."
+    },
+    "icon": "fixture",
+    "accentColor": "#3B6EA8",
+    "sortOrder": 1,
+    "fixture": true
+  }
+]
