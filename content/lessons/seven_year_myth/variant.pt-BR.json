@@ -1,0 +1,63 @@
+{
+  "id": "lesson_seven_year_myth__pt-BR",
+  "conceptId": "concept_seven_year_myth",
+  "locale": "pt-BR",
+  "slug": "voce-vira-outra-pessoa-a-cada-sete-anos",
+  "title": "Você vira outra pessoa a cada sete anos?",
+  "hook": "O mito é popular. A realidade, medida com resíduos de testes nucleares, é mais curiosa.",
+  "summary": "Não existe um ciclo de sete anos: cada tecido se renova no próprio ritmo, e a maioria dos neurônios do córtex dura a vida toda.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Existe um mito popular de que todas as células do corpo são trocadas a cada sete anos. A realidade é mais interessante: cada tecido tem o seu próprio ritmo. O revestimento do intestino se renova em poucos dias; as hemácias, em cerca de quatro meses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mas algumas células ficam com você a vida inteira. Em 2005, uma equipe do Instituto Karolinska, na Suécia, usou o carbono-14 espalhado na atmosfera pelos testes nucleares dos anos 1950 e 1960 para datar células humanas. Descobriram que a maioria dos neurônios do córtex cerebral tem a mesma idade da própria pessoa."
+    },
+    {
+      "type": "takeaway",
+      "text": "Não há ciclo de sete anos: cada tecido tem seu ritmo, e muitos neurônios nunca são trocados."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Um relógio deixado pela Guerra Fria"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os testes nucleares a céu aberto dobraram a quantidade de carbono-14 na atmosfera até 1963, quando foram proibidos. Desde então, o nível vem caindo ano a ano. Como as células incorporam carbono ao se formar, o carbono-14 do seu DNA funciona como um carimbo de data."
+    },
+    {
+      "type": "paragraph",
+      "text": "Com essa técnica, os pesquisadores estimaram que cerca de 10% das células de gordura são renovadas por ano, e que as células musculares do coração se renovam bem devagar, perto de 1% ao ano em adultos jovens, e menos com a idade."
+    },
+    {
+      "type": "paragraph",
+      "text": "As células do centro do cristalino, a lente do olho, se formam antes do nascimento e nunca são substituídas."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "renewal",
+    "alt": "Ilustração de um corpo humano com áreas em cores diferentes, cada uma com seu ritmo de renovação.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_seven_year_myth_1__pt-BR", "q_seven_year_myth_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

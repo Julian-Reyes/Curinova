@@ -1,0 +1,63 @@
+{
+  "id": "lesson_red_blood_cells__pt-BR",
+  "conceptId": "concept_red_blood_cells",
+  "locale": "pt-BR",
+  "slug": "quanto-tempo-vive-uma-hemacia",
+  "title": "Quanto tempo vive uma hemácia?",
+  "hook": "Milhões nascem a cada segundo na sua medula. Nenhuma passa de uns quatro meses.",
+  "summary": "Sem núcleo, os glóbulos vermelhos carregam mais oxigênio, mas não se consertam e vivem cerca de 120 dias.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Neste momento, cerca de 2 milhões de glóbulos vermelhos estão nascendo na sua medula óssea a cada segundo. É uma produção enorme, porque cada um vive só uns 120 dias."
+    },
+    {
+      "type": "paragraph",
+      "text": "Para caber nos vasos mais finos e carregar o máximo de oxigênio, as hemácias abrem mão de algo que quase toda célula tem: o núcleo. Sem ele, sobra espaço para a hemoglobina, a proteína que transporta oxigênio, mas a célula perde a capacidade de se consertar. Depois de uns quatro meses, as hemácias velhas são recolhidas principalmente pelo baço e pelo fígado, e o ferro delas é reaproveitado."
+    },
+    {
+      "type": "takeaway",
+      "text": "Sem núcleo, a hemácia carrega mais oxigênio, mas vive só cerca de quatro meses."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nem todo sangue é assim"
+    },
+    {
+      "type": "paragraph",
+      "text": "A falta de núcleo é uma característica dos mamíferos. Aves, peixes, anfíbios e répteis têm glóbulos vermelhos com núcleo, em geral maiores e de formato oval."
+    },
+    {
+      "type": "paragraph",
+      "text": "O formato de disco achatado, mais fino no centro, aumenta a superfície para troca de oxigênio e deixa a célula flexível o bastante para se dobrar e passar por capilares mais estreitos do que ela mesma."
+    },
+    {
+      "type": "paragraph",
+      "text": "Depois de uma doação de sangue, o corpo costuma repor o volume de plasma em cerca de um dia, e os glóbulos vermelhos ao longo de algumas semanas."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "red-cell",
+    "alt": "Ilustração de glóbulos vermelhos em forma de disco fluindo por um vaso sanguíneo.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_red_blood_cells_1__pt-BR", "q_red_blood_cells_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

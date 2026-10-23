@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_red_blood_cells_1__pt-BR",
+    "questionGroupId": "qg_red_blood_cells_1",
+    "conceptId": "concept_red_blood_cells",
+    "locale": "pt-BR",
+    "prompt": "Por que as hemácias humanas vivem tão pouco, cerca de 120 dias?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elas não têm núcleo e não conseguem se consertar"
+      },
+      {
+        "id": "b",
+        "text": "O coração as destrói a cada batimento"
+      },
+      {
+        "id": "c",
+        "text": "Elas se transformam em glóbulos brancos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sem núcleo, a hemácia ganha espaço para hemoglobina, mas não consegue produzir proteínas novas para reparar danos. Por isso tem vida curta.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_red_blood_cells_2__pt-BR",
+    "questionGroupId": "qg_red_blood_cells_2",
+    "conceptId": "concept_red_blood_cells",
+    "locale": "pt-BR",
+    "prompt": "Que órgãos recolhem a maior parte das hemácias velhas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O baço e o fígado"
+      },
+      {
+        "id": "b",
+        "text": "Os pulmões"
+      },
+      {
+        "id": "c",
+        "text": "Os rins"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Células de defesa no baço e no fígado removem as hemácias velhas, e o ferro delas é reciclado para fabricar novas.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

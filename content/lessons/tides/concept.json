@@ -1,0 +1,27 @@
+{
+  "id": "concept_tides",
+  "topicId": "space",
+  "clusterId": "cluster_moon_shapes_earth",
+  "clusterOrder": 2,
+  "tags": ["moon", "gravity", "oceans"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_day_lengthening",
+      "type": "next",
+      "reason": {
+        "pt-BR": "O vaivém das marés funciona como um freio lento na rotação da Terra.",
+        "en": "The ebb and flow of the tides acts as a slow brake on Earth’s spin."
+      }
+    },
+    {
+      "conceptId": "concept_moon_tidal_locking",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O mesmo efeito de maré travou a rotação da Lua.",
+        "en": "The same tidal effect locked the Moon’s rotation."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cluster_moon_shapes_earth",
+  "topicId": "space",
+  "slug": {
+    "pt-BR": "como-a-lua-molda-a-terra",
+    "en": "how-the-moon-shapes-earth"
+  },
+  "title": {
+    "pt-BR": "Como a Lua molda a Terra",
+    "en": "How the Moon shapes Earth"
+  },
+  "hook": {
+    "pt-BR": "Nossa vizinha mais próxima mexe com mares, dias e eclipses.",
+    "en": "Our nearest neighbor moves oceans, stretches days and stages eclipses."
+  },
+  "conceptIds": [
+    "concept_moon_tidal_locking",
+    "concept_tides",
+    "concept_day_lengthening",
+    "concept_eclipses_rare"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_kitchen_chemistry",
+      "reason": {
+        "pt-BR": "Mais física do cotidiano: por que a água ferve antes nas montanhas.",
+        "en": "More everyday physics: why water boils sooner on mountains."
+      }
+    }
+  ]
+}

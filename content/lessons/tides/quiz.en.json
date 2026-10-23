@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_tides_1__en",
+    "questionGroupId": "qg_tides_1",
+    "conceptId": "concept_tides",
+    "locale": "en",
+    "prompt": "Why do many coasts get two high tides a day instead of one?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Moon pulls Earth’s near and far sides with different strengths"
+      },
+      {
+        "id": "b",
+        "text": "The Sun creates the second high tide every day"
+      },
+      {
+        "id": "c",
+        "text": "Wind pushes the water back at night"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The difference in pull between the near side, the center and the far side of Earth raises two bulges. Earth rotates beneath them.",
+    "misconception": "The Sun does affect tides, but the second high tide would exist without it: it comes from the difference in the Moon’s pull.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_tides_2__en",
+    "questionGroupId": "qg_tides_2",
+    "conceptId": "concept_tides",
+    "locale": "en",
+    "prompt": "When do the strongest tides, spring tides, happen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the Sun, Earth and Moon line up, at new and full Moon"
+      },
+      {
+        "id": "b",
+        "text": "At first and last quarter Moon"
+      },
+      {
+        "id": "c",
+        "text": "Only in the spring"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "With all three aligned, solar and lunar tides add up. That happens twice a month, in every season.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

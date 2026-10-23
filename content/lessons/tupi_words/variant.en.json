@@ -1,0 +1,63 @@
+{
+  "id": "lesson_tupi_words__en",
+  "conceptId": "concept_tupi_words",
+  "locale": "en",
+  "slug": "which-everyday-words-come-from-tupi",
+  "title": "Which everyday words come from Tupi?",
+  "hook": "Jaguar, piranha, toucan: you may speak a little Tupi already.",
+  "summary": "Portuguese, and English through it, kept many words of Indigenous origin, especially Tupi, for animals, plants and places.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Long after Portuguese took over in Brazil, Tupi left its mark, and not only there. If you have ever said jaguar, piranha, toucan, tapioca or cashew, you have used words that reached English from Tupi and related languages, mostly through Portuguese."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Brazil the influence is everywhere: abacaxi (pineapple), mandioca (cassava), capivara (capybara) and pipoca (popcorn) all come from Tupi, and so do place names such as Ipanema, Paraná and Piracicaba. A few clues help spot them: \"ita\" means stone, \"pirá\" means fish, and \"y\" points to water or a river."
+    },
+    {
+      "type": "takeaway",
+      "text": "Animals, fruits and cities: Tupi lives on, hidden in everyday words."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Thousands of words, hundreds of places"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brazilian Portuguese contains thousands of words of Indigenous origin, many of them for animals, plants and landscapes the colonizers had never seen."
+    },
+    {
+      "type": "paragraph",
+      "text": "Place names tell stories. Piracicaba is often translated as \"where the fish stop\", a reference to the river falls where fish gather. Itaquaquecetuba, Itapetininga and Itaúna all begin with \"ita\", stone."
+    },
+    {
+      "type": "paragraph",
+      "text": "Experts do not always agree on the origins of place names, and some popular translations are simplifications."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tupi-words",
+    "alt": "Illustration of a jaguar, a toucan and a pineapple with Tupi-derived words.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_tupi_words_1__en", "q_tupi_words_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

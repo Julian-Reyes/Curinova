@@ -1,0 +1,27 @@
+{
+  "id": "concept_moon_tidal_locking",
+  "topicId": "space",
+  "clusterId": "cluster_moon_shapes_earth",
+  "clusterOrder": 1,
+  "tags": ["moon", "gravity", "orbits"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_tides",
+      "type": "next",
+      "reason": {
+        "pt-BR": "A mesma gravidade que travou a Lua também levanta as marés.",
+        "en": "The same gravity that locked the Moon also raises the tides."
+      }
+    },
+    {
+      "conceptId": "concept_day_lengthening",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O freio de marés que travou a Lua está agora desacelerando a Terra.",
+        "en": "The tidal braking that locked the Moon is now slowing Earth down."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

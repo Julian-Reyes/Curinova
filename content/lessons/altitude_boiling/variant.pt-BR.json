@@ -1,0 +1,63 @@
+{
+  "id": "lesson_altitude_boiling__pt-BR",
+  "conceptId": "concept_altitude_boiling",
+  "locale": "pt-BR",
+  "slug": "por-que-a-agua-ferve-antes-no-alto-da-montanha",
+  "title": "Por que a água ferve antes no alto da montanha?",
+  "hook": "Em La Paz, a água ferve perto de 88 °C. E o feijão demora muito mais.",
+  "summary": "Com menos pressão do ar, a água ferve a temperaturas mais baixas: ferve antes, mas cozinha mais devagar.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Ao nível do mar, a água ferve a 100 °C. Em La Paz, na Bolívia, a cerca de 3.600 metros de altitude, ela ferve perto de 88 °C. A razão é a pressão do ar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ferver é formar bolhas de vapor dentro do líquido, e isso só acontece quando a pressão do vapor da água iguala a pressão do ar em cima dela. Lá no alto há menos ar empurrando, então isso acontece a uma temperatura mais baixa. Resultado: a água ferve mais cedo, mas cozinha mais devagar, porque nunca fica tão quente. O feijão, por exemplo, demora bem mais para ficar pronto."
+    },
+    {
+      "type": "takeaway",
+      "text": "Menos pressão do ar, ponto de ebulição mais baixo: a água ferve antes e cozinha mais devagar."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A panela de pressão faz o contrário"
+    },
+    {
+      "type": "paragraph",
+      "text": "A panela de pressão prende o vapor e aumenta a pressão lá dentro. Com mais pressão, a água só ferve acima de 100 °C, em geral perto de 120 °C. Esses 20 graus a mais aceleram muito o cozimento de alimentos duros, como feijão e carnes."
+    },
+    {
+      "type": "paragraph",
+      "text": "No topo do Monte Everest, a quase 8.850 metros, a água ferve por volta de 70 °C, quente demais para segurar, mas fria demais para cozinhar um ovo direito."
+    },
+    {
+      "type": "paragraph",
+      "text": "Receitas de bolo e pão para grandes altitudes costumam ajustar ingredientes e temperatura do forno, porque líquidos evaporam mais rápido e o fermento age de forma diferente."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "mountain-pot",
+    "alt": "Ilustração de uma montanha com uma panela fervendo no topo e um termômetro marcando menos de 100 °C.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_altitude_boiling_1__pt-BR", "q_altitude_boiling_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

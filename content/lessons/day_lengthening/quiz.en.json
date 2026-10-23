@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_day_lengthening_1__en",
+    "questionGroupId": "qg_day_lengthening_1",
+    "conceptId": "concept_day_lengthening",
+    "locale": "en",
+    "prompt": "Why are days on Earth getting longer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tidal friction is slowing Earth’s rotation"
+      },
+      {
+        "id": "b",
+        "text": "Earth is moving away from the Sun"
+      },
+      {
+        "id": "c",
+        "text": "Earth’s core is cooling down"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Tides drag on the ocean floor and steal a little of Earth’s spin, about 2 milliseconds per century.",
+    "misconception": "Distance from the Sun affects the length of the year, not the day.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_day_lengthening_2__en",
+    "questionGroupId": "qg_day_lengthening_2",
+    "conceptId": "concept_day_lengthening",
+    "locale": "en",
+    "prompt": "Fossil corals about 400 million years old suggest a year had roughly how many days?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 400 days"
+      },
+      {
+        "id": "b",
+        "text": "Exactly 365 days"
+      },
+      {
+        "id": "c",
+        "text": "About 200 days"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "With Earth spinning faster, more days fit into each trip around the Sun: about 400 days of roughly 22 hours.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

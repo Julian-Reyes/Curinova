@@ -1,0 +1,27 @@
+{
+  "id": "concept_testing_effect",
+  "topicId": "brain",
+  "clusterId": "cluster_how_memory_works",
+  "clusterOrder": 3,
+  "tags": ["memory", "learning", "study"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_sleep_memory",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Depois de praticar, o sono ajuda a consolidar o que você lembrou.",
+        "en": "After practice, sleep helps consolidate what you recalled."
+      }
+    },
+    {
+      "conceptId": "concept_spacing_effect",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Testar e espaçar juntos formam a dupla mais forte para lembrar.",
+        "en": "Testing plus spacing is the strongest pairing for remembering."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

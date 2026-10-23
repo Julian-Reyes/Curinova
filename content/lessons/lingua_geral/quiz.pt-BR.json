@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_lingua_geral_1__pt-BR",
+    "questionGroupId": "qg_lingua_geral_1",
+    "conceptId": "concept_lingua_geral",
+    "locale": "pt-BR",
+    "prompt": "Em que língua se baseava a língua geral do Brasil colonial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No tupi antigo"
+      },
+      {
+        "id": "b",
+        "text": "No latim"
+      },
+      {
+        "id": "c",
+        "text": "No espanhol"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A língua geral se formou a partir do tupi antigo, falado por muitos povos do litoral, e foi adotada por colonos e missionários.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_lingua_geral_2__pt-BR",
+    "questionGroupId": "qg_lingua_geral_2",
+    "conceptId": "concept_lingua_geral",
+    "locale": "pt-BR",
+    "prompt": "Qual língua descendente da língua geral ainda é falada na Amazônia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O nheengatu"
+      },
+      {
+        "id": "b",
+        "text": "O quíchua"
+      },
+      {
+        "id": "c",
+        "text": "O guarani paraguaio"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O nheengatu descende da língua geral amazônica e é cooficial em São Gabriel da Cachoeira, no Amazonas.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

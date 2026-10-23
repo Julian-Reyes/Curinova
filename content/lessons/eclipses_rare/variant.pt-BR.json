@@ -1,0 +1,67 @@
+{
+  "id": "lesson_eclipses_rare__pt-BR",
+  "conceptId": "concept_eclipses_rare",
+  "locale": "pt-BR",
+  "slug": "por-que-nao-ha-eclipse-todo-mes",
+  "title": "Por que não há eclipse todo mês?",
+  "hook": "A Lua passa entre a Terra e o Sol todo mês. Quase sempre, erra o alvo.",
+  "summary": "A órbita da Lua é inclinada cerca de 5 graus; eclipses só acontecem quando o alinhamento coincide com os cruzamentos das órbitas.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Todo mês, na Lua nova, a Lua passa entre a Terra e o Sol. Então por que não temos um eclipse solar a cada 29 dias e meio? Porque a órbita da Lua é inclinada cerca de 5 graus em relação à órbita da Terra. Na maior parte dos meses, a sombra da Lua passa acima ou abaixo do nosso planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Só quando a Lua nova acontece perto de um dos dois pontos em que as órbitas se cruzam é que Sol, Lua e Terra ficam bem alinhados. Isso cria as temporadas de eclipse, que ocorrem cerca de duas vezes por ano."
+    },
+    {
+      "type": "takeaway",
+      "text": "A órbita da Lua é inclinada; eclipses só acontecem quando tudo se alinha."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Uma coincidência cósmica"
+    },
+    {
+      "type": "paragraph",
+      "text": "O Sol tem cerca de 400 vezes o diâmetro da Lua e está cerca de 400 vezes mais longe. Por isso, no céu, os dois parecem quase do mesmo tamanho, e a Lua consegue cobrir o Sol exatamente, deixando à mostra a coroa solar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Como a Lua se afasta aos poucos, essa coincidência é temporária. Daqui a centenas de milhões de anos, ela parecerá pequena demais para um eclipse total."
+    },
+    {
+      "type": "heading",
+      "text": "Um eclipse no Ceará"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 29 de maio de 1919, astrônomos britânicos fotografaram um eclipse total em Sobral, no Ceará, e na ilha do Príncipe, na África. As estrelas perto do Sol apareceram levemente deslocadas, como previa a teoria da relatividade geral de Einstein."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "eclipse",
+    "alt": "Ilustração de Sol, Lua e Terra alinhados, com a sombra da Lua tocando a Terra.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_eclipses_rare_1__pt-BR", "q_eclipses_rare_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

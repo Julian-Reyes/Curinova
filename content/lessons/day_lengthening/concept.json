@@ -1,0 +1,27 @@
+{
+  "id": "concept_day_lengthening",
+  "topicId": "space",
+  "clusterId": "cluster_moon_shapes_earth",
+  "clusterOrder": 3,
+  "tags": ["moon", "earth", "time"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_eclipses_rare",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Com a Lua se afastando, os eclipses totais um dia vão deixar de existir.",
+        "en": "As the Moon drifts away, total eclipses will one day stop happening."
+      }
+    },
+    {
+      "conceptId": "concept_tides",
+      "type": "background",
+      "reason": {
+        "pt-BR": "É o atrito das marés que freia a Terra.",
+        "en": "It is tidal friction that brakes the Earth."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

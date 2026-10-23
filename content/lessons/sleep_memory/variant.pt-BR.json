@@ -1,0 +1,63 @@
+{
+  "id": "lesson_sleep_memory__pt-BR",
+  "conceptId": "concept_sleep_memory",
+  "locale": "pt-BR",
+  "slug": "o-que-o-cerebro-faz-com-suas-memorias-enquanto-voce-dorme",
+  "title": "O que o cérebro faz com suas memórias enquanto você dorme?",
+  "hook": "Em ratos, os neurônios \"repassam\" o dia durante o sono, em ritmo acelerado.",
+  "summary": "Durante o sono, o cérebro reativa e reorganiza memórias recentes, o que ajuda a consolidá-las.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Dormir não é só descansar. Durante o sono, o cérebro reorganiza o que aprendemos no dia. Experimentos com ratos mostraram que neurônios do hipocampo, uma região essencial para a memória, que disparavam enquanto o animal explorava um labirinto voltam a disparar na mesma ordem durante o sono, como uma reprise acelerada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pesquisadores acreditam que esse \"replay\" ajuda a consolidar memórias. Em pessoas, estudos mostram que quem dorme depois de aprender costuma lembrar melhor do que quem passa o mesmo tempo acordado. Já noites mal dormidas atrapalham a capacidade de guardar coisas novas."
+    },
+    {
+      "type": "takeaway",
+      "text": "O sono não é tempo perdido: é quando o cérebro consolida o que você aprendeu."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O que acontece em cada fase"
+    },
+    {
+      "type": "paragraph",
+      "text": "O sono profundo, de ondas lentas, parece especialmente importante para memórias de fatos e eventos. Nessa fase, o hipocampo e o córtex trocam sinais em ritmos coordenados, e as reativações de memórias recentes são mais frequentes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainda há muitas perguntas em aberto, como o papel exato do sono REM, a fase em que sonhamos com mais intensidade. Mas o quadro geral é consistente: aprender e depois dormir funciona melhor do que aprender e passar a noite em claro."
+    },
+    {
+      "type": "paragraph",
+      "text": "Até cochilos curtos durante o dia já mostraram benefícios para a memória em alguns estudos."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "sleep",
+    "alt": "Ilustração de uma cabeça adormecida com uma lua e conexões de memória brilhando.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_sleep_memory_1__pt-BR", "q_sleep_memory_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

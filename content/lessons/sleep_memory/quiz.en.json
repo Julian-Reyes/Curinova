@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_sleep_memory_1__en",
+    "questionGroupId": "qg_sleep_memory_1",
+    "conceptId": "concept_sleep_memory",
+    "locale": "en",
+    "prompt": "What is the \"replay\" seen in rats during sleep?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Neurons repeat activity patterns from the day’s experiences"
+      },
+      {
+        "id": "b",
+        "text": "Rats always dream about the same maze"
+      },
+      {
+        "id": "c",
+        "text": "The brain erases the day’s memories"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Hippocampal neurons that fired during exploration fire again in the same order during sleep, like a sped-up rerun.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_sleep_memory_2__en",
+    "questionGroupId": "qg_sleep_memory_2",
+    "conceptId": "concept_sleep_memory",
+    "locale": "en",
+    "prompt": "In studies with people, sleeping after learning usually…",
+    "options": [
+      {
+        "id": "a",
+        "text": "improves recall compared with staying awake for the same time"
+      },
+      {
+        "id": "b",
+        "text": "makes people forget faster"
+      },
+      {
+        "id": "c",
+        "text": "has no effect on memory"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "People who sleep after learning tend to remember better, probably because sleep helps consolidate recent memories.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

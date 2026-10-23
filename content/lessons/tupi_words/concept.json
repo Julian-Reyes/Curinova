@@ -1,0 +1,27 @@
+{
+  "id": "concept_tupi_words",
+  "topicId": "history",
+  "clusterId": "cluster_portuguese_in_brazil",
+  "clusterOrder": 4,
+  "tags": ["brazil", "language", "indigenous-languages"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_tordesillas",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Volte ao começo da trilha: a linha que decidiu a língua do Brasil.",
+        "en": "Back to the start of the trail: the line that decided Brazil’s language."
+      }
+    },
+    {
+      "conceptId": "concept_lingua_geral",
+      "type": "background",
+      "reason": {
+        "pt-BR": "De onde vieram essas palavras: a língua geral de base tupi.",
+        "en": "Where these words came from: the Tupi-based general language."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

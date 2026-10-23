@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_sleep_memory_1__pt-BR",
+    "questionGroupId": "qg_sleep_memory_1",
+    "conceptId": "concept_sleep_memory",
+    "locale": "pt-BR",
+    "prompt": "O que é o \"replay\" observado em ratos durante o sono?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Neurônios repetem padrões de atividade de experiências do dia"
+      },
+      {
+        "id": "b",
+        "text": "Os ratos sonham sempre com o mesmo labirinto"
+      },
+      {
+        "id": "c",
+        "text": "O cérebro apaga as memórias do dia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Neurônios do hipocampo que dispararam durante a exploração voltam a disparar na mesma ordem durante o sono, como uma reprise acelerada.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_sleep_memory_2__pt-BR",
+    "questionGroupId": "qg_sleep_memory_2",
+    "conceptId": "concept_sleep_memory",
+    "locale": "pt-BR",
+    "prompt": "Em estudos com pessoas, dormir depois de aprender costuma…",
+    "options": [
+      {
+        "id": "a",
+        "text": "melhorar a lembrança, comparado a ficar acordado o mesmo tempo"
+      },
+      {
+        "id": "b",
+        "text": "fazer esquecer mais rápido"
+      },
+      {
+        "id": "c",
+        "text": "não ter nenhum efeito sobre a memória"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Quem dorme depois de aprender tende a lembrar melhor, possivelmente porque o sono ajuda a consolidar as memórias recentes.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "concept_seven_year_myth",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 4,
+  "tags": ["cells", "myths", "neuroscience"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_red_blood_cells",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Volte ao começo da trilha: as hemácias e seus quatro meses de vida.",
+        "en": "Back to the start of the trail: red blood cells and their four-month lives."
+      }
+    },
+    {
+      "conceptId": "concept_sleep_memory",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Se os neurônios do córtex são os mesmos, como guardamos memórias novas?",
+        "en": "If your cortical neurons are the same ones, how do you store new memories?"
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

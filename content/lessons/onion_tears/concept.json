@@ -1,0 +1,27 @@
+{
+  "id": "concept_onion_tears",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_kitchen_chemistry",
+  "clusterOrder": 2,
+  "tags": ["chemistry", "cooking", "plants"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_salt_boiling",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Da tábua para a panela: o que o sal faz (e não faz) na água.",
+        "en": "From the cutting board to the pot: what salt does (and doesn’t do) to water."
+      }
+    },
+    {
+      "conceptId": "concept_maillard_reaction",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O que muda quando a cebola vai para o fogo.",
+        "en": "What changes once the onion hits the heat."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cluster_body_renews",
+  "topicId": "body",
+  "slug": {
+    "pt-BR": "o-corpo-que-se-renova",
+    "en": "the-body-that-renews-itself"
+  },
+  "title": {
+    "pt-BR": "O corpo que se renova",
+    "en": "The body that renews itself"
+  },
+  "hook": {
+    "pt-BR": "Partes de você são trocadas o tempo todo. Outras, nunca.",
+    "en": "Parts of you are replaced all the time. Others never are."
+  },
+  "conceptIds": [
+    "concept_red_blood_cells",
+    "concept_stomach_lining",
+    "concept_bone_remodeling",
+    "concept_seven_year_myth"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_how_memory_works",
+      "reason": {
+        "pt-BR": "Seus neurônios do córtex duram a vida toda; o que muda são as conexões que guardam memórias.",
+        "en": "Your cortical neurons last a lifetime; what changes are the connections that store memories."
+      }
+    }
+  ]
+}

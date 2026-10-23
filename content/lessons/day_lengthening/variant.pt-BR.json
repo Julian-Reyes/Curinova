@@ -1,0 +1,59 @@
+{
+  "id": "lesson_day_lengthening__pt-BR",
+  "conceptId": "concept_day_lengthening",
+  "locale": "pt-BR",
+  "slug": "os-dias-estao-ficando-mais-longos",
+  "title": "Os dias na Terra estão ficando mais longos?",
+  "hook": "Bem devagar, sim. E corais fósseis guardam a prova.",
+  "summary": "O atrito das marés freia a rotação da Terra; há 400 milhões de anos, um dia durava cerca de 22 horas.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "As marés não só sobem e descem: elas atritam com o fundo do mar e funcionam como um freio lento na rotação da Terra. Por isso, o dia está ficando mais longo, mas bem devagar, cerca de 2 milissegundos por século."
+    },
+    {
+      "type": "paragraph",
+      "text": "Parece nada, mas isso se acumula. Corais fósseis de cerca de 400 milhões de anos têm faixas de crescimento diárias e anuais, e indicam anos de aproximadamente 400 dias, com dias de umas 22 horas. A energia que a Terra perde não some: parte dela empurra a Lua para uma órbita um pouco mais distante."
+    },
+    {
+      "type": "takeaway",
+      "text": "O atrito das marés freia a Terra: há 400 milhões de anos, um dia durava cerca de 22 horas."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Como sabemos que a Lua se afasta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Astronautas das missões Apollo deixaram refletores na superfície lunar. Observatórios disparam lasers até eles e medem quanto tempo a luz leva para ir e voltar. As medições mostram que a Lua se afasta cerca de 3,8 centímetros por ano, mais ou menos a velocidade com que as unhas crescem."
+    },
+    {
+      "type": "paragraph",
+      "text": "A duração do dia também oscila por outros motivos, como terremotos, movimentos no núcleo e o derretimento de geleiras, em frações de milissegundo. Por isso, o tempo dos relógios atômicos e a rotação da Terra precisam ser reconciliados de tempos em tempos, com os chamados segundos intercalares."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "day-length",
+    "alt": "Ilustração de um relógio sobre a Terra, com a Lua se afastando aos poucos.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_day_lengthening_1__pt-BR", "q_day_lengthening_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

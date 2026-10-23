@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tordesillas_1__pt-BR",
+    "questionGroupId": "qg_tordesillas_1",
+    "conceptId": "concept_tordesillas",
+    "locale": "pt-BR",
+    "prompt": "O que o Tratado de Tordesilhas, de 1494, definiu?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Uma linha dividindo as novas terras entre Portugal e Espanha"
+      },
+      {
+        "id": "b",
+        "text": "A independência do Brasil"
+      },
+      {
+        "id": "c",
+        "text": "A fundação da cidade de Salvador"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O tratado traçou uma linha a 370 léguas a oeste de Cabo Verde: terras a leste para Portugal, a oeste para a Espanha.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_tordesillas_2__pt-BR",
+    "questionGroupId": "qg_tordesillas_2",
+    "conceptId": "concept_tordesillas",
+    "locale": "pt-BR",
+    "prompt": "As fronteiras atuais do Brasil seguem a linha de Tordesilhas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não: a ocupação foi além dela, e tratados posteriores redesenharam as fronteiras"
+      },
+      {
+        "id": "b",
+        "text": "Sim, exatamente"
+      },
+      {
+        "id": "c",
+        "text": "Sim, exceto na região Nordeste"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A ocupação portuguesa avançou muito para o oeste, e o Tratado de Madri, de 1750, reconheceu boa parte dela.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

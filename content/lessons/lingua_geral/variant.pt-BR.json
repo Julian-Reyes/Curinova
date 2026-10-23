@@ -1,0 +1,63 @@
+{
+  "id": "lesson_lingua_geral__pt-BR",
+  "conceptId": "concept_lingua_geral",
+  "locale": "pt-BR",
+  "slug": "qual-lingua-se-falava-em-sao-paulo-colonial",
+  "title": "Qual língua se falava nas ruas de São Paulo colonial?",
+  "hook": "Por muito tempo, a língua do dia a dia em boa parte do Brasil não era o português.",
+  "summary": "A língua geral, de base tupi, foi a língua de comunicação em várias regiões do Brasil colonial; dela descende o nheengatu.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Durante boa parte do período colonial, a língua do dia a dia em várias regiões do Brasil não era o português. Era a chamada língua geral, baseada no tupi antigo, falado por muitos povos do litoral. Jesuítas como José de Anchieta estudaram o tupi e publicaram, em 1595, uma gramática da língua."
+    },
+    {
+      "type": "paragraph",
+      "text": "Colonos, indígenas, missionários e seus descendentes usavam a língua geral para se entender. Em São Paulo, a língua geral paulista acompanhou os bandeirantes sertão adentro. No Norte, outra variedade, a língua geral amazônica, se espalhou pelos rios e deu origem ao nheengatu, falado até hoje."
+    },
+    {
+      "type": "takeaway",
+      "text": "Por muito tempo, o Brasil colonial falou mais uma língua de base tupi do que o português."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O nheengatu hoje"
+    },
+    {
+      "type": "paragraph",
+      "text": "O nheengatu é falado por milhares de pessoas, sobretudo na região do Alto Rio Negro, no Amazonas. Em 2002, o município de São Gabriel da Cachoeira tornou o nheengatu, o tukano e o baniwa línguas cooficiais, ao lado do português."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2023, a Constituição brasileira ganhou sua primeira tradução para uma língua indígena: justamente o nheengatu."
+    },
+    {
+      "type": "paragraph",
+      "text": "O nome vem do próprio idioma e costuma ser traduzido como \"língua boa\". Ele carrega séculos de contato entre o tupi, o português e outras línguas da Amazônia."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "lingua-geral",
+    "alt": "Ilustração de balões de fala com palavras em tupi e português sobre um rio e uma vila colonial.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_lingua_geral_1__pt-BR", "q_lingua_geral_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

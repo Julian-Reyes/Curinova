@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_testing_effect_1__pt-BR",
+    "questionGroupId": "qg_testing_effect_1",
+    "conceptId": "concept_testing_effect",
+    "locale": "pt-BR",
+    "prompt": "No estudo de Roediger e Karpicke, quem lembrava mais uma semana depois?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quem praticou lembrar sem consultar o texto"
+      },
+      {
+        "id": "b",
+        "text": "Quem releu o texto várias vezes"
+      },
+      {
+        "id": "c",
+        "text": "Não houve diferença entre os grupos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Cinco minutos depois, reler parecia melhor. Uma semana depois, quem tinha praticado lembrar recordava bem mais.",
+    "misconception": "A sensação de que reler funciona vem da familiaridade com o texto, que não garante lembrança depois.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_testing_effect_2__pt-BR",
+    "questionGroupId": "qg_testing_effect_2",
+    "conceptId": "concept_testing_effect",
+    "locale": "pt-BR",
+    "prompt": "Por que reler pode enganar quem estuda?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dá a sensação de domínio sem fortalecer a lembrança"
+      },
+      {
+        "id": "b",
+        "text": "Porque cansa a vista"
+      },
+      {
+        "id": "c",
+        "text": "Porque apaga memórias antigas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O texto relido parece familiar, e confundimos isso com saber. Testar-se revela o que realmente ficou.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

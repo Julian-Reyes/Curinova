@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_stomach_lining_1__pt-BR",
+    "questionGroupId": "qg_stomach_lining_1",
+    "conceptId": "concept_stomach_lining",
+    "locale": "pt-BR",
+    "prompt": "O que neutraliza o ácido logo junto à parede do estômago?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bicarbonato retido na camada de muco"
+      },
+      {
+        "id": "b",
+        "text": "A saliva que engolimos"
+      },
+      {
+        "id": "c",
+        "text": "O sangue que passa pelo órgão"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O muco forma uma barreira que segura o bicarbonato junto às células, criando uma zona quase neutra bem ao lado da parede.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_stomach_lining_2__pt-BR",
+    "questionGroupId": "qg_stomach_lining_2",
+    "conceptId": "concept_stomach_lining",
+    "locale": "pt-BR",
+    "prompt": "Que descoberta rendeu o Nobel de 2005 a Barry Marshall e Robin Warren?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que a bactéria Helicobacter pylori causa muitas úlceras"
+      },
+      {
+        "id": "b",
+        "text": "Que o estômago produz ácido clorídrico"
+      },
+      {
+        "id": "c",
+        "text": "Que o estresse é a única causa de úlceras"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Eles mostraram que a H. pylori está por trás de grande parte das úlceras, o que permitiu tratá-las com antibióticos.",
+    "misconception": "O estresse pode piorar sintomas, mas a ideia de que era a causa principal das úlceras foi derrubada por essa descoberta.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

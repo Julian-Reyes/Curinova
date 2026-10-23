@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_onion_tears_1__en",
+    "questionGroupId": "qg_onion_tears_1",
+    "conceptId": "concept_onion_tears",
+    "locale": "en",
+    "prompt": "What makes an onion release the gas that stings your eyes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cutting its cells, which mixes compounds that were kept apart"
+      },
+      {
+        "id": "b",
+        "text": "Contact with air, even when the onion is whole"
+      },
+      {
+        "id": "c",
+        "text": "The heat of the knife"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "While the cells are intact, the sulfur compounds and enzymes are separated. The knife mixes them and the reaction begins.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_onion_tears_2__en",
+    "questionGroupId": "qg_onion_tears_2",
+    "conceptId": "concept_onion_tears",
+    "locale": "en",
+    "prompt": "Why do chilled onions usually make you cry less?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cold slows down the reactions and the release of the gas"
+      },
+      {
+        "id": "b",
+        "text": "Cold destroys the sulfur"
+      },
+      {
+        "id": "c",
+        "text": "Chilled onions have no enzymes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Enzymes work more slowly in the cold, and less gas evaporates. The substances are still there; they just react less quickly.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "id": "lesson_moon_tidal_locking__en",
+  "conceptId": "concept_moon_tidal_locking",
+  "locale": "en",
+  "slug": "why-the-moon-always-shows-the-same-face",
+  "title": "Why does the Moon always show the same face?",
+  "hook": "It does spin. Just in perfect step with its orbit.",
+  "summary": "The Moon takes as long to spin once as it does to orbit Earth, so the same side always faces us.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Look at the full Moon tonight and again in ten years: you will see the same dark patches. That does not mean the Moon stays still. It does rotate, but one spin takes exactly as long as one trip around Earth: about 27 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "So the same face always points our way. Astronomers call this synchronous rotation, or tidal locking. Early in its history the Moon spun faster. Earth’s gravity stretched it slightly out of round, and that bulge acted like a brake until the two rhythms matched."
+    },
+    {
+      "type": "takeaway",
+      "text": "The Moon does spin, but each turn lasts exactly one orbit."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The far side is not dark"
+    },
+    {
+      "type": "paragraph",
+      "text": "The side we never see gets just as much sunlight as the side we do. It simply never points at Earth. At new Moon, when the near side is in shadow, the far side is in full daylight."
+    },
+    {
+      "type": "paragraph",
+      "text": "A slight wobble in the Moon’s orbit, called libration, lets us see about 59% of its surface over time, a little more than half. The first photo of the far side was taken by the Soviet probe Luna 3 in 1959."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tidal locking is common in the Solar System: Jupiter’s four large moons also keep one face turned toward their planet."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "moon-face",
+    "alt": "Illustration of the Moon orbiting Earth with the same face always turned toward it.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_moon_tidal_locking_1__en", "q_moon_tidal_locking_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

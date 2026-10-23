@@ -1,0 +1,63 @@
+{
+  "id": "lesson_tordesillas__pt-BR",
+  "conceptId": "concept_tordesillas",
+  "locale": "pt-BR",
+  "slug": "por-que-o-brasil-fala-portugues-e-nao-espanhol",
+  "title": "Por que o Brasil fala português, e não espanhol?",
+  "hook": "A resposta começa com uma linha num mapa, traçada seis anos antes de Cabral chegar.",
+  "summary": "O Tratado de Tordesilhas, de 1494, dividiu as terras entre Portugal e Espanha e deixou com Portugal parte do atual Brasil.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Em 1494, seis anos antes de a frota de Pedro Álvares Cabral chegar ao litoral da Bahia, Portugal e Espanha assinaram o Tratado de Tordesilhas. Os dois reinos traçaram no mapa uma linha imaginária a 370 léguas a oeste das ilhas de Cabo Verde: as terras a leste ficariam com Portugal, e as a oeste, com a Espanha."
+    },
+    {
+      "type": "paragraph",
+      "text": "A linha cortava a América do Sul e deixava com os portugueses uma faixa do que hoje é o Brasil. Os povos que já viviam aqui, claro, não foram consultados. Mais tarde, a ocupação avançou muito além da linha, e tratados do século XVIII redesenharam as fronteiras."
+    },
+    {
+      "type": "takeaway",
+      "text": "Um tratado de 1494 dividiu o mundo entre Portugal e Espanha antes mesmo da chegada de Cabral."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Da linha ao mapa atual"
+    },
+    {
+      "type": "paragraph",
+      "text": "A linha de Tordesilhas passava, aproximadamente, perto de onde hoje estão Belém, no Pará, e Laguna, em Santa Catarina. Tudo a oeste disso seria espanhol."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nos séculos seguintes, expedições, missões e povoações portuguesas se espalharam para o interior, muito além da linha. Em 1750, o Tratado de Madri reconheceu boa parte dessa ocupação, adotando o princípio de que a terra pertence a quem efetivamente a ocupa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Um dos principais negociadores do tratado foi Alexandre de Gusmão, diplomata nascido em Santos. O desenho resultante já se parece bastante com o contorno atual do Brasil."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tordesillas",
+    "alt": "Ilustração de um mapa antigo da América do Sul cortado por uma linha vertical.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_tordesillas_1__pt-BR", "q_tordesillas_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

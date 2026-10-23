@@ -1,0 +1,63 @@
+{
+  "id": "lesson_moon_tidal_locking__pt-BR",
+  "conceptId": "concept_moon_tidal_locking",
+  "locale": "pt-BR",
+  "slug": "por-que-a-lua-mostra-sempre-o-mesmo-lado",
+  "title": "Por que a Lua mostra sempre o mesmo lado?",
+  "hook": "Ela gira, sim. Só que no ritmo exato da própria órbita.",
+  "summary": "A Lua leva o mesmo tempo para girar em torno de si e para orbitar a Terra, por isso vemos sempre a mesma face.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Olhe para a Lua cheia hoje e daqui a dez anos: você verá as mesmas manchas escuras. Isso não quer dizer que ela não gira. A Lua gira, sim, mas leva o mesmo tempo para dar uma volta em torno de si e uma volta em torno da Terra: cerca de 27 dias."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por isso, a mesma face fica sempre voltada para nós. Os astrônomos chamam isso de rotação sincronizada. No início da sua história, a Lua girava mais rápido. A gravidade da Terra deformou levemente o seu corpo e foi freando a rotação até os dois ritmos se igualarem."
+    },
+    {
+      "type": "takeaway",
+      "text": "A Lua gira, mas cada volta dura exatamente uma órbita."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O lado oculto não é escuro"
+    },
+    {
+      "type": "paragraph",
+      "text": "O lado que nunca vemos recebe tanta luz do Sol quanto o lado visível. Ele só não aponta para a Terra. Na Lua nova, quando o lado voltado para nós está no escuro, o lado oculto está em pleno dia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Graças a um leve balanço da Lua em sua órbita, chamado libração, conseguimos ver ao longo do tempo cerca de 59% da superfície, um pouco mais da metade. A primeira foto do lado oculto foi feita pela sonda soviética Luna 3, em 1959."
+    },
+    {
+      "type": "paragraph",
+      "text": "A rotação sincronizada é comum no Sistema Solar: as quatro grandes luas de Júpiter, por exemplo, também mostram sempre a mesma face ao planeta."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "moon-face",
+    "alt": "Ilustração da Lua orbitando a Terra, sempre com a mesma face voltada para ela.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_moon_tidal_locking_1__pt-BR", "q_moon_tidal_locking_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

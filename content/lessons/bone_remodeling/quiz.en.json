@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_bone_remodeling_1__en",
+    "questionGroupId": "qg_bone_remodeling_1",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "en",
+    "prompt": "Which cells dissolve old bone?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Osteoclasts"
+      },
+      {
+        "id": "b",
+        "text": "Osteoblasts"
+      },
+      {
+        "id": "c",
+        "text": "Red blood cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Osteoclasts break down small patches of bone; osteoblasts then build new bone in their place.",
+    "misconception": "The names look alike. One way to remember: osteoBlasts Build, osteoClasts Clear.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_bone_remodeling_2__en",
+    "questionGroupId": "qg_bone_remodeling_2",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "en",
+    "prompt": "Why do astronauts lose bone mass in space?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Without gravity’s pull, bone carries less load and rebuilding slows"
+      },
+      {
+        "id": "b",
+        "text": "Space radiation dissolves calcium"
+      },
+      {
+        "id": "c",
+        "text": "They eat less calcium on board"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Bone adjusts to the loads it carries. Without body weight, demolition outpaces rebuilding.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

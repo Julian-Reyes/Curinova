@@ -1,0 +1,63 @@
+{
+  "id": "lesson_onion_tears__pt-BR",
+  "conceptId": "concept_onion_tears",
+  "locale": "pt-BR",
+  "slug": "por-que-cortar-cebola-faz-chorar",
+  "title": "Por que cortar cebola faz chorar?",
+  "hook": "A cebola inteira quase não tem cheiro. O choro é uma arma que você mesmo ativa.",
+  "summary": "Cortar a cebola mistura compostos de enxofre e enzimas que estavam separados, produzindo um gás que irrita os olhos.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A cebola inteira quase não tem cheiro. O choro começa quando a faca rompe suas células e mistura substâncias que ficavam separadas: compostos de enxofre e uma enzima chamada alinase."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em segundos, uma cadeia de reações produz um gás chamado sin-propanotial-S-óxido. Ele chega aos olhos, irrita as terminações nervosas da córnea, e o corpo responde produzindo lágrimas para lavá-lo. É um sistema de defesa da planta contra quem tenta mordê-la. Facas bem afiadas rompem menos células, e cebolas geladas liberam o gás mais devagar."
+    },
+    {
+      "type": "takeaway",
+      "text": "Ao cortar a cebola, você mistura os ingredientes de uma defesa química da planta."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A enzima que faltava"
+    },
+    {
+      "type": "paragraph",
+      "text": "Durante muito tempo, achou-se que a alinase sozinha produzia o gás irritante. Em 2002, pesquisadores japoneses publicaram na revista Nature a descoberta de uma segunda enzima, a sintase do fator lacrimogêneo, responsável pelo último passo da reação."
+    },
+    {
+      "type": "paragraph",
+      "text": "Essa enzima compete com outra via química que produz os compostos de sabor típicos da cebola e do alho. Por isso, variedades com menos poder de fazer chorar já foram desenvolvidas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cozinhar a cebola desativa as enzimas. É por isso que cebola refogada não arde nos olhos e tem sabor mais doce."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "onion",
+    "alt": "Ilustração de uma cebola cortada liberando pequenas nuvens de gás em direção a um olho.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_onion_tears_1__pt-BR", "q_onion_tears_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

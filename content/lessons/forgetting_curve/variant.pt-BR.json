@@ -1,0 +1,63 @@
+{
+  "id": "lesson_forgetting_curve__pt-BR",
+  "conceptId": "concept_forgetting_curve",
+  "locale": "pt-BR",
+  "slug": "quanto-voce-esquece-em-um-dia",
+  "title": "Quanto você esquece em um dia?",
+  "hook": "Um psicólogo do século XIX mediu isso em si mesmo, com sílabas sem sentido.",
+  "summary": "A curva do esquecimento de Ebbinghaus mostra uma perda rápida logo depois de aprender, que depois desacelera.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Nos anos 1880, o psicólogo alemão Hermann Ebbinghaus fez um experimento consigo mesmo. Ele decorou listas de sílabas sem sentido, como \"DAX\" e \"BOK\", e mediu quanto esforço precisava para reaprendê-las depois de horas ou dias."
+    },
+    {
+      "type": "paragraph",
+      "text": "O resultado ficou famoso como curva do esquecimento: a perda é rápida no início e depois desacelera. Uma hora depois, ele já precisava de mais da metade do esforço original para reaprender uma lista. Depois de alguns dias, o pouco que restava se mantinha bem mais estável. Material com significado é esquecido mais devagar, mas o padrão se repete."
+    },
+    {
+      "type": "takeaway",
+      "text": "Esquecemos mais rápido logo depois de aprender; revisar na hora certa muda a curva."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Por que sílabas sem sentido?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ebbinghaus queria medir a memória \"pura\", sem a ajuda de significados ou associações que cada pessoa carrega. Sílabas inventadas eram igualmente estranhas para ele. Para medir o esquecimento, ele usou o \"método da economia\": quanto menos tempo levava para reaprender uma lista, mais dela ainda estava guardado."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2015, pesquisadores da Universidade de Amsterdã repetiram o experimento com o mesmo método e obtiveram uma curva muito parecida, mais de 130 anos depois."
+    },
+    {
+      "type": "paragraph",
+      "text": "Os números exatos dependem do material e da pessoa. O formato da curva, com queda rápida e depois lenta, é o que se mantém."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "forgetting-curve",
+    "alt": "Gráfico de uma curva que cai rápido no começo e depois se estabiliza.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_forgetting_curve_1__pt-BR", "q_forgetting_curve_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

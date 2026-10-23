@@ -1,0 +1,31 @@
+{
+  "id": "cluster_kitchen_chemistry",
+  "topicId": "everyday_science",
+  "slug": {
+    "pt-BR": "quimica-da-cozinha",
+    "en": "kitchen-chemistry"
+  },
+  "title": {
+    "pt-BR": "Química da cozinha",
+    "en": "Kitchen chemistry"
+  },
+  "hook": {
+    "pt-BR": "Lágrimas, crostas douradas e água fervente, explicadas.",
+    "en": "Tears, golden crusts and boiling water, explained."
+  },
+  "conceptIds": [
+    "concept_maillard_reaction",
+    "concept_onion_tears",
+    "concept_salt_boiling",
+    "concept_altitude_boiling"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_moon_shapes_earth",
+      "reason": {
+        "pt-BR": "Da panela às marés: forças invisíveis que moldam o dia a dia.",
+        "en": "From the pot to the tides: invisible forces that shape daily life."
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "lesson_maillard_reaction__en",
+  "conceptId": "concept_maillard_reaction",
+  "locale": "en",
+  "slug": "why-do-bread-steak-and-coffee-turn-brown",
+  "title": "Why do bread, steak and coffee turn brown and smell so good?",
+  "hook": "A bread crust, a seared steak and roasted coffee share the same chemistry.",
+  "summary": "In the Maillard reaction, amino acids and sugars under high, dry heat create hundreds of color and aroma molecules.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Bread crust, the sear on a steak and the aroma of roasted coffee have a common origin: the Maillard reaction, described by the French chemist Louis-Camille Maillard in 1912. When food is heated, amino acids, the building blocks of proteins, react with certain sugars and form hundreds of new molecules responsible for the brown color and many of the aromas."
+    },
+    {
+      "type": "paragraph",
+      "text": "The reaction speeds up sharply above about 140 °C. That is why boiled meat never browns: as long as there is water, the surface stays near 100 °C. To brown food, you need a dry surface and high heat."
+    },
+    {
+      "type": "takeaway",
+      "text": "Amino acids and sugars, under high and dry heat, create the color and aroma of browning."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Maillard is not caramel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caramelization is a different reaction: it involves only sugars, no proteins, and for table sugar it starts at even higher temperatures. Slowly browned onions and many desserts involve both reactions in different proportions."
+    },
+    {
+      "type": "paragraph",
+      "text": "A slightly alkaline environment speeds up the Maillard reaction. That is why pretzels are dipped in an alkaline solution before baking, which gives them their glossy brown crust."
+    },
+    {
+      "type": "paragraph",
+      "text": "Patting meat dry before it goes into the pan, and not crowding the pan so water evaporates quickly, both help the surface reach reaction temperature."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "maillard",
+    "alt": "Illustration of a golden loaf of bread and a cup of coffee with aroma molecules rising.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_maillard_reaction_1__en", "q_maillard_reaction_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

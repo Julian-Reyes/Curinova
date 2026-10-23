@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_seven_year_myth_1__en",
+    "questionGroupId": "qg_seven_year_myth_1",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "en",
+    "prompt": "The myth says all your cells are replaced every seven years. What does science show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each tissue has its own pace, and some cells are never replaced"
+      },
+      {
+        "id": "b",
+        "text": "The real cycle is ten years"
+      },
+      {
+        "id": "c",
+        "text": "Only skin cells are replaced"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Some tissues renew in days and others in years. Most cortical neurons, like the core of the eye’s lens, stay with you for life.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_seven_year_myth_2__en",
+    "questionGroupId": "qg_seven_year_myth_2",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "en",
+    "prompt": "What made it possible to date human cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carbon-14 released by nuclear tests in the 1950s and 1960s"
+      },
+      {
+        "id": "b",
+        "text": "Counting rings in cells, as with trees"
+      },
+      {
+        "id": "c",
+        "text": "X-ray scans"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The spike in carbon-14 from nuclear testing left a \"signature\" in the DNA of cells formed in each period.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

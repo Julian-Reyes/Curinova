@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_lingua_geral_1__en",
+    "questionGroupId": "qg_lingua_geral_1",
+    "conceptId": "concept_lingua_geral",
+    "locale": "en",
+    "prompt": "What was colonial Brazil’s general language based on?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Old Tupi"
+      },
+      {
+        "id": "b",
+        "text": "Latin"
+      },
+      {
+        "id": "c",
+        "text": "Spanish"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The general language grew out of Old Tupi, spoken by many coastal peoples, and was adopted by settlers and missionaries.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_lingua_geral_2__en",
+    "questionGroupId": "qg_lingua_geral_2",
+    "conceptId": "concept_lingua_geral",
+    "locale": "en",
+    "prompt": "Which descendant of the general language is still spoken in the Amazon?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nheengatu"
+      },
+      {
+        "id": "b",
+        "text": "Quechua"
+      },
+      {
+        "id": "c",
+        "text": "Paraguayan Guarani"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Nheengatu descends from the Amazonian general language and is co-official in São Gabriel da Cachoeira, Amazonas.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

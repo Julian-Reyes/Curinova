@@ -1,0 +1,63 @@
+{
+  "id": "lesson_maillard_reaction__pt-BR",
+  "conceptId": "concept_maillard_reaction",
+  "locale": "pt-BR",
+  "slug": "por-que-pao-carne-e-cafe-ficam-dourados",
+  "title": "Por que pão, carne e café ficam dourados e cheirosos?",
+  "hook": "A crosta do pão, o selado do bife e o aroma do café têm a mesma química.",
+  "summary": "Na reação de Maillard, aminoácidos e açúcares, sob calor alto e seco, criam centenas de moléculas de cor e aroma.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A casca do pão, a crosta do bife e o aroma do café torrado têm uma origem em comum: a reação de Maillard, descrita pelo químico francês Louis-Camille Maillard em 1912. Quando aquecemos alimentos, aminoácidos, os blocos que formam as proteínas, reagem com certos açúcares e formam centenas de moléculas novas, responsáveis pela cor marrom e por muitos aromas."
+    },
+    {
+      "type": "paragraph",
+      "text": "A reação acelera bastante acima de uns 140 °C. É por isso que carne cozida na água não doura: enquanto houver água, a superfície fica perto de 100 °C. Para dourar, é preciso superfície seca e calor alto."
+    },
+    {
+      "type": "takeaway",
+      "text": "Aminoácidos e açúcares, sob calor alto e seco, criam a cor e o aroma do dourado."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Maillard não é caramelo"
+    },
+    {
+      "type": "paragraph",
+      "text": "A caramelização é outra reação: envolve só açúcares, sem proteínas, e no açúcar de mesa começa em temperaturas ainda mais altas. Pudim e cebola dourada devagar envolvem as duas reações em proporções diferentes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Um ambiente levemente alcalino acelera a reação de Maillard. É por isso que alguns pães, como o pretzel, são mergulhados em uma solução alcalina antes de assar, o que dá a eles a casca marrom e brilhante característica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Secar bem a carne com papel antes de levar à frigideira e não lotar a panela, para que a água evapore rápido, ajudam a alcançar a temperatura da reação."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "maillard",
+    "alt": "Ilustração de um pão dourado e uma xícara de café, com moléculas de aroma subindo.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_maillard_reaction_1__pt-BR", "q_maillard_reaction_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

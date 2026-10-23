@@ -1,0 +1,27 @@
+{
+  "id": "concept_altitude_boiling",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_kitchen_chemistry",
+  "clusterOrder": 4,
+  "tags": ["physics", "cooking", "water"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_maillard_reaction",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Volte ao começo da trilha: a química do dourado.",
+        "en": "Back to the start of the trail: the chemistry of browning."
+      }
+    },
+    {
+      "conceptId": "concept_salt_boiling",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Por que o sal quase não mexe no ponto de ebulição.",
+        "en": "Why salt barely moves the boiling point."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

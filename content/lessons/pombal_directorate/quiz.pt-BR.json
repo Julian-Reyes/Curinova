@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_pombal_directorate_1__pt-BR",
+    "questionGroupId": "qg_pombal_directorate_1",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "pt-BR",
+    "prompt": "O que o Diretório dos Índios, de 1757, determinou?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O uso obrigatório do português nas povoações indígenas"
+      },
+      {
+        "id": "b",
+        "text": "A criação das primeiras universidades do Brasil"
+      },
+      {
+        "id": "c",
+        "text": "A mudança da capital para o Rio de Janeiro"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Diretório impôs o português e proibiu o uso da língua geral nas povoações indígenas, inclusive no ensino.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_pombal_directorate_2__pt-BR",
+    "questionGroupId": "qg_pombal_directorate_2",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "pt-BR",
+    "prompt": "Que grupo, grande usuário do tupi, foi expulso dos domínios portugueses em 1759?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Os jesuítas"
+      },
+      {
+        "id": "b",
+        "text": "Os holandeses"
+      },
+      {
+        "id": "c",
+        "text": "Os franceses"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os jesuítas tinham estudado e usado o tupi por dois séculos. Sua expulsão enfraqueceu ainda mais a língua geral.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

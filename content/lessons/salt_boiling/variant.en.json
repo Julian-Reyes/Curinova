@@ -1,0 +1,63 @@
+{
+  "id": "lesson_salt_boiling__en",
+  "conceptId": "concept_salt_boiling",
+  "locale": "en",
+  "slug": "does-salt-make-pasta-water-boil-faster",
+  "title": "Does salt make pasta water boil faster?",
+  "hook": "It is common kitchen advice. Chemistry says the opposite, by a fraction of a degree.",
+  "summary": "Salt slightly raises the boiling point; with the amounts used in cooking, the effect is well under 1 °C.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "It is common kitchen advice, but chemistry says the opposite. Dissolving salt in water slightly raises its boiling point, an effect called boiling-point elevation. With the amount we usually add, about a tablespoon in a few liters, the increase is well under 1 °C. In practice, the difference in time is unnoticeable."
+    },
+    {
+      "type": "paragraph",
+      "text": "So why does the water seem to \"boil\" when the salt goes in? The grains give steam bubbles easy places to form, and water that is already hot suddenly fizzes. The salt is really there to flavor the pasta."
+    },
+    {
+      "type": "takeaway",
+      "text": "Salt raises the boiling point by only a fraction of a degree; it is there for flavor."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How much salt would it take?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The effect depends on the number of dissolved particles. To raise the boiling point by 1 °C, you would need to dissolve almost 60 grams of salt per liter, far saltier than seawater, which has about 35 grams per liter."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is the same physics that lets salt melt ice on winter roads, in the opposite direction: dissolved particles lower water’s freezing point."
+    },
+    {
+      "type": "paragraph",
+      "text": "The burst of bubbles when salt is added is called nucleation: imperfections and solid grains make it easier for bubbles to form in a liquid that is already close to boiling."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "salt-pot",
+    "alt": "Illustration of a pot of boiling water with grains of salt falling in.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_salt_boiling_1__en", "q_salt_boiling_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

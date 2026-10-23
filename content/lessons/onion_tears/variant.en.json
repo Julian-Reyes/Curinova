@@ -1,0 +1,63 @@
+{
+  "id": "lesson_onion_tears__en",
+  "conceptId": "concept_onion_tears",
+  "locale": "en",
+  "slug": "why-does-cutting-onions-make-you-cry",
+  "title": "Why does cutting onions make you cry?",
+  "hook": "A whole onion barely smells. The tears are a weapon you switch on yourself.",
+  "summary": "Cutting an onion mixes sulfur compounds and enzymes that were kept apart, producing a gas that irritates the eyes.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A whole onion barely smells. The tears start when the knife breaks its cells and mixes substances that were stored apart: sulfur compounds and an enzyme called alliinase."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within seconds, a chain of reactions produces a gas called syn-propanethial-S-oxide. It drifts up to your eyes, irritates nerve endings in the cornea, and your body responds with tears to wash it away. It is the plant’s defense against anything that tries to bite it. Sharp knives break fewer cells, and chilled onions release the gas more slowly."
+    },
+    {
+      "type": "takeaway",
+      "text": "When you cut an onion, you mix the ingredients of the plant’s chemical defense."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The missing enzyme"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a long time, alliinase alone was thought to make the irritating gas. In 2002, Japanese researchers reported in the journal Nature a second enzyme, lachrymatory-factor synthase, responsible for the final step of the reaction."
+    },
+    {
+      "type": "paragraph",
+      "text": "That enzyme competes with another chemical pathway that produces the flavor compounds typical of onion and garlic. Onion varieties that cause fewer tears have since been developed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cooking switches the enzymes off. That is why sautéed onions do not sting your eyes and taste sweeter."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "onion",
+    "alt": "Illustration of a cut onion releasing small puffs of gas toward an eye.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_onion_tears_1__en", "q_onion_tears_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

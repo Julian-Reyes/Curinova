@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tordesillas_1__en",
+    "questionGroupId": "qg_tordesillas_1",
+    "conceptId": "concept_tordesillas",
+    "locale": "en",
+    "prompt": "What did the 1494 Treaty of Tordesillas establish?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A line dividing newly reached lands between Portugal and Spain"
+      },
+      {
+        "id": "b",
+        "text": "Brazil’s independence"
+      },
+      {
+        "id": "c",
+        "text": "The founding of the city of Salvador"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The treaty drew a line 370 leagues west of Cape Verde: lands to the east for Portugal, to the west for Spain.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_tordesillas_2__en",
+    "questionGroupId": "qg_tordesillas_2",
+    "conceptId": "concept_tordesillas",
+    "locale": "en",
+    "prompt": "Do Brazil’s borders today follow the Tordesillas line?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No: settlement went far beyond it, and later treaties redrew the borders"
+      },
+      {
+        "id": "b",
+        "text": "Yes, exactly"
+      },
+      {
+        "id": "c",
+        "text": "Yes, except in the Northeast"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Portuguese settlement pushed far west, and the 1750 Treaty of Madrid recognized much of it.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

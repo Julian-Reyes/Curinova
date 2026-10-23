@@ -1,0 +1,63 @@
+{
+  "id": "lesson_altitude_boiling__en",
+  "conceptId": "concept_altitude_boiling",
+  "locale": "en",
+  "slug": "why-does-water-boil-sooner-up-a-mountain",
+  "title": "Why does water boil sooner up a mountain?",
+  "hook": "In La Paz, water boils at about 88 °C, and beans take far longer to cook.",
+  "summary": "With less air pressure, water boils at lower temperatures: it boils sooner but cooks more slowly.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "At sea level, water boils at 100 °C. In La Paz, Bolivia, about 3,600 meters up, it boils at around 88 °C. The reason is air pressure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Boiling means steam bubbles forming inside the liquid, and that only happens once the water’s vapor pressure matches the pressure of the air above it. High up, there is less air pressing down, so this happens at a lower temperature. The result: water boils sooner but cooks more slowly, because it never gets as hot. Beans, for example, take much longer to soften."
+    },
+    {
+      "type": "takeaway",
+      "text": "Lower air pressure means a lower boiling point: water boils sooner but cooks more slowly."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A pressure cooker does the opposite"
+    },
+    {
+      "type": "paragraph",
+      "text": "A pressure cooker traps steam and raises the pressure inside. With more pressure, water only boils above 100 °C, typically near 120 °C. Those extra 20 degrees greatly speed up cooking tough foods such as beans and stewing meat. In Brazil, where beans are a daily staple, the pressure cooker is a kitchen fixture."
+    },
+    {
+      "type": "paragraph",
+      "text": "At the top of Mount Everest, nearly 8,850 meters up, water boils at roughly 70 °C: too hot to hold, but too cool to cook an egg properly."
+    },
+    {
+      "type": "paragraph",
+      "text": "High-altitude baking recipes often adjust ingredients and oven temperature, because liquids evaporate faster and leavening behaves differently."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "mountain-pot",
+    "alt": "Illustration of a mountain with a pot boiling at the top and a thermometer reading below 100 °C.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_altitude_boiling_1__en", "q_altitude_boiling_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

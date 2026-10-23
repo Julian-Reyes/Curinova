@@ -1,0 +1,63 @@
+{
+  "id": "lesson_testing_effect__en",
+  "conceptId": "concept_testing_effect",
+  "locale": "en",
+  "slug": "why-does-recalling-teach-more-than-rereading",
+  "title": "Why does trying to remember teach more than rereading?",
+  "hook": "Rereading feels like learning. Testing yourself is what makes it last.",
+  "summary": "The testing effect: pulling information out of memory strengthens it more than reviewing the material.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Rereading gives you a pleasant feeling that everything is sinking in. That feeling is misleading. In a 2006 study, psychologists Henry Roediger and Jeffrey Karpicke had students read short texts. Some reread the material; others tried to write down what they remembered, without looking."
+    },
+    {
+      "type": "paragraph",
+      "text": "Five minutes later, the rereaders did slightly better. A week later the picture flipped: those who had practiced recalling remembered much more. The effort of fetching information from memory strengthens the path to it. That is why a quick quiz is worth more than it seems."
+    },
+    {
+      "type": "takeaway",
+      "text": "Pulling information out of memory strengthens it more than rereading it."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The fluency illusion"
+    },
+    {
+      "type": "paragraph",
+      "text": "When we reread, the text feels familiar, and we mistake familiarity for knowledge. In Roediger and Karpicke’s study, the students who only reread expected to do better than they actually did."
+    },
+    {
+      "type": "paragraph",
+      "text": "Retrieval practice works even when you get the answer wrong, as long as you then see the right one. A mistake followed by correction teaches too."
+    },
+    {
+      "type": "paragraph",
+      "text": "Simple ways to use it: close the book and summarize from memory, explain the topic to someone, or answer questions before checking your notes."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "recall",
+    "alt": "Illustration of a person drawing an idea out of memory, shown as a thread of light.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_testing_effect_1__en", "q_testing_effect_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

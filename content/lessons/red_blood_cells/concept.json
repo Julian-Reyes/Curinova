@@ -1,0 +1,27 @@
+{
+  "id": "concept_red_blood_cells",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 1,
+  "tags": ["blood", "cells", "oxygen"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_stomach_lining",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro tecido em renovação constante: o revestimento do estômago.",
+        "en": "Another tissue under constant renewal: the stomach lining."
+      }
+    },
+    {
+      "conceptId": "concept_seven_year_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Cada tecido tem o seu ritmo de troca, e alguns nunca trocam.",
+        "en": "Every tissue has its own turnover rhythm, and some never turn over."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

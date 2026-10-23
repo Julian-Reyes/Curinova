@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tupi_words_1__pt-BR",
+    "questionGroupId": "qg_tupi_words_1",
+    "conceptId": "concept_tupi_words",
+    "locale": "pt-BR",
+    "prompt": "Qual destas palavras tem origem tupi?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pipoca"
+      },
+      {
+        "id": "b",
+        "text": "Almofada"
+      },
+      {
+        "id": "c",
+        "text": "Chocolate"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "\"Pipoca\" vem do tupi. \"Almofada\" vem do árabe, e \"chocolate\" vem do náuatle, língua do México, via espanhol.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_tupi_words_2__pt-BR",
+    "questionGroupId": "qg_tupi_words_2",
+    "conceptId": "concept_tupi_words",
+    "locale": "pt-BR",
+    "prompt": "Em nomes de lugares de origem tupi, o que costuma significar \"ita\"?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pedra"
+      },
+      {
+        "id": "b",
+        "text": "Fogo"
+      },
+      {
+        "id": "c",
+        "text": "Céu"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "\"Ita\" significa pedra, como em Itaquera, Itapetininga e Itaúna.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

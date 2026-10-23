@@ -1,0 +1,63 @@
+{
+  "id": "lesson_pombal_directorate__en",
+  "conceptId": "concept_pombal_directorate",
+  "locale": "en",
+  "slug": "when-did-portuguese-become-mandatory-in-brazil",
+  "title": "When did Portuguese become mandatory in Brazil?",
+  "hook": "It happened by decree in the mid-1700s, and the shift took generations.",
+  "summary": "The 1757 Directorate of the Indians imposed Portuguese in Indigenous villages and banned the general language there.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In the mid-18th century, the Portuguese Crown decided the general language had to go. Under the government of the Marquis of Pombal, the Directorate of the Indians, issued in 1757, required Portuguese in Indigenous villages and banned the general language there, including in schools."
+    },
+    {
+      "type": "paragraph",
+      "text": "The goal was to tighten control over the territory at a time when the borders with Spain were being redrawn. Soon after, in 1759, the Jesuits, the great users of Tupi, were expelled from Portuguese lands. The change was not immediate, but Portuguese began to gain ground."
+    },
+    {
+      "type": "takeaway",
+      "text": "The 1757 Directorate of the Indians imposed Portuguese and pushed the general language aside."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A slow shift"
+    },
+    {
+      "type": "paragraph",
+      "text": "Laws do not change languages overnight. In São Paulo, the general language lost speakers over the following decades and eventually disappeared."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Amazon, it held on much longer and remained widely spoken into the 19th century. That is why its descendant, Nheengatu, survives in the upper Rio Negro today."
+    },
+    {
+      "type": "paragraph",
+      "text": "Historians still debate how much of the shift was due to the Directorate and how much to other factors, such as the arrival of new settlers and urban growth."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "decree",
+    "alt": "Illustration of an official document with a royal seal and a quill.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_pombal_directorate_1__en", "q_pombal_directorate_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_bone_remodeling_1__pt-BR",
+    "questionGroupId": "qg_bone_remodeling_1",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "pt-BR",
+    "prompt": "Quais células dissolvem o osso velho?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Osteoclastos"
+      },
+      {
+        "id": "b",
+        "text": "Osteoblastos"
+      },
+      {
+        "id": "c",
+        "text": "Hemácias"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os osteoclastos demolem pequenas porções de osso; em seguida, os osteoblastos constroem osso novo no lugar.",
+    "misconception": "Os nomes se parecem. Uma forma de lembrar: osteoBLastos são os que constroem a \"base\"; osteoClastos são os que \"cortam\".",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_bone_remodeling_2__pt-BR",
+    "questionGroupId": "qg_bone_remodeling_2",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "pt-BR",
+    "prompt": "Por que astronautas perdem massa óssea no espaço?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sem o peso da gravidade, o osso recebe menos carga e a reconstrução diminui"
+      },
+      {
+        "id": "b",
+        "text": "A radiação espacial dissolve o cálcio"
+      },
+      {
+        "id": "c",
+        "text": "Eles comem menos cálcio a bordo"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O osso se ajusta às cargas que recebe. Sem o peso do corpo, a demolição passa a superar a reconstrução.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

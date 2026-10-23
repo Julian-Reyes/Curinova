@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_seven_year_myth_1__pt-BR",
+    "questionGroupId": "qg_seven_year_myth_1",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "pt-BR",
+    "prompt": "O mito diz que todas as células se renovam a cada sete anos. O que a ciência mostra?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cada tecido tem seu próprio ritmo, e algumas células nunca são trocadas"
+      },
+      {
+        "id": "b",
+        "text": "O ciclo real é de dez anos"
+      },
+      {
+        "id": "c",
+        "text": "Só as células da pele se renovam"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Há tecidos que se renovam em dias e outros em anos. E a maioria dos neurônios do córtex, assim como o centro do cristalino, acompanha você a vida toda.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_seven_year_myth_2__pt-BR",
+    "questionGroupId": "qg_seven_year_myth_2",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "pt-BR",
+    "prompt": "O que permitiu datar a idade de células humanas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O carbono-14 liberado por testes nucleares nas décadas de 1950 e 1960"
+      },
+      {
+        "id": "b",
+        "text": "Contar anéis nas células, como se faz com árvores"
+      },
+      {
+        "id": "c",
+        "text": "Exames de raio X"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O pico de carbono-14 causado pelos testes nucleares deixou uma \"assinatura\" no DNA das células formadas em cada época.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

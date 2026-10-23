@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_forgetting_curve_1__en",
+    "questionGroupId": "qg_forgetting_curve_1",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "en",
+    "prompt": "What does the forgetting curve show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "We forget quickly at first, then the loss slows down"
+      },
+      {
+        "id": "b",
+        "text": "We forget the same amount every day"
+      },
+      {
+        "id": "c",
+        "text": "We only start forgetting after a week"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Most of the loss happens in the first hours and days. After that, what remains is much more stable.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_forgetting_curve_2__en",
+    "questionGroupId": "qg_forgetting_curve_2",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "en",
+    "prompt": "How did Ebbinghaus measure forgetting?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By how much effort it took to relearn lists of nonsense syllables"
+      },
+      {
+        "id": "b",
+        "text": "With brain scans"
+      },
+      {
+        "id": "c",
+        "text": "By asking volunteers about their childhood"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "He used the \"savings method\": the less effort needed to relearn, the more of the list was still in memory. Brain imaging arrived about a century later.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

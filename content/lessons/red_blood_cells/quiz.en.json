@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_red_blood_cells_1__en",
+    "questionGroupId": "qg_red_blood_cells_1",
+    "conceptId": "concept_red_blood_cells",
+    "locale": "en",
+    "prompt": "Why do human red blood cells live only about 120 days?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They have no nucleus, so they cannot repair themselves"
+      },
+      {
+        "id": "b",
+        "text": "The heart destroys them with every beat"
+      },
+      {
+        "id": "c",
+        "text": "They turn into white blood cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Without a nucleus, the cell gains room for hemoglobin but cannot make new proteins to fix damage, so its life is short.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_red_blood_cells_2__en",
+    "questionGroupId": "qg_red_blood_cells_2",
+    "conceptId": "concept_red_blood_cells",
+    "locale": "en",
+    "prompt": "Which organs remove most old red blood cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The spleen and the liver"
+      },
+      {
+        "id": "b",
+        "text": "The lungs"
+      },
+      {
+        "id": "c",
+        "text": "The kidneys"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Immune cells in the spleen and liver clear out old red cells, and their iron is recycled to build new ones.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

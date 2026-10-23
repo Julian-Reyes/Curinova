@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_forgetting_curve_1__pt-BR",
+    "questionGroupId": "qg_forgetting_curve_1",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "pt-BR",
+    "prompt": "O que a curva do esquecimento mostra?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Esquecemos rápido no começo, e depois a perda desacelera"
+      },
+      {
+        "id": "b",
+        "text": "Esquecemos a mesma quantidade a cada dia"
+      },
+      {
+        "id": "c",
+        "text": "Só começamos a esquecer depois de uma semana"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A maior parte da perda acontece nas primeiras horas e dias. Depois, o que sobrou fica bem mais estável.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_forgetting_curve_2__pt-BR",
+    "questionGroupId": "qg_forgetting_curve_2",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "pt-BR",
+    "prompt": "Como Ebbinghaus mediu o esquecimento?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pelo esforço que precisava para reaprender listas de sílabas sem sentido"
+      },
+      {
+        "id": "b",
+        "text": "Com exames de imagem do cérebro"
+      },
+      {
+        "id": "c",
+        "text": "Perguntando a voluntários do que lembravam da infância"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ele usou o \"método da economia\": quanto menos esforço para reaprender, mais da lista ainda estava na memória. Exames de imagem do cérebro só surgiriam um século depois.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

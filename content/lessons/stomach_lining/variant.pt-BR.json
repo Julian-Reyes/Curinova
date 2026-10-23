@@ -1,0 +1,63 @@
+{
+  "id": "lesson_stomach_lining__pt-BR",
+  "conceptId": "concept_stomach_lining",
+  "locale": "pt-BR",
+  "slug": "por-que-o-estomago-nao-digere-a-si-mesmo",
+  "title": "Por que o estômago não digere a si mesmo?",
+  "hook": "O ácido que desmonta um bife não dissolve a parede do órgão. Graças a defesas em camadas.",
+  "summary": "Muco, bicarbonato, enzimas ativadas só no lugar certo e renovação rápida protegem o estômago do próprio ácido.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "O suco gástrico é ácido o bastante para ajudar a desmontar um bife: em jejum, o pH fica entre 1 e 3. Então por que ele não dissolve o próprio estômago? A parede do órgão tem defesas em camadas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma camada grossa de muco gruda no revestimento e retém bicarbonato, que neutraliza o ácido logo junto às células. As enzimas que digerem proteínas são produzidas inativas e só são ativadas dentro do estômago. E as células da superfície se renovam depressa, a cada poucos dias. Quando essas defesas falham, por exemplo por causa de certas bactérias ou remédios, podem surgir úlceras."
+    },
+    {
+      "type": "takeaway",
+      "text": "Muco, bicarbonato e renovação rápida protegem o estômago do próprio ácido."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A bactéria que mudou a medicina"
+    },
+    {
+      "type": "paragraph",
+      "text": "Durante décadas, acreditou-se que úlceras eram causadas principalmente por estresse e excesso de ácido. Nos anos 1980, os médicos australianos Barry Marshall e Robin Warren mostraram que uma bactéria, a Helicobacter pylori, está por trás de grande parte delas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Para convencer os colegas, Marshall chegou a beber uma cultura da bactéria e desenvolveu uma inflamação no estômago. A descoberta rendeu aos dois o Prêmio Nobel de Medicina de 2005 e mudou o tratamento das úlceras."
+    },
+    {
+      "type": "paragraph",
+      "text": "Este conteúdo é informativo. Para sintomas ou tratamentos, procure um profissional de saúde."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "stomach",
+    "alt": "Ilustração de um estômago com uma camada protetora de muco entre o ácido e a parede.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_stomach_lining_1__pt-BR", "q_stomach_lining_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

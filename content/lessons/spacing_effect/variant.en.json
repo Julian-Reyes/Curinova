@@ -1,0 +1,63 @@
+{
+  "id": "lesson_spacing_effect__en",
+  "conceptId": "concept_spacing_effect",
+  "locale": "en",
+  "slug": "why-does-spacing-out-study-work-better",
+  "title": "Why does spacing out your study work better?",
+  "hook": "Same hours of study, very different results a few weeks later.",
+  "summary": "The spacing effect: the same study time pays off more when it is split into sessions over several days.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture two people studying the same material for three hours. One crams it all the night before the exam. The other splits it into shorter sessions over several days. On the next day’s test, the difference may be small. Weeks later, the person who spaced it out usually remembers far more."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the spacing effect, one of the most replicated findings in psychology, seen ever since Ebbinghaus’s studies. One explanation is that a little forgetting between sessions forces the brain to rebuild the memory, and that rebuilding makes it stronger."
+    },
+    {
+      "type": "takeaway",
+      "text": "The same study time pays off more when it is split into spaced sessions."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "What is the ideal gap?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It depends on how long you want to remember. Large studies suggest a rule of thumb: longer gaps work better for longer-term memories. For an exam next week, reviewing a day or two apart helps; to remember something a year from now, gaps of weeks work better."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why spaced-review systems stretch the interval after each correct answer: first a day, then a few days, then weeks. Each review lands when the memory has started to fade but can still be retrieved."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cramming is not useless: it works in the very short term. The problem is that the feeling of mastery the night before is a poor guide to what will be left later."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "spacing",
+    "alt": "Illustration of a calendar with study sessions spread across several days.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_spacing_effect_1__en", "q_spacing_effect_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

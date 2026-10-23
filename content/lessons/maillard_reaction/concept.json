@@ -1,0 +1,27 @@
+{
+  "id": "concept_maillard_reaction",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_kitchen_chemistry",
+  "clusterOrder": 1,
+  "tags": ["chemistry", "cooking", "food"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_onion_tears",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outra reação química que começa com uma faca na cozinha.",
+        "en": "Another chemical reaction that starts with a kitchen knife."
+      }
+    },
+    {
+      "conceptId": "concept_altitude_boiling",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que a água \"trava\" em 100 °C, e quando não trava.",
+        "en": "Why water \"stalls\" at 100 °C, and when it does not."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

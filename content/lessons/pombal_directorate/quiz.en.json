@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_pombal_directorate_1__en",
+    "questionGroupId": "qg_pombal_directorate_1",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "en",
+    "prompt": "What did the 1757 Directorate of the Indians require?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The use of Portuguese in Indigenous villages"
+      },
+      {
+        "id": "b",
+        "text": "The founding of Brazil’s first universities"
+      },
+      {
+        "id": "c",
+        "text": "Moving the capital to Rio de Janeiro"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Directorate imposed Portuguese and banned the general language in Indigenous villages, including in teaching.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_pombal_directorate_2__en",
+    "questionGroupId": "qg_pombal_directorate_2",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "en",
+    "prompt": "Which group, the great users of Tupi, was expelled from Portuguese lands in 1759?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Jesuits"
+      },
+      {
+        "id": "b",
+        "text": "The Dutch"
+      },
+      {
+        "id": "c",
+        "text": "The French"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Jesuits had studied and used Tupi for two centuries. Their expulsion weakened the general language further.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

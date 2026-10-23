@@ -1,0 +1,27 @@
+{
+  "id": "concept_stomach_lining",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 2,
+  "tags": ["digestion", "stomach", "cells"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_bone_remodeling",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Até o osso, que parece pedra, está sendo reconstruído agora.",
+        "en": "Even bone, which looks like stone, is being rebuilt right now."
+      }
+    },
+    {
+      "conceptId": "concept_red_blood_cells",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Outro exemplo de células com prazo de validade curto.",
+        "en": "Another example of cells with a short shelf life."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

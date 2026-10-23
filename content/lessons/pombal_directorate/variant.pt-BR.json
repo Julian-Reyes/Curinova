@@ -1,0 +1,63 @@
+{
+  "id": "lesson_pombal_directorate__pt-BR",
+  "conceptId": "concept_pombal_directorate",
+  "locale": "pt-BR",
+  "slug": "quando-o-portugues-se-tornou-obrigatorio-no-brasil",
+  "title": "Quando o português se tornou obrigatório no Brasil?",
+  "hook": "Foi por decreto, em meados do século XVIII, e a mudança levou gerações.",
+  "summary": "O Diretório dos Índios, de 1757, impôs o português nas povoações indígenas e proibiu o uso da língua geral.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Em meados do século XVIII, a Coroa portuguesa decidiu que a língua geral precisava sair de cena. Sob o governo do Marquês de Pombal, o Diretório dos Índios, de 1757, determinou o uso do português nas povoações indígenas e proibiu o uso da língua geral nesses lugares, inclusive nas escolas."
+    },
+    {
+      "type": "paragraph",
+      "text": "O objetivo era reforçar o controle sobre o território num momento em que as fronteiras com a Espanha estavam sendo redesenhadas. Pouco depois, em 1759, os jesuítas, grandes usuários do tupi, foram expulsos dos domínios portugueses. A mudança não foi imediata, mas o português passou a ganhar espaço."
+    },
+    {
+      "type": "takeaway",
+      "text": "O Diretório dos Índios, de 1757, impôs o português e afastou a língua geral."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Uma troca lenta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leis não mudam línguas da noite para o dia. Em São Paulo, a língua geral paulista foi perdendo falantes ao longo das décadas seguintes e acabou desaparecendo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Amazônia, a língua geral resistiu muito mais e continuou amplamente falada até o século XIX. Por isso, seu descendente, o nheengatu, sobrevive até hoje no Alto Rio Negro."
+    },
+    {
+      "type": "paragraph",
+      "text": "Historiadores ainda debatem quanto da mudança se deve ao Diretório e quanto a outros fatores, como a chegada de novos colonos e a urbanização."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "decree",
+    "alt": "Ilustração de um documento oficial com selo real e uma pena.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_pombal_directorate_1__pt-BR", "q_pombal_directorate_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

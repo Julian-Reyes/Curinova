@@ -1,0 +1,63 @@
+{
+  "id": "lesson_tides__pt-BR",
+  "conceptId": "concept_tides",
+  "locale": "pt-BR",
+  "slug": "por-que-ha-duas-mares-altas-por-dia",
+  "title": "Por que há duas marés altas por dia?",
+  "hook": "Se a Lua puxa o mar, por que ele também sobe do outro lado do planeta?",
+  "summary": "A gravidade da Lua puxa com força diferente os lados próximo e distante da Terra, criando dois \"inchaços\" de água.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Se a Lua puxa a água do mar, faria sentido haver uma única maré alta por dia, do lado voltado para ela. Mas em muitos lugares há duas. O segredo é que a gravidade enfraquece com a distância."
+    },
+    {
+      "type": "paragraph",
+      "text": "O oceano do lado mais próximo da Lua é puxado com mais força que o centro da Terra, e o centro é puxado com mais força que o oceano do lado oposto. O resultado são dois \"inchaços\" de água, um de cada lado do planeta. Enquanto a Terra gira, cada costa passa pelos dois, mais ou menos a cada 12 horas e 25 minutos."
+    },
+    {
+      "type": "takeaway",
+      "text": "As marés vêm da diferença de puxão da Lua entre um lado da Terra e o outro."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O Sol também participa"
+    },
+    {
+      "type": "paragraph",
+      "text": "O Sol cria suas próprias marés, com cerca de metade da força das marés da Lua. Quando Sol, Terra e Lua estão alinhados, na Lua nova e na Lua cheia, os efeitos se somam: são as marés de sizígia, com a maior diferença entre maré alta e baixa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Lua crescente e na minguante, Sol e Lua puxam em direções perpendiculares e os efeitos se compensam em parte: são as marés de quadratura, mais fracas."
+    },
+    {
+      "type": "paragraph",
+      "text": "O formato das baías e da plataforma continental amplifica ou reduz tudo isso. Por isso a amplitude das marés varia muito de uma costa para outra; no litoral do Maranhão, por exemplo, ela passa de vários metros."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tides",
+    "alt": "Ilustração da Terra com dois inchaços de água, um voltado para a Lua e outro do lado oposto.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_tides_1__pt-BR", "q_tides_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

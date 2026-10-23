@@ -1,0 +1,63 @@
+{
+  "id": "lesson_tordesillas__en",
+  "conceptId": "concept_tordesillas",
+  "locale": "en",
+  "slug": "why-does-brazil-speak-portuguese-not-spanish",
+  "title": "Why does Brazil speak Portuguese, not Spanish?",
+  "hook": "The answer starts with a line on a map, drawn six years before Cabral arrived.",
+  "summary": "The 1494 Treaty of Tordesillas split new lands between Portugal and Spain, leaving part of today’s Brazil to Portugal.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In 1494, six years before Pedro Álvares Cabral’s fleet reached the coast of Bahia, Portugal and Spain signed the Treaty of Tordesillas. The two kingdoms drew an imaginary line 370 leagues west of the Cape Verde islands: lands to the east would go to Portugal, lands to the west to Spain."
+    },
+    {
+      "type": "paragraph",
+      "text": "The line cut through South America and gave the Portuguese a strip of what is now Brazil. The peoples who already lived there, of course, were never consulted. Later, settlement pushed far beyond the line, and 18th-century treaties redrew the borders."
+    },
+    {
+      "type": "takeaway",
+      "text": "A 1494 treaty split the world between Portugal and Spain before Cabral even arrived."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "From a line to today’s map"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Tordesillas line ran roughly near where the cities of Belém, in the north, and Laguna, in the south, stand today. Everything west of it was meant to be Spanish."
+    },
+    {
+      "type": "paragraph",
+      "text": "Over the following centuries, Portuguese expeditions, missions and settlements spread inland, well past the line. In 1750 the Treaty of Madrid recognized much of that expansion, adopting the principle that land belongs to whoever actually occupies it."
+    },
+    {
+      "type": "paragraph",
+      "text": "One of the treaty’s main negotiators was Alexandre de Gusmão, a diplomat born in Santos, Brazil. The resulting outline already looks a lot like Brazil’s borders today."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tordesillas",
+    "alt": "Illustration of an old map of South America split by a vertical line.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_tordesillas_1__en", "q_tordesillas_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

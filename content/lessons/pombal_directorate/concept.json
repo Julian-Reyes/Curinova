@@ -1,0 +1,27 @@
+{
+  "id": "concept_pombal_directorate",
+  "topicId": "history",
+  "clusterId": "cluster_portuguese_in_brazil",
+  "clusterOrder": 3,
+  "tags": ["brazil", "colonial-history", "language"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_tupi_words",
+      "type": "next",
+      "reason": {
+        "pt-BR": "O português venceu, mas o tupi deixou marcas por toda parte.",
+        "en": "Portuguese won out, but Tupi left its mark everywhere."
+      }
+    },
+    {
+      "conceptId": "concept_tordesillas",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O contexto: fronteiras com a Espanha sendo redesenhadas.",
+        "en": "The context: borders with Spain being redrawn."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

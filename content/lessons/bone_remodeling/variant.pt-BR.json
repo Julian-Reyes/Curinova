@@ -1,0 +1,63 @@
+{
+  "id": "lesson_bone_remodeling__pt-BR",
+  "conceptId": "concept_bone_remodeling",
+  "locale": "pt-BR",
+  "slug": "seu-esqueleto-e-o-mesmo-de-dez-anos-atras",
+  "title": "Seu esqueleto é o mesmo de dez anos atrás?",
+  "hook": "Osso parece pedra, mas é um canteiro de obras que nunca fecha.",
+  "summary": "Osteoclastos demolem e osteoblastos reconstroem: em adultos, cerca de 10% do esqueleto é renovado por ano.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Osso parece pedra, mas é tecido vivo e em obra constante. Dois tipos de células trabalham em equipe: os osteoclastos dissolvem pequenas porções de osso velho, e os osteoblastos preenchem o espaço com osso novo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em adultos, estima-se que cerca de 10% do esqueleto seja renovado por ano, ou seja, ao longo de uma década boa parte dele é reconstruída. Essa reforma conserta microfissuras do dia a dia e ajusta o osso às cargas que ele recebe. É por isso que atividades com impacto ajudam a manter os ossos fortes, e que astronautas perdem massa óssea no espaço."
+    },
+    {
+      "type": "takeaway",
+      "text": "O osso é demolido e reconstruído o tempo todo; em uma década, boa parte do esqueleto é nova."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O osso responde à carga"
+    },
+    {
+      "type": "paragraph",
+      "text": "No século XIX, o cirurgião alemão Julius Wolff descreveu que o osso se adapta às forças que recebe: fica mais denso onde é mais exigido. Tenistas, por exemplo, costumam ter os ossos do braço que segura a raquete mais densos que os do outro braço."
+    },
+    {
+      "type": "paragraph",
+      "text": "No espaço, sem o peso da gravidade, o efeito se inverte. Astronautas em missões longas podem perder cerca de 1% a 1,5% da densidade óssea por mês em ossos que normalmente sustentam o corpo, e por isso se exercitam todos os dias a bordo."
+    },
+    {
+      "type": "paragraph",
+      "text": "O osso também funciona como reserva de cálcio: a renovação ajuda a manter o nível desse mineral estável no sangue."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "bone",
+    "alt": "Ilustração de um osso com pequenas células demolindo e reconstruindo sua estrutura.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_bone_remodeling_1__pt-BR", "q_bone_remodeling_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "lesson_bone_remodeling__en",
+  "conceptId": "concept_bone_remodeling",
+  "locale": "en",
+  "slug": "is-your-skeleton-the-same-as-ten-years-ago",
+  "title": "Is your skeleton the same one you had ten years ago?",
+  "hook": "Bone looks like stone, but it is a building site that never closes.",
+  "summary": "Osteoclasts demolish and osteoblasts rebuild: in adults, about 10% of the skeleton is renewed each year.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Bone looks like stone, but it is living tissue under constant renovation. Two kinds of cells work as a team: osteoclasts dissolve small patches of old bone, and osteoblasts fill the gap with new bone."
+    },
+    {
+      "type": "paragraph",
+      "text": "In adults, an estimated 10% or so of the skeleton is renewed each year, so over a decade much of it is rebuilt. This renovation repairs everyday micro-cracks and adjusts bone to the loads it carries. That is why weight-bearing activity helps keep bones strong, and why astronauts lose bone mass in space."
+    },
+    {
+      "type": "takeaway",
+      "text": "Bone is torn down and rebuilt all the time; over a decade, much of your skeleton is new."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Bone responds to load"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 19th century, the German surgeon Julius Wolff described how bone adapts to the forces placed on it, growing denser where it is used most. Tennis players, for example, often have denser bones in their racket arm than in the other arm."
+    },
+    {
+      "type": "paragraph",
+      "text": "In space, without the pull of gravity, the effect runs in reverse. Astronauts on long missions can lose about 1% to 1.5% of bone density per month in bones that normally carry the body’s weight, which is why they exercise every day on board."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bone is also a calcium reserve: remodeling helps keep the level of this mineral in the blood steady."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "bone",
+    "alt": "Illustration of a bone with tiny cells taking apart and rebuilding its structure.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_bone_remodeling_1__en", "q_bone_remodeling_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

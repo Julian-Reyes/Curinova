@@ -1,0 +1,63 @@
+{
+  "id": "lesson_tides__en",
+  "conceptId": "concept_tides",
+  "locale": "en",
+  "slug": "why-are-there-two-high-tides-a-day",
+  "title": "Why are there two high tides a day?",
+  "hook": "If the Moon pulls the sea, why does it also bulge on the far side of the planet?",
+  "summary": "The Moon pulls Earth’s near and far sides with different strengths, which raises two bulges of water.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "If the Moon pulls on the oceans, you might expect one high tide a day, on the side facing it. Yet many coasts get two. The trick is that gravity weakens with distance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ocean nearest the Moon is pulled harder than Earth’s center, and the center is pulled harder than the ocean on the far side. The result is two bulges of water, one on each side of the planet. As Earth turns, each coast passes through both, roughly every 12 hours and 25 minutes."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tides come from the difference in the Moon’s pull across Earth."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The Sun joins in"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sun raises tides too, at roughly half the strength of the Moon’s. When the Sun, Earth and Moon line up, at new and full Moon, the effects add up: these are spring tides, with the biggest gap between high and low water. The name has nothing to do with the season."
+    },
+    {
+      "type": "paragraph",
+      "text": "At first and last quarter, the Sun and Moon pull at right angles and partly cancel out, giving weaker neap tides."
+    },
+    {
+      "type": "paragraph",
+      "text": "The shape of bays and the continental shelf can amplify or dampen all of this, which is why tidal ranges vary so much from one coast to the next."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tides",
+    "alt": "Illustration of Earth with two bulges of water, one facing the Moon and one on the opposite side.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_tides_1__en", "q_tides_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

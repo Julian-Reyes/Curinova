@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_spacing_effect_1__pt-BR",
+    "questionGroupId": "qg_spacing_effect_1",
+    "conceptId": "concept_spacing_effect",
+    "locale": "pt-BR",
+    "prompt": "Duas pessoas estudam três horas cada. Quem tende a lembrar mais semanas depois?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quem dividiu o estudo em sessões ao longo de vários dias"
+      },
+      {
+        "id": "b",
+        "text": "Quem estudou tudo de uma vez na véspera"
+      },
+      {
+        "id": "c",
+        "text": "As duas lembram igual"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "É o efeito de espaçamento: com o mesmo tempo total, sessões distribuídas produzem lembranças mais duradouras.",
+    "misconception": "Estudar tudo na véspera pode até render bem no dia seguinte, mas a lembrança se desfaz bem mais rápido.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_spacing_effect_2__pt-BR",
+    "questionGroupId": "qg_spacing_effect_2",
+    "conceptId": "concept_spacing_effect",
+    "locale": "pt-BR",
+    "prompt": "Segundo uma explicação comum, por que espaçar os estudos ajuda?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Esquecer um pouco obriga o cérebro a reconstruir a memória, o que a fortalece"
+      },
+      {
+        "id": "b",
+        "text": "O cérebro só grava memórias durante a noite"
+      },
+      {
+        "id": "c",
+        "text": "Sessões curtas cansam menos os olhos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O esforço de recuperar algo que já começou a ser esquecido parece fortalecer a memória mais do que rever algo ainda fresco.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

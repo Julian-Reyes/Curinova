@@ -1,0 +1,27 @@
+{
+  "id": "concept_bone_remodeling",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 3,
+  "tags": ["bones", "cells", "exercise"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_seven_year_myth",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Então o corpo inteiro se renova a cada sete anos? Não exatamente.",
+        "en": "So does the whole body renew every seven years? Not quite."
+      }
+    },
+    {
+      "conceptId": "concept_stomach_lining",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Ritmos de renovação muito diferentes: dias no estômago, anos no osso.",
+        "en": "Very different renewal rhythms: days in the stomach, years in bone."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

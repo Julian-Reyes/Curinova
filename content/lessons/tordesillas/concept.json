@@ -1,0 +1,27 @@
+{
+  "id": "concept_tordesillas",
+  "topicId": "history",
+  "clusterId": "cluster_portuguese_in_brazil",
+  "clusterOrder": 1,
+  "tags": ["brazil", "colonial-history", "language"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_lingua_geral",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mesmo com o território português, a língua do dia a dia era outra.",
+        "en": "Even on Portuguese territory, everyday speech was something else."
+      }
+    },
+    {
+      "conceptId": "concept_pombal_directorate",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Quando as fronteiras foram redesenhadas, a Coroa também mudou a política de língua.",
+        "en": "When the borders were redrawn, the Crown also changed its language policy."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

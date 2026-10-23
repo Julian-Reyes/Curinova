@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_testing_effect_1__en",
+    "questionGroupId": "qg_testing_effect_1",
+    "conceptId": "concept_testing_effect",
+    "locale": "en",
+    "prompt": "In Roediger and Karpicke’s study, who remembered more a week later?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Students who practiced recalling without looking at the text"
+      },
+      {
+        "id": "b",
+        "text": "Students who reread the text several times"
+      },
+      {
+        "id": "c",
+        "text": "There was no difference"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Five minutes later, rereading looked better. A week later, those who had practiced recall remembered far more.",
+    "misconception": "The sense that rereading works comes from familiarity with the text, which does not guarantee you will remember it later.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_testing_effect_2__en",
+    "questionGroupId": "qg_testing_effect_2",
+    "conceptId": "concept_testing_effect",
+    "locale": "en",
+    "prompt": "Why can rereading mislead students?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It creates a feeling of mastery without strengthening memory"
+      },
+      {
+        "id": "b",
+        "text": "It tires the eyes"
+      },
+      {
+        "id": "c",
+        "text": "It erases older memories"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A reread text feels familiar, and we confuse that with knowing it. Testing yourself shows what actually stuck.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

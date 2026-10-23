@@ -1,0 +1,67 @@
+{
+  "id": "lesson_eclipses_rare__en",
+  "conceptId": "concept_eclipses_rare",
+  "locale": "en",
+  "slug": "why-isnt-there-an-eclipse-every-month",
+  "title": "Why isn’t there an eclipse every month?",
+  "hook": "The Moon passes between Earth and the Sun every month. Almost always, it misses.",
+  "summary": "The Moon’s orbit is tilted about 5 degrees, so eclipses only happen when the alignment falls where the orbits cross.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Every month, at new Moon, the Moon passes between Earth and the Sun. So why don’t we get a solar eclipse every 29 and a half days? Because the Moon’s orbit is tilted by about 5 degrees relative to Earth’s. In most months, the Moon’s shadow sails above or below our planet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Only when a new Moon falls near one of the two points where the orbits cross do the Sun, Moon and Earth line up closely. That creates eclipse seasons, which come around about twice a year."
+    },
+    {
+      "type": "takeaway",
+      "text": "The Moon’s orbit is tilted, so eclipses only happen when everything lines up."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A cosmic coincidence"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sun is about 400 times wider than the Moon and about 400 times farther away. So in our sky the two look almost the same size, and the Moon can cover the Sun exactly, revealing the faint solar corona."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the Moon is slowly drifting away, this coincidence is temporary. Hundreds of millions of years from now, it will look too small to cause a total eclipse."
+    },
+    {
+      "type": "heading",
+      "text": "An eclipse in Brazil"
+    },
+    {
+      "type": "paragraph",
+      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in northeastern Brazil, and from the island of Príncipe, off Africa. Stars near the Sun appeared slightly shifted, just as Einstein’s general theory of relativity predicted."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "eclipse",
+    "alt": "Illustration of the Sun, Moon and Earth in a line, with the Moon’s shadow touching Earth.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_eclipses_rare_1__en", "q_eclipses_rare_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

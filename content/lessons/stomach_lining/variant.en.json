@@ -1,0 +1,63 @@
+{
+  "id": "lesson_stomach_lining__en",
+  "conceptId": "concept_stomach_lining",
+  "locale": "en",
+  "slug": "why-doesnt-your-stomach-digest-itself",
+  "title": "Why doesn’t your stomach digest itself?",
+  "hook": "The acid that breaks down a steak leaves the stomach wall alone, thanks to layered defenses.",
+  "summary": "Mucus, bicarbonate, enzymes activated only in the right place and fast renewal protect the stomach from its own acid.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Stomach acid is strong enough to help break down a steak: on an empty stomach, its pH sits between 1 and 3. So why doesn’t it dissolve the stomach itself? The stomach wall has layered defenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "A thick layer of mucus clings to the lining and traps bicarbonate, which neutralizes acid right next to the cells. The enzymes that digest protein are made in an inactive form and only switch on inside the stomach. And the surface cells are replaced quickly, every few days. When these defenses fail, for example because of certain bacteria or medicines, ulcers can form."
+    },
+    {
+      "type": "takeaway",
+      "text": "Mucus, bicarbonate and fast renewal protect the stomach from its own acid."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The bacterium that changed medicine"
+    },
+    {
+      "type": "paragraph",
+      "text": "For decades, ulcers were blamed mainly on stress and too much acid. In the 1980s, Australian doctors Barry Marshall and Robin Warren showed that a bacterium, Helicobacter pylori, is behind a large share of them."
+    },
+    {
+      "type": "paragraph",
+      "text": "To convince skeptical colleagues, Marshall drank a culture of the bacterium and developed stomach inflammation. The discovery earned them the 2005 Nobel Prize in Medicine and changed how ulcers are treated."
+    },
+    {
+      "type": "paragraph",
+      "text": "This content is for information only. For symptoms or treatment, talk to a health professional."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "stomach",
+    "alt": "Illustration of a stomach with a protective layer of mucus between the acid and the wall.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_stomach_lining_1__en", "q_stomach_lining_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

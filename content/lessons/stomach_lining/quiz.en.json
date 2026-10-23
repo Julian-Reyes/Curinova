@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_stomach_lining_1__en",
+    "questionGroupId": "qg_stomach_lining_1",
+    "conceptId": "concept_stomach_lining",
+    "locale": "en",
+    "prompt": "What neutralizes acid right next to the stomach wall?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bicarbonate trapped in the mucus layer"
+      },
+      {
+        "id": "b",
+        "text": "The saliva we swallow"
+      },
+      {
+        "id": "c",
+        "text": "The blood flowing through the stomach"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Mucus forms a barrier that holds bicarbonate against the cells, creating an almost neutral zone right beside the wall.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_stomach_lining_2__en",
+    "questionGroupId": "qg_stomach_lining_2",
+    "conceptId": "concept_stomach_lining",
+    "locale": "en",
+    "prompt": "What discovery earned Barry Marshall and Robin Warren the 2005 Nobel Prize?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That the bacterium Helicobacter pylori causes many ulcers"
+      },
+      {
+        "id": "b",
+        "text": "That the stomach produces hydrochloric acid"
+      },
+      {
+        "id": "c",
+        "text": "That stress is the only cause of ulcers"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "They showed H. pylori is behind a large share of ulcers, which made it possible to treat them with antibiotics.",
+    "misconception": "Stress can worsen symptoms, but the idea that it was the main cause of ulcers was overturned by this discovery.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

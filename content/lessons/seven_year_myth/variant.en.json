@@ -1,0 +1,63 @@
+{
+  "id": "lesson_seven_year_myth__en",
+  "conceptId": "concept_seven_year_myth",
+  "locale": "en",
+  "slug": "do-you-become-a-new-person-every-seven-years",
+  "title": "Do you become a new person every seven years?",
+  "hook": "The myth is everywhere. The reality, measured with fallout from nuclear tests, is stranger.",
+  "summary": "There is no seven-year cycle: each tissue renews at its own pace, and most cortical neurons last a lifetime.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A popular myth says every cell in your body is replaced every seven years. The reality is more interesting: each tissue keeps its own schedule. The gut lining renews in a few days; red blood cells in about four months."
+    },
+    {
+      "type": "paragraph",
+      "text": "But some cells stay with you for life. In 2005, a team at the Karolinska Institute in Sweden used the carbon-14 that nuclear weapons tests in the 1950s and 1960s spread through the atmosphere to date human cells. They found that most neurons in the cerebral cortex are as old as the person."
+    },
+    {
+      "type": "takeaway",
+      "text": "There is no seven-year cycle: each tissue has its own pace, and many neurons are never replaced."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A clock left by the Cold War"
+    },
+    {
+      "type": "paragraph",
+      "text": "Above-ground nuclear tests doubled the amount of carbon-14 in the atmosphere until 1963, when they were banned. Since then the level has fallen year by year. Because cells take in carbon as they form, the carbon-14 in your DNA works like a date stamp."
+    },
+    {
+      "type": "paragraph",
+      "text": "Using this technique, researchers estimated that about 10% of fat cells are replaced each year, and that heart muscle cells renew very slowly, around 1% a year in young adults and less with age."
+    },
+    {
+      "type": "paragraph",
+      "text": "The cells at the core of the eye’s lens form before birth and are never replaced."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "renewal",
+    "alt": "Illustration of a human body with areas in different colors, each with its own renewal pace.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_seven_year_myth_1__en", "q_seven_year_myth_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

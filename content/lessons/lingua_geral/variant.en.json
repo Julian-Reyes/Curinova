@@ -1,0 +1,63 @@
+{
+  "id": "lesson_lingua_geral__en",
+  "conceptId": "concept_lingua_geral",
+  "locale": "en",
+  "slug": "what-language-was-spoken-in-colonial-sao-paulo",
+  "title": "What language was spoken on the streets of colonial São Paulo?",
+  "hook": "For a long time, everyday speech in much of Brazil was not Portuguese.",
+  "summary": "The Tupi-based \"general language\" was the common tongue in many parts of colonial Brazil; Nheengatu descends from it.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "For much of the colonial period, the everyday language in many parts of Brazil was not Portuguese. It was the so-called língua geral, or general language, based on Old Tupi, spoken by many coastal peoples. Jesuits such as José de Anchieta studied Tupi and published a grammar of it in 1595."
+    },
+    {
+      "type": "paragraph",
+      "text": "Settlers, Indigenous people, missionaries and their descendants used the general language to understand one another. In São Paulo, the língua geral paulista traveled inland with the bandeirantes, the backcountry expeditions. In the north, a different variety spread along the Amazon’s rivers and gave rise to Nheengatu, still spoken today."
+    },
+    {
+      "type": "takeaway",
+      "text": "For a long time, colonial Brazil spoke a Tupi-based language more than it spoke Portuguese."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nheengatu today"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nheengatu is spoken by thousands of people, mainly in the upper Rio Negro region of Amazonas state. In 2002, the municipality of São Gabriel da Cachoeira made Nheengatu, Tukano and Baniwa co-official languages alongside Portuguese."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2023, Brazil’s Constitution got its first translation into an Indigenous language: Nheengatu."
+    },
+    {
+      "type": "paragraph",
+      "text": "The name comes from the language itself and is usually translated as \"good language\". It carries centuries of contact between Tupi, Portuguese and other Amazonian languages."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "lingua-geral",
+    "alt": "Illustration of speech bubbles with Tupi and Portuguese words over a river and a colonial village.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_lingua_geral_1__en", "q_lingua_geral_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

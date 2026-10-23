@@ -1,0 +1,63 @@
+{
+  "id": "lesson_forgetting_curve__en",
+  "conceptId": "concept_forgetting_curve",
+  "locale": "en",
+  "slug": "how-much-do-you-forget-in-a-day",
+  "title": "How much do you forget in a day?",
+  "hook": "A 19th-century psychologist measured it on himself, using nonsense syllables.",
+  "summary": "Ebbinghaus’s forgetting curve shows fast loss right after learning, which then slows down.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In the 1880s, the German psychologist Hermann Ebbinghaus ran an experiment on himself. He memorized lists of nonsense syllables such as \"DAX\" and \"BOK\", then measured how much effort it took to relearn them hours or days later."
+    },
+    {
+      "type": "paragraph",
+      "text": "The result became famous as the forgetting curve: memory drops fast at first, then levels off. After just one hour, he needed more than half of the original effort to relearn a list. After a few days, what remained was far more stable. Meaningful material fades more slowly, but the same pattern appears."
+    },
+    {
+      "type": "takeaway",
+      "text": "We forget fastest right after learning; reviewing at the right moment reshapes the curve."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Why nonsense syllables?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ebbinghaus wanted to measure \"pure\" memory, free of the meanings and associations each person brings. Invented syllables were equally unfamiliar to him. To measure forgetting he used the \"savings method\": the less time it took to relearn a list, the more of it was still stored."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2015, researchers at the University of Amsterdam repeated the experiment with the same method and got a strikingly similar curve, more than 130 years later."
+    },
+    {
+      "type": "paragraph",
+      "text": "The exact numbers depend on the material and the person. The shape of the curve, steep and then shallow, is what holds up."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "forgetting-curve",
+    "alt": "Graph of a curve that drops steeply at first and then levels off.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_forgetting_curve_1__en", "q_forgetting_curve_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

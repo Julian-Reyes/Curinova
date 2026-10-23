@@ -1,0 +1,63 @@
+{
+  "id": "lesson_testing_effect__pt-BR",
+  "conceptId": "concept_testing_effect",
+  "locale": "pt-BR",
+  "slug": "por-que-tentar-lembrar-ensina-mais-que-reler",
+  "title": "Por que tentar lembrar ensina mais do que reler?",
+  "hook": "Reler dá a sensação de aprender. Testar-se é que faz a memória durar.",
+  "summary": "O efeito de testagem: buscar a informação na memória fortalece a lembrança mais do que rever o material.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Reler um texto dá a sensação gostosa de que tudo está entrando. Mas essa sensação engana. Em um estudo de 2006, os psicólogos Henry Roediger e Jeffrey Karpicke pediram a estudantes que lessem textos curtos. Alguns releram o material; outros tentaram escrever o que lembravam, sem consultar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cinco minutos depois, quem releu se saiu um pouco melhor. Uma semana depois, o quadro se inverteu: quem praticou lembrar recordava bem mais. O esforço de buscar a informação na memória fortalece o caminho até ela. Por isso, um quiz rápido vale mais do que parece."
+    },
+    {
+      "type": "takeaway",
+      "text": "Puxar a informação da memória a fortalece mais do que rever o texto."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A ilusão da fluência"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quando relemos, o texto parece familiar, e confundimos familiaridade com conhecimento. No estudo de Roediger e Karpicke, os estudantes que só releram achavam que iam se sair melhor do que de fato se saíram."
+    },
+    {
+      "type": "paragraph",
+      "text": "A prática de lembrar funciona mesmo quando erramos, desde que depois vejamos a resposta certa. O erro seguido de correção também ensina."
+    },
+    {
+      "type": "paragraph",
+      "text": "Formas simples de usar isso: fechar o livro e resumir de memória, explicar o assunto para alguém ou responder perguntas antes de conferir as anotações."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "recall",
+    "alt": "Ilustração de uma pessoa puxando uma ideia da memória, representada por um fio de luz.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_testing_effect_1__pt-BR", "q_testing_effect_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "lesson_spacing_effect__pt-BR",
+  "conceptId": "concept_spacing_effect",
+  "locale": "pt-BR",
+  "slug": "por-que-estudar-aos-poucos-funciona",
+  "title": "Por que estudar aos poucos funciona melhor?",
+  "hook": "Mesmas horas de estudo, resultados bem diferentes semanas depois.",
+  "summary": "O efeito de espaçamento: o mesmo tempo de estudo rende mais quando dividido em sessões ao longo de vários dias.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine duas pessoas que estudam o mesmo conteúdo por três horas. Uma faz tudo de uma vez, na véspera da prova. A outra divide o estudo em sessões menores ao longo de vários dias. Na prova do dia seguinte, a diferença pode ser pequena. Semanas depois, quem espaçou costuma lembrar bem mais."
+    },
+    {
+      "type": "paragraph",
+      "text": "Esse é o efeito de espaçamento, um dos resultados mais replicados da psicologia, observado desde os estudos de Ebbinghaus. Uma explicação é que um pouco de esquecimento entre as sessões obriga o cérebro a reconstruir a memória, e essa reconstrução a fortalece."
+    },
+    {
+      "type": "takeaway",
+      "text": "O mesmo tempo de estudo rende mais quando dividido em sessões espaçadas."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Qual é o intervalo ideal?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depende de por quanto tempo você quer lembrar. Grandes estudos sugerem uma regra prática: intervalos maiores funcionam melhor para lembranças de longo prazo. Para uma prova daqui a uma semana, revisar com um ou dois dias de intervalo ajuda; para lembrar daqui a um ano, intervalos de semanas funcionam melhor."
+    },
+    {
+      "type": "paragraph",
+      "text": "É por isso que sistemas de revisão espaçada aumentam o intervalo a cada acerto: primeiro um dia, depois alguns dias, depois semanas. Cada revisão acontece quando a memória começou a enfraquecer, mas ainda pode ser recuperada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Estudar \"em maratona\" não é inútil: funciona para o curtíssimo prazo. O problema é que a sensação de domínio na véspera engana sobre o que vai sobrar depois."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "spacing",
+    "alt": "Ilustração de um calendário com sessões de estudo espaçadas ao longo de vários dias.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_spacing_effect_1__pt-BR", "q_spacing_effect_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

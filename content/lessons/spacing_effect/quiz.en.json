@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_spacing_effect_1__en",
+    "questionGroupId": "qg_spacing_effect_1",
+    "conceptId": "concept_spacing_effect",
+    "locale": "en",
+    "prompt": "Two people study for three hours each. Who tends to remember more weeks later?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The one who split it into sessions over several days"
+      },
+      {
+        "id": "b",
+        "text": "The one who crammed it all the night before"
+      },
+      {
+        "id": "c",
+        "text": "Both remember the same"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "That is the spacing effect: with the same total time, spread-out sessions produce longer-lasting memories.",
+    "misconception": "Cramming can work for the next day’s test, but the memory fades much faster.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_spacing_effect_2__en",
+    "questionGroupId": "qg_spacing_effect_2",
+    "conceptId": "concept_spacing_effect",
+    "locale": "en",
+    "prompt": "According to one common explanation, why does spacing out study help?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Forgetting a little forces the brain to rebuild the memory, which strengthens it"
+      },
+      {
+        "id": "b",
+        "text": "The brain only stores memories at night"
+      },
+      {
+        "id": "c",
+        "text": "Short sessions are easier on the eyes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The effort of retrieving something you have started to forget seems to strengthen memory more than reviewing something still fresh.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

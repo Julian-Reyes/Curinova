@@ -1,0 +1,59 @@
+{
+  "id": "lesson_day_lengthening__en",
+  "conceptId": "concept_day_lengthening",
+  "locale": "en",
+  "slug": "are-earths-days-getting-longer",
+  "title": "Are Earth’s days getting longer?",
+  "hook": "Very slowly, yes. Fossil corals hold the evidence.",
+  "summary": "Tidal friction slows Earth’s spin; 400 million years ago a day lasted about 22 hours.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Tides do more than rise and fall. They drag against the seafloor and act as a slow brake on Earth’s spin. As a result, the day is getting longer, though only by about 2 milliseconds per century."
+    },
+    {
+      "type": "paragraph",
+      "text": "That sounds like nothing, but it adds up. Fossil corals around 400 million years old have daily and yearly growth bands that point to years of roughly 400 days, each about 22 hours long. The energy Earth loses does not vanish: part of it nudges the Moon into a slightly wider orbit."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tidal friction brakes Earth: 400 million years ago, a day lasted about 22 hours."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How we know the Moon is drifting away"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apollo astronauts left reflectors on the lunar surface. Observatories fire lasers at them and time how long the light takes to bounce back. The measurements show the Moon receding by about 3.8 centimeters a year, roughly the speed your fingernails grow."
+    },
+    {
+      "type": "paragraph",
+      "text": "The length of the day also wobbles for other reasons, such as earthquakes, motion in Earth’s core and melting ice, by fractions of a millisecond. That is why atomic-clock time and Earth’s rotation have to be reconciled from time to time with so-called leap seconds."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "day-length",
+    "alt": "Illustration of a clock over Earth while the Moon slowly drifts away.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_day_lengthening_1__en", "q_day_lengthening_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

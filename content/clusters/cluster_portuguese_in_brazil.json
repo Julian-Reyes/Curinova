@@ -1,0 +1,23 @@
+{
+  "id": "cluster_portuguese_in_brazil",
+  "topicId": "history",
+  "slug": {
+    "pt-BR": "como-o-portugues-virou-a-lingua-do-brasil",
+    "en": "how-portuguese-became-brazils-language"
+  },
+  "title": {
+    "pt-BR": "Como o português virou a língua do Brasil",
+    "en": "How Portuguese became Brazil’s language"
+  },
+  "hook": {
+    "pt-BR": "Por muito tempo, em boa parte do Brasil, a língua do dia a dia não era o português.",
+    "en": "For a long time, everyday speech in much of Brazil was not Portuguese."
+  },
+  "conceptIds": [
+    "concept_tordesillas",
+    "concept_lingua_geral",
+    "concept_pombal_directorate",
+    "concept_tupi_words"
+  ],
+  "links": []
+}

@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "body",
+    "slug": {
+      "pt-BR": "corpo-humano-e-biologia",
+      "en": "human-body-and-biology"
+    },
+    "name": {
+      "pt-BR": "Corpo Humano & Biologia",
+      "en": "Human Body & Biology"
+    },
+    "description": {
+      "pt-BR": "Como o seu corpo funciona, se defende e se renova.",
+      "en": "How your body works, defends itself and renews itself."
+    },
+    "icon": "body",
+    "accentColor": "#D8574B",
+    "sortOrder": 0
+  },
+  {
+    "id": "brain",
+    "slug": {
+      "pt-BR": "cerebro-e-comportamento",
+      "en": "brain-and-behavior"
+    },
+    "name": {
+      "pt-BR": "Cérebro & Comportamento",
+      "en": "Brain & Behavior"
+    },
+    "description": {
+      "pt-BR": "Memória, atenção e as manias da mente.",
+      "en": "Memory, attention and the quirks of the mind."
+    },
+    "icon": "brain",
+    "accentColor": "#7B5CC4",
+    "sortOrder": 1
+  },
+  {
+    "id": "space",
+    "slug": {
+      "pt-BR": "espaco",
+      "en": "space"
+    },
+    "name": {
+      "pt-BR": "Espaço",
+      "en": "Space"
+    },
+    "description": {
+      "pt-BR": "Da Lua às estrelas: o universo que nos cerca.",
+      "en": "From the Moon to the stars: the universe around us."
+    },
+    "icon": "space",
+    "accentColor": "#3F63C2",
+    "sortOrder": 2
+  },
+  {
+    "id": "everyday_science",
+    "slug": {
+      "pt-BR": "ciencia-do-dia-a-dia",
+      "en": "everyday-science"
+    },
+    "name": {
+      "pt-BR": "Ciência do Dia a Dia",
+      "en": "Everyday Science"
+    },
+    "description": {
+      "pt-BR": "A química e a física escondidas na cozinha e na rotina.",
+      "en": "The chemistry and physics hiding in your kitchen and routine."
+    },
+    "icon": "flask",
+    "accentColor": "#C98A12",
+    "sortOrder": 3
+  },
+  {
+    "id": "history",
+    "slug": {
+      "pt-BR": "historia",
+      "en": "history"
+    },
+    "name": {
+      "pt-BR": "História",
+      "en": "History"
+    },
+    "description": {
+      "pt-BR": "Histórias do Brasil e do mundo que explicam o presente.",
+      "en": "Stories from Brazil and the world that explain the present."
+    },
+    "icon": "scroll",
+    "accentColor": "#9A6B3D",
+    "sortOrder": 4
+  }
+]

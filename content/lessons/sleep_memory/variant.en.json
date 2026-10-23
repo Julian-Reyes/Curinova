@@ -1,0 +1,63 @@
+{
+  "id": "lesson_sleep_memory__en",
+  "conceptId": "concept_sleep_memory",
+  "locale": "en",
+  "slug": "what-does-your-brain-do-with-memories-while-you-sleep",
+  "title": "What does your brain do with your memories while you sleep?",
+  "hook": "In rats, neurons \"replay\" the day during sleep, at high speed.",
+  "summary": "During sleep, the brain reactivates and reorganizes recent memories, which helps consolidate them.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Sleep is more than rest. While you sleep, your brain reorganizes what you learned that day. Experiments in rats showed that neurons in the hippocampus, a region essential for memory, that fired while the animal explored a maze fire again in the same order during sleep, like a sped-up replay."
+    },
+    {
+      "type": "paragraph",
+      "text": "Researchers think this replay helps consolidate memories. In people, studies show that those who sleep after learning usually remember better than those who stay awake for the same amount of time. Poor sleep, on the other hand, makes it harder to take in new things."
+    },
+    {
+      "type": "takeaway",
+      "text": "Sleep is not lost time: it is when the brain consolidates what you learned."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "What happens in each stage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deep, slow-wave sleep seems especially important for memories of facts and events. In this stage, the hippocampus and the cortex exchange signals in coordinated rhythms, and recent memories are reactivated most often."
+    },
+    {
+      "type": "paragraph",
+      "text": "Many questions remain open, such as the exact role of REM sleep, when the most vivid dreams happen. But the overall picture is consistent: learning and then sleeping works better than learning and pulling an all-nighter."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some studies have found memory benefits from short daytime naps, too."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "sleep",
+    "alt": "Illustration of a sleeping head with a crescent moon and glowing memory connections.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_sleep_memory_1__en", "q_sleep_memory_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

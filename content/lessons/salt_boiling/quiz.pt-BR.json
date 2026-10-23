@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_salt_boiling_1__pt-BR",
+    "questionGroupId": "qg_salt_boiling_1",
+    "conceptId": "concept_salt_boiling",
+    "locale": "pt-BR",
+    "prompt": "Uma colher de sal em alguns litros de água muda o ponto de ebulição em quanto?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bem menos de 1 °C"
+      },
+      {
+        "id": "b",
+        "text": "Cerca de 10 °C"
+      },
+      {
+        "id": "c",
+        "text": "Baixa o ponto de ebulição em 5 °C"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O sal eleva o ponto de ebulição, mas, na quantidade usada na cozinha, só uma fração de grau.",
+    "misconception": "O sal não faz a água ferver mais rápido. Se faz alguma coisa, é atrasar a fervura em um tempo imperceptível.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_salt_boiling_2__pt-BR",
+    "questionGroupId": "qg_salt_boiling_2",
+    "conceptId": "concept_salt_boiling",
+    "locale": "pt-BR",
+    "prompt": "Por que a água quente borbulha quando jogamos sal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Os grãos criam pontos onde bolhas de vapor se formam com facilidade"
+      },
+      {
+        "id": "b",
+        "text": "O sal reage quimicamente e libera gás"
+      },
+      {
+        "id": "c",
+        "text": "O sal esquenta a água na hora"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os grãos sólidos funcionam como pontos de nucleação: facilitam a formação de bolhas em uma água que já estava quase fervendo.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]

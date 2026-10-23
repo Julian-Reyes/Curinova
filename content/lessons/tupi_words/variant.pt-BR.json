@@ -1,0 +1,63 @@
+{
+  "id": "lesson_tupi_words__pt-BR",
+  "conceptId": "concept_tupi_words",
+  "locale": "pt-BR",
+  "slug": "quantas-palavras-tupi-voce-ja-falou-hoje",
+  "title": "Quantas palavras tupi você já falou hoje?",
+  "hook": "Abacaxi, pipoca, capivara: o tupi está no seu prato, no mapa e no cinema.",
+  "summary": "O português do Brasil guarda milhares de palavras de origem indígena, sobretudo tupi, na fauna, na flora e nos nomes de lugares.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Mesmo depois que o português se impôs, o tupi deixou marcas por toda parte. Se você comeu abacaxi ou mandioca, viu uma capivara ou um jacaré, ou comprou pipoca no cinema, usou palavras de origem tupi. O mesmo vale para nomes de lugares: Ipanema, Itaquera, Pará, Paraná, Piracicaba e muitos outros."
+    },
+    {
+      "type": "paragraph",
+      "text": "Algumas pistas ajudam a reconhecê-las: \"ita\" significa pedra, \"pirá\" é peixe, e \"y\" indica água ou rio. O português do Brasil tem milhares de palavras de línguas indígenas, muitas delas ligadas a animais, plantas e paisagens que os colonizadores não conheciam."
+    },
+    {
+      "type": "takeaway",
+      "text": "Animais, frutas e cidades: o tupi vive escondido no português de todo dia."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Palavras que viajaram o mundo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Algumas palavras de origem tupi e de línguas aparentadas passaram pelo português e chegaram a outros idiomas. \"Jaguar\", \"piranha\", \"tucano\", \"tapioca\" e \"caju\" (que virou \"cashew\" em inglês) são exemplos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Os nomes de lugares contam histórias. Piracicaba costuma ser traduzido como \"lugar onde o peixe para\", referência às quedas do rio onde os peixes se acumulam. Itaquaquecetuba, Itapetininga e Itaúna começam todos com \"ita\", pedra."
+    },
+    {
+      "type": "paragraph",
+      "text": "As etimologias de topônimos nem sempre são consenso entre especialistas, e algumas traduções populares são simplificações."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tupi-words",
+    "alt": "Ilustração de um abacaxi, uma capivara e um balde de pipoca com palavras em tupi.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_tupi_words_1__pt-BR", "q_tupi_words_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

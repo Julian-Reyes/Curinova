@@ -1,0 +1,63 @@
+{
+  "id": "lesson_salt_boiling__pt-BR",
+  "conceptId": "concept_salt_boiling",
+  "locale": "pt-BR",
+  "slug": "sal-faz-a-agua-do-macarrao-ferver-mais-rapido",
+  "title": "Sal faz a água do macarrão ferver mais rápido?",
+  "hook": "O conselho é comum na cozinha. A química diz o contrário, por uma fração de grau.",
+  "summary": "Sal eleva levemente o ponto de ebulição; com a quantidade usada na cozinha, o efeito fica bem abaixo de 1 °C.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "É um conselho comum na cozinha, mas a química diz o contrário. Dissolver sal na água eleva levemente o ponto de ebulição, um efeito chamado ebulioscopia. Com a quantidade que costumamos usar, cerca de uma colher de sopa em alguns litros, o aumento fica bem abaixo de 1 °C. Na prática, a diferença no tempo é imperceptível."
+    },
+    {
+      "type": "paragraph",
+      "text": "Então por que parece que a água \"ferve\" ao receber o sal? Os grãos oferecem pontos onde bolhas de vapor se formam com facilidade, e a água já quente borbulha de repente. O sal está ali, mesmo, para dar sabor à massa."
+    },
+    {
+      "type": "takeaway",
+      "text": "O sal sobe o ponto de ebulição só uma fração de grau; ele está ali pelo sabor."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Quanto sal seria preciso?"
+    },
+    {
+      "type": "paragraph",
+      "text": "O efeito depende do número de partículas dissolvidas. Para elevar o ponto de ebulição em 1 °C, seria preciso dissolver quase 60 gramas de sal por litro, uma água bem mais salgada que a do mar, que tem cerca de 35 gramas por litro."
+    },
+    {
+      "type": "paragraph",
+      "text": "É a mesma física que faz o sal derreter o gelo em estradas de países frios, só que no sentido oposto: as partículas dissolvidas abaixam o ponto de congelamento da água."
+    },
+    {
+      "type": "paragraph",
+      "text": "As bolhas que aparecem ao jogar o sal são um fenômeno chamado nucleação: imperfeições e grãos sólidos facilitam a formação de bolhas em um líquido já perto de ferver."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "salt-pot",
+    "alt": "Ilustração de uma panela com água fervendo e grãos de sal caindo.",
+    "license": "original"
+  },
+  "claims": [],
+  "sourceIds": [],
+  "quizIds": ["q_salt_boiling_1__pt-BR", "q_salt_boiling_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-opus-5-5",
+    "promptVersion": "m2-sample-drafts-v1",
+    "runId": "m2-prototype-2026-10-23"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-23T00:00:00Z"
+}

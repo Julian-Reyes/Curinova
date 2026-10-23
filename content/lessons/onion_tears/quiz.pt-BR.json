@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_onion_tears_1__pt-BR",
+    "questionGroupId": "qg_onion_tears_1",
+    "conceptId": "concept_onion_tears",
+    "locale": "pt-BR",
+    "prompt": "O que faz a cebola liberar o gás que irrita os olhos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cortar as células, misturando compostos que estavam separados"
+      },
+      {
+        "id": "b",
+        "text": "O contato com o ar, mesmo com a cebola inteira"
+      },
+      {
+        "id": "c",
+        "text": "O calor da faca"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Enquanto as células estão intactas, os compostos de enxofre e as enzimas ficam separados. A faca os mistura e a reação começa.",
+    "claimIds": [],
+    "status": "draft"
+  },
+  {
+    "id": "q_onion_tears_2__pt-BR",
+    "questionGroupId": "qg_onion_tears_2",
+    "conceptId": "concept_onion_tears",
+    "locale": "pt-BR",
+    "prompt": "Por que cebolas geladas costumam fazer chorar menos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O frio deixa as reações e a liberação do gás mais lentas"
+      },
+      {
+        "id": "b",
+        "text": "O frio destrói o enxofre"
+      },
+      {
+        "id": "c",
+        "text": "Cebolas geladas não têm enzimas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As enzimas trabalham mais devagar no frio, e o gás evapora menos. As substâncias continuam lá, só reagem com menos pressa.",
+    "claimIds": [],
+    "status": "draft"
+  }
+]
