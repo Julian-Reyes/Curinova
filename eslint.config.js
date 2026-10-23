@@ -37,6 +37,23 @@ export default tseslint.config(
     },
   },
   {
+    // The domain package must stay platform-independent (web, extension, Capacitor).
+    files: ['packages/domain/src/**/*.ts'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          patterns: [
+            {
+              group: ['node:*', 'react', 'react-*', 'dexie'],
+              message: 'packages/domain must not depend on Node, React or storage APIs.',
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
     files: ['**/*.js'],
     extends: [tseslint.configs.disableTypeChecked],
   },
