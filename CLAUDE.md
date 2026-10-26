@@ -28,7 +28,7 @@ Conventions every coding run must follow. The product spec is `docs/SPEC.md`; "Â
 
 ```bash
 pnpm install            # Node 24 (see .nvmrc); pnpm comes from Corepack
-pnpm dev                # app at http://localhost:5173 (also on your LAN)
+pnpm dev                # app at http://localhost:5273 (also on your LAN)
 pnpm typecheck && pnpm lint && pnpm test
 pnpm content:validate   # add --verbose to list every warning
 pnpm build && pnpm preview

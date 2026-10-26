@@ -171,7 +171,68 @@ _Note:_ this development Mac runs macOS 13, which Playwright's own browsers no l
 
 ## 4. Stage 2 (M2): the interactive prototype
 
-_(This section is written as Stage 2 is built.)_
+**Goal:** turn the foundation into an app you can actually use and judge: open it on a phone, swipe through real ideas, take quizzes, save lessons, and see your progress.
+
+### Step 10: The rules behind learning (review, feed and stats)
+
+Before any screens, three pieces of pure logic were built and tested in the rulebook (`packages/domain`), so the Android app and browser extension can reuse them later:
+
+- **Spaced review.** When you answer a quiz question, it comes back the next day. Each time you get it right on schedule, the gap grows: 3 days, then 7, 14, 30 and 60. Get it wrong and it comes back tomorrow. Three correct reviews in a row count as "mastered". "Tomorrow" means your next calendar day, so travelling across time zones never counts a day twice.
+- **The feed order.** No AI, no tracking: a transparent recipe. Trails are always read in order; your chosen interests come up more often; roughly one card in four is something outside them, so you keep discovering; never three cards in a row from the same topic. Each card says _why_ it's there: "Because you chose Space", "Continues your trail" or "Something new". When you've seen everything, the app says so honestly instead of quietly repeating cards.
+- **Progress numbers.** Everything on the "You" screen is counted from what you actually did. Quiz accuracy is shown two ways: right after the lesson, and when you remember it **3+ days later**. That second number is the one that matters, and it's the product's north star.
+
+### Step 11: Sample lessons
+
+There are 20 sample lessons, one 4-lesson trail for each of the five launch topics:
+
+| Topic            | Trail                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Space            | How the Moon shapes Earth (why we see one face, two tides a day, days getting longer, why eclipses are rare)                   |
+| Brain & Behavior | How memory works (the forgetting curve, spacing, testing yourself, sleep)                                                      |
+| Human Body       | The body that renews itself (red blood cells, the stomach lining, bone, the "7 years" myth)                                    |
+| Everyday Science | Kitchen chemistry (browning, onion tears, salt in pasta water, boiling at altitude)                                            |
+| History          | How Portuguese became Brazil's language (Tordesillas, the Tupi-based _língua geral_, Pombal's decree, Tupi words we still use) |
+
+Each lesson is written natively in Brazilian Portuguese and in English, with a deeper explanation, two quiz questions and links to related lessons. Brazil appears naturally: Sobral's 1919 eclipse, the pressure cooker and beans, Nheengatu.
+
+**Important honesty rule:** these lessons stick to well-established facts, but they have **not** been through source checking or human review yet. So they are stored as _drafts_ with **no** sources listed, because the agent never invents citations. In the app, every card carries a small "Prévia / Preview" chip, and the sources sheet explains this plainly. The content pipeline (M3) will attach real sources, and a human reviewer will approve each one before anything is published.
+
+### Step 12: The app's memory (storage on your device)
+
+With no account, everything is saved in your browser's built-in database (IndexedDB), under the permanent name `lumen`: your preferences, saves, quiz answers and review schedule. Nothing is sent anywhere. If the browser blocks storage (some private modes do), the app still works and shows a banner saying progress won't be saved. Settings has a "Delete my data from this device" button with a confirmation.
+
+### Step 13: The screens
+
+- **Welcome (onboarding):** pick a language, see a preview of a real card, choose interests ("Surprise me" if none), a goal and how many cards per session, then a theme. Every step can be skipped; there's no sign-up and no permission prompts.
+- **Discover (the feed):** one card at a time. Swipe up or down, use the buttons, or use the arrow keys on a computer. Each card shows its topic, its place in a trail, why you're seeing it, reading time, an original illustration, the idea itself and a one-line takeaway. Four actions: **Listen** (read aloud by your device, only with a voice in the lesson's language), **Save**, **Quiz** and **Go deeper**. "Next in trail" jumps into the trail.
+- **The soft stop:** after your session size (5 by default), a friendly pause: "Nice work, you explored 5 ideas." Review, keep exploring (always free, never a quota), change your goal, or stop.
+- **Trail mode:** follows one trail in order, with a progress bar and an "Exit trail" button that takes you back to exactly where you were in the feed.
+- **Explore:** search (accents don't matter: "coracao" finds "coração"), topic cards with progress, and topic pages with trails first, a lesson list, and Follow or Mute.
+- **Review:** what's due now, a low-pressure "Review 5" button, recently learned questions with their next date, and mastered ones. If you learned in Portuguese and switched to English, the questions appear in English and your schedule is unchanged.
+- **Library:** Saved, History and Completed.
+- **You:** your numbers, plus "active days this week". Deliberately **no streak to lose** and no guilt messages.
+- **Settings:** language, theme, reduced motion, session size, interests and muted topics, reading speed and which voices your device has, reviews on/off, privacy and deleting your data.
+- **On a computer:** navigation moves to a sidebar, the feed sits in the middle, and a side panel shows the current trail and related lessons.
+
+### Step 14: Looking at it with a robot, then fixing what looked wrong
+
+A script drove a real Chrome browser through the whole app at iPhone, small-iPhone, Android and desktop sizes, in both languages and both themes, and took screenshots. Reviewing them found real problems, which were fixed:
+
+- Card text was cut off on phones, hiding the takeaway. The layout was rebuilt so the illustration shrinks to give the text room, and if a card is _still_ too long, the text scrolls inside the card with a soft fade at the bottom as a hint.
+- On the small iPhone, the illustration was drawn on top of the text (a styling conflict).
+- The topic name was squashed ("CÉREBRO & COMPO…"), and the "why you're seeing this" line lost its end.
+- On desktop, the up/down buttons covered the side panel.
+- The "You" screen briefly showed zeros while loading.
+- Small things: "back" links below page titles, wrong singular/plural wording, the welcome button pushed off small screens.
+
+**The one thing that needs a founder decision:** a script measured all 20 lessons on each phone size. On a standard iPhone (390×844) every card fits. On a mid-range Android almost all do. On the small iPhone SE most don't: at a readable text size, it fits about 60–75 words, and the spec asks for 80–150. The options are written up in `docs/DECISIONS.md` (P6).
+
+### Step 15: Automated tests
+
+- **154 unit and component tests**, covering the review schedule, time zones, feed order, statistics, storage, search, voice matching, the quiz screen, both languages being complete, and color contrast.
+- **30 browser tests per run** on four device sizes, acting like a real person: onboarding in Portuguese, passing a quiz, reloading and seeing stats; switching to English and keeping saves and reviews; a save surviving a restart; the soft stop after five cards; following a trail and returning to the same spot; arrow keys that don't fire while typing; nothing spilling off the screen; the app being installable.
+
+---
 
 ---
 
@@ -185,9 +246,11 @@ pnpm install           # downloads the building blocks (a few minutes the first 
 pnpm dev               # starts the app
 ```
 
-Then open the address it prints (usually http://localhost:5173).
+Then open the address it prints (usually http://localhost:5273).
 
-**On your phone:** connect it to the same Wi-Fi as the computer and open the "Network" address that `pnpm dev` prints (something like `http://192.168.1.20:5173`). Offline mode and "install" need a secure connection, so they only work on `localhost` or a real deployment, but everything else works over Wi-Fi.
+**On your phone:** connect it to the same Wi-Fi as the computer and open the "Network" address that `pnpm dev` prints (something like `http://192.168.1.20:5273`). Everything works over Wi-Fi except offline mode and "Add to Home Screen" installation, which browsers only allow on `localhost` or a secure (https) deployment.
+
+To try the production version instead: `pnpm build`, then `pnpm preview`, then open the "Network" address it prints (port 4273).
 
 ---
 

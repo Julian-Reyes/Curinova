@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-10-23.
+Last updated: 2026-10-25.
 
 | Milestone                            | Status              |
 | ------------------------------------ | ------------------- |
@@ -32,3 +32,46 @@ Last updated: 2026-10-23.
 - CI has not run on GitHub yet (no remote by decision D3).
 - Local E2E emulates iPhone in Chrome; real WebKit runs only in CI (A9).
 - `content:check-links` is M3 (D9).
+
+## M2 — Guest MVP slice (interactive prototype)
+
+| Item (§20 M2 + founder's Stage 2 list)                                                                                                  | Where                                                | Status                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------- |
+| Onboarding: language, interests, purpose, session size, theme; skippable; no sign-up or permissions (§3.1)                              | `routes/welcome.tsx`                                 | ✅                                            |
+| Vertical swipe feed with buttons and keyboard; lazy rendering; position kept across tabs and trails (§3.2)                              | `features/feed/FeedView.tsx`, `routes/discover.tsx`  | ✅                                            |
+| Lesson card: topic, trail step, reason, reading time, session progress, illustration, takeaway, actions (§3.2)                          | `features/feed/LessonCard.tsx`                       | ✅ (Share/More/Report: B8)                    |
+| Go deeper sheet with related lessons + reasons and "continue this trail"                                                                | `features/feed/LessonSheets.tsx`                     | ✅                                            |
+| Sources sheet (honest draft notice; real sources when present)                                                                          | same                                                 | ✅                                            |
+| Quizzes: shuffled options, one-tap answer, explanation + misconception, screen-reader announcements (§3.3)                              | `components/QuizRunner.tsx`                          | ✅                                            |
+| Spaced review as a pure function; Review tab with Due now, Review 5, Recently learned, Mastered (§3.4)                                  | `packages/domain/src/review.ts`, `routes/review.tsx` | ✅                                            |
+| Explore: accent-insensitive search, topic grid, topic pages with trails first, follow/mute, filters (§3.5)                              | `routes/explore.tsx`, `routes/topic.tsx`             | ✅ (no "Newest": drafts have no publish date) |
+| Library: Saved / History / Completed (§3.5)                                                                                             | `routes/library.tsx`                                 | ✅                                            |
+| Progress dashboard (§3.6)                                                                                                               | `routes/you.tsx`, `packages/domain/src/stats.ts`     | ✅                                            |
+| Text-to-speech with locale-matched voices and honest fallback (§3.7)                                                                    | `hooks/useSpeech.ts`                                 | ✅                                            |
+| Finite sessions with soft stop; unlimited always available (§3.8)                                                                       | `features/feed/Slides.tsx`, `session.tsx`            | ✅                                            |
+| Trails-lite: trail mode with exit back to the same feed position (§3.9)                                                                 | `routes/trail.tsx`                                   | ✅                                            |
+| Cluster-aware ranking as a tested pure function (§6)                                                                                    | `packages/domain/src/feed.ts`                        | ✅                                            |
+| `StaticContentRepository` / `IndexedDbProgressRepository` equivalents (§9.7)                                                            | `data/library.ts`, `data/progress.ts`                | ✅                                            |
+| Settings: language, theme, reduced motion, session size, interests, muted topics, audio speed, review opt-in, delete data, replay intro | `routes/settings.tsx`                                | ✅ (export/import: M5)                        |
+| Light/dark, desktop layout, motion with reduced-motion support                                                                          | `styles/`, `routes/tabs-layout.tsx`                  | ✅                                            |
+| 20 sample lessons, 5 topics, both locales (drafts, unverified, labeled)                                                                 | `content/`                                           | ✅ (B1)                                       |
+| Unit, component and E2E tests                                                                                                           | see below                                            | ✅                                            |
+
+### Tests (2026-10-25, Node 24.22.1)
+
+- `pnpm test`: 154 passed. Domain (review intervals, time-zone/day-boundary cases, ranking, stats), validator (45), web (storage, library/search/locale fallback, voice matching, completion threshold, QuizRunner component, i18n completeness, every used key exists, WCAG contrast), placeholder-name guard.
+- `pnpm test:e2e`: 30 passed, 6 skipped (desktop-only checks on phone projects), across iPhone 13, iPhone SE, mid-range Android and desktop. Covers §16 E2E scenarios 1, 2, 3, 4, 5, 8 and 9, plus installability. The suite passed twice in a row (60/60).
+
+### Known limitations and open items (M2)
+
+- **P6:** on iPhone SE-size screens most cards scroll inside the card (fade cue). Measurements and options are in DECISIONS.md.
+- **P7:** the onboarding purpose doesn't yet change the feed.
+- Local E2E uses Chrome emulating iPhones (A9); real WebKit runs only in CI, which hasn't run yet (no remote, D3).
+- Sample lessons are unverified drafts with no sources (B1); the production channel shows no lessons until M3 review publishes some.
+- §16 E2E 6 (offline), 7 (prerendered pages), 10 (axe) belong to M4/M5.
+
+### Deferred to later milestones
+
+- M3: content pipeline, review tool, `content:check-links`, `content:build`, sourcing and reviewing the sample drafts.
+- M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
+- M5: starter-pack offline caching, export/import, axe checks, performance budgets, deployment.

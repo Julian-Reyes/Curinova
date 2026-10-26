@@ -22,7 +22,7 @@ No accounts, API keys or paid services are needed.
 ```bash
 corepack enable
 pnpm install
-pnpm dev          # http://localhost:5173 (also printed: a LAN URL for your phone)
+pnpm dev          # http://localhost:5273 (also printed: a LAN URL for your phone)
 ```
 
 ## Everyday commands
@@ -35,7 +35,7 @@ pnpm dev          # http://localhost:5173 (also printed: a LAN URL for your phon
 | `pnpm test`             | All unit and component tests (Vitest)                                          |
 | `pnpm content:validate` | Check every content file (`--verbose` lists all warnings)                      |
 | `pnpm build`            | Production build of the web app (prerender + service worker)                   |
-| `pnpm preview`          | Serve the production build at http://localhost:4173                            |
+| `pnpm preview`          | Serve the production build at http://localhost:4273                            |
 | `pnpm test:e2e`         | Playwright browser tests against the production build (run `pnpm build` first) |
 
 ## Repository layout
