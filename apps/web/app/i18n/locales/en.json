@@ -3,6 +3,19 @@
     "name": "{{appName}}",
     "tagline": "Scroll with curiosity. Leave with knowledge."
   },
+  "language": {
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "done": "Done"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content"
+  },
   "nav": {
     "label": "Main navigation",
     "discover": "Discover",
@@ -12,27 +25,299 @@
     "you": "You",
     "soon": "Soon"
   },
-  "shell": {
-    "status": "Under construction",
-    "title": "The {{appName}} foundation is ready.",
-    "body": "This is the app skeleton: languages, themes and installing already work. The lesson feed arrives in the next stage."
-  },
-  "settings": {
-    "language": "Language",
-    "theme": "Theme"
-  },
-  "theme": {
-    "system": "System",
-    "light": "Light",
-    "dark": "Dark"
+  "banner": {
+    "offline": "You're offline. Loaded lessons, saves and reviews still work.",
+    "storage": "This browser is blocking storage. You can explore, but your progress won't be saved."
   },
   "pwa": {
     "updateAvailable": "A new version is available.",
     "update": "Update",
     "dismiss": "Not now"
   },
-  "language": {
-    "pt-BR": "Português",
-    "en": "English"
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "onboarding": {
+    "step": "Step {{current}} of {{total}}",
+    "skip": "Skip",
+    "welcomeTitle": "Learn something fascinating in two minutes.",
+    "welcomeBody": "Short, verifiable ideas, one at a time. No ads, no limits, no sign-up.",
+    "start": "Start exploring",
+    "noAccount": "Your progress is saved on this device.",
+    "interestsTitle": "What makes you curious?",
+    "interestsBody": "Pick as many as you like. Pick none and you'll get a bit of everything.",
+    "surpriseMe": "Surprise me",
+    "next": "Continue",
+    "goalTitle": "How do you want to learn?",
+    "purposeLabel": "Your goal",
+    "themeTitle": "Choose a look",
+    "themeBody": "You can change this later in You → Settings.",
+    "finish": "Let's go"
+  },
+  "purpose": {
+    "explore": "Explore",
+    "exploreHint": "A variety of topics and quick discoveries.",
+    "deep": "Learn deeply",
+    "deepHint": "Follow whole trails on one subject.",
+    "remember": "Remember more",
+    "rememberHint": "More quizzes and reviews to make it stick."
+  },
+  "feed": {
+    "label": "Lesson feed",
+    "roledescription": "vertical carousel",
+    "slideLabel": "{{current}} of {{total}}: {{title}}",
+    "previous": "Previous lesson",
+    "next": "Next lesson",
+    "allMutedTitle": "Every topic is muted",
+    "allMutedBody": "Unmute at least one topic to see lessons here.",
+    "openSettings": "Open settings"
+  },
+  "card": {
+    "minutes_one": "{{count}} min",
+    "minutes_other": "{{count}} min",
+    "sessionCount": "Lesson {{current}} of {{total}} this session",
+    "sessionCountUnlimited_one": "{{count}} lesson this session",
+    "sessionCountUnlimited_other": "{{count}} lessons this session",
+    "trailStep": "Trail: {{trail}} · {{step}} of {{total}}",
+    "trailShort": "Trail · {{step}} of {{total}}",
+    "reasonInterest": "Because you chose {{topic}}",
+    "reasonTrail": "Continues your trail",
+    "reasonNew": "Something new",
+    "draftBadge": "Preview",
+    "draftBadgeLabel": "Preview, not reviewed yet: see sources and review",
+    "otherLanguage": "In {{language}}",
+    "listen": "Listen",
+    "pause": "Pause",
+    "resume": "Resume",
+    "save": "Save",
+    "saved": "Saved",
+    "quiz": "Quiz",
+    "deeper": "Go deeper",
+    "nextInTrail": "Next in trail:",
+    "savedToast": "Saved to Library",
+    "unsavedToast": "Removed from Library"
+  },
+  "audio": {
+    "playing": "Reading aloud…",
+    "paused": "Paused",
+    "stop": "Stop reading",
+    "speedValue": "{{speed, number}}×",
+    "unsupported": "This browser can't read aloud.",
+    "noVoice": "There's no {{language}} voice on this device. Install one in your system settings to listen to this lesson."
+  },
+  "quiz": {
+    "title": "Quick quiz",
+    "progress": "Question {{current}} of {{total}}",
+    "correct": "That's right!",
+    "incorrect": "Not quite. The right answer is: {{answer}}",
+    "misconception": "Why it's confusing:",
+    "next": "Next question",
+    "seeResult": "See result",
+    "result": "You got {{correct}} of {{total}}",
+    "reviewScheduled": "These questions come back tomorrow in the Review tab, so the idea sticks.",
+    "reviewOff": "Reviews are turned off in settings.",
+    "none": "This lesson has no questions yet."
+  },
+  "deeper": {
+    "title": "Go deeper",
+    "related": "Related ideas",
+    "continueTrail": "Continue this trail"
+  },
+  "sources": {
+    "title": "Sources and review",
+    "open": "See sources and review",
+    "draftTitle": "Preview: not yet verified",
+    "draftBody": "This lesson is a demo draft. It hasn't been through source checking or human review yet. Sources for every claim will be added before it's published.",
+    "generatedWith": "Draft written with AI assistance ({{model}}), awaiting verification.",
+    "none": "No sources listed.",
+    "reviewedOn": "Reviewed on {{date, datetime(dateStyle: long)}}"
+  },
+  "rail": {
+    "trail": "Trail",
+    "keyboard": "to navigate"
+  },
+  "session": {
+    "title": "Nice work!",
+    "summary_one": "You explored {{count}} idea.",
+    "summary_other": "You explored {{count}} ideas.",
+    "quizzes_one": "And answered {{count}} quiz.",
+    "quizzes_other": "And answered {{count}} quizzes.",
+    "question": "Quick recall check, or call it a day?",
+    "review": "Review what I learned",
+    "keepExploring": "Keep exploring",
+    "changeGoal": "Change my goal",
+    "done": "Done for today",
+    "finishedTitle": "See you next time!",
+    "finishedBody": "Your progress is saved. Come back whenever you like: your reviews will be waiting in the Review tab.",
+    "newSession": "Start a new session"
+  },
+  "exhausted": {
+    "title": "You've explored everything here",
+    "body": "New trails arrive regularly. Meanwhile, how about a different topic?",
+    "try": "Try",
+    "recycle": "See lessons I've already seen"
+  },
+  "trail": {
+    "exit": "Exit trail",
+    "progress": "{{step}} of {{total}}",
+    "endTitle": "Trail complete!",
+    "endBody_one": "You explored {{count}} idea in “{{trail}}”.",
+    "endBody_other": "You explored all {{count}} ideas in “{{trail}}”.",
+    "nextTrails": "Where to next",
+    "backToFeed": "Back to the feed",
+    "notFound": "Trail not found"
+  },
+  "lesson": {
+    "seen": "Seen",
+    "completed": "Completed"
+  },
+  "explore": {
+    "title": "Explore",
+    "subtitle": "Topics, trails and everything there is to discover.",
+    "searchLabel": "Search lessons",
+    "searchPlaceholder": "Search: Moon, memory, onions…",
+    "results_zero": "No results",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results",
+    "noResultsTitle": "Nothing found",
+    "noResultsBody": "Try another word, or browse the topics below.",
+    "topics": "Topics",
+    "lessonCount_one": "{{count}} lesson",
+    "lessonCount_other": "{{count}} lessons",
+    "trailCount_one": "{{count}} trail",
+    "trailCount_other": "{{count}} trails",
+    "exploredCount_one": "{{count}} of {{total}} explored",
+    "exploredCount_other": "{{count}} of {{total}} explored"
+  },
+  "topic": {
+    "notFound": "Topic not found",
+    "follow": "Follow topic",
+    "following": "Following",
+    "mute": "Mute",
+    "muted": "Muted",
+    "unmute": "Unmute",
+    "appliesNextSession": "Changes apply from your next feed session.",
+    "trails": "Trails",
+    "trailProgress": "{{done}} of {{total}} explored",
+    "startTrail": "Start trail",
+    "continueTrail": "Continue trail",
+    "revisitTrail": "Revisit trail",
+    "lessons": "Lessons",
+    "filter": "Sort lessons",
+    "filterSuggested": "Suggested",
+    "filterShortest": "Shortest",
+    "filterUnseen": "Not seen",
+    "allSeenTitle": "You've seen them all",
+    "allSeenBody": "Every lesson in this topic has already been in your feed."
+  },
+  "review": {
+    "title": "Review",
+    "subtitle": "Remembering a few days later is what makes an idea stick.",
+    "dueNow": "Due now",
+    "dueCount_one": "{{count}} question waiting for you",
+    "dueCount_other": "{{count}} questions waiting for you",
+    "lowPressure": "It takes a minute. Getting one wrong helps you remember too.",
+    "start_one": "Review {{count}}",
+    "start_other": "Review {{count}}",
+    "sessionTitle": "Review",
+    "finish": "Finish review",
+    "stop": "Stop for now",
+    "done": "Review done: {{correct}} of {{total}} correct.",
+    "emptyTitle": "Nothing to review yet",
+    "emptyBody": "Answer a lesson quiz in Discover and its questions come back here tomorrow.",
+    "caughtUpTitle": "All caught up!",
+    "caughtUpBody": "No reviews today. The next ones appear here when it's time.",
+    "goDiscover": "Go to Discover",
+    "recentlyLearned": "Recently learned",
+    "mastered": "Mastered",
+    "nextOn": "Next review: {{date, datetime(day: numeric; month: long)}}",
+    "masteredNext": "Mastered · review on {{date, datetime(day: numeric; month: long)}}",
+    "howItWorks": "How it works: after a correct answer, a question comes back in 1 day, then 3, 7, 14, 30 and 60 days. A wrong answer brings it back the next day. Three correct reviews in a row count as “mastered”."
+  },
+  "library": {
+    "title": "Library",
+    "saved": "Saved",
+    "history": "History",
+    "completed": "Completed",
+    "empty": {
+      "savedTitle": "No saved lessons",
+      "savedBody": "Tap Save on any card to keep the lesson here.",
+      "historyTitle": "Your history is empty",
+      "historyBody": "Lessons you open show up here.",
+      "completedTitle": "No completed lessons yet",
+      "completedBody": "A lesson counts as completed when you read it properly or answer its quiz."
+    },
+    "localNote": "Your saved lessons stay on this device, no account needed."
+  },
+  "you": {
+    "title": "You",
+    "subtitle": "What you learned and remembered, not your screen time.",
+    "explored": "Ideas explored",
+    "completed": "Completed",
+    "saved": "Saved",
+    "trails": "Trails completed",
+    "learning": "Learning",
+    "immediate": "Lesson quiz accuracy",
+    "immediateHint": "Answer a quiz to see your accuracy.",
+    "delayed": "Accuracy 3+ days later",
+    "delayedHint": "Appears once you review something learned at least 3 days ago.",
+    "percent": "{{value}}%",
+    "sample_one": "{{correct}} of {{count}} answer",
+    "sample_other": "{{correct}} of {{count}} answers",
+    "recalled_zero": "No ideas recalled days later yet",
+    "recalled_one": "{{count}} idea recalled days later",
+    "recalled_other": "{{count}} ideas recalled days later",
+    "recalledHint": "Counts when you get a review right at least 3 days after learning.",
+    "dueCta_one": "Review {{count}}",
+    "dueCta_other": "Review {{count}}",
+    "thisWeek": "This week",
+    "activeDays_zero": "No learning days in the last 7 days",
+    "activeDays_one": "{{count}} learning day in the last 7 days",
+    "activeDays_other": "{{count}} learning days in the last 7 days",
+    "noStreakPressure": "No streak to lose. A little learning, whenever you can, counts.",
+    "topics": "By topic",
+    "topicCounts": "{{explored}} of {{total}}",
+    "noActivity": "Explore a few lessons and your progress by topic shows up here.",
+    "localNote": "Your progress is saved only on this device. Clearing browser data erases it."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageHint": "Your progress, saved lessons and reviews stay the same in either language.",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "reduceMotion": "Reduce motion",
+    "reduceMotionHint": "We also follow your system setting.",
+    "session": "Session",
+    "sessionSize": "Cards per session",
+    "sessionSizeHint": "After this many, we pause gently. You can always keep going.",
+    "unlimited": "No limit",
+    "topics": "Topics",
+    "interests": "Your interests",
+    "interestsHint": "Shown more often in the feed, with room for new things.",
+    "muted": "Muted topics",
+    "mutedHint": "Never shown in the feed.",
+    "audio": "Read aloud",
+    "audioSpeed": "Speed",
+    "voiceReady": "voice available ({{name}})",
+    "voiceMissing": "no voice installed on this device",
+    "voiceUnsupported": "not supported in this browser",
+    "review": "Review",
+    "reviewOptIn": "Add quizzes to review",
+    "reviewOptInHint": "Questions you answer come back at growing intervals.",
+    "privacy": "Privacy and data",
+    "privacyBody": "Without an account, everything stays on this device: preferences, progress, saved lessons and reviews. None of it is sent to any server.",
+    "exportSoon": "Export and import your data: coming soon.",
+    "delete": "Delete my data from this device",
+    "deleteConfirmTitle": "Delete all your data?",
+    "deleteConfirmBody": "This erases preferences, progress, saved lessons and reviews from this device. It can't be undone.",
+    "deleteConfirm": "Delete everything",
+    "deleted": "Your data has been deleted.",
+    "about": "About",
+    "contentPreview": "This is a preview build. Lessons are demo drafts that haven't been through source checking or human review yet.",
+    "contentReviewed": "Every lesson has been source-checked and human-reviewed.",
+    "replayIntro": "Replay the introduction"
   }
 }

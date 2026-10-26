@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { BRAND, CODENAME } from '../../packages/domain/src/brand.ts';
 import { defineConfig, type Plugin } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { lumenContent, type ContentChannel } from './content-plugin.ts';
 
 /**
  * `vite preview` mimics a static host: app routes that were not prerendered fall
@@ -25,10 +26,33 @@ function spaFallbackInPreview(): Plugin {
   };
 }
 
+const CHANNELS: readonly ContentChannel[] = ['production', 'preview', 'fixtures'];
+/**
+ * Which content the app shows. "preview" (default until reviewed lessons exist)
+ * includes unreviewed drafts, labeled as such in the UI. "fixtures" is for tests.
+ */
+function contentChannel(): ContentChannel {
+  const value = process.env.LUMEN_PUBLIC_CONTENT_CHANNEL ?? 'preview';
+  if (!(CHANNELS as readonly string[]).includes(value)) {
+    throw new Error(
+      `LUMEN_PUBLIC_CONTENT_CHANNEL must be one of ${CHANNELS.join(', ')}; got "${value}"`,
+    );
+  }
+  return value as ContentChannel;
+}
+
+// Dedicated ports (not Vite's shared default 5173), failing loudly if taken, so
+// "localhost" can never silently show another project's dev server.
+export const DEV_PORT = 5273;
+export const PREVIEW_PORT = 4273;
+
 export default defineConfig({
   envPrefix: 'LUMEN_PUBLIC_',
+  server: { port: DEV_PORT, strictPort: true },
+  preview: { port: PREVIEW_PORT, strictPort: true },
   plugins: [
     tailwindcss(),
+    lumenContent(contentChannel()),
     reactRouter(),
     spaFallbackInPreview(),
     VitePWA({

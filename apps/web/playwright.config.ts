@@ -34,7 +34,7 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? 'github' : 'list',
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: 'http://localhost:4273',
     locale: 'pt-BR',
     trace: 'retain-on-failure',
   },
@@ -56,8 +56,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'pnpm preview --port 4173 --strictPort',
-    url: 'http://localhost:4173',
+    command: 'pnpm preview',
+    url: 'http://localhost:4273',
     reuseExistingServer: !process.env.CI,
   },
 });

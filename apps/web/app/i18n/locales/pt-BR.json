@@ -3,6 +3,19 @@
     "name": "{{appName}}",
     "tagline": "Role com curiosidade. Saia sabendo mais."
   },
+  "language": {
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "common": {
+    "back": "Voltar",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "done": "Concluir"
+  },
+  "a11y": {
+    "skipToContent": "Pular para o conteúdo"
+  },
   "nav": {
     "label": "Navegação principal",
     "discover": "Descobrir",
@@ -12,27 +25,299 @@
     "you": "Você",
     "soon": "Em breve"
   },
-  "shell": {
-    "status": "Em construção",
-    "title": "A base do {{appName}} está pronta.",
-    "body": "Este é o esqueleto do app: idiomas, temas e instalação já funcionam. O feed de lições chega na próxima etapa."
-  },
-  "settings": {
-    "language": "Idioma",
-    "theme": "Tema"
-  },
-  "theme": {
-    "system": "Sistema",
-    "light": "Claro",
-    "dark": "Escuro"
+  "banner": {
+    "offline": "Você está offline. As lições já carregadas, salvas e revisões continuam funcionando.",
+    "storage": "Este navegador está bloqueando o armazenamento. Você pode explorar, mas seu progresso não será salvo."
   },
   "pwa": {
     "updateAvailable": "Nova versão disponível.",
     "update": "Atualizar",
     "dismiss": "Agora não"
   },
-  "language": {
-    "pt-BR": "Português",
-    "en": "English"
+  "theme": {
+    "system": "Sistema",
+    "light": "Claro",
+    "dark": "Escuro"
+  },
+  "onboarding": {
+    "step": "Etapa {{current}} de {{total}}",
+    "skip": "Pular",
+    "welcomeTitle": "Aprenda algo fascinante em dois minutos.",
+    "welcomeBody": "Ideias curtas e verificáveis, uma de cada vez. Sem anúncios, sem limites, sem cadastro.",
+    "start": "Começar a explorar",
+    "noAccount": "Seu progresso fica salvo neste aparelho.",
+    "interestsTitle": "O que te deixa curioso?",
+    "interestsBody": "Escolha quantos quiser. Sem escolhas, você recebe um pouco de tudo.",
+    "surpriseMe": "Me surpreenda",
+    "next": "Continuar",
+    "goalTitle": "Como você quer aprender?",
+    "purposeLabel": "Seu objetivo",
+    "themeTitle": "Escolha o visual",
+    "themeBody": "Você pode mudar isso depois em Você → Configurações.",
+    "finish": "Começar"
+  },
+  "purpose": {
+    "explore": "Explorar",
+    "exploreHint": "Variedade de temas e descobertas rápidas.",
+    "deep": "Aprender a fundo",
+    "deepHint": "Seguir trilhas completas sobre um assunto.",
+    "remember": "Lembrar mais",
+    "rememberHint": "Mais quizzes e revisões para fixar o que aprendeu."
+  },
+  "feed": {
+    "label": "Feed de lições",
+    "roledescription": "carrossel vertical",
+    "slideLabel": "{{current}} de {{total}}: {{title}}",
+    "previous": "Lição anterior",
+    "next": "Próxima lição",
+    "allMutedTitle": "Todos os temas estão silenciados",
+    "allMutedBody": "Reative pelo menos um tema para ver lições aqui.",
+    "openSettings": "Abrir configurações"
+  },
+  "card": {
+    "minutes_one": "{{count}} min",
+    "minutes_other": "{{count}} min",
+    "sessionCount": "Lição {{current}} de {{total}} nesta sessão",
+    "sessionCountUnlimited_one": "{{count}} lição nesta sessão",
+    "sessionCountUnlimited_other": "{{count}} lições nesta sessão",
+    "trailStep": "Trilha: {{trail}} · {{step}} de {{total}}",
+    "trailShort": "Trilha · {{step}} de {{total}}",
+    "reasonInterest": "Porque você escolheu {{topic}}",
+    "reasonTrail": "Continua a trilha",
+    "reasonNew": "Algo novo",
+    "draftBadge": "Prévia",
+    "draftBadgeLabel": "Prévia, ainda não revisada: ver fontes e revisão",
+    "otherLanguage": "Em {{language}}",
+    "listen": "Ouvir",
+    "pause": "Pausar",
+    "resume": "Continuar",
+    "save": "Salvar",
+    "saved": "Salva",
+    "quiz": "Quiz",
+    "deeper": "Ir mais fundo",
+    "nextInTrail": "Próximo na trilha:",
+    "savedToast": "Salva na Biblioteca",
+    "unsavedToast": "Removida da Biblioteca"
+  },
+  "audio": {
+    "playing": "Lendo em voz alta…",
+    "paused": "Pausado",
+    "stop": "Parar leitura",
+    "speedValue": "{{speed, number}}×",
+    "unsupported": "Este navegador não tem leitura em voz alta.",
+    "noVoice": "Não há voz em {{language}} neste aparelho. Instale uma nas configurações do sistema para ouvir esta lição."
+  },
+  "quiz": {
+    "title": "Quiz rápido",
+    "progress": "Pergunta {{current}} de {{total}}",
+    "correct": "Isso mesmo!",
+    "incorrect": "Não foi dessa vez. A resposta certa é: {{answer}}",
+    "misconception": "Por que confunde:",
+    "next": "Próxima pergunta",
+    "seeResult": "Ver resultado",
+    "result": "Você acertou {{correct}} de {{total}}",
+    "reviewScheduled": "Essas perguntas voltam amanhã na aba Revisar, para a ideia ficar de vez.",
+    "reviewOff": "As revisões estão desligadas nas configurações.",
+    "none": "Esta lição ainda não tem perguntas."
+  },
+  "deeper": {
+    "title": "Ir mais fundo",
+    "related": "Ideias relacionadas",
+    "continueTrail": "Continuar esta trilha"
+  },
+  "sources": {
+    "title": "Fontes e revisão",
+    "open": "Ver fontes e revisão",
+    "draftTitle": "Prévia: ainda não verificada",
+    "draftBody": "Esta lição é um rascunho de demonstração. Ela ainda não passou pela checagem de fontes nem pela revisão humana. As fontes de cada afirmação serão adicionadas antes da publicação.",
+    "generatedWith": "Rascunho escrito com ajuda de IA ({{model}}), aguardando verificação.",
+    "none": "Nenhuma fonte cadastrada.",
+    "reviewedOn": "Revisada em {{date, datetime(dateStyle: long)}}"
+  },
+  "rail": {
+    "trail": "Trilha",
+    "keyboard": "para navegar"
+  },
+  "session": {
+    "title": "Mandou bem!",
+    "summary_one": "Você explorou {{count}} ideia.",
+    "summary_other": "Você explorou {{count}} ideias.",
+    "quizzes_one": "E respondeu {{count}} quiz.",
+    "quizzes_other": "E respondeu {{count}} quizzes.",
+    "question": "Quer revisar rapidinho ou parar por hoje?",
+    "review": "Revisar o que aprendi",
+    "keepExploring": "Continuar explorando",
+    "changeGoal": "Mudar minha meta",
+    "done": "Parar por hoje",
+    "finishedTitle": "Até a próxima!",
+    "finishedBody": "Seu progresso está salvo. Volte quando quiser: as revisões ficam esperando na aba Revisar.",
+    "newSession": "Começar nova sessão"
+  },
+  "exhausted": {
+    "title": "Você explorou tudo por aqui",
+    "body": "Novas trilhas chegam com frequência. Enquanto isso, que tal um tema diferente?",
+    "try": "Experimente",
+    "recycle": "Rever lições que já vi"
+  },
+  "trail": {
+    "exit": "Sair da trilha",
+    "progress": "{{step}} de {{total}}",
+    "endTitle": "Trilha concluída!",
+    "endBody_one": "Você percorreu {{count}} ideia de “{{trail}}”.",
+    "endBody_other": "Você percorreu as {{count}} ideias de “{{trail}}”.",
+    "nextTrails": "Para onde ir agora",
+    "backToFeed": "Voltar ao feed",
+    "notFound": "Trilha não encontrada"
+  },
+  "lesson": {
+    "seen": "Vista",
+    "completed": "Concluída"
+  },
+  "explore": {
+    "title": "Explorar",
+    "subtitle": "Temas, trilhas e tudo o que há para descobrir.",
+    "searchLabel": "Buscar lições",
+    "searchPlaceholder": "Buscar: Lua, memória, cebola…",
+    "results_zero": "Nenhum resultado",
+    "results_one": "{{count}} resultado",
+    "results_other": "{{count}} resultados",
+    "noResultsTitle": "Nada encontrado",
+    "noResultsBody": "Tente outra palavra ou explore os temas abaixo.",
+    "topics": "Temas",
+    "lessonCount_one": "{{count}} lição",
+    "lessonCount_other": "{{count}} lições",
+    "trailCount_one": "{{count}} trilha",
+    "trailCount_other": "{{count}} trilhas",
+    "exploredCount_one": "{{count}} de {{total}} explorada",
+    "exploredCount_other": "{{count}} de {{total}} exploradas"
+  },
+  "topic": {
+    "notFound": "Tema não encontrado",
+    "follow": "Seguir tema",
+    "following": "Seguindo",
+    "mute": "Silenciar",
+    "muted": "Silenciado",
+    "unmute": "Reativar",
+    "appliesNextSession": "A mudança vale a partir da próxima sessão do feed.",
+    "trails": "Trilhas",
+    "trailProgress": "{{done}} de {{total}} exploradas",
+    "startTrail": "Começar trilha",
+    "continueTrail": "Continuar trilha",
+    "revisitTrail": "Rever trilha",
+    "lessons": "Lições",
+    "filter": "Ordenar lições",
+    "filterSuggested": "Sugeridas",
+    "filterShortest": "Mais curtas",
+    "filterUnseen": "Não vistas",
+    "allSeenTitle": "Você já viu todas",
+    "allSeenBody": "Todas as lições deste tema já passaram pelo seu feed."
+  },
+  "review": {
+    "title": "Revisar",
+    "subtitle": "Lembrar alguns dias depois é o que faz a ideia ficar.",
+    "dueNow": "Para revisar agora",
+    "dueCount_one": "{{count}} pergunta esperando por você",
+    "dueCount_other": "{{count}} perguntas esperando por você",
+    "lowPressure": "Leva um minuto. Errar também ajuda a lembrar.",
+    "start_one": "Revisar {{count}}",
+    "start_other": "Revisar {{count}}",
+    "sessionTitle": "Revisão",
+    "finish": "Concluir revisão",
+    "stop": "Parar por agora",
+    "done": "Revisão feita: {{correct}} de {{total}} certas.",
+    "emptyTitle": "Nada para revisar ainda",
+    "emptyBody": "Responda o quiz de uma lição em Descobrir e as perguntas voltam aqui amanhã.",
+    "caughtUpTitle": "Tudo em dia!",
+    "caughtUpBody": "Nenhuma revisão para hoje. As próximas aparecem aqui quando chegar a hora.",
+    "goDiscover": "Ir para Descobrir",
+    "recentlyLearned": "Aprendidas recentemente",
+    "mastered": "Dominadas",
+    "nextOn": "Próxima revisão: {{date, datetime(day: numeric; month: long)}}",
+    "masteredNext": "Dominada · revisão em {{date, datetime(day: numeric; month: long)}}",
+    "howItWorks": "Como funciona: depois de um acerto, a pergunta volta em 1 dia, depois em 3, 7, 14, 30 e 60 dias. Um erro traz a pergunta de volta no dia seguinte. Três revisões certas seguidas contam como “dominada”."
+  },
+  "library": {
+    "title": "Biblioteca",
+    "saved": "Salvas",
+    "history": "Histórico",
+    "completed": "Concluídas",
+    "empty": {
+      "savedTitle": "Nenhuma lição salva",
+      "savedBody": "Toque em Salvar em qualquer cartão para guardar a lição aqui.",
+      "historyTitle": "Seu histórico está vazio",
+      "historyBody": "As lições que você abrir aparecem aqui.",
+      "completedTitle": "Nenhuma lição concluída ainda",
+      "completedBody": "Uma lição conta como concluída quando você a lê com calma ou responde o quiz."
+    },
+    "localNote": "Suas lições salvas ficam neste aparelho, sem precisar de conta."
+  },
+  "you": {
+    "title": "Você",
+    "subtitle": "O que você aprendeu e lembrou, sem contar tempo de tela.",
+    "explored": "Ideias exploradas",
+    "completed": "Concluídas",
+    "saved": "Salvas",
+    "trails": "Trilhas completas",
+    "learning": "Aprendizado",
+    "immediate": "Acertos no quiz da lição",
+    "immediateHint": "Responda um quiz para ver sua taxa de acerto.",
+    "delayed": "Acertos 3+ dias depois",
+    "delayedHint": "Aparece quando você revisar algo aprendido há pelo menos 3 dias.",
+    "percent": "{{value}}%",
+    "sample_one": "{{correct}} de {{count}} resposta",
+    "sample_other": "{{correct}} de {{count}} respostas",
+    "recalled_zero": "Ainda sem ideias lembradas dias depois",
+    "recalled_one": "{{count}} ideia lembrada dias depois",
+    "recalled_other": "{{count}} ideias lembradas dias depois",
+    "recalledHint": "Conta quando você acerta uma revisão pelo menos 3 dias depois de aprender.",
+    "dueCta_one": "Revisar {{count}}",
+    "dueCta_other": "Revisar {{count}}",
+    "thisWeek": "Esta semana",
+    "activeDays_zero": "Nenhum dia de aprendizado nos últimos 7 dias",
+    "activeDays_one": "{{count}} dia de aprendizado nos últimos 7 dias",
+    "activeDays_other": "{{count}} dias de aprendizado nos últimos 7 dias",
+    "noStreakPressure": "Sem sequência para perder. Aprender um pouco, quando der, já vale.",
+    "topics": "Por tema",
+    "topicCounts": "{{explored}} de {{total}}",
+    "noActivity": "Explore algumas lições e seu progresso por tema aparece aqui.",
+    "localNote": "Seu progresso fica salvo só neste aparelho. Limpar os dados do navegador apaga esse progresso."
+  },
+  "settings": {
+    "title": "Configurações",
+    "language": "Idioma",
+    "languageHint": "Seu progresso, suas lições salvas e suas revisões continuam iguais em qualquer idioma.",
+    "appearance": "Aparência",
+    "theme": "Tema",
+    "reduceMotion": "Reduzir animações",
+    "reduceMotionHint": "Também seguimos a configuração do seu sistema.",
+    "session": "Sessão",
+    "sessionSize": "Cartões por sessão",
+    "sessionSizeHint": "Depois desse número, fazemos uma pausa gentil. Você sempre pode continuar.",
+    "unlimited": "Sem limite",
+    "topics": "Temas",
+    "interests": "Seus interesses",
+    "interestsHint": "Aparecem com mais frequência no feed, com espaço para novidades.",
+    "muted": "Temas silenciados",
+    "mutedHint": "Não aparecem no feed.",
+    "audio": "Leitura em voz alta",
+    "audioSpeed": "Velocidade",
+    "voiceReady": "voz disponível ({{name}})",
+    "voiceMissing": "nenhuma voz instalada neste aparelho",
+    "voiceUnsupported": "não suportado neste navegador",
+    "review": "Revisão",
+    "reviewOptIn": "Adicionar quizzes à revisão",
+    "reviewOptInHint": "As perguntas que você responder voltam em intervalos crescentes.",
+    "privacy": "Privacidade e dados",
+    "privacyBody": "Sem conta, tudo fica neste aparelho: preferências, progresso, lições salvas e revisões. Nada disso é enviado para nenhum servidor.",
+    "exportSoon": "Exportar e importar seus dados: disponível em breve.",
+    "delete": "Apagar meus dados deste aparelho",
+    "deleteConfirmTitle": "Apagar todos os seus dados?",
+    "deleteConfirmBody": "Isso apaga preferências, progresso, lições salvas e revisões deste aparelho. Não dá para desfazer.",
+    "deleteConfirm": "Apagar tudo",
+    "deleted": "Seus dados foram apagados.",
+    "about": "Sobre",
+    "contentPreview": "Esta é uma versão de prévia. As lições são rascunhos de demonstração que ainda não passaram pela verificação de fontes nem pela revisão humana.",
+    "contentReviewed": "Todas as lições passaram por checagem de fontes e revisão humana.",
+    "replayIntro": "Ver a introdução de novo"
   }
 }

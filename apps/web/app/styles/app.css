@@ -80,3 +80,249 @@
     transform: scale(0.96);
   }
 }
+
+/* ───────────────────────── Feed and lesson card ───────────────────────── */
+@layer components {
+  .feed-height {
+    height: calc(100dvh - var(--nav-height) - var(--safe-bottom));
+    padding-top: var(--safe-top);
+  }
+  @media (min-width: 1024px) {
+    .feed-height {
+      height: 100dvh;
+    }
+  }
+  .feed-scroller {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .feed-scroller::-webkit-scrollbar {
+    display: none;
+  }
+  .feed-slide > * {
+    max-height: 860px;
+  }
+  /* The active card settles in; neighbours recede slightly (no motion when reduced). */
+  .feed-slide > .lesson-card {
+    transition:
+      transform var(--dur-slow) var(--ease-out),
+      opacity var(--dur-slow) var(--ease-out);
+  }
+  .feed-slide[aria-hidden='true'] > .lesson-card {
+    transform: scale(0.965);
+    opacity: 0.55;
+  }
+
+  /*
+   * Flexible hero: the card body takes the height its text needs, and the hero
+   * illustration fills whatever is left (between --hero-min and 200px). Long text
+   * shrinks the hero first; only then does the text scroll inside the card.
+   */
+  .card-hero {
+    flex: 1 1 0;
+    min-height: 46px;
+    max-height: 200px;
+    container-type: size;
+  }
+  @media (min-width: 1024px) {
+    .card-hero {
+      max-height: 320px;
+    }
+  }
+  /* Too short to draw the illustration nicely: show only the header row. */
+  @container (max-height: 100px) {
+    .card-illustration {
+      visibility: hidden;
+    }
+  }
+  .card-body {
+    flex: 0 1 auto;
+  }
+  .card-illustration {
+    display: block;
+    height: 100%;
+    padding: 40px 16px 6px;
+  }
+  .card-title {
+    font-size: 25px;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+  .card-text {
+    font-size: 15.5px;
+    line-height: 1.5;
+    scrollbar-width: none;
+  }
+  .card-text::-webkit-scrollbar {
+    display: none;
+  }
+  /* When the text is longer than the card, fade the bottom edge as a "more" cue. */
+  .card-text[data-overflow='more'] {
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
+  }
+  .card-takeaway {
+    font-size: 14.5px;
+    line-height: 1.4;
+  }
+
+  /* Most phones (780–930px tall): slightly tighter type. */
+  @media (max-height: 879px) {
+    .card-title {
+      font-size: 22px;
+    }
+    .card-text {
+      font-size: 15px;
+      line-height: 1.47;
+    }
+    .card-takeaway {
+      font-size: 14px;
+    }
+  }
+  /* iPhone SE class (≤ 700px tall): no trail link, smaller type. */
+  @media (max-height: 700px) {
+    .card-next {
+      display: none;
+    }
+    .card-title {
+      font-size: 20px;
+    }
+    .card-text {
+      font-size: 14.5px;
+      line-height: 1.45;
+    }
+  }
+
+  /* Onboarding: keep "Start exploring" above the fold on short phones. */
+  @media (max-height: 740px) {
+    .welcome-preview-art {
+      display: none;
+    }
+  }
+
+  .action-icon {
+    display: inline-flex;
+    transition: transform var(--dur) var(--ease-spring);
+  }
+  .action-icon.is-on {
+    transform: scale(1.12);
+  }
+}
+
+/* ───────────────────────── Motion ───────────────────────── */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@keyframes sheet-in {
+  from {
+    transform: translateY(100%);
+  }
+}
+@keyframes sheet-out {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes pop {
+  50% {
+    transform: scale(1.03);
+  }
+}
+@keyframes shake {
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+@keyframes pulse {
+  50% {
+    transform: scale(0.94);
+    opacity: 0.8;
+  }
+}
+
+@layer components {
+  .fade-up {
+    animation: fade-up var(--dur-slow) var(--ease-out) both;
+  }
+  .page-in {
+    animation: fade-up var(--dur) var(--ease-out) both;
+  }
+  .toast-in {
+    animation: fade-up var(--dur) var(--ease-out) both;
+  }
+  .quiz-pop {
+    animation: pop var(--dur-slow) var(--ease-spring);
+  }
+  .quiz-shake {
+    animation: shake var(--dur-slow) var(--ease-out);
+  }
+  .splash-pulse {
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  .sheet-overlay[data-state='open'] {
+    animation: fade-in var(--dur) var(--ease-out);
+  }
+  .sheet-overlay[data-state='closed'] {
+    animation: fade-out var(--dur) var(--ease-out);
+  }
+  .sheet-panel {
+    transition: transform var(--dur) var(--ease-out);
+  }
+  .sheet-panel[data-state='open'] {
+    animation: sheet-in var(--dur-slow) var(--ease-out);
+  }
+  .sheet-panel[data-state='closed'] {
+    animation: sheet-out var(--dur) var(--ease-out);
+  }
+  @media (min-width: 1024px) {
+    .sheet-panel[data-state='open'] {
+      animation: panel-in var(--dur) var(--ease-out);
+    }
+    .sheet-panel[data-state='closed'] {
+      animation: fade-out var(--dur) var(--ease-out);
+    }
+  }
+}
+
+/* Reduced motion: no animations or smooth scrolling at all. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+[data-motion='reduce'] *,
+[data-motion='reduce'] *::before,
+[data-motion='reduce'] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}

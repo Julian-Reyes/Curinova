@@ -61,7 +61,12 @@ export default tseslint.config(
     files: ['apps/web/**/*.{ts,tsx}'],
     languageOptions: { globals: { ...globals.browser } },
     plugins: { 'react-hooks': reactHooks, 'jsx-a11y': jsxA11y },
-    rules: { ...reactHooks.configs.recommended.rules, ...jsxA11y.flatConfigs.recommended.rules },
+    rules: {
+      ...reactHooks.configs.recommended.rules,
+      ...jsxA11y.flatConfigs.recommended.rules,
+      // Option cards nest their (translated) text two elements deep inside the label.
+      'jsx-a11y/label-has-associated-control': ['error', { assert: 'either', depth: 3 }],
+    },
   },
   {
     // No hard-coded user-facing strings in UI code (§0.7). Tests and config are exempt.
