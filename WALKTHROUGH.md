@@ -227,10 +227,27 @@ A script drove a real Chrome browser through the whole app at iPhone, small-iPho
 
 **The one thing that needs a founder decision:** a script measured all 20 lessons on each phone size. On a standard iPhone (390×844) every card fits. On a mid-range Android almost all do. On the small iPhone SE most don't: at a readable text size, it fits about 60–75 words, and the spec asks for 80–150. The options are written up in `docs/DECISIONS.md` (P6).
 
+### Step 16: Testing on a real phone, and the founder's decisions (26 October)
+
+The founder opened the app on an iPhone over Wi-Fi and sent screenshots. They showed two bugs:
+
+- **"This browser is blocking storage."** The browser wasn't actually blocking anything. Over plain `http://` (as on a home Wi-Fi network), browsers switch off one modern function the app used to create IDs, so every save failed. The app now falls back to an older method that works everywhere. Real deployments use `https://`, so users wouldn't have hit this, but it made the phone test misleading.
+- **The bottom of each card was hidden.** The warning banner took space at the top, and the feed didn't shrink to make room, so the card's buttons slid under the navigation bar. The feed now measures any banner and fits itself below it.
+
+The founder also made two decisions:
+
+1. **Cards never scroll.** If a lesson doesn't fit on the screen, the text fades out and a **"Continue reading"** button appears; the takeaway and the buttons always stay visible. "Continue reading" opens the "Go deeper" panel starting with the full text. Also, **tapping anywhere on a card** opens "Go deeper".
+2. **What the onboarding goal does:**
+   - _Explore_ mixes in more different subjects and surprises.
+   - _Learn deeply_ keeps you moving along trails, lesson after lesson.
+   - _Remember more_ returns to trails you've started, highlights the Quiz button, and, when reviews are waiting, shows a clearly labeled "Time to remember" card in the feed. Reviews are never disguised as new lessons.
+
+A measurement worth knowing: phone browsers' address bars and toolbars take about 190 pixels, so in a browser most lessons show "Continue reading". **Added to the Home Screen** (installed), the app gets the full screen and the lessons show whole.
+
 ### Step 15: Automated tests
 
-- **154 unit and component tests**, covering the review schedule, time zones, feed order, statistics, storage, search, voice matching, the quiz screen, both languages being complete, and color contrast.
-- **30 browser tests per run** on four device sizes, acting like a real person: onboarding in Portuguese, passing a quiz, reloading and seeing stats; switching to English and keeping saves and reviews; a save surviving a restart; the soft stop after five cards; following a trail and returning to the same spot; arrow keys that don't fire while typing; nothing spilling off the screen; the app being installable.
+- **160 unit and component tests**, covering the review schedule, time zones, feed order, statistics, storage, search, voice matching, the quiz screen, both languages being complete, and color contrast.
+- **45 browser tests per run** on four device sizes, acting like a real person: onboarding in Portuguese, passing a quiz, reloading and seeing stats; switching to English and keeping saves and reviews; a save surviving a restart; the soft stop after five cards; following a trail and returning to the same spot; arrow keys that don't fire while typing; nothing spilling off the screen; the app being installable.
 
 ---
 

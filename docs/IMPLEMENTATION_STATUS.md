@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-10-25.
+Last updated: 2026-10-26.
 
 | Milestone                            | Status              |
 | ------------------------------------ | ------------------- |
@@ -57,15 +57,14 @@ Last updated: 2026-10-25.
 | 20 sample lessons, 5 topics, both locales (drafts, unverified, labeled)                                                                 | `content/`                                           | ✅ (B1)                                       |
 | Unit, component and E2E tests                                                                                                           | see below                                            | ✅                                            |
 
-### Tests (2026-10-25, Node 24.22.1)
+### Tests (2026-10-26, Node 24.22.1)
 
-- `pnpm test`: 154 passed. Domain (review intervals, time-zone/day-boundary cases, ranking, stats), validator (45), web (storage, library/search/locale fallback, voice matching, completion threshold, QuizRunner component, i18n completeness, every used key exists, WCAG contrast), placeholder-name guard.
-- `pnpm test:e2e`: 30 passed, 6 skipped (desktop-only checks on phone projects), across iPhone 13, iPhone SE, mid-range Android and desktop. Covers §16 E2E scenarios 1, 2, 3, 4, 5, 8 and 9, plus installability. The suite passed twice in a row (60/60).
+- `pnpm test`: 160 passed. Domain (review intervals, time-zone/day-boundary cases, ranking, stats), validator (45), web (storage, library/search/locale fallback, voice matching, completion threshold, QuizRunner component, i18n completeness, every used key exists, WCAG contrast), placeholder-name guard.
+- `pnpm test:e2e`: 45 passed, 10 skipped (device-specific checks on other devices), across iPhone 13, iPhone SE, mid-range Android and desktop. Covers §16 E2E scenarios 1, 2, 3, 4, 5, 8 and 9, installability, tap-to-expand, "Continue reading", banner layout, saving over plain http, and the "Remember more" review card.
 
 ### Known limitations and open items (M2)
 
-- **P6:** on iPhone SE-size screens most cards scroll inside the card (fade cue). Measurements and options are in DECISIONS.md.
-- **P7:** the onboarding purpose doesn't yet change the feed.
+- In a mobile _browser_ (not installed), most cards show "Continue reading" because the browser's toolbars take about 190px of height (see D11 measurements).
 - Local E2E uses Chrome emulating iPhones (A9); real WebKit runs only in CI, which hasn't run yet (no remote, D3).
 - Sample lessons are unverified drafts with no sources (B1); the production channel shows no lessons until M3 review publishes some.
 - §16 E2E 6 (offline), 7 (prerendered pages), 10 (axe) belong to M4/M5.
