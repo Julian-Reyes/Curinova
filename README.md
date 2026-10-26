@@ -1,5 +1,7 @@
 # Curinova
 
+**Live prototype: https://curinova.julianreyes.dev**
+
 **A free, ad-free microlearning app.** Swipe through short, verifiable ideas in Brazilian Portuguese and English, test yourself with one-tap quizzes, and keep what you learn with spaced review. _Scroll with curiosity. Leave with knowledge._
 
 > **Status: prototype.** The app is fully usable, but its 20 sample lessons are **unreviewed drafts**. They stick to well-established facts, but have not yet been through source checking or human review, and they're labeled "Preview" in the app. "Curinova" is a working title.
@@ -41,7 +43,7 @@ pnpm dev        # http://localhost:5273
 | `pnpm preview`          | Serve the production build (port 4273)                               |
 | `pnpm test:e2e`         | Playwright tests at phone and desktop sizes (run `pnpm build` first) |
 
-CI (`.github/workflows/ci.yml`) runs the typecheck, lint, tests, content validation, build and Playwright tests on every push and pull request.
+CI (`.github/workflows/ci.yml`) runs the typecheck, lint, tests, content validation, build and Playwright tests on every push and pull request. Pushes to `main` that pass everything are deployed to GitHub Pages ([docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)).
 
 ## Repository layout
 
@@ -64,6 +66,7 @@ Every factual claim in a published lesson must map to a real source excerpt, wit
 - [Product spec](docs/SPEC.md)
 - [Decisions and deviations](docs/DECISIONS.md)
 - [Implementation status](docs/IMPLEMENTATION_STATUS.md)
+- [Deployment](docs/DEPLOYMENT.md)
 - [Plain-English walkthrough](WALKTHROUGH.md)
 - [Rules for coding agents](CLAUDE.md)
 

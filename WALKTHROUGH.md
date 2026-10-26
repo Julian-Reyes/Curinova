@@ -227,6 +227,11 @@ A script drove a real Chrome browser through the whole app at iPhone, small-iPho
 
 **The one thing that needs a founder decision:** a script measured all 20 lessons on each phone size. On a standard iPhone (390×844) every card fits. On a mid-range Android almost all do. On the small iPhone SE most don't: at a readable text size, it fits about 60–75 words, and the spec asks for 80–150. The options are written up in `docs/DECISIONS.md` (P6).
 
+### Step 15: Automated tests
+
+- **165 unit and component tests**, covering the review schedule, time zones, feed order, statistics, storage, search, voice matching, the quiz screen, both languages being complete, and color contrast.
+- **45 browser tests per run** on four device sizes, acting like a real person: onboarding in Portuguese, passing a quiz, reloading and seeing stats; switching to English and keeping saves and reviews; a save surviving a restart; the soft stop after five cards; following a trail and returning to the same spot; arrow keys that don't fire while typing; nothing spilling off the screen; the app being installable.
+
 ### Step 16: Testing on a real phone, and the founder's decisions (26 October)
 
 The founder opened the app on an iPhone over Wi-Fi and sent screenshots. They showed two bugs:
@@ -244,10 +249,15 @@ The founder also made two decisions:
 
 A measurement worth knowing: phone browsers' address bars and toolbars take about 190 pixels, so in a browser most lessons show "Continue reading". **Added to the Home Screen** (installed), the app gets the full screen and the lessons show whole.
 
-### Step 15: Automated tests
+### Step 17: Putting it on the internet (26 October)
 
-- **160 unit and component tests**, covering the review schedule, time zones, feed order, statistics, storage, search, voice matching, the quiz screen, both languages being complete, and color contrast.
-- **45 browser tests per run** on four device sizes, acting like a real person: onboarding in Portuguese, passing a quiz, reloading and seeing stats; switching to English and keeping saves and reviews; a save surviving a restart; the soft stop after five cards; following a trail and returning to the same spot; arrow keys that don't fire while typing; nothing spilling off the screen; the app being installable.
+The app is published free on **GitHub Pages** at **https://curinova.julianreyes.dev**:
+
+- **Every push to `main` is checked first.** The automatic checks and browser tests run on GitHub's computers. Only if everything passes is the new version published; otherwise the live site stays as it was.
+- **Why a subdomain:** the app will eventually need a domain of its own. Living at the root of `curinova.julianreyes.dev` means moving later is just a DNS change, with no code changes. One caveat: browsers tie saved progress to the domain, so a future move needs the planned "export/import my data" feature first.
+- **A fix from the first cloud run:** the browser tests hung for 14 minutes downloading Safari-engine libraries from Ubuntu's servers. They now run inside Playwright's ready-made image, which already contains everything, and every job has a time limit so it can never hang for hours again.
+
+The step-by-step setup is in [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
 
 ---
 

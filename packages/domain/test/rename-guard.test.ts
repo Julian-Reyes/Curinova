@@ -11,7 +11,14 @@ import { BRAND, brandNamePattern, RETIRED_BRAND_NAMES } from '../src/brand';
  */
 const ROOT = join(import.meta.dirname, '../../..');
 const BRAND_FILE = 'packages/domain/src/brand.ts';
-const ALLOWED_CURRENT = new Set([BRAND_FILE, 'docs/DECISIONS.md', 'WALKTHROUGH.md', 'README.md']);
+// docs/DEPLOYMENT.md names the site's domain (curinova.<…>), which a rename may also change.
+const ALLOWED_CURRENT = new Set([
+  BRAND_FILE,
+  'docs/DECISIONS.md',
+  'WALKTHROUGH.md',
+  'README.md',
+  'docs/DEPLOYMENT.md',
+]);
 const ALLOWED_RETIRED = new Set([BRAND_FILE, 'docs/DECISIONS.md', 'docs/SPEC.md']);
 const SKIP_DIRS = new Set([
   'node_modules',

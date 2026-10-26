@@ -7,7 +7,8 @@ on:
 
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  # Superseded PR runs are cancelled; pushes to main always finish, so a deploy is never cut off.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
   contents: read
@@ -16,6 +17,7 @@ jobs:
   verify:
     name: verify
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
       - uses: pnpm/action-setup@v4 # version comes from package.json "packageManager"
@@ -34,6 +36,12 @@ jobs:
     name: e2e-smoke
     runs-on: ubuntu-latest
     needs: verify
+    timeout-minutes: 25
+    # Playwright's official image ships Chromium, WebKit and their system libraries,
+    # so nothing is downloaded from Ubuntu's mirrors at run time. Its tag must match
+    # @playwright/test in apps/web/package.json (checked by apps/web/app/ci-workflow.test.ts).
+    container:
+      image: mcr.microsoft.com/playwright:v1.64.1-noble
     steps:
       - uses: actions/checkout@v5
       - uses: pnpm/action-setup@v4
@@ -42,7 +50,6 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter @lumen/web exec playwright install --with-deps chromium webkit
       - run: pnpm build
       - run: pnpm test:e2e
       - uses: actions/upload-artifact@v4
@@ -51,3 +58,40 @@ jobs:
           name: e2e-screenshots
           path: apps/web/e2e/__screenshots__/
           if-no-files-found: ignore
+
+  # Publishes the app to GitHub Pages (the custom domain is set in the repo's Pages
+  # settings; see docs/DEPLOYMENT.md). Only for pushes to main, and only when all tests pass.
+  deploy:
+    name: deploy
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [verify, e2e-smoke]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      # GitHub Pages serves 404.html for unknown paths; the SPA fallback page loads the
+      # app at any route, so reloading /app/review works.
+      - run: cp apps/web/build/client/__spa-fallback.html apps/web/build/client/404.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/web/build/client
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -12,24 +12,24 @@ Last updated: 2026-10-26.
 
 ## M1 — Foundation
 
-| Item (§20 M1)                                                           | Where                                                            | Status                                         |
-| ----------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------- |
-| pnpm monorepo, strict TypeScript, Node 24                               | root `package.json`, `pnpm-workspace.yaml`, `tsconfig.base.json` | ✅                                             |
-| Scripts: dev, typecheck, lint, test, build, content:validate, test:e2e  | root `package.json`                                              | ✅                                             |
-| CI (install, typecheck, lint, test, content:validate, build, e2e smoke) | `.github/workflows/ci.yml`                                       | ✅ written; not yet run (no remote, D3)        |
-| Zod schemas + types for all §10 entities                                | `packages/domain/src/schemas/`                                   | ✅                                             |
-| `content:validate` with every §5.7 check                                | `tools/content-pipeline/src/validate/`                           | ✅ 45 unit tests, one or more per failure mode |
-| Fixtures: 2 topics × 1 trail × 4 concepts, both locales                 | `content/fixtures/`                                              | ✅                                             |
-| i18next pt-BR (default) + en, browser detection, completeness test      | `apps/web/app/i18n/`                                             | ✅                                             |
-| Design tokens (light + dark), contrast test                             | `apps/web/app/styles/`                                           | ✅                                             |
-| Fonts with Portuguese diacritics                                        | Fraunces + Inter via Fontsource                                  | ✅                                             |
-| PWA shell (manifest, icons, service worker, update prompt)              | `apps/web`                                                       | ✅ installable (E2E-verified)                  |
-| Rename guard for the placeholder name                                   | `packages/domain/test/rename-guard.test.ts`                      | ✅                                             |
-| Playwright smoke at iPhone / Android / desktop sizes, both locales      | `apps/web/e2e/`                                                  | ✅ (local runs use Chrome; see A9)             |
+| Item (§20 M1)                                                                                    | Where                                                            | Status                                           |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ------------------------------------------------ |
+| pnpm monorepo, strict TypeScript, Node 24                                                        | root `package.json`, `pnpm-workspace.yaml`, `tsconfig.base.json` | ✅                                               |
+| Scripts: dev, typecheck, lint, test, build, content:validate, test:e2e                           | root `package.json`                                              | ✅                                               |
+| CI (install, typecheck, lint, test, content:validate, build, e2e smoke) + deploy to GitHub Pages | `.github/workflows/ci.yml`                                       | ✅ runs on GitHub; deploy added 2026-10-26 (D13) |
+| Zod schemas + types for all §10 entities                                                         | `packages/domain/src/schemas/`                                   | ✅                                               |
+| `content:validate` with every §5.7 check                                                         | `tools/content-pipeline/src/validate/`                           | ✅ 45 unit tests, one or more per failure mode   |
+| Fixtures: 2 topics × 1 trail × 4 concepts, both locales                                          | `content/fixtures/`                                              | ✅                                               |
+| i18next pt-BR (default) + en, browser detection, completeness test                               | `apps/web/app/i18n/`                                             | ✅                                               |
+| Design tokens (light + dark), contrast test                                                      | `apps/web/app/styles/`                                           | ✅                                               |
+| Fonts with Portuguese diacritics                                                                 | Fraunces + Inter via Fontsource                                  | ✅                                               |
+| PWA shell (manifest, icons, service worker, update prompt)                                       | `apps/web`                                                       | ✅ installable (E2E-verified)                    |
+| Rename guard for the placeholder name                                                            | `packages/domain/test/rename-guard.test.ts`                      | ✅                                               |
+| Playwright smoke at iPhone / Android / desktop sizes, both locales                               | `apps/web/e2e/`                                                  | ✅ (local runs use Chrome; see A9)               |
 
 ### Known limitations (M1)
 
-- CI has not run on GitHub yet (no remote by decision D3).
+- CI runs on GitHub. The first run hung downloading WebKit libraries; E2E now runs in Playwright's Docker image (B22).
 - Local E2E emulates iPhone in Chrome; real WebKit runs only in CI (A9).
 - `content:check-links` is M3 (D9).
 
@@ -59,13 +59,14 @@ Last updated: 2026-10-26.
 
 ### Tests (2026-10-26, Node 24.22.1)
 
-- `pnpm test`: 160 passed. Domain (review intervals, time-zone/day-boundary cases, ranking, stats), validator (45), web (storage, library/search/locale fallback, voice matching, completion threshold, QuizRunner component, i18n completeness, every used key exists, WCAG contrast), placeholder-name guard.
+- `pnpm test`: 165 passed. Domain (review intervals, time-zone/day-boundary cases, ranking, stats), validator (45), web (storage, library/search/locale fallback, voice matching, completion threshold, QuizRunner component, i18n completeness, every used key exists, WCAG contrast), placeholder-name guard.
 - `pnpm test:e2e`: 45 passed, 10 skipped (device-specific checks on other devices), across iPhone 13, iPhone SE, mid-range Android and desktop. Covers §16 E2E scenarios 1, 2, 3, 4, 5, 8 and 9, installability, tap-to-expand, "Continue reading", banner layout, saving over plain http, and the "Remember more" review card.
 
 ### Known limitations and open items (M2)
 
 - In a mobile _browser_ (not installed), most cards show "Continue reading" because the browser's toolbars take about 190px of height (see D11 measurements).
-- Local E2E uses Chrome emulating iPhones (A9); real WebKit runs only in CI, which hasn't run yet (no remote, D3).
+- Local E2E uses Chrome emulating iPhones (A9); real WebKit runs in CI.
+- Deployment: the live site (domain and setup in docs/DEPLOYMENT.md) goes live once GitHub Pages and DNS are configured.
 - Sample lessons are unverified drafts with no sources (B1); the production channel shows no lessons until M3 review publishes some.
 - §16 E2E 6 (offline), 7 (prerendered pages), 10 (axe) belong to M4/M5.
 
@@ -73,4 +74,4 @@ Last updated: 2026-10-26.
 
 - M3: content pipeline, review tool, `content:check-links`, `content:build`, sourcing and reviewing the sample drafts.
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
-- M5: starter-pack offline caching, export/import, axe checks, performance budgets, deployment.
+- M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).
