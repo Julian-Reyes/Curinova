@@ -34,7 +34,7 @@ These are open and **do not block** M1/M2. They must be settled before the publi
    - every UI string, through the i18n variable `{{appName}}` (`apps/web/app/i18n/index.ts`)
    - the HTML `<title>` and `apple-mobile-web-app-title` (`apps/web/app/root.tsx`)
    - the PWA manifest `name` / `short_name` (`apps/web/vite.config.ts`)
-2. Documents that describe the rename: `docs/SPEC.md` (historical; leave it), this file and `WALKTHROUGH.md`.
+2. Documents that name the product: `README.md`, this file and `WALKTHROUGH.md` (update these by hand). `docs/SPEC.md` is historical; leave it.
 
 `packages/domain/test/rename-guard.test.ts` fails if the current name shows up anywhere else, or if a retired name shows up outside this file and `docs/SPEC.md`. The i18n completeness test also fails if either kind of name is typed into a translation instead of `{{appName}}`.
 

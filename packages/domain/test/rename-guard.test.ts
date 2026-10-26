@@ -11,7 +11,7 @@ import { BRAND, brandNamePattern, RETIRED_BRAND_NAMES } from '../src/brand';
  */
 const ROOT = join(import.meta.dirname, '../../..');
 const BRAND_FILE = 'packages/domain/src/brand.ts';
-const ALLOWED_CURRENT = new Set([BRAND_FILE, 'docs/DECISIONS.md', 'WALKTHROUGH.md']);
+const ALLOWED_CURRENT = new Set([BRAND_FILE, 'docs/DECISIONS.md', 'WALKTHROUGH.md', 'README.md']);
 const ALLOWED_RETIRED = new Set([BRAND_FILE, 'docs/DECISIONS.md', 'docs/SPEC.md']);
 const SKIP_DIRS = new Set([
   'node_modules',
