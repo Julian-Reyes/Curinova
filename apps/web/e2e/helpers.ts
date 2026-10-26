@@ -23,7 +23,7 @@ const L = {
 export async function onboard(
   page: Page,
   locale: 'pt-BR' | 'en',
-  options: { interests?: string[]; goal?: string; skip?: boolean } = {},
+  options: { interests?: string[]; purpose?: string; skip?: boolean } = {},
 ) {
   const l = L[locale];
   await page.goto('/');
@@ -37,8 +37,9 @@ export async function onboard(
     await page
       .getByRole('button', { name: (options.interests ?? []).length > 0 ? l.next : l.surprise })
       .click();
-    if (options.goal !== undefined)
-      await page.getByRole('radio', { name: options.goal, exact: true }).check({ force: true });
+    // Tap the option card, as a person would (the radio input itself is visually hidden).
+    if (options.purpose !== undefined)
+      await page.getByText(options.purpose, { exact: true }).click();
     await page.getByRole('button', { name: l.next }).click();
     await page.getByRole('button', { name: l.finish, exact: true }).click();
   }

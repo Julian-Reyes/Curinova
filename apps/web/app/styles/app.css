@@ -83,13 +83,14 @@
 
 /* ───────────────────────── Feed and lesson card ───────────────────────── */
 @layer components {
+  /* Full-height feed: viewport minus bottom nav, safe area and any status banner. */
   .feed-height {
-    height: calc(100dvh - var(--nav-height) - var(--safe-bottom));
-    padding-top: var(--safe-top);
+    height: calc(100dvh - var(--nav-height) - var(--safe-bottom) - var(--banner-h, 0px));
+    padding-top: var(--feed-safe-top, var(--safe-top));
   }
   @media (min-width: 1024px) {
     .feed-height {
-      height: 100dvh;
+      height: calc(100dvh - var(--banner-h, 0px));
     }
   }
   .feed-scroller {
@@ -156,8 +157,8 @@
   .card-text::-webkit-scrollbar {
     display: none;
   }
-  /* When the text is longer than the card, fade the bottom edge as a "more" cue. */
-  .card-text[data-overflow='more'] {
+  /* Text longer than the card: fade the last lines above "Continue reading". */
+  .card-paragraphs[data-overflow='more'] {
     mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
   }
   .card-takeaway {

@@ -162,6 +162,9 @@ for (const locale of ['pt-BR', 'en'] as const) {
     test('every tab fits without horizontal overflow; screenshots for review', async ({
       page,
     }, info) => {
+      // Six page loads plus full-page screenshots: allow more than the default 30 s
+      // so the test stays reliable when every device project runs in parallel.
+      test.setTimeout(60_000);
       await onboard(page, locale, { skip: true });
       const name = `${info.project.name}-${locale}`;
       await noHorizontalOverflow(page);

@@ -1,8 +1,9 @@
-import { rankFeed, type FeedItem, type SessionGoal } from '@lumen/domain';
+import { isDue, rankFeed, type FeedItem, type SessionGoal } from '@lumen/domain';
 import { createContext, useCallback, useContext, useMemo, useState } from 'react';
 import { useApp } from '../../data/app-context';
 import { db } from '../../data/db';
 import { progress } from '../../data/progress';
+import { newId } from '../../platform/ids';
 
 export interface DiscoverSession {
   sessionId: string;
@@ -19,6 +20,8 @@ export interface DiscoverSession {
   index: number;
   opened: Set<string>;
   quizzes: number;
+  /** Due reviews at session start; > 0 in "remember more" mode shows a review card (P7). */
+  dueAtStart: number;
 }
 
 interface SessionContextValue {
@@ -48,7 +51,12 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
     async (options: { recycle?: boolean } = {}) => {
       let seen = new Set<string>();
       const engagement = new Map<string, number>();
+      let dueAtStart = 0;
       try {
+        const now = new Date();
+        dueAtStart = (await db.reviews.toArray()).filter(
+          (r) => library.concept(r.conceptId) !== undefined && isDue(r, now, prefs.timezone),
+        ).length;
         const events = await db.events.toArray();
         for (const e of events) {
           if (e.type === 'lesson_opened') seen.add(e.conceptId);
@@ -79,9 +87,10 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         clusterEngagement: engagement,
         clusterLinks: new Map(library.clusters.map((c) => [c.id, c.links.map((l) => l.clusterId)])),
         seed,
+        purpose: prefs.purpose,
       });
       const next: DiscoverSession = {
-        sessionId: crypto.randomUUID(),
+        sessionId: newId(),
         seed,
         items: result.items,
         exhausted: result.exhausted,
@@ -92,6 +101,7 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         index: 0,
         opened: new Set(),
         quizzes: 0,
+        dueAtStart,
       };
       setSession(next);
       void db.sessions
@@ -103,7 +113,15 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         })
         .catch(reportStorageError);
     },
-    [library, prefs.interests, prefs.mutedTopics, prefs.sessionGoal, reportStorageError],
+    [
+      library,
+      prefs.interests,
+      prefs.mutedTopics,
+      prefs.sessionGoal,
+      prefs.purpose,
+      prefs.timezone,
+      reportStorageError,
+    ],
   );
 
   const update = useCallback((patch: Partial<DiscoverSession>) => {

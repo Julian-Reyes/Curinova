@@ -95,6 +95,7 @@
     "saved": "Saved",
     "quiz": "Quiz",
     "deeper": "Go deeper",
+    "continueReading": "Continue reading",
     "nextInTrail": "Next in trail:",
     "savedToast": "Saved to Library",
     "unsavedToast": "Removed from Library"
@@ -319,5 +320,12 @@
     "contentPreview": "This is a preview build. Lessons are demo drafts that haven't been through source checking or human review yet.",
     "contentReviewed": "Every lesson has been source-checked and human-reviewed.",
     "replayIntro": "Replay the introduction"
+  },
+  "reviewPrompt": {
+    "title": "Time to remember",
+    "body_one": "{{count}} question is waiting for you. Recalling a few days later is what makes an idea stick.",
+    "body_other": "{{count}} questions are waiting for you. Recalling a few days later is what makes an idea stick.",
+    "start": "Review now",
+    "later": "Later, keep exploring"
   }
 }

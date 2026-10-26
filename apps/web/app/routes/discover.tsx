@@ -1,9 +1,9 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router';
 import { useApp, useSavedIds } from '../data/app-context';
 import { FeedRail } from '../features/feed/FeedRail';
-import { FeedView, type FeedSlide } from '../features/feed/FeedView';
+import { FeedView, type FeedApi, type FeedSlide } from '../features/feed/FeedView';
 import { LessonCard } from '../features/feed/LessonCard';
 import { trailHref } from '../features/feed/LessonSheets';
 import { finishSession, useSession } from '../features/feed/session';
@@ -12,6 +12,7 @@ import {
   EndOfSessionSlide,
   ExhaustedSlide,
   FinishedSlide,
+  ReviewPromptSlide,
 } from '../features/feed/Slides';
 
 export default function Discover() {
@@ -20,6 +21,7 @@ export default function Discover() {
   const { session, start, update } = useSession();
   const saved = useSavedIds();
   const navigate = useNavigate();
+  const api = useRef<FeedApi>(null);
 
   useEffect(() => {
     if (session === null) void start();
@@ -61,6 +63,7 @@ export default function Discover() {
             reason={item.reason}
             sessionProgress={{ current: i + 1, total }}
             seed={session.seed}
+            emphasizeQuiz={prefs.purpose === 'remember'}
             onOpened={(id) => {
               if (!session.opened.has(id)) update({ opened: new Set([...session.opened, id]) });
             }}
@@ -76,6 +79,22 @@ export default function Discover() {
       },
     ];
   });
+
+  // "Remember more" (P7): invite a review after the first lesson when reviews are due.
+  if (prefs.purpose === 'remember' && session.dueAtStart > 0 && slides.length > 0) {
+    slides.splice(1, 0, {
+      key: 'review-prompt',
+      label: t('reviewPrompt.title'),
+      render: () => (
+        <ReviewPromptSlide
+          due={session.dueAtStart}
+          onSkip={() => {
+            api.current?.goTo(2);
+          }}
+        />
+      ),
+    });
+  }
 
   if (session.allMuted) {
     slides.push({
@@ -121,6 +140,7 @@ export default function Discover() {
     <div className="feed-height">
       <FeedView
         key={session.sessionId}
+        apiRef={api}
         slides={slides}
         initialIndex={session.index}
         onIndexChange={onIndexChange}

@@ -98,3 +98,45 @@ describe('rankFeed (§6)', () => {
     expect(result).toMatchObject({ items: [], exhausted: true, allMuted: false });
   });
 });
+
+describe('purpose profiles (P7)', () => {
+  // How many cards until the second lesson of the first trail appears.
+  const firstFollowUp = (purpose: 'explore' | 'deep' | 'remember') => {
+    const order = ids({ purpose, seed: 3 });
+    const first = order[0]!;
+    return order.indexOf(first.replace(/_1$/, '_2'));
+  };
+  // Distinct topics among the first N cards.
+  const spread = (purpose: 'explore' | 'deep', n: number) =>
+    new Set(ids({ purpose, seed: 3 }).slice(0, n).map(topicOf)).size;
+
+  it('learn deeply continues a trail sooner than explore', () => {
+    expect(firstFollowUp('deep')).toBeLessThan(firstFollowUp('explore'));
+    expect(firstFollowUp('deep')).toBeLessThanOrEqual(2);
+  });
+
+  it('explore spreads across subjects first', () => {
+    expect(spread('explore', 3)).toBe(3);
+    expect(spread('explore', 3)).toBeGreaterThanOrEqual(spread('deep', 3));
+  });
+
+  it('remember more returns to trails the learner already started', () => {
+    const order = ids({ purpose: 'remember', seen: new Set(['concept_history_1']), seed: 3 });
+    expect(order[0]).toBe('concept_history_2');
+  });
+
+  it('every profile keeps the hard rules: trail order and no three same-topic cards in a row', () => {
+    for (const purpose of ['explore', 'deep', 'remember'] as const) {
+      const order = ids({ purpose, interests: ['space'] });
+      for (const topic of ['space', 'brain', 'history']) {
+        const positions = [1, 2, 3, 4].map((n) => order.indexOf(`concept_${topic}_${n}`));
+        expect(positions).toEqual([...positions].sort((a, b) => a - b));
+      }
+      for (let i = 2; i < order.length; i += 1) {
+        const window = order.slice(i - 2, i + 1).map((id) => topicOf(id));
+        if (order.slice(i).some((id) => topicOf(id) !== window[2]))
+          expect(new Set(window).size).toBeGreaterThan(1);
+      }
+    }
+  });
+});

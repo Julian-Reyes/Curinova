@@ -3,6 +3,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   BookmarkIcon,
+  ChevronDownIcon,
   ChevronRightIcon,
   ClockIcon,
   DeeperIcon,
@@ -34,6 +35,8 @@ export interface LessonCardProps {
   onNextInTrail: (nextConceptId: string) => void;
   onOpened?: (conceptId: string) => void;
   onQuizDone?: () => void;
+  /** "Remember more" mode (P7): give the Quiz action visual emphasis. */
+  emphasizeQuiz?: boolean;
 }
 
 export function LessonCard({
@@ -47,19 +50,20 @@ export function LessonCard({
   onNextInTrail,
   onOpened,
   onQuizDone,
+  emphasizeQuiz = false,
 }: LessonCardProps) {
   const { t } = useTranslation();
   const { library, prefs, reportStorageError } = useApp();
   const toast = useToast();
   const [sheet, setSheet] = useState<'quiz' | 'deeper' | 'sources' | null>(null);
   const { markCompleted } = useLessonTracking(variant, active, onOpened);
-  // Graceful overflow (P6): if the text is taller than the card, it scrolls inside the
-  // card with a fade cue; at the end, the next swipe moves the feed as usual.
+  // Cards never scroll (P6 decision): when the paragraphs don't fit, they end in a
+  // fade with "Continue reading", which opens Go deeper starting with the full text.
   const textRef = useRef<HTMLDivElement>(null);
   const [overflow, setOverflow] = useState(false);
   const updateOverflow = useCallback(() => {
     const el = textRef.current;
-    if (el) setOverflow(el.scrollHeight - el.scrollTop - el.clientHeight > 2);
+    if (el) setOverflow(el.scrollHeight - el.clientHeight > 1);
   }, []);
   useEffect(() => {
     const el = textRef.current;
@@ -71,6 +75,12 @@ export function LessonCard({
       observer.disconnect();
     };
   }, [updateOverflow]);
+  const [deeperWithText, setDeeperWithText] = useState(false);
+  const openDeeper = (withFullText: boolean) => {
+    setDeeperWithText(withFullText);
+    setSheet('deeper');
+    progress.record('deep_dive_opened', concept.id, variant.locale).catch(reportStorageError);
+  };
   const speech = useSpeech(
     variant.locale,
     prefs.audioSpeed,
@@ -187,7 +197,17 @@ export function LessonCard({
         <span className="sr-only">{variant.heroMedia.alt}</span>
       </div>
 
-      <div className="card-body flex min-h-0 flex-col px-5 pt-2.5">
+      {/* Tapping the card opens Go deeper. Keyboard and screen-reader users have the
+          "Go deeper" button for the same action, so this is a pointer shortcut only. */}
+      {/* eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions */}
+      <div
+        className="card-body flex min-h-0 cursor-pointer flex-col px-5 pt-2.5"
+        onClick={(e) => {
+          if ((e.target as HTMLElement).closest('button, a')) return;
+          if (window.getSelection()?.toString()) return; // selecting text, not tapping
+          openDeeper(overflow);
+        }}
+      >
         <p className="card-meta truncate text-[12.5px] font-medium text-muted" lang={prefs.locale}>
           {draft && (
             <button
@@ -231,17 +251,32 @@ export function LessonCard({
         >
           {variant.title}
         </h2>
-        <div
-          ref={textRef}
-          onScroll={updateOverflow}
-          data-overflow={overflow ? 'more' : undefined}
-          className="card-text mt-1.5 flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto text-ink/90"
-        >
-          {paragraphs.map((b, i) => (
-            <p key={i}>{b.text}</p>
-          ))}
+        <div className="card-text mt-1.5 flex min-h-0 flex-1 flex-col text-ink/90">
+          <div
+            ref={textRef}
+            data-overflow={overflow ? 'more' : undefined}
+            className="card-paragraphs flex min-h-0 flex-1 flex-col gap-2 overflow-hidden"
+          >
+            {paragraphs.map((b, i) => (
+              <p key={i}>{b.text}</p>
+            ))}
+          </div>
+          {overflow && (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                openDeeper(true);
+              }}
+              className="card-continue pressable -mt-1 flex min-h-9 shrink-0 items-center gap-1 self-start rounded-full text-[14px] font-semibold text-primary-strong"
+              lang={prefs.locale}
+            >
+              {t('card.continueReading')}
+              <ChevronDownIcon size={16} />
+            </button>
+          )}
           {takeaway && (
-            <p className="card-takeaway rounded-2xl border-l-4 border-primary bg-accent-soft px-3.5 py-2 font-semibold text-ink">
+            <p className="card-takeaway mt-2 shrink-0 rounded-2xl border-l-4 border-primary bg-accent-soft px-3.5 py-2 font-semibold text-ink">
               {takeaway.text}
             </p>
           )}
@@ -291,6 +326,7 @@ export function LessonCard({
           <ActionButton
             label={t('card.quiz')}
             icon={<QuizIcon />}
+            emphasis={emphasizeQuiz}
             onClick={() => {
               setSheet('quiz');
             }}
@@ -299,7 +335,7 @@ export function LessonCard({
             label={t('card.deeper')}
             icon={<DeeperIcon />}
             onClick={() => {
-              setSheet('deeper');
+              openDeeper(overflow);
             }}
           />
         </div>
@@ -338,11 +374,8 @@ export function LessonCard({
         open={sheet === 'deeper'}
         onOpenChange={(o) => {
           setSheet(o ? 'deeper' : null);
-          if (o)
-            progress
-              .record('deep_dive_opened', concept.id, variant.locale)
-              .catch(reportStorageError);
         }}
+        withFullText={deeperWithText}
         variant={variant}
         concept={concept}
         nextConceptId={nextId}
@@ -371,12 +404,14 @@ function ActionButton({
   onClick,
   pressed,
   muted,
+  emphasis,
 }: {
   label: string;
   icon: React.ReactNode;
   onClick: () => void;
   pressed?: boolean;
   muted?: boolean;
+  emphasis?: boolean;
 }) {
   return (
     <button
@@ -385,7 +420,7 @@ function ActionButton({
       aria-pressed={pressed}
       className={`pressable flex min-h-[52px] flex-col items-center justify-center gap-0.5 rounded-2xl px-1 text-[12px] leading-tight font-semibold hover:bg-sunken ${
         pressed ? 'text-primary-strong' : muted ? 'text-muted' : 'text-ink'
-      }`}
+      } ${emphasis === true ? 'bg-accent-soft text-primary-strong' : ''}`}
     >
       <span className={`action-icon ${pressed ? 'is-on' : ''}`}>{icon}</span>
       <span className="text-center">{label}</span>

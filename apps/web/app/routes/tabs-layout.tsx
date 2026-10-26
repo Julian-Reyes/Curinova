@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link, Outlet, redirect } from 'react-router';
 import { BottomNav } from '../components/BottomNav';
-import { OfflineIcon } from '../components/icons';
+import { StatusBanner } from '../components/StatusBanner';
 import { useApp, useDueReviews } from '../data/app-context';
 import { db } from '../data/db';
 import { SessionProvider } from '../features/feed/session';
@@ -46,13 +46,7 @@ export default function TabsLayout() {
         </aside>
         <main id="main" className="min-w-0 pb-[calc(var(--nav-height)+var(--safe-bottom))] lg:pb-0">
           {(!online || !storageOk) && (
-            <div
-              role="status"
-              className="sticky top-0 z-20 flex items-center gap-2 bg-ink px-4 py-2 pt-[calc(var(--safe-top)+8px)] text-sm text-bg"
-            >
-              <OfflineIcon size={18} />
-              <span>{!storageOk ? t('banner.storage') : t('banner.offline')}</span>
-            </div>
+            <StatusBanner message={!storageOk ? t('banner.storage') : t('banner.offline')} />
           )}
           <Outlet />
         </main>

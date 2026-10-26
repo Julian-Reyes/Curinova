@@ -182,3 +182,31 @@ export function TrailEndSlide({ cluster }: { cluster: Cluster }) {
     </SlideShell>
   );
 }
+
+/**
+ * "Remember more" mode (P7): an explicit, skippable review invitation in the feed.
+ * Due reviews are never disguised as new lessons (§6).
+ */
+export function ReviewPromptSlide({ due, onSkip }: { due: number; onSkip: () => void }) {
+  const { t } = useTranslation();
+  return (
+    <SlideShell>
+      <div className="flex size-16 items-center justify-center rounded-full bg-surface text-primary shadow-card">
+        <ReviewIcon size={32} />
+      </div>
+      <h2 className="font-display text-3xl font-semibold text-balance">
+        {t('reviewPrompt.title')}
+      </h2>
+      <p className="max-w-xs text-muted">{t('reviewPrompt.body', { count: due })}</p>
+      <div className="mt-2 flex w-full flex-col items-center gap-2.5">
+        <Link to="/app/review" className={primaryBtn}>
+          <ReviewIcon size={20} />
+          {t('reviewPrompt.start')}
+        </Link>
+        <button type="button" onClick={onSkip} className={linkBtn}>
+          {t('reviewPrompt.later')}
+        </button>
+      </div>
+    </SlideShell>
+  );
+}

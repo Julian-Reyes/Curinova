@@ -10,6 +10,7 @@ import {
   type UserPreferences,
 } from '@lumen/domain';
 import { db, type LumenDB } from './db';
+import { newId } from '../platform/ids';
 
 /*
  * The P0 ProgressRepository (§9.7) over IndexedDB. Everything is keyed by
@@ -53,7 +54,7 @@ export class ProgressStore {
   async deviceId(): Promise<string> {
     const row = await this.database.settings.get('deviceId');
     if (typeof row?.value === 'string') return row.value;
-    const id = crypto.randomUUID();
+    const id = newId();
     await this.database.settings.put({ key: 'deviceId', value: id });
     return id;
   }
@@ -66,7 +67,7 @@ export class ProgressStore {
     now = new Date(),
   ): Promise<ProgressEvent> {
     const event = ProgressEventSchema.parse({
-      eventId: crypto.randomUUID(),
+      eventId: newId(),
       deviceId: await this.deviceId(),
       type,
       conceptId,

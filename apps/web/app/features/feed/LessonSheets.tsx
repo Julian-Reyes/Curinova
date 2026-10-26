@@ -135,11 +135,14 @@ export function DeeperSheet({
   nextConceptId,
   onContinueTrail,
   onOpenSources,
+  withFullText = false,
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   variant: LessonVariant;
   concept: Concept;
+  /** Start with the card's full text (opened from "Continue reading" on a long card). */
+  withFullText?: boolean;
   nextConceptId: string | undefined;
   onContinueTrail: () => void;
   onOpenSources: () => void;
@@ -168,6 +171,22 @@ export function DeeperSheet({
         ) : undefined
       }
     >
+      {withFullText && (
+        <div className="mb-5 flex flex-col gap-3 border-b border-line pb-5 text-[16px] leading-relaxed">
+          {variant.cardBlocks.map((b, i) =>
+            b.type === 'takeaway' ? (
+              <p
+                key={i}
+                className="rounded-2xl border-l-4 border-primary bg-accent-soft px-3.5 py-2.5 font-semibold"
+              >
+                {b.text}
+              </p>
+            ) : (
+              <p key={i}>{b.text}</p>
+            ),
+          )}
+        </div>
+      )}
       <div className="flex flex-col gap-3 text-[16px] leading-relaxed">
         {variant.deepDiveBlocks.map((b, i) =>
           b.type === 'heading' ? (

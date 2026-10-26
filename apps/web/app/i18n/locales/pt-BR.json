@@ -95,6 +95,7 @@
     "saved": "Salva",
     "quiz": "Quiz",
     "deeper": "Ir mais fundo",
+    "continueReading": "Continuar lendo",
     "nextInTrail": "Próximo na trilha:",
     "savedToast": "Salva na Biblioteca",
     "unsavedToast": "Removida da Biblioteca"
@@ -319,5 +320,12 @@
     "contentPreview": "Esta é uma versão de prévia. As lições são rascunhos de demonstração que ainda não passaram pela verificação de fontes nem pela revisão humana.",
     "contentReviewed": "Todas as lições passaram por checagem de fontes e revisão humana.",
     "replayIntro": "Ver a introdução de novo"
+  },
+  "reviewPrompt": {
+    "title": "Hora de relembrar",
+    "body_one": "{{count}} pergunta está esperando por você. Lembrar alguns dias depois é o que faz a ideia ficar.",
+    "body_other": "{{count}} perguntas estão esperando por você. Lembrar alguns dias depois é o que faz a ideia ficar.",
+    "start": "Revisar agora",
+    "later": "Depois, continuar explorando"
   }
 }

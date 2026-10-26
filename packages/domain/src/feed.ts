@@ -1,4 +1,5 @@
 import { seededRandom } from './random';
+import type { Purpose } from './schemas/user';
 
 /*
  * Transparent, cluster-aware feed ranking (§6). No ML and no network: a pure
@@ -38,6 +39,8 @@ export interface FeedInput {
   clusterLinks: ReadonlyMap<string, readonly string[]>;
   /** Per-session seed, so the order never jumps mid-session. */
   seed: number;
+  /** The learner's onboarding purpose (P7); selects a weight profile. */
+  purpose?: Purpose | undefined;
   /** Cap the number of items returned. Defaults to every eligible concept. */
   limit?: number;
 }
@@ -50,15 +53,59 @@ export interface FeedResult {
   allMuted: boolean;
 }
 
-export const FEED_WEIGHTS = {
+export interface FeedWeights {
+  interestMatch: number;
+  trailContinuation: number;
+  /** Trails the learner had already started before this session ("previously encountered"). */
+  encounteredTrail: number;
+  clusterAdjacency: number;
+  topicVariety: number;
+  editorialQuality: number;
+  novelty: number;
+  sameTopicAsPreviousTwo: number;
+}
+
+/** §6 illustrative weights; used when no purpose was chosen. */
+export const FEED_WEIGHTS: FeedWeights = {
   interestMatch: 3.0,
   trailContinuation: 2.5,
+  encounteredTrail: 0,
   clusterAdjacency: 1.5,
   topicVariety: 2.0,
   editorialQuality: 1.0,
   novelty: 1.0,
   sameTopicAsPreviousTwo: -2.0,
-} as const;
+};
+
+/**
+ * Purpose profiles (P7, founder decision 2026-10-26). The §6 hard rules (trail order,
+ * no three same-topic cards in a row, ~25% exploration slots) apply to every profile.
+ * - explore: new, surprising topics and diversity across subjects.
+ * - deep: connected lessons, trails and progression through a topic.
+ * - remember: previously encountered material (review prompts and quizzes are added by the app).
+ */
+export const PURPOSE_WEIGHTS: Record<Purpose, FeedWeights> = {
+  explore: {
+    ...FEED_WEIGHTS,
+    interestMatch: 1.5,
+    trailContinuation: 1.0,
+    topicVariety: 4.0,
+    novelty: 2.0,
+    clusterAdjacency: 0.5,
+  },
+  deep: {
+    ...FEED_WEIGHTS,
+    trailContinuation: 6.0,
+    clusterAdjacency: 3.0,
+    topicVariety: 0.5,
+    novelty: 0.5,
+  },
+  remember: { ...FEED_WEIGHTS, trailContinuation: 3.0, encounteredTrail: 3.0, novelty: 0.5 },
+};
+
+export function weightsFor(purpose: Purpose | undefined): FeedWeights {
+  return purpose === undefined ? FEED_WEIGHTS : PURPOSE_WEIGHTS[purpose];
+}
 
 /** Every Nth position goes to the best card outside the learner's interests (≈25%). */
 export const EXPLORATION_EVERY = 4;
@@ -79,7 +126,11 @@ export function rankFeed(input: FeedInput): FeedResult {
   for (const c of [...unseen].sort((a, b) => a.clusterOrder - b.clusterOrder)) {
     queues.set(c.clusterId, [...(queues.get(c.clusterId) ?? []), c]);
   }
-  const started = new Set(pool.filter((c) => input.seen.has(c.conceptId)).map((c) => c.clusterId));
+  const W = weightsFor(input.purpose);
+  const encountered = new Set(
+    pool.filter((c) => input.seen.has(c.conceptId)).map((c) => c.clusterId),
+  );
+  const started = new Set(encountered);
   const engaged = new Set([...input.clusterEngagement].filter(([, n]) => n > 0).map(([id]) => id));
   const adjacent = new Set([...engaged].flatMap((id) => input.clusterLinks.get(id) ?? []));
 
@@ -108,13 +159,14 @@ export function rankFeed(input: FeedInput): FeedResult {
     const score = (c: FeedConcept) => {
       const continuing = started.has(c.clusterId);
       return (
-        FEED_WEIGHTS.interestMatch * (interests.has(c.topicId) ? 1 : 0) +
-        FEED_WEIGHTS.trailContinuation * (continuing ? 1 : 0) +
-        FEED_WEIGHTS.clusterAdjacency * (adjacent.has(c.clusterId) ? 1 : 0) +
-        FEED_WEIGHTS.topicVariety * (recentTopics.includes(c.topicId) ? 0 : 1) +
-        FEED_WEIGHTS.editorialQuality * (c.quality ?? 0.5) +
-        FEED_WEIGHTS.novelty * (jitter.get(c.conceptId) ?? 0) +
-        FEED_WEIGHTS.sameTopicAsPreviousTwo * (lastTwo.includes(c.topicId) ? 1 : 0)
+        W.interestMatch * (interests.has(c.topicId) ? 1 : 0) +
+        W.trailContinuation * (continuing ? 1 : 0) +
+        W.encounteredTrail * (encountered.has(c.clusterId) ? 1 : 0) +
+        W.clusterAdjacency * (adjacent.has(c.clusterId) ? 1 : 0) +
+        W.topicVariety * (recentTopics.includes(c.topicId) ? 0 : 1) +
+        W.editorialQuality * (c.quality ?? 0.5) +
+        W.novelty * (jitter.get(c.conceptId) ?? 0) +
+        W.sameTopicAsPreviousTwo * (lastTwo.includes(c.topicId) ? 1 : 0)
       );
     };
 
