@@ -2,7 +2,7 @@
 
 This document explains, in plain English, what has been built, why, and how the pieces fit together. It's written for founders, partners, associates and future developers, so you don't need to be an engineer to follow it. Technical terms are explained the first time they appear.
 
-> **About the name.** The app is currently called "CurioFeed", but that is a **working title** that will change before launch (other apps already use "Curio"). Inside the code, everything permanent uses the neutral codename **lumen**. Renaming the app later is a one-line change; see [Renaming the product](docs/DECISIONS.md#renaming-the-product).
+> **About the name.** The app is currently called **"Curinova"**. That is a **working title**: the final name still needs trademark and domain checks before launch. Inside the code, everything permanent uses the neutral codename **lumen**, so renaming the app is a one-line change; see [Renaming the product](docs/DECISIONS.md#renaming-the-product).
 
 ---
 

@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { BRAND, brandNamePattern, RETIRED_BRAND_NAMES } from '@lumen/domain';
 import en from './locales/en.json';
 import ptBR from './locales/pt-BR.json';
 
@@ -8,6 +9,7 @@ import ptBR from './locales/pt-BR.json';
  * base key, and each locale must provide at least _one and _other.
  */
 type Tree = { [key: string]: string | Tree };
+const NAMES = [BRAND.name, ...RETIRED_BRAND_NAMES].map(brandNamePattern);
 const PLURAL = /_(zero|one|two|few|many|other)$/;
 
 function flatten(tree: Tree, prefix = ''): Map<string, string> {
@@ -58,9 +60,9 @@ describe('i18n completeness', () => {
     expect(mismatched).toEqual([]);
   });
 
-  it('never hard-codes the display name (use {{appName}})', () => {
+  it('never hard-codes the display name, current or retired (use {{appName}})', () => {
     const offenders = [...locales['pt-BR'], ...locales.en]
-      .filter(([, v]) => /curio\s?feed/i.test(v))
+      .filter(([, v]) => NAMES.some((pattern) => pattern.test(v)))
       .map(([k]) => k);
     expect(offenders).toEqual([]);
   });

@@ -12,7 +12,7 @@ These are open and **do not block** M1/M2. They must be settled before the publi
 
 | #      | Decision                                                                                                                               | Spec     | Notes                                                                                                                                                                                                                      |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| P1     | Final product name and trademark clearance                                                                                             | §0.1     | Check INPI (classes 9 and 41), USPTO, app stores, registro.br, .com/.app. Renaming is cheap by design (see "Renaming the product").                                                                                        |
+| P1     | Final product name and trademark clearance                                                                                             | §0.1     | Working title is now **Curinova** (2026-10-26). Before launch, check INPI (classes 9 and 41), USPTO, app stores, registro.br, .com/.app. Renaming is cheap by design (see "Renaming the product").                         |
 | P2     | License all lesson text CC BY-SA 4.0?                                                                                                  | §5.6     | Until decided, drafts carry `contentLicense: "pending"`, and the validator blocks publishing anything "pending".                                                                                                           |
 | P3     | LGPD legal basis for aggregate analytics (legitimate interest vs consent); is a formal _encarregado_ (data protection officer) needed? | §13, §14 | Analytics are M4.                                                                                                                                                                                                          |
 | P4     | ECA Digital (Lei 15.211/2025) age policy                                                                                               | §14      | Needed before launch and before accounts (P1).                                                                                                                                                                             |
@@ -24,17 +24,19 @@ These are open and **do not block** M1/M2. They must be settled before the publi
 
 ## Renaming the product
 
-"CurioFeed" is a working title (§0.1). It is **only** a display name.
+"Curinova" is the current working title (founder, 2026-10-26). It is **only** a display name, and final clearance is still pending (P1).
+
+**History:** "CurioFeed" (the spec's working title) → "Curinova" (2026-10-26). Retired names are listed in `RETIRED_BRAND_NAMES` in `brand.ts`.
 
 **Where the display name appears (change these to rename):**
 
-1. `packages/domain/src/brand.ts` → `BRAND.name` and `BRAND.shortName`. This is the one-line rename. From it, the name flows into:
+1. `packages/domain/src/brand.ts` → `BRAND.name` and `BRAND.shortName`, plus adding the outgoing name to `RETIRED_BRAND_NAMES`. This is the one-line rename. From it, the name flows into:
    - every UI string, through the i18n variable `{{appName}}` (`apps/web/app/i18n/index.ts`)
    - the HTML `<title>` and `apple-mobile-web-app-title` (`apps/web/app/root.tsx`)
    - the PWA manifest `name` / `short_name` (`apps/web/vite.config.ts`)
 2. Documents that describe the rename: `docs/SPEC.md` (historical; leave it), this file and `WALKTHROUGH.md`.
 
-`packages/domain/test/rename-guard.test.ts` fails if the name shows up anywhere else.
+`packages/domain/test/rename-guard.test.ts` fails if the current name shows up anywhere else, or if a retired name shows up outside this file and `docs/SPEC.md`. The i18n completeness test also fails if either kind of name is typed into a translation instead of `{{appName}}`.
 
 **What must NEVER change** (all use the internal codename `lumen`):
 
