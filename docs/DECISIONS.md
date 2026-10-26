@@ -67,6 +67,8 @@ The PWA manifest `id` is `/` (not the name), so installed apps survive a rename.
 The spec says Node 22. We use **Node 24** because Node 22 leaves LTS in April 2027: `.nvmrc` = `24`, `engines.node` = `>=24`, CI on Node 24. pnpm 10 is pinned via `packageManager` and Corepack.
 _Note:_ jsdom 30 needs Node ≥ 24.15, and this machine has 24.14, so tests use jsdom 29. Updating local Node to the latest 24.x would allow jsdom 30.
 
+**Security update (2026-10-25):** the minimum is now **Node 24.22.1** (`.nvmrc` = `24.22.1`, `engines.node` = `>=24.22.1`). That release fixes CVE-2026-111497, a Brotli decompression flaw in Node's bundled Brotli library, plus six other CVEs (http, dns, tls, permission model, crypto); see the 24.22.1 entry in Node's `CHANGELOG_V24.md`. Production is a static site with no Node server, so the exposure was our tooling (installs, dev server, builds, Playwright, CI). `engine-strict` now refuses to install on older Node. This also clears the jsdom 30 requirement (Node ≥ 24.15), but upgrading jsdom is a separate change.
+
 ### D3 · Git: local only — Founder
 
 Local Git on `main`. The GitHub Actions workflow exists (`.github/workflows/ci.yml`), but no remote is configured and nothing is pushed. "Passes in CI" will be verified when GitHub is connected.

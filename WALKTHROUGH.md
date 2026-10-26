@@ -70,7 +70,7 @@ The rulebook is kept separate from the shop floor on purpose: the same rules wil
 **Key choices:**
 
 - **TypeScript in strict mode.** TypeScript is JavaScript with types: it catches whole classes of mistakes (like passing a number where text was expected) before the code ever runs. "Strict" turns on every safety check.
-- **Node 24.** Node runs our tools. The spec said version 22, but the founder chose 24 because 22 stops receiving long-term support in April 2027.
+- **Node 24.** Node runs our tools. The spec said version 22, but the founder chose 24 because 22 stops receiving long-term support in April 2027. On 25 October 2026 the minimum was raised to **24.22.1**, a security release that fixes a flaw in how Node decompresses Brotli-compressed data (CVE-2026-111497). The project now refuses to install on an older Node.
 - **Latest compatible versions.** Some brand-new versions of tools weren't compatible with each other yet, so we picked the newest set that works together. For example, the routing library stays on version 7 because that's what was approved, and the newest TypeScript (7) isn't yet supported by the code checker. Exact versions are recorded in `pnpm-lock.yaml`.
 
 **The safety net:** five commands that must pass before every commit:

@@ -12,7 +12,7 @@ A free, mobile-first, bite-sized learning feed: _scroll with curiosity, leave wi
 
 ## Requirements
 
-- Node 24 (`nvm use` reads `.nvmrc`)
+- Node 24.22.1 or newer (`nvm use` reads `.nvmrc`); older versions have known security flaws
 - pnpm 10 via Corepack: `corepack enable`
 
 No accounts, API keys or paid services are needed.
