@@ -60,7 +60,7 @@
           "excerpt": "Most shorelines experience two high and low tides per day."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -73,7 +73,7 @@
           "excerpt": "the gravitational attraction between two bodies is directly proportional to their masses, and inversely proportional to the square of the distance between the bodies"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -107,7 +107,7 @@
           "excerpt": "Because the Earth rotates through two tidal “bulges” every lunar day, coastal areas experience two high and two low tides every 24 hours and 50 minutes. High tides occur 12 hours and 25 minutes apart."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "Tidal forces are based on the gravitational attractive force."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "which gives it a little less than half of the Moon’s tide-generating force."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -158,7 +158,7 @@
           "excerpt": "Perto da lua nova e da lua cheia, o Sol, a Lua e a Terra ficam quase alinhados, e as componentes lunar e solar reforçam uma à outra."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -175,7 +175,7 @@
           "excerpt": "A diferença entre preamar e baixa-mar tende a aumentar, produzindo as marés vivas ou marés de sizígia."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -188,7 +188,7 @@
           "excerpt": "Spring tides occur twice each lunar month all year long without regard to the season."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -205,7 +205,7 @@
           "excerpt": "Nos quartos crescente e minguante, as direções do Sol e da Lua vistas da Terra formam aproximadamente um ângulo reto. As duas componentes se compensam em parte, e a diferença entre preamar e baixa-mar tende a diminuir. Essas são as marés mortas ou marés de quadratura."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -226,7 +226,7 @@
           "excerpt": "Narrow inlets and shallow water also tend to dissipate incoming tides."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -243,7 +243,7 @@
           "excerpt": "mid-oceanic islands not near continental margins typically experience very small tides of 1 meter or less"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -256,7 +256,7 @@
           "excerpt": "Destaca-se pela amplitude das marés, que alcançam até 7,2 m nas marés de sizígia. No entanto, em 75% do tempo, a amplitude máxima fica inferior a 5,5 metros.(com média de 4,9 m de amplitude)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     }
   ],

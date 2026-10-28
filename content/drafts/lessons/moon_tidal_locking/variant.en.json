@@ -56,7 +56,7 @@
           "excerpt": "Earth’s Moon rotates, but it takes precisely as long for the Moon to spin on its axis as it does to complete its monthly orbit around Earth."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -69,7 +69,7 @@
           "excerpt": "The Moon makes a complete orbit around Earth in 27 Earth days and rotates or spins at that same rate, or in that same amount of time."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -82,7 +82,7 @@
           "excerpt": "so the same hemisphere faces Earth all the time."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -99,7 +99,7 @@
           "excerpt": "This phenomenon, called “synchronous tidal locking,” sounds like a weird coincidence"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -112,7 +112,7 @@
           "excerpt": "would have been spinning wildly, with its shape changing as it was pulled at by Earth’s gravity."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -125,7 +125,7 @@
           "excerpt": "Earth’s gravitational pull distorts the Moon into a slight football shape even today"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -138,7 +138,7 @@
           "excerpt": "As the energy dissipated, the Moon’s rotation slowed until a single spin on its axis took the same amount of time as one trip around Earth."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -151,7 +151,7 @@
           "excerpt": "Some people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -164,7 +164,7 @@
           "excerpt": "And a \"new moon\" occurs when the far side of the Moon has full sunlight, and the side facing us is having its night."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -181,7 +181,7 @@
           "excerpt": "allowing us to peek around the Moon's shoulder and catch glimpses of the farside. This phenomenon is called libration."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -198,7 +198,7 @@
           "excerpt": "The image at the top of the page is the first image of the far side of the Moon, taken by the Luna 3 spacecraft in October, 1959."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -211,7 +211,7 @@
           "excerpt": "All the solar system’s large moons are tidally locked with their planets."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -232,7 +232,7 @@
           "excerpt": "is locked by gravity to Jupiter, so the same hemisphere of the moon always faces the planet."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

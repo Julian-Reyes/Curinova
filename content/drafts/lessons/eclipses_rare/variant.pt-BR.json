@@ -60,7 +60,7 @@
           "excerpt": "The moon appears new (dark) when it is directly between the Earth and the sun."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -77,7 +77,7 @@
           "excerpt": "from our perspective, the Moon appears to orbit us every 29 days."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "the reason is that the moon’s orbit around Earth is inclined to Earth’s orbit around the sun by about 5 degrees."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -111,7 +111,7 @@
           "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "If the full moon or new moon sweeps appreciably close to one of these nodes, then an eclipse is inevitable."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -145,7 +145,7 @@
           "excerpt": "eclipses tend to occur on a roughly six-month cycle."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -162,7 +162,7 @@
           "excerpt": "Even though the Moon is 400 times smaller than the Sun, it's also about 400 times closer to Earth than the Sun is. This means that from Earth, the Moon and the Sun appear to be roughly the same size in the sky."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -175,7 +175,7 @@
           "excerpt": "We can't normally see the corona—the Sun's outer atmosphere — because Sun's surface below it is so much brighter. But during a total solar eclipse, the corona emerges"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -192,7 +192,7 @@
           "excerpt": "it will take more than 600 million years for total solar eclipses to completely disappear!"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -205,7 +205,7 @@
           "excerpt": "Nenhum eclipse solar teve tanta repercussão na história da ciência como o de 29 de maio de 1919, fotografado e analisado ao mesmo tempo por duas equipes de astrônomos britânicos. Uma delas foi enviada à cidade de Sobral, no interior do Ceará; a outra, à ilha do Príncipe, então um território português na costa da África Ocidental."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -226,7 +226,7 @@
           "excerpt": "Eddington used photographs and readings taken in Sobral to show the deflection of starlight by the sun’s gravity, which confirmed Einstein’s theory of relativity."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

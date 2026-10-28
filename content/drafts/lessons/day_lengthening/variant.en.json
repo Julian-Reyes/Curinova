@@ -56,7 +56,7 @@
           "excerpt": "it creates friction that slows Earth’s own rotation"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -69,7 +69,7 @@
           "excerpt": "the day on Earth lengthens by two milliseconds as the planet’s rotation gradually winds down."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -90,7 +90,7 @@
           "excerpt": "grows by 1.8 milliseconds"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -107,7 +107,7 @@
           "excerpt": "create a series of diurnal growth increments."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "There were 400 days in a year then."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "400 million years ago, days were 21 and 1/2 hours long."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -158,7 +158,7 @@
           "excerpt": "creates forces that change the Moon’s orbital speed, causing it to fall farther away into space."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -171,7 +171,7 @@
           "excerpt": "retroreflector was positioned on the Moon in 1969 by the Apollo 11 astronauts. By beaming laser pulses at the reflector from Earth, scientists have been able to determine the round-trip travel time that gives the distance between the two bodies"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -188,7 +188,7 @@
           "excerpt": "lunar laser ranging has accurately shown that the distance between the two increases by 1.5 inches (3.8 centimeters) a year."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -201,7 +201,7 @@
           "excerpt": "Ranging has also determined that the length of an Earth day has distinct small-scale variations of about one thousandth of a second over the course of a year, caused by the atmosphere, tides, and Earth's core."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -214,7 +214,7 @@
           "excerpt": "A leap second is a second added to Coordinated Universal Time (UTC) in order to keep it synchronized with astronomical time. UTC is an atomic time scale, based on the performance of atomic clocks"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -235,7 +235,7 @@
           "excerpt": "A resolution to stop adding leap seconds by 2035"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

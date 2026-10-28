@@ -60,7 +60,7 @@
           "excerpt": "Most shorelines experience two high and low tides per day."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -73,7 +73,7 @@
           "excerpt": "the gravitational attraction between two bodies is directly proportional to their masses, and inversely proportional to the square of the distance between the bodies"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -107,7 +107,7 @@
           "excerpt": "Because the Earth rotates through two tidal “bulges” every lunar day, coastal areas experience two high and two low tides every 24 hours and 50 minutes. High tides occur 12 hours and 25 minutes apart."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "Tidal forces are based on the gravitational attractive force."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "which gives it a little less than half of the Moon’s tide-generating force."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -154,7 +154,7 @@
           "excerpt": "When the sun, moon, and Earth are in alignment (at the time of the new or full moon), the solar tide has an additive effect on the lunar tide, creating extra-high high tides, and very low, low tides—both commonly called spring tides."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -167,7 +167,7 @@
           "excerpt": "This means that high tides are a little higher and low tides are a little lower than average. These are called spring tides"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -184,7 +184,7 @@
           "excerpt": "A spring tide is a common historical term that has nothing to do with the season of spring."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -201,7 +201,7 @@
           "excerpt": "Neap tides occur during the first and third quarter moon"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -222,7 +222,7 @@
           "excerpt": "Narrow inlets and shallow water also tend to dissipate incoming tides."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -239,7 +239,7 @@
           "excerpt": "mid-oceanic islands not near continental margins typically experience very small tides of 1 meter or less"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
