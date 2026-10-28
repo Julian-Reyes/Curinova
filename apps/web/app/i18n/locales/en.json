@@ -72,7 +72,9 @@
     "next": "Next lesson",
     "allMutedTitle": "Every topic is muted",
     "allMutedBody": "Unmute at least one topic to see lessons here.",
-    "openSettings": "Open settings"
+    "openSettings": "Open settings",
+    "seenAllTitle": "You’ve seen everything new for now",
+    "seenAllBody": "New lessons arrive regularly. Meanwhile, here are the ones you saw longest ago. Keep scrolling."
   },
   "card": {
     "minutes_one": "{{count}} min",
@@ -154,27 +156,6 @@
   "rail": {
     "trail": "Trail",
     "keyboard": "to navigate"
-  },
-  "session": {
-    "title": "Nice work!",
-    "summary_one": "You explored {{count}} idea.",
-    "summary_other": "You explored {{count}} ideas.",
-    "quizzes_one": "And answered {{count}} quiz.",
-    "quizzes_other": "And answered {{count}} quizzes.",
-    "question": "Quick recall check, or call it a day?",
-    "review": "Review what I learned",
-    "keepExploring": "Keep exploring",
-    "changeGoal": "Change my goal",
-    "done": "Done for today",
-    "finishedTitle": "See you next time!",
-    "finishedBody": "Your progress is saved. Come back whenever you like: your reviews will be waiting in the Review tab.",
-    "newSession": "Start a new session"
-  },
-  "exhausted": {
-    "title": "You've explored everything here",
-    "body": "New trails arrive regularly. Meanwhile, how about a different topic?",
-    "try": "Try",
-    "recycle": "See lessons I've already seen"
   },
   "trail": {
     "exit": "Exit trail",
@@ -311,10 +292,6 @@
     "theme": "Theme",
     "reduceMotion": "Reduce motion",
     "reduceMotionHint": "We also follow your system setting.",
-    "session": "Session",
-    "sessionSize": "Cards per session",
-    "sessionSizeHint": "After this many, we pause gently. You can always keep going.",
-    "unlimited": "No limit",
     "topics": "Topics",
     "interests": "Your interests",
     "interestsHint": "Shown more often in the feed, with room for new things.",

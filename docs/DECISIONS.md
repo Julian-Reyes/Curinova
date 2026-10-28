@@ -228,6 +228,15 @@ The content build must:
 
 Design it for the app-store production app with hundreds of lessons and images, not for today's 20.
 
+### D17 · Unlimited Discover feed — Founder (2026-10-28)
+
+Overrides §3.8's session goal and soft stop, and relaxes §6's "never optimize for time-on-app" (P1 note). The founder wants Discover to scroll without end, like TikTok, to keep learners in the app.
+
+- **No session cap.** Discover shows every unseen lesson ranked as before (chosen topics first, about one card in four from other topics, muted topics never), then continues forever. The session-size choice is removed from onboarding and Settings; stored `sessionGoal` values are kept but ignored, so no guest data changes.
+- **Honest catalog end (§6 kept).** When every lesson has been seen, one card says so ("You've seen everything new for now"), then the feed repeats every lesson, seen longest ago first, pass after pass. No button, no stop.
+- **Gentle nudge instead of a stop.** When reviews are due at session start, a skippable "Time to remember" card appears every 20 lessons (and after the first lesson in "Remember more" mode, P7). Nothing blocks scrolling.
+- **Before launch:** review against ECA Digital (Lei 15.211/2025, P4), which has protections for minors against features that encourage compulsive use.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.

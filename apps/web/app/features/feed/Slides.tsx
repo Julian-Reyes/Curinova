@@ -1,8 +1,7 @@
 import type { Cluster } from '@lumen/domain';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
-import { ArrowRightIcon, CheckIcon, ReviewIcon, SparkIcon } from '../../components/icons';
-import { TopicIcon, topicTint } from '../../components/TopicIcon';
+import { CheckIcon, ReviewIcon, SparkIcon } from '../../components/icons';
 import { useApp } from '../../data/app-context';
 
 /** Full-bleed dark slide for the feed's non-lesson moments (Concept E's end card). */
@@ -30,108 +29,21 @@ const secondaryBtn =
   'pressable flex min-h-[50px] w-full max-w-xs items-center justify-center gap-2 rounded-full px-5 font-semibold text-ink ring-1 ring-white/25 hover:bg-white/10';
 const linkBtn = 'pressable min-h-11 px-4 font-semibold text-ink/80 hover:text-ink';
 
-/** Soft stop after the session goal (§3.8). Not a quota: "Keep exploring" is always there. */
-export function EndOfSessionSlide({
-  explored,
-  quizzes,
-  onKeepExploring,
-  onDone,
-}: {
-  explored: number;
-  quizzes: number;
-  onKeepExploring: () => void;
-  onDone: () => void;
-}) {
+/**
+ * Shown once when every lesson has been seen (§6, honestly, D17); the feed then carries
+ * on with the lessons seen longest ago.
+ */
+export function SeenItAllSlide() {
   const { t } = useTranslation();
   return (
     <SlideShell>
       <div className="flex size-16 items-center justify-center rounded-full bg-white/10 text-ink">
-        <SparkIcon size={34} />
+        <SparkIcon size={32} />
       </div>
       <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight text-balance">
-        {t('session.title')}
+        {t('feed.seenAllTitle')}
       </h2>
-      <p className="max-w-xs text-lg text-ink/75">
-        {t('session.summary', { count: explored })}
-        {quizzes > 0 && ` ${t('session.quizzes', { count: quizzes })}`}
-      </p>
-      <p className="max-w-xs text-ink">{t('session.question')}</p>
-      <div className="mt-2 flex w-full flex-col items-center gap-2.5">
-        <Link to="/app/review" className={primaryBtn}>
-          <ReviewIcon size={20} />
-          {t('session.review')}
-        </Link>
-        <button type="button" onClick={onKeepExploring} className={secondaryBtn}>
-          {t('session.keepExploring')}
-        </button>
-        <div className="flex flex-wrap justify-center gap-1">
-          <Link to="/app/settings#session" className={linkBtn}>
-            {t('session.changeGoal')}
-          </Link>
-          <button type="button" onClick={onDone} className={linkBtn}>
-            {t('session.done')}
-          </button>
-        </div>
-      </div>
-    </SlideShell>
-  );
-}
-
-export function FinishedSlide({ onNewSession }: { onNewSession: () => void }) {
-  const { t } = useTranslation();
-  return (
-    <SlideShell tone="plain">
-      <div className="flex size-16 items-center justify-center rounded-full bg-white/10 text-ink">
-        <CheckIcon size={32} />
-      </div>
-      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight">
-        {t('session.finishedTitle')}
-      </h2>
-      <p className="max-w-xs text-ink/75">{t('session.finishedBody')}</p>
-      <button type="button" onClick={onNewSession} className={`${secondaryBtn} mt-2`}>
-        {t('session.newSession')}
-      </button>
-    </SlideShell>
-  );
-}
-
-/** Catalog exhaustion, said honestly instead of silently recycling (§6). */
-export function ExhaustedSlide({ onRecycle }: { onRecycle: () => void }) {
-  const { t } = useTranslation();
-  const { library, prefs } = useApp();
-  const suggestions = library.topics
-    .filter((tp) => !prefs.interests.includes(tp.id) && !prefs.mutedTopics.includes(tp.id))
-    .slice(0, 3);
-  return (
-    <SlideShell>
-      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight text-balance">
-        {t('exhausted.title')}
-      </h2>
-      <p className="max-w-xs text-ink/75">{t('exhausted.body')}</p>
-      {suggestions.length > 0 && (
-        <div className="flex w-full max-w-xs flex-col gap-2">
-          <p className="text-sm font-semibold text-muted">{t('exhausted.try')}</p>
-          {suggestions.map((tp) => (
-            <Link
-              key={tp.id}
-              to={`/app/topic/${tp.slug[prefs.locale]}`}
-              className="pressable flex min-h-12 items-center gap-3 rounded-2xl bg-white/8 px-3 text-left font-semibold ring-1 ring-white/15 hover:bg-white/12"
-            >
-              <span
-                className="flex size-8 items-center justify-center rounded-xl"
-                style={{ background: topicTint(tp.accentColor, 0.2) }}
-              >
-                <TopicIcon icon={tp.icon} size={18} />
-              </span>
-              <span className="flex-1">{tp.name[prefs.locale]}</span>
-              <ArrowRightIcon size={18} className="text-muted" />
-            </Link>
-          ))}
-        </div>
-      )}
-      <button type="button" onClick={onRecycle} className={linkBtn}>
-        {t('exhausted.recycle')}
-      </button>
+      <p className="max-w-xs text-ink/75">{t('feed.seenAllBody')}</p>
     </SlideShell>
   );
 }

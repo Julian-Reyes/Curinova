@@ -58,9 +58,9 @@ export function activeCard(page: Page) {
   return page.locator('.feed-slide:not([aria-hidden]) article');
 }
 
-/** The feed header's session progress ("Lesson 2 of 5 this session"), in English. */
-export function sessionPosition(page: Page, current: number, total = 5) {
-  return page.getByRole('img', { name: `Lesson ${current} of ${total} this session` });
+/** The feed is showing its nth slide (1-based); the feed has no session total (D17). */
+export function atSlide(page: Page, n: number) {
+  return page.locator(`.feed-slide[data-index="${String(n - 1)}"]:not([aria-hidden])`);
 }
 
 export async function noHorizontalOverflow(page: Page) {

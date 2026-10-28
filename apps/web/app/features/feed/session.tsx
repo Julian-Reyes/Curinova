@@ -1,8 +1,7 @@
-import { isDue, rankFeed, type FeedItem, type SessionGoal } from '@lumen/domain';
+import { isDue, rankFeed, type FeedItem } from '@lumen/domain';
 import { createContext, useCallback, useContext, useMemo, useState } from 'react';
 import { useApp } from '../../data/app-context';
 import { db } from '../../data/db';
-import { progress } from '../../data/progress';
 import { newId } from '../../platform/ids';
 
 export interface DiscoverSession {
@@ -11,11 +10,12 @@ export interface DiscoverSession {
   items: FeedItem[];
   exhausted: boolean;
   allMuted: boolean;
-  goal: SessionGoal;
-  /** The learner chose "Keep exploring" after the soft stop. */
-  extended: boolean;
-  /** The learner chose "Done" at the soft stop. */
-  finished: boolean;
+  /**
+   * The feed never ends (D17): after the unseen lessons, every non-muted lesson again,
+   * seen longest ago first. Appended once per pass as the learner reaches the end.
+   */
+  repeats: string[];
+  passes: number;
   /** Feed position, restored when returning from a trail or another tab. */
   index: number;
   opened: Set<string>;
@@ -50,6 +50,7 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
   const start = useCallback(
     async (options: { recycle?: boolean } = {}) => {
       let seen = new Set<string>();
+      const lastSeen = new Map<string, string>();
       const engagement = new Map<string, number>();
       let dueAtStart = 0;
       try {
@@ -59,7 +60,11 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         ).length;
         const events = await db.events.toArray();
         for (const e of events) {
-          if (e.type === 'lesson_opened') seen.add(e.conceptId);
+          if (e.type === 'lesson_opened') {
+            seen.add(e.conceptId);
+            const prev = lastSeen.get(e.conceptId);
+            if (prev === undefined || e.occurredAt > prev) lastSeen.set(e.conceptId, e.occurredAt);
+          }
           if (
             e.type === 'lesson_completed' ||
             e.type === 'bookmark_changed' ||
@@ -89,15 +94,19 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         seed,
         purpose: prefs.purpose,
       });
+      // Lessons not seen before this session sort last ('~' > any ISO date).
+      const repeats = library.concepts
+        .filter((c) => !prefs.mutedTopics.includes(c.topicId))
+        .map((c) => c.id)
+        .sort((a, b) => (lastSeen.get(a) ?? '~').localeCompare(lastSeen.get(b) ?? '~'));
       const next: DiscoverSession = {
         sessionId: newId(),
         seed,
         items: result.items,
         exhausted: result.exhausted,
         allMuted: result.allMuted,
-        goal: prefs.sessionGoal,
-        extended: false,
-        finished: false,
+        repeats,
+        passes: 0,
         index: 0,
         opened: new Set(),
         quizzes: 0,
@@ -108,7 +117,7 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         .put({
           sessionId: next.sessionId,
           startedAt: new Date().toISOString(),
-          goal: next.goal,
+          goal: 'unlimited',
           completedConceptIds: [],
         })
         .catch(reportStorageError);
@@ -117,7 +126,6 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
       library,
       prefs.interests,
       prefs.mutedTopics,
-      prefs.sessionGoal,
       prefs.purpose,
       prefs.timezone,
       reportStorageError,
@@ -139,18 +147,4 @@ export function useSession(): SessionContextValue {
   const value = useContext(SessionContext);
   if (value === null) throw new Error('useSession must be used inside <SessionProvider>');
   return value;
-}
-
-/** Ends the current session: records it and the session_finished event. */
-export async function finishSession(
-  session: DiscoverSession,
-  lastConceptId: string | undefined,
-  locale: 'pt-BR' | 'en',
-) {
-  const endedAt = new Date().toISOString();
-  await db.sessions.update(session.sessionId, {
-    endedAt,
-    completedConceptIds: [...session.opened],
-  });
-  if (lastConceptId !== undefined) await progress.record('session_finished', lastConceptId, locale);
 }

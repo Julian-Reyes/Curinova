@@ -72,7 +72,9 @@
     "next": "Próxima lição",
     "allMutedTitle": "Todos os temas estão silenciados",
     "allMutedBody": "Reative pelo menos um tema para ver lições aqui.",
-    "openSettings": "Abrir configurações"
+    "openSettings": "Abrir configurações",
+    "seenAllTitle": "Você já viu tudo de novo por enquanto",
+    "seenAllBody": "Novas lições chegam com frequência. Enquanto isso, aqui estão as que você viu há mais tempo. Continue rolando."
   },
   "card": {
     "minutes_one": "{{count}} min",
@@ -154,27 +156,6 @@
   "rail": {
     "trail": "Trilha",
     "keyboard": "para navegar"
-  },
-  "session": {
-    "title": "Mandou bem!",
-    "summary_one": "Você explorou {{count}} ideia.",
-    "summary_other": "Você explorou {{count}} ideias.",
-    "quizzes_one": "E respondeu {{count}} quiz.",
-    "quizzes_other": "E respondeu {{count}} quizzes.",
-    "question": "Quer revisar rapidinho ou parar por hoje?",
-    "review": "Revisar o que aprendi",
-    "keepExploring": "Continuar explorando",
-    "changeGoal": "Mudar minha meta",
-    "done": "Parar por hoje",
-    "finishedTitle": "Até a próxima!",
-    "finishedBody": "Seu progresso está salvo. Volte quando quiser: as revisões ficam esperando na aba Revisar.",
-    "newSession": "Começar nova sessão"
-  },
-  "exhausted": {
-    "title": "Você explorou tudo por aqui",
-    "body": "Novas trilhas chegam com frequência. Enquanto isso, que tal um tema diferente?",
-    "try": "Experimente",
-    "recycle": "Rever lições que já vi"
   },
   "trail": {
     "exit": "Sair da trilha",
@@ -311,10 +292,6 @@
     "theme": "Tema",
     "reduceMotion": "Reduzir animações",
     "reduceMotionHint": "Também seguimos a configuração do seu sistema.",
-    "session": "Sessão",
-    "sessionSize": "Cartões por sessão",
-    "sessionSizeHint": "Depois desse número, fazemos uma pausa gentil. Você sempre pode continuar.",
-    "unlimited": "Sem limite",
     "topics": "Temas",
     "interests": "Seus interesses",
     "interestsHint": "Aparecem com mais frequência no feed, com espaço para novidades.",

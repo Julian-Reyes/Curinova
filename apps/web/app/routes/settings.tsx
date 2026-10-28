@@ -1,4 +1,4 @@
-import { AUDIO_SPEEDS, LOCALES, type Locale, type SessionGoal, type Theme } from '@lumen/domain';
+import { AUDIO_SPEEDS, LOCALES, type Locale, type Theme } from '@lumen/domain';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation, useNavigate } from 'react-router';
@@ -13,8 +13,6 @@ import { useApp } from '../data/app-context';
 import { defaultPreferences, progress } from '../data/progress';
 import { useSpeech } from '../hooks/useSpeech';
 
-const GOALS: readonly SessionGoal[] = [3, 5, 10, 'unlimited'];
-
 export default function Settings() {
   const { t } = useTranslation();
   const { library, prefs, updatePrefs, reportStorageError } = useApp();
@@ -25,7 +23,7 @@ export default function Settings() {
   const ptVoice = useSpeech('pt-BR', prefs.audioSpeed, 'settings-pt');
   const enVoice = useSpeech('en', prefs.audioSpeed, 'settings-en');
 
-  // Support deep links such as /app/settings#session from the soft stop.
+  // Support deep links such as /app/settings#topics.
   useEffect(() => {
     if (location.hash)
       document.getElementById(location.hash.slice(1))?.scrollIntoView({ block: 'start' });
@@ -99,23 +97,6 @@ export default function Settings() {
               updatePrefs({ reducedMotion: on ? 'reduce' : 'system' });
             }}
           />
-        </Card>
-      </Section>
-
-      <Section title={t('settings.session')} id="session">
-        <Card>
-          <Segmented<SessionGoal>
-            label={t('settings.sessionSize')}
-            options={GOALS.map((g) => ({
-              value: g,
-              label: g === 'unlimited' ? t('settings.unlimited') : String(g),
-            }))}
-            value={prefs.sessionGoal}
-            onChange={(sessionGoal) => {
-              updatePrefs({ sessionGoal });
-            }}
-          />
-          <p className="mt-3 text-sm text-muted">{t('settings.sessionSizeHint')}</p>
         </Card>
       </Section>
 

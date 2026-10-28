@@ -2,7 +2,6 @@ import {
   LOCALES,
   type Locale,
   type Purpose,
-  type SessionGoal,
   type Theme,
   type UserPreferences,
 } from '@lumen/domain';
@@ -26,7 +25,6 @@ import { progress } from '../data/progress';
 
 const STEPS = ['welcome', 'interests', 'goal', 'theme'] as const;
 const PURPOSES: readonly Purpose[] = ['explore', 'deep', 'remember'];
-const GOALS: readonly SessionGoal[] = [3, 5, 10, 'unlimited'];
 
 /**
  * First-run onboarding (§3.1): skippable, under 30 seconds, no registration and no
@@ -252,20 +250,6 @@ export default function Welcome() {
                   })}
                 </div>
               </fieldset>
-              <div className="mt-6">
-                <Segmented<SessionGoal>
-                  label={t('settings.sessionSize')}
-                  options={GOALS.map((g) => ({
-                    value: g,
-                    label: g === 'unlimited' ? t('settings.unlimited') : String(g),
-                  }))}
-                  value={prefs.sessionGoal}
-                  onChange={(sessionGoal) => {
-                    updatePrefs({ sessionGoal });
-                  }}
-                />
-                <p className="mt-2 text-sm text-muted">{t('settings.sessionSizeHint')}</p>
-              </div>
               <NextButton
                 label={t('onboarding.next')}
                 onClick={() => {

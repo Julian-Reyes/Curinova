@@ -1,12 +1,5 @@
 import { expect, test } from '@playwright/test';
-import {
-  activeCard,
-  feedReady,
-  noHorizontalOverflow,
-  onboard,
-  sessionPosition,
-  SHOTS,
-} from './helpers';
+import { activeCard, feedReady, noHorizontalOverflow, onboard, atSlide, SHOTS } from './helpers';
 
 test.describe('guest learner in Portuguese (§16 E2E 1)', () => {
   test.use({ locale: 'pt-BR' });
@@ -103,21 +96,14 @@ test.describe('English learner', () => {
     await expect(fresh.getByRole('link', { name: new RegExp(title.slice(0, 20)) })).toBeVisible();
   });
 
-  test('the session soft-stops after the goal and continues for free (§16 E2E 4)', async ({
-    page,
-  }) => {
-    await onboard(page, 'en', { skip: true }); // default goal: 5
-    for (let i = 1; i < 5; i += 1) {
-      await expect(sessionPosition(page, i)).toBeVisible();
+  test('the feed has no session limit (§16 E2E 4, D17)', async ({ page }) => {
+    await onboard(page, 'en', { skip: true });
+    for (let i = 1; i <= 7; i += 1) {
+      await expect(atSlide(page, i)).toBeVisible();
+      await expect(activeCard(page).locator('h2')).not.toBeEmpty();
       await page.keyboard.press('ArrowDown');
     }
-    await expect(sessionPosition(page, 5)).toBeVisible();
-    await page.keyboard.press('ArrowDown');
-    await expect(page.getByRole('heading', { name: 'Nice work!' })).toBeVisible();
-    await expect(page.getByText(/You explored 5 ideas/)).toBeVisible();
-    await page.getByRole('button', { name: 'Keep exploring' }).click();
-    await expect(activeCard(page)).toBeVisible();
-    await expect(activeCard(page).locator('h2')).not.toBeEmpty();
+    await expect(page.getByRole('heading', { name: 'Nice work!' })).toHaveCount(0);
   });
 
   test('following a trail and exiting returns to the same feed position (§16 E2E 5)', async ({
@@ -125,7 +111,7 @@ test.describe('English learner', () => {
   }) => {
     await onboard(page, 'en', { skip: true });
     await page.keyboard.press('ArrowDown');
-    await expect(sessionPosition(page, 2)).toBeVisible();
+    await expect(atSlide(page, 2)).toBeVisible();
     const feedTitle = await activeCard(page).locator('h2').innerText();
     await activeCard(page)
       .getByRole('button', { name: /^Dive in/ })
@@ -144,7 +130,7 @@ test.describe('English learner', () => {
     await exit.click();
     await page.waitForURL(/\/app\/discover/);
     await feedReady(page);
-    await expect(sessionPosition(page, 2)).toBeVisible();
+    await expect(atSlide(page, 2)).toBeVisible();
     await expect(activeCard(page).locator('h2')).toHaveText(feedTitle);
   });
 
@@ -158,9 +144,9 @@ test.describe('English learner', () => {
       .click();
     await page.keyboard.press('ArrowDown');
     await page.keyboard.press('Escape');
-    await expect(sessionPosition(page, 1)).toBeVisible();
+    await expect(atSlide(page, 1)).toBeVisible();
     await page.keyboard.press('ArrowDown');
-    await expect(sessionPosition(page, 2)).toBeVisible();
+    await expect(atSlide(page, 2)).toBeVisible();
     await page.getByRole('navigation').getByRole('link', { name: 'Explore' }).click();
     await page.getByRole('searchbox').fill('moon');
     await page.keyboard.press('ArrowDown');
