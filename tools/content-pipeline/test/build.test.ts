@@ -7,7 +7,7 @@ import {
   type ContentManifest,
 } from '@lumen/domain';
 import { describe, expect, it } from 'vitest';
-import { buildContent, libraryFromTrees } from '../src/build/build';
+import { buildContent, libraryFromTrees } from '../src/bundle/build';
 import { contentStats, dueForReview } from '../src/reports/reports';
 import { asReal, get, tree, validDocs } from './helpers';
 

@@ -1,6 +1,6 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { libraryFromTrees } from '../build/build';
+import { libraryFromTrees } from '../bundle/build';
 import { loadTree } from '../validate/tree';
 import { contentStats, dueForReview } from './reports';
 

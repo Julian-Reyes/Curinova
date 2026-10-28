@@ -19,7 +19,7 @@ export function lumenContent(channel: ContentChannel): Plugin {
   const build = async () => {
     const { stdout } = await run(
       resolve(repoRoot, 'node_modules/.bin/tsx'),
-      ['tools/content-pipeline/src/build/cli.ts', `--channel=${channel}`],
+      ['tools/content-pipeline/src/bundle/cli.ts', `--channel=${channel}`],
       { cwd: repoRoot },
     );
     return stdout.trim();

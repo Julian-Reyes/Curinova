@@ -7,7 +7,7 @@
     "validate": "tsx src/validate/cli.ts",
     "typecheck": "tsc -p tsconfig.json",
     "media:add": "tsx src/media/add.ts",
-    "content:build": "tsx src/build/cli.ts",
+    "content:build": "tsx src/bundle/cli.ts",
     "content:stats": "tsx src/reports/cli.ts",
     "content:due-review": "tsx src/reports/cli.ts due"
   },
