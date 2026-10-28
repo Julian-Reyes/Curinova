@@ -32,7 +32,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The length of the day also wobbles for other reasons, such as earthquakes, motion in Earth’s core and melting ice, by fractions of a millisecond. That is why atomic-clock time and Earth’s rotation have to be reconciled from time to time with so-called leap seconds."
+      "text": "The length of the day also wobbles for other reasons, such as earthquakes, motion in Earth’s core and melting ice, by fractions of a millisecond. That is why atomic-clock time and Earth’s rotation have been reconciled from time to time with so-called leap seconds. In 2022, the world’s timekeepers decided to stop adding them by 2035 and to find another way to keep the two in step."
     }
   ],
   "heroMedia": {
@@ -54,7 +54,7 @@
   "publicationStatus": "draft",
   "reviewedBy": null,
   "reviewedAt": null,
-  "reviewAfter": null,
+  "reviewAfter": "2028-01-01T00:00:00Z",
   "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "updatedAt": "2026-10-28T17:28:09Z"
 }

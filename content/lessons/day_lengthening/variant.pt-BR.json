@@ -32,7 +32,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A duração do dia também oscila por outros motivos, como terremotos, movimentos no núcleo e o derretimento de geleiras, em frações de milissegundo. Por isso, o tempo dos relógios atômicos e a rotação da Terra precisam ser reconciliados de tempos em tempos, com os chamados segundos intercalares."
+      "text": "A duração do dia também oscila por outros motivos, como terremotos, movimentos no núcleo e o derretimento de geleiras, em frações de milissegundo. Por isso, o tempo dos relógios atômicos e a rotação da Terra vêm sendo reconciliados de tempos em tempos com os chamados segundos intercalares. Em 2022, os responsáveis pela hora mundial decidiram deixar de adicioná-los até 2035 e buscar outra forma de manter os dois em sintonia."
     }
   ],
   "heroMedia": {
@@ -54,7 +54,7 @@
   "publicationStatus": "draft",
   "reviewedBy": null,
   "reviewedAt": null,
-  "reviewAfter": null,
+  "reviewAfter": "2028-01-01T00:00:00Z",
   "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "updatedAt": "2026-10-28T17:28:09Z"
 }

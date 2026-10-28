@@ -5,12 +5,12 @@
   "slug": "when-did-portuguese-become-mandatory-in-brazil",
   "title": "When did Portuguese become mandatory in Brazil?",
   "hook": "It happened by decree in the mid-1700s, and the shift took generations.",
-  "summary": "The 1757 Directorate of the Indians imposed Portuguese in Indigenous villages and banned the general language there.",
-  "cardText": "In 1757. Under the Marquis of Pombal, the Directorate of the Indians required Portuguese in Indigenous villages and banned the Tupi-based general language there, including in schools.",
+  "summary": "The 1757 Directorate of the Indians imposed Portuguese in Indigenous villages, first in the Amazon region and from 1758 across Brazil.",
+  "cardText": "Starting in 1757. Under the Marquis of Pombal, the Directorate of the Indians imposed Portuguese in Indigenous villages of the Amazon region and banned the Tupi-based general language there; in 1758 it was extended to all of Brazil.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "In the mid-18th century, the Portuguese Crown decided the general language had to go. Under the government of the Marquis of Pombal, the Directorate of the Indians, issued in 1757, required Portuguese in Indigenous villages and banned the general language there, including in schools."
+      "text": "In the mid-18th century, the Portuguese Crown decided the general language had to go. Under the government of the Marquis of Pombal, the Directorate of the Indians, issued in 1757 for the State of Grão-Pará and Maranhão in the Amazon region and extended to the rest of Brazil in 1758, required Portuguese in Indigenous villages and banned the general language there, including in schools."
     },
     {
       "type": "paragraph",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Laws do not change languages overnight. In São Paulo, the general language lost speakers over the following decades and eventually disappeared."
+      "text": "Laws do not change languages overnight. In São Paulo, the general language was already giving way to Portuguese before the Directorate, and it disappeared over the following decades."
     },
     {
       "type": "paragraph",
@@ -60,5 +60,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "updatedAt": "2026-10-28T17:28:09Z"
 }
