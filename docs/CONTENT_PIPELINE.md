@@ -19,9 +19,9 @@ approved  snapshot    claims     session     session 3)         + content:build
 
 ## Where things live
 
-- `content/drafts/` (not committed): drafts in the same layout as `content/` (`lessons/<key>/…`, `clusters/…`) and verifier reports in `content/drafts/verify/`. A draft replaces the library copy it shadows when checked.
+- `content/drafts/`: drafts in the same layout as `content/` (`lessons/<key>/…`, `clusters/…`) and verifier reports in `content/drafts/verify/`. Committed on a content branch (e.g. `content/c1-moon`), never on `main`, so separate sessions (including cloud sessions) can hand work over. A draft replaces the library copy it shadows when checked; approved drafts move to `content/lessons/` and leave `content/drafts/`.
 - `content/sources/<id>.json` (committed): each source's title, publisher, URL, language, access date and snapshot hash.
-- `content/sources/.snapshots/<id>.txt` (**local only**, D18): the fetched article text that claims are checked against. The repository is public, so fetched text is never committed or republished.
+- `content/sources/.snapshots/<id>.txt` (**local only**, D18): the fetched article text that claims are checked against. The repository is public, so fetched text is never committed or republished. A session on another machine re-creates them by re-fetching every source: `for f in content/sources/*.json; do pnpm -s content:sources fetch "$(node -p "require('./$f').url")"; done` (a page that changed since will show up as excerpts that no longer match).
 
 ## Commands
 
