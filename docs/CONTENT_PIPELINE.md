@@ -23,6 +23,13 @@ approved  snapshot    claims     session     session 3)         + content:build
 - `content/sources/<id>.json` (committed): each source's title, publisher, URL, language, access date and snapshot hash.
 - `content/sources/.snapshots/<id>.txt` (**local only**, D18): the fetched article text that claims are checked against. The repository is public, so fetched text is never committed or republished. A session on another machine re-creates them by re-fetching every source: `for f in content/sources/*.json; do pnpm -s content:sources fetch "$(node -p "require('./$f').url")"; done` (a page that changed since will show up as excerpts that no longer match).
 
+## Cloud sessions
+
+Writer and verifier sessions often run in Claude Code cloud containers. Two things trip them up:
+
+- **Node version.** The container's default `node` may be older than `.nvmrc`, and pnpm then refuses to run (`ERR_PNPM_UNSUPPORTED_ENGINE`). Install Node 24 with nvm and put it first on `PATH` in every shell command, since shell state does not carry over between commands: `export PATH="$(ls -d /opt/nvm/versions/node/v24*/bin):$PATH"` (after `nvm install 24` once).
+- **Proxy.** Outbound HTTPS goes through a proxy that Node's built-in `fetch` ignores by default, so `content:sources` fails with `fetch failed` / `ENOTFOUND`. Set `NODE_USE_ENV_PROXY=1` for those commands. If the proxy answers 403, the environment's network policy blocks the host: the founder widens Network access in the environment settings (writer sessions need broad access, since sources come from many publishers).
+
 ## Commands
 
 | Command                                      | What it does                                                                                                                                       |
