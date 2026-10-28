@@ -85,12 +85,9 @@ export function LessonArt({
 export function imageCredits(concept: Concept): string[] {
   const credits = new Set<string>();
   for (const image of Object.values(concept.media ?? {})) {
-    if (image.origin.kind === 'licensed')
-      credits.add(
-        image.origin.platform
-          ? `${image.origin.creator}, ${image.origin.platform}`
-          : image.origin.creator,
-      );
+    const origin = image?.origin;
+    if (origin?.kind === 'licensed')
+      credits.add(origin.platform ? `${origin.creator}, ${origin.platform}` : origin.creator);
   }
   return [...credits];
 }

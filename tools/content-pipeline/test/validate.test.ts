@@ -407,7 +407,7 @@ describe('lesson images (D15/P10, P11)', () => {
   const files = (...slots: string[]) =>
     new Set(slots.flatMap((s) => [`/media/a1/${s}.webp`, `/media/a1/${s}-sm.webp`]));
   const issues = (docs: Record<string, unknown>, mediaFiles?: Set<string>) =>
-    validateContent([tree(docs, 'real')], { mediaFiles }).issues;
+    validateContent([tree(docs, 'real')], mediaFiles ? { mediaFiles } : {}).issues;
 
   it('accepts a complete image record whose files exist', () => {
     const docs = asReal(validDocs());
