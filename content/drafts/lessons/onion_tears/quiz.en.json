@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_onion_tears_1__en",
+    "questionGroupId": "qg_onion_tears_1",
+    "conceptId": "concept_onion_tears",
+    "locale": "en",
+    "prompt": "What makes an onion release the gas that stings your eyes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cutting its cells, which mixes compounds that were kept apart"
+      },
+      {
+        "id": "b",
+        "text": "Contact with air, even when the onion is whole"
+      },
+      {
+        "id": "c",
+        "text": "The heat of the knife"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "While the cells are intact, the sulfur compounds and enzymes are separated. The knife mixes them and the reaction begins.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_onion_tears_2__en",
+    "questionGroupId": "qg_onion_tears_2",
+    "conceptId": "concept_onion_tears",
+    "locale": "en",
+    "prompt": "How can you cut an onion so it sprays fewer of the droplets that sting your eyes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use a sharp knife and cut slowly"
+      },
+      {
+        "id": "b",
+        "text": "Use a blunt knife and cut fast"
+      },
+      {
+        "id": "c",
+        "text": "Chill the onion first"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In a 2025 study, blunt blades and fast cuts sprayed more droplets. Chilled onions released more droplets too, not fewer.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_altitude_boiling_1__en",
+    "questionGroupId": "qg_altitude_boiling_1",
+    "conceptId": "concept_altitude_boiling",
+    "locale": "en",
+    "prompt": "Why does water boil below 100 °C in La Paz?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Air pressure is lower at high altitude"
+      },
+      {
+        "id": "b",
+        "text": "The air is colder up there"
+      },
+      {
+        "id": "c",
+        "text": "The water there contains less salt"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "With less air pressing on the surface, water forms steam bubbles at a lower temperature, around 88 °C.",
+    "misconception": "Cold does not change the boiling point; pressure does. Even on a warm day, boiling water in La Paz is around 88 °C.",
+    "claimIds": ["c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_altitude_boiling_2__en",
+    "questionGroupId": "qg_altitude_boiling_2",
+    "conceptId": "concept_altitude_boiling",
+    "locale": "en",
+    "prompt": "How does a pressure cooker cook food faster?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It raises the pressure, so water boils above 100 °C"
+      },
+      {
+        "id": "b",
+        "text": "It makes water boil below 100 °C"
+      },
+      {
+        "id": "c",
+        "text": "It focuses the flame’s heat on one spot"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Higher pressure lifts the boiling point to about 120 °C, and that hotter water cooks food faster.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

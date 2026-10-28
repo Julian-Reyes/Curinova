@@ -1,0 +1,234 @@
+{
+  "id": "lesson_salt_boiling__pt-BR",
+  "conceptId": "concept_salt_boiling",
+  "locale": "pt-BR",
+  "slug": "sal-faz-a-agua-do-macarrao-ferver-mais-rapido",
+  "title": "Sal faz a água do macarrão ferver mais rápido?",
+  "hook": "O conselho é comum na cozinha. A química diz o contrário, por uma fração de grau.",
+  "summary": "Sal eleva levemente o ponto de ebulição; com a quantidade usada na cozinha, o efeito fica bem abaixo de 1 °C.",
+  "cardText": "Não. O sal até eleva o ponto de ebulição, mas uma colher de sopa em alguns litros muda bem menos de 1 °C. Ele está ali, mesmo, para dar sabor à massa.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "É um conselho comum na cozinha, mas a química diz o contrário. Dissolver sal na água eleva levemente o ponto de ebulição, um efeito chamado ebulioscopia. Com a quantidade que costumamos usar, cerca de uma colher de sopa em alguns litros, o aumento fica bem abaixo de 1 °C. Na prática, a diferença no tempo é imperceptível."
+    },
+    {
+      "type": "paragraph",
+      "text": "Então por que parece que a água \"ferve\" ao receber o sal? Os grãos oferecem pontos onde bolhas de vapor se formam com facilidade, e a água já quente borbulha de repente. O sal está ali, mesmo, para dar sabor à massa."
+    },
+    {
+      "type": "takeaway",
+      "text": "O sal sobe o ponto de ebulição só uma fração de grau; ele está ali pelo sabor."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Quanto sal seria preciso?"
+    },
+    {
+      "type": "paragraph",
+      "text": "O efeito depende do número de partículas dissolvidas. Para elevar o ponto de ebulição em 1 °C, seria preciso dissolver quase 60 gramas de sal por litro, uma água bem mais salgada que a do mar, que tem cerca de 3,5% de sal em peso."
+    },
+    {
+      "type": "paragraph",
+      "text": "O sal dissolvido também abaixa o ponto de congelamento da água, e com mais força: os 29 gramas por quilo que sobem a fervura em 0,5 °C baixam o congelamento em quase 2 °C."
+    },
+    {
+      "type": "paragraph",
+      "text": "As bolhas que aparecem ao jogar o sal são um fenômeno chamado nucleação: grãos sólidos, como cristais de sal ou de açúcar, facilitam a formação de bolhas em um líquido já perto de ferver."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "salt-pot",
+    "alt": "Ilustração de uma panela com água fervendo e grãos de sal caindo.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O sal não faz a água ferver mais rápido: dissolvido, ele eleva levemente o ponto de ebulição.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mentalfloss_com_science_chemistry_does_adding_d8bacf",
+          "excerpt": "In fact, adding salt does the very opposite of making water boil faster. Instead, it makes it take longer for the water to boil!"
+        },
+        {
+          "sourceId": "src_mentalfloss_com_science_chemistry_does_adding_d8bacf",
+          "excerpt": "The salt actually increases the boiling point of the water"
+        },
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "Some people believe that the addition of salt increases the boiling point of the water. Technically, they are correct, but the increase is rather small."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Esse efeito se chama ebulioscopia (elevação do ponto de ebulição).",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "Boiling Point Elevation The figure below shows the pha"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Com a quantidade usada na cozinha, cerca de uma colher de sopa em alguns litros, o ponto de ebulição sobe bem menos de 1 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "You would need to add over 100 grams of NaCl to a liter of water to increase the boiling point a couple of degrees"
+        },
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Os grãos de sal oferecem pontos onde bolhas de vapor se formam com facilidade, e a água quente borbulha de repente ao receber o sal.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_thenakedscientists_com_node_179726_c31125",
+          "excerpt": "Every time I put a tablespoon of table salt into boiling water the boil intensifies and then subsides."
+        },
+        {
+          "sourceId": "src_thenakedscientists_com_node_179726_c31125",
+          "excerpt": "They make it much more easy for bubbles of the vapour which is the boiling bit of water at the bottom of the pan to form."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O sal vai na água do macarrão principalmente para dar sabor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "Salt is often added to boiling water when preparing spaghetti or other pasta. One reason is to add flavor to the food."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O efeito depende do número de partículas dissolvidas, e o sal se divide em dois íons.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The Na and Cl dissociate right away when dissolved, and so for a 0.5 molal solution of salt, there is a 1.0 molal concentration of ions"
+        },
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "It is a constant that is equal to the change in the boiling point for a 1-molal solution of a nonvolatile molecular solute."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Para elevar o ponto de ebulição em 1 °C, seria preciso dissolver quase 60 gramas de sal por litro (quilo) de água.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+        },
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "If your concentrations of salt are different, then you can scale the boiling point elevation and melting point depression predictions directly with the concentration."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A água do mar tem cerca de 3,5% de sal em peso.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_whysalty_html_4aadcf",
+          "excerpt": "The average salinity is about 35 parts per thousand. Stated in another way, about 3.5 percent of the weight of seawater comes from the dissolved salts."
+        },
+        {
+          "sourceId": "src_usgs_gov_special_topics_water_science_77bad6",
+          "excerpt": "about 35 of 1,000 (3.5%) of the weight of seawater comes from the dissolved salts"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Os mesmos 29 gramas de sal por quilo de água que sobem a fervura em 0,5 °C baixam o ponto de congelamento em quase 2 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The melting point is lowered by 1.85 degrees Celsius if 29.2 grams of salt are dissolved in each Kg of water"
+        },
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "As bolhas que surgem são um fenômeno chamado nucleação: grãos sólidos, como cristais de sal ou de açúcar, facilitam a formação de bolhas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_thenakedscientists_com_node_179726_c31125",
+          "excerpt": "The reason for this is that the salt crystals (you can put sugar in it and do the same thing) act as what are called nucleation points."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_mentalfloss_com_science_chemistry_does_adding_d8bacf",
+    "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+    "src_van_physics_illinois_edu_ask_listing_da77f1",
+    "src_thenakedscientists_com_node_179726_c31125",
+    "src_oceanservice_noaa_gov_facts_whysalty_html_4aadcf",
+    "src_usgs_gov_special_topics_water_science_77bad6"
+  ],
+  "quizIds": ["q_salt_boiling_1__pt-BR", "q_salt_boiling_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_kitchen_chemistry"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}
