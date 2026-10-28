@@ -93,6 +93,6 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 
 ### Deferred to later milestones
 
-- M3: content pipeline, review tool, `content:check-links`, `content:build`, sourcing and reviewing the sample drafts.
+- M3: content pipeline, review tool, `content:check-links`, `content:build` (must meet D16: content split and a separate image manifest, so small changes download little), sourcing and reviewing the sample drafts.
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).

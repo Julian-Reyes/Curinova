@@ -215,6 +215,19 @@ Resolves P8 and P10–P15 from `docs/M2_5_INTEGRATION_PLAN.md` §2.
 - **Review rows (agent).** Review lists one row per lesson (a lesson has a review state per question), showing its next due question's date.
 - **Implementation notes (agent).** Images live in `apps/web/public/media/<lesson>/<slot>.webp` (+ `-sm`), declared in `concept.json` → `media`, URLs versioned by `addedAt`. Trails exit to the page they were started from (`?from=`), else Discover. The Discover card keeps the spec's reason line and the "Preview" chip (B1) inside E's topic line.
 
+### D16 · Content delivery must scale to hundreds of lessons and images — Founder (2026-10-28)
+
+A requirement for M3's `content:build`, which replaces today's single bundled content file. Today every lesson, quiz, topic and image record ships as one file (about 46 KB compressed for 20 lessons), so any edit, even one picture's version code, makes every phone re-download all of it. At roughly 2–3 KB per lesson that becomes about 1 MB per small change at 500 lessons.
+
+The content build must:
+
+- **Split content** so a change re-downloads only what changed: lessons grouped by topic (or smaller units) in separate, content-hashed files, loaded when needed.
+- **Keep image versions in a small separate manifest** (image → file hash), so replacing one or two pictures costs those pictures plus a few KB, never the lesson data.
+- **Keep per-image hashed URLs** (already in place), so unchanged images stay cached; size the offline image cache for the real library instead of the current 150-image cap.
+- **Be measured:** record download size for a one-image change, a one-lesson change and a first visit, and keep them within budgets set in the M3 plan.
+
+Design it for the app-store production app with hundreds of lessons and images, not for today's 20.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.
