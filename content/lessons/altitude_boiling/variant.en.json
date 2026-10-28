@@ -6,6 +6,7 @@
   "title": "Why does water boil sooner up a mountain?",
   "hook": "In La Paz, water boils at about 88 °C, and beans take far longer to cook.",
   "summary": "With less air pressure, water boils at lower temperatures: it boils sooner but cooks more slowly.",
+  "cardText": "Up high, there’s less air pressing on the water, so it boils at a lower temperature: about 88 °C in La Paz. It boils sooner but cooks more slowly.",
   "cardBlocks": [
     {
       "type": "paragraph",

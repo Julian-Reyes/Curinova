@@ -6,6 +6,7 @@
   "title": "Why are there two high tides a day?",
   "hook": "If the Moon pulls the sea, why does it also bulge on the far side of the planet?",
   "summary": "The Moon pulls Earth’s near and far sides with different strengths, which raises two bulges of water.",
+  "cardText": "Gravity weakens with distance, so the Moon pulls the near ocean harder than Earth’s center, and the center harder than the far ocean. That raises two bulges of water.",
   "cardBlocks": [
     {
       "type": "paragraph",

@@ -16,7 +16,8 @@
     "test:watch": "vitest",
     "test:e2e": "pnpm --filter @lumen/web test:e2e",
     "build": "pnpm -r --if-present run build",
-    "content:validate": "pnpm --filter @lumen/content-pipeline validate"
+    "content:validate": "pnpm --filter @lumen/content-pipeline validate",
+    "media:add": "pnpm --filter @lumen/content-pipeline media:add"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

@@ -98,7 +98,10 @@
     "continueReading": "Continuar lendo",
     "nextInTrail": "Próximo na trilha:",
     "savedToast": "Salva na Biblioteca",
-    "unsavedToast": "Removida da Biblioteca"
+    "unsavedToast": "Removida da Biblioteca",
+    "diveIn": "Mergulhar",
+    "diveInLabel": "Mergulhar: {{title}}",
+    "trailStepShort": "{{step}}/{{total}}"
   },
   "audio": {
     "playing": "Lendo em voz alta…",
@@ -124,7 +127,20 @@
   "deeper": {
     "title": "Ir mais fundo",
     "related": "Ideias relacionadas",
-    "continueTrail": "Continuar esta trilha"
+    "continueTrail": "Continuar esta trilha",
+    "bigPicture": "Visão geral",
+    "keyTakeaways": "Pontos-chave",
+    "howItWorks": "Como funciona",
+    "goFurther": "Para ir além",
+    "sources": "Fontes",
+    "nextInTrail": "Próximo na trilha",
+    "endOfTrail": "Você chegou ao fim desta trilha.",
+    "backToDiscover": "Voltar para Descobrir",
+    "showMore": "Ver mais",
+    "showLess": "Ver menos",
+    "photoCredit": "Foto: {{credit}}",
+    "relatedLabel": "Conceitos relacionados",
+    "draft": "Prévia · ainda não verificada"
   },
   "sources": {
     "title": "Fontes e revisão",
@@ -168,7 +184,8 @@
     "endBody_other": "Você percorreu as {{count}} ideias de “{{trail}}”.",
     "nextTrails": "Para onde ir agora",
     "backToFeed": "Voltar ao feed",
-    "notFound": "Trilha não encontrada"
+    "notFound": "Trilha não encontrada",
+    "leave": "Sair da trilha: {{trail}}"
   },
   "lesson": {
     "seen": "Vista",
@@ -235,7 +252,8 @@
     "mastered": "Dominadas",
     "nextOn": "Próxima revisão: {{date, datetime(day: numeric; month: long)}}",
     "masteredNext": "Dominada · revisão em {{date, datetime(day: numeric; month: long)}}",
-    "howItWorks": "Como funciona: depois de um acerto, a pergunta volta em 1 dia, depois em 3, 7, 14, 30 e 60 dias. Um erro traz a pergunta de volta no dia seguinte. Três revisões certas seguidas contam como “dominada”."
+    "howItWorks": "Como funciona: depois de um acerto, a pergunta volta em 1 dia, depois em 3, 7, 14, 30 e 60 dias. Um erro traz a pergunta de volta no dia seguinte. Três revisões certas seguidas contam como “dominada”.",
+    "position": "{{current}} / {{total}}"
   },
   "library": {
     "title": "Biblioteca",
@@ -250,7 +268,8 @@
       "completedTitle": "Nenhuma lição concluída ainda",
       "completedBody": "Uma lição conta como concluída quando você a lê com calma ou responde o quiz."
     },
-    "localNote": "Suas lições salvas ficam neste aparelho, sem precisar de conta."
+    "localNote": "Suas lições salvas ficam neste aparelho, sem precisar de conta.",
+    "tabCount": "{{label}} · {{count}}"
   },
   "you": {
     "title": "Você",
@@ -281,7 +300,8 @@
     "topics": "Por tema",
     "topicCounts": "{{explored}} de {{total}}",
     "noActivity": "Explore algumas lições e seu progresso por tema aparece aqui.",
-    "localNote": "Seu progresso fica salvo só neste aparelho. Limpar os dados do navegador apaga esse progresso."
+    "localNote": "Seu progresso fica salvo só neste aparelho. Limpar os dados do navegador apaga esse progresso.",
+    "mastered": "Dominadas"
   },
   "settings": {
     "title": "Configurações",

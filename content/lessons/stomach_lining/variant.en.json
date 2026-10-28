@@ -6,6 +6,7 @@
   "title": "Why doesn’t your stomach digest itself?",
   "hook": "The acid that breaks down a steak leaves the stomach wall alone, thanks to layered defenses.",
   "summary": "Mucus, bicarbonate, enzymes activated only in the right place and fast renewal protect the stomach from its own acid.",
+  "cardText": "Its wall has layered defenses: mucus that traps acid-neutralizing bicarbonate, enzymes that switch on only inside the stomach, and surface cells replaced every few days.",
   "cardBlocks": [
     {
       "type": "paragraph",

@@ -6,6 +6,7 @@
   "title": "Por que não há eclipse todo mês?",
   "hook": "A Lua passa entre a Terra e o Sol todo mês. Quase sempre, erra o alvo.",
   "summary": "A órbita da Lua é inclinada cerca de 5 graus; eclipses só acontecem quando o alinhamento coincide com os cruzamentos das órbitas.",
+  "cardText": "A órbita da Lua é inclinada uns 5 graus, e quase sempre a sombra passa acima ou abaixo da Terra. Tudo só se alinha nas temporadas de eclipse, cerca de duas vezes por ano.",
   "cardBlocks": [
     {
       "type": "paragraph",

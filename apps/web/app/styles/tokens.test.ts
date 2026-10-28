@@ -33,6 +33,9 @@ const TEXT_PAIRS: [text: string, background: string][] = [
   ['ink', 'surface-2'],
   ['ink', 'surface-sunken'],
   ['ink', 'accent-soft'],
+  ['ink-soft', 'bg'],
+  ['ink-soft', 'surface'],
+  ['ink-soft', 'surface-2'],
   ['muted', 'bg'],
   ['muted', 'surface'],
   ['muted', 'surface-sunken'],
@@ -60,7 +63,44 @@ describe.each([
   });
 });
 
-it('mint accent is too light for small text on light surfaces (decorative only)', () => {
+it('the accent is too light for text on light surfaces (decorative only)', () => {
   const light = block(":root,\n[data-theme='light']");
   expect(contrast(light.accent!, light.surface!)).toBeLessThan(4.5);
+});
+
+/*
+ * Topic accents: --tl is used for text and marks on page surfaces, ink sits on the --tbg
+ * tint (takeaways, review answers), and --tc is used on the always-dark Discover card.
+ */
+const TOPICS = ['body', 'brain', 'space', 'everyday_science', 'history'];
+const DISCOVER_BG = '#000000';
+
+describe.each(TOPICS)('topic %s', (topic) => {
+  const light = block(":root,\n[data-theme='light']");
+  const dark = block("[data-theme='dark'] {");
+  const lt = block(`[data-topic='${topic}'] {`);
+  const dt = block(`[data-theme='dark'] [data-topic='${topic}'],`);
+
+  it('light: accent text on the page and card, ink on the tint', () => {
+    expect(contrast(lt.tl!, light.bg!)).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(lt.tl!, light.surface!)).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(light.ink!, lt.tbg!)).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(light['ink-soft']!, lt.tbg!)).toBeGreaterThanOrEqual(4.5);
+    // Review answers sit on the tint: right/wrong labels and muted text.
+    for (const text of ['success', 'danger', 'muted'])
+      expect(contrast(light[text]!, lt.tbg!), `${text} on tint`).toBeGreaterThanOrEqual(4.5);
+  });
+
+  it('dark: accent text on the page and card, ink on the tint', () => {
+    expect(contrast(dt.tl!, dark.bg!)).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(dt.tl!, dark.surface!)).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(dark.ink!, dt.tbg!)).toBeGreaterThanOrEqual(4.5);
+    expect(contrast(dark['ink-soft']!, dt.tbg!)).toBeGreaterThanOrEqual(4.5);
+    for (const text of ['success', 'danger', 'muted'])
+      expect(contrast(dark[text]!, dt.tbg!), `${text} on tint`).toBeGreaterThanOrEqual(4.5);
+  });
+
+  it('Discover: the bright accent stands out on the dark card (3:1, non-text)', () => {
+    expect(contrast(lt.tc!, DISCOVER_BG)).toBeGreaterThanOrEqual(3);
+  });
 });

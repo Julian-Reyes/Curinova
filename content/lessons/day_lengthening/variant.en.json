@@ -6,6 +6,7 @@
   "title": "Are Earth’s days getting longer?",
   "hook": "Very slowly, yes. Fossil corals hold the evidence.",
   "summary": "Tidal friction slows Earth’s spin; 400 million years ago a day lasted about 22 hours.",
+  "cardText": "Yes, very slowly. Tidal friction brakes Earth’s spin, adding about 2 milliseconds per century. Fossil corals show days of about 22 hours 400 million years ago.",
   "cardBlocks": [
     {
       "type": "paragraph",

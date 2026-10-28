@@ -6,6 +6,7 @@
   "title": "Por que o estômago não digere a si mesmo?",
   "hook": "O ácido que desmonta um bife não dissolve a parede do órgão. Graças a defesas em camadas.",
   "summary": "Muco, bicarbonato, enzimas ativadas só no lugar certo e renovação rápida protegem o estômago do próprio ácido.",
+  "cardText": "A parede dele tem defesas em camadas: muco que retém bicarbonato para neutralizar o ácido, enzimas que só se ativam dentro do estômago e células da superfície renovadas a cada poucos dias.",
   "cardBlocks": [
     {
       "type": "paragraph",

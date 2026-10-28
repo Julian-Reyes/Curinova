@@ -45,6 +45,62 @@ export const QuestionGroupIdSchema = id(QUESTION_GROUP_ID_PATTERN, 'qg_moon_tida
 
 const fixtureFlag = { fixture: z.literal(true).optional() };
 
+/** Image slots a lesson can have (D15/P10): the Discover card, Go Deeper and Review. */
+export const MEDIA_SLOTS = ['discover', 'deeper', 'review'] as const;
+export const MediaSlotSchema = z.enum(MEDIA_SLOTS);
+export type MediaSlot = z.infer<typeof MediaSlotSchema>;
+
+const isoDate = z.iso.date();
+
+/**
+ * Where an image came from (D15/P11). Every shipped image has a recorded origin.
+ * - generated: AI-generated artwork. Never credited on screen; the record stays here.
+ * - licensed: a third-party image used under its license; credited minimally ("Photo: creator, platform").
+ * - owned: made by or for the project.
+ * - unknown: written by the media script for a new image; the validator rejects it until filled in.
+ */
+export const ImageOriginSchema = z.discriminatedUnion('kind', [
+  z.strictObject({
+    kind: z.literal('generated'),
+    tool: text,
+    createdBy: text,
+    createdAt: isoDate,
+  }),
+  z.strictObject({
+    kind: z.literal('licensed'),
+    creator: text,
+    platform: text.optional(),
+    license: text,
+    sourceUrl: z.url({ protocol: /^https$/, error: 'must be an https:// URL' }),
+  }),
+  z.strictObject({ kind: z.literal('owned'), creator: text }),
+  z.strictObject({ kind: z.literal('unknown') }),
+]);
+export type ImageOrigin = z.infer<typeof ImageOriginSchema>;
+
+/**
+ * A processed lesson image, served from /media/<lesson>/<slot>.webp (plus a 2/3-size
+ * "-sm" file). Width and height are the full file's, written by the media script.
+ */
+export const LessonImageSchema = z.strictObject({
+  width: z.int().positive(),
+  height: z.int().positive(),
+  /** Alt text per locale; the validator requires one for every locale the concept has. */
+  alt: z.strictObject({ 'pt-BR': text.optional(), en: text.optional() }),
+  origin: ImageOriginSchema,
+  /** Who checked the image for scientific or historical accuracy (M3 review). */
+  accuracyReviewedBy: z.string().nullable(),
+  addedAt: isoDate,
+});
+export type LessonImage = z.infer<typeof LessonImageSchema>;
+
+export const LessonMediaSchema = z.strictObject({
+  discover: LessonImageSchema.optional(),
+  deeper: LessonImageSchema.optional(),
+  review: LessonImageSchema.optional(),
+});
+export type LessonMedia = z.infer<typeof LessonMediaSchema>;
+
 /** Keys of the original SVG icons/illustrations shipped with the app. */
 export const TopicIconSchema = z.enum(['body', 'brain', 'space', 'flask', 'scroll', 'fixture']);
 
@@ -56,6 +112,8 @@ export const TopicSchema = z.strictObject({
   icon: TopicIconSchema,
   accentColor: z.string().regex(/^#[0-9A-Fa-f]{6}$/, 'must be a #RRGGBB hex color'),
   sortOrder: z.int().nonnegative(),
+  /** Explore tile and topic page picture (D15), served from /media/topics/<id>.webp. */
+  image: LessonImageSchema.optional(),
   ...fixtureFlag,
 });
 export type Topic = z.infer<typeof TopicSchema>;
@@ -89,6 +147,8 @@ export const ConceptSchema = z.strictObject({
     }),
   ),
   variants: z.array(LocaleSchema).min(1, 'a concept needs at least one locale variant'),
+  /** Lesson images (D15/P10). Language-independent; the variant's illustration is the fallback. */
+  media: LessonMediaSchema.optional(),
   ...fixtureFlag,
 });
 export type Concept = z.infer<typeof ConceptSchema>;
@@ -173,6 +233,8 @@ export const LessonVariantSchema = z.strictObject({
   title: text,
   hook: text,
   summary: text,
+  /** Short text under the title on the Discover card (D15/P8); falls back to `summary`. */
+  cardText: text.optional(),
   cardBlocks: z.array(CardBlockSchema).min(1),
   deepDiveBlocks: z.array(DeepDiveBlockSchema),
   heroMedia: HeroMediaSchema,

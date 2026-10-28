@@ -6,6 +6,7 @@
   "title": "Sal faz a água do macarrão ferver mais rápido?",
   "hook": "O conselho é comum na cozinha. A química diz o contrário, por uma fração de grau.",
   "summary": "Sal eleva levemente o ponto de ebulição; com a quantidade usada na cozinha, o efeito fica bem abaixo de 1 °C.",
+  "cardText": "Não. O sal até eleva o ponto de ebulição, mas uma colher de sopa em alguns litros muda bem menos de 1 °C. Ele está ali, mesmo, para dar sabor à massa.",
   "cardBlocks": [
     {
       "type": "paragraph",

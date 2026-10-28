@@ -6,22 +6,18 @@ import { useSession } from './session';
 
 /**
  * A card counts as "opened" once it is the active card, and as "completed" when the
- * learner stays on it for a conservative share of its reading time (at least 40%,
- * never less than 6 s) or finishes its quiz. Flashing past a card counts as neither (§10.4).
+ * learner stays on the short Discover card for 6 s, keeps Go Deeper open for 40% of the
+ * lesson's reading time (DeeperSheet), or finishes its quiz (D15). Flashing past a card
+ * counts as neither (§10.4).
  */
 export const COMPLETE_MIN_MS = 6000;
-export const COMPLETE_SHARE = 0.4;
-
-export function completionThresholdMs(readingSeconds: number): number {
-  return Math.max(COMPLETE_MIN_MS, readingSeconds * 1000 * COMPLETE_SHARE);
-}
 
 export function useLessonTracking(
   variant: LessonVariant | undefined,
   active: boolean,
   onOpened?: (conceptId: string) => void,
 ) {
-  const { library, reportStorageError } = useApp();
+  const { reportStorageError } = useApp();
   const { trackedOpen, trackedComplete } = useSession();
   const since = useRef<number | null>(null);
 
@@ -34,10 +30,9 @@ export function useLessonTracking(
       progress.record('lesson_opened', conceptId, locale).catch(reportStorageError);
     }
     since.current = Date.now();
-    const threshold = completionThresholdMs(library.readingSeconds(variant));
     const timer = setTimeout(() => {
       markCompleted(conceptId, locale);
-    }, threshold);
+    }, COMPLETE_MIN_MS);
     return () => {
       clearTimeout(timer);
       since.current = null;

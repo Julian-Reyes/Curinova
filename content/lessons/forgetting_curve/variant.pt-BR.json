@@ -6,6 +6,7 @@
   "title": "Quanto você esquece em um dia?",
   "hook": "Um psicólogo do século XIX mediu isso em si mesmo, com sílabas sem sentido.",
   "summary": "A curva do esquecimento de Ebbinghaus mostra uma perda rápida logo depois de aprender, que depois desacelera.",
+  "cardText": "Muito, e quase tudo no começo. Testando a si mesmo nos anos 1880, Hermann Ebbinghaus viu que a memória cai rápido logo depois de aprender e depois desacelera.",
   "cardBlocks": [
     {
       "type": "paragraph",

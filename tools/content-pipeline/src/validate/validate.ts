@@ -1,4 +1,6 @@
 import {
+  CARD_TEXT_WORDS_MAX,
+  CARD_TEXT_WORDS_MIN,
   CARD_WORDS_MAX,
   CARD_WORDS_MIN,
   ClusterSchema,
@@ -7,6 +9,7 @@ import {
   FIXTURE_ID_PREFIX,
   LOCALES,
   LessonVariantSchema,
+  MEDIA_SLOTS,
   QuizFileSchema,
   SourceSchema,
   TAKEAWAY_WORDS_MAX,
@@ -14,6 +17,8 @@ import {
   countWords,
   isFixtureId,
   isLocale,
+  lessonImageUrl,
+  topicImageUrl,
   type Cluster,
   type Concept,
   type LessonVariant,
@@ -266,7 +271,18 @@ function hostOf(url: string): string {
   }
 }
 
-export function validateContent(trees: ContentTree[]): ValidationResult {
+export interface ValidateOptions {
+  /**
+   * URL paths of the processed images on disk ("/media/<lesson>/<slot>.webp"). When given,
+   * every image a concept declares must exist (full and -sm), and stray files are reported.
+   */
+  mediaFiles?: ReadonlySet<string>;
+}
+
+export function validateContent(
+  trees: ContentTree[],
+  options: ValidateOptions = {},
+): ValidationResult {
   const report = new Reporter();
   const c = collect(trees, report);
 
@@ -307,6 +323,45 @@ export function validateContent(trees: ContentTree[]): ValidationResult {
   // ---- Topics ------------------------------------------------------------
   c.topics.forEach((t, i) => {
     checkFixtureFlag(t, report, `[${i}]`);
+    const image = t.value.image;
+    if (image) {
+      const at = `[${i}].image`;
+      if (t.tree.kind === 'fixtures')
+        report.error('media', t.file, at, 'fixtures must not reference images');
+      if (image.origin.kind === 'unknown')
+        report.error(
+          'media-origin',
+          t.file,
+          `${at}.origin`,
+          'origin is unknown; record where the image came from before it can ship (P11)',
+        );
+      for (const locale of LOCALES)
+        if (image.alt[locale] === undefined)
+          report.error(
+            'media-alt',
+            t.file,
+            `${at}.alt.${locale}`,
+            'missing; topics need both locales',
+          );
+      if (image.accuracyReviewedBy === null)
+        report.warn(
+          'media-unreviewed',
+          t.file,
+          `${at}.accuracyReviewedBy`,
+          'not yet checked for accuracy (M3 review)',
+        );
+      if (options.mediaFiles)
+        for (const size of ['full', 'sm'] as const) {
+          const url = topicImageUrl(t.value.id, size);
+          if (!options.mediaFiles.has(url))
+            report.error(
+              'media-missing',
+              t.file,
+              at,
+              `apps/web/public${url} does not exist; run the media script`,
+            );
+        }
+    }
     if (t.tree.kind === 'fixtures') {
       requireFixturePrefix(t.file, `[${i}].name.pt-BR`, t.value.name['pt-BR'], report);
       requireFixturePrefix(t.file, `[${i}].name.en`, t.value.name.en, report);
@@ -521,6 +576,51 @@ export function validateContent(trees: ContentTree[]): ValidationResult {
         }
       }
     }
+    // Lesson images (D15/P10, P11): recorded origin, alt text in every locale, files present.
+    for (const slot of MEDIA_SLOTS) {
+      const image = cv.media?.[slot];
+      if (!image) continue;
+      const at = `media.${slot}`;
+      if (concept.tree.kind === 'fixtures')
+        report.error('media', concept.file, at, 'fixtures must not reference images');
+      if (image.origin.kind === 'unknown')
+        report.error(
+          'media-origin',
+          concept.file,
+          `${at}.origin`,
+          'origin is unknown; record where the image came from before it can ship (P11)',
+        );
+      for (const locale of cv.variants) {
+        if (image.alt[locale] === undefined)
+          report.error(
+            'media-alt',
+            concept.file,
+            `${at}.alt.${locale}`,
+            `missing; every image needs alt text in each of the concept's locales`,
+          );
+      }
+      if (image.accuracyReviewedBy === null)
+        report.strictness(
+          anyPublished,
+          'media-unreviewed',
+          concept.file,
+          `${at}.accuracyReviewedBy`,
+          'not yet checked for accuracy (M3 review)',
+        );
+      if (options.mediaFiles) {
+        for (const size of ['full', 'sm'] as const) {
+          const url = lessonImageUrl(cv.id, slot, size);
+          if (!options.mediaFiles.has(url))
+            report.error(
+              'media-missing',
+              concept.file,
+              at,
+              `apps/web/public${url} does not exist; run the media script`,
+            );
+        }
+      }
+    }
+
     for (const v of variants) {
       if (!cv.variants.includes(v.value.locale))
         report.error(
@@ -604,12 +704,23 @@ export function validateContent(trees: ContentTree[]): ValidationResult {
       requireFixturePrefix(f, 'title', v.title, report);
       requireFixturePrefix(f, 'hook', v.hook, report);
       requireFixturePrefix(f, 'summary', v.summary, report);
+      if (v.cardText !== undefined) requireFixturePrefix(f, 'cardText', v.cardText, report);
       v.cardBlocks.forEach((b, i) => {
         requireFixturePrefix(f, `cardBlocks[${i}].text`, b.text, report);
       });
     }
 
     // Word limits (all statuses).
+    if (v.cardText !== undefined) {
+      const n = countWords(v.cardText, v.locale);
+      if (n < CARD_TEXT_WORDS_MIN || n > CARD_TEXT_WORDS_MAX)
+        report.error(
+          'card-text-words',
+          f,
+          'cardText',
+          `card text has ${n} words (allowed ${CARD_TEXT_WORDS_MIN}–${CARD_TEXT_WORDS_MAX})`,
+        );
+    }
     const paragraphs = v.cardBlocks.filter((b) => b.type === 'paragraph');
     const takeaways = v.cardBlocks.filter((b) => b.type === 'takeaway');
     const bodyWords = paragraphs.reduce((n, b) => n + countWords(b.text, v.locale), 0);
@@ -884,6 +995,23 @@ export function validateContent(trees: ContentTree[]): ValidationResult {
     if (!c.variants.some((v) => `${v.value.dir}|${v.value.locale}` === key)) {
       report.error('orphan-quiz', quiz.file, '', 'has no matching variant file');
     }
+  }
+
+  // Image files no concept declares (left behind after a slot was removed).
+  if (options.mediaFiles) {
+    const declared = new Set<string>();
+    for (const concept of c.concepts)
+      for (const slot of MEDIA_SLOTS)
+        if (concept.value.media?.[slot])
+          for (const size of ['full', 'sm'] as const)
+            declared.add(lessonImageUrl(concept.value.id, slot, size));
+    for (const topic of c.topics)
+      if (topic.value.image)
+        for (const size of ['full', 'sm'] as const)
+          declared.add(topicImageUrl(topic.value.id, size));
+    for (const url of options.mediaFiles)
+      if (!declared.has(url))
+        report.warn('media-unused', `apps/web/public${url}`, '', 'no concept declares this image');
   }
 
   return {

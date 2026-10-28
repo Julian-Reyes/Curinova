@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router';
-import { ChevronLeftIcon, TrailIcon } from '../components/icons';
+import { CloseIcon } from '../components/icons';
 import { useApp, useSavedIds, useSeen } from '../data/app-context';
 import { progress } from '../data/progress';
+import { FeedHeader } from '../features/feed/FeedHeader';
 import { FeedRail } from '../features/feed/FeedRail';
 import { FeedView, type FeedApi, type FeedSlide } from '../features/feed/FeedView';
 import { LessonCard } from '../features/feed/LessonCard';
@@ -11,8 +12,8 @@ import { trailHref } from '../features/feed/LessonSheets';
 import { TrailEndSlide } from '../features/feed/Slides';
 
 /**
- * Trail mode (§3.9): the feed follows one trail in order, with a visible exit back
- * to Discover. Discover's position is kept in the session, so exiting returns there.
+ * Trail mode (§3.9): the feed follows one trail in order, with a visible exit back to
+ * where it was started (Discover keeps its position in the session).
  */
 export default function Trail() {
   const { t } = useTranslation();
@@ -27,6 +28,12 @@ export default function Trail() {
   const cluster = library.clusterBySlug(slug, prefs.locale);
   const concepts = cluster ? library.conceptsInCluster(cluster.id) : [];
   const startParam = params.get('start');
+  // Exit returns where the trail was started (?from=, an in-app path), else to Discover,
+  // which keeps its feed position in the session.
+  const [exitTo] = useState(() => {
+    const from = params.get('from');
+    return from?.startsWith('/app/') && !from.startsWith('/app/trail/') ? from : '/app/discover';
+  });
   const [initialIndex] = useState(() => {
     const fromParam = concepts.findIndex((c) => c.id === startParam);
     if (fromParam >= 0) return fromParam;
@@ -93,7 +100,6 @@ export default function Trail() {
             variant={variant}
             active={active}
             saved={saved.has(concept.id)}
-            reason="trail"
             seed={seed}
             onOpened={(id) => {
               progress.record('trail_step', id, prefs.locale).catch(reportStorageError);
@@ -114,30 +120,21 @@ export default function Trail() {
 
   const step = Math.min(index + 1, concepts.length);
   const header = (
-    <div className="flex shrink-0 items-center gap-2 px-2.5 pt-2 lg:px-0 lg:pt-5">
-      <Link
-        to="/app/discover"
-        className="pressable flex min-h-11 shrink-0 items-center gap-1 rounded-full bg-surface pr-3.5 pl-1.5 text-sm font-semibold shadow-sm ring-1 ring-line hover:bg-sunken"
-      >
-        <ChevronLeftIcon size={20} />
-        {t('trail.exit')}
-      </Link>
-      <div className="flex min-w-0 flex-1 flex-col gap-1 rounded-full bg-surface px-3.5 py-1.5 shadow-sm ring-1 ring-line">
-        <span className="flex min-w-0 items-center gap-1.5 text-[12.5px] font-semibold">
-          <TrailIcon size={15} className="shrink-0 text-primary" />
+    <FeedHeader
+      title={
+        <Link
+          to={exitTo}
+          className="feed-trailbar pressable"
+          data-topic={cluster.topicId}
+          aria-label={t('trail.leave', { trail: cluster.title[prefs.locale] })}
+        >
+          <CloseIcon size={18} />
           <span className="truncate">{cluster.title[prefs.locale]}</span>
-          <span className="ml-auto shrink-0 text-muted">
-            {t('trail.progress', { step, total: concepts.length })}
-          </span>
-        </span>
-        <span className="h-1 overflow-hidden rounded-full bg-line" aria-hidden="true">
-          <span
-            className="block h-full rounded-full bg-primary transition-[width] duration-[var(--dur)]"
-            style={{ width: `${(step / concepts.length) * 100}%` }}
-          />
-        </span>
-      </div>
-    </div>
+        </Link>
+      }
+      current={step}
+      total={concepts.length}
+    />
   );
 
   return (

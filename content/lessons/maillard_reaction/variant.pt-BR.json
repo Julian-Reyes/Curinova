@@ -6,6 +6,7 @@
   "title": "Por que pão, carne e café ficam dourados e cheirosos?",
   "hook": "A crosta do pão, o selado do bife e o aroma do café têm a mesma química.",
   "summary": "Na reação de Maillard, aminoácidos e açúcares, sob calor alto e seco, criam centenas de moléculas de cor e aroma.",
+  "cardText": "É a reação de Maillard. Sob calor alto e seco, aminoácidos e açúcares formam centenas de moléculas novas, que douram a superfície e criam o aroma.",
   "cardBlocks": [
     {
       "type": "paragraph",

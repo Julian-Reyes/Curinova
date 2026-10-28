@@ -6,6 +6,7 @@
   "title": "Why does the Moon always show the same face?",
   "hook": "It does spin. Just in perfect step with its orbit.",
   "summary": "The Moon takes as long to spin once as it does to orbit Earth, so the same side always faces us.",
+  "cardText": "It does spin, but one turn takes as long as one orbit of Earth: about 27 days. So the same face always points our way.",
   "cardBlocks": [
     {
       "type": "paragraph",

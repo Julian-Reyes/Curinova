@@ -34,6 +34,8 @@ export interface ProgressStats {
   topics: TopicActivity[];
   /** Distinct calendar days with any learning activity in the last 7 days (incl. today). */
   activeDaysThisWeek: number;
+  /** The last 7 days, oldest first, as YYYY-MM-DD in the learner's time zone. */
+  week: { date: string; active: boolean }[];
 }
 
 export interface StatsInput {
@@ -121,5 +123,11 @@ export function computeStats(input: StatsInput): ProgressStats {
     trailsCompleted,
     topics: [...topicMap.values()].sort((a, b) => b.explored - a.explored),
     activeDaysThisWeek: activeDays.size,
+    week: Array.from({ length: 7 }, (_, i) => {
+      const date = new Intl.DateTimeFormat('en-CA', { timeZone }).format(
+        new Date(now.getTime() - (6 - i) * 86_400_000),
+      );
+      return { date, active: activeDays.has(date) };
+    }),
   };
 }

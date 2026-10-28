@@ -29,6 +29,9 @@ export function QuizRunner({
   onFinish,
   finishLabel,
   renderContext,
+  renderMedia,
+  variant = 'sheet',
+  onIndexChange,
 }: {
   questions: readonly QuizQuestion[];
   seed: number;
@@ -37,6 +40,11 @@ export function QuizRunner({
   finishLabel: string;
   /** Optional line above each question (e.g. the lesson title in Review). */
   renderContext?: (question: QuizQuestion) => React.ReactNode;
+  /** Optional picture between the question and its options (Review). */
+  renderMedia?: (question: QuizQuestion) => React.ReactNode;
+  /** "review": the full-screen Review layout, whose header shows the position. */
+  variant?: 'sheet' | 'review';
+  onIndexChange?: (index: number) => void;
 }) {
   const { t } = useTranslation();
   const [index, setIndex] = useState(0);
@@ -74,34 +82,52 @@ export function QuizRunner({
       return;
     }
     setIndex((i) => i + 1);
+    onIndexChange?.(index + 1);
     setSelected(null);
   };
+  const review = variant === 'review';
 
   return (
-    <div className="flex flex-col gap-4" lang={question.locale}>
-      <div className="flex items-center gap-2" aria-hidden="true">
-        {questions.map((q, i) => (
-          <span
-            key={q.id}
-            className={`h-1.5 flex-1 rounded-full transition-colors duration-[var(--dur)] ${
-              i < index || (i === index && answered)
-                ? results[i]?.correct
-                  ? 'bg-primary'
-                  : 'bg-danger'
-                : i === index
-                  ? 'bg-line-strong'
-                  : 'bg-line'
-            }`}
-          />
-        ))}
-      </div>
-      <p className="text-xs font-semibold tracking-wide text-muted uppercase">
+    <div
+      className="flex flex-col gap-4"
+      lang={question.locale}
+      key={review ? question.id : undefined}
+    >
+      {!review && (
+        <div className="flex items-center gap-2" aria-hidden="true">
+          {questions.map((q, i) => (
+            <span
+              key={q.id}
+              className={`h-1.5 flex-1 rounded-full transition-colors duration-[var(--dur)] ${
+                i < index || (i === index && answered)
+                  ? results[i]?.correct
+                    ? 'bg-primary'
+                    : 'bg-danger'
+                  : i === index
+                    ? 'bg-line-strong'
+                    : 'bg-line'
+              }`}
+            />
+          ))}
+        </div>
+      )}
+      <p
+        className={review ? 'sr-only' : 'text-xs font-semibold tracking-wide text-muted uppercase'}
+      >
         {t('quiz.progress', { current: index + 1, total: questions.length })}
       </p>
       {renderContext?.(question)}
-      <h3 className="text-lg leading-snug font-semibold text-balance" id={`q-${question.id}`}>
+      <h3
+        className={
+          review
+            ? 'review-question'
+            : 'font-display text-[20px] leading-snug font-bold tracking-tight text-balance'
+        }
+        id={`q-${question.id}`}
+      >
         {question.prompt}
       </h3>
+      {renderMedia?.(question)}
       <ul className="flex flex-col gap-2.5" aria-labelledby={`q-${question.id}`}>
         {options.map((option) => {
           const isSelected = option.id === selected;
@@ -116,9 +142,9 @@ export function QuizRunner({
                 }}
                 disabled={answered}
                 aria-pressed={isSelected}
-                className={`pressable quiz-option flex min-h-14 w-full items-center gap-3 rounded-2xl border-2 px-4 py-3 text-left text-[15px] leading-snug font-medium ${
+                className={`pressable quiz-option flex min-h-[54px] w-full items-center gap-3 rounded-2xl border px-3.5 py-3 text-left text-[15px] leading-snug font-medium ${
                   state === 'idle'
-                    ? 'border-line-strong bg-surface hover:border-primary hover:bg-accent-soft'
+                    ? 'border-line-strong bg-surface hover:border-ink/40'
                     : state === 'correct'
                       ? 'quiz-pop border-success bg-success-soft text-ink'
                       : state === 'wrong'
@@ -126,6 +152,16 @@ export function QuizRunner({
                         : 'border-line bg-surface text-muted'
                 }`}
               >
+                <span
+                  aria-hidden="true"
+                  className={`size-5 shrink-0 rounded-full border-[1.5px] ${
+                    state === 'correct'
+                      ? 'border-success bg-success'
+                      : state === 'wrong'
+                        ? 'border-danger bg-danger'
+                        : 'border-line-strong'
+                  }`}
+                />
                 <span className="flex-1">{option.text}</span>
                 {state === 'correct' && <CheckIcon size={22} className="shrink-0 text-success" />}
                 {state === 'wrong' && <CloseIcon size={22} className="shrink-0 text-danger" />}
@@ -138,7 +174,7 @@ export function QuizRunner({
       <div aria-live="assertive" className="contents">
         {answered && (
           <div
-            className={`fade-up rounded-2xl p-4 ${correct ? 'bg-success-soft' : 'bg-danger-soft'}`}
+            className={`fade-up rounded-[18px] p-4 ${review ? 'bg-tbg' : correct ? 'bg-success-soft' : 'bg-danger-soft'}`}
           >
             <p className={`font-semibold ${correct ? 'text-success' : 'text-danger'}`}>
               {correct ? t('quiz.correct') : t('quiz.incorrect', { answer: correctText })}
@@ -159,7 +195,7 @@ export function QuizRunner({
           ref={nextButton}
           type="button"
           onClick={next}
-          className="pressable min-h-12 rounded-2xl bg-primary px-5 font-semibold text-on-primary hover:bg-primary-strong"
+          className={`pressable min-h-12 rounded-full bg-primary px-6 font-semibold text-on-primary ${review ? 'min-h-14 self-end text-[17px]' : ''}`}
         >
           {last ? finishLabel : t('quiz.next')}
         </button>

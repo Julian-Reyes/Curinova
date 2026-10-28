@@ -6,6 +6,7 @@
   "title": "Por que há duas marés altas por dia?",
   "hook": "Se a Lua puxa o mar, por que ele também sobe do outro lado do planeta?",
   "summary": "A gravidade da Lua puxa com força diferente os lados próximo e distante da Terra, criando dois \"inchaços\" de água.",
+  "cardText": "A gravidade enfraquece com a distância: a Lua puxa o oceano próximo mais que o centro da Terra, e o centro mais que o oceano do lado oposto. Surgem dois inchaços de água.",
   "cardBlocks": [
     {
       "type": "paragraph",

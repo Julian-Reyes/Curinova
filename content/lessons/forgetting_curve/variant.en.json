@@ -6,6 +6,7 @@
   "title": "How much do you forget in a day?",
   "hook": "A 19th-century psychologist measured it on himself, using nonsense syllables.",
   "summary": "Ebbinghaus’s forgetting curve shows fast loss right after learning, which then slows down.",
+  "cardText": "A lot, and most of it early. Testing himself in the 1880s, Hermann Ebbinghaus found that memory drops fast right after learning, then levels off.",
   "cardBlocks": [
     {
       "type": "paragraph",

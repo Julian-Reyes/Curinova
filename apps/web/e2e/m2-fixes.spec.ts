@@ -8,24 +8,32 @@ test('tapping a card opens Go deeper', async ({ page }) => {
   await activeCard(page).locator('h2').click();
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
-  await expect(dialog.getByText('Go deeper', { exact: true })).toBeVisible();
-  await expect(dialog.getByText('Related ideas')).toBeVisible();
+  await expect(dialog.getByRole('heading', { name: 'The big picture' })).toBeVisible();
+  await expect(dialog.getByRole('heading', { name: 'Key takeaways' })).toBeAttached();
+  await expect(dialog.getByRole('heading', { name: 'Related concepts' })).toBeAttached();
 });
 
-test('cards never scroll; long cards offer "Continue reading" with the full text', async ({
-  page,
-}, info) => {
-  test.skip(info.project.name !== 'iphone-se', 'needs a short screen');
+test('the Discover card shows its title, card text and Dive in in full (D15)', async ({ page }) => {
   await onboard(page, 'en', { skip: true });
-  await page.goto('/app/trail/how-memory-works?start=concept_sleep_memory');
-  await feedReady(page);
-  const card = activeCard(page);
-  const text = card.locator('.card-paragraphs');
-  expect(await text.evaluate((el) => getComputedStyle(el).overflowY)).toBe('hidden');
-  await expect(card.locator('.card-takeaway')).toBeInViewport({ ratio: 1 });
-  await card.getByRole('button', { name: 'Continue reading' }).click();
-  const dialog = page.getByRole('dialog');
-  await expect(dialog.getByText(/Poor sleep, on the other hand/)).toBeVisible();
+  // The longest card texts, in a trail (its header is taller than Discover's).
+  for (const id of ['concept_spacing_effect', 'concept_pombal_directorate']) {
+    const slug =
+      id === 'concept_spacing_effect'
+        ? 'how-memory-works'
+        : 'how-portuguese-became-brazils-language';
+    await page.goto(`/app/trail/${slug}?start=${id}`);
+    await feedReady(page);
+    const card = activeCard(page);
+    for (const part of ['.stage-chip', 'h2', '.stage-text'])
+      await expect(card.locator(part)).toBeInViewport({ ratio: 1 });
+    await expect(card.getByRole('button', { name: /^Dive in/ })).toBeInViewport({ ratio: 1 });
+    // The text never runs under the action rail.
+    const [textRight, railLeft] = await card.evaluate((el) => [
+      el.querySelector('.stage-text')!.getBoundingClientRect().right,
+      el.querySelector('.stage-rail')!.getBoundingClientRect().left,
+    ]);
+    expect(textRight).toBeLessThanOrEqual(railLeft);
+  }
 });
 
 test('a status banner never pushes the card under the navigation', async ({
@@ -92,4 +100,33 @@ test('"Remember more" invites a review in the feed when reviews are due (P7)', a
   await page.keyboard.press('ArrowDown');
   await expect(page.getByRole('heading', { name: 'Time to remember' })).toBeVisible();
   await expect(page.getByText(/1 question is waiting for you/)).toBeVisible();
+});
+
+test('offline, cards show their cached image or their diagram, never a broken image (P15)', async ({
+  page,
+  context,
+}, info) => {
+  test.skip(info.project.name !== 'desktop', 'service worker behaviour; one project is enough');
+  await onboard(page, 'en', { skip: true });
+  // The service worker controls the page from the next load; that load caches images.
+  await page.waitForFunction(async () => (await navigator.serviceWorker.ready).active !== null);
+  await page.reload();
+  await feedReady(page);
+  await expect
+    .poll(() => page.evaluate(() => navigator.serviceWorker.controller !== null))
+    .toBe(true);
+  await page.waitForTimeout(1000);
+  await context.setOffline(true);
+  await page.reload();
+  await feedReady(page);
+  await expect
+    .poll(() =>
+      activeCard(page).evaluate((el) => {
+        const img = el.querySelector<HTMLImageElement>('img.stage-art');
+        if (img) return img.complete && img.naturalWidth > 0 ? 'image' : 'loading';
+        return el.querySelector('.stage-plate') ? 'diagram' : 'nothing';
+      }),
+    )
+    .toMatch(/^(image|diagram)$/);
+  await context.setOffline(false);
 });

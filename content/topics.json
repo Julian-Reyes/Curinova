@@ -15,7 +15,24 @@
     },
     "icon": "body",
     "accentColor": "#D8574B",
-    "sortOrder": 0
+    "sortOrder": 0,
+    "image": {
+      "width": 1200,
+      "height": 800,
+      "alt": {
+        "pt-BR": "Close de um olho humano, com a íris cinza e laranja",
+        "en": "Close-up of a human eye with a grey and orange iris"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Colin Lloyd",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/human-eye-with-grey-orange-iris-suj3od1uMv8"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    }
   },
   {
     "id": "brain",
@@ -33,7 +50,23 @@
     },
     "icon": "brain",
     "accentColor": "#7B5CC4",
-    "sortOrder": 1
+    "sortOrder": 1,
+    "image": {
+      "width": 1200,
+      "height": 800,
+      "alt": {
+        "pt-BR": "Ilustração de um neurônio brilhando em meio a uma rede de células nervosas",
+        "en": "Illustration of a glowing neuron in a network of nerve cells"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    }
   },
   {
     "id": "space",
@@ -51,7 +84,24 @@
     },
     "icon": "space",
     "accentColor": "#3F63C2",
-    "sortOrder": 2
+    "sortOrder": 2,
+    "image": {
+      "width": 1200,
+      "height": 800,
+      "alt": {
+        "pt-BR": "Os Pilares da Criação, colunas de gás e poeira fotografadas pelo telescópio James Webb",
+        "en": "The Pillars of Creation, columns of gas and dust photographed by the James Webb Space Telescope"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "NASA, ESA, CSA, STScI; J. DePasquale, A. Koekemoer, A. Pagan (STScI)",
+        "platform": "ESA/Webb",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://esawebb.org/images/weic2216a/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    }
   },
   {
     "id": "everyday_science",
@@ -69,7 +119,24 @@
     },
     "icon": "flask",
     "accentColor": "#C98A12",
-    "sortOrder": 3
+    "sortOrder": 3,
+    "image": {
+      "width": 1200,
+      "height": 800,
+      "alt": {
+        "pt-BR": "Bolha de sabão com faixas de cores em movimento",
+        "en": "A soap bubble with swirling bands of colour"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Mick De Paola",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/purple-yellow-and-blue-abstract-painting-n0LZKtRsVp4"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    }
   },
   {
     "id": "history",

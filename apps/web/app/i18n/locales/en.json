@@ -98,7 +98,10 @@
     "continueReading": "Continue reading",
     "nextInTrail": "Next in trail:",
     "savedToast": "Saved to Library",
-    "unsavedToast": "Removed from Library"
+    "unsavedToast": "Removed from Library",
+    "diveIn": "Dive in",
+    "diveInLabel": "Dive in: {{title}}",
+    "trailStepShort": "{{step}}/{{total}}"
   },
   "audio": {
     "playing": "Reading aloud…",
@@ -124,7 +127,20 @@
   "deeper": {
     "title": "Go deeper",
     "related": "Related ideas",
-    "continueTrail": "Continue this trail"
+    "continueTrail": "Continue this trail",
+    "bigPicture": "The big picture",
+    "keyTakeaways": "Key takeaways",
+    "howItWorks": "How it works",
+    "goFurther": "Going further",
+    "sources": "Sources",
+    "nextInTrail": "Next in this trail",
+    "endOfTrail": "You’ve reached the end of this trail.",
+    "backToDiscover": "Back to Discover",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "photoCredit": "Photo: {{credit}}",
+    "relatedLabel": "Related concepts",
+    "draft": "Preview · not yet verified"
   },
   "sources": {
     "title": "Sources and review",
@@ -168,7 +184,8 @@
     "endBody_other": "You explored all {{count}} ideas in “{{trail}}”.",
     "nextTrails": "Where to next",
     "backToFeed": "Back to the feed",
-    "notFound": "Trail not found"
+    "notFound": "Trail not found",
+    "leave": "Leave trail: {{trail}}"
   },
   "lesson": {
     "seen": "Seen",
@@ -235,7 +252,8 @@
     "mastered": "Mastered",
     "nextOn": "Next review: {{date, datetime(day: numeric; month: long)}}",
     "masteredNext": "Mastered · review on {{date, datetime(day: numeric; month: long)}}",
-    "howItWorks": "How it works: after a correct answer, a question comes back in 1 day, then 3, 7, 14, 30 and 60 days. A wrong answer brings it back the next day. Three correct reviews in a row count as “mastered”."
+    "howItWorks": "How it works: after a correct answer, a question comes back in 1 day, then 3, 7, 14, 30 and 60 days. A wrong answer brings it back the next day. Three correct reviews in a row count as “mastered”.",
+    "position": "{{current}} / {{total}}"
   },
   "library": {
     "title": "Library",
@@ -250,7 +268,8 @@
       "completedTitle": "No completed lessons yet",
       "completedBody": "A lesson counts as completed when you read it properly or answer its quiz."
     },
-    "localNote": "Your saved lessons stay on this device, no account needed."
+    "localNote": "Your saved lessons stay on this device, no account needed.",
+    "tabCount": "{{label}} · {{count}}"
   },
   "you": {
     "title": "You",
@@ -281,7 +300,8 @@
     "topics": "By topic",
     "topicCounts": "{{explored}} of {{total}}",
     "noActivity": "Explore a few lessons and your progress by topic shows up here.",
-    "localNote": "Your progress is saved only on this device. Clearing browser data erases it."
+    "localNote": "Your progress is saved only on this device. Clearing browser data erases it.",
+    "mastered": "Mastered"
   },
   "settings": {
     "title": "Settings",

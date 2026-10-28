@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import { SearchIcon } from '../components/icons';
 import { LessonRow } from '../components/LessonRow';
 import { EmptyState, Page, Section } from '../components/Page';
-import { TopicIcon, topicTint } from '../components/TopicIcon';
+import { TopicArt } from '../components/TopicArt';
 import { useApp, useSavedIds, useSeen } from '../data/app-context';
 
 export default function Explore() {
@@ -35,7 +35,7 @@ export default function Explore() {
           placeholder={t('explore.searchPlaceholder')}
           autoComplete="off"
           enterKeyHint="search"
-          className="min-h-13 w-full rounded-2xl bg-surface py-3.5 pr-4 pl-12 text-[16px] shadow-card ring-1 ring-line outline-none placeholder:text-muted focus:ring-2 focus:ring-primary"
+          className="min-h-[50px] w-full rounded-2xl bg-surface py-3 pr-4 pl-12 text-[16px] ring-1 ring-line outline-none placeholder:text-muted focus:ring-2 focus:ring-ink/40"
         />
       </div>
 
@@ -62,56 +62,46 @@ export default function Explore() {
         </Section>
       ) : (
         <Section title={t('explore.topics')}>
-          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-            {library.topics.map((topic) => {
+          <ul className="topic-tiles">
+            {library.topics.map((topic, i) => {
               const concepts = library.conceptsInTopic(topic.id);
               const explored = concepts.filter((c) => seen.has(c.id)).length;
               const trails = library.clustersInTopic(topic.id).length;
               const following = prefs.interests.includes(topic.id);
               const muted = prefs.mutedTopics.includes(topic.id);
               return (
-                <li key={topic.id}>
+                <li key={topic.id} className={i === 0 ? 'is-wide' : undefined}>
                   <Link
                     to={`/app/topic/${topic.slug[prefs.locale]}`}
-                    className="pressable topic-card relative flex h-full flex-col gap-3 overflow-hidden rounded-[20px] bg-surface p-4 shadow-card ring-1 ring-line hover:ring-primary"
+                    className="topic-tile pressable"
+                    data-topic={topic.id}
                   >
-                    <span
-                      className="absolute -top-10 -right-10 size-32 rounded-full"
-                      style={{ background: topicTint(topic.accentColor, 0.16) }}
-                      aria-hidden="true"
-                    />
-                    <span
-                      className="relative flex size-12 items-center justify-center rounded-2xl"
-                      style={{ background: topicTint(topic.accentColor, 0.22) }}
-                    >
-                      <TopicIcon icon={topic.icon} size={26} />
-                    </span>
-                    <span className="relative">
-                      <span className="block font-display text-xl leading-snug font-semibold">
+                    <TopicArt topic={topic} size="sm" />
+                    <span className="topic-tile-text">
+                      {(following || muted) && (
+                        <span className="topic-tile-flag">
+                          {following ? t('topic.following') : t('topic.muted')}
+                        </span>
+                      )}
+                      <span className="block font-display text-[16px] leading-tight font-bold tracking-tight">
                         {topic.name[prefs.locale]}
                       </span>
-                      <span className="mt-1 block text-[15px] text-muted">
-                        {topic.description[prefs.locale]}
+                      <span className="block text-[12px] font-medium opacity-85">
+                        {t('explore.trailCount', { count: trails })} ·{' '}
+                        {t('explore.lessonCount', { count: concepts.length })}
                       </span>
-                    </span>
-                    <span className="relative mt-auto flex flex-wrap items-center gap-x-3 gap-y-1 text-[13px] font-medium text-muted">
-                      <span>{t('explore.lessonCount', { count: concepts.length })}</span>
-                      <span>{t('explore.trailCount', { count: trails })}</span>
-                      {explored > 0 && (
-                        <span className="text-primary-strong">
-                          {t('explore.exploredCount', { count: explored, total: concepts.length })}
-                        </span>
-                      )}
-                      {following && (
-                        <span className="rounded-full bg-accent-soft px-2 py-0.5 font-semibold text-ink">
-                          {t('topic.following')}
-                        </span>
-                      )}
-                      {muted && (
-                        <span className="rounded-full bg-danger-soft px-2 py-0.5 font-semibold text-ink">
-                          {t('topic.muted')}
-                        </span>
-                      )}
+                      <span
+                        className="topic-tile-bar"
+                        role="img"
+                        aria-label={t('explore.exploredCount', {
+                          count: explored,
+                          total: concepts.length,
+                        })}
+                      >
+                        <i
+                          style={{ width: `${(explored / Math.max(1, concepts.length)) * 100}%` }}
+                        />
+                      </span>
                     </span>
                   </Link>
                 </li>

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Link, Outlet, redirect } from 'react-router';
+import { Link, Outlet, redirect, useLocation } from 'react-router';
 import { BottomNav } from '../components/BottomNav';
 import { StatusBanner } from '../components/StatusBanner';
 import { useApp, useDueReviews } from '../data/app-context';
@@ -25,6 +25,8 @@ export default function TabsLayout() {
   const { storageOk } = useApp();
   const due = useDueReviews();
   const online = useOnline();
+  const { pathname } = useLocation();
+  const immersive = /^\/app\/(discover|trail)\b/.test(pathname);
   return (
     <SessionProvider>
       <a
@@ -39,7 +41,7 @@ export default function TabsLayout() {
             <img src="/favicon.svg" alt="" width={32} height={32} className="rounded-[9px]" />
             <span className="font-display text-xl font-semibold">{t('app.name')}</span>
           </Link>
-          <BottomNav badges={{ review: due.length }} />
+          <BottomNav badges={{ review: due.length }} immersive={immersive} />
           <p className="mt-auto hidden px-3 text-xs leading-relaxed text-muted lg:block">
             {t('app.tagline')}
           </p>

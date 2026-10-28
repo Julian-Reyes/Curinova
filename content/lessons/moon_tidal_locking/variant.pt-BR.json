@@ -6,6 +6,7 @@
   "title": "Por que a Lua mostra sempre o mesmo lado?",
   "hook": "Ela gira, sim. Só que no ritmo exato da própria órbita.",
   "summary": "A Lua leva o mesmo tempo para girar em torno de si e para orbitar a Terra, por isso vemos sempre a mesma face.",
+  "cardText": "Ela gira, sim, mas uma volta leva o mesmo tempo que uma órbita em torno da Terra: cerca de 27 dias. Por isso, a mesma face fica voltada para nós.",
   "cardBlocks": [
     {
       "type": "paragraph",

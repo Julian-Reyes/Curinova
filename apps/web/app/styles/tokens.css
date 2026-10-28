@@ -1,60 +1,125 @@
 /*
- * Design tokens (§8). Light values are the spec palette; dark is its own palette,
- * not an inversion. Text/background pairs are checked for WCAG AA by
- * app/styles/tokens.test.ts — add new text colors there too.
- * Mint (--accent) is decorative only: never use it for small text on light surfaces.
+ * Design tokens (§8, restyled to Concept E in M2.5, D14/D15): warm "paper" surfaces and
+ * near-black ink in light; its own dark palette, not an inversion. Discover is always dark
+ * and uses fixed colors (see .lesson-stage in app.css). Text/background pairs are checked
+ * for WCAG AA by app/styles/tokens.test.ts — add new text colors there too.
+ * --accent is decorative only: never use it for text.
  */
 :root,
 [data-theme='light'] {
   color-scheme: light;
-  --bg: #f7faf8;
+  --bg: #fbf8f4;
   --surface: #ffffff;
-  --surface-2: #f2eee6;
-  --surface-sunken: #f2f7f4;
-  --ink: #15312d;
-  --muted: #5e746f;
-  --primary: #087f75;
-  --primary-strong: #066960;
-  --on-primary: #ffffff;
-  --accent: #83e6cd;
-  --accent-soft: #ddf8ec;
-  --glow-1: #ddf8ec;
-  --glow-2: #ddf5fa;
-  --line: rgb(21 49 45 / 0.1);
-  --line-strong: rgb(21 49 45 / 0.18);
-  --success: #0a6b45;
-  --success-soft: #e2f6ec;
-  --danger: #a8322b;
-  --danger-soft: #fbe9e7;
-  --shadow-card: 0 1px 2px rgb(21 49 45 / 0.06), 0 12px 32px -12px rgb(21 49 45 / 0.18);
-  --shadow-sheet: 0 -8px 40px -8px rgb(21 49 45 / 0.25);
-  --scrim: rgb(10 25 22 / 0.42);
+  --surface-2: #f4efe9;
+  --surface-sunken: #f6f2ec;
+  --ink: #17151a;
+  --ink-soft: #4c4950;
+  --muted: #66626b;
+  --primary: #17151a;
+  --primary-strong: #17151a;
+  --on-primary: #fbf8f4;
+  --accent: #e0d6c8;
+  --accent-soft: #f4efe9;
+  --glow-1: #f6efe6;
+  --glow-2: #f1ece6;
+  --line: rgb(23 21 26 / 0.09);
+  --line-strong: rgb(23 21 26 / 0.16);
+  --success: #18734b;
+  --success-soft: #e6f4ec;
+  --danger: #b83a27;
+  --danger-soft: #fbeae6;
+  --shadow-card: 0 1px 2px rgb(30 20 10 / 0.05), 0 10px 30px -14px rgb(30 20 10 / 0.25);
+  --shadow-sheet: 0 -8px 40px -8px rgb(30 20 10 / 0.25);
+  --scrim: rgb(0 0 0 / 0.5);
 }
 
 [data-theme='dark'] {
   color-scheme: dark;
-  --bg: #0c1715;
-  --surface: #13221f;
-  --surface-2: #1a2d29;
-  --surface-sunken: #0f1d1a;
-  --ink: #e7f3ef;
-  --muted: #9db6af;
-  --primary: #5ccfbc;
-  --primary-strong: #7fdccb;
-  --on-primary: #06201c;
-  --accent: #83e6cd;
-  --accent-soft: #173a33;
-  --glow-1: #12332b;
-  --glow-2: #10303a;
-  --line: rgb(231 243 239 / 0.1);
-  --line-strong: rgb(231 243 239 / 0.18);
-  --success: #74d9a8;
-  --success-soft: #12322a;
-  --danger: #ff9b8f;
-  --danger-soft: #3a1d1b;
-  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 16px 40px -16px rgb(0 0 0 / 0.6);
+  --bg: #121114;
+  --surface: #1b1a1e;
+  --surface-2: #242228;
+  --surface-sunken: #161519;
+  --ink: #f3f1ee;
+  --ink-soft: #c4c0c8;
+  --muted: #a19da7;
+  --primary: #f3f1ee;
+  --primary-strong: #ffffff;
+  --on-primary: #121114;
+  --accent: #3a3640;
+  --accent-soft: #242228;
+  --glow-1: #19171c;
+  --glow-2: #17161a;
+  --line: rgb(243 241 238 / 0.08);
+  --line-strong: rgb(243 241 238 / 0.16);
+  --success: #6fd3a0;
+  --success-soft: #15291f;
+  --danger: #ff8f7a;
+  --danger-soft: #331c18;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.4), 0 14px 30px -14px rgb(0 0 0 / 0.7);
   --shadow-sheet: 0 -8px 40px -8px rgb(0 0 0 / 0.6);
   --scrim: rgb(0 0 0 / 0.55);
+}
+
+/*
+ * Topic accents (Concept E). --tc is the bright accent used on the always-dark Discover
+ * surface, --tl the accent for text and marks on light surfaces, --tbg a soft topic tint.
+ * Unknown topics fall back to ink. Pairs are checked in tokens.test.ts.
+ */
+:root {
+  --tc: #f3f1ee;
+  --tl: var(--ink);
+  --tbg: var(--surface-2);
+}
+[data-topic='body'] {
+  --tc: #ff4d63;
+  --tl: #c4243c;
+  --tbg: #fbe9ec;
+}
+[data-topic='brain'] {
+  --tc: #9b7bff;
+  --tl: #5c40c0;
+  --tbg: #eee9fb;
+}
+[data-topic='space'] {
+  --tc: #4b7bff;
+  --tl: #2f52c4;
+  --tbg: #e8edfb;
+}
+[data-topic='everyday_science'] {
+  --tc: #ff9a2e;
+  --tl: #9e5208;
+  --tbg: #fbefe1;
+}
+[data-topic='history'] {
+  --tc: #e0a440;
+  --tl: #8c6114;
+  --tbg: #f6eedd;
+}
+/* Dark surfaces: the bright accent reads well, and the tint is the accent over the card. */
+[data-theme='dark'] [data-topic='body'],
+[data-theme='dark'][data-topic='body'] {
+  --tl: #ff4d63;
+  --tbg: #3f2229;
+}
+[data-theme='dark'] [data-topic='brain'],
+[data-theme='dark'][data-topic='brain'] {
+  --tl: #9b7bff;
+  --tbg: #2f2a42;
+}
+[data-theme='dark'] [data-topic='space'],
+[data-theme='dark'][data-topic='space'] {
+  --tl: #4b7bff;
+  --tbg: #232a42;
+}
+[data-theme='dark'] [data-topic='everyday_science'],
+[data-theme='dark'][data-topic='everyday_science'] {
+  --tl: #ff9a2e;
+  --tbg: #3f2e21;
+}
+[data-theme='dark'] [data-topic='history'],
+[data-theme='dark'][data-topic='history'] {
+  --tl: #e0a440;
+  --tbg: #3b3023;
 }
 
 :root {

@@ -259,6 +259,34 @@ The app is published free on **GitHub Pages** at **https://curinova.julianreyes.
 
 The step-by-step setup is in [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
 
+### Step 18: Stepping back to ask "is it compelling?" (M2.5, 26 October)
+
+The app worked, but on a phone browser almost every card ended in "Continue reading", the pictures disappeared, and every card looked the same. Before building the content pipeline, the founder asked for an audit and for design experiments that couldn't put the working app at risk.
+
+- **A separate workspace.** The experiments live on their own branch (`feature/m2-5-ux-overhaul`) in a second folder next to the project (a Git "worktree"), so the running app and `main` are untouched.
+- **The audit** (`docs/M2_5_UX_OVERHAUL.md`) found that each lesson already has a one-line curiosity hook and a one-sentence answer, but the feed never showed either. Together they are 23–40 words: a complete idea per swipe, with the longer text moving behind "Go deeper".
+- **The Design Lab** (`experiments/m2-5/`) is three clickable prototypes built from the real sample lessons: _Folio_ (a magazine page), _Aurora_ (full-screen art) and _Clarity_ (one number, one question, tap to reveal). It runs on its own small server on port 5373, which a phone on the same Wi-Fi can open.
+
+### Step 19: Building the chosen design into the app (M2.5, 28 October)
+
+The founder chose Concept E and approved its integration plan (D15). The first build session moved the app to E's look without changing how it stores your progress:
+
+- **Colours and type.** Warm "paper" pages, near-black ink and one accent colour per topic replace the mint palette; headings use Inter Tight. A test checks that every text colour is readable on its background, in both themes.
+- **Pictures in lessons.** A lesson can now carry three pictures (the Discover card, Go Deeper and Review), each with a description for screen readers in both languages and a record of where it came from. AI-generated pictures are recorded but not credited on screen; licensed photos get a one-line credit. `pnpm media:add <folder>` crops and compresses new pictures, and the content check refuses any picture whose origin or description is missing. Pictures you have already seen stay available offline; otherwise the lesson's own diagram appears.
+- **The Discover card** is now a full-screen picture with the topic, why the card is there, the title, a short card text written for every lesson (and approved by the founder), "Dive in", and a Save / Listen / Quiz rail.
+- **Go Deeper** opens full-height: picture, the big picture, key takeaways, how it works, the longer explanation, sources, related lessons and the next lesson in the trail.
+- **A bug the tests found.** Pressing the down arrow while the feed was still sliding was sometimes ignored. Now every press counts, and a slide the browser abandons finishes anyway.
+
+### Step 20: The rest of the app (M2.5, 28 October)
+
+The second build session brought every other screen into the same design:
+
+- **Explore** has a picture tile for each topic with a bar showing how much you've explored; a **topic page** opens with the topic's picture, a Follow button, its trails (with a step-by-step progress strip) and its lessons as small Discover-style cards. Topic pictures follow the same rules as lesson pictures; the Webb telescope photo carries its required credit.
+- **Review** shows how many questions are ready, then runs full screen: the topic, the question in large type and the lesson's picture come first, then the options, then the answer and why on the topic's colour. The questions and the review schedule are the same as before.
+- **Library** shows counts on its tabs; **You** shows four numbers, how much you remember days later (with how many answers that's based on), the last seven days as circles, and progress per topic.
+- **Welcome** shows a real Discover card.
+- **A final check** measured every Discover card in both languages on four screen sizes (all 160 fit completely), every button's tap area, and the colour contrast, and fixed what fell short. Details: `docs/M2_5_INTEGRATION_PLAN.md` §7.
+
 ---
 
 ---

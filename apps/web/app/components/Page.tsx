@@ -9,9 +9,12 @@ export function Page({
   subtitle,
   actions,
   back,
+  hero,
   children,
 }: {
   title: string;
+  /** Replaces the standard header (it must contain the page's h1), e.g. a topic's picture. */
+  hero?: React.ReactNode;
   subtitle?: string;
   actions?: React.ReactNode;
   /** Link shown above the title, e.g. back to Explore from a topic. */
@@ -23,8 +26,8 @@ export function Page({
     document.title = `${title} · ${t('app.name')}`;
   }, [title, t]);
   return (
-    <div className="glow-bg min-h-full">
-      <div className="mx-auto w-full max-w-3xl px-4 pt-[calc(var(--safe-top)+20px)] pb-10 sm:px-6 lg:pt-10">
+    <div className="min-h-full bg-bg">
+      <div className="mx-auto w-full max-w-[560px] px-4 pt-[calc(var(--safe-top)+20px)] pb-10 sm:px-6 lg:max-w-2xl lg:pt-10">
         {back !== undefined && (
           <Link
             to={back.to}
@@ -34,15 +37,17 @@ export function Page({
             {back.label}
           </Link>
         )}
-        <header className="mb-6 flex items-start gap-3">
-          <div className="min-w-0 flex-1">
-            <h1 className="font-display text-[32px] leading-tight font-semibold text-balance">
-              {title}
-            </h1>
-            {subtitle !== undefined && <p className="mt-1 text-muted">{subtitle}</p>}
-          </div>
-          {actions}
-        </header>
+        {hero ?? (
+          <header className="mb-6 flex items-start gap-3">
+            <div className="min-w-0 flex-1">
+              <h1 className="page-title">{title}</h1>
+              {subtitle !== undefined && (
+                <p className="mt-1.5 text-[15px] leading-snug text-ink-soft">{subtitle}</p>
+              )}
+            </div>
+            {actions}
+          </header>
+        )}
         <div className="page-in">{children}</div>
       </div>
     </div>
@@ -61,9 +66,9 @@ export function Section({
   action?: React.ReactNode;
 }) {
   return (
-    <section id={id} className="mb-8 scroll-mt-6">
-      <div className="mb-3 flex items-center gap-2">
-        <h2 className="flex-1 text-sm font-semibold tracking-wide text-muted uppercase">{title}</h2>
+    <section id={id} className="mb-7 scroll-mt-6">
+      <div className="mb-2.5 flex items-center gap-2">
+        <h2 className="section-label flex-1">{title}</h2>
         {action}
       </div>
       {children}
@@ -79,7 +84,7 @@ export function Card({
   className?: string;
 }) {
   return (
-    <div className={`rounded-[20px] bg-surface p-4 shadow-card ring-1 ring-line ${className}`}>
+    <div className={`rounded-[18px] bg-surface p-4 shadow-card ring-1 ring-line ${className}`}>
       {children}
     </div>
   );
@@ -95,15 +100,15 @@ export function EmptyState({
   action?: React.ReactNode;
 }) {
   return (
-    <div className="flex flex-col items-center gap-2 rounded-[20px] bg-surface/70 px-6 py-10 text-center ring-1 ring-line">
-      <p className="font-display text-xl font-semibold">{title}</p>
-      <p className="max-w-sm text-muted">{body}</p>
+    <div className="flex flex-col items-center gap-2 rounded-[18px] border-[1.5px] border-dashed border-line-strong px-6 py-8 text-center">
+      <p className="font-display text-xl font-bold tracking-tight">{title}</p>
+      <p className="max-w-sm text-[15px] leading-relaxed text-ink-soft">{body}</p>
       {action !== undefined && <div className="mt-3">{action}</div>}
     </div>
   );
 }
 
 export const buttonPrimary =
-  'pressable inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-primary px-5 font-semibold text-on-primary hover:bg-primary-strong';
+  'pressable inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-primary px-6 font-semibold text-on-primary';
 export const buttonSecondary =
-  'pressable inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-surface px-5 font-semibold text-ink ring-1 ring-line-strong hover:bg-sunken';
+  'pressable inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-surface-2 px-6 font-semibold text-ink hover:bg-accent';

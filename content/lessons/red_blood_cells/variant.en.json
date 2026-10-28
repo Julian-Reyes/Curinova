@@ -6,6 +6,7 @@
   "title": "How long does a red blood cell live?",
   "hook": "Millions are born every second in your bone marrow. None lasts much past four months.",
   "summary": "Without a nucleus, red blood cells carry more oxygen but cannot repair themselves, so they live about 120 days.",
+  "cardText": "Red blood cells carry oxygen through your body, but each lasts only about 120 days. With no nucleus, they can’t repair themselves, so your marrow keeps making more.",
   "cardBlocks": [
     {
       "type": "paragraph",

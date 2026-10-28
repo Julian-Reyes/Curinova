@@ -213,7 +213,7 @@ export default function Settings() {
             onClick={() => {
               setConfirmDelete(true);
             }}
-            className="pressable inline-flex min-h-12 items-center justify-center gap-2 self-start rounded-2xl px-4 font-semibold text-danger ring-1 ring-danger hover:bg-danger-soft"
+            className="pressable inline-flex min-h-12 items-center justify-center gap-2 self-start rounded-full px-5 font-semibold text-danger ring-1 ring-danger hover:bg-danger-soft"
           >
             <TrashIcon size={20} />
             {t('settings.delete')}

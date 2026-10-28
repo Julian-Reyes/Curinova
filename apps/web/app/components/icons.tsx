@@ -133,6 +133,11 @@ export const ArrowRightIcon = (p: IconProps) => (
     <path d="M4.5 12h15M13.5 6l6 6-6 6" />
   </Icon>
 );
+export const ArrowUpRightIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M7 17 17 7M8.5 7H17v8.5" />
+  </Icon>
+);
 export const SparkIcon = (p: IconProps) => (
   <Icon {...p}>
     <path d="M12 3.5c.6 4.3 2.2 5.9 6.5 6.5-4.3.6-5.9 2.2-6.5 6.5-.6-4.3-2.2-5.9-6.5-6.5 4.3-.6 5.9-2.2 6.5-6.5z" />

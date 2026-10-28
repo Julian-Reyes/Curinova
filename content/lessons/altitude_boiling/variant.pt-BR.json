@@ -6,6 +6,7 @@
   "title": "Por que a água ferve antes no alto da montanha?",
   "hook": "Em La Paz, a água ferve perto de 88 °C. E o feijão demora muito mais.",
   "summary": "Com menos pressão do ar, a água ferve a temperaturas mais baixas: ferve antes, mas cozinha mais devagar.",
+  "cardText": "No alto, há menos ar pressionando a água, então ela ferve a uma temperatura mais baixa: perto de 88 °C em La Paz. Ferve antes, mas cozinha mais devagar.",
   "cardBlocks": [
     {
       "type": "paragraph",

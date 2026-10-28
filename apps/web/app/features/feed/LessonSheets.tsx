@@ -1,23 +1,36 @@
 import { isPublishedVariant, type Concept, type LessonVariant } from '@lumen/domain';
-import { useMemo, useState } from 'react';
+import * as Dialog from '@radix-ui/react-dialog';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router';
-import { ArrowRightIcon, CheckIcon, SourcesIcon } from '../../components/icons';
+import {
+  ArrowRightIcon,
+  BookmarkIcon,
+  CheckIcon,
+  ChevronDownIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  QuizIcon,
+  SpeakerIcon,
+} from '../../components/icons';
+import { imageCredits, LessonArt } from '../../components/LessonArt';
 import { QuizRunner, type AnswerResult } from '../../components/QuizRunner';
 import { Sheet } from '../../components/Sheet';
-import { TopicIcon, topicTint } from '../../components/TopicIcon';
 import { useApp, useEvents } from '../../data/app-context';
 import { progress } from '../../data/progress';
 
+/** Opens a lesson in its trail; `from` is where the trail's exit returns (an /app/ path). */
 export function trailHref(
   library: ReturnType<typeof useApp>['library'],
   conceptId: string,
   locale: LessonVariant['locale'],
+  from?: string,
 ): string | undefined {
   const concept = library.concept(conceptId);
   const cluster = concept ? library.cluster(concept.clusterId) : undefined;
   if (!concept || !cluster) return undefined;
-  return `/app/trail/${cluster.slug[locale]}?start=${encodeURIComponent(concept.id)}`;
+  const back = from === undefined ? '' : `&from=${encodeURIComponent(from)}`;
+  return `/app/trail/${cluster.slug[locale]}?start=${encodeURIComponent(concept.id)}${back}`;
 }
 
 export function QuizSheet({
@@ -127,133 +140,390 @@ export function QuizSheet({
   );
 }
 
+/** Go Deeper counts the lesson as read after 40% of its reading time (D15). */
+export const DEEPER_READ_SHARE = 0.4;
+
+/**
+ * Go Deeper (Concept E): a full-height sheet with the lesson image, the big picture, key
+ * takeaways, how it works, the deep dive, sources, related lessons and the next step in
+ * the trail. Drag the header down or press Escape to close.
+ */
 export function DeeperSheet({
   open,
   onOpenChange,
   variant,
   concept,
+  saved,
+  onToggleSave,
+  onListen,
+  listening,
+  onRead,
   nextConceptId,
   onContinueTrail,
+  onQuiz,
   onOpenSources,
-  withFullText = false,
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   variant: LessonVariant;
   concept: Concept;
-  /** Start with the card's full text (opened from "Continue reading" on a long card). */
-  withFullText?: boolean;
+  saved: boolean;
+  onToggleSave: () => void;
+  onListen: () => void;
+  listening: boolean;
+  /** Called once the sheet has been open long enough to count as read. */
+  onRead: () => void;
   nextConceptId: string | undefined;
   onContinueTrail: () => void;
+  onQuiz: () => void;
   onOpenSources: () => void;
 }) {
   const { t } = useTranslation();
   const { library, prefs } = useApp();
   const navigate = useNavigate();
+  const panel = useRef<HTMLDivElement>(null);
+  const drag = useRef<{ startY: number; dy: number } | null>(null);
+  const [scrolled, setScrolled] = useState(false);
+  const [diagramOpen, setDiagramOpen] = useState(false);
+  const topic = library.topic(concept.topicId);
+  const cluster = library.cluster(concept.clusterId);
+  const accent = topic?.accentColor ?? '#17151A';
   const next = nextConceptId ? library.variant(nextConceptId, prefs.locale) : undefined;
-  return (
-    <Sheet
-      open={open}
-      onOpenChange={onOpenChange}
-      title={variant.title}
-      description={t('deeper.title')}
-      lang={variant.locale}
-      footer={
-        next ? (
-          <button
-            type="button"
-            onClick={onContinueTrail}
-            className="pressable flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-primary px-5 font-semibold text-on-primary"
-          >
-            <span lang={prefs.locale}>{t('deeper.continueTrail')}</span>
-            <ArrowRightIcon size={20} />
-          </button>
-        ) : undefined
-      }
-    >
-      {withFullText && (
-        <div className="mb-5 flex flex-col gap-3 border-b border-line pb-5 text-[16px] leading-relaxed">
-          {variant.cardBlocks.map((b, i) =>
-            b.type === 'takeaway' ? (
-              <p
-                key={i}
-                className="rounded-2xl border-l-4 border-primary bg-accent-soft px-3.5 py-2.5 font-semibold"
-              >
-                {b.text}
-              </p>
-            ) : (
-              <p key={i}>{b.text}</p>
-            ),
-          )}
-        </div>
-      )}
-      <div className="flex flex-col gap-3 text-[16px] leading-relaxed">
-        {variant.deepDiveBlocks.map((b, i) =>
-          b.type === 'heading' ? (
-            <h3 key={i} className="mt-2 font-display text-lg font-semibold">
-              {b.text}
-            </h3>
-          ) : (
-            <p key={i}>{b.text}</p>
-          ),
-        )}
-      </div>
+  const nextConcept = nextConceptId ? library.concept(nextConceptId) : undefined;
+  const step = cluster ? cluster.conceptIds.indexOf(concept.id) + 1 : 0;
+  const paragraphs = variant.cardBlocks.filter((b) => b.type === 'paragraph').map((b) => b.text);
+  const [first, ...rest] = paragraphs;
+  const takeaway = variant.cardBlocks.find((b) => b.type === 'takeaway');
+  // The takeaway, or the summary for lessons without one (they say much the same thing).
+  const takeaways = [takeaway?.text ?? variant.summary];
+  const draft = !isPublishedVariant(variant);
+  const sources = library.sources(variant);
+  const credits = imageCredits(concept);
+  const hasImage = concept.media?.deeper !== undefined;
 
-      {concept.related.length > 0 && (
-        <section className="mt-6" lang={prefs.locale}>
-          <h3 className="mb-2 text-sm font-semibold tracking-wide text-muted uppercase">
-            {t('deeper.related')}
-          </h3>
-          <ul className="flex flex-col gap-2">
-            {concept.related.map((r) => {
-              const target = library.variant(r.conceptId, prefs.locale);
-              const targetConcept = library.concept(r.conceptId);
-              const topic = targetConcept ? library.topic(targetConcept.topicId) : undefined;
-              const href = trailHref(library, r.conceptId, prefs.locale);
-              if (!target || !topic || !href) return null;
-              return (
-                <li key={r.conceptId}>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      onOpenChange(false);
-                      void navigate(href);
-                    }}
-                    className="pressable flex w-full items-start gap-3 rounded-2xl bg-sunken p-3 text-left ring-1 ring-line hover:ring-primary"
-                  >
-                    <span
-                      className="mt-0.5 flex size-9 shrink-0 items-center justify-center rounded-xl"
-                      style={{ background: topicTint(topic.accentColor, 0.2) }}
-                    >
-                      <TopicIcon icon={topic.icon} size={18} />
-                    </span>
-                    <span className="min-w-0 flex-1">
-                      <span className="block font-semibold leading-snug" lang={target.locale}>
-                        {target.title}
-                      </span>
-                      <span className="mt-0.5 block text-sm text-muted">
-                        {r.reason[prefs.locale] ?? r.reason.en ?? r.reason['pt-BR']}
-                      </span>
-                    </span>
-                    <ArrowRightIcon size={18} className="mt-1 shrink-0 text-muted" />
-                  </button>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      )}
+  // Deep-dive paragraphs grouped under their headings, each group a collapsible section.
+  const groups: { title: string; paragraphs: string[] }[] = [];
+  for (const b of variant.deepDiveBlocks) {
+    if (b.type === 'heading') groups.push({ title: b.text, paragraphs: [] });
+    else if (groups.length === 0)
+      groups.push({ title: t('deeper.goFurther'), paragraphs: [b.text] });
+    else groups.at(-1)?.paragraphs.push(b.text);
+  }
 
+  useEffect(() => {
+    if (!open) return;
+    const timer = setTimeout(
+      onRead,
+      Math.max(1000, library.readingSeconds(variant) * 1000 * DEEPER_READ_SHARE),
+    );
+    return () => {
+      clearTimeout(timer);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- once per opening
+  }, [open, variant.id]);
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    if ((e.target as HTMLElement).closest('button')) return;
+    drag.current = { startY: e.clientY, dy: 0 };
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+  };
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!drag.current || !panel.current) return;
+    drag.current.dy = Math.max(0, e.clientY - drag.current.startY);
+    panel.current.style.transform = `translateY(${drag.current.dy}px)`;
+    panel.current.style.transition = 'none';
+  };
+  const onPointerUp = () => {
+    if (!drag.current || !panel.current) return;
+    const { dy } = drag.current;
+    drag.current = null;
+    panel.current.style.transition = '';
+    panel.current.style.transform = '';
+    if (dy > 90) onOpenChange(false);
+  };
+
+  const lessonRow = (conceptId: string, sub: string, onOpen: () => void): React.ReactNode => {
+    const c = library.concept(conceptId);
+    const v = library.variant(conceptId, prefs.locale);
+    if (!c || !v) return null;
+    const tp = library.topic(c.topicId);
+    return (
       <button
         type="button"
-        onClick={onOpenSources}
-        className="pressable mt-5 flex min-h-11 items-center gap-2 text-sm font-semibold text-primary-strong"
-        lang={prefs.locale}
+        onClick={onOpen}
+        className="deeper-row pressable"
+        data-topic={c.topicId}
       >
-        <SourcesIcon size={18} />
-        {t('sources.open')}
+        <span className="deeper-thumb">
+          <LessonArt
+            concept={c}
+            variant={v}
+            slot="thumb"
+            accent={tp?.accentColor ?? accent}
+            className="h-full w-full object-cover"
+            plateClassName="deeper-thumb-plate"
+          />
+        </span>
+        <span className="min-w-0">
+          <span className="block text-[14.5px] leading-snug font-semibold" lang={v.locale}>
+            {v.title}
+          </span>
+          <span className="mt-0.5 block text-[12.5px] leading-snug text-muted">{sub}</span>
+        </span>
+        <ChevronRightIcon size={20} className="text-muted" />
       </button>
-    </Sheet>
+    );
+  };
+
+  return (
+    <Dialog.Root open={open} onOpenChange={onOpenChange}>
+      <Dialog.Portal>
+        <Dialog.Overlay className="sheet-overlay fixed inset-0 z-50 bg-[var(--scrim)]" />
+        <Dialog.Content
+          ref={panel}
+          className="deeper-panel sheet-panel"
+          data-topic={concept.topicId}
+          data-scrolled={scrolled ? 'true' : undefined}
+          lang={variant.locale}
+        >
+          <div
+            className="deeper-head"
+            onPointerDown={onPointerDown}
+            onPointerMove={onPointerMove}
+            onPointerUp={onPointerUp}
+            onPointerCancel={onPointerUp}
+          >
+            <span className="deeper-grab" aria-hidden="true" />
+            <div className="flex items-center gap-0.5" lang={prefs.locale}>
+              <Dialog.Close className="deeper-ib" aria-label={t('common.back')}>
+                <ChevronLeftIcon size={24} />
+              </Dialog.Close>
+              <Dialog.Title
+                className="min-w-0 flex-1 truncate px-1 text-[14px] font-semibold"
+                lang={variant.locale}
+              >
+                {variant.title}
+              </Dialog.Title>
+              <Dialog.Description className="sr-only">{t('deeper.title')}</Dialog.Description>
+              <button
+                type="button"
+                className="deeper-ib"
+                onClick={onListen}
+                aria-pressed={listening}
+                aria-label={t('card.listen')}
+              >
+                <SpeakerIcon size={22} />
+              </button>
+              <button
+                type="button"
+                className="deeper-ib"
+                onClick={onToggleSave}
+                aria-pressed={saved}
+                aria-label={saved ? t('card.saved') : t('card.save')}
+              >
+                <BookmarkIcon filled={saved} size={22} />
+              </button>
+            </div>
+          </div>
+
+          <div
+            className="deeper-scroll"
+            onScroll={(e) => {
+              setScrolled(e.currentTarget.scrollTop > 8);
+            }}
+          >
+            <figure className="deeper-hero">
+              <LessonArt
+                concept={concept}
+                variant={variant}
+                slot="deeper"
+                accent={accent}
+                priority
+                className="h-full w-full object-cover"
+                plateClassName="deeper-hero-plate"
+              />
+            </figure>
+
+            <section className="deeper-sec">
+              <h3 className="deeper-label" lang={prefs.locale}>
+                {t('deeper.bigPicture')}
+              </h3>
+              <p className="deeper-p deeper-lead">{first ?? variant.summary}</p>
+            </section>
+
+            <section className="deeper-sec deeper-take">
+              <h3 className="mb-1.5 text-[15px] font-bold" lang={prefs.locale}>
+                {t('deeper.keyTakeaways')}
+              </h3>
+              <ul>
+                {takeaways.map((text) => (
+                  <li key={text}>{text}</li>
+                ))}
+              </ul>
+            </section>
+
+            {(hasImage || rest.length > 0 || groups.length > 0) && (
+              <section className="deeper-sec">
+                <h3 className="deeper-label" lang={prefs.locale}>
+                  {t('deeper.howItWorks')}
+                </h3>
+                {hasImage && (
+                  <div className="deeper-diagram" data-open={diagramOpen ? 'true' : undefined}>
+                    <div className="deeper-diagram-box">
+                      <LessonArt
+                        concept={{ ...concept, media: undefined }}
+                        variant={variant}
+                        slot="deeper"
+                        accent={accent}
+                        plateClassName="deeper-diagram-plate"
+                      />
+                    </div>
+                    <div className="mt-2 flex items-center gap-2">
+                      <p className="flex-1 text-[13px] leading-snug text-muted">
+                        {variant.heroMedia.alt}
+                      </p>
+                      <button
+                        type="button"
+                        className="deeper-chipbtn pressable"
+                        aria-expanded={diagramOpen}
+                        onClick={() => {
+                          setDiagramOpen((o) => !o);
+                        }}
+                        lang={prefs.locale}
+                      >
+                        {diagramOpen ? t('deeper.showLess') : t('deeper.showMore')}
+                      </button>
+                    </div>
+                  </div>
+                )}
+                {rest.map((text) => (
+                  <p key={text} className="deeper-p mt-3.5">
+                    {text}
+                  </p>
+                ))}
+                {groups.map((g) => (
+                  <details key={g.title} className="deeper-more">
+                    <summary>
+                      {g.title}
+                      <ChevronDownIcon size={20} />
+                    </summary>
+                    <div className="px-3.5 pb-1.5">
+                      {g.paragraphs.map((text) => (
+                        <p key={text} className="deeper-p">
+                          {text}
+                        </p>
+                      ))}
+                    </div>
+                  </details>
+                ))}
+              </section>
+            )}
+
+            <section className="deeper-sec" lang={prefs.locale}>
+              <h3 className="deeper-label">{t('deeper.sources')}</h3>
+              <div className="deeper-card p-4">
+                {draft && (
+                  <>
+                    <button
+                      type="button"
+                      className="deeper-draft pressable"
+                      onClick={onOpenSources}
+                    >
+                      {t('deeper.draft')}
+                    </button>
+                    <p className="mt-2.5 text-[14px] leading-relaxed text-ink-soft">
+                      {t('sources.draftBody')}
+                    </p>
+                  </>
+                )}
+                {sources.length > 0 && (
+                  <ul className="mt-3 flex flex-col gap-2">
+                    {sources.map((src) => (
+                      <li key={src.id} className="text-[14px]">
+                        <a
+                          href={src.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-semibold text-tl underline-offset-2 hover:underline"
+                        >
+                          {src.title}
+                        </a>
+                        <span className="text-muted"> · {src.publisher}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {credits.length > 0 && (
+                  <p className="mt-3 border-t border-line pt-3 text-[13px] text-muted">
+                    {t('deeper.photoCredit', { credit: credits.join(' · ') })}
+                  </p>
+                )}
+              </div>
+            </section>
+
+            {concept.related.length > 0 && (
+              <section className="deeper-sec" lang={prefs.locale}>
+                <h3 className="deeper-label">{t('deeper.relatedLabel')}</h3>
+                <ul className="grid gap-2.5">
+                  {concept.related.map((r) => {
+                    const href = trailHref(library, r.conceptId, prefs.locale);
+                    if (!href) return null;
+                    return (
+                      <li key={r.conceptId}>
+                        {lessonRow(
+                          r.conceptId,
+                          r.reason[prefs.locale] ?? r.reason.en ?? r.reason['pt-BR'] ?? '',
+                          () => {
+                            onOpenChange(false);
+                            void navigate(href);
+                          },
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </section>
+            )}
+
+            {cluster && (
+              <section className="deeper-sec" lang={prefs.locale}>
+                <h3 className="deeper-label">{t('deeper.nextInTrail')}</h3>
+                {next && nextConcept ? (
+                  lessonRow(
+                    nextConcept.id,
+                    `${cluster.title[prefs.locale]} · ${t('card.trailStepShort', { step: step + 1, total: cluster.conceptIds.length })}`,
+                    onContinueTrail,
+                  )
+                ) : (
+                  <p className="deeper-p">{t('deeper.endOfTrail')}</p>
+                )}
+              </section>
+            )}
+          </div>
+
+          <div className="deeper-foot" lang={prefs.locale}>
+            <button type="button" className="deeper-pill pressable" onClick={onQuiz}>
+              <QuizIcon size={20} />
+              {t('card.quiz')}
+            </button>
+            {next ? (
+              <button
+                type="button"
+                className="deeper-pill is-solid pressable"
+                onClick={onContinueTrail}
+              >
+                {t('deeper.continueTrail')}
+                <ArrowRightIcon size={20} />
+              </button>
+            ) : (
+              <Dialog.Close className="deeper-pill is-solid pressable">
+                {t('deeper.backToDiscover')}
+              </Dialog.Close>
+            )}
+          </div>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
   );
 }
 

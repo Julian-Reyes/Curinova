@@ -69,8 +69,8 @@ export default defineConfig({
         scope: '/',
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#F7FAF8',
-        theme_color: '#087F75',
+        background_color: '#FBF8F4',
+        theme_color: '#17151A',
         icons: [
           { src: 'pwa-64x64.png', sizes: '64x64', type: 'image/png' },
           { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' },
@@ -88,8 +88,26 @@ export default defineConfig({
         cacheId: CODENAME,
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,webmanifest}'],
         navigateFallback: '/__spa-fallback.html',
-        navigateFallbackDenylist: [/^\/_review/],
+        navigateFallbackDenylist: [/^\/_review/, /^\/media\//],
         cleanupOutdatedCaches: true,
+        // Lesson images aren't precached (they'd add megabytes to install). Each one is
+        // cached the first time it's shown, so lessons already seen keep their images
+        // offline; anything else falls back to the lesson's diagram (D15/P15).
+        runtimeCaching: [
+          {
+            urlPattern: ({ url, sameOrigin }) => sameOrigin && url.pathname.startsWith('/media/'),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: `${CODENAME}-media`,
+              expiration: {
+                maxEntries: 150,
+                maxAgeSeconds: 60 * 60 * 24 * 90,
+                purgeOnQuotaError: true,
+              },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+        ],
       },
       devOptions: { enabled: false },
     }),

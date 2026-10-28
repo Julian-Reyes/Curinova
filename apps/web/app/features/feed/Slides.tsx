@@ -5,6 +5,7 @@ import { ArrowRightIcon, CheckIcon, ReviewIcon, SparkIcon } from '../../componen
 import { TopicIcon, topicTint } from '../../components/TopicIcon';
 import { useApp } from '../../data/app-context';
 
+/** Full-bleed dark slide for the feed's non-lesson moments (Concept E's end card). */
 function SlideShell({
   children,
   tone = 'glow',
@@ -14,8 +15,8 @@ function SlideShell({
 }) {
   return (
     <div
-      className={`fade-up flex h-full flex-col items-center justify-center gap-4 overflow-y-auto rounded-[var(--radius-card)] px-6 py-8 text-center shadow-card ring-1 ring-line ${
-        tone === 'glow' ? 'glow-bg' : 'bg-surface'
+      className={`feed-end fade-up flex h-full flex-col items-center justify-center gap-4 overflow-y-auto px-7 py-8 text-center text-ink ${
+        tone === 'glow' ? 'is-glow' : ''
       }`}
     >
       {children}
@@ -24,10 +25,10 @@ function SlideShell({
 }
 
 const primaryBtn =
-  'pressable flex min-h-12 w-full max-w-xs items-center justify-center gap-2 rounded-2xl bg-primary px-5 font-semibold text-on-primary hover:bg-primary-strong';
+  'pressable flex min-h-[50px] w-full max-w-xs items-center justify-center gap-2 rounded-full bg-primary px-5 font-semibold text-on-primary';
 const secondaryBtn =
-  'pressable flex min-h-12 w-full max-w-xs items-center justify-center gap-2 rounded-2xl bg-surface px-5 font-semibold text-ink ring-1 ring-line-strong hover:bg-sunken';
-const linkBtn = 'pressable min-h-11 px-4 font-semibold text-primary-strong';
+  'pressable flex min-h-[50px] w-full max-w-xs items-center justify-center gap-2 rounded-full px-5 font-semibold text-ink ring-1 ring-white/25 hover:bg-white/10';
+const linkBtn = 'pressable min-h-11 px-4 font-semibold text-ink/80 hover:text-ink';
 
 /** Soft stop after the session goal (§3.8). Not a quota: "Keep exploring" is always there. */
 export function EndOfSessionSlide({
@@ -44,11 +45,13 @@ export function EndOfSessionSlide({
   const { t } = useTranslation();
   return (
     <SlideShell>
-      <div className="flex size-16 items-center justify-center rounded-full bg-surface text-primary shadow-card">
+      <div className="flex size-16 items-center justify-center rounded-full bg-white/10 text-ink">
         <SparkIcon size={34} />
       </div>
-      <h2 className="font-display text-3xl font-semibold text-balance">{t('session.title')}</h2>
-      <p className="max-w-xs text-lg text-muted">
+      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight text-balance">
+        {t('session.title')}
+      </h2>
+      <p className="max-w-xs text-lg text-ink/75">
         {t('session.summary', { count: explored })}
         {quizzes > 0 && ` ${t('session.quizzes', { count: quizzes })}`}
       </p>
@@ -78,11 +81,13 @@ export function FinishedSlide({ onNewSession }: { onNewSession: () => void }) {
   const { t } = useTranslation();
   return (
     <SlideShell tone="plain">
-      <div className="flex size-16 items-center justify-center rounded-full bg-accent-soft text-primary-strong">
+      <div className="flex size-16 items-center justify-center rounded-full bg-white/10 text-ink">
         <CheckIcon size={32} />
       </div>
-      <h2 className="font-display text-3xl font-semibold">{t('session.finishedTitle')}</h2>
-      <p className="max-w-xs text-muted">{t('session.finishedBody')}</p>
+      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight">
+        {t('session.finishedTitle')}
+      </h2>
+      <p className="max-w-xs text-ink/75">{t('session.finishedBody')}</p>
       <button type="button" onClick={onNewSession} className={`${secondaryBtn} mt-2`}>
         {t('session.newSession')}
       </button>
@@ -99,8 +104,10 @@ export function ExhaustedSlide({ onRecycle }: { onRecycle: () => void }) {
     .slice(0, 3);
   return (
     <SlideShell>
-      <h2 className="font-display text-3xl font-semibold text-balance">{t('exhausted.title')}</h2>
-      <p className="max-w-xs text-muted">{t('exhausted.body')}</p>
+      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight text-balance">
+        {t('exhausted.title')}
+      </h2>
+      <p className="max-w-xs text-ink/75">{t('exhausted.body')}</p>
       {suggestions.length > 0 && (
         <div className="flex w-full max-w-xs flex-col gap-2">
           <p className="text-sm font-semibold text-muted">{t('exhausted.try')}</p>
@@ -108,7 +115,7 @@ export function ExhaustedSlide({ onRecycle }: { onRecycle: () => void }) {
             <Link
               key={tp.id}
               to={`/app/topic/${tp.slug[prefs.locale]}`}
-              className="pressable flex min-h-12 items-center gap-3 rounded-2xl bg-surface px-3 text-left font-semibold ring-1 ring-line hover:ring-primary"
+              className="pressable flex min-h-12 items-center gap-3 rounded-2xl bg-white/8 px-3 text-left font-semibold ring-1 ring-white/15 hover:bg-white/12"
             >
               <span
                 className="flex size-8 items-center justify-center rounded-xl"
@@ -133,8 +140,8 @@ export function AllMutedSlide() {
   const { t } = useTranslation();
   return (
     <SlideShell tone="plain">
-      <h2 className="font-display text-2xl font-semibold">{t('feed.allMutedTitle')}</h2>
-      <p className="max-w-xs text-muted">{t('feed.allMutedBody')}</p>
+      <h2 className="font-display text-2xl font-bold tracking-tight">{t('feed.allMutedTitle')}</h2>
+      <p className="max-w-xs text-ink/75">{t('feed.allMutedBody')}</p>
       <Link to="/app/settings#topics" className={primaryBtn}>
         {t('feed.openSettings')}
       </Link>
@@ -147,11 +154,13 @@ export function TrailEndSlide({ cluster }: { cluster: Cluster }) {
   const { library, prefs } = useApp();
   return (
     <SlideShell>
-      <div className="flex size-16 items-center justify-center rounded-full bg-surface text-primary shadow-card">
+      <div className="flex size-16 items-center justify-center rounded-full bg-white/10 text-ink">
         <CheckIcon size={32} />
       </div>
-      <h2 className="font-display text-3xl font-semibold text-balance">{t('trail.endTitle')}</h2>
-      <p className="max-w-xs text-muted">
+      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight text-balance">
+        {t('trail.endTitle')}
+      </h2>
+      <p className="max-w-xs text-ink/75">
         {t('trail.endBody', {
           count: cluster.conceptIds.length,
           trail: cluster.title[prefs.locale],
@@ -167,7 +176,7 @@ export function TrailEndSlide({ cluster }: { cluster: Cluster }) {
               <Link
                 key={link.clusterId}
                 to={`/app/trail/${target.slug[prefs.locale]}`}
-                className="pressable rounded-2xl bg-surface p-3 text-left ring-1 ring-line hover:ring-primary"
+                className="pressable rounded-2xl bg-white/8 p-3 text-left ring-1 ring-white/15 hover:bg-white/12"
               >
                 <span className="block font-semibold">{target.title[prefs.locale]}</span>
                 <span className="mt-0.5 block text-sm text-muted">{link.reason[prefs.locale]}</span>
@@ -191,13 +200,13 @@ export function ReviewPromptSlide({ due, onSkip }: { due: number; onSkip: () => 
   const { t } = useTranslation();
   return (
     <SlideShell>
-      <div className="flex size-16 items-center justify-center rounded-full bg-surface text-primary shadow-card">
+      <div className="flex size-16 items-center justify-center rounded-full bg-white/10 text-ink">
         <ReviewIcon size={32} />
       </div>
-      <h2 className="font-display text-3xl font-semibold text-balance">
+      <h2 className="font-display text-[28px] leading-tight font-bold tracking-tight text-balance">
         {t('reviewPrompt.title')}
       </h2>
-      <p className="max-w-xs text-muted">{t('reviewPrompt.body', { count: due })}</p>
+      <p className="max-w-xs text-ink/75">{t('reviewPrompt.body', { count: due })}</p>
       <div className="mt-2 flex w-full flex-col items-center gap-2.5">
         <Link to="/app/review" className={primaryBtn}>
           <ReviewIcon size={20} />

@@ -6,6 +6,7 @@
   "title": "Os dias na Terra estão ficando mais longos?",
   "hook": "Bem devagar, sim. E corais fósseis guardam a prova.",
   "summary": "O atrito das marés freia a rotação da Terra; há 400 milhões de anos, um dia durava cerca de 22 horas.",
+  "cardText": "Sim, bem devagar. O atrito das marés freia a rotação da Terra, somando cerca de 2 milissegundos por século. Corais fósseis mostram dias de umas 22 horas há 400 milhões de anos.",
   "cardBlocks": [
     {
       "type": "paragraph",

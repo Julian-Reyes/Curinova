@@ -6,6 +6,7 @@
   "title": "What does your brain do with your memories while you sleep?",
   "hook": "In rats, neurons \"replay\" the day during sleep, at high speed.",
   "summary": "During sleep, the brain reactivates and reorganizes recent memories, which helps consolidate them.",
+  "cardText": "It replays them. In rats, neurons that fired while exploring a maze fire again in the same order during sleep, sped up, which is thought to help consolidate memories.",
   "cardBlocks": [
     {
       "type": "paragraph",

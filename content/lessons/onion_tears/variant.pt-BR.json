@@ -6,6 +6,7 @@
   "title": "Por que cortar cebola faz chorar?",
   "hook": "A cebola inteira quase não tem cheiro. O choro é uma arma que você mesmo ativa.",
   "summary": "Cortar a cebola mistura compostos de enxofre e enzimas que estavam separados, produzindo um gás que irrita os olhos.",
+  "cardText": "A faca rompe as células da cebola e mistura compostos de enxofre com uma enzima. Em segundos, eles formam um gás que irrita os olhos, e as lágrimas o lavam.",
   "cardBlocks": [
     {
       "type": "paragraph",

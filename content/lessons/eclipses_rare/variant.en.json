@@ -6,6 +6,7 @@
   "title": "Why isn’t there an eclipse every month?",
   "hook": "The Moon passes between Earth and the Sun every month. Almost always, it misses.",
   "summary": "The Moon’s orbit is tilted about 5 degrees, so eclipses only happen when the alignment falls where the orbits cross.",
+  "cardText": "The Moon’s orbit is tilted about 5 degrees, so its shadow usually passes above or below Earth. Everything only lines up during eclipse seasons, which come about twice a year.",
   "cardBlocks": [
     {
       "type": "paragraph",

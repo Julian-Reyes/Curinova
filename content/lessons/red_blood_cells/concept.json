@@ -23,5 +23,55 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de hemácias passando por um vaso sanguíneo",
+        "en": "Illustration of red blood cells flowing through a blood vessel"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de hemácias passando por um vaso sanguíneo",
+        "en": "Illustration of red blood cells flowing through a blood vessel"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de quatro hemácias, discos com o centro afundado",
+        "en": "Illustration of four red blood cells, discs with a dip in the middle"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    }
+  }
 }

@@ -6,6 +6,7 @@
   "title": "Why do bread, steak and coffee turn brown and smell so good?",
   "hook": "A bread crust, a seared steak and roasted coffee share the same chemistry.",
   "summary": "In the Maillard reaction, amino acids and sugars under high, dry heat create hundreds of color and aroma molecules.",
+  "cardText": "It’s the Maillard reaction. Under high, dry heat, amino acids and sugars form hundreds of new molecules that brown the surface and create the aroma.",
   "cardBlocks": [
     {
       "type": "paragraph",

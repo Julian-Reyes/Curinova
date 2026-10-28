@@ -100,6 +100,9 @@ describe('computeStats (§3.6)', () => {
   it('counts active days in the last week only', () => {
     // Today is Oct 7, so the window is Oct 1–7: active on Oct 1, 2 and 6.
     expect(stats.activeDaysThisWeek).toBe(3);
+    expect(stats.week).toHaveLength(7);
+    expect(stats.week.filter((d) => d.active)).toHaveLength(3);
+    expect(stats.week.at(-1)?.date).toBe('2026-10-07');
   });
 });
 

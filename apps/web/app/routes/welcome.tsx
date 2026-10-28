@@ -17,10 +17,10 @@ import {
   SunIcon,
   SystemIcon,
 } from '../components/icons';
-import { Illustration } from '../components/Illustration';
+import { LessonArt } from '../components/LessonArt';
 import { Segmented } from '../components/Segmented';
 import { TopicChip } from '../components/TopicChip';
-import { TopicIcon, topicTint } from '../components/TopicIcon';
+import { TopicIcon } from '../components/TopicIcon';
 import { useApp } from '../data/app-context';
 import { progress } from '../data/progress';
 
@@ -55,7 +55,9 @@ export default function Welcome() {
   };
 
   // Preview a real card: the first lesson of the first trail.
-  const previewConcept = library.concepts[0];
+  // A live Discover card: the first lesson with a picture (or the first lesson).
+  const previewConcept =
+    library.concepts.find((c) => c.media?.discover !== undefined) ?? library.concepts[0];
   const preview = previewConcept ? library.variant(previewConcept.id, prefs.locale) : undefined;
   const previewTopic = previewConcept ? library.topic(previewConcept.topicId) : undefined;
 
@@ -77,7 +79,9 @@ export default function Welcome() {
           ) : (
             <span className="flex items-center gap-2">
               <img src="/favicon.svg" alt="" width={28} height={28} className="rounded-lg" />
-              <span className="font-display text-lg font-semibold">{t('app.name')}</span>
+              <span className="font-display text-lg font-extrabold tracking-tight">
+                {t('app.name')}
+              </span>
             </span>
           )}
           <div
@@ -119,42 +123,39 @@ export default function Welcome() {
                   }}
                 />
               </div>
-              <h1 className="mt-8 font-display text-[34px] leading-[1.1] font-semibold text-balance">
+              <h1 className="mt-8 font-display text-[34px] leading-[1.08] font-extrabold tracking-tight text-balance">
                 {t('onboarding.welcomeTitle')}
               </h1>
               <p className="mt-3 text-lg text-muted">{t('onboarding.welcomeBody')}</p>
-              {preview && previewTopic && (
+              {preview && previewTopic && previewConcept && (
                 <div
-                  className="welcome-preview mt-7 overflow-hidden rounded-[22px] bg-surface shadow-card ring-1 ring-line"
+                  className="welcome-preview mt-6"
+                  data-topic={previewTopic.id}
                   aria-hidden="true"
                 >
-                  <div
-                    style={{ background: `linear-gradient(160deg, var(--glow-1), var(--glow-2))` }}
-                  >
-                    <div className="flex items-center gap-1.5 px-4 pt-3 text-[11px] font-semibold tracking-wide uppercase">
-                      <span
-                        className="flex size-5 items-center justify-center rounded-full"
-                        style={{ background: topicTint(previewTopic.accentColor, 0.25) }}
-                      >
+                  <LessonArt
+                    concept={previewConcept}
+                    variant={preview}
+                    slot="discover"
+                    accent={previewTopic.accentColor}
+                    priority
+                    className="stage-art"
+                    plateClassName="stage-plate"
+                  />
+                  <div className="stage-shade" />
+                  <div className="welcome-preview-copy">
+                    <p className="stage-chip">
+                      <span className="stage-tico">
                         <TopicIcon icon={previewTopic.icon} size={13} />
                       </span>
-                      {previewTopic.name[prefs.locale]}
-                    </div>
-                    <Illustration
-                      id={
-                        preview.heroMedia.type === 'illustration'
-                          ? preview.heroMedia.illustrationId
-                          : 'fixture'
-                      }
-                      accent={previewTopic.accentColor}
-                      className="welcome-preview-art mx-auto block h-24 w-full"
-                    />
-                  </div>
-                  <div className="px-4 pt-2 pb-4">
-                    <p className="font-display text-lg leading-snug font-semibold">
+                      <span className="min-w-0">{previewTopic.name[prefs.locale]}</span>
+                    </p>
+                    <p className="mt-2 font-display text-[21px] leading-tight font-bold tracking-tight">
                       {preview.title}
                     </p>
-                    <p className="mt-1 text-sm text-muted">{preview.hook}</p>
+                    <p className="welcome-preview-text mt-1.5 text-[14px] leading-snug text-white/85">
+                      {preview.cardText ?? preview.summary}
+                    </p>
                   </div>
                 </div>
               )}
@@ -164,7 +165,7 @@ export default function Welcome() {
                   onClick={() => {
                     setStep(1);
                   }}
-                  className="pressable flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-primary text-lg font-semibold text-on-primary hover:bg-primary-strong"
+                  className="pressable flex min-h-14 w-full items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-on-primary"
                 >
                   {t('onboarding.start')}
                   <ArrowRightIcon size={20} />
@@ -176,7 +177,7 @@ export default function Welcome() {
 
           {current === 'interests' && (
             <>
-              <h1 className="mt-6 font-display text-[30px] leading-tight font-semibold">
+              <h1 className="mt-6 font-display text-[30px] leading-tight font-extrabold tracking-tight">
                 {t('onboarding.interestsTitle')}
               </h1>
               <p className="mt-2 text-muted">{t('onboarding.interestsBody')}</p>
@@ -212,7 +213,7 @@ export default function Welcome() {
 
           {current === 'goal' && (
             <>
-              <h1 className="mt-6 font-display text-[30px] leading-tight font-semibold">
+              <h1 className="mt-6 font-display text-[30px] leading-tight font-extrabold tracking-tight">
                 {t('onboarding.goalTitle')}
               </h1>
               <fieldset className="mt-6">
@@ -276,7 +277,7 @@ export default function Welcome() {
 
           {current === 'theme' && (
             <>
-              <h1 className="mt-6 font-display text-[30px] leading-tight font-semibold">
+              <h1 className="mt-6 font-display text-[30px] leading-tight font-extrabold tracking-tight">
                 {t('onboarding.themeTitle')}
               </h1>
               <div className="mt-6">
@@ -310,7 +311,7 @@ function NextButton({ label, onClick }: { label: string; onClick: () => void }) 
       <button
         type="button"
         onClick={onClick}
-        className="pressable flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-primary text-lg font-semibold text-on-primary hover:bg-primary-strong"
+        className="pressable flex min-h-14 w-full items-center justify-center gap-2 rounded-full bg-primary text-lg font-semibold text-on-primary"
       >
         {label}
         <ArrowRightIcon size={20} />

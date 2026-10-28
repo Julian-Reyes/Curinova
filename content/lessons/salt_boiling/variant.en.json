@@ -6,6 +6,7 @@
   "title": "Does salt make pasta water boil faster?",
   "hook": "It is common kitchen advice. Chemistry says the opposite, by a fraction of a degree.",
   "summary": "Salt slightly raises the boiling point; with the amounts used in cooking, the effect is well under 1 °C.",
+  "cardText": "No. Salt actually raises the boiling point, but a tablespoon in a few liters changes it by well under 1 °C. It’s really there to flavor the pasta.",
   "cardBlocks": [
     {
       "type": "paragraph",

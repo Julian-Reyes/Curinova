@@ -1,5 +1,12 @@
 import { expect, test } from '@playwright/test';
-import { activeCard, feedReady, noHorizontalOverflow, onboard, SHOTS } from './helpers';
+import {
+  activeCard,
+  feedReady,
+  noHorizontalOverflow,
+  onboard,
+  sessionPosition,
+  SHOTS,
+} from './helpers';
 
 test.describe('guest learner in Portuguese (§16 E2E 1)', () => {
   test.use({ locale: 'pt-BR' });
@@ -10,7 +17,7 @@ test.describe('guest learner in Portuguese (§16 E2E 1)', () => {
     await onboard(page, 'pt-BR', { interests: ['Espaço', 'História'] });
     await expect(page.locator('html')).toHaveAttribute('lang', 'pt-BR');
     await expect(page.getByRole('navigation', { name: 'Navegação principal' })).toBeVisible();
-    await expect(activeCard(page).locator('.card-meta')).toContainText(
+    await expect(activeCard(page).locator('.stage-chip')).toContainText(
       /Porque você escolheu|Algo novo/,
     );
 
@@ -101,10 +108,10 @@ test.describe('English learner', () => {
   }) => {
     await onboard(page, 'en', { skip: true }); // default goal: 5
     for (let i = 1; i < 5; i += 1) {
-      await expect(activeCard(page)).toContainText(`${i}/5`);
+      await expect(sessionPosition(page, i)).toBeVisible();
       await page.keyboard.press('ArrowDown');
     }
-    await expect(activeCard(page)).toContainText('5/5');
+    await expect(sessionPosition(page, 5)).toBeVisible();
     await page.keyboard.press('ArrowDown');
     await expect(page.getByRole('heading', { name: 'Nice work!' })).toBeVisible();
     await expect(page.getByText(/You explored 5 ideas/)).toBeVisible();
@@ -118,22 +125,26 @@ test.describe('English learner', () => {
   }) => {
     await onboard(page, 'en', { skip: true });
     await page.keyboard.press('ArrowDown');
-    await expect(activeCard(page)).toContainText('2/5');
+    await expect(sessionPosition(page, 2)).toBeVisible();
     const feedTitle = await activeCard(page).locator('h2').innerText();
     await activeCard(page)
-      .getByRole('button', { name: /Next in trail/ })
+      .getByRole('button', { name: /^Dive in/ })
       .click();
+    await page.getByRole('dialog').getByRole('button', { name: 'Continue this trail' }).click();
     await page.waitForURL(/\/app\/trail\//);
-    await expect(page.getByRole('link', { name: 'Exit trail' })).toBeVisible();
+    await feedReady(page);
+    const exit = page.getByRole('link', { name: /^Leave trail/ });
+    await expect(exit).toBeVisible();
     const first = await activeCard(page).locator('h2').innerText();
     await activeCard(page)
-      .getByRole('button', { name: /Next in trail/ })
+      .getByRole('button', { name: /^Dive in/ })
       .click();
+    await page.getByRole('dialog').getByRole('button', { name: 'Continue this trail' }).click();
     await expect(activeCard(page).locator('h2')).not.toHaveText(first);
-    await page.getByRole('link', { name: 'Exit trail' }).click();
+    await exit.click();
     await page.waitForURL(/\/app\/discover/);
     await feedReady(page);
-    await expect(activeCard(page)).toContainText('2/5');
+    await expect(sessionPosition(page, 2)).toBeVisible();
     await expect(activeCard(page).locator('h2')).toHaveText(feedTitle);
   });
 
@@ -142,12 +153,14 @@ test.describe('English learner', () => {
   }, info) => {
     test.skip(info.project.name !== 'desktop', 'keyboard navigation is a desktop concern');
     await onboard(page, 'en', { skip: true });
-    await activeCard(page).getByRole('button', { name: 'Go deeper' }).click();
+    await activeCard(page)
+      .getByRole('button', { name: /^Dive in/ })
+      .click();
     await page.keyboard.press('ArrowDown');
     await page.keyboard.press('Escape');
-    await expect(activeCard(page)).toContainText('1/5');
+    await expect(sessionPosition(page, 1)).toBeVisible();
     await page.keyboard.press('ArrowDown');
-    await expect(activeCard(page)).toContainText('2/5');
+    await expect(sessionPosition(page, 2)).toBeVisible();
     await page.getByRole('navigation').getByRole('link', { name: 'Explore' }).click();
     await page.getByRole('searchbox').fill('moon');
     await page.keyboard.press('ArrowDown');

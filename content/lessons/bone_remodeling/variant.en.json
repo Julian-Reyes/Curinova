@@ -6,6 +6,7 @@
   "title": "Is your skeleton the same one you had ten years ago?",
   "hook": "Bone looks like stone, but it is a building site that never closes.",
   "summary": "Osteoclasts demolish and osteoblasts rebuild: in adults, about 10% of the skeleton is renewed each year.",
+  "cardText": "Not entirely. Some cells dissolve old bone while others fill the gaps with new bone, renewing about 10% of an adult skeleton a year. In a decade, much of it is rebuilt.",
   "cardBlocks": [
     {
       "type": "paragraph",

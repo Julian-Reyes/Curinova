@@ -6,6 +6,7 @@
   "title": "Why does cutting onions make you cry?",
   "hook": "A whole onion barely smells. The tears are a weapon you switch on yourself.",
   "summary": "Cutting an onion mixes sulfur compounds and enzymes that were kept apart, producing a gas that irritates the eyes.",
+  "cardText": "The knife breaks the onion’s cells and mixes sulfur compounds with an enzyme. Within seconds they form a gas that irritates your eyes, and tears wash it away.",
   "cardBlocks": [
     {
       "type": "paragraph",

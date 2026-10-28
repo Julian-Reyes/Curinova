@@ -17,15 +17,19 @@ export const NAV_ITEMS = [
 export function BottomNav({
   enabled = true,
   badges = {},
+  immersive = false,
 }: {
   enabled?: boolean;
   badges?: Partial<Record<string, number>>;
+  /** Over the always-dark feed (Discover, trails): a dark bar on phones (Concept E). */
+  immersive?: boolean;
 }) {
   const { t } = useTranslation();
   return (
     <nav
       aria-label={t('nav.label')}
-      className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/90 pb-[var(--safe-bottom)] backdrop-blur-xl lg:static lg:inset-auto lg:border-t-0 lg:bg-transparent lg:pb-0 lg:backdrop-blur-none"
+      data-immersive={immersive ? 'true' : undefined}
+      className="bottom-nav fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/90 pb-[var(--safe-bottom)] backdrop-blur-xl lg:static lg:inset-auto lg:border-t-0 lg:bg-transparent lg:pb-0 lg:backdrop-blur-none"
     >
       <ul className="mx-auto flex max-w-xl items-stretch justify-around px-1 lg:max-w-none lg:flex-col lg:gap-1 lg:px-0">
         {NAV_ITEMS.map(({ to, key, Icon }) => {
@@ -68,7 +72,7 @@ export function BottomNav({
                     >
                       <Icon size={22} strokeWidth={isActive ? 2.2 : 1.8} />
                       {badge !== undefined && badge > 0 && (
-                        <span className="absolute -top-0.5 right-2 min-w-4 rounded-full bg-primary px-1 text-center text-[10px] leading-4 font-bold text-on-primary lg:-top-1 lg:-right-2">
+                        <span className="nav-badge absolute -top-0.5 right-2 min-w-4 rounded-full px-1 text-center text-[10px] leading-4 font-bold text-white lg:-top-1 lg:-right-2">
                           {badge > 9 ? '9+' : badge}
                         </span>
                       )}

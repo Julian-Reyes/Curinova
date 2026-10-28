@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 2280,
+      "alt": {
+        "pt-BR": "Um bife tomahawk selando na grelha, entre chamas e fumaça",
+        "en": "A tomahawk steak searing on a grill, with flames and smoke"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Mohamed Olwy",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/36829363/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Bife grelhado e fatiado numa chapa de ferro quente, com legumes ao fundo",
+        "en": "Sliced grilled steak on a sizzling iron plate, with vegetables behind it"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Mohamed Olwy",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/36850059/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Duas fatias de pão tostado saindo de uma torradeira branca",
+        "en": "Two slices of browned toast popping out of a white toaster"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Photography Maghradze PH",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/3997309/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27"
+    }
+  }
 }

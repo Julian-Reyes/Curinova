@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router';
 import { useApp, useSavedIds } from '../data/app-context';
 import { FeedRail } from '../features/feed/FeedRail';
+import { FeedHeader } from '../features/feed/FeedHeader';
 import { FeedView, type FeedApi, type FeedSlide } from '../features/feed/FeedView';
 import { LessonCard } from '../features/feed/LessonCard';
 import { trailHref } from '../features/feed/LessonSheets';
@@ -46,7 +47,7 @@ export default function Discover() {
   const total =
     session.goal === 'unlimited' || session.extended ? null : Math.min(goal, session.items.length);
 
-  const slides: FeedSlide[] = lessons.flatMap((item, i) => {
+  const slides: FeedSlide[] = lessons.flatMap((item) => {
     const concept = library.concept(item.conceptId);
     const variant = concept ? library.variant(concept.id, prefs.locale) : undefined;
     if (!concept || !variant) return [];
@@ -61,7 +62,6 @@ export default function Discover() {
             active={active}
             saved={saved.has(concept.id)}
             reason={item.reason}
-            sessionProgress={{ current: i + 1, total }}
             seed={session.seed}
             emphasizeQuiz={prefs.purpose === 'remember'}
             onOpened={(id) => {
@@ -144,6 +144,13 @@ export default function Discover() {
         slides={slides}
         initialIndex={session.index}
         onIndexChange={onIndexChange}
+        header={
+          <FeedHeader
+            title={<span className="feed-brand">{t('app.name')}</span>}
+            current={Math.min(session.index + 1, lessons.length)}
+            total={total}
+          />
+        }
         rail={(index) => <FeedRail conceptId={lessons[index]?.conceptId} />}
       />
     </div>

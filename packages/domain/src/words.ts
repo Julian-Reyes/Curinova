@@ -4,6 +4,9 @@ export const CARD_WORDS_MIN = 80;
 export const CARD_WORDS_MAX = 150;
 export const TAKEAWAY_WORDS_MAX = 25;
 export const DEEP_DIVE_WORDS_MAX = 400;
+/** Discover card text (D15/P8): one or two sentences under the title. */
+export const CARD_TEXT_WORDS_MIN = 12;
+export const CARD_TEXT_WORDS_MAX = 40;
 
 /** Average silent reading speed used for the displayed reading time. */
 const WORDS_PER_MINUTE = 200;

@@ -25,7 +25,8 @@ function isTypingTarget(target: EventTarget | null): boolean {
 /**
  * Vertical one-card-at-a-time feed. Uses native CSS scroll snapping for swipes
  * (momentum and rubber-banding feel native on iOS and Android), plus buttons and
- * arrow keys. Only cards near the active one are fully rendered.
+ * arrow keys. Only cards near the active one are fully rendered. The feed is always
+ * dark (Concept E), whatever the app theme; `header` floats over the top of the cards.
  */
 export function FeedView({
   slides,
@@ -47,8 +48,12 @@ export function FeedView({
   const [active, setActive] = useState(Math.min(initialIndex, Math.max(0, slides.length - 1)));
   const reduced = useReducedMotion();
   const activeRef = useRef(active);
+  // Where a scroll in progress is heading, so a second key press during the animation
+  // moves one card further instead of being lost.
+  const targetRef = useRef<number | null>(null);
   useEffect(() => {
     activeRef.current = active;
+    if (targetRef.current === active) targetRef.current = null;
   }, [active]);
 
   // Restore the position instantly before first paint.
@@ -73,8 +78,26 @@ export function FeedView({
       { root, threshold: 0.6 },
     );
     for (const child of Array.from(root.children)) observer.observe(child);
+    // The learner swiping or scrolling themselves ends any queued move.
+    const clearTarget = () => {
+      targetRef.current = null;
+    };
+    // A programmatic smooth scroll can be cut short (busy device, snap re-evaluation):
+    // when it stops before the target, jump the rest of the way.
+    const onScrollEnd = () => {
+      const index = targetRef.current;
+      targetRef.current = null;
+      const el = index === null ? undefined : (root.children[index] as HTMLElement | undefined);
+      if (el && Math.abs(root.scrollTop - el.offsetTop) > 2) root.scrollTop = el.offsetTop;
+    };
+    root.addEventListener('scrollend', onScrollEnd);
+    root.addEventListener('touchstart', clearTarget, { passive: true });
+    root.addEventListener('wheel', clearTarget, { passive: true });
     return () => {
       observer.disconnect();
+      root.removeEventListener('scrollend', onScrollEnd);
+      root.removeEventListener('touchstart', clearTarget);
+      root.removeEventListener('wheel', clearTarget);
     };
   }, [slides.length]);
 
@@ -87,7 +110,16 @@ export function FeedView({
       const root = scroller.current;
       const target = root?.children[index] as HTMLElement | undefined;
       if (!root || !target) return;
+      targetRef.current = index === activeRef.current ? null : index;
+      const startTop = root.scrollTop;
       root.scrollTo({ top: target.offsetTop, behavior: reduced ? 'auto' : 'smooth' });
+      // A busy browser occasionally drops a smooth scroll before it starts (then no
+      // scrollend fires either): if nothing has moved shortly after, jump instead.
+      window.setTimeout(() => {
+        if (targetRef.current === index && root.scrollTop === startTop) {
+          root.scrollTop = target.offsetTop;
+        }
+      }, 350);
     },
     [reduced],
   );
@@ -102,12 +134,13 @@ export function FeedView({
       if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || isTypingTarget(e.target))
         return;
       if (document.querySelector('[role="dialog"][data-state="open"]')) return;
+      const from = targetRef.current ?? activeRef.current;
       if (e.key === 'ArrowDown' || e.key === 'PageDown' || e.key === 'j') {
         e.preventDefault();
-        goTo(Math.min(activeRef.current + 1, slides.length - 1));
+        goTo(Math.min(from + 1, slides.length - 1));
       } else if (e.key === 'ArrowUp' || e.key === 'PageUp' || e.key === 'k') {
         e.preventDefault();
-        goTo(Math.max(activeRef.current - 1, 0));
+        goTo(Math.max(from - 1, 0));
       }
     };
     window.addEventListener('keydown', onKey);
@@ -120,8 +153,11 @@ export function FeedView({
 
   return (
     <div className="feed-frame relative mx-auto flex h-full w-full justify-center gap-6 lg:px-6">
-      <div className="relative flex h-full w-full max-w-[560px] flex-col lg:max-w-[500px]">
-        {header}
+      <div
+        className="feed-column relative flex h-full w-full max-w-[560px] flex-col lg:max-w-[500px]"
+        data-theme="dark"
+      >
+        {header !== undefined && <div className="feed-overlay">{header}</div>}
         <div
           ref={scroller}
           className="feed-scroller min-h-0 flex-1 snap-y snap-mandatory overflow-y-auto overscroll-y-contain"
@@ -141,12 +177,12 @@ export function FeedView({
                 })}
                 aria-hidden={i !== active ? true : undefined}
                 inert={i !== active ? true : undefined}
-                className="feed-slide box-border h-full snap-start snap-always px-2.5 py-2.5 lg:px-0 lg:py-5"
+                className="feed-slide box-border h-full snap-start snap-always lg:py-5"
               >
                 {near ? (
                   slide.render({ active: i === active, near })
                 ) : (
-                  <div className="h-full rounded-[var(--radius-card)] bg-surface/60 ring-1 ring-line" />
+                  <div className="feed-placeholder h-full" />
                 )}
               </section>
             );

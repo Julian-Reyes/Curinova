@@ -36,8 +36,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-        <meta name="theme-color" content="#F7FAF8" media="(prefers-color-scheme: light)" />
-        <meta name="theme-color" content="#0C1715" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#FBF8F4" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#121114" media="(prefers-color-scheme: dark)" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content={BRAND.shortName} />

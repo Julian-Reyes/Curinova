@@ -6,6 +6,7 @@
   "title": "Quanto tempo vive uma hemácia?",
   "hook": "Milhões nascem a cada segundo na sua medula. Nenhuma passa de uns quatro meses.",
   "summary": "Sem núcleo, os glóbulos vermelhos carregam mais oxigênio, mas não se consertam e vivem cerca de 120 dias.",
+  "cardText": "As hemácias levam oxigênio pelo corpo, mas cada uma dura só cerca de 120 dias. Sem núcleo, não se consertam, e a medula precisa produzir mais o tempo todo.",
   "cardBlocks": [
     {
       "type": "paragraph",

@@ -6,6 +6,7 @@
   "title": "Seu esqueleto é o mesmo de dez anos atrás?",
   "hook": "Osso parece pedra, mas é um canteiro de obras que nunca fecha.",
   "summary": "Osteoclastos demolem e osteoblastos reconstroem: em adultos, cerca de 10% do esqueleto é renovado por ano.",
+  "cardText": "Não exatamente. Algumas células dissolvem osso velho e outras preenchem o espaço com osso novo, renovando cerca de 10% do esqueleto adulto por ano. Em uma década, boa parte dele é reconstruída.",
   "cardBlocks": [
     {
       "type": "paragraph",

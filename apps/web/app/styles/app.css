@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @import '@fontsource-variable/inter';
-@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/inter-tight';
 @import './tokens.css';
 
 @custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
@@ -12,6 +12,10 @@
   --color-sunken: var(--surface-sunken);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
+  --color-ink-soft: var(--ink-soft);
+  --color-tc: var(--tc);
+  --color-tl: var(--tl);
+  --color-tbg: var(--tbg);
   --color-primary: var(--primary);
   --color-primary-strong: var(--primary-strong);
   --color-on-primary: var(--on-primary);
@@ -25,7 +29,8 @@
   --color-danger-soft: var(--danger-soft);
   --font-sans:
     'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  --font-display: 'Fraunces Variable', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-display:
+    'Inter Tight Variable', 'Inter Variable', ui-sans-serif, system-ui, -apple-system, sans-serif;
   --radius-card: var(--radius-card);
   --radius-control: var(--radius-control);
   --shadow-card: var(--shadow-card);
@@ -81,16 +86,17 @@
   }
 }
 
-/* ───────────────────────── Feed and lesson card ───────────────────────── */
+/* ───────────────────────── Feed (Concept E, always dark) ───────────────────────── */
 @layer components {
   /* Full-height feed: viewport minus bottom nav, safe area and any status banner. */
   .feed-height {
     height: calc(100dvh - var(--nav-height) - var(--safe-bottom) - var(--banner-h, 0px));
-    padding-top: var(--feed-safe-top, var(--safe-top));
+    background: #000;
   }
   @media (min-width: 1024px) {
     .feed-height {
       height: calc(100dvh - var(--banner-h, 0px));
+      background: transparent;
     }
   }
   .feed-scroller {
@@ -101,101 +107,414 @@
     display: none;
   }
   .feed-slide > * {
-    max-height: 860px;
+    max-height: 900px;
   }
-  /* The active card settles in; neighbours recede slightly (no motion when reduced). */
-  .feed-slide > .lesson-card {
-    transition:
-      transform var(--dur-slow) var(--ease-out),
-      opacity var(--dur-slow) var(--ease-out);
+  .feed-placeholder,
+  .feed-end {
+    background: #08070a;
   }
-  .feed-slide[aria-hidden='true'] > .lesson-card {
-    transform: scale(0.965);
-    opacity: 0.55;
-  }
-
-  /*
-   * Flexible hero: the card body takes the height its text needs, and the hero
-   * illustration fills whatever is left (between --hero-min and 200px). Long text
-   * shrinks the hero first; only then does the text scroll inside the card.
-   */
-  .card-hero {
-    flex: 1 1 0;
-    min-height: 46px;
-    max-height: 200px;
-    container-type: size;
+  .feed-end.is-glow {
+    background:
+      radial-gradient(70% 40% at 50% 30%, rgb(255 77 99 / 0.28), transparent 70%),
+      radial-gradient(70% 40% at 30% 70%, rgb(75 123 255 / 0.25), transparent 70%),
+      radial-gradient(70% 40% at 80% 75%, rgb(224 164 64 / 0.22), transparent 70%), #09080c;
   }
   @media (min-width: 1024px) {
-    .card-hero {
-      max-height: 320px;
+    .feed-slide > * {
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 30px 80px -24px rgb(0 0 0 / 0.55);
     }
   }
-  /* Too short to draw the illustration nicely: show only the header row. */
-  @container (max-height: 100px) {
-    .card-illustration {
-      visibility: hidden;
+
+  /* The bar floating over the cards: wordmark (or trail pill) and segmented progress. */
+  .feed-overlay {
+    position: absolute;
+    inset: 0 0 auto;
+    z-index: 20;
+    pointer-events: none;
+  }
+  @media (min-width: 1024px) {
+    .feed-overlay {
+      top: 20px;
     }
   }
-  .card-body {
-    flex: 0 1 auto;
+  .feed-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: calc(var(--feed-safe-top, var(--safe-top)) + 14px) 20px 0;
+    color: #fff;
   }
-  .card-illustration {
-    display: block;
+  .feed-brand {
+    font: 800 21px/1 var(--font-display);
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 14px rgb(0 0 0 / 0.35);
+  }
+  .feed-trailbar {
+    pointer-events: auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 0 14px 0 10px;
+    border: 1px solid rgb(255 255 255 / 0.22);
+    border-radius: 99px;
+    background: rgb(0 0 0 / 0.38);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    font: 650 14px/1.2 var(--font-sans);
+  }
+  .feed-trailbar svg {
+    flex: none;
+    color: var(--tc);
+  }
+  .feed-segs {
+    flex: none;
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+  }
+  .feed-segs i {
+    position: relative;
+    width: 22px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgb(255 255 255 / 0.32);
+    overflow: hidden;
+  }
+  .feed-segs i::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--dur-slow) var(--ease-out);
+  }
+  .feed-segs i.is-on::after {
+    transform: scaleX(1);
+  }
+
+  /* ── The Discover card ── */
+  .lesson-stage {
+    position: relative;
     height: 100%;
-    padding: 40px 16px 6px;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    isolation: isolate;
+    cursor: pointer;
+    --nav-gap: 18px;
   }
-  .card-title {
-    font-size: 25px;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
+  .stage-art {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
   }
-  .card-text {
-    font-size: 15.5px;
-    line-height: 1.5;
-    scrollbar-width: none;
+  img.stage-art {
+    object-fit: cover;
+    object-position: 50% 30%;
+    transform: scale(1.06);
+    transition: transform 1.4s var(--ease-out);
   }
-  .card-text::-webkit-scrollbar {
-    display: none;
+  .lesson-stage[data-active] img.stage-art {
+    transform: scale(1);
   }
-  /* Text longer than the card: fade the last lines above "Continue reading". */
-  .card-paragraphs[data-overflow='more'] {
-    mask-image: linear-gradient(to bottom, #000 calc(100% - 48px), transparent);
+  /* Lessons without art: the lesson's diagram on a dark, topic-tinted card. */
+  .stage-plate {
+    background:
+      radial-gradient(
+        120% 60% at 50% 26%,
+        color-mix(in oklab, var(--tc) 30%, transparent),
+        transparent 70%
+      ),
+      #08080b;
   }
-  .card-takeaway {
-    font-size: 14.5px;
-    line-height: 1.4;
+  .stage-plate .lesson-art-svg {
+    position: absolute;
+    inset: calc(var(--feed-safe-top, var(--safe-top)) + 70px) 20px auto;
+    width: calc(100% - 40px);
+    height: calc(48% - var(--feed-safe-top, var(--safe-top)) - 80px);
+  }
+  .stage-shade {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(to bottom, rgb(0 0 0 / 0.5) 0%, rgb(0 0 0 / 0) 15%),
+      linear-gradient(
+        to top,
+        rgb(0 0 0 / 0.94) 0%,
+        rgb(0 0 0 / 0.82) 28%,
+        rgb(0 0 0 / 0.4) 48%,
+        rgb(0 0 0 / 0) 64%
+      );
+  }
+  .stage-copy {
+    position: absolute;
+    left: 20px;
+    right: 88px;
+    bottom: var(--nav-gap);
+    z-index: 2;
+  }
+  .stage-chip {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    font: 600 12px/1.3 var(--font-sans);
+    color: rgb(255 255 255 / 0.92);
+  }
+  .stage-copy > div + .stage-chip {
+    margin-top: 8px;
+  }
+  .stage-tico {
+    flex: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: var(--tc);
+    box-shadow: 0 0 16px color-mix(in oklab, var(--tc) 60%, transparent);
+  }
+  .stage-chip > .min-w-0 {
+    padding-top: 3px;
+  }
+  .stage-step {
+    white-space: nowrap;
+    color: rgb(255 255 255 / 0.66);
+    font-weight: 500;
+  }
+  /* Small tags keep a 44px tap area (§8) without looking bigger. */
+  .stage-draft,
+  .deeper-draft {
+    position: relative;
+  }
+  .stage-draft::after,
+  .deeper-draft::after {
+    content: '';
+    position: absolute;
+    inset: -11px -4px;
+  }
+  .stage-draft {
+    min-height: 22px;
+    padding: 0 8px;
+    border-radius: 99px;
+    border: 1px solid rgb(255 255 255 / 0.3);
+    background: rgb(0 0 0 / 0.25);
+    color: rgb(255 255 255 / 0.9);
+    font: 600 11px/1 var(--font-sans);
+  }
+  .stage-title {
+    margin: 10px 0 0;
+    font: 700 clamp(25px, 7.1vw, 30px) / 1.1 var(--font-display);
+    letter-spacing: -0.022em;
+    text-wrap: balance;
+    text-shadow: 0 2px 20px rgb(0 0 0 / 0.35);
+  }
+  .stage-text {
+    margin: 10px 0 0;
+    font: 400 15.5px/1.45 var(--font-sans);
+    color: rgb(255 255 255 / 0.86);
+    text-wrap: pretty;
+  }
+  .stage-dive {
+    margin-top: 18px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 46px;
+    padding: 0 20px 0 22px;
+    border-radius: 999px;
+    background: #fff;
+    color: #111;
+    font: 650 15px/1 var(--font-sans);
+    box-shadow: 0 10px 30px -12px rgb(0 0 0 / 0.6);
+    transition: transform var(--dur) var(--ease-spring);
+  }
+  .stage-dive:active {
+    transform: scale(0.95);
+  }
+  .stage-dive:focus-visible,
+  .stage-act:focus-visible,
+  .stage-draft:focus-visible,
+  .feed-trailbar:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  /* The copy settles in as the card becomes active (no motion when reduced). */
+  .stage-copy > * {
+    opacity: 0;
+    transform: translateY(12px);
+    transition:
+      opacity 0.55s var(--ease-out),
+      transform 0.65s var(--ease-out);
+  }
+  .lesson-stage[data-active] .stage-copy > * {
+    opacity: 1;
+    transform: none;
+  }
+  .lesson-stage[data-active] .stage-copy > :nth-child(2) {
+    transition-delay: 0.05s;
+  }
+  .lesson-stage[data-active] .stage-copy > :nth-child(3) {
+    transition-delay: 0.1s;
+  }
+  .lesson-stage[data-active] .stage-copy > :nth-child(4) {
+    transition-delay: 0.15s;
   }
 
-  /* Most phones (780–930px tall): slightly tighter type. */
-  @media (max-height: 879px) {
-    .card-title {
-      font-size: 22px;
-    }
-    .card-text {
-      font-size: 15px;
-      line-height: 1.47;
-    }
-    .card-takeaway {
-      font-size: 14px;
-    }
+  /* Right action rail */
+  .stage-rail {
+    position: absolute;
+    right: 14px;
+    bottom: calc(var(--nav-gap) + 66px);
+    z-index: 2;
+    display: grid;
+    gap: 14px;
   }
-  /* iPhone SE class (≤ 700px tall): no trail link, smaller type. */
+  .stage-act {
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    min-width: 58px;
+    font: 600 11px/1 var(--font-sans);
+    color: #fff;
+    text-shadow: 0 1px 6px rgb(0 0 0 / 0.55);
+  }
+  .stage-act.is-muted {
+    color: rgb(255 255 255 / 0.6);
+  }
+  .stage-disc {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: rgb(20 20 24 / 0.38);
+    border: 1px solid rgb(255 255 255 / 0.28);
+    -webkit-backdrop-filter: blur(14px) saturate(1.3);
+    backdrop-filter: blur(14px) saturate(1.3);
+    transition:
+      transform 0.3s var(--ease-spring),
+      background-color var(--dur);
+  }
+  .stage-act:active .stage-disc {
+    transform: scale(0.88);
+  }
+  .stage-act[aria-pressed='true'] .stage-disc,
+  .stage-act.is-emphasis .stage-disc {
+    background: #fff;
+    color: #111;
+  }
+  .stage-audio {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: calc(var(--safe-top) + 62px);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 99px;
+    background: rgb(20 20 24 / 0.7);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+  }
+
+  /* Short screens (iPhone SE class) */
   @media (max-height: 700px) {
-    .card-next {
-      display: none;
+    .stage-title {
+      font-size: 24px;
+      margin-top: 8px;
     }
-    .card-title {
-      font-size: 20px;
-    }
-    .card-text {
+    .stage-text {
       font-size: 14.5px;
-      line-height: 1.45;
+      line-height: 1.4;
+      margin-top: 8px;
+    }
+    .stage-dive {
+      margin-top: 12px;
+      min-height: 44px;
+    }
+    .stage-rail {
+      gap: 10px;
+      bottom: calc(var(--nav-gap) + 56px);
+    }
+    .stage-disc {
+      width: 46px;
+      height: 46px;
+    }
+    .stage-shade {
+      background:
+        linear-gradient(to bottom, rgb(0 0 0 / 0.5) 0%, rgb(0 0 0 / 0) 15%),
+        linear-gradient(
+          to top,
+          rgb(0 0 0 / 0.95) 0%,
+          rgb(0 0 0 / 0.86) 34%,
+          rgb(0 0 0 / 0.55) 52%,
+          rgb(0 0 0 / 0) 68%
+        );
+    }
+  }
+  @media (max-width: 365px) {
+    .stage-copy {
+      left: 16px;
+      right: 80px;
+    }
+    .stage-rail {
+      right: 10px;
     }
   }
 
-  /* Onboarding: keep "Start exploring" above the fold on short phones. */
+  /* Bottom navigation over the feed: dark, like the cards (phones only). */
+  .nav-badge {
+    background: #e5323f;
+  }
+  @media (max-width: 1023px) {
+    .bottom-nav[data-immersive] {
+      --surface: #08080a;
+      --line: rgb(255 255 255 / 0.08);
+      --primary: #ffffff;
+      --muted: rgb(255 255 255 / 0.62);
+      --ink: #ffffff;
+      --accent-soft: rgb(255 255 255 / 0.12);
+      --surface-sunken: rgb(255 255 255 / 0.08);
+      color-scheme: dark;
+    }
+  }
+
+  /* Onboarding: a live Discover card; shorter on small phones so "Start exploring" stays visible. */
+  .welcome-preview {
+    position: relative;
+    height: 280px;
+    border-radius: 24px;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    box-shadow: 0 24px 60px -24px rgb(0 0 0 / 0.5);
+  }
+  .welcome-preview-copy {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    bottom: 16px;
+  }
+  .welcome-preview .stage-plate .lesson-art-svg {
+    inset: 24px 20px auto;
+    height: 40%;
+  }
   @media (max-height: 740px) {
-    .welcome-preview-art {
+    .welcome-preview {
+      height: 150px;
+      margin-top: 18px;
+    }
+    .welcome-preview-text {
       display: none;
     }
   }
@@ -206,6 +525,604 @@
   }
   .action-icon.is-on {
     transform: scale(1.12);
+  }
+}
+
+/* ───────────────────────── Pages (Concept E "paper" tabs) ───────────────────────── */
+@layer components {
+  .page-title {
+    margin: 0;
+    font: 800 31px/1.1 var(--font-display);
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+  .section-label {
+    font: 700 11px/1.2 var(--font-sans);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+}
+
+/* Lesson rows: thumbnail, title, detail. "is-tall" = picture across the top. */
+@layer components {
+  .lesson-row {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr) auto;
+    gap: 12px;
+    width: 100%;
+    padding: 8px 10px 8px 8px;
+    border-radius: 16px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+  .lesson-row-thumb {
+    display: block;
+    width: 76px;
+    height: 58px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--tbg);
+  }
+  .lesson-row-plate {
+    height: 100%;
+    padding: 4px;
+  }
+  .lesson-row-title {
+    display: block;
+    font: 650 14.5px/1.3 var(--font-sans);
+  }
+  .lesson-row.is-tall {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0 12px;
+    padding: 6px 16px 14px 6px;
+    border-radius: 20px;
+  }
+  .lesson-row.is-tall .lesson-row-thumb {
+    grid-column: 1 / -1;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2.7;
+    margin-bottom: 12px;
+    border-radius: 15px;
+  }
+  .lesson-row.is-tall > span:nth-child(2) {
+    padding-left: 10px;
+  }
+  .lesson-row.is-tall .lesson-row-title {
+    font-size: 17px;
+  }
+  @media (min-width: 1024px) {
+    .lesson-row.is-tall .lesson-row-thumb {
+      aspect-ratio: 3.6;
+    }
+  }
+}
+
+/* Explore topic tiles and the topic page hero (picture or icon on the topic gradient). */
+@layer components {
+  .topic-tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .topic-tiles > .is-wide {
+    grid-column: span 2;
+  }
+  .topic-tile {
+    position: relative;
+    display: block;
+    aspect-ratio: 1 / 1.05;
+    border-radius: 20px;
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(
+      160deg,
+      color-mix(in oklab, var(--tc) 70%, #000),
+      color-mix(in oklab, var(--tc) 30%, #000)
+    );
+  }
+  .is-wide > .topic-tile {
+    aspect-ratio: 2.1 / 1;
+  }
+  .topic-tile::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgb(0 0 0 / 0.78), rgb(0 0 0 / 0.1) 60%);
+  }
+  .topic-art {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .topic-art-icon {
+    display: grid;
+    place-items: center;
+    padding-bottom: 30%;
+    color: #fff;
+    opacity: 0.9;
+  }
+  .topic-tile-text {
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    z-index: 1;
+    display: grid;
+    gap: 4px;
+  }
+  .topic-tile-flag {
+    justify-self: start;
+    padding: 3px 8px;
+    border-radius: 99px;
+    background: rgb(255 255 255 / 0.22);
+    font: 600 11px/1 var(--font-sans);
+  }
+  .topic-tile-bar {
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    border-radius: 2px;
+    background: rgb(255 255 255 / 0.28);
+    overflow: hidden;
+  }
+  .topic-tile-bar i,
+  .progress-bar i {
+    display: block;
+    height: 100%;
+    border-radius: 2px;
+    background: #fff;
+    transition: width var(--dur-slow) var(--ease-out);
+  }
+  .progress-bar {
+    display: block;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--line-strong);
+    overflow: hidden;
+  }
+  .progress-bar i {
+    background: var(--tl);
+  }
+  .topic-hero {
+    position: relative;
+    margin: calc(-1 * (var(--safe-top) + 20px)) -16px 0;
+    height: calc(250px + var(--safe-top));
+    overflow: hidden;
+    color: #fff;
+    background: linear-gradient(
+      160deg,
+      color-mix(in oklab, var(--tc) 70%, #000),
+      color-mix(in oklab, var(--tc) 25%, #000)
+    );
+  }
+  @media (min-width: 640px) {
+    .topic-hero {
+      margin-inline: -24px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .topic-hero {
+      margin: 0 0 4px;
+      border-radius: 24px;
+    }
+  }
+  .topic-hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(to top, rgb(0 0 0 / 0.82), rgb(0 0 0 / 0) 70%),
+      linear-gradient(to bottom, rgb(0 0 0 / 0.35), transparent 30%);
+  }
+  .topic-hero .topic-art-icon {
+    padding-bottom: 20%;
+  }
+  .topic-hero-back {
+    position: absolute;
+    z-index: 2;
+    top: calc(var(--safe-top) + 8px);
+    left: 8px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: rgb(0 0 0 / 0.32);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  @media (min-width: 1024px) {
+    .topic-hero-back {
+      top: 8px;
+    }
+  }
+  .topic-hero-text {
+    position: absolute;
+    z-index: 1;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+/* Review run (Concept E): full screen, question first. */
+@layer components {
+  .review-stage {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    color: var(--ink);
+    animation: fade-up var(--dur) var(--ease-out) both;
+  }
+  @media (min-width: 1024px) {
+    .review-stage {
+      inset: 24px auto 24px 50%;
+      width: min(560px, calc(100vw - 48px));
+      translate: -50% 0;
+      border-radius: 28px;
+      box-shadow: var(--shadow-sheet);
+      overflow: hidden;
+    }
+  }
+  .review-head {
+    flex: none;
+    display: grid;
+    grid-template-columns: 44px 1fr 44px;
+    align-items: center;
+    padding: calc(var(--safe-top) + 8px) 8px 0;
+  }
+  .review-bar {
+    flex: none;
+    height: 3px;
+    margin: 6px 20px 0;
+    border-radius: 2px;
+    background: var(--line);
+    overflow: hidden;
+  }
+  .review-bar i {
+    display: block;
+    height: 100%;
+    background: var(--ink);
+    transition: width var(--dur-slow) var(--ease-out);
+  }
+  .review-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 14px 20px calc(var(--safe-bottom) + 20px);
+  }
+  .review-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font: 500 15px/1.2 var(--font-sans);
+    color: var(--ink-soft);
+  }
+  .review-question {
+    margin: 0;
+    font: 700 clamp(26px, 7.6vw, 32px) / 1.12 var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  .review-ill {
+    margin: 0 4%;
+    aspect-ratio: 16 / 9;
+    border-radius: 18px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background: var(--tbg);
+  }
+  @media (max-height: 700px) {
+    .review-question {
+      font-size: 24px;
+    }
+    .review-ill {
+      margin: 0 14%;
+    }
+  }
+}
+
+/* ───────────────────────── Lesson art ───────────────────────── */
+@layer components {
+  .lesson-art-plate {
+    position: relative;
+    display: block;
+    background: var(--tbg);
+  }
+  .lesson-art-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* ───────────────────────── Go Deeper (Concept E) ───────────────────────── */
+@layer components {
+  .deeper-panel {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    color: var(--ink);
+    outline: none;
+  }
+  @media (min-width: 1024px) {
+    .deeper-panel {
+      inset: 24px auto 24px 50%;
+      width: min(560px, calc(100vw - 48px));
+      translate: -50% 0;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sheet);
+    }
+  }
+  .deeper-head {
+    flex: none;
+    padding: calc(var(--safe-top) + 6px) 8px 6px;
+    background: color-mix(in oklab, var(--bg) 92%, transparent);
+    border-bottom: 1px solid transparent;
+    transition: border-color var(--dur);
+    touch-action: none;
+    cursor: grab;
+  }
+  .deeper-panel[data-scrolled] .deeper-head {
+    border-bottom-color: var(--line);
+  }
+  .deeper-grab {
+    display: block;
+    width: 38px;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--line-strong);
+    margin: 0 auto 6px;
+  }
+  .deeper-ib {
+    flex: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: var(--ink);
+    transition:
+      background-color var(--dur),
+      transform var(--dur) var(--ease-spring);
+  }
+  .deeper-ib:hover {
+    background: var(--line);
+  }
+  .deeper-ib:active {
+    transform: scale(0.9);
+  }
+  .deeper-ib[aria-pressed='true'] {
+    color: var(--tl);
+  }
+  .deeper-scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 4px 16px 24px;
+  }
+  .deeper-hero {
+    margin: 0;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 12 / 7;
+    background: var(--tbg);
+    box-shadow: var(--shadow-card);
+  }
+  .deeper-hero-plate {
+    height: 100%;
+    padding: 10px;
+  }
+  .deeper-sec {
+    margin-top: 22px;
+  }
+  .deeper-label {
+    margin: 0 0 8px;
+    font: 700 11px/1.2 var(--font-sans);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .deeper-p {
+    margin: 0 0 10px;
+    font: 400 16px/1.6 var(--font-sans);
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+  .deeper-lead {
+    color: var(--ink);
+  }
+  .deeper-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-card);
+  }
+  .deeper-take {
+    position: relative;
+    padding: 14px 16px 12px;
+    border-radius: 18px;
+    background: var(--tbg);
+    border: 1px solid color-mix(in oklab, var(--tl) 18%, transparent);
+  }
+  .deeper-take::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 14px;
+    bottom: 14px;
+    width: 3px;
+    border-radius: 0 3px 3px 0;
+    background: var(--tl);
+  }
+  .deeper-take ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .deeper-take li {
+    display: flex;
+    gap: 10px;
+    padding: 6px 0;
+    font: 450 14.5px/1.4 var(--font-sans);
+    color: var(--ink-soft);
+    border-top: 1px solid color-mix(in oklab, var(--tl) 12%, transparent);
+  }
+  .deeper-take li:first-child {
+    border-top: 0;
+  }
+  .deeper-take li::before {
+    content: '';
+    flex: none;
+    width: 6px;
+    height: 6px;
+    margin-top: 7px;
+    border-radius: 50%;
+    background: var(--tl);
+  }
+  .deeper-diagram {
+    padding: 12px;
+    border-radius: 18px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-card);
+  }
+  .deeper-diagram-box {
+    position: relative;
+    max-height: 170px;
+    overflow: hidden;
+    transition: max-height 0.5s var(--ease-out);
+  }
+  .deeper-diagram[data-open] .deeper-diagram-box {
+    max-height: 520px;
+  }
+  .deeper-diagram:not([data-open]) .deeper-diagram-box::after {
+    content: '';
+    position: absolute;
+    inset: auto 0 0;
+    height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--surface));
+  }
+  .deeper-diagram-plate {
+    background: transparent;
+    aspect-ratio: 2 / 1;
+  }
+  .deeper-chipbtn {
+    flex: none;
+    min-height: 40px;
+    padding: 0 14px;
+    border-radius: 99px;
+    background: var(--surface-2);
+    color: var(--ink);
+    font: 600 13.5px/1 var(--font-sans);
+  }
+  .deeper-more {
+    margin-top: 10px;
+    border-radius: 16px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+  }
+  .deeper-more summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 52px;
+    padding: 0 14px;
+    font: 600 15px/1.3 var(--font-sans);
+    cursor: pointer;
+  }
+  .deeper-more summary::-webkit-details-marker {
+    display: none;
+  }
+  .deeper-more summary svg {
+    margin-left: auto;
+    flex: none;
+    color: var(--muted);
+    transition: transform 0.3s var(--ease-out);
+  }
+  .deeper-more[open] summary svg {
+    transform: rotate(180deg);
+  }
+  .deeper-draft {
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 0 10px;
+    border-radius: 99px;
+    background: #fff1d6;
+    color: #6b4200;
+    font: 700 11.5px/1 var(--font-sans);
+  }
+  [data-theme='dark'] .deeper-draft {
+    background: #3a2c12;
+    color: #ffd27a;
+  }
+  .deeper-row {
+    display: grid;
+    grid-template-columns: 76px 1fr auto;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    padding: 8px 10px 8px 8px;
+    text-align: left;
+    border-radius: 16px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--ink);
+  }
+  .deeper-thumb {
+    width: 76px;
+    height: 58px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--tbg);
+    display: block;
+  }
+  .deeper-thumb-plate {
+    height: 100%;
+    padding: 4px;
+  }
+  .deeper-foot {
+    flex: none;
+    display: flex;
+    gap: 8px;
+    padding: 10px 16px calc(var(--safe-bottom) + 12px);
+    border-top: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .deeper-pill {
+    min-height: 50px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 18px;
+    font: 650 15px/1 var(--font-sans);
+    background: var(--surface-2);
+    color: var(--ink);
+  }
+  .deeper-pill.is-solid {
+    flex: 1;
+    background: var(--ink);
+    color: var(--bg);
   }
 }
 
@@ -310,6 +1227,12 @@
 
 /* Reduced motion: no animations or smooth scrolling at all. */
 @media (prefers-reduced-motion: reduce) {
+  img.stage-art,
+  .lesson-stage[data-active] img.stage-art,
+  .stage-copy > * {
+    transform: none !important;
+    opacity: 1 !important;
+  }
   *,
   *::before,
   *::after {

@@ -6,6 +6,7 @@
   "title": "Quantas palavras tupi você já falou hoje?",
   "hook": "Abacaxi, pipoca, capivara: o tupi está no seu prato, no mapa e no cinema.",
   "summary": "O português do Brasil guarda milhares de palavras de origem indígena, sobretudo tupi, na fauna, na flora e nos nomes de lugares.",
+  "cardText": "Provavelmente várias. Abacaxi, mandioca, capivara, jacaré e pipoca vêm do tupi, assim como nomes de lugares como Ipanema, Paraná e Piracicaba.",
   "cardBlocks": [
     {
       "type": "paragraph",

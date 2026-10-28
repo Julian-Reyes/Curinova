@@ -1,18 +1,13 @@
 import { isMastered, type QuizQuestion, type ReviewState } from '@lumen/domain';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
-import { CheckIcon, ReviewIcon } from '../components/icons';
-import {
-  buttonPrimary,
-  buttonSecondary,
-  Card,
-  EmptyState,
-  Page,
-  Section,
-} from '../components/Page';
+import { ArrowRightIcon, CheckIcon, ChevronLeftIcon, ReviewIcon } from '../components/icons';
+import { LessonArt } from '../components/LessonArt';
+import { LessonRow } from '../components/LessonRow';
+import { buttonPrimary, Card, EmptyState, Page, Section } from '../components/Page';
 import { QuizRunner, type AnswerResult } from '../components/QuizRunner';
-import { TopicIcon, topicTint } from '../components/TopicIcon';
+import { TopicIcon } from '../components/TopicIcon';
 import { useApp, useDueReviews, useReviews } from '../data/app-context';
 import { progress } from '../data/progress';
 
@@ -30,9 +25,21 @@ export default function Review() {
     () => reviews.filter((r) => library.concept(r.conceptId) !== undefined),
     [reviews, library],
   );
-  const mastered = known.filter((r) => isMastered(r));
-  const learning = known
-    .filter((r) => !isMastered(r))
+  // One row per lesson (a lesson has a review state per question): mastered once every
+  // question is, otherwise listed with its next due question.
+  const byConcept = new Map<string, ReviewState[]>();
+  for (const r of known) byConcept.set(r.conceptId, [...(byConcept.get(r.conceptId) ?? []), r]);
+  const lessons = [...byConcept.values()].flatMap((states) => {
+    const open = states
+      .filter((r) => !isMastered(r))
+      .sort((a, b) => a.dueAt.localeCompare(b.dueAt));
+    const next = open[0] ?? states[0];
+    return next ? [{ mastered: open.length === 0, next }] : [];
+  });
+  const mastered = lessons.filter((l) => l.mastered).map((l) => l.next);
+  const learning = lessons
+    .filter((l) => !l.mastered)
+    .map((l) => l.next)
     .sort((a, b) => b.firstLearnedAt.localeCompare(a.firstLearnedAt));
 
   const startReview = () => {
@@ -63,30 +70,18 @@ export default function Review() {
 
   if (running) {
     return (
-      <Page title={t('review.sessionTitle')}>
-        <Card className="p-5">
-          <QuizRunner
-            questions={running.questions}
-            seed={running.seed}
-            onAnswer={onAnswer}
-            onFinish={(results) => {
-              setRunning(null);
-              setLastResult(results);
-            }}
-            finishLabel={t('review.finish')}
-            renderContext={(q) => <ConceptLabel conceptId={q.conceptId} />}
-          />
-        </Card>
-        <button
-          type="button"
-          onClick={() => {
-            setRunning(null);
-          }}
-          className="pressable mt-4 min-h-11 px-2 font-semibold text-muted hover:text-ink"
-        >
-          {t('review.stop')}
-        </button>
-      </Page>
+      <ReviewSession
+        questions={running.questions}
+        seed={running.seed}
+        onAnswer={onAnswer}
+        onStop={() => {
+          setRunning(null);
+        }}
+        onFinish={(results) => {
+          setRunning(null);
+          setLastResult(results);
+        }}
+      />
     );
   }
 
@@ -94,10 +89,10 @@ export default function Review() {
     <Page title={t('review.title')} subtitle={t('review.subtitle')}>
       {lastResult && (
         <div
-          className="fade-up mb-6 flex items-center gap-3 rounded-[20px] bg-accent-soft p-4"
+          className="fade-up mb-5 flex items-center gap-3 rounded-[18px] bg-success-soft p-4"
           role="status"
         >
-          <CheckIcon size={24} className="shrink-0 text-primary-strong" />
+          <CheckIcon size={24} className="shrink-0 text-success" />
           <p className="font-semibold">
             {t('review.done', {
               correct: lastResult.filter((r) => r.correct).length,
@@ -109,28 +104,47 @@ export default function Review() {
 
       <Section title={t('review.dueNow')}>
         {due.length === 0 ? (
-          <EmptyState
-            title={known.length === 0 ? t('review.emptyTitle') : t('review.caughtUpTitle')}
-            body={known.length === 0 ? t('review.emptyBody') : t('review.caughtUpBody')}
-            action={
-              <Link to="/app/discover" className={buttonSecondary}>
-                {t('review.goDiscover')}
-              </Link>
-            }
-          />
+          known.length === 0 ? (
+            <EmptyState
+              title={t('review.emptyTitle')}
+              body={t('review.emptyBody')}
+              action={
+                <Link to="/app/discover" className={buttonPrimary}>
+                  {t('review.goDiscover')}
+                </Link>
+              }
+            />
+          ) : (
+            <Card className="flex flex-col items-center gap-1.5 p-5 text-center">
+              <span className="mb-1 flex size-14 items-center justify-center rounded-full bg-success-soft text-success">
+                <ReviewIcon size={28} />
+              </span>
+              <p className="font-display text-[22px] font-bold tracking-tight">
+                {t('review.caughtUpTitle')}
+              </p>
+              <p className="max-w-sm text-[15px] leading-relaxed text-ink-soft">
+                {t('review.caughtUpBody')}
+              </p>
+            </Card>
+          )
         ) : (
-          <Card className="glow-bg p-5">
-            <p className="font-display text-2xl font-semibold">
+          <Card className="p-5">
+            <p className="font-display text-[64px] leading-none font-extrabold tracking-tighter tabular-nums">
+              {due.length}
+            </p>
+            <p className="mt-1 text-[17px] font-semibold">
               {t('review.dueCount', { count: due.length })}
             </p>
-            <p className="mt-1 text-muted">{t('review.lowPressure')}</p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-ink-soft">
+              {t('review.lowPressure')}
+            </p>
             <button
               type="button"
               onClick={startReview}
-              className={`${buttonPrimary} mt-4 w-full sm:w-auto`}
+              className={`${buttonPrimary} mt-4 min-h-14`}
             >
-              <ReviewIcon size={20} />
               {t('review.start', { count: Math.min(BATCH, due.length) })}
+              <ArrowRightIcon size={18} />
             </button>
           </Card>
         )}
@@ -138,7 +152,7 @@ export default function Review() {
 
       {learning.length > 0 && (
         <Section title={t('review.recentlyLearned')}>
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-2.5">
             {learning.slice(0, 12).map((r) => (
               <ReviewRow key={`${r.conceptId}|${r.questionGroupId}`} state={r} />
             ))}
@@ -148,7 +162,7 @@ export default function Review() {
 
       {mastered.length > 0 && (
         <Section title={t('review.mastered')}>
-          <ul className="flex flex-col gap-2">
+          <ul className="flex flex-col gap-2.5">
             {mastered.map((r) => (
               <ReviewRow key={`${r.conceptId}|${r.questionGroupId}`} state={r} />
             ))}
@@ -160,10 +174,106 @@ export default function Review() {
   );
 }
 
-function ConceptLabel({ conceptId }: { conceptId: string }) {
+/**
+ * A review run (Concept E, D15/P12): full screen, one question at a time. The topic, the
+ * question and the lesson's review picture come first (never the answer), then the options;
+ * the answer and why appear after a choice. Scheduling is the app's (§3.4).
+ */
+function ReviewSession({
+  questions,
+  seed,
+  onAnswer,
+  onStop,
+  onFinish,
+}: {
+  questions: QuizQuestion[];
+  seed: number;
+  onAnswer: (r: AnswerResult) => void;
+  onStop: () => void;
+  onFinish: (results: AnswerResult[]) => void;
+}) {
+  const { t } = useTranslation();
   const { library, prefs } = useApp();
-  const v = library.variant(conceptId, prefs.locale);
-  return v ? <p className="-mt-2 text-sm text-muted">{v.title}</p> : null;
+  const [index, setIndex] = useState(0);
+  const heading = useRef<HTMLHeadingElement>(null);
+  const current = questions[index];
+  const topicId = current ? library.concept(current.conceptId)?.topicId : undefined;
+  useEffect(() => {
+    document.title = `${t('review.sessionTitle')} · ${t('app.name')}`;
+    heading.current?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onStop();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => {
+      window.removeEventListener('keydown', onKey);
+    };
+  }, [t, onStop]);
+  return (
+    <div className="review-stage" role="region" aria-labelledby="review-heading">
+      <div className="review-head">
+        <button type="button" className="deeper-ib" onClick={onStop} aria-label={t('review.stop')}>
+          <ChevronLeftIcon size={24} />
+        </button>
+        <h1
+          id="review-heading"
+          ref={heading}
+          tabIndex={-1}
+          className="text-center text-[15px] font-semibold text-ink-soft tabular-nums outline-none"
+        >
+          <span className="sr-only">{t('review.sessionTitle')}: </span>
+          {t('review.position', { current: index + 1, total: questions.length })}
+        </h1>
+        <span />
+      </div>
+      <div className="review-bar" aria-hidden="true">
+        <i style={{ width: `${(index / questions.length) * 100}%` }} />
+      </div>
+      <div className="review-body" data-topic={topicId}>
+        <QuizRunner
+          variant="review"
+          questions={questions}
+          seed={seed}
+          onAnswer={onAnswer}
+          onIndexChange={setIndex}
+          onFinish={onFinish}
+          finishLabel={t('review.finish')}
+          renderContext={(q) => {
+            const concept = library.concept(q.conceptId);
+            const topic = concept ? library.topic(concept.topicId) : undefined;
+            return topic ? (
+              <p className="review-chip" data-topic={topic.id} lang={prefs.locale}>
+                <TopicIcon icon={topic.icon} size={18} className="text-tl" />
+                {topic.name[prefs.locale]}
+              </p>
+            ) : null;
+          }}
+          renderMedia={(q) => {
+            const concept = library.concept(q.conceptId);
+            const variant = concept ? library.variant(concept.id, q.locale) : undefined;
+            const topic = concept ? library.topic(concept.topicId) : undefined;
+            if (!concept || !variant || !topic) return null;
+            return (
+              <div className="review-ill" data-topic={topic.id}>
+                {concept.media?.review ? (
+                  <LessonArt
+                    concept={concept}
+                    variant={variant}
+                    slot="review"
+                    accent={topic.accentColor}
+                    priority
+                    className="h-full w-full object-cover"
+                  />
+                ) : (
+                  <TopicIcon icon={topic.icon} size={72} className="text-tl" />
+                )}
+              </div>
+            );
+          }}
+        />
+      </div>
+    </div>
+  );
 }
 
 function ReviewRow({ state }: { state: ReviewState }) {
@@ -171,27 +281,18 @@ function ReviewRow({ state }: { state: ReviewState }) {
   const { library, prefs } = useApp();
   const concept = library.concept(state.conceptId);
   const question = library.questionForGroup(state.questionGroupId, prefs.locale);
-  const topic = concept ? library.topic(concept.topicId) : undefined;
-  if (!concept || !question || !topic) return null;
+  if (!concept || !question) return null;
   const mastered = isMastered(state);
   return (
-    <li className="flex items-center gap-3 rounded-2xl bg-surface p-3 ring-1 ring-line">
-      <span
-        className="flex size-10 shrink-0 items-center justify-center rounded-xl"
-        style={{ background: topicTint(topic.accentColor, 0.2) }}
-      >
-        <TopicIcon icon={topic.icon} size={20} />
-      </span>
-      <span className="min-w-0 flex-1">
-        <span className="block text-[15px] leading-snug font-medium" lang={question.locale}>
-          {question.prompt}
-        </span>
-        <span className="mt-0.5 block text-[13px] text-muted">
-          {mastered
+    <li>
+      <LessonRow
+        concept={concept}
+        meta={
+          mastered
             ? t('review.masteredNext', { date: new Date(state.dueAt) })
-            : t('review.nextOn', { date: new Date(state.dueAt) })}
-        </span>
-      </span>
+            : t('review.nextOn', { date: new Date(state.dueAt) })
+        }
+      />
     </li>
   );
 }

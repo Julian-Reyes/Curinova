@@ -32,7 +32,7 @@ export function Toggle({
         className={`relative h-8 w-[52px] shrink-0 rounded-full transition-colors duration-[var(--dur)] ${checked ? 'bg-primary' : 'bg-line-strong'}`}
       >
         <span
-          className={`absolute top-1 left-1 size-6 rounded-full bg-white shadow transition-transform duration-[var(--dur)] ease-[var(--ease-out)] ${checked ? 'translate-x-5' : ''}`}
+          className={`absolute top-1 left-1 size-6 rounded-full shadow transition-transform duration-[var(--dur)] ease-[var(--ease-out)] ${checked ? 'translate-x-5 bg-on-primary' : 'bg-white'}`}
         />
       </button>
     </div>

@@ -6,6 +6,7 @@
   "title": "O que o cérebro faz com suas memórias enquanto você dorme?",
   "hook": "Em ratos, os neurônios \"repassam\" o dia durante o sono, em ritmo acelerado.",
   "summary": "Durante o sono, o cérebro reativa e reorganiza memórias recentes, o que ajuda a consolidá-las.",
+  "cardText": "Ele as repassa. Em ratos, neurônios que disparavam enquanto o animal explorava um labirinto voltam a disparar na mesma ordem durante o sono, acelerados, o que ajudaria a consolidar as memórias.",
   "cardBlocks": [
     {
       "type": "paragraph",

@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
 import { LessonRow } from '../components/LessonRow';
-import { buttonSecondary, EmptyState, Page } from '../components/Page';
+import { buttonPrimary, EmptyState, Page } from '../components/Page';
 import { Segmented } from '../components/Segmented';
 import { useApp, useBookmarks, useEvents, useSeen } from '../data/app-context';
 
@@ -31,12 +31,14 @@ export default function LibraryPage() {
       if (e.type === type && !out.includes(e.conceptId)) out.push(e.conceptId);
     return out;
   };
-  const ids =
-    tab === 'saved'
-      ? savedIds
-      : tab === 'history'
-        ? ordered('lesson_opened')
-        : ordered('lesson_completed');
+  const lists = {
+    saved: savedIds,
+    history: ordered('lesson_opened'),
+    completed: ordered('lesson_completed'),
+  };
+  const ids = lists[tab];
+  const label = (key: Tab) =>
+    t('library.tabCount', { label: t(`library.${key}`), count: lists[key].length });
   const concepts = ids.map((id) => library.concept(id)).filter((c) => c !== undefined);
 
   return (
@@ -46,9 +48,9 @@ export default function LibraryPage() {
           label={t('library.title')}
           hideLabel
           options={[
-            { value: 'saved', label: t('library.saved') },
-            { value: 'history', label: t('library.history') },
-            { value: 'completed', label: t('library.completed') },
+            { value: 'saved', label: label('saved') },
+            { value: 'history', label: label('history') },
+            { value: 'completed', label: label('completed') },
           ]}
           value={tab}
           onChange={setTab}
@@ -59,13 +61,13 @@ export default function LibraryPage() {
           title={t(`library.empty.${tab}Title`)}
           body={t(`library.empty.${tab}Body`)}
           action={
-            <Link to="/app/discover" className={buttonSecondary}>
+            <Link to="/app/discover" className={buttonPrimary}>
               {t('review.goDiscover')}
             </Link>
           }
         />
       ) : (
-        <ul className="flex flex-col gap-2">
+        <ul className="flex flex-col gap-2.5">
           {concepts.map((c) => (
             <li key={c.id}>
               <LessonRow
@@ -78,7 +80,7 @@ export default function LibraryPage() {
           ))}
         </ul>
       )}
-      <p className="mt-6 text-sm text-muted">{t('library.localNote')}</p>
+      <p className="mt-6 text-center text-[13.5px] text-muted">{t('library.localNote')}</p>
     </Page>
   );
 }

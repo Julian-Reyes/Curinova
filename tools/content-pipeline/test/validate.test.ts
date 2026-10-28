@@ -374,3 +374,116 @@ describe('references', () => {
     expect(codes(docs)).toContain('missing-ref');
   });
 });
+
+describe('Discover card text (D15/P8)', () => {
+  it('accepts a short card text and rejects one that is too long or too short', () => {
+    const docs = validDocs();
+    get<Json>(docs, PT).cardText = fixtureWords(25);
+    expect(codes(docs)).not.toContain('card-text-words');
+    get<Json>(docs, EN).cardText = fixtureWords(45);
+    get<Json>(docs, PT).cardText = fixtureWords(5);
+    expect(errors(docs).filter((e) => e.code === 'card-text-words')).toHaveLength(2);
+  });
+
+  it('requires fixture card text to look obviously fake', () => {
+    const docs = validDocs();
+    get<Json>(docs, PT).cardText =
+      'A real-looking sentence that could leak into production by mistake.';
+    expect(codes(docs)).toContain('fixture-text-prefix');
+  });
+});
+
+describe('lesson images (D15/P10, P11)', () => {
+  const CONCEPT = 'lessons/a1/concept.json';
+  const image = (overrides: Json = {}): Json => ({
+    width: 1200,
+    height: 700,
+    alt: { 'pt-BR': 'Descrição', en: 'Description' },
+    origin: { kind: 'generated', tool: 'Tool', createdBy: 'Founder', createdAt: '2026-10-27' },
+    accuracyReviewedBy: 'Reviewer',
+    addedAt: '2026-10-27',
+    ...overrides,
+  });
+  const files = (...slots: string[]) =>
+    new Set(slots.flatMap((s) => [`/media/a1/${s}.webp`, `/media/a1/${s}-sm.webp`]));
+  const issues = (docs: Record<string, unknown>, mediaFiles?: Set<string>) =>
+    validateContent([tree(docs, 'real')], { mediaFiles }).issues;
+
+  it('accepts a complete image record whose files exist', () => {
+    const docs = asReal(validDocs());
+    get<Json>(docs, CONCEPT).media = { deeper: image() };
+    expect(issues(docs, files('deeper')).filter((i) => i.severity === 'error')).toEqual([]);
+  });
+
+  it('rejects an image with an unknown origin or missing alt text (P11)', () => {
+    const docs = asReal(validDocs());
+    get<Json>(docs, CONCEPT).media = {
+      deeper: image({ origin: { kind: 'unknown' }, alt: { 'pt-BR': 'Descrição' } }),
+    };
+    const codesFound = issues(docs).map((i) => i.code);
+    expect(codesFound).toEqual(expect.arrayContaining(['media-origin', 'media-alt']));
+  });
+
+  it('requires an https source for a licensed image', () => {
+    const docs = asReal(validDocs());
+    get<Json>(docs, CONCEPT).media = {
+      review: image({
+        origin: {
+          kind: 'licensed',
+          creator: 'Name',
+          license: 'Pexels License',
+          sourceUrl: 'http://x.org',
+        },
+      }),
+    };
+    expect(issues(docs).some((i) => i.code === 'schema')).toBe(true);
+  });
+
+  it('reports missing files and stray files when the image folder is known', () => {
+    const docs = asReal(validDocs());
+    get<Json>(docs, CONCEPT).media = { discover: image() };
+    const found = issues(docs, files('review'));
+    expect(found.filter((i) => i.code === 'media-missing')).toHaveLength(2);
+    expect(found.filter((i) => i.code === 'media-unused')).toHaveLength(2);
+  });
+
+  it('blocks publishing an image nobody has checked for accuracy, but only warns on drafts', () => {
+    const docs = asReal(validDocs());
+    get<Json>(docs, CONCEPT).media = { deeper: image({ accuracyReviewedBy: null }) };
+    const published = issues(docs).find((i) => i.code === 'media-unreviewed');
+    expect(published?.severity).toBe('error');
+    for (const path of [PT, EN]) {
+      Object.assign(get<Json>(docs, path), {
+        publicationStatus: 'draft',
+        reviewStatus: 'draft',
+        publishedAt: null,
+      });
+    }
+    expect(issues(docs).find((i) => i.code === 'media-unreviewed')?.severity).toBe('warning');
+  });
+
+  it('keeps images out of fixtures', () => {
+    const docs = validDocs();
+    get<Json>(docs, CONCEPT).media = { deeper: image() };
+    expect(codes(docs)).toContain('media');
+  });
+});
+
+describe('topic images', () => {
+  const image = {
+    width: 1200,
+    height: 800,
+    alt: { 'pt-BR': 'Descrição' },
+    origin: { kind: 'unknown' },
+    accuracyReviewedBy: null,
+    addedAt: '2026-10-28',
+  };
+  it('needs an origin and alt text in both locales, and its files', () => {
+    const docs = asReal(validDocs());
+    (get<Json[]>(docs, 'topics.json')[0] as Json).image = image;
+    const found = validateContent([tree(docs, 'real')], { mediaFiles: new Set() }).issues.map(
+      (i) => i.code,
+    );
+    expect(found).toEqual(expect.arrayContaining(['media-origin', 'media-alt', 'media-missing']));
+  });
+});
