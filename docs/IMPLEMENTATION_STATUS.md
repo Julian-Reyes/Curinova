@@ -95,14 +95,13 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 
 Plan approved 2026-10-28 (D18). Three build sessions, then a C1 pilot.
 
-| Item                                                                 | Status          |
-| -------------------------------------------------------------------- | --------------- |
-| `content:build` (D16 split files, image list, budgets) + app loading | ✅ session 1    |
-| `content:stats`, `content:due-review`                                | ✅ session 1    |
-| Provider interface, run/cost log, research, draft, claims, verify    | Session 2       |
-| `content:check-links`, `content:dedupe`, drafts validation           | Session 2       |
-| Review tool `/_review`, `docs/CONTENT_PIPELINE.md`, fixture dry run  | Session 3       |
-| C1 pilot on one trail                                                | After session 3 |
+| Item                                                                                                                       | Status          |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| `content:build` (D16 split files, image list, budgets) + app loading                                                       | ✅ session 1    |
+| `content:stats`, `content:due-review`                                                                                      | ✅ session 1    |
+| Sources (`content:sources`), `content:check-drafts`, `content:check-links`, `content:dedupe`, writer/verifier instructions | ✅ session 2    |
+| Review tool `/_review` and a fixture dry run                                                                               | Session 3       |
+| C1 pilot on one trail                                                                                                      | After session 3 |
 
 ### Deferred to later milestones
 
