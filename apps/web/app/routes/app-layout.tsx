@@ -10,18 +10,21 @@ import { readStorage, STORAGE_KEYS } from '../platform/storage-keys';
 import type { Route } from './+types/app-layout';
 
 export async function clientLoader() {
-  const library = await loadLibrary();
   const lang = document.documentElement.lang;
   const theme = readStorage(STORAGE_KEYS.theme);
   const fallback: UserPreferences = {
     ...defaultPreferences(isLocale(lang) ? lang : 'pt-BR'),
     theme: theme === 'light' || theme === 'dark' ? theme : 'system',
   };
+  let prefs = fallback;
+  let storageOk = true;
   try {
-    return { library, prefs: await progress.loadPreferences(fallback), storageOk: true };
+    prefs = await progress.loadPreferences(fallback);
   } catch {
-    return { library, prefs: fallback, storageOk: false };
+    storageOk = false;
   }
+  // Content in the learner's language only (D16); switching language loads the other.
+  return { library: await loadLibrary(prefs.locale), prefs, storageOk };
 }
 
 export function HydrateFallback() {

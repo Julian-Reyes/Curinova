@@ -17,6 +17,9 @@
     "test:e2e": "pnpm --filter @lumen/web test:e2e",
     "build": "pnpm -r --if-present run build",
     "content:validate": "pnpm --filter @lumen/content-pipeline validate",
+    "content:build": "pnpm --filter @lumen/content-pipeline content:build",
+    "content:stats": "pnpm --filter @lumen/content-pipeline content:stats",
+    "content:due-review": "pnpm --filter @lumen/content-pipeline content:due-review",
     "media:add": "pnpm --filter @lumen/content-pipeline media:add"
   },
   "devDependencies": {

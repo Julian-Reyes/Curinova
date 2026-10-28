@@ -21,7 +21,7 @@ import { useTranslation } from 'react-i18next';
 import { STORAGE_KEYS, writeStorage } from '../platform/storage-keys';
 import { applyTheme, watchSystemTheme } from '../platform/theme';
 import { db } from './db';
-import type { Library } from './library';
+import { loadLibrary, type Library } from './library';
 import { progress } from './progress';
 
 interface AppContextValue {
@@ -36,7 +36,7 @@ interface AppContextValue {
 const AppContext = createContext<AppContextValue | null>(null);
 
 export function AppProvider({
-  library,
+  library: initialLibrary,
   initialPrefs,
   initialStorageOk,
   children,
@@ -48,6 +48,24 @@ export function AppProvider({
 }) {
   const { i18n } = useTranslation();
   const [prefs, setPrefs] = useState(initialPrefs);
+  const [library, setLibrary] = useState(initialLibrary);
+
+  // Content is loaded per language (D16): a language switch fetches that language's
+  // files; until they arrive, lessons fall back to the language already loaded.
+  useEffect(() => {
+    if (library.locale === prefs.locale) return;
+    let current = true;
+    loadLibrary(prefs.locale)
+      .then((next) => {
+        if (current) setLibrary(next);
+      })
+      .catch(() => {
+        // Offline and never loaded: keep showing the loaded language.
+      });
+    return () => {
+      current = false;
+    };
+  }, [prefs.locale, library.locale]);
   const [storageOk, setStorageOk] = useState(initialStorageOk);
   const first = useRef(true);
 

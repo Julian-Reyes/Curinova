@@ -1,10 +1,8 @@
 import { defineConfig } from 'vitest/config';
-import { lumenContent } from './content-plugin.ts';
 
 // Separate from vite.config.ts: the React Router plugin is not needed for unit tests.
-// Tests that load the content bundle only ever see the fake fixtures.
+// Tests build their libraries from in-memory content (fixtures-style), never the bundle.
 export default defineConfig({
-  plugins: [lumenContent('fixtures')],
   test: {
     name: '@lumen/web',
     environment: 'jsdom',

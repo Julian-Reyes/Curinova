@@ -237,6 +237,17 @@ Overrides §3.8's session goal and soft stop, and relaxes §6's "never optimize 
 - **Gentle nudge instead of a stop.** When reviews are due at session start, a skippable "Time to remember" card appears every 20 lessons (and after the first lesson in "Remember more" mode, P7). Nothing blocks scrolling.
 - **Before launch:** review against ECA Digital (Lei 15.211/2025, P4), which has protections for minors against features that encourage compulsive use.
 
+### D18 · M3 content pipeline approach — Founder (2026-10-28)
+
+Plan: `/Users/apple/.claude/plans/iterative-swinging-rabin.md` (approved). Founder choices and the deviations they imply:
+
+- **Engine: Claude Code sessions.** A provider-agnostic `LlmProvider` with `mock` (tests), `handoff` (the pipeline writes request files; a Claude Code session answers them from versioned prompts; answers are schema-checked) and an `anthropic` adapter (plain `fetch`, off unless a key is configured, per-run budget cap). Deviation from §5.5 "ideally a different model": verification is a separate pass with its own prompt and no access to the draft's reasoning, plus deterministic checks (each excerpt must appear verbatim in its source snapshot).
+- **Sources: free.** Wikipedia's API to find the references articles cite, plus manual URLs. No paid search API.
+- **Snapshots stay out of git.** Fetched page text is never committed (the repository is public); only source metadata and `snapshotHash` are. Re-verification needs the authoring machine.
+- **Dedupe: local text similarity** (TF-IDF), no embeddings service.
+- **Content loading (D16): split files, loaded by language.** Done in session 1: `pnpm content:build` writes `apps/web/public/content/` (manifest, hashed index, one file per topic and locale, a separate image list); the app loads only the learner's language and fetches the other on a language switch; the service worker checks the manifest online first and caches hashed files. The build runs before every app build and on content changes in dev, replacing the bundled `virtual:lumen-content` module (B2). First visit today: about 29 KB compressed (budget 350 KB; over budget → load topics on demand).
+- **New dev dependencies (approved):** `@mozilla/readability`, `jsdom`, `robots-parser` in `tools/content-pipeline`.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.

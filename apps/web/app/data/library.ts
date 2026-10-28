@@ -1,13 +1,15 @@
 import {
-  ClusterSchema,
-  ConceptSchema,
-  LessonVariantSchema,
-  QuizQuestionSchema,
-  SourceSchema,
-  TopicSchema,
+  CONTENT_DIR,
+  ContentIndexSchema,
+  ContentManifestSchema,
+  MANIFEST_FILE,
+  MediaFileSchema,
+  TopicFileSchema,
   countWords,
   readingTimeSeconds,
+  restoreMediaHashes,
   selectContent,
+  topicFilesFor,
   type Cluster,
   type Concept,
   type ContentChannel,
@@ -18,11 +20,12 @@ import {
   type Source,
   type Topic,
 } from '@lumen/domain';
-import { z } from 'zod';
 
 /** Read-only, indexed view of the content bundle (the P0 StaticContentRepository, §9.7). */
 export interface Library {
   channel: ContentChannel;
+  /** The UI locale this library was loaded for (other-locale variants only as fallbacks). */
+  locale: Locale;
   topics: Topic[];
   clusters: Cluster[];
   concepts: Concept[];
@@ -52,7 +55,11 @@ export function normalize(text: string): string {
     .toLowerCase();
 }
 
-export function buildLibrary(raw: ContentLibrary, channel: ContentChannel): Library {
+export function buildLibrary(
+  raw: ContentLibrary,
+  channel: ContentChannel,
+  locale: Locale = 'pt-BR',
+): Library {
   const lib = selectContent(raw, channel);
   const topics = [...lib.topics].sort((a, b) => a.sortOrder - b.sortOrder);
   const topicsById = new Map(topics.map((t) => [t.id, t]));
@@ -96,6 +103,7 @@ export function buildLibrary(raw: ContentLibrary, channel: ContentChannel): Libr
 
   return {
     channel,
+    locale,
     topics,
     clusters: lib.clusters,
     concepts,
@@ -139,23 +147,46 @@ export function buildLibrary(raw: ContentLibrary, channel: ContentChannel): Libr
   };
 }
 
-const RawSchema = z.object({
-  channel: z.enum(['production', 'preview', 'fixtures']),
-  topics: z.array(TopicSchema),
-  clusters: z.array(ClusterSchema),
-  concepts: z.array(ConceptSchema),
-  variants: z.array(LessonVariantSchema),
-  questions: z.array(QuizQuestionSchema),
-  sources: z.array(SourceSchema),
-});
+const cache = new Map<Locale, Promise<Library>>();
 
-let cached: Promise<Library> | undefined;
+async function fetchJson(name: string, fresh = false): Promise<unknown> {
+  const response = await fetch(`${CONTENT_DIR}/${name}`, fresh ? { cache: 'no-cache' } : {});
+  if (!response.ok) throw new Error(`content file ${name}: HTTP ${String(response.status)}`);
+  return response.json();
+}
 
-/** Loads the content chunk once (it is precached by the service worker for offline use). */
-export function loadLibrary(): Promise<Library> {
-  cached ??= import('virtual:lumen-content').then((mod) => {
-    const raw = RawSchema.parse(mod.default);
-    return buildLibrary(raw, raw.channel);
-  });
-  return cached;
+/**
+ * Loads the content bundle for `locale` (D16): the manifest, then the index, the image
+ * list and that locale's topic files, each cached by the service worker under its hashed
+ * name, so only changed files are ever downloaded again. Cached per locale.
+ */
+export function loadLibrary(locale: Locale): Promise<Library> {
+  let pending = cache.get(locale);
+  if (!pending) {
+    pending = (async () => {
+      const manifest = ContentManifestSchema.parse(await fetchJson(MANIFEST_FILE, true));
+      const [rawIndex, media] = await Promise.all([
+        fetchJson(manifest.index).then((d) => ContentIndexSchema.parse(d)),
+        fetchJson(manifest.media).then((d) => MediaFileSchema.parse(d)),
+      ]);
+      const index = restoreMediaHashes(rawIndex, media);
+      const files = await Promise.all(
+        topicFilesFor(manifest, index, locale).map((name) =>
+          fetchJson(name).then((d) => TopicFileSchema.parse(d)),
+        ),
+      );
+      const sources = new Map(files.flatMap((f) => f.sources).map((src) => [src.id, src]));
+      const raw: ContentLibrary = {
+        ...index,
+        variants: files.flatMap((f) => f.variants),
+        questions: files.flatMap((f) => f.questions),
+        sources: [...sources.values()],
+      };
+      return buildLibrary(raw, manifest.channel, locale);
+    })();
+    // A failed load (e.g. offline before anything was cached) can be retried later.
+    pending.catch(() => cache.delete(locale));
+    cache.set(locale, pending);
+  }
+  return pending;
 }
