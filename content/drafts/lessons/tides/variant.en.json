@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The Sun raises tides too, at roughly half the strength of the Moon’s. When the Sun, Earth and Moon line up, at new and full Moon, the effects add up: these are spring tides, with the biggest gap between high and low water. The name has nothing to do with the season."
+      "text": "The Sun raises tides too, at roughly half the strength of the Moon’s. When the Sun, Earth and Moon line up, at new and full Moon, the effects add up: these are spring tides, with higher high tides and lower low tides than average. The name has nothing to do with the season."
     },
     {
       "type": "paragraph",
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The shape of bays and the continental shelf can amplify or dampen all of this, which is why tidal ranges vary so much from one coast to the next."
+      "text": "The shape of bays and the continental shelf can amplify or dampen all of this, which is why tidal ranges vary so much from one coast to the next. In Brazil’s Baía de São Marcos, in Maranhão, the range can top 7 meters at spring tides."
     }
   ],
   "heroMedia": {
@@ -78,12 +78,12 @@
     },
     {
       "id": "c3",
-      "text": "The Moon pulls hardest on the side of Earth nearest to it and most weakly on the far side, and this raises two bulges of water, one on each side of the planet.",
+      "text": "The Moon pulls the near ocean harder than Earth’s center, and Earth’s center harder than the far ocean; this raises two bulges of water, one on each side of the planet.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
-          "excerpt": "The strongest pull occurs on the points closest to the Moon, and the weakest on the points farthest away, but every bit of water is affected."
+          "sourceId": "src_scienceinschool_org_article_2026_unlocking_the_400a1a",
+          "excerpt": "The Moon’s gravitational pull is strongest on the near ocean, drawing water into a bulge there. The far ocean is farthest from the Moon and experiences the weakest attraction, meaning the Earth is pulled towards the Moon more strongly than the distant ocean. This causes the Earth to accelerate slightly more towards the Moon than the far-side water, producing a second bulge."
         },
         {
           "sourceId": "src_science_nasa_gov_moon_tides_92238d",
@@ -94,7 +94,7 @@
           "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -116,15 +116,15 @@
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
-          "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
+          "sourceId": "src_scienceinschool_org_article_2026_unlocking_the_400a1a",
+          "excerpt": "To calculate the tidal force at any point on the Earth’s surface (i.e., the difference in gravitational acceleration between points on the Earth), the Moon’s pull at the Earth’s centre is subtracted."
         },
         {
-          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
-          "excerpt": "Tidal forces are based on the gravitational attractive force."
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -159,15 +159,19 @@
     },
     {
       "id": "c8",
-      "text": "Spring tides have the biggest difference between high and low water.",
+      "text": "Spring tides have higher high tides and lower low tides than average.",
       "highStakes": false,
       "support": [
         {
           "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
           "excerpt": "This means that high tides are a little higher and low tides are a little lower than average. These are called spring tides"
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
+          "excerpt": "the solar tide has an additive effect on the lunar tide, creating extra-high high tides, and very low, low tides—both commonly called spring tides."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -241,17 +245,32 @@
       ],
       "autoVerdict": "supported",
       "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "In Brazil’s Baía de São Marcos, in Maranhão, the tidal range can top 7 meters at spring tides.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pt_wikipedia_org_wiki_ba_c3_d4e5ac",
+          "excerpt": "Destaca-se pela amplitude das marés, que alcançam até 7,2 m nas marés de sizígia."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
     }
   ],
   "sourceIds": [
     "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
     "src_science_nasa_gov_moon_tides_92238d",
     "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+    "src_scienceinschool_org_article_2026_unlocking_the_400a1a",
     "src_oceanservice_noaa_gov_education_tutorial_tides_7a3e59",
     "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
     "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
     "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
-    "src_oceanservice_noaa_gov_facts_highesttide_html_0776e8"
+    "src_oceanservice_noaa_gov_facts_highesttide_html_0776e8",
+    "src_pt_wikipedia_org_wiki_ba_c3_d4e5ac"
   ],
   "quizIds": ["q_tides_1__en", "q_tides_2__en"],
   "contentLicense": "pending",

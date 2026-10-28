@@ -21,8 +21,8 @@
     ],
     "correctOptionId": "a",
     "explanation": "A diferença de puxão entre o lado próximo, o centro e o lado distante da Terra cria dois inchaços de água. A Terra gira por baixo deles.",
-    "misconception": "O Sol também influencia as marés, mas a segunda maré alta existiria mesmo sem ele: ela vem da diferença de puxão da Lua.",
-    "claimIds": ["c1", "c2", "c3"],
+    "misconception": "O Sol também influencia as marés, mas a Lua sozinha já cria os dois inchaços: um do lado voltado para ela e outro do lado oposto.",
+    "claimIds": ["c1", "c2", "c3", "c5"],
     "status": "draft"
   },
   {
@@ -30,7 +30,7 @@
     "questionGroupId": "qg_tides_2",
     "conceptId": "concept_tides",
     "locale": "pt-BR",
-    "prompt": "Quando acontecem as marés mais fortes, as de sizígia?",
+    "prompt": "Quando acontecem as marés de sizígia, com marés altas mais altas que o normal?",
     "options": [
       {
         "id": "a",

@@ -6,11 +6,11 @@
   "title": "Por que não há eclipse todo mês?",
   "hook": "A Lua passa entre a Terra e o Sol todo mês. Quase sempre, erra o alvo.",
   "summary": "A órbita da Lua é inclinada cerca de 5 graus; eclipses só acontecem quando o alinhamento coincide com os cruzamentos das órbitas.",
-  "cardText": "A órbita da Lua é inclinada uns 5 graus, e quase sempre a sombra passa acima ou abaixo da Terra. Tudo só se alinha nas temporadas de eclipse, cerca de duas vezes por ano.",
+  "cardText": "A órbita da Lua é inclinada uns 5 graus, e por isso, na maioria das Luas novas, Sol, Lua e Terra não chegam a se alinhar. Isso só acontece nas temporadas de eclipse, cerca de duas vezes por ano.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Todo mês, na Lua nova, a Lua passa entre a Terra e o Sol. Então por que não temos um eclipse solar a cada 29 dias e meio? Porque a órbita da Lua é inclinada cerca de 5 graus em relação à órbita da Terra. Na maior parte dos meses, a sombra da Lua passa acima ou abaixo do nosso planeta."
+      "text": "Todo mês, na Lua nova, a Lua passa entre a Terra e o Sol. Então por que não temos um eclipse solar a cada 29 dias e meio? Porque a órbita da Lua é inclinada cerca de 5 graus em relação à órbita da Terra. Na maior parte dos meses, os três não ficam alinhados o bastante para haver um eclipse."
     },
     {
       "type": "paragraph",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "O Sol tem cerca de 400 vezes o diâmetro da Lua e está cerca de 400 vezes mais longe. Por isso, no céu, os dois parecem quase do mesmo tamanho, e a Lua consegue cobrir o Sol exatamente, deixando à mostra a coroa solar."
+      "text": "O Sol tem cerca de 400 vezes o diâmetro da Lua e está cerca de 400 vezes mais longe. Por isso, no céu, os dois parecem quase do mesmo tamanho, e a Lua consegue cobrir o Sol quase exatamente, deixando à mostra a coroa solar."
     },
     {
       "type": "paragraph",
@@ -99,19 +99,23 @@
     },
     {
       "id": "c4",
-      "text": "Por causa da inclinação, na maioria dos meses a Lua passa acima ou abaixo da linha entre a Terra e o Sol, e a sua sombra não atinge a Terra.",
+      "text": "Por causa da inclinação, na maioria das Luas novas, Sol, Lua e Terra não ficam alinhados o bastante para haver um eclipse solar.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_science_nasa_gov_moon_moon_phases_5a8021",
-          "excerpt": "The tilt sometimes brings the Moon above Earth’s northern hemisphere, and sometimes below Earth’s southern hemisphere"
+          "sourceId": "src_science_nasa_gov_eclipses_types_42f02f",
+          "excerpt": "Solar eclipses occur when the Sun, the Moon, and Earth line up, either fully or partially."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_eclipses_types_42f02f",
+          "excerpt": "This only happens occasionally, because the Moon doesn't orbit in the exact same plane as the Sun and Earth do."
         },
         {
           "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
           "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -167,15 +171,19 @@
     },
     {
       "id": "c8",
-      "text": "Num eclipse solar total, a Lua cobre o Sol e a coroa solar fica visível.",
+      "text": "Num eclipse solar total, a Lua cobre o Sol quase exatamente e a coroa solar fica visível.",
       "highStakes": false,
       "support": [
+        {
+          "sourceId": "src_apod_nasa_gov_apod_ap990818_html_1758f5",
+          "excerpt": "During a total solar eclipse, Earth's moon blocks the sun - almost exactly."
+        },
         {
           "sourceId": "src_science_nasa_gov_eclipses_4bdf6f",
           "excerpt": "We can't normally see the corona—the Sun's outer atmosphere — because Sun's surface below it is so much brighter. But during a total solar eclipse, the corona emerges"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -236,7 +244,7 @@
     "src_science_nasa_gov_moon_facts_a9162f",
     "src_svs_gsfc_nasa_gov_4158_3d1954",
     "src_earthsky_org_astronomy_essentials_why_isnt_539066",
-    "src_science_nasa_gov_moon_moon_phases_5a8021",
+    "src_science_nasa_gov_eclipses_types_42f02f",
     "src_science_nasa_gov_eclipses_4bdf6f",
     "src_apod_nasa_gov_apod_ap990818_html_1758f5",
     "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",

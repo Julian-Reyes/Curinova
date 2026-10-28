@@ -16,12 +16,12 @@
       },
       {
         "id": "c",
-        "text": "Earth’s core is cooling down"
+        "text": "The Sun’s gravity is getting stronger"
       }
     ],
     "correctOptionId": "a",
     "explanation": "Tides drag on the ocean floor and steal a little of Earth’s spin, about 2 milliseconds per century.",
-    "misconception": "Distance from the Sun affects the length of the year, not the day.",
+    "misconception": "Earth’s distance from the Sun is not the cause: the slowdown comes from tidal friction.",
     "claimIds": ["c1", "c2", "c3"],
     "status": "draft"
   },

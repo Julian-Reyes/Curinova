@@ -25,7 +25,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "A Lua gira uma vez a cada órbita, cerca de 27 dias. É essa sincronia que mantém a mesma face voltada para a Terra.",
-    "misconception": "Muita gente acha que a Lua não gira. Se ela não girasse, veríamos todos os seus lados ao longo de um mês.",
+    "misconception": "Muita gente acha que a Lua não gira. Ela gira, sim, uma vez a cada órbita, e é justamente por isso que a mesma face fica voltada para nós.",
     "claimIds": ["c1", "c2", "c3"],
     "status": "draft"
   },
@@ -38,7 +38,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Não, ele recebe luz do Sol tanto quanto o lado visível"
+        "text": "Não, ele tem dia e noite como o lado visível"
       },
       {
         "id": "b",

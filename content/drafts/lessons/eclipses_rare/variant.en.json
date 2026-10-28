@@ -6,11 +6,11 @@
   "title": "Why isn’t there an eclipse every month?",
   "hook": "The Moon passes between Earth and the Sun every month. Almost always, it misses.",
   "summary": "The Moon’s orbit is tilted about 5 degrees, so eclipses only happen when the alignment falls where the orbits cross.",
-  "cardText": "The Moon’s orbit is tilted about 5 degrees, so its shadow usually passes above or below Earth. Everything only lines up during eclipse seasons, which come about twice a year.",
+  "cardText": "The Moon’s orbit is tilted about 5 degrees, so at most new Moons the Sun, Moon and Earth don’t quite line up. They only do during eclipse seasons, which come about twice a year.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Every month, at new Moon, the Moon passes between Earth and the Sun. So why don’t we get a solar eclipse every 29 and a half days? Because the Moon’s orbit is tilted by about 5 degrees relative to Earth’s. In most months, the Moon’s shadow sails above or below our planet."
+      "text": "Every month, at new Moon, the Moon passes between Earth and the Sun. So why don’t we get a solar eclipse every 29 and a half days? Because the Moon’s orbit is tilted by about 5 degrees relative to Earth’s. In most months, the three don’t line up closely enough for an eclipse."
     },
     {
       "type": "paragraph",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The Sun is about 400 times wider than the Moon and about 400 times farther away. So in our sky the two look almost the same size, and the Moon can cover the Sun exactly, revealing the faint solar corona."
+      "text": "The Sun is about 400 times wider than the Moon and about 400 times farther away. So in our sky the two look almost the same size, and the Moon can cover the Sun almost exactly, revealing the faint solar corona."
     },
     {
       "type": "paragraph",
@@ -40,7 +40,7 @@
     },
     {
       "type": "paragraph",
-      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in northeastern Brazil, and from the island of Príncipe, off Africa. Stars near the Sun appeared slightly shifted, just as Einstein’s general theory of relativity predicted."
+      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in the state of Ceará in northeastern Brazil, and from the island of Príncipe, off Africa. Stars near the Sun appeared slightly shifted, just as Einstein’s general theory of relativity predicted."
     }
   ],
   "heroMedia": {
@@ -99,19 +99,23 @@
     },
     {
       "id": "c4",
-      "text": "Because of the tilt, in most months the Moon passes above or below the line between Earth and the Sun, so its shadow misses Earth.",
+      "text": "Because of the tilt, at most new Moons the Sun, Moon and Earth don’t line up closely enough for a solar eclipse.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_science_nasa_gov_moon_moon_phases_5a8021",
-          "excerpt": "The tilt sometimes brings the Moon above Earth’s northern hemisphere, and sometimes below Earth’s southern hemisphere"
+          "sourceId": "src_science_nasa_gov_eclipses_types_42f02f",
+          "excerpt": "Solar eclipses occur when the Sun, the Moon, and Earth line up, either fully or partially."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_eclipses_types_42f02f",
+          "excerpt": "This only happens occasionally, because the Moon doesn't orbit in the exact same plane as the Sun and Earth do."
         },
         {
           "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
           "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -167,15 +171,19 @@
     },
     {
       "id": "c8",
-      "text": "During a total solar eclipse, the Moon covers the Sun and the faint solar corona becomes visible.",
+      "text": "During a total solar eclipse, the Moon covers the Sun almost exactly and the faint solar corona becomes visible.",
       "highStakes": false,
       "support": [
+        {
+          "sourceId": "src_apod_nasa_gov_apod_ap990818_html_1758f5",
+          "excerpt": "During a total solar eclipse, Earth's moon blocks the sun - almost exactly."
+        },
         {
           "sourceId": "src_science_nasa_gov_eclipses_4bdf6f",
           "excerpt": "We can't normally see the corona—the Sun's outer atmosphere — because Sun's surface below it is so much brighter. But during a total solar eclipse, the corona emerges"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -197,15 +205,19 @@
     },
     {
       "id": "c10",
-      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in northeastern Brazil, and from the island of Príncipe, off Africa.",
+      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in the state of Ceará in northeastern Brazil, and from the island of Príncipe, off Africa.",
       "highStakes": false,
       "support": [
         {
           "sourceId": "src_revistapesquisa_fapesp_br_en_when_light_ef9beb",
           "excerpt": "No solar eclipse has been as momentous in the history of science as the one that occurred on May 29, 1919. That year, two separate expeditions of British astronomers were sent to photograph the eclipse and take measurements: one expedition voyaged to Sobral, an inland town in northeastern Brazil, and the other travelled to the island of Príncipe, then a Portuguese possession, off the coast of West Africa."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_quando_a_luz_a9ed42",
+          "excerpt": "Uma delas foi enviada à cidade de Sobral, no interior do Ceará"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -236,11 +248,12 @@
     "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
     "src_svs_gsfc_nasa_gov_4158_3d1954",
     "src_earthsky_org_astronomy_essentials_why_isnt_539066",
-    "src_science_nasa_gov_moon_moon_phases_5a8021",
+    "src_science_nasa_gov_eclipses_types_42f02f",
     "src_science_nasa_gov_eclipses_4bdf6f",
     "src_apod_nasa_gov_apod_ap990818_html_1758f5",
     "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
     "src_revistapesquisa_fapesp_br_en_when_light_ef9beb",
+    "src_revistapesquisa_fapesp_br_quando_a_luz_a9ed42",
     "src_gov_uk_government_news_sobral_the_caaa95"
   ],
   "quizIds": ["q_eclipses_rare_1__en", "q_eclipses_rare_2__en"],

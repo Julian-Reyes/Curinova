@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Por isso, a mesma face fica sempre voltada para nós. Os astrônomos chamam isso de rotação sincronizada. No início da sua história, a Lua girava mais rápido. A gravidade da Terra deformou levemente o seu corpo e foi freando a rotação até os dois ritmos se igualarem."
+      "text": "Por isso, a mesma face fica sempre voltada para nós. Os astrônomos chamam isso de rotação sincronizada, ou travamento de maré. No início da sua história, a Lua girava mais rápido. A gravidade da Terra deformou levemente o seu corpo e foi freando a rotação até os dois ritmos se igualarem."
     },
     {
       "type": "takeaway",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "O lado que nunca vemos recebe tanta luz do Sol quanto o lado visível. Ele só não aponta para a Terra. Na Lua nova, quando o lado voltado para nós está no escuro, o lado oculto está em pleno dia."
+      "text": "O lado que nunca vemos não fica sempre no escuro: ele também recebe luz do Sol e só não aponta para a Terra. Na Lua nova, quando o lado voltado para nós está no escuro, o lado oculto está em pleno dia."
     },
     {
       "type": "paragraph",
@@ -99,7 +99,7 @@
     },
     {
       "id": "c4",
-      "text": "Esse fenômeno se chama rotação sincronizada.",
+      "text": "Esse fenômeno se chama rotação sincronizada, ou travamento de maré.",
       "highStakes": false,
       "support": [
         {
@@ -109,9 +109,13 @@
         {
           "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
           "excerpt": "The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation)"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "This phenomenon, called “synchronous tidal locking,” sounds like a weird coincidence"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -155,7 +159,7 @@
     },
     {
       "id": "c8",
-      "text": "O lado oculto da Lua não fica sempre no escuro; ele só não aponta para a Terra.",
+      "text": "O lado oculto da Lua também recebe luz do Sol; ele não fica sempre no escuro e só não aponta para a Terra.",
       "highStakes": false,
       "support": [
         {
@@ -167,7 +171,7 @@
           "excerpt": "As the Moon orbits Earth, different parts are in sunlight or darkness at different times."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

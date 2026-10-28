@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Parece nada, mas isso se acumula. Corais fósseis de cerca de 400 milhões de anos têm faixas de crescimento diárias e anuais, e indicam anos de aproximadamente 400 dias, com dias de umas 22 horas. A energia que a Terra perde não some: parte dela empurra a Lua para uma órbita um pouco mais distante."
+      "text": "Parece nada, mas isso se acumula. Corais fósseis de cerca de 400 milhões de anos têm faixas de crescimento diárias que indicam anos de aproximadamente 400 dias, com dias de umas 22 horas. A energia que a Terra perde não some: parte dela empurra a Lua para uma órbita um pouco mais distante."
     },
     {
       "type": "takeaway",
@@ -32,7 +32,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A duração do dia também oscila por outros motivos, como a atmosfera e movimentos no núcleo da Terra, em cerca de um milésimo de segundo ao longo do ano. Por isso, o tempo dos relógios atômicos e a rotação da Terra vêm sendo reconciliados de tempos em tempos com os chamados segundos intercalares. Em 2022, os responsáveis pela hora mundial decidiram deixar de adicioná-los até 2035 e buscar outra forma de manter os dois em sintonia."
+      "text": "A duração do dia também oscila por outros motivos, como a atmosfera e o núcleo da Terra, em cerca de um milésimo de segundo ao longo do ano. Por isso, o tempo dos relógios atômicos e a rotação da Terra vêm sendo reconciliados de tempos em tempos com os chamados segundos intercalares. Em 2022, os responsáveis pela hora mundial decidiram deixar de adicioná-los até 2035 e buscar outra forma de manter os dois em sintonia."
     }
   ],
   "heroMedia": {
@@ -193,7 +193,7 @@
     },
     {
       "id": "c10",
-      "text": "A duração do dia também varia em cerca de um milésimo de segundo ao longo do ano, por causa da atmosfera e de movimentos no núcleo da Terra.",
+      "text": "A duração do dia também varia em cerca de um milésimo de segundo ao longo do ano, por causa da atmosfera e do núcleo da Terra.",
       "highStakes": false,
       "support": [
         {
@@ -201,7 +201,7 @@
           "excerpt": "Ranging has also determined that the length of an Earth day has distinct small-scale variations of about one thousandth of a second over the course of a year, caused by the atmosphere, tides, and Earth's core."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

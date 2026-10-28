@@ -16,12 +16,12 @@
       },
       {
         "id": "c",
-        "text": "O núcleo da Terra está esfriando"
+        "text": "A gravidade do Sol está ficando mais forte"
       }
     ],
     "correctOptionId": "a",
     "explanation": "As marés atritam com o fundo dos oceanos e roubam um pouco da rotação da Terra, cerca de 2 milissegundos por século.",
-    "misconception": "A distância até o Sol muda a duração do ano, não a do dia.",
+    "misconception": "A distância até o Sol não é a causa: quem freia a rotação é o atrito das marés.",
     "claimIds": ["c1", "c2", "c3"],
     "status": "draft"
   },

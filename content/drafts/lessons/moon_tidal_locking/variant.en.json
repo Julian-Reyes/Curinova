@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The side we never see gets just as much sunlight as the side we do. It simply never points at Earth. At new Moon, when the near side is in shadow, the far side is in full daylight."
+      "text": "The side we never see is not always dark: it gets sunlight too, and simply never points at Earth. At new Moon, when the near side is in shadow, the far side is in full daylight."
     },
     {
       "type": "paragraph",
@@ -143,7 +143,7 @@
     },
     {
       "id": "c8",
-      "text": "The far side of the Moon is not permanently dark; it simply never faces Earth.",
+      "text": "The far side of the Moon also gets sunlight; it is not permanently dark and simply never faces Earth.",
       "highStakes": false,
       "support": [
         {
@@ -151,7 +151,7 @@
           "excerpt": "Some people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "That sounds like nothing, but it adds up. Fossil corals around 400 million years old have daily and yearly growth bands that point to years of roughly 400 days, each about 22 hours long. The energy Earth loses does not vanish: part of it nudges the Moon into a slightly wider orbit."
+      "text": "That sounds like nothing, but it adds up. Fossil corals around 400 million years old have daily growth bands that point to years of roughly 400 days, each about 22 hours long. The energy Earth loses does not vanish: part of it nudges the Moon into a slightly wider orbit."
     },
     {
       "type": "takeaway",
@@ -32,7 +32,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The length of the day also wobbles for other reasons, such as the atmosphere and motion in Earth’s core, by about a thousandth of a second over a year. That is why atomic-clock time and Earth’s rotation have been reconciled from time to time with so-called leap seconds. In 2022, the world’s timekeepers decided to stop adding them by 2035 and to find another way to keep the two in step."
+      "text": "The length of the day also wobbles for other reasons, such as the atmosphere and Earth’s core, by about a thousandth of a second over a year. That is why atomic-clock time and Earth’s rotation have been reconciled from time to time with so-called leap seconds. In 2022, the world’s timekeepers decided to stop adding them by 2035 and to find another way to keep the two in step."
     }
   ],
   "heroMedia": {
@@ -193,7 +193,7 @@
     },
     {
       "id": "c10",
-      "text": "The length of the day also varies by about a thousandth of a second over a year, because of the atmosphere and motion in Earth’s core.",
+      "text": "The length of the day also varies by about a thousandth of a second over a year, because of the atmosphere and Earth’s core.",
       "highStakes": false,
       "support": [
         {
@@ -201,7 +201,7 @@
           "excerpt": "Ranging has also determined that the length of an Earth day has distinct small-scale variations of about one thousandth of a second over the course of a year, caused by the atmosphere, tides, and Earth's core."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

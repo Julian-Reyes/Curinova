@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "O Sol cria suas próprias marés, com cerca de metade da força das marés da Lua. Quando Sol, Terra e Lua estão alinhados, na Lua nova e na Lua cheia, os efeitos se somam: são as marés de sizígia, com a maior diferença entre maré alta e baixa."
+      "text": "O Sol cria suas próprias marés, com cerca de metade da força das marés da Lua. Quando Sol, Terra e Lua estão alinhados, na Lua nova e na Lua cheia, os efeitos se somam: são as marés de sizígia, com marés altas mais altas e marés baixas mais baixas que a média."
     },
     {
       "type": "paragraph",
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "O formato das baías e da plataforma continental amplifica ou reduz tudo isso. Por isso a amplitude das marés varia muito de uma costa para outra; no litoral do Maranhão, por exemplo, ela passa de vários metros."
+      "text": "O formato das baías e da plataforma continental amplifica ou reduz tudo isso. Por isso a amplitude das marés varia muito de uma costa para outra; na baía de São Marcos, no Maranhão, por exemplo, ela pode passar de 7 metros nas marés de sizígia."
     }
   ],
   "heroMedia": {
@@ -78,12 +78,12 @@
     },
     {
       "id": "c3",
-      "text": "A Lua puxa com mais força o lado da Terra mais próximo dela e com menos força o lado oposto, e isso forma dois inchaços de água, um de cada lado do planeta.",
+      "text": "A Lua puxa o oceano próximo com mais força que o centro da Terra, e o centro com mais força que o oceano do lado oposto; isso forma dois inchaços de água, um de cada lado do planeta.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
-          "excerpt": "The strongest pull occurs on the points closest to the Moon, and the weakest on the points farthest away, but every bit of water is affected."
+          "sourceId": "src_scienceinschool_org_article_2026_unlocking_the_400a1a",
+          "excerpt": "The Moon’s gravitational pull is strongest on the near ocean, drawing water into a bulge there. The far ocean is farthest from the Moon and experiences the weakest attraction, meaning the Earth is pulled towards the Moon more strongly than the distant ocean. This causes the Earth to accelerate slightly more towards the Moon than the far-side water, producing a second bulge."
         },
         {
           "sourceId": "src_science_nasa_gov_moon_tides_92238d",
@@ -94,7 +94,7 @@
           "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -116,15 +116,15 @@
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
-          "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
+          "sourceId": "src_scienceinschool_org_article_2026_unlocking_the_400a1a",
+          "excerpt": "To calculate the tidal force at any point on the Earth’s surface (i.e., the difference in gravitational acceleration between points on the Earth), the Moon’s pull at the Earth’s centre is subtracted."
         },
         {
-          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
-          "excerpt": "Tidal forces are based on the gravitational attractive force."
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "id": "c8",
-      "text": "As marés de sizígia têm a maior diferença entre maré alta e baixa.",
+      "text": "Nas marés de sizígia, as marés altas ficam mais altas e as baixas mais baixas que a média.",
       "highStakes": false,
       "support": [
         {
@@ -175,7 +175,7 @@
           "excerpt": "A diferença entre preamar e baixa-mar tende a aumentar, produzindo as marés vivas ou marés de sizígia."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -248,15 +248,15 @@
     },
     {
       "id": "c13",
-      "text": "No litoral do Maranhão, a amplitude das marés passa de vários metros.",
+      "text": "Na baía de São Marcos, no Maranhão, a amplitude das marés pode passar de 7 metros nas marés de sizígia.",
       "highStakes": false,
       "support": [
         {
           "sourceId": "src_pt_wikipedia_org_wiki_ba_c3_d4e5ac",
-          "excerpt": "Destaca-se pela amplitude das marés, que alcançam até 7,2 m nas marés de sizígia. No entanto, em 75% do tempo, a amplitude máxima fica inferior a 5,5 metros.(com média de 4,9 m de amplitude)."
+          "excerpt": "Destaca-se pela amplitude das marés, que alcançam até 7,2 m nas marés de sizígia."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],
@@ -264,6 +264,7 @@
     "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
     "src_science_nasa_gov_moon_tides_92238d",
     "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+    "src_scienceinschool_org_article_2026_unlocking_the_400a1a",
     "src_oceanservice_noaa_gov_education_tutorial_tides_7a3e59",
     "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
     "src_pt_wikipedia_org_wiki_mar_c3_55f212",

@@ -20,7 +20,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "With a tilt of about 5 degrees, the Moon’s shadow usually misses Earth. A close alignment only happens during eclipse seasons.",
+    "explanation": "With a tilt of about 5 degrees, the Sun, Moon and Earth usually don’t line up exactly at new Moon. A close alignment only happens during eclipse seasons.",
     "claimIds": ["c3", "c4", "c6"],
     "status": "draft"
   },
