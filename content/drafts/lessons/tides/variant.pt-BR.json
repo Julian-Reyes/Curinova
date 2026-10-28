@@ -94,7 +94,7 @@
           "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -175,7 +175,7 @@
           "excerpt": "A diferença entre preamar e baixa-mar tende a aumentar, produzindo as marés vivas ou marés de sizígia."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -256,7 +256,7 @@
           "excerpt": "Destaca-se pela amplitude das marés, que alcançam até 7,2 m nas marés de sizígia."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
