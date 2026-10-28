@@ -48,8 +48,8 @@ export function LessonArt({
     const alt = image.alt[variant.locale] ?? image.alt.en ?? image.alt['pt-BR'] ?? '';
     return (
       <img
-        src={lessonImageUrl(concept.id, source, 'full', image.addedAt)}
-        srcSet={`${lessonImageUrl(concept.id, source, 'sm', image.addedAt)} ${smallWidth(image.width)}w, ${lessonImageUrl(concept.id, source, 'full', image.addedAt)} ${image.width}w`}
+        src={lessonImageUrl(concept.id, source, 'full', image.hash)}
+        srcSet={`${lessonImageUrl(concept.id, source, 'sm', image.hash)} ${smallWidth(image.width)}w, ${lessonImageUrl(concept.id, source, 'full', image.hash)} ${image.width}w`}
         sizes={SIZES[slot]}
         width={image.width}
         height={image.height}

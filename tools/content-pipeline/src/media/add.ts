@@ -18,6 +18,7 @@
  * text: content:validate fails until both are filled in (P11). Originals move to
  * <folder>/processed/ and never enter the repository.
  */
+import { createHash } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, readdir, rename, writeFile } from 'node:fs/promises';
 import { dirname, extname, isAbsolute, join, resolve } from 'node:path';
@@ -41,6 +42,9 @@ const SIZE: Record<MediaSlot, { width: number; height: number }> = {
 };
 
 const INK = '8,7,10';
+
+/** URL version for an image: the first 8 hex digits of its file's SHA-256. */
+const fileHash = (data: Buffer) => createHash('sha256').update(data).digest('hex').slice(0, 8);
 
 /** Cuts the part of an image that falls inside the canvas, for compositing at `top`. */
 async function visible(image: Buffer, height: number, top: number, canvasHeight: number) {
@@ -159,10 +163,8 @@ async function addTopicImage(
   const sh = Math.round((height * sw) / width);
   const dir = join(repoRoot, 'apps/web/public/media/topics');
   await mkdir(dir, { recursive: true });
-  await writeFile(
-    join(dir, `${topicId}.webp`),
-    await sharp(full).webp({ quality: QUALITY }).toBuffer(),
-  );
+  const encoded = await sharp(full).webp({ quality: QUALITY }).toBuffer();
+  await writeFile(join(dir, `${topicId}.webp`), encoded);
   await writeFile(
     join(dir, `${topicId}-sm.webp`),
     await sharp(full).resize(sw, sh).webp({ quality: QUALITY }).toBuffer(),
@@ -174,6 +176,7 @@ async function addTopicImage(
     origin: { kind: 'unknown' },
     accuracyReviewedBy: null,
     addedAt: today,
+    hash: fileHash(encoded),
   };
   await writeJson(topicsPath, topics);
   return true;
@@ -251,6 +254,7 @@ async function main() {
         origin: { kind: 'unknown' },
         accuracyReviewedBy: null,
         addedAt: today,
+        hash: fileHash(out.full),
       } satisfies LessonImage,
     };
     await writeJson(conceptPath, concept);

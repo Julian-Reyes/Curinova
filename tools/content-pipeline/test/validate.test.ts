@@ -402,6 +402,7 @@ describe('lesson images (D15/P10, P11)', () => {
     origin: { kind: 'generated', tool: 'Tool', createdBy: 'Founder', createdAt: '2026-10-27' },
     accuracyReviewedBy: 'Reviewer',
     addedAt: '2026-10-27',
+    hash: '0123abcd',
     ...overrides,
   });
   const files = (...slots: string[]) =>
@@ -477,6 +478,7 @@ describe('topic images', () => {
     origin: { kind: 'unknown' },
     accuracyReviewedBy: null,
     addedAt: '2026-10-28',
+    hash: '0123abcd',
   };
   it('needs an origin and alt text in both locales, and its files', () => {
     const docs = asReal(validDocs());

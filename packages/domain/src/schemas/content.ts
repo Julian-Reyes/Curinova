@@ -91,6 +91,8 @@ export const LessonImageSchema = z.strictObject({
   /** Who checked the image for scientific or historical accuracy (M3 review). */
   accuracyReviewedBy: z.string().nullable(),
   addedAt: isoDate,
+  /** First 8 hex digits of the full file's SHA-256: versions the URL, so a replaced image is never served stale from the offline cache. */
+  hash: z.string().regex(/^[0-9a-f]{8}$/, 'must be 8 lowercase hex digits'),
 });
 export type LessonImage = z.infer<typeof LessonImageSchema>;
 

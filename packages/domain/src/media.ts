@@ -6,8 +6,8 @@ export function mediaKey(conceptId: string): string {
 }
 
 /**
- * Public URL of a processed lesson image; "sm" is the 2/3-size file. `version` (the date
- * the image was added) busts the offline cache when an image is replaced.
+ * Public URL of a processed lesson image; "sm" is the 2/3-size file. `version` (the image's
+ * file hash) busts the offline cache when an image is replaced.
  */
 export function lessonImageUrl(
   conceptId: string,

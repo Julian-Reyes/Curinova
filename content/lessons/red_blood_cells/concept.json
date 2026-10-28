@@ -39,7 +39,8 @@
         "createdAt": "2026-10-27"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "65e9d288"
     },
     "deeper": {
       "width": 1200,
@@ -55,7 +56,8 @@
         "createdAt": "2026-10-27"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "60ae1427"
     },
     "review": {
       "width": 1000,
@@ -71,7 +73,8 @@
         "createdAt": "2026-10-27"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "02c7b317"
     }
   }
 }

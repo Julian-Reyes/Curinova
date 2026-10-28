@@ -31,7 +31,8 @@
         "sourceUrl": "https://unsplash.com/photos/human-eye-with-grey-orange-iris-suj3od1uMv8"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "550990b3"
     }
   },
   {
@@ -65,7 +66,8 @@
         "createdAt": "2026-10-27"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "b39f2de4"
     }
   },
   {
@@ -100,7 +102,8 @@
         "sourceUrl": "https://esawebb.org/images/weic2216a/"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "d3084abd"
     }
   },
   {
@@ -135,7 +138,8 @@
         "sourceUrl": "https://unsplash.com/photos/purple-yellow-and-blue-abstract-painting-n0LZKtRsVp4"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-27"
+      "addedAt": "2026-10-27",
+      "hash": "77d3099d"
     }
   },
   {
@@ -159,18 +163,19 @@
       "width": 1200,
       "height": 800,
       "alt": {
-        "pt-BR": "Os arcos de pedra do Coliseu, em Roma, à luz da tarde",
-        "en": "The stone arches of the Colosseum in Rome, in afternoon light"
+        "pt-BR": "As pirâmides de Gizé em silhueta contra o pôr do sol",
+        "en": "The pyramids of Giza silhouetted against the sunset"
       },
       "origin": {
         "kind": "licensed",
-        "creator": "C1 Superstar",
+        "creator": "Diego F. Parra",
         "platform": "Pexels",
         "license": "Pexels License",
-        "sourceUrl": "https://www.pexels.com/photo/colosseo-a-roma-27112031/"
+        "sourceUrl": "https://www.pexels.com/photo/silhouette-of-pyramids-during-sunset-15127207/"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-28"
+      "addedAt": "2026-10-28",
+      "hash": "fa20d8e2"
     }
   }
 ]

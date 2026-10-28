@@ -13,7 +13,7 @@ export function TopicArt({ topic, size }: { topic: Topic; size: 'sm' | 'full' })
   if (image && !failed) {
     return (
       <img
-        src={topicImageUrl(topic.id, size, image.addedAt)}
+        src={topicImageUrl(topic.id, size, image.hash)}
         width={image.width}
         height={image.height}
         alt=""
