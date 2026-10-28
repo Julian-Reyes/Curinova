@@ -21,7 +21,7 @@ Conventions every coding run must follow. The product spec is `docs/SPEC.md`; "Â
 - **No fabricated content.** The coding agent never invents sources, citations, URLs or excerpts. Fixtures live in `content/fixtures/`, are marked `"fixture": true`, use `FIXTURE`-prefixed text and `.invalid` URLs, and never reach production. Sample lessons are unreviewed drafts with no sources until the content pipeline (M3) and human review add them.
 - **Guest-first.** Every learning feature works with no account and no backend. Progress is keyed by `conceptId` / `questionGroupId`, never by locale variant.
 - **Near-zero running cost.** No paid APIs or services are required to run, develop or test the app.
-- **Keep it green.** `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm content:validate` and `pnpm build` must pass before every commit. Exception (founder, 2026-10-28): image-only changes (adding or replacing pictures and their records) need only `pnpm content:validate` and a Prettier check of the edited files. Run E2E only for app-code changes or when asked.
+- **Keep it green.** `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm content:validate` and `pnpm build` must pass before every commit. Exceptions (founder, 2026-10-28): image-only changes (adding or replacing pictures and their records) need only `pnpm content:validate` and a Prettier check of the edited files; docs-only changes (Markdown) need only a Prettier check of the edited files. Run E2E only for app-code changes or when asked.
 - **Production quality.** Real error handling; every visible control works, is intentionally disabled, or is clearly marked "not yet available". No TODOs pretending to be features.
 
 ## Commands
