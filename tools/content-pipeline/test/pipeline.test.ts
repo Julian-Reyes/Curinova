@@ -1,9 +1,13 @@
-import { SOURCE_ID_PATTERN, type LessonVariant } from '@lumen/domain';
+import { mkdir, mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { SOURCE_ID_PATTERN, type LessonVariant, type Source } from '@lumen/domain';
 import { describe, expect, it } from 'vitest';
 import { checkDrafts } from '../src/drafts/check';
 import { findDuplicates } from '../src/dedupe/dedupe';
 import { checkLink, checkLinks } from '../src/links/check';
 import { fetchSource, normalizeText, type FetchLike } from '../src/sources/fetch';
+import { mergeSource, SNAPSHOT_DIR, SOURCES_DIR, storeSource } from '../src/sources/store';
 import { wikipediaReferences } from '../src/sources/wikipedia';
 import { asReal, get, tree, validDocs } from './helpers';
 
@@ -59,6 +63,63 @@ describe('content:sources fetch', () => {
     );
     expect(thin.ok).toBe(false);
     expect((await fetchSource('http://x.org/a', fakeFetch({}))).ok).toBe(false);
+  });
+});
+
+describe('content:sources re-fetch', () => {
+  const curated: Source = {
+    id: 'src_science_nasa_gov_moon_tidal_locking_abc123',
+    title: 'Tidal locking',
+    publisher: 'NASA',
+    url: 'https://science.nasa.gov/moon/tidal-locking',
+    language: 'en',
+    type: 'primary',
+    license: 'public domain',
+    accessedAt: '2026-10-01T00:00:00.000Z',
+    snapshotHash: `sha256:${'a'.repeat(64)}`,
+  };
+  const fetched: Source = {
+    ...curated,
+    title: 'Tidal Locking - NASA Science',
+    publisher: 'NASA Science',
+    language: 'en-US',
+    type: 'reference',
+    accessedAt: '2026-10-28T00:00:00.000Z',
+  };
+  delete fetched.license;
+
+  it('keeps the whole record when the page text is unchanged', () => {
+    expect(mergeSource(curated, fetched)).toEqual({ source: curated, outcome: 'unchanged' });
+  });
+
+  it('keeps publisher, type and license when the page text changed', () => {
+    const changed = { ...fetched, snapshotHash: `sha256:${'b'.repeat(64)}` };
+    expect(mergeSource(curated, changed)).toEqual({
+      source: {
+        ...curated,
+        title: changed.title,
+        language: 'en-US',
+        accessedAt: changed.accessedAt,
+        snapshotHash: changed.snapshotHash,
+      },
+      outcome: 'text-changed',
+    });
+  });
+
+  it('stores a new source as fetched, then leaves its curated fields alone', async () => {
+    const root = await mkdtemp(join(tmpdir(), 'lumen-sources-'));
+    await mkdir(join(root, SOURCES_DIR), { recursive: true });
+    expect((await storeSource(root, fetched, 'text')).outcome).toBe('new');
+    const path = join(root, SOURCES_DIR, `${fetched.id}.json`);
+    await writeFile(path, JSON.stringify({ ...fetched, publisher: 'NASA', type: 'primary' }));
+    const again = await storeSource(root, { ...fetched, accessedAt: curated.accessedAt }, 'text');
+    expect(again).toMatchObject({ outcome: 'unchanged', source: { publisher: 'NASA' } });
+    expect(JSON.parse(await readFile(path, 'utf8'))).toMatchObject({
+      publisher: 'NASA',
+      type: 'primary',
+      accessedAt: fetched.accessedAt,
+    });
+    expect(await readFile(join(root, SNAPSHOT_DIR, `${fetched.id}.txt`), 'utf8')).toBe('text');
   });
 });
 
