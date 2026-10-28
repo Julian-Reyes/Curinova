@@ -154,6 +154,23 @@
     },
     "icon": "scroll",
     "accentColor": "#9A6B3D",
-    "sortOrder": 4
+    "sortOrder": 4,
+    "image": {
+      "width": 1200,
+      "height": 800,
+      "alt": {
+        "pt-BR": "Os arcos de pedra do Coliseu, em Roma, à luz da tarde",
+        "en": "The stone arches of the Colosseum in Rome, in afternoon light"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "C1 Superstar",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/colosseo-a-roma-27112031/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-28"
+    }
   }
 ]
