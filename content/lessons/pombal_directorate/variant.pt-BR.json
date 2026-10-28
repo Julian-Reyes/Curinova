@@ -5,12 +5,12 @@
   "slug": "quando-o-portugues-se-tornou-obrigatorio-no-brasil",
   "title": "Quando o português se tornou obrigatório no Brasil?",
   "hook": "Foi por decreto, em meados do século XVIII, e a mudança levou gerações.",
-  "summary": "O Diretório dos Índios, de 1757, impôs o português nas povoações indígenas e proibiu o uso da língua geral.",
-  "cardText": "Em 1757. Sob o Marquês de Pombal, o Diretório dos Índios impôs o português nas povoações indígenas e proibiu ali a língua geral, de base tupi, inclusive nas escolas.",
+  "summary": "O Diretório dos Índios, de 1757, impôs o português nas povoações indígenas, primeiro na Amazônia e, a partir de 1758, em todo o Brasil.",
+  "cardText": "A partir de 1757. Sob o Marquês de Pombal, o Diretório dos Índios impôs o português nas povoações indígenas da Amazônia e proibiu ali a língua geral, de base tupi; em 1758, passou a valer em todo o Brasil.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Em meados do século XVIII, a Coroa portuguesa decidiu que a língua geral precisava sair de cena. Sob o governo do Marquês de Pombal, o Diretório dos Índios, de 1757, determinou o uso do português nas povoações indígenas e proibiu o uso da língua geral nesses lugares, inclusive nas escolas."
+      "text": "Em meados do século XVIII, a Coroa portuguesa decidiu que a língua geral precisava sair de cena. Sob o governo do Marquês de Pombal, o Diretório dos Índios, criado em 1757 para o Estado do Grão-Pará e Maranhão, na Amazônia, e estendido ao restante do Brasil em 1758, determinou o uso do português nas povoações indígenas e proibiu o uso da língua geral nesses lugares, inclusive nas escolas."
     },
     {
       "type": "paragraph",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Leis não mudam línguas da noite para o dia. Em São Paulo, a língua geral paulista foi perdendo falantes ao longo das décadas seguintes e acabou desaparecendo."
+      "text": "Leis não mudam línguas da noite para o dia. Em São Paulo, a língua geral paulista já vinha cedendo espaço ao português antes do Diretório, e desapareceu nas décadas seguintes."
     },
     {
       "type": "paragraph",
@@ -60,5 +60,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "updatedAt": "2026-10-28T17:28:09Z"
 }

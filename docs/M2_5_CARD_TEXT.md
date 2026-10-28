@@ -54,8 +54,8 @@ Once approved, they go into each lesson's variant files as a new `cardText` fiel
 
 ### When did Portuguese become mandatory in Brazil? · `pombal_directorate`
 
-- **EN:** In 1757. Under the Marquis of Pombal, the Directorate of the Indians required Portuguese in Indigenous villages and banned the Tupi-based general language there, including in schools.
-- **PT:** Em 1757. Sob o Marquês de Pombal, o Diretório dos Índios impôs o português nas povoações indígenas e proibiu ali a língua geral, de base tupi, inclusive nas escolas.
+- **EN:** Starting in 1757. Under the Marquis of Pombal, the Directorate of the Indians imposed Portuguese in Indigenous villages of the Amazon region and banned the Tupi-based general language there; in 1758 it was extended to all of Brazil. _(Revised 2026-10-28: the Directorate began in the Amazon region.)_
+- **PT:** A partir de 1757. Sob o Marquês de Pombal, o Diretório dos Índios impôs o português nas povoações indígenas da Amazônia e proibiu ali a língua geral, de base tupi; em 1758, passou a valer em todo o Brasil.
 
 ### Does salt make pasta water boil faster? · `salt_boiling`
 
