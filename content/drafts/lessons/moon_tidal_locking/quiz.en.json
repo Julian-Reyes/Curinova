@@ -1,0 +1,57 @@
+[
+  {
+    "id": "q_moon_tidal_locking_1__en",
+    "questionGroupId": "qg_moon_tidal_locking_1",
+    "conceptId": "concept_moon_tidal_locking",
+    "locale": "en",
+    "prompt": "How long does the Moon take to spin once on its axis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 27 days, the same as one orbit"
+      },
+      {
+        "id": "b",
+        "text": "About 24 hours, like Earth"
+      },
+      {
+        "id": "c",
+        "text": "It does not spin at all"
+      },
+      {
+        "id": "d",
+        "text": "About a year"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Moon spins once per orbit, about 27 days. That match is what keeps the same face toward Earth.",
+    "misconception": "Many people think the Moon does not rotate. If it didn’t, we would see all of its sides over a month.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_moon_tidal_locking_2__en",
+    "questionGroupId": "qg_moon_tidal_locking_2",
+    "conceptId": "concept_moon_tidal_locking",
+    "locale": "en",
+    "prompt": "Is the side of the Moon we never see always dark?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No, it gets as much sunlight as the near side"
+      },
+      {
+        "id": "b",
+        "text": "Yes, sunlight never reaches it"
+      },
+      {
+        "id": "c",
+        "text": "Yes, because Earth’s shadow covers it"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The \"far side\" just never faces us. It has day and night like the rest of the Moon; at new Moon it is fully lit.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  }
+]

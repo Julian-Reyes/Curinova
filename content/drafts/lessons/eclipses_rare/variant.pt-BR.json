@@ -1,0 +1,260 @@
+{
+  "id": "lesson_eclipses_rare__pt-BR",
+  "conceptId": "concept_eclipses_rare",
+  "locale": "pt-BR",
+  "slug": "por-que-nao-ha-eclipse-todo-mes",
+  "title": "Por que não há eclipse todo mês?",
+  "hook": "A Lua passa entre a Terra e o Sol todo mês. Quase sempre, erra o alvo.",
+  "summary": "A órbita da Lua é inclinada cerca de 5 graus; eclipses só acontecem quando o alinhamento coincide com os cruzamentos das órbitas.",
+  "cardText": "A órbita da Lua é inclinada uns 5 graus, e quase sempre a sombra passa acima ou abaixo da Terra. Tudo só se alinha nas temporadas de eclipse, cerca de duas vezes por ano.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Todo mês, na Lua nova, a Lua passa entre a Terra e o Sol. Então por que não temos um eclipse solar a cada 29 dias e meio? Porque a órbita da Lua é inclinada cerca de 5 graus em relação à órbita da Terra. Na maior parte dos meses, a sombra da Lua passa acima ou abaixo do nosso planeta."
+    },
+    {
+      "type": "paragraph",
+      "text": "Só quando a Lua nova acontece perto de um dos dois pontos em que as órbitas se cruzam é que Sol, Lua e Terra ficam bem alinhados. Isso cria as temporadas de eclipse, que ocorrem cerca de duas vezes por ano."
+    },
+    {
+      "type": "takeaway",
+      "text": "A órbita da Lua é inclinada; eclipses só acontecem quando tudo se alinha."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Uma coincidência cósmica"
+    },
+    {
+      "type": "paragraph",
+      "text": "O Sol tem cerca de 400 vezes o diâmetro da Lua e está cerca de 400 vezes mais longe. Por isso, no céu, os dois parecem quase do mesmo tamanho, e a Lua consegue cobrir o Sol exatamente, deixando à mostra a coroa solar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Como a Lua se afasta aos poucos, essa coincidência é temporária. Daqui a centenas de milhões de anos, ela parecerá pequena demais para um eclipse total."
+    },
+    {
+      "type": "heading",
+      "text": "Um eclipse no Ceará"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 29 de maio de 1919, astrônomos britânicos fotografaram um eclipse total em Sobral, no Ceará, e na ilha do Príncipe, na África. As estrelas perto do Sol apareceram levemente deslocadas, como previa a teoria da relatividade geral de Einstein."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "eclipse",
+    "alt": "Ilustração de Sol, Lua e Terra alinhados, com a sombra da Lua tocando a Terra.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Em toda Lua nova, a Lua passa entre a Terra e o Sol.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "The moon appears new (dark) when it is directly between the Earth and the sun."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "As Luas novas se repetem a cada 29 dias e meio, aproximadamente.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "Nessa volta, que dura aproximadamente um mês (sendo mais exatos, 29,5 dias), vemos todas as fases da Lua."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "from our perspective, the Moon appears to orbit us every 29 days."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Não há eclipse solar em toda Lua nova porque a órbita da Lua é inclinada cerca de 5 graus em relação à órbita da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
+          "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
+        },
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+          "excerpt": "the reason is that the moon’s orbit around Earth is inclined to Earth’s orbit around the sun by about 5 degrees."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Por causa da inclinação, na maioria dos meses a Lua passa acima ou abaixo da linha entre a Terra e o Sol, e a sua sombra não atinge a Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_moon_phases_5a8021",
+          "excerpt": "The tilt sometimes brings the Moon above Earth’s northern hemisphere, and sometimes below Earth’s southern hemisphere"
+        },
+        {
+          "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
+          "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Um eclipse só acontece quando a Lua nova ou cheia ocorre perto de um dos dois pontos em que a órbita da Lua cruza o plano da órbita da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+          "excerpt": "Twice a month the moon intersects the ecliptic – Earth’s orbital plane – at points called nodes."
+        },
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+          "excerpt": "If the full moon or new moon sweeps appreciably close to one of these nodes, then an eclipse is inevitable."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Isso cria as temporadas de eclipse, que ocorrem cerca de duas vezes por ano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_eclipses_4bdf6f",
+          "excerpt": "An eclipse season is one of only two periods during each year when the Sun, the Moon, and Earth are aligned, allowing eclipses to occur."
+        },
+        {
+          "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
+          "excerpt": "eclipses tend to occur on a roughly six-month cycle."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O Sol tem cerca de 400 vezes o diâmetro da Lua e está cerca de 400 vezes mais longe, por isso os dois parecem quase do mesmo tamanho no céu.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apod_nasa_gov_apod_ap990818_html_1758f5",
+          "excerpt": "While the sun is about 400 times wider than the moon, it is also about 400 times farther away and each appears to be half a degree or so in diameter."
+        },
+        {
+          "sourceId": "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+          "excerpt": "Even though the Moon is 400 times smaller than the Sun, it's also about 400 times closer to Earth than the Sun is. This means that from Earth, the Moon and the Sun appear to be roughly the same size in the sky."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Num eclipse solar total, a Lua cobre o Sol e a coroa solar fica visível.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_eclipses_4bdf6f",
+          "excerpt": "We can't normally see the corona—the Sun's outer atmosphere — because Sun's surface below it is so much brighter. But during a total solar eclipse, the corona emerges"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Como a Lua se afasta aos poucos, os eclipses solares totais vão acabar daqui a centenas de milhões de anos, quando ela parecer pequena demais para cobrir o Sol.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+          "excerpt": "Total solar eclipses won't be around forever! The Moon's orbit is changing. In fact, the Moon's orbit grows about 1.5 inches (3.8 cm) larger every year."
+        },
+        {
+          "sourceId": "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+          "excerpt": "it will take more than 600 million years for total solar eclipses to completely disappear!"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Em 29 de maio de 1919, astrônomos britânicos fotografaram um eclipse total em Sobral, no Ceará, e na ilha do Príncipe, na África.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_quando_a_luz_a9ed42",
+          "excerpt": "Nenhum eclipse solar teve tanta repercussão na história da ciência como o de 29 de maio de 1919, fotografado e analisado ao mesmo tempo por duas equipes de astrônomos britânicos. Uma delas foi enviada à cidade de Sobral, no interior do Ceará; a outra, à ilha do Príncipe, então um território português na costa da África Ocidental."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "As estrelas perto do Sol apareceram levemente deslocadas, como previa a teoria da relatividade geral de Einstein.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_quando_a_luz_a9ed42",
+          "excerpt": "Mas, no caso de um eclipse solar, a luz das estrelas aparece ligeiramente deslocada em relação à foto desse mesmo campo tirada à noite sem a presença do Sol."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_quando_a_luz_a9ed42",
+          "excerpt": "Seis meses mais tarde, fotos e cálculos divulgados pelos britânicos sobre o fenômeno deram razão a Einstein."
+        },
+        {
+          "sourceId": "src_gov_uk_government_news_sobral_the_caaa95",
+          "excerpt": "Eddington used photographs and readings taken in Sobral to show the deflection of starlight by the sun’s gravity, which confirmed Einstein’s theory of relativity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+    "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+    "src_science_nasa_gov_moon_facts_a9162f",
+    "src_svs_gsfc_nasa_gov_4158_3d1954",
+    "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+    "src_science_nasa_gov_moon_moon_phases_5a8021",
+    "src_science_nasa_gov_eclipses_4bdf6f",
+    "src_apod_nasa_gov_apod_ap990818_html_1758f5",
+    "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+    "src_revistapesquisa_fapesp_br_quando_a_luz_a9ed42",
+    "src_gov_uk_government_news_sobral_the_caaa95"
+  ],
+  "quizIds": ["q_eclipses_rare_1__pt-BR", "q_eclipses_rare_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

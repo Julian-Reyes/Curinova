@@ -1,0 +1,270 @@
+{
+  "id": "lesson_tides__en",
+  "conceptId": "concept_tides",
+  "locale": "en",
+  "slug": "why-are-there-two-high-tides-a-day",
+  "title": "Why are there two high tides a day?",
+  "hook": "If the Moon pulls the sea, why does it also bulge on the far side of the planet?",
+  "summary": "The Moon pulls Earth’s near and far sides with different strengths, which raises two bulges of water.",
+  "cardText": "Gravity weakens with distance, so the Moon pulls the near ocean harder than Earth’s center, and the center harder than the far ocean. That raises two bulges of water.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "If the Moon pulls on the oceans, you might expect one high tide a day, on the side facing it. Yet many coasts get two. The trick is that gravity weakens with distance."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ocean nearest the Moon is pulled harder than Earth’s center, and the center is pulled harder than the ocean on the far side. The result is two bulges of water, one on each side of the planet. As Earth turns, each coast passes through both, roughly every 12 hours and 25 minutes."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tides come from the difference in the Moon’s pull across Earth."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The Sun joins in"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sun raises tides too, at roughly half the strength of the Moon’s. When the Sun, Earth and Moon line up, at new and full Moon, the effects add up: these are spring tides, with the biggest gap between high and low water. The name has nothing to do with the season."
+    },
+    {
+      "type": "paragraph",
+      "text": "At first and last quarter, the Sun and Moon pull at right angles and partly cancel out, giving weaker neap tides."
+    },
+    {
+      "type": "paragraph",
+      "text": "The shape of bays and the continental shelf can amplify or dampen all of this, which is why tidal ranges vary so much from one coast to the next."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tides",
+    "alt": "Illustration of Earth with two bulges of water, one facing the Moon and one on the opposite side.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Many coasts get two high tides a day.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
+          "excerpt": "Most coastal areas, with some exceptions, experience two high tides and two low tides every day."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "Most shorelines experience two high and low tides per day."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The Moon’s gravitational pull weakens with distance.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+          "excerpt": "the gravitational attraction between two bodies is directly proportional to their masses, and inversely proportional to the square of the distance between the bodies"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The Moon pulls hardest on the side of Earth nearest to it and most weakly on the far side, and this raises two bulges of water, one on each side of the planet.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "The strongest pull occurs on the points closest to the Moon, and the weakest on the points farthest away, but every bit of water is affected."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "until it ultimately ends up bulging out on the side closest to the Moon and the side farthest away."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_7a3e59",
+          "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "As Earth rotates, each coast passes through both bulges, with high tides about 12 hours and 25 minutes apart.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
+          "excerpt": "Because the Earth rotates through two tidal “bulges” every lunar day, coastal areas experience two high and two low tides every 24 hours and 50 minutes. High tides occur 12 hours and 25 minutes apart."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Tides come from the difference in the Moon’s pull across Earth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+          "excerpt": "Tidal forces are based on the gravitational attractive force."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The Sun also raises tides, at roughly half the strength of the Moon’s.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+          "excerpt": "Because of these conditions, the sun’s tide-generating force is about half that of the moon"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "which gives it a little less than half of the Moon’s tide-generating force."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "When the Sun, Earth and Moon line up, at new and full Moon, their effects add up and produce spring tides.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
+          "excerpt": "When the sun, moon, and Earth are in alignment (at the time of the new or full moon), the solar tide has an additive effect on the lunar tide, creating extra-high high tides, and very low, low tides—both commonly called spring tides."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Spring tides have the biggest difference between high and low water.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "This means that high tides are a little higher and low tides are a little lower than average. These are called spring tides"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "The name “spring tide” has nothing to do with the season; spring tides happen twice a month all year.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "Spring tides occur twice each lunar month all year long without regard to the season."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "A spring tide is a common historical term that has nothing to do with the season of spring."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "At first and last quarter, the Sun and Moon pull at right angles and partly cancel out, producing weaker neap tides.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "Seven days after a spring tide, the sun and moon are at right angles to each other. When this happens, the bulge of the ocean caused by the sun partially cancels out the bulge of the ocean caused by the moon. This produces moderate tides known as neap tides"
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "Neap tides occur during the first and third quarter moon"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The shape of bays and of the continental shelf can amplify or dampen tides.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "When oceanic tidal bulges hit wide continental margins, the height of the tides can be magnified."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "The shape of bays and estuaries also can magnify the intensity of tides."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "Narrow inlets and shallow water also tend to dissipate incoming tides."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "This is why tidal ranges vary greatly from one coast to the next.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_highesttide_html_0776e8",
+          "excerpt": "The shape and geometry of a coastline play a major role, as do the locations of the Sun and Moon."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "mid-oceanic islands not near continental margins typically experience very small tides of 1 meter or less"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
+    "src_science_nasa_gov_moon_tides_92238d",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_7a3e59",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
+    "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+    "src_oceanservice_noaa_gov_facts_highesttide_html_0776e8"
+  ],
+  "quizIds": ["q_tides_1__en", "q_tides_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

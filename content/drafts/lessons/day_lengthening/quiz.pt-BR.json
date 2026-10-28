@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_day_lengthening_1__pt-BR",
+    "questionGroupId": "qg_day_lengthening_1",
+    "conceptId": "concept_day_lengthening",
+    "locale": "pt-BR",
+    "prompt": "Por que o dia na Terra está ficando mais longo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O atrito das marés freia a rotação da Terra"
+      },
+      {
+        "id": "b",
+        "text": "A Terra está se afastando do Sol"
+      },
+      {
+        "id": "c",
+        "text": "O núcleo da Terra está esfriando"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As marés atritam com o fundo dos oceanos e roubam um pouco da rotação da Terra, cerca de 2 milissegundos por século.",
+    "misconception": "A distância até o Sol muda a duração do ano, não a do dia.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_day_lengthening_2__pt-BR",
+    "questionGroupId": "qg_day_lengthening_2",
+    "conceptId": "concept_day_lengthening",
+    "locale": "pt-BR",
+    "prompt": "Corais fósseis de cerca de 400 milhões de anos indicam que um ano tinha aproximadamente quantos dias?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 400 dias"
+      },
+      {
+        "id": "b",
+        "text": "Exatamente 365 dias"
+      },
+      {
+        "id": "c",
+        "text": "Cerca de 200 dias"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Com a Terra girando mais rápido, cabiam mais dias em cada volta ao redor do Sol: uns 400 dias de cerca de 22 horas.",
+    "claimIds": ["c5", "c6"],
+    "status": "draft"
+  }
+]

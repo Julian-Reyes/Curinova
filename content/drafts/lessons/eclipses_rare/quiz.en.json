@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_eclipses_rare_1__en",
+    "questionGroupId": "qg_eclipses_rare_1",
+    "conceptId": "concept_eclipses_rare",
+    "locale": "en",
+    "prompt": "Why isn’t there a solar eclipse at every new Moon?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Moon’s orbit is tilted relative to Earth’s"
+      },
+      {
+        "id": "b",
+        "text": "At new Moon the Moon is too small"
+      },
+      {
+        "id": "c",
+        "text": "Eclipses only happen in summer"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "With a tilt of about 5 degrees, the Moon’s shadow usually misses Earth. A close alignment only happens during eclipse seasons.",
+    "claimIds": ["c3", "c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_eclipses_rare_2__en",
+    "questionGroupId": "qg_eclipses_rare_2",
+    "conceptId": "concept_eclipses_rare",
+    "locale": "en",
+    "prompt": "Which Brazilian city hosted 1919 eclipse observations that helped confirm Einstein’s theory?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sobral, in Ceará"
+      },
+      {
+        "id": "b",
+        "text": "Ouro Preto, in Minas Gerais"
+      },
+      {
+        "id": "c",
+        "text": "Manaus, in Amazonas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In Sobral, astronomers photographed stars near the Sun during totality and measured the bending of light predicted by general relativity.",
+    "claimIds": ["c10", "c11"],
+    "status": "draft"
+  }
+]

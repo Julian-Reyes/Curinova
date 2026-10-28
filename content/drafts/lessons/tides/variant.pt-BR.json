@@ -1,0 +1,289 @@
+{
+  "id": "lesson_tides__pt-BR",
+  "conceptId": "concept_tides",
+  "locale": "pt-BR",
+  "slug": "por-que-ha-duas-mares-altas-por-dia",
+  "title": "Por que há duas marés altas por dia?",
+  "hook": "Se a Lua puxa o mar, por que ele também sobe do outro lado do planeta?",
+  "summary": "A gravidade da Lua puxa com força diferente os lados próximo e distante da Terra, criando dois \"inchaços\" de água.",
+  "cardText": "A gravidade enfraquece com a distância: a Lua puxa o oceano próximo mais que o centro da Terra, e o centro mais que o oceano do lado oposto. Surgem dois inchaços de água.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Se a Lua puxa a água do mar, faria sentido haver uma única maré alta por dia, do lado voltado para ela. Mas em muitos lugares há duas. O segredo é que a gravidade enfraquece com a distância."
+    },
+    {
+      "type": "paragraph",
+      "text": "O oceano do lado mais próximo da Lua é puxado com mais força que o centro da Terra, e o centro é puxado com mais força que o oceano do lado oposto. O resultado são dois \"inchaços\" de água, um de cada lado do planeta. Enquanto a Terra gira, cada costa passa pelos dois, mais ou menos a cada 12 horas e 25 minutos."
+    },
+    {
+      "type": "takeaway",
+      "text": "As marés vêm da diferença de puxão da Lua entre um lado da Terra e o outro."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O Sol também participa"
+    },
+    {
+      "type": "paragraph",
+      "text": "O Sol cria suas próprias marés, com cerca de metade da força das marés da Lua. Quando Sol, Terra e Lua estão alinhados, na Lua nova e na Lua cheia, os efeitos se somam: são as marés de sizígia, com a maior diferença entre maré alta e baixa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na Lua crescente e na minguante, Sol e Lua puxam em direções perpendiculares e os efeitos se compensam em parte: são as marés de quadratura, mais fracas."
+    },
+    {
+      "type": "paragraph",
+      "text": "O formato das baías e da plataforma continental amplifica ou reduz tudo isso. Por isso a amplitude das marés varia muito de uma costa para outra; no litoral do Maranhão, por exemplo, ela passa de vários metros."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tides",
+    "alt": "Ilustração da Terra com dois inchaços de água, um voltado para a Lua e outro do lado oposto.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Em muitos lugares da costa há duas marés altas por dia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
+          "excerpt": "Most coastal areas, with some exceptions, experience two high tides and two low tides every day."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "Most shorelines experience two high and low tides per day."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A atração gravitacional da Lua enfraquece com a distância.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+          "excerpt": "the gravitational attraction between two bodies is directly proportional to their masses, and inversely proportional to the square of the distance between the bodies"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A Lua puxa com mais força o lado da Terra mais próximo dela e com menos força o lado oposto, e isso forma dois inchaços de água, um de cada lado do planeta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "The strongest pull occurs on the points closest to the Moon, and the weakest on the points farthest away, but every bit of water is affected."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "until it ultimately ends up bulging out on the side closest to the Moon and the side farthest away."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_7a3e59",
+          "excerpt": "One forms where the Earth and moon are closest, and the other forms where they are furthest apart."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Enquanto a Terra gira, cada costa passa pelos dois inchaços, com marés altas separadas por cerca de 12 horas e 25 minutos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
+          "excerpt": "Because the Earth rotates through two tidal “bulges” every lunar day, coastal areas experience two high and two low tides every 24 hours and 50 minutes. High tides occur 12 hours and 25 minutes apart."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "As marés vêm da diferença de puxão da Lua entre um lado da Terra e o outro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "This happens because the Moon’s gravity affects the entire Earth, pulling at every point on our planet."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+          "excerpt": "Tidal forces are based on the gravitational attractive force."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O Sol também cria marés, com cerca de metade da força das marés da Lua.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+          "excerpt": "Because of these conditions, the sun’s tide-generating force is about half that of the moon"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tides_92238d",
+          "excerpt": "which gives it a little less than half of the Moon’s tide-generating force."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Quando Sol, Terra e Lua estão alinhados, na Lua nova e na cheia, os efeitos se somam e produzem as marés de sizígia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
+          "excerpt": "When the sun, moon, and Earth are in alignment (at the time of the new or full moon), the solar tide has an additive effect on the lunar tide, creating extra-high high tides, and very low, low tides—both commonly called spring tides."
+        },
+        {
+          "sourceId": "src_pt_wikipedia_org_wiki_mar_c3_55f212",
+          "excerpt": "Perto da lua nova e da lua cheia, o Sol, a Lua e a Terra ficam quase alinhados, e as componentes lunar e solar reforçam uma à outra."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "As marés de sizígia têm a maior diferença entre maré alta e baixa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "This means that high tides are a little higher and low tides are a little lower than average. These are called spring tides"
+        },
+        {
+          "sourceId": "src_pt_wikipedia_org_wiki_mar_c3_55f212",
+          "excerpt": "A diferença entre preamar e baixa-mar tende a aumentar, produzindo as marés vivas ou marés de sizígia."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "As marés de sizígia acontecem duas vezes por mês, em qualquer época do ano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "Spring tides occur twice each lunar month all year long without regard to the season."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Na Lua crescente e na minguante, Sol e Lua puxam em ângulo reto e os efeitos se compensam em parte, produzindo as marés de quadratura, mais fracas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "Seven days after a spring tide, the sun and moon are at right angles to each other. When this happens, the bulge of the ocean caused by the sun partially cancels out the bulge of the ocean caused by the moon. This produces moderate tides known as neap tides"
+        },
+        {
+          "sourceId": "src_pt_wikipedia_org_wiki_mar_c3_55f212",
+          "excerpt": "Nos quartos crescente e minguante, as direções do Sol e da Lua vistas da Terra formam aproximadamente um ângulo reto. As duas componentes se compensam em parte, e a diferença entre preamar e baixa-mar tende a diminuir. Essas são as marés mortas ou marés de quadratura."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O formato das baías e da plataforma continental pode amplificar ou reduzir as marés.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "When oceanic tidal bulges hit wide continental margins, the height of the tides can be magnified."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "The shape of bays and estuaries also can magnify the intensity of tides."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "Narrow inlets and shallow water also tend to dissipate incoming tides."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Por isso a amplitude das marés varia muito de uma costa para outra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_highesttide_html_0776e8",
+          "excerpt": "The shape and geometry of a coastline play a major role, as do the locations of the Sun and Moon."
+        },
+        {
+          "sourceId": "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+          "excerpt": "mid-oceanic islands not near continental margins typically experience very small tides of 1 meter or less"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "No litoral do Maranhão, a amplitude das marés passa de vários metros.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pt_wikipedia_org_wiki_ba_c3_d4e5ac",
+          "excerpt": "Destaca-se pela amplitude das marés, que alcançam até 7,2 m nas marés de sizígia. No entanto, em 75% do tempo, a amplitude máxima fica inferior a 5,5 metros.(com média de 4,9 m de amplitude)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_oceanservice_noaa_gov_education_tutorial_tides_886082",
+    "src_science_nasa_gov_moon_tides_92238d",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_f9dae1",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_7a3e59",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_b45e0a",
+    "src_pt_wikipedia_org_wiki_mar_c3_55f212",
+    "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+    "src_oceanservice_noaa_gov_education_tutorial_tides_1cb7b6",
+    "src_oceanservice_noaa_gov_facts_highesttide_html_0776e8",
+    "src_pt_wikipedia_org_wiki_ba_c3_d4e5ac"
+  ],
+  "quizIds": ["q_tides_1__pt-BR", "q_tides_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

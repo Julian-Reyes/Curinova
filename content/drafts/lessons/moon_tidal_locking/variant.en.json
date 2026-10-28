@@ -1,0 +1,263 @@
+{
+  "id": "lesson_moon_tidal_locking__en",
+  "conceptId": "concept_moon_tidal_locking",
+  "locale": "en",
+  "slug": "why-the-moon-always-shows-the-same-face",
+  "title": "Why does the Moon always show the same face?",
+  "hook": "It does spin. Just in perfect step with its orbit.",
+  "summary": "The Moon takes as long to spin once as it does to orbit Earth, so the same side always faces us.",
+  "cardText": "It does spin, but one turn takes as long as one orbit of Earth: about 27 days. So the same face always points our way.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Look at the full Moon tonight and again in ten years: you will see the same dark patches. That does not mean the Moon stays still. It does rotate, but one spin takes exactly as long as one trip around Earth: about 27 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "So the same face always points our way. Astronomers call this synchronous rotation, or tidal locking. Early in its history the Moon spun faster. Earth’s gravity stretched it slightly out of round, and that bulge acted like a brake until the two rhythms matched."
+    },
+    {
+      "type": "takeaway",
+      "text": "The Moon does spin, but each turn lasts exactly one orbit."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The far side is not dark"
+    },
+    {
+      "type": "paragraph",
+      "text": "The side we never see gets just as much sunlight as the side we do. It simply never points at Earth. At new Moon, when the near side is in shadow, the far side is in full daylight."
+    },
+    {
+      "type": "paragraph",
+      "text": "A slight rocking and wobbling of the Moon as seen from Earth, called libration, lets us see up to 59% of its surface over time, a little more than half. The first photo of the far side was taken by the Soviet probe Luna 3 in 1959."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tidal locking is common in the Solar System: Jupiter’s four large moons also keep one face turned toward their planet."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "moon-face",
+    "alt": "Illustration of the Moon orbiting Earth with the same face always turned toward it.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Moon rotates on its axis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "Earth’s Moon rotates, but it takes precisely as long for the Moon to spin on its axis as it does to complete its monthly orbit around Earth."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "One rotation of the Moon takes as long as one orbit of Earth, about 27 days.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "The Moon makes a complete orbit around Earth in 27 Earth days and rotates or spins at that same rate, or in that same amount of time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Because of this, the same face of the Moon always points toward Earth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "so the same hemisphere faces Earth all the time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "This is called synchronous rotation, or tidal locking.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation)"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "This phenomenon, called “synchronous tidal locking,” sounds like a weird coincidence"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Early in its history, the Moon spun faster than it does now.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "would have been spinning wildly, with its shape changing as it was pulled at by Earth’s gravity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Earth’s gravity stretches the Moon slightly out of round.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "Earth’s gravitational pull distorts the Moon into a slight football shape even today"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The tug on that bulge slowed the Moon’s spin until one rotation took as long as one orbit.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "As the energy dissipated, the Moon’s rotation slowed until a single spin on its axis took the same amount of time as one trip around Earth."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The far side of the Moon is not permanently dark; it simply never faces Earth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "Some people call the far side – the hemisphere we never see from Earth – the \"dark side\", but that's misleading. As the Moon orbits Earth, different parts are in sunlight or darkness at different times."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "At new Moon, the far side is in full sunlight while the near side is dark.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "And a \"new moon\" occurs when the far side of the Moon has full sunlight, and the side facing us is having its night."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Libration, a slight rocking and wobbling of the Moon as seen from Earth, lets us see up to 59% of its surface over time.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_how_much_7ac940",
+          "excerpt": "Over time, it’s possible to see as much as 59% of the moon’s surface, due to a combination of motions – in particular, a slight north-south rocking and east-west wobbling of the moon – known as lunar libration."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_moon_phases_5a8021",
+          "excerpt": "allowing us to peek around the Moon's shoulder and catch glimpses of the farside. This phenomenon is called libration."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The first photo of the Moon’s far side was taken by the Soviet probe Luna 3 in 1959.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_airandspace_si_edu_stories_editorial_is_3e551b",
+          "excerpt": "It wasn’t until 1959 when the Soviet Union launched the Luna 3 spacecraft that we got our first look at the farside."
+        },
+        {
+          "sourceId": "src_nssdc_gsfc_nasa_gov_planetary_lunar_103831",
+          "excerpt": "The image at the top of the page is the first image of the far side of the Moon, taken by the Luna 3 spacecraft in October, 1959."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Tidal locking is common in the Solar System.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "All the solar system’s large moons are tidally locked with their planets."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Jupiter’s four large moons also keep one face turned toward Jupiter.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_jupiter_jupiter_moons_27757c",
+          "excerpt": "The four largest moons – Io, Europa, Ganymede, and Callisto – were first observed by the astronomer Galileo Galilei in 1610"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "All the solar system’s large moons are tidally locked with their planets."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_jupiter_jupiter_moons_22fc50",
+          "excerpt": "is locked by gravity to Jupiter, so the same hemisphere of the moon always faces the planet."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+    "src_science_nasa_gov_moon_facts_a9162f",
+    "src_earthsky_org_astronomy_essentials_how_much_7ac940",
+    "src_science_nasa_gov_moon_moon_phases_5a8021",
+    "src_airandspace_si_edu_stories_editorial_is_3e551b",
+    "src_nssdc_gsfc_nasa_gov_planetary_lunar_103831",
+    "src_science_nasa_gov_jupiter_jupiter_moons_27757c",
+    "src_science_nasa_gov_jupiter_jupiter_moons_22fc50"
+  ],
+  "quizIds": ["q_moon_tidal_locking_1__en", "q_moon_tidal_locking_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

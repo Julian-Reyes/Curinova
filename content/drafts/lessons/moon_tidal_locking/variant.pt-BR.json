@@ -1,0 +1,284 @@
+{
+  "id": "lesson_moon_tidal_locking__pt-BR",
+  "conceptId": "concept_moon_tidal_locking",
+  "locale": "pt-BR",
+  "slug": "por-que-a-lua-mostra-sempre-o-mesmo-lado",
+  "title": "Por que a Lua mostra sempre o mesmo lado?",
+  "hook": "Ela gira, sim. Só que no ritmo exato da própria órbita.",
+  "summary": "A Lua leva o mesmo tempo para girar em torno de si e para orbitar a Terra, por isso vemos sempre a mesma face.",
+  "cardText": "Ela gira, sim, mas uma volta leva o mesmo tempo que uma órbita em torno da Terra: cerca de 27 dias. Por isso, a mesma face fica voltada para nós.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Olhe para a Lua cheia hoje e daqui a dez anos: você verá as mesmas manchas escuras. Isso não quer dizer que ela não gira. A Lua gira, sim, mas leva o mesmo tempo para dar uma volta em torno de si e uma volta em torno da Terra: cerca de 27 dias."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por isso, a mesma face fica sempre voltada para nós. Os astrônomos chamam isso de rotação sincronizada. No início da sua história, a Lua girava mais rápido. A gravidade da Terra deformou levemente o seu corpo e foi freando a rotação até os dois ritmos se igualarem."
+    },
+    {
+      "type": "takeaway",
+      "text": "A Lua gira, mas cada volta dura exatamente uma órbita."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O lado oculto não é escuro"
+    },
+    {
+      "type": "paragraph",
+      "text": "O lado que nunca vemos recebe tanta luz do Sol quanto o lado visível. Ele só não aponta para a Terra. Na Lua nova, quando o lado voltado para nós está no escuro, o lado oculto está em pleno dia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Graças a um leve balanço aparente da Lua, visto daqui da Terra, chamado libração, conseguimos ver ao longo do tempo até 59% da superfície, um pouco mais da metade. A primeira foto do lado oculto foi feita pela sonda soviética Luna 3, em 1959."
+    },
+    {
+      "type": "paragraph",
+      "text": "A rotação sincronizada é comum no Sistema Solar: as quatro grandes luas de Júpiter, por exemplo, também mostram sempre a mesma face ao planeta."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "moon-face",
+    "alt": "Ilustração da Lua orbitando a Terra, sempre com a mesma face voltada para ela.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Lua gira em torno do próprio eixo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "a Lua também completa uma volta em torno de si mesma (rotação)."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "Earth’s Moon rotates, but it takes precisely as long for the Moon to spin on its axis as it does to complete its monthly orbit around Earth."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Uma volta da Lua em torno de si leva o mesmo tempo que uma órbita em torno da Terra, cerca de 27 dias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "enquanto completa uma volta em torno da Terra (translação), a Lua também completa uma volta em torno de si mesma (rotação)."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "The Moon makes a complete orbit around Earth in 27 Earth days and rotates or spins at that same rate, or in that same amount of time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Por isso, a mesma face da Lua fica sempre voltada para a Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "Isso faz com que ela tenha sempre a mesma face voltada para o nosso belo planeta azul."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "so the same hemisphere faces Earth all the time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Esse fenômeno se chama rotação sincronizada.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "Com o passar dos anos, a Lua sincronizou o seu movimento de rotação e de translação com a Terra"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "The Moon is rotating at the same rate that it revolves around Earth (called synchronous rotation)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "No início da sua história, a Lua girava mais rápido do que hoje.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "would have been spinning wildly, with its shape changing as it was pulled at by Earth’s gravity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A gravidade da Terra deforma levemente o corpo da Lua.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "Earth’s gravitational pull distorts the Moon into a slight football shape even today"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Essa deformação freou a rotação da Lua até uma volta em torno de si durar o mesmo que uma órbita.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "As the energy dissipated, the Moon’s rotation slowed until a single spin on its axis took the same amount of time as one trip around Earth."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "O lado oculto da Lua não fica sempre no escuro; ele só não aponta para a Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "o lado escuro da Lua, na verdade, nem sempre está escuro. Ele nada mais é do que o lado da Lua que nós não conseguimos avistar aqui da Terra."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "As the Moon orbits Earth, different parts are in sunlight or darkness at different times."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Na Lua nova, o lado oculto está totalmente iluminado e o lado visível está no escuro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "No caso, a face oculta está completamente iluminada e o lado visível não está. Essa é a fase da Lua Nova."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "And a \"new moon\" occurs when the far side of the Moon has full sunlight, and the side facing us is having its night."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A libração, um leve balanço aparente da Lua visto da Terra, permite ver até 59% da sua superfície ao longo do tempo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_how_much_7ac940",
+          "excerpt": "Over time, it’s possible to see as much as 59% of the moon’s surface, due to a combination of motions – in particular, a slight north-south rocking and east-west wobbling of the moon – known as lunar libration."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_moon_phases_5a8021",
+          "excerpt": "allowing us to peek around the Moon's shoulder and catch glimpses of the farside. This phenomenon is called libration."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "A primeira foto do lado oculto da Lua foi feita pela sonda soviética Luna 3, em 1959.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_airandspace_si_edu_stories_editorial_is_3e551b",
+          "excerpt": "It wasn’t until 1959 when the Soviet Union launched the Luna 3 spacecraft that we got our first look at the farside."
+        },
+        {
+          "sourceId": "src_nssdc_gsfc_nasa_gov_planetary_lunar_103831",
+          "excerpt": "The image at the top of the page is the first image of the far side of the Moon, taken by the Luna 3 spacecraft in October, 1959."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A rotação sincronizada é comum no Sistema Solar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "All the solar system’s large moons are tidally locked with their planets."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "As quatro grandes luas de Júpiter também mostram sempre a mesma face ao planeta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_jupiter_jupiter_moons_27757c",
+          "excerpt": "The four largest moons – Io, Europa, Ganymede, and Callisto – were first observed by the astronomer Galileo Galilei in 1610"
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "All the solar system’s large moons are tidally locked with their planets."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_jupiter_jupiter_moons_22fc50",
+          "excerpt": "is locked by gravity to Jupiter, so the same hemisphere of the moon always faces the planet."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+    "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+    "src_science_nasa_gov_moon_facts_a9162f",
+    "src_earthsky_org_astronomy_essentials_how_much_7ac940",
+    "src_science_nasa_gov_moon_moon_phases_5a8021",
+    "src_airandspace_si_edu_stories_editorial_is_3e551b",
+    "src_nssdc_gsfc_nasa_gov_planetary_lunar_103831",
+    "src_science_nasa_gov_jupiter_jupiter_moons_27757c",
+    "src_science_nasa_gov_jupiter_jupiter_moons_22fc50"
+  ],
+  "quizIds": ["q_moon_tidal_locking_1__pt-BR", "q_moon_tidal_locking_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

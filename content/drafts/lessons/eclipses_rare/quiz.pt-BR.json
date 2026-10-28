@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_eclipses_rare_1__pt-BR",
+    "questionGroupId": "qg_eclipses_rare_1",
+    "conceptId": "concept_eclipses_rare",
+    "locale": "pt-BR",
+    "prompt": "Por que não há eclipse solar em toda Lua nova?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A órbita da Lua é inclinada em relação à órbita da Terra"
+      },
+      {
+        "id": "b",
+        "text": "Na Lua nova, a Lua fica pequena demais"
+      },
+      {
+        "id": "c",
+        "text": "Eclipses só acontecem no verão"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Com a inclinação de cerca de 5 graus, a sombra da Lua normalmente passa acima ou abaixo da Terra. O alinhamento perfeito só ocorre nas temporadas de eclipse.",
+    "claimIds": ["c3", "c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_eclipses_rare_2__pt-BR",
+    "questionGroupId": "qg_eclipses_rare_2",
+    "conceptId": "concept_eclipses_rare",
+    "locale": "pt-BR",
+    "prompt": "Que cidade brasileira recebeu, em 1919, observações de eclipse que ajudaram a confirmar a teoria de Einstein?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sobral, no Ceará"
+      },
+      {
+        "id": "b",
+        "text": "Ouro Preto, em Minas Gerais"
+      },
+      {
+        "id": "c",
+        "text": "Manaus, no Amazonas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Em Sobral, astrônomos fotografaram estrelas próximas ao Sol durante o eclipse total e mediram o desvio da luz previsto pela relatividade geral.",
+    "claimIds": ["c10", "c11"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_tides_1__pt-BR",
+    "questionGroupId": "qg_tides_1",
+    "conceptId": "concept_tides",
+    "locale": "pt-BR",
+    "prompt": "Por que muitas costas têm duas marés altas por dia, e não uma?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A gravidade da Lua puxa com força diferente os lados próximo e distante da Terra"
+      },
+      {
+        "id": "b",
+        "text": "O Sol cria a segunda maré alta todos os dias"
+      },
+      {
+        "id": "c",
+        "text": "O vento empurra a água de volta durante a noite"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A diferença de puxão entre o lado próximo, o centro e o lado distante da Terra cria dois inchaços de água. A Terra gira por baixo deles.",
+    "misconception": "O Sol também influencia as marés, mas a segunda maré alta existiria mesmo sem ele: ela vem da diferença de puxão da Lua.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tides_2__pt-BR",
+    "questionGroupId": "qg_tides_2",
+    "conceptId": "concept_tides",
+    "locale": "pt-BR",
+    "prompt": "Quando acontecem as marés mais fortes, as de sizígia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quando Sol, Terra e Lua estão alinhados, na Lua nova e na cheia"
+      },
+      {
+        "id": "b",
+        "text": "Na Lua crescente e na minguante"
+      },
+      {
+        "id": "c",
+        "text": "Apenas durante eclipses"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Com os três alinhados, as marés do Sol e da Lua se somam. Isso acontece duas vezes por mês, não só em eclipses.",
+    "claimIds": ["c7", "c8", "c9"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,260 @@
+{
+  "id": "lesson_eclipses_rare__en",
+  "conceptId": "concept_eclipses_rare",
+  "locale": "en",
+  "slug": "why-isnt-there-an-eclipse-every-month",
+  "title": "Why isn’t there an eclipse every month?",
+  "hook": "The Moon passes between Earth and the Sun every month. Almost always, it misses.",
+  "summary": "The Moon’s orbit is tilted about 5 degrees, so eclipses only happen when the alignment falls where the orbits cross.",
+  "cardText": "The Moon’s orbit is tilted about 5 degrees, so its shadow usually passes above or below Earth. Everything only lines up during eclipse seasons, which come about twice a year.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Every month, at new Moon, the Moon passes between Earth and the Sun. So why don’t we get a solar eclipse every 29 and a half days? Because the Moon’s orbit is tilted by about 5 degrees relative to Earth’s. In most months, the Moon’s shadow sails above or below our planet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Only when a new Moon falls near one of the two points where the orbits cross do the Sun, Moon and Earth line up closely. That creates eclipse seasons, which come around about twice a year."
+    },
+    {
+      "type": "takeaway",
+      "text": "The Moon’s orbit is tilted, so eclipses only happen when everything lines up."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A cosmic coincidence"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sun is about 400 times wider than the Moon and about 400 times farther away. So in our sky the two look almost the same size, and the Moon can cover the Sun exactly, revealing the faint solar corona."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the Moon is slowly drifting away, this coincidence is temporary. Hundreds of millions of years from now, it will look too small to cause a total eclipse."
+    },
+    {
+      "type": "heading",
+      "text": "An eclipse in Brazil"
+    },
+    {
+      "type": "paragraph",
+      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in northeastern Brazil, and from the island of Príncipe, off Africa. Stars near the Sun appeared slightly shifted, just as Einstein’s general theory of relativity predicted."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "eclipse",
+    "alt": "Illustration of the Sun, Moon and Earth in a line, with the Moon’s shadow touching Earth.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "At every new Moon, the Moon passes between Earth and the Sun.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+          "excerpt": "The moon appears new (dark) when it is directly between the Earth and the sun."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "New Moons come about every 29 and a half days.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_facts_a9162f",
+          "excerpt": "from our perspective, the Moon appears to orbit us every 29 days."
+        },
+        {
+          "sourceId": "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+          "excerpt": "Nessa volta, que dura aproximadamente um mês (sendo mais exatos, 29,5 dias), vemos todas as fases da Lua."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "There is not a solar eclipse at every new Moon because the Moon’s orbit is tilted about 5 degrees relative to Earth’s.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
+          "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
+        },
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+          "excerpt": "the reason is that the moon’s orbit around Earth is inclined to Earth’s orbit around the sun by about 5 degrees."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Because of the tilt, in most months the Moon passes above or below the line between Earth and the Sun, so its shadow misses Earth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_moon_moon_phases_5a8021",
+          "excerpt": "The tilt sometimes brings the Moon above Earth’s northern hemisphere, and sometimes below Earth’s southern hemisphere"
+        },
+        {
+          "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
+          "excerpt": "But they don’t happen every New and Full Moon, because the Moon’s orbit is tilted by about 5 degrees."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "An eclipse happens only when a new or full Moon falls near one of the two points where the Moon’s orbit crosses Earth’s orbital plane.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+          "excerpt": "Twice a month the moon intersects the ecliptic – Earth’s orbital plane – at points called nodes."
+        },
+        {
+          "sourceId": "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+          "excerpt": "If the full moon or new moon sweeps appreciably close to one of these nodes, then an eclipse is inevitable."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "This creates eclipse seasons, which come about twice a year.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_eclipses_4bdf6f",
+          "excerpt": "An eclipse season is one of only two periods during each year when the Sun, the Moon, and Earth are aligned, allowing eclipses to occur."
+        },
+        {
+          "sourceId": "src_svs_gsfc_nasa_gov_4158_3d1954",
+          "excerpt": "eclipses tend to occur on a roughly six-month cycle."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The Sun is about 400 times wider than the Moon and about 400 times farther away, so the two look almost the same size in our sky.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apod_nasa_gov_apod_ap990818_html_1758f5",
+          "excerpt": "While the sun is about 400 times wider than the moon, it is also about 400 times farther away and each appears to be half a degree or so in diameter."
+        },
+        {
+          "sourceId": "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+          "excerpt": "Even though the Moon is 400 times smaller than the Sun, it's also about 400 times closer to Earth than the Sun is. This means that from Earth, the Moon and the Sun appear to be roughly the same size in the sky."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "During a total solar eclipse, the Moon covers the Sun and the faint solar corona becomes visible.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_science_nasa_gov_eclipses_4bdf6f",
+          "excerpt": "We can't normally see the corona—the Sun's outer atmosphere — because Sun's surface below it is so much brighter. But during a total solar eclipse, the corona emerges"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Because the Moon is slowly drifting away, total solar eclipses will end hundreds of millions of years from now, when the Moon looks too small to cover the Sun.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+          "excerpt": "Total solar eclipses won't be around forever! The Moon's orbit is changing. In fact, the Moon's orbit grows about 1.5 inches (3.8 cm) larger every year."
+        },
+        {
+          "sourceId": "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+          "excerpt": "it will take more than 600 million years for total solar eclipses to completely disappear!"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "On 29 May 1919, British astronomers photographed a total eclipse from Sobral, in northeastern Brazil, and from the island of Príncipe, off Africa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_when_light_ef9beb",
+          "excerpt": "No solar eclipse has been as momentous in the history of science as the one that occurred on May 29, 1919. That year, two separate expeditions of British astronomers were sent to photograph the eclipse and take measurements: one expedition voyaged to Sobral, an inland town in northeastern Brazil, and the other travelled to the island of Príncipe, then a Portuguese possession, off the coast of West Africa."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Stars near the Sun appeared slightly shifted, as Einstein’s general theory of relativity predicted.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_when_light_ef9beb",
+          "excerpt": "But around a solar eclipse, the stars will appear to be slightly offset in relation to a photo of the same star field taken at night."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_when_light_ef9beb",
+          "excerpt": "Six months later, photos and calculations published by the British astronomers proved Einstein right."
+        },
+        {
+          "sourceId": "src_gov_uk_government_news_sobral_the_caaa95",
+          "excerpt": "Eddington used photographs and readings taken in Sobral to show the deflection of starlight by the sun’s gravity, which confirmed Einstein’s theory of relativity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_oceanservice_noaa_gov_facts_springtide_html_5403a7",
+    "src_science_nasa_gov_moon_facts_a9162f",
+    "src_ufmg_br_espacodoconhecimento_o_lado_oculto_269071",
+    "src_svs_gsfc_nasa_gov_4158_3d1954",
+    "src_earthsky_org_astronomy_essentials_why_isnt_539066",
+    "src_science_nasa_gov_moon_moon_phases_5a8021",
+    "src_science_nasa_gov_eclipses_4bdf6f",
+    "src_apod_nasa_gov_apod_ap990818_html_1758f5",
+    "src_spaceplace_nasa_gov_total_solar_eclipse_66a3a8",
+    "src_revistapesquisa_fapesp_br_en_when_light_ef9beb",
+    "src_gov_uk_government_news_sobral_the_caaa95"
+  ],
+  "quizIds": ["q_eclipses_rare_1__en", "q_eclipses_rare_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

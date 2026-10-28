@@ -1,0 +1,268 @@
+{
+  "id": "lesson_day_lengthening__pt-BR",
+  "conceptId": "concept_day_lengthening",
+  "locale": "pt-BR",
+  "slug": "os-dias-estao-ficando-mais-longos",
+  "title": "Os dias na Terra estão ficando mais longos?",
+  "hook": "Bem devagar, sim. E corais fósseis guardam a prova.",
+  "summary": "O atrito das marés freia a rotação da Terra; há 400 milhões de anos, um dia durava cerca de 22 horas.",
+  "cardText": "Sim, bem devagar. O atrito das marés freia a rotação da Terra, somando cerca de 2 milissegundos por século. Corais fósseis mostram dias de umas 22 horas há 400 milhões de anos.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "As marés não só sobem e descem: elas atritam com o fundo do mar e funcionam como um freio lento na rotação da Terra. Por isso, o dia está ficando mais longo, mas bem devagar, cerca de 2 milissegundos por século."
+    },
+    {
+      "type": "paragraph",
+      "text": "Parece nada, mas isso se acumula. Corais fósseis de cerca de 400 milhões de anos têm faixas de crescimento diárias e anuais, e indicam anos de aproximadamente 400 dias, com dias de umas 22 horas. A energia que a Terra perde não some: parte dela empurra a Lua para uma órbita um pouco mais distante."
+    },
+    {
+      "type": "takeaway",
+      "text": "O atrito das marés freia a Terra: há 400 milhões de anos, um dia durava cerca de 22 horas."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Como sabemos que a Lua se afasta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Astronautas das missões Apollo deixaram refletores na superfície lunar. Observatórios disparam lasers até eles e medem quanto tempo a luz leva para ir e voltar. As medições mostram que a Lua se afasta cerca de 3,8 centímetros por ano."
+    },
+    {
+      "type": "paragraph",
+      "text": "A duração do dia também oscila por outros motivos, como a atmosfera e movimentos no núcleo da Terra, em cerca de um milésimo de segundo ao longo do ano. Por isso, o tempo dos relógios atômicos e a rotação da Terra vêm sendo reconciliados de tempos em tempos com os chamados segundos intercalares. Em 2022, os responsáveis pela hora mundial decidiram deixar de adicioná-los até 2035 e buscar outra forma de manter os dois em sintonia."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "day-length",
+    "alt": "Ilustração de um relógio sobre a Terra, com a Lua se afastando aos poucos.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O atrito das marés funciona como um freio lento na rotação da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_livescience_com_57118_earth_spin_slowdown_ac5774",
+          "excerpt": "Researchers have known that the planet's rotation is slowing because of friction caused by the tides, as water that's being tugged on by the moon's gravity sloshes against the solid Earth."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "it creates friction that slows Earth’s own rotation"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Por isso, o dia está ficando mais longo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_science_2016_dec_07_b6ef52",
+          "excerpt": "the day on Earth lengthens by two milliseconds as the planet’s rotation gradually winds down."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O dia fica cerca de 2 milissegundos mais longo a cada século.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_science_2016_dec_07_b6ef52",
+          "excerpt": "Astronomers who compiled nearly 3,000 years of celestial records have found that with every passing century, the day on Earth lengthens by two milliseconds"
+        },
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "The moon slows us down by about two milliseconds a century"
+        },
+        {
+          "sourceId": "src_livescience_com_57118_earth_spin_slowdown_ac5774",
+          "excerpt": "grows by 1.8 milliseconds"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Corais fósseis de cerca de 400 milhões de anos têm faixas de crescimento diárias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "Scientists have found fossil evidence from tropical corals that existed at that time, and they have about 400 daily growth rings per year."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+          "excerpt": "create a series of diurnal growth increments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Esses corais indicam anos de aproximadamente 400 dias.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+          "excerpt": "Studies on Devonian isolate corals indicate a 400-day year and, therefore, a 22-hour day."
+        },
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "There were 400 days in a year then."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Há cerca de 400 milhões de anos, um dia durava umas 22 horas.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+          "excerpt": "Studies on Devonian isolate corals indicate a 400-day year and, therefore, a 22-hour day."
+        },
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "400 million years ago, days were 21 and 1/2 hours long."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A mesma interação de marés que freia a Terra empurra a Lua para uma órbita um pouco mais distante.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nasa_gov_missions_apollo_apollo_11_3a02be",
+          "excerpt": "The gravitational force between the tidal bulges and the Moon pull against and slow Earth’s rotation while also pulling the Moon forward along the direction it moves in its orbit about Earth."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "creates forces that change the Moon’s orbital speed, causing it to fall farther away into space."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Astronautas das missões Apollo deixaram refletores na Lua, e observatórios medem o tempo de ida e volta de pulsos de laser para calcular a distância da Lua.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+          "excerpt": "retroreflector was positioned on the Moon in 1969 by the Apollo 11 astronauts. By beaming laser pulses at the reflector from Earth, scientists have been able to determine the round-trip travel time that gives the distance between the two bodies"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "As medições mostram que a Lua se afasta cerca de 3,8 centímetros por ano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+          "excerpt": "Measurements show that the Moon is receding from Earth at a rate of about 3.8 centimeters per year."
+        },
+        {
+          "sourceId": "src_nasa_gov_missions_apollo_apollo_11_3a02be",
+          "excerpt": "lunar laser ranging has accurately shown that the distance between the two increases by 1.5 inches (3.8 centimeters) a year."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A duração do dia também varia em cerca de um milésimo de segundo ao longo do ano, por causa da atmosfera e de movimentos no núcleo da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+          "excerpt": "Ranging has also determined that the length of an Earth day has distinct small-scale variations of about one thousandth of a second over the course of a year, caused by the atmosphere, tides, and Earth's core."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Os segundos intercalares são somados à hora dos relógios atômicos para mantê-la em sintonia com a rotação da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nist_gov_pml_time_and_frequency_96289d",
+          "excerpt": "A leap second is a second added to Coordinated Universal Time (UTC) in order to keep it synchronized with astronomical time. UTC is an atomic time scale, based on the performance of atomic clocks"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Em 2022, os responsáveis pela hora mundial decidiram deixar de adicionar segundos intercalares até 2035 e buscar outra forma de manter a hora atômica e a rotação da Terra em sintonia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bipm_org_en_cgpm_2022_resolution_791d45",
+          "excerpt": "Resolution 4 of the 27th CGPM (2022) On the use and future development of UTC"
+        },
+        {
+          "sourceId": "src_bipm_org_en_cgpm_2022_resolution_791d45",
+          "excerpt": "decides that the maximum value for the difference (UT1-UTC) will be increased in, or before, 2035"
+        },
+        {
+          "sourceId": "src_sciencealert_com_the_world_is_going_e78a48",
+          "excerpt": "A resolution to stop adding leap seconds by 2035"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_livescience_com_57118_earth_spin_slowdown_ac5774",
+    "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+    "src_theguardian_com_science_2016_dec_07_b6ef52",
+    "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+    "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+    "src_nasa_gov_missions_apollo_apollo_11_3a02be",
+    "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+    "src_nist_gov_pml_time_and_frequency_96289d",
+    "src_bipm_org_en_cgpm_2022_resolution_791d45",
+    "src_sciencealert_com_the_world_is_going_e78a48"
+  ],
+  "quizIds": ["q_day_lengthening_1__pt-BR", "q_day_lengthening_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2028-01-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

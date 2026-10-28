@@ -1,0 +1,27 @@
+{
+  "id": "concept_eclipses_rare",
+  "topicId": "space",
+  "clusterId": "cluster_moon_shapes_earth",
+  "clusterOrder": 4,
+  "tags": ["moon", "sun", "eclipses"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_moon_tidal_locking",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Volte ao começo da trilha: por que vemos sempre a mesma face da Lua.",
+        "en": "Back to the start of the trail: why we always see the same face of the Moon."
+      }
+    },
+    {
+      "conceptId": "concept_day_lengthening",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O afastamento da Lua vai mudar os eclipses no futuro distante.",
+        "en": "The Moon’s drift will change eclipses in the distant future."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "lesson_day_lengthening__en",
+  "conceptId": "concept_day_lengthening",
+  "locale": "en",
+  "slug": "are-earths-days-getting-longer",
+  "title": "Are Earth’s days getting longer?",
+  "hook": "Very slowly, yes. Fossil corals hold the evidence.",
+  "summary": "Tidal friction slows Earth’s spin; 400 million years ago a day lasted about 22 hours.",
+  "cardText": "Yes, very slowly. Tidal friction brakes Earth’s spin, adding about 2 milliseconds per century. Fossil corals show days of about 22 hours 400 million years ago.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Tides do more than rise and fall. They drag against the seafloor and act as a slow brake on Earth’s spin. As a result, the day is getting longer, though only by about 2 milliseconds per century."
+    },
+    {
+      "type": "paragraph",
+      "text": "That sounds like nothing, but it adds up. Fossil corals around 400 million years old have daily and yearly growth bands that point to years of roughly 400 days, each about 22 hours long. The energy Earth loses does not vanish: part of it nudges the Moon into a slightly wider orbit."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tidal friction brakes Earth: 400 million years ago, a day lasted about 22 hours."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How we know the Moon is drifting away"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apollo astronauts left reflectors on the lunar surface. Observatories fire lasers at them and time how long the light takes to bounce back. The measurements show the Moon receding by about 3.8 centimeters a year."
+    },
+    {
+      "type": "paragraph",
+      "text": "The length of the day also wobbles for other reasons, such as the atmosphere and motion in Earth’s core, by about a thousandth of a second over a year. That is why atomic-clock time and Earth’s rotation have been reconciled from time to time with so-called leap seconds. In 2022, the world’s timekeepers decided to stop adding them by 2035 and to find another way to keep the two in step."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "day-length",
+    "alt": "Illustration of a clock over Earth while the Moon slowly drifts away.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Tides act as a slow brake on Earth’s spin through friction.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_livescience_com_57118_earth_spin_slowdown_ac5774",
+          "excerpt": "Researchers have known that the planet's rotation is slowing because of friction caused by the tides, as water that's being tugged on by the moon's gravity sloshes against the solid Earth."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "it creates friction that slows Earth’s own rotation"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "As a result, the day is getting longer.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_science_2016_dec_07_b6ef52",
+          "excerpt": "the day on Earth lengthens by two milliseconds as the planet’s rotation gradually winds down."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The day lengthens by about 2 milliseconds per century.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_science_2016_dec_07_b6ef52",
+          "excerpt": "Astronomers who compiled nearly 3,000 years of celestial records have found that with every passing century, the day on Earth lengthens by two milliseconds"
+        },
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "The moon slows us down by about two milliseconds a century"
+        },
+        {
+          "sourceId": "src_livescience_com_57118_earth_spin_slowdown_ac5774",
+          "excerpt": "grows by 1.8 milliseconds"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Fossil corals about 400 million years old have daily growth bands.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "Scientists have found fossil evidence from tropical corals that existed at that time, and they have about 400 daily growth rings per year."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+          "excerpt": "create a series of diurnal growth increments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Those corals point to years of roughly 400 days.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+          "excerpt": "Studies on Devonian isolate corals indicate a 400-day year and, therefore, a 22-hour day."
+        },
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "There were 400 days in a year then."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "About 400 million years ago, a day lasted about 22 hours.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+          "excerpt": "Studies on Devonian isolate corals indicate a 400-day year and, therefore, a 22-hour day."
+        },
+        {
+          "sourceId": "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+          "excerpt": "400 million years ago, days were 21 and 1/2 hours long."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The same tidal interaction that slows Earth pushes the Moon into a slightly wider orbit.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nasa_gov_missions_apollo_apollo_11_3a02be",
+          "excerpt": "The gravitational force between the tidal bulges and the Moon pull against and slow Earth’s rotation while also pulling the Moon forward along the direction it moves in its orbit about Earth."
+        },
+        {
+          "sourceId": "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+          "excerpt": "creates forces that change the Moon’s orbital speed, causing it to fall farther away into space."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Apollo astronauts left laser reflectors on the Moon, and observatories time laser pulses bounced off them to measure the Moon’s distance.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+          "excerpt": "retroreflector was positioned on the Moon in 1969 by the Apollo 11 astronauts. By beaming laser pulses at the reflector from Earth, scientists have been able to determine the round-trip travel time that gives the distance between the two bodies"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "These measurements show the Moon receding by about 3.8 centimeters a year.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+          "excerpt": "Measurements show that the Moon is receding from Earth at a rate of about 3.8 centimeters per year."
+        },
+        {
+          "sourceId": "src_nasa_gov_missions_apollo_apollo_11_3a02be",
+          "excerpt": "lunar laser ranging has accurately shown that the distance between the two increases by 1.5 inches (3.8 centimeters) a year."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The length of the day also varies by about a thousandth of a second over a year, because of the atmosphere and motion in Earth’s core.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+          "excerpt": "Ranging has also determined that the length of an Earth day has distinct small-scale variations of about one thousandth of a second over the course of a year, caused by the atmosphere, tides, and Earth's core."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Leap seconds are added to atomic-clock time to keep it in step with Earth’s rotation.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nist_gov_pml_time_and_frequency_96289d",
+          "excerpt": "A leap second is a second added to Coordinated Universal Time (UTC) in order to keep it synchronized with astronomical time. UTC is an atomic time scale, based on the performance of atomic clocks"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "In 2022, the world’s timekeepers decided to stop adding leap seconds by 2035 and to find another way to keep atomic time and Earth’s rotation in step.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bipm_org_en_cgpm_2022_resolution_791d45",
+          "excerpt": "Resolution 4 of the 27th CGPM (2022) On the use and future development of UTC"
+        },
+        {
+          "sourceId": "src_bipm_org_en_cgpm_2022_resolution_791d45",
+          "excerpt": "decides that the maximum value for the difference (UT1-UTC) will be increased in, or before, 2035"
+        },
+        {
+          "sourceId": "src_sciencealert_com_the_world_is_going_e78a48",
+          "excerpt": "A resolution to stop adding leap seconds by 2035"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_livescience_com_57118_earth_spin_slowdown_ac5774",
+    "src_science_nasa_gov_moon_tidal_locking_90cd1b",
+    "src_theguardian_com_science_2016_dec_07_b6ef52",
+    "src_indianapublicmedia_org_amomentofscience_the_coral_clock_28ea7d",
+    "src_encyclopedia_com_science_dictionaries_thesauruses_pictures_54c73a",
+    "src_nasa_gov_missions_apollo_apollo_11_3a02be",
+    "src_eclipse_gsfc_nasa_gov_help_apollolaser_26394b",
+    "src_nist_gov_pml_time_and_frequency_96289d",
+    "src_bipm_org_en_cgpm_2022_resolution_791d45",
+    "src_sciencealert_com_the_world_is_going_e78a48"
+  ],
+  "quizIds": ["q_day_lengthening_1__en", "q_day_lengthening_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_moon_shapes_earth"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2028-01-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}
