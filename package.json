@@ -20,6 +20,10 @@
     "content:build": "pnpm --filter @lumen/content-pipeline content:build",
     "content:stats": "pnpm --filter @lumen/content-pipeline content:stats",
     "content:due-review": "pnpm --filter @lumen/content-pipeline content:due-review",
+    "content:sources": "pnpm --filter @lumen/content-pipeline content:sources",
+    "content:check-drafts": "pnpm --filter @lumen/content-pipeline content:check-drafts",
+    "content:check-links": "pnpm --filter @lumen/content-pipeline content:check-links",
+    "content:dedupe": "pnpm --filter @lumen/content-pipeline content:dedupe",
     "media:add": "pnpm --filter @lumen/content-pipeline media:add"
   },
   "devDependencies": {

@@ -9,13 +9,21 @@
     "media:add": "tsx src/media/add.ts",
     "content:build": "tsx src/bundle/cli.ts",
     "content:stats": "tsx src/reports/cli.ts",
-    "content:due-review": "tsx src/reports/cli.ts due"
+    "content:due-review": "tsx src/reports/cli.ts due",
+    "content:sources": "tsx src/sources/cli.ts",
+    "content:check-drafts": "tsx src/drafts/cli.ts",
+    "content:check-links": "tsx src/links/cli.ts",
+    "content:dedupe": "tsx src/dedupe/cli.ts"
   },
   "dependencies": {
     "@lumen/domain": "workspace:*",
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@types/jsdom": "^30.0.0",
+    "jsdom": "^29.1.1",
+    "robots-parser": "^3.0.1",
     "sharp": "^0.35.5"
   }
 }

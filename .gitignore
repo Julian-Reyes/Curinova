@@ -13,3 +13,6 @@ test-results/
 apps/web/e2e/__screenshots__/
 content/drafts/
 apps/web/public/content/
+
+content/sources/.snapshots/
+.cache/
