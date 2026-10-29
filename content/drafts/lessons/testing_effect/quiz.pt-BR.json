@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "No estudo com textos científicos, qual estratégia foi melhor após dias?",
+    "explanation": "Após dois ou sete dias, a prática de recordação superou a releitura.",
+    "claimIds": ["c1", "c3"],
+    "id": "q_testing_effect_1__pt-BR",
+    "questionGroupId": "qg_testing_effect_1",
+    "conceptId": "concept_testing_effect",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tentar recordar sem olhar o texto"
+      },
+      {
+        "id": "b",
+        "text": "Apenas reler o texto"
+      },
+      {
+        "id": "c",
+        "text": "Não voltar ao conteúdo"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Por que conferir a resposta depois de tentar lembrar?",
+    "explanation": "Praticar com feedback costuma funcionar melhor do que sem ele.",
+    "claimIds": ["c4"],
+    "id": "q_testing_effect_2__pt-BR",
+    "questionGroupId": "qg_testing_effect_2",
+    "conceptId": "concept_testing_effect",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "O feedback costuma melhorar a prática de recordação"
+      },
+      {
+        "id": "b",
+        "text": "Conferir elimina toda chance de esquecer"
+      },
+      {
+        "id": "c",
+        "text": "O feedback substitui a tentativa de lembrar"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

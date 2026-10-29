@@ -1,0 +1,32 @@
+{
+  "id": "cluster_how_memory_works",
+  "topicId": "brain",
+  "slug": {
+    "pt-BR": "como-a-memoria-funciona",
+    "en": "how-memory-works"
+  },
+  "title": {
+    "pt-BR": "Como a memória funciona",
+    "en": "How memory works"
+  },
+  "hook": {
+    "pt-BR": "Por que esquecemos, e o que a ciência diz que ajuda a lembrar.",
+    "en": "Why we forget, and what science says helps you remember."
+  },
+  "conceptIds": [
+    "concept_forgetting_curve",
+    "concept_spacing_effect",
+    "concept_testing_effect",
+    "concept_sleep_memory",
+    "concept_retrieval_cues"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_body_renews",
+      "reason": {
+        "pt-BR": "O cérebro faz parte de um corpo que se renova em ritmos muito diferentes.",
+        "en": "The brain is part of a body that renews itself at very different speeds."
+      }
+    }
+  ]
+}

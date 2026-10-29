@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "O que ajudou participantes a lembrar mais palavras no experimento?",
+    "explanation": "As categorias forneceram pistas para a recordação.",
+    "claimIds": ["c1", "c2"],
+    "id": "q_retrieval_cues_1__pt-BR",
+    "questionGroupId": "qg_retrieval_cues_1",
+    "conceptId": "concept_retrieval_cues",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "Receber os nomes das categorias estudadas"
+      },
+      {
+        "id": "b",
+        "text": "Estudar palavras sem categoria"
+      },
+      {
+        "id": "c",
+        "text": "Esperar até que todas as palavras voltassem sozinhas"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Qual pista tende a funcionar melhor?",
+    "explanation": "O estudo de pares de palavras mostrou vantagem para as pistas originais.",
+    "claimIds": ["c4", "c5"],
+    "id": "q_retrieval_cues_2__pt-BR",
+    "questionGroupId": "qg_retrieval_cues_2",
+    "conceptId": "concept_retrieval_cues",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "Uma que esteve ligada ao item durante a aprendizagem"
+      },
+      {
+        "id": "b",
+        "text": "Qualquer palavra associada ao item só depois"
+      },
+      {
+        "id": "c",
+        "text": "Sempre uma pista aleatória"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

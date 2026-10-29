@@ -1,0 +1,27 @@
+{
+  "id": "concept_retrieval_cues",
+  "topicId": "brain",
+  "clusterId": "cluster_how_memory_works",
+  "clusterOrder": 5,
+  "tags": ["memory", "retrieval", "cues"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_sleep_memory",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O sono pode ajudar a preservar memórias antes de tentarmos recuperá-las.",
+        "en": "Sleep can help preserve memories before we try to retrieve them."
+      }
+    },
+    {
+      "conceptId": "concept_testing_effect",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Tentar lembrar é uma forma de praticar a recuperação.",
+        "en": "Trying to remember is one way to practice retrieval."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "lesson_retrieval_cues__en",
+  "conceptId": "concept_retrieval_cues",
+  "locale": "en",
+  "slug": "why-can-a-cue-bring-a-memory-back",
+  "title": "Why can a cue bring a memory back?",
+  "hook": "A word or detail can change what you are able to recall.",
+  "summary": "Cues linked to learning can make a memory easier to retrieve, though they cannot guarantee recall.",
+  "cardText": "A cue can help locate something that seemed forgotten. In one experiment, people recalled more words when given the categories used during study.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "You are trying to remember a list but cannot find a starting point. Then someone says “fruit,” and a few items return. In a classic experiment, participants studied words from different categories. At the test, people given the category names recalled more than those asked to remember without cues."
+    },
+    {
+      "type": "paragraph",
+      "text": "That difference shows why failing to recall something freely does not prove it has vanished. A cue may provide a route back, but not every cue works. In word-pair studies, the cue used during learning worked better than a different word strongly associated with the target. Returning to a detail linked to learning may help you remember; it offers no guarantee."
+    },
+    {
+      "type": "takeaway",
+      "text": "A cue connected to learning can aid recall when a memory does not come back on its own."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Why does the original cue matter?"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is called encoding specificity. Retrieval is more likely when the available cue matches features present during learning. In one study, people learned pairs such as “train–black.” The original cue helped retrieve “black” better than a later strong association such as “white.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "That does not mean you must always study in the same place. The finding concerns the link between a cue and a memory; physical context is only one possible kind of cue."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "recall",
+    "alt": "A small category label helping someone find a memory.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "Subjects were presented with a series of words. These words were drawn from multiple categories"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "In one experiment, people studied words from different categories."
+    },
+    {
+      "id": "c2",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "The cued recall group performed considerably better than the free recall group across categories"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "People given category cues remembered more words than those asked to recall freely."
+    },
+    {
+      "id": "c3",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "the same memory could be retrieved successfully with some retrieval cues, but not others"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "The same memory may be retrieved with some cues but not others."
+    },
+    {
+      "id": "c4",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "the greater the match between encoding and retrieval states, the higher the probability of retrieval success"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "A cue is more likely to help when it matches features present during learning."
+    },
+    {
+      "id": "c5",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_464a77",
+          "excerpt": "After studying weakly associated cue–target pairs (e.g., train-black), participants were better at cued recall of targets with the original cues compared with extraexperimental cues that were strongly associated to the targets (e.g., white)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "In a word-pair study, original cues helped more than other strong associations introduced later."
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_464a77",
+    "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd"
+  ],
+  "quizIds": ["q_retrieval_cues_1__en", "q_retrieval_cues_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

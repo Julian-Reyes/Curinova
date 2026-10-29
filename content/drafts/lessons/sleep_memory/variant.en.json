@@ -1,0 +1,146 @@
+{
+  "id": "lesson_sleep_memory__en",
+  "conceptId": "concept_sleep_memory",
+  "locale": "en",
+  "slug": "what-does-your-brain-do-with-memories-while-you-sleep",
+  "title": "What does your brain do with your memories while you sleep?",
+  "hook": "Sleep after learning can help, while the brain mechanism remains complex.",
+  "summary": "Sleep after learning can support later recall, while the exact role of neural replay remains under study.",
+  "cardText": "In studies with students, sleep after vocabulary learning helped later recall. Researchers also observe neural replay in animals, though its role remains under investigation.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Learning a new word does not end when you close the notebook. In two experiments, high-school students learned vocabulary and were tested later. Sleeping within a few hours of study helped retention. In one comparison, students recalled more words after a night of sleep than after staying awake."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brain activity offers a possible clue. In animal studies, researchers call the sped-up recurrence of earlier neural activity “replay.” Similar activity also occurs while awake, however, and researchers still debate how to identify and interpret it. The human study’s behavioral result is clearer than the proposed mechanism: sleep after learning can help preserve what was learned."
+    },
+    {
+      "type": "takeaway",
+      "text": "Sleep after learning can help recall; the neural mechanism is still being studied."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "What is replay?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hippocampal replay describes a compressed recurrence of neural activity patterns first seen while an animal was awake. The hippocampus is a brain region involved in these studies. Replay has been linked to memory consolidation, but a review stresses awake replay and difficulties in measuring the phenomenon."
+    },
+    {
+      "type": "paragraph",
+      "text": "The study with people did not measure replay: its participants learned English–German word pairs. Keeping the behavioral finding separate from the brain hypothesis avoids treating an animal observation as a complete explanation of human memory."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "sleep",
+    "alt": "A person sleeping with a closed book beside the bed.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "In two experiments, we examined high school students’ ability to remember vocabulary."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Two experiments studied vocabulary memory in high-school students."
+    },
+    {
+      "id": "c2",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "We show that declarative memory is enhanced when sleep follows within a few hours of learning, independent of time of day, and with equal amounts of interference during retention intervals."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "In those experiments, sleeping within hours of learning improved later recall."
+    },
+    {
+      "id": "c3",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "Subjects remembered clearly more of the learned vocabulary when they had slept during the night following learning than when they had stayed awake"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "In one comparison, students remembered more words after sleep than after staying awake."
+    },
+    {
+      "id": "c4",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "Subjects learned on each occasion one of four 24-pair English–German vocabulary lists"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Participants learned English–German word pairs."
+    },
+    {
+      "id": "c5",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+          "excerpt": "The term hippocampal replay originally referred to the temporally compressed reinstantiation, during rest, of sequential neural activity observed during prior active wake."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "In animal studies, hippocampal replay describes compressed recurrence of neural sequences observed earlier while awake."
+    },
+    {
+      "id": "c6",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+          "excerpt": "However, the methods used to measure the occurrence of replay remain debated"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+          "excerpt": "“Replay-like” activity happens during wake, can play out in reverse order, may represent trajectories never taken by the animal"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Replay-like activity also occurs while awake, and its interpretation remains debated."
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f47789"
+  ],
+  "quizIds": ["q_sleep_memory_1__en", "q_sleep_memory_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What did the vocabulary experiments observe?",
+    "explanation": "Students remembered more when sleep followed learning within a few hours.",
+    "claimIds": ["c1", "c2"],
+    "id": "q_sleep_memory_1__en",
+    "questionGroupId": "qg_sleep_memory_1",
+    "conceptId": "concept_sleep_memory",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sleep after learning helped later recall"
+      },
+      {
+        "id": "b",
+        "text": "Sleep erased the new vocabulary"
+      },
+      {
+        "id": "c",
+        "text": "Only rereading at night helped"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Which statement about replay is accurate?",
+    "explanation": "Replay-like activity occurs during wakefulness, and its interpretation is debated.",
+    "claimIds": ["c5", "c6"],
+    "id": "q_sleep_memory_2__en",
+    "questionGroupId": "qg_sleep_memory_2",
+    "conceptId": "concept_sleep_memory",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Replay-like activity also occurs while awake, and its role is being studied"
+      },
+      {
+        "id": "b",
+        "text": "It occurs only in human sleep"
+      },
+      {
+        "id": "c",
+        "text": "It alone explains why every memory lasts"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

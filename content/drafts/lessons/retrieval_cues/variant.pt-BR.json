@@ -1,0 +1,129 @@
+{
+  "id": "lesson_retrieval_cues__pt-BR",
+  "conceptId": "concept_retrieval_cues",
+  "locale": "pt-BR",
+  "slug": "por-que-uma-pista-traz-uma-lembranca-de-volta",
+  "title": "Por que uma pista traz uma lembrança de volta?",
+  "hook": "Uma palavra ou um detalhe pode mudar o que você consegue recordar.",
+  "summary": "Pistas ligadas à aprendizagem podem facilitar a recuperação de uma lembrança, sem garantir que ela apareça.",
+  "cardText": "Uma pista pode ajudar a encontrar o que parecia esquecido. Em um experimento, pessoas lembraram mais palavras quando receberam as categorias usadas no estudo.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Você tenta lembrar uma lista, mas não sabe por onde começar. Então alguém diz “frutas” e alguns itens voltam. Em um experimento clássico, participantes estudaram palavras de várias categorias. No teste, quem recebeu os nomes das categorias lembrou mais do que quem tentou recordar sem pistas."
+    },
+    {
+      "type": "paragraph",
+      "text": "A diferença mostra que não conseguir lembrar livremente não prova que a informação desapareceu. Uma pista pode abrir um caminho de recuperação, mas nem toda pista funciona. Em estudos com pares de palavras, a pista usada na aprendizagem ajudou mais que outra palavra fortemente associada ao alvo. Reencontrar um detalhe ligado ao momento em que você aprendeu algo pode ajudar; não é uma garantia."
+    },
+    {
+      "type": "takeaway",
+      "text": "Uma pista ligada à aprendizagem pode facilitar a recordação, mesmo quando a lembrança não vem sozinha."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Por que a pista original importa?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A ideia é chamada especificidade da codificação. O êxito da recuperação tende a crescer quando a pista disponível se parece com aspectos presentes ao aprender. Em um estudo, pessoas aprenderam pares como “trem–preto”. A pista original ajudou mais a recuperar “preto” do que uma associação forte oferecida depois, como “branco”."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isso não significa que seja preciso estudar sempre no mesmo lugar. A descoberta trata da relação entre a pista e a lembrança; contexto é apenas um tipo possível de pista."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "recall",
+    "alt": "Uma pequena etiqueta de categoria ajudando a encontrar uma lembrança.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "Subjects were presented with a series of words. These words were drawn from multiple categories"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Em um experimento, pessoas estudaram palavras de diferentes categorias."
+    },
+    {
+      "id": "c2",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "The cued recall group performed considerably better than the free recall group across categories"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Quem recebeu as categorias como pistas lembrou mais palavras do que quem tentou recordar livremente."
+    },
+    {
+      "id": "c3",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "the same memory could be retrieved successfully with some retrieval cues, but not others"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Uma mesma memória pode ser recuperada com algumas pistas e não com outras."
+    },
+    {
+      "id": "c4",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd",
+          "excerpt": "the greater the match between encoding and retrieval states, the higher the probability of retrieval success"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Uma pista tem maior chance de ajudar quando combina com aspectos presentes na aprendizagem."
+    },
+    {
+      "id": "c5",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_464a77",
+          "excerpt": "After studying weakly associated cue–target pairs (e.g., train-black), participants were better at cued recall of targets with the original cues compared with extraexperimental cues that were strongly associated to the targets (e.g., white)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Em um estudo de pares de palavras, pistas originais ajudaram mais que outras associações fortes feitas depois."
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_464a77",
+    "src_pmc_ncbi_nlm_nih_gov_articles_bd62fd"
+  ],
+  "quizIds": ["q_retrieval_cues_1__pt-BR", "q_retrieval_cues_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "lesson_spacing_effect__en",
+  "conceptId": "concept_spacing_effect",
+  "locale": "en",
+  "slug": "why-does-spacing-out-your-study-work-better",
+  "title": "Why does spacing out your study work better?",
+  "hook": "The same amount of study can work differently when spread across time.",
+  "summary": "Distributing study sessions over time usually improves later retention.",
+  "cardText": "Spreading sessions across the calendar usually helps more than cramming the same study time into one stretch. A useful gap depends on when you need to remember.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture the same material and the same time budget. You could study it all in one afternoon, or return to it in separate sessions. The second approach is spaced practice. A meta-analysis of classroom studies found a moderate advantage for spacing compared with massing the same study time."
+    },
+    {
+      "type": "paragraph",
+      "text": "That analysis covered 22 reports and more than 3,000 learners. Larger benefits were generally associated with longer delays before the final test. There is no magic gap for every goal: research suggests that useful gaps between sessions tend to grow when you need to remember for longer. The first step is simply to give learning more than one occasion."
+    },
+    {
+      "type": "takeaway",
+      "text": "Return to material in separate sessions, adjusting gaps to how long you want to remember."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How far apart?"
+    },
+    {
+      "type": "paragraph",
+      "text": "One experiment varied the gaps while participants learned German–Japanese word pairs. Together with other studies, its authors found that the most effective gap tends to lengthen as the final test moves farther away. That does not produce an exact schedule for every subject."
+    },
+    {
+      "type": "paragraph",
+      "text": "The central comparison holds study time constant and changes its distribution. Classroom research also finds a benefit, though its size differs across studies."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "spacing",
+    "alt": "A calendar showing study sessions on separate days.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "Contrasted with massed practice, in which study material is presented in a back-to-back fashion, distributed or ‘spaced’ practice involves spacing out the same duration of study time across multiple study sessions (Rohrer & Pashler, 2010)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Spaced practice distributes the same study time across sessions instead of concentrating it."
+    },
+    {
+      "id": "c2",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "A meta-analysis found a moderate effect in favor of distributed over massed practice (d = 0.54, 95% CI [0.31, 0.77])."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "A meta-analysis of classroom studies found a moderate advantage for spaced over massed practice."
+    },
+    {
+      "id": "c3",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "The screening of over 3000 articles resulted in 22 reports containing 31 effect sizes (N > 3000)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "The analysis included 22 reports and over 3,000 participants."
+    },
+    {
+      "id": "c4",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "generally larger effect sizes were associated with studies that featured longer retention intervals"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "In that analysis, larger effects were generally associated with longer delays before testing."
+    },
+    {
+      "id": "c5",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e2e5f5",
+          "excerpt": "Further, the optimal spacing interval duration seems to increase with the retention interval duration [4], [19]."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "The most effective study gap tends to increase when the desired retention period is longer."
+    },
+    {
+      "id": "c6",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e2e5f5",
+          "excerpt": "Participants learned German-Japanese word pairs and performed visual acuity tests."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "One experiment examined spacing while people learned German–Japanese word pairs."
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+    "src_pmc_ncbi_nlm_nih_gov_articles_e2e5f5"
+  ],
+  "quizIds": ["q_spacing_effect_1__en", "q_spacing_effect_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

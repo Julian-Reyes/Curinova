@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "In the science-passage study, which strategy did better days later?",
+    "explanation": "Retrieval practice beat rereading after two or seven days.",
+    "claimIds": ["c1", "c3"],
+    "id": "q_testing_effect_1__en",
+    "questionGroupId": "qg_testing_effect_1",
+    "conceptId": "concept_testing_effect",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trying to recall without the text"
+      },
+      {
+        "id": "b",
+        "text": "Only rereading the passage"
+      },
+      {
+        "id": "c",
+        "text": "Never returning to the topic"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Why check the answer after trying to recall?",
+    "explanation": "Retrieval practice with feedback is ordinarily better than without it.",
+    "claimIds": ["c4"],
+    "id": "q_testing_effect_2__en",
+    "questionGroupId": "qg_testing_effect_2",
+    "conceptId": "concept_testing_effect",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Feedback ordinarily improves retrieval practice"
+      },
+      {
+        "id": "b",
+        "text": "Checking makes forgetting impossible"
+      },
+      {
+        "id": "c",
+        "text": "Feedback replaces the recall attempt"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

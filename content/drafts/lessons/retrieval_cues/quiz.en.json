@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What helped participants recall more words in the experiment?",
+    "explanation": "The category names provided retrieval cues.",
+    "claimIds": ["c1", "c2"],
+    "id": "q_retrieval_cues_1__en",
+    "questionGroupId": "qg_retrieval_cues_1",
+    "conceptId": "concept_retrieval_cues",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Being given the category names from study"
+      },
+      {
+        "id": "b",
+        "text": "Studying words without categories"
+      },
+      {
+        "id": "c",
+        "text": "Waiting for every word to return unaided"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Which cue is more likely to help?",
+    "explanation": "The word-pair study favored cues present at learning.",
+    "claimIds": ["c4", "c5"],
+    "id": "q_retrieval_cues_2__en",
+    "questionGroupId": "qg_retrieval_cues_2",
+    "conceptId": "concept_retrieval_cues",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "One linked to the item during learning"
+      },
+      {
+        "id": "b",
+        "text": "Any word associated with the item only later"
+      },
+      {
+        "id": "c",
+        "text": "Always a random cue"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

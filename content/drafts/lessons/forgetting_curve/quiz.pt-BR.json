@@ -1,0 +1,53 @@
+[
+  {
+    "prompt": "O que Ebbinghaus mediu ao reaprender uma lista?",
+    "explanation": "Menos esforço para reaprender indicava que parte da lista ainda estava preservada.",
+    "claimIds": ["c2"],
+    "id": "q_forgetting_curve_1__pt-BR",
+    "questionGroupId": "qg_forgetting_curve_1",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "O esforço economizado em relação à primeira aprendizagem"
+      },
+      {
+        "id": "b",
+        "text": "A quantidade de horas de sono antes do teste"
+      },
+      {
+        "id": "c",
+        "text": "A velocidade de leitura de um livro"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "O que a curva do esquecimento permite concluir?",
+    "explanation": "A curva mostra o formato observado nas listas estudadas, não uma taxa universal.",
+    "claimIds": ["c3", "c5"],
+    "misconception": "O estudo usou material e participantes específicos; seus números não valem para todas as memórias.",
+    "id": "q_forgetting_curve_2__pt-BR",
+    "questionGroupId": "qg_forgetting_curve_2",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nesse experimento, a perda foi mais rápida no começo"
+      },
+      {
+        "id": "b",
+        "text": "Toda pessoa esquece a mesma porcentagem em um dia"
+      },
+      {
+        "id": "c",
+        "text": "Depois de um dia, toda memória desaparece"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

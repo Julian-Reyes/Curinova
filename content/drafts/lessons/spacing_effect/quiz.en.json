@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "What makes practice spaced?",
+    "explanation": "Spaced practice separates study sessions across time.",
+    "claimIds": ["c1"],
+    "id": "q_spacing_effect_1__en",
+    "questionGroupId": "qg_spacing_effect_1",
+    "conceptId": "concept_spacing_effect",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Study opportunities are separated over time"
+      },
+      {
+        "id": "b",
+        "text": "All study happens in one sitting"
+      },
+      {
+        "id": "c",
+        "text": "The topic changes every minute"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Is one review gap best for every goal?",
+    "explanation": "A useful gap tends to grow as the desired retention period grows.",
+    "claimIds": ["c5"],
+    "id": "q_spacing_effect_2__en",
+    "questionGroupId": "qg_spacing_effect_2",
+    "conceptId": "concept_spacing_effect",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "No; it depends on how long you need to remember"
+      },
+      {
+        "id": "b",
+        "text": "Yes; it is always exactly one day"
+      },
+      {
+        "id": "c",
+        "text": "Yes; it is always exactly one week"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

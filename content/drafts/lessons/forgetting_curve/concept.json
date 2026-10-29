@@ -1,0 +1,27 @@
+{
+  "id": "concept_forgetting_curve",
+  "topicId": "brain",
+  "clusterId": "cluster_how_memory_works",
+  "clusterOrder": 1,
+  "tags": ["memory", "learning", "psychology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_spacing_effect",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Se esquecemos tão rápido, quando é o melhor momento para revisar?",
+        "en": "If we forget so quickly, when is the best time to review?"
+      }
+    },
+    {
+      "conceptId": "concept_testing_effect",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Tentar lembrar é uma das formas mais eficazes de achatar a curva.",
+        "en": "Trying to recall is one of the best ways to flatten the curve."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,142 @@
+{
+  "id": "lesson_spacing_effect__pt-BR",
+  "conceptId": "concept_spacing_effect",
+  "locale": "pt-BR",
+  "slug": "por-que-estudar-aos-poucos-funciona",
+  "title": "Por que estudar aos poucos funciona melhor?",
+  "hook": "O mesmo tempo de estudo pode render de modo diferente quando é distribuído.",
+  "summary": "Distribuir sessões de estudo ao longo do tempo costuma favorecer a lembrança posterior.",
+  "cardText": "Espalhar as sessões no calendário costuma ajudar mais do que concentrar o mesmo tempo de estudo em uma maratona. O intervalo útil depende de quando você quer lembrar.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine a mesma matéria e o mesmo tempo disponível. Você pode estudar tudo em uma tarde ou voltar ao conteúdo em sessões separadas. Essa segunda opção é a prática espaçada. Uma metanálise de estudos em salas de aula encontrou uma vantagem moderada para ela em comparação com a prática concentrada."
+    },
+    {
+      "type": "paragraph",
+      "text": "A análise reuniu 22 relatórios e mais de 3 mil participantes. Os efeitos maiores apareceram, em geral, quando a avaliação vinha mais tarde. Não há um intervalo mágico que sirva para toda meta: pesquisas indicam que a distância útil entre sessões tende a crescer quando você precisa lembrar por mais tempo. O ponto de partida é distribuir as oportunidades de estudo."
+    },
+    {
+      "type": "takeaway",
+      "text": "Revisite o conteúdo em sessões separadas; ajuste os intervalos ao tempo pelo qual quer lembrar."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Quanto tempo entre sessões?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Um experimento de aprendizagem de pares de palavras alemão-japonês examinou diferentes intervalos. Em conjunto com outros trabalhos, seus autores observaram que o intervalo mais eficaz tende a ser maior quando o teste final está mais distante. Isso não fornece uma agenda exata para cada disciplina."
+    },
+    {
+      "type": "paragraph",
+      "text": "O contraste importante é entre várias oportunidades distribuídas e a mesma duração concentrada. O benefício foi encontrado também em pesquisa de sala de aula, embora o tamanho varie entre estudos."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "spacing",
+    "alt": "Calendário com sessões de estudo distribuídas em dias diferentes.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "Contrasted with massed practice, in which study material is presented in a back-to-back fashion, distributed or ‘spaced’ practice involves spacing out the same duration of study time across multiple study sessions (Rohrer & Pashler, 2010)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Prática espaçada distribui o mesmo tempo de estudo entre sessões, em vez de concentrá-lo."
+    },
+    {
+      "id": "c2",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "A meta-analysis found a moderate effect in favor of distributed over massed practice (d = 0.54, 95% CI [0.31, 0.77])."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Uma metanálise de estudos em sala de aula encontrou vantagem moderada da prática espaçada sobre a concentrada."
+    },
+    {
+      "id": "c3",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "The screening of over 3000 articles resulted in 22 reports containing 31 effect sizes (N > 3000)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "A análise reuniu 22 relatórios e mais de 3 mil participantes."
+    },
+    {
+      "id": "c4",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+          "excerpt": "generally larger effect sizes were associated with studies that featured longer retention intervals"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Nessa análise, efeitos maiores geralmente apareceram com intervalos mais longos até a avaliação."
+    },
+    {
+      "id": "c5",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e2e5f5",
+          "excerpt": "Further, the optimal spacing interval duration seems to increase with the retention interval duration [4], [19]."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "O intervalo de estudo mais eficaz tende a aumentar quando se quer lembrar por mais tempo."
+    },
+    {
+      "id": "c6",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e2e5f5",
+          "excerpt": "Participants learned German-Japanese word pairs and performed visual acuity tests."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Um experimento examinou o espaçamento na aprendizagem de pares de palavras alemão-japonês."
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_a969bb",
+    "src_pmc_ncbi_nlm_nih_gov_articles_e2e5f5"
+  ],
+  "quizIds": ["q_spacing_effect_1__pt-BR", "q_spacing_effect_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "concept_spacing_effect",
+  "topicId": "brain",
+  "clusterId": "cluster_how_memory_works",
+  "clusterOrder": 2,
+  "tags": ["memory", "learning", "study"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_testing_effect",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Espaçar ajuda ainda mais quando cada sessão é um teste.",
+        "en": "Spacing helps even more when each session is a test."
+      }
+    },
+    {
+      "conceptId": "concept_forgetting_curve",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O ponto de partida: a curva que mostra como esquecemos.",
+        "en": "The starting point: the curve that shows how we forget."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

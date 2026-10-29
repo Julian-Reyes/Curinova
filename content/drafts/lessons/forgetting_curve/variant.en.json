@@ -1,0 +1,133 @@
+{
+  "id": "lesson_forgetting_curve__en",
+  "conceptId": "concept_forgetting_curve",
+  "locale": "en",
+  "slug": "how-much-do-you-forget-in-a-day",
+  "title": "How much do you forget in a day?",
+  "hook": "The famous curve shows a pattern, not a percentage for everyone.",
+  "summary": "In list-learning experiments, forgetting was fastest early on and then slowed.",
+  "cardText": "There is no single percentage for a day. In Ebbinghaus’s nonsense-syllable experiments, forgetting was steepest early on and then slowed.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "How much of yesterday’s learning remains? Hermann Ebbinghaus investigated with lists of nonsense syllables. After learning a list, he waited and measured how much effort he saved when learning it again. That saving revealed a trace of the earlier learning, even if the list was hard to bring to mind."
+    },
+    {
+      "type": "paragraph",
+      "text": "The resulting curve falls fastest at first, then flattens. A replication published in 2015 found a similar pattern. But that replication also studied just one person using this particular material. The graph cannot tell you exactly how much you, personally, will forget by tomorrow."
+    },
+    {
+      "type": "takeaway",
+      "text": "The curve describes an observed pattern, not a fixed percentage for every person."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "What does the curve measure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The method is called savings in relearning: needing less effort the second time suggests that some of the first learning remained. In the replication, one person spent 70 hours learning lists and returned to them after delays ranging from 20 minutes to 31 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "The resemblance to Ebbinghaus’s result supports the pattern in this experiment. An everyday memory is different from a list of nonsense syllables, so the graph should not be used as a personal forecast."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "forgetting-curve",
+    "alt": "A curve that falls sharply and then levels out.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_0f563b",
+          "excerpt": "He, therefore, introduced nonsense syllables, which had more uniform characteristics than existing words or other verbal material."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Ebbinghaus used nonsense syllables to study memory."
+    },
+    {
+      "id": "c2",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_0f563b",
+          "excerpt": "Savings is defined as the relative amount of time saved on the second learning trial as a result of having had the first."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "He measured memory by the effort saved when relearning."
+    },
+    {
+      "id": "c3",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e471d5",
+          "excerpt": "Forgetting is rapid shortly after learning but slows with time (Ebbinghaus 1885/1964)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "Forgetting was rapid soon after learning and slowed over time."
+    },
+    {
+      "id": "c4",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_0f563b",
+          "excerpt": "We present a successful replication of Ebbinghaus’ classic forgetting curve from 1880 based on the method of savings."
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_0f563b",
+          "excerpt": "The results are similar to Ebbinghaus' original data."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "A replication published in 2015 reproduced Ebbinghaus’s curve."
+    },
+    {
+      "id": "c5",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_0f563b",
+          "excerpt": "One subject spent 70 hours learning lists and relearning them after 20 min, 1 hour, 9 hours, 1 day, 2 days, or 31 days."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending",
+      "text": "The replication used one participant who learned and relearned lists over 70 hours."
+    }
+  ],
+  "sourceIds": [
+    "src_journals_plos_org_plosone_article_0f563b",
+    "src_pmc_ncbi_nlm_nih_gov_articles_e471d5"
+  ],
+  "quizIds": ["q_forgetting_curve_1__en", "q_forgetting_curve_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

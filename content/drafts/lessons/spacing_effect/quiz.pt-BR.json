@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "O que define prática espaçada?",
+    "explanation": "Prática espaçada separa sessões ao longo do tempo.",
+    "claimIds": ["c1"],
+    "id": "q_spacing_effect_1__pt-BR",
+    "questionGroupId": "qg_spacing_effect_1",
+    "conceptId": "concept_spacing_effect",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "Distribuir oportunidades de estudo entre sessões"
+      },
+      {
+        "id": "b",
+        "text": "Estudar todo o conteúdo de uma vez"
+      },
+      {
+        "id": "c",
+        "text": "Trocar de assunto a cada minuto"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "Existe um único intervalo ideal para toda lembrança?",
+    "explanation": "O intervalo mais eficaz tende a aumentar para objetivos de retenção mais longos.",
+    "claimIds": ["c5"],
+    "id": "q_spacing_effect_2__pt-BR",
+    "questionGroupId": "qg_spacing_effect_2",
+    "conceptId": "concept_spacing_effect",
+    "locale": "pt-BR",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não; ele depende do tempo pelo qual se quer lembrar"
+      },
+      {
+        "id": "b",
+        "text": "Sim; sempre exatamente um dia"
+      },
+      {
+        "id": "c",
+        "text": "Sim; sempre exatamente uma semana"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "prompt": "What did Ebbinghaus measure when relearning a list?",
+    "explanation": "A saving in relearning effort showed that something of the list remained.",
+    "claimIds": ["c2"],
+    "id": "q_forgetting_curve_1__en",
+    "questionGroupId": "qg_forgetting_curve_1",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "Effort saved compared with the first learning"
+      },
+      {
+        "id": "b",
+        "text": "Hours slept before the test"
+      },
+      {
+        "id": "c",
+        "text": "Reading speed for a book"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  },
+  {
+    "prompt": "What can the forgetting curve tell us?",
+    "explanation": "It shows the pattern observed for these lists, not a universal rate.",
+    "claimIds": ["c3", "c5"],
+    "misconception": "The study used specific material and participants; its numbers do not apply to every memory.",
+    "id": "q_forgetting_curve_2__en",
+    "questionGroupId": "qg_forgetting_curve_2",
+    "conceptId": "concept_forgetting_curve",
+    "locale": "en",
+    "options": [
+      {
+        "id": "a",
+        "text": "In this experiment, loss was fastest early on"
+      },
+      {
+        "id": "b",
+        "text": "Everyone forgets the same percentage in one day"
+      },
+      {
+        "id": "c",
+        "text": "All memory disappears after one day"
+      }
+    ],
+    "correctOptionId": "a",
+    "status": "draft"
+  }
+]

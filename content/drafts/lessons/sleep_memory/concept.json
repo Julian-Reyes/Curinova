@@ -1,0 +1,35 @@
+{
+  "id": "concept_sleep_memory",
+  "topicId": "brain",
+  "clusterId": "cluster_how_memory_works",
+  "clusterOrder": 4,
+  "tags": ["memory", "sleep", "neuroscience"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_retrieval_cues",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Depois de preservar uma memória, o que ajuda a encontrá-la?",
+        "en": "After a memory is preserved, what helps bring it back?"
+      }
+    },
+    {
+      "conceptId": "concept_forgetting_curve",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Volte ao começo da trilha: a curva do esquecimento.",
+        "en": "Back to the start of the trail: the forgetting curve."
+      }
+    },
+    {
+      "conceptId": "concept_seven_year_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Muitos neurônios do córtex duram a vida toda; o que muda são as conexões.",
+        "en": "Many cortical neurons last a lifetime; what changes are their connections."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}
