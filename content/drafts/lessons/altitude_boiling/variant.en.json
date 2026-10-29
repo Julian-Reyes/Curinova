@@ -60,7 +60,7 @@
           "excerpt": "At sea level, water boils at 212 °F."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -73,7 +73,7 @@
           "excerpt": "At 7,500 feet, for example, water boils at about 198 °F."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -90,7 +90,7 @@
           "excerpt": "When the vapor pressure inside the bubbles is equal to the external atmospheric pressure, the bubbles rise to the surface of the liquid and burst."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -107,7 +107,7 @@
           "excerpt": "Because atmospheric pressure can change based on location, the boiling point of a liquid changes with the external pressure."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "Staple items, such as potatoes and beans, do not cook in the same timeframe as in low altitudes"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -145,7 +145,7 @@
           "excerpt": "No matter how high the cooking temperature, water cannot exceed its own boiling point — unless if using a pressure cooker."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -158,7 +158,7 @@
           "excerpt": "as high as 120 °C / 250 °F — the cooking time can drop substantially."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -175,7 +175,7 @@
           "excerpt": "Depois de escorrer e desprezar a água, cozinhe em panela de pressão ou comum."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -196,7 +196,7 @@
           "excerpt": "At 29,029 feet \\(\\left( 8848 \\: \\text{m} \\right)\\)"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -213,7 +213,7 @@
           "excerpt": "which is cooked at a constant temperature of 70 °C (158 °F) as is present in hot springs of Japan, producing an egg with solid yolk and sol-like white."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -230,7 +230,7 @@
           "excerpt": "The yolk proteins begin to thicken at 65 °C and set at 70 °C."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -247,7 +247,7 @@
           "excerpt": "Water and other liquids evaporate faster and boil at lower temperatures. Leavening gases in breads and cakes expand more."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

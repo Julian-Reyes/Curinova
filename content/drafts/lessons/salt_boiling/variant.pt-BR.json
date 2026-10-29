@@ -64,7 +64,7 @@
           "excerpt": "Some people believe that the addition of salt increases the boiling point of the water. Technically, they are correct, but the increase is rather small."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -77,7 +77,7 @@
           "excerpt": "Boiling Point Elevation The figure below shows the pha"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -111,7 +111,7 @@
           "excerpt": "They make it much more easy for bubbles of the vapour which is the boiling bit of water at the bottom of the pan to form."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "Salt is often added to boiling water when preparing spaghetti or other pasta. One reason is to add flavor to the food."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "It is a constant that is equal to the change in the boiling point for a 1-molal solution of a nonvolatile molecular solute."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -158,7 +158,7 @@
           "excerpt": "If your concentrations of salt are different, then you can scale the boiling point elevation and melting point depression predictions directly with the concentration."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -175,7 +175,7 @@
           "excerpt": "about 35 of 1,000 (3.5%) of the weight of seawater comes from the dissolved salts"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -192,7 +192,7 @@
           "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -205,7 +205,7 @@
           "excerpt": "The reason for this is that the salt crystals (you can put sugar in it and do the same thing) act as what are called nucleation points."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
