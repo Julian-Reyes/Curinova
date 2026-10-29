@@ -55,7 +55,7 @@
           "excerpt": "Practice test and restudy conditions were manipulated within-subjects by having participants study two different passages."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "A study compared rereading and recall tests after students read science passages."
     },
@@ -68,7 +68,7 @@
           "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "At a five-minute delay, rereading helped more on the final test in that study."
     },
@@ -81,7 +81,7 @@
           "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "After two or seven days, retrieval practice produced better performance than rereading."
     },
@@ -94,7 +94,7 @@
           "excerpt": "Retrieval practice with feedback is ordinarily superior to retrieval practice without feedback."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Retrieval practice with feedback is ordinarily better than retrieval practice without it."
     },
@@ -107,7 +107,7 @@
           "excerpt": "But even retrieval trials without feedback are seen to be more beneficial to subsequent performance than additional study trials"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Even without feedback, retrieval attempts can benefit later memory more than additional study."
     }

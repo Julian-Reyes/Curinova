@@ -51,7 +51,7 @@
           "excerpt": "He, therefore, introduced nonsense syllables, which had more uniform characteristics than existing words or other verbal material."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Ebbinghaus used nonsense syllables to study memory."
     },
@@ -64,7 +64,7 @@
           "excerpt": "Savings is defined as the relative amount of time saved on the second learning trial as a result of having had the first."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "He measured memory by the effort saved when relearning."
     },
@@ -77,7 +77,7 @@
           "excerpt": "Forgetting is rapid shortly after learning but slows with time (Ebbinghaus 1885/1964)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Forgetting was rapid soon after learning and slowed over time."
     },
@@ -94,7 +94,7 @@
           "excerpt": "The results are similar to Ebbinghaus' original data."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "A replication published in 2015 reproduced Ebbinghaus’s curve."
     },
@@ -107,7 +107,7 @@
           "excerpt": "One subject spent 70 hours learning lists and relearning them after 20 min, 1 hour, 9 hours, 1 day, 2 days, or 31 days."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "The replication used one participant who learned and relearned lists over 70 hours."
     }

@@ -51,7 +51,7 @@
           "excerpt": "Subjects were presented with a series of words. These words were drawn from multiple categories"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Em um experimento, pessoas estudaram palavras de diferentes categorias."
     },
@@ -64,7 +64,7 @@
           "excerpt": "The cued recall group performed considerably better than the free recall group across categories"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Quem recebeu as categorias como pistas lembrou mais palavras do que quem tentou recordar livremente."
     },
@@ -77,7 +77,7 @@
           "excerpt": "the same memory could be retrieved successfully with some retrieval cues, but not others"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Uma mesma memória pode ser recuperada com algumas pistas e não com outras."
     },
@@ -90,7 +90,7 @@
           "excerpt": "the greater the match between encoding and retrieval states, the higher the probability of retrieval success"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Uma pista tem maior chance de ajudar quando combina com aspectos presentes na aprendizagem."
     },
@@ -103,7 +103,7 @@
           "excerpt": "After studying weakly associated cue–target pairs (e.g., train-black), participants were better at cued recall of targets with the original cues compared with extraexperimental cues that were strongly associated to the targets (e.g., white)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending",
       "text": "Em um estudo de pares de palavras, pistas originais ajudaram mais que outras associações fortes feitas depois."
     }

@@ -55,7 +55,7 @@
           "excerpt": "Practice test and restudy conditions were manipulated within-subjects by having participants study two different passages."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Um estudo comparou releitura e testes de recordação após a leitura de textos científicos."
     },
@@ -68,7 +68,7 @@
           "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Cinco minutos depois, a releitura ajudou mais no teste final desse estudo."
     },
@@ -81,7 +81,7 @@
           "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Depois de dois ou sete dias, a prática de recordação produziu melhor desempenho que a releitura."
     },
@@ -94,7 +94,7 @@
           "excerpt": "Retrieval practice with feedback is ordinarily superior to retrieval practice without feedback."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Em geral, prática de recordação com feedback supera prática sem feedback."
     },
@@ -107,7 +107,7 @@
           "excerpt": "But even retrieval trials without feedback are seen to be more beneficial to subsequent performance than additional study trials"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Mesmo sem feedback, tentativas de recordar podem beneficiar a memória futura mais que estudo adicional."
     }

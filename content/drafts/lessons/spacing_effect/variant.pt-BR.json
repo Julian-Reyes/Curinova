@@ -51,7 +51,7 @@
           "excerpt": "Contrasted with massed practice, in which study material is presented in a back-to-back fashion, distributed or ‘spaced’ practice involves spacing out the same duration of study time across multiple study sessions (Rohrer & Pashler, 2010)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Prática espaçada distribui o mesmo tempo de estudo entre sessões, em vez de concentrá-lo."
     },
@@ -64,7 +64,7 @@
           "excerpt": "A meta-analysis found a moderate effect in favor of distributed over massed practice (d = 0.54, 95% CI [0.31, 0.77])."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Uma metanálise de estudos em sala de aula encontrou vantagem moderada da prática espaçada sobre a concentrada."
     },
@@ -77,7 +77,7 @@
           "excerpt": "The screening of over 3000 articles resulted in 22 reports containing 31 effect sizes (N > 3000)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "A análise reuniu 22 relatórios e mais de 3 mil participantes."
     },
@@ -90,7 +90,7 @@
           "excerpt": "generally larger effect sizes were associated with studies that featured longer retention intervals"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Nessa análise, efeitos maiores geralmente apareceram com intervalos mais longos até a avaliação."
     },
@@ -103,7 +103,7 @@
           "excerpt": "Further, the optimal spacing interval duration seems to increase with the retention interval duration [4], [19]."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "O intervalo de estudo mais eficaz tende a aumentar quando se quer lembrar por mais tempo."
     },
@@ -116,7 +116,7 @@
           "excerpt": "Participants learned German-Japanese word pairs and performed visual acuity tests."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Um experimento examinou o espaçamento na aprendizagem de pares de palavras alemão-japonês."
     }

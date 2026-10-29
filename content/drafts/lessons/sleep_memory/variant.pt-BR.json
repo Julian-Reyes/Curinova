@@ -51,7 +51,7 @@
           "excerpt": "In two experiments, we examined high school students’ ability to remember vocabulary."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Dois experimentos estudaram a memória de vocabulário em estudantes do ensino médio."
     },
@@ -64,7 +64,7 @@
           "excerpt": "We show that declarative memory is enhanced when sleep follows within a few hours of learning, independent of time of day, and with equal amounts of interference during retention intervals."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Nesses experimentos, dormir poucas horas após aprender favoreceu a lembrança posterior."
     },
@@ -77,7 +77,7 @@
           "excerpt": "Subjects remembered clearly more of the learned vocabulary when they had slept during the night following learning than when they had stayed awake"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Em uma comparação, estudantes lembraram mais palavras após dormir do que após permanecer acordados."
     },
@@ -90,7 +90,7 @@
           "excerpt": "Subjects learned on each occasion one of four 24-pair English–German vocabulary lists"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Os participantes aprenderam pares de palavras em inglês e alemão."
     },
@@ -103,7 +103,7 @@
           "excerpt": "The term hippocampal replay originally referred to the temporally compressed reinstantiation, during rest, of sequential neural activity observed during prior active wake."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Em estudos de animais, replay hipocampal descreve a repetição comprimida de sequências neurais observadas antes em vigília."
     },
@@ -120,7 +120,7 @@
           "excerpt": "“Replay-like” activity happens during wake, can play out in reverse order, may represent trajectories never taken by the animal"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Atividades semelhantes a replay também ocorrem durante a vigília e sua interpretação permanece em debate."
     }

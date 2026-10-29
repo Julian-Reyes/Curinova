@@ -51,7 +51,7 @@
           "excerpt": "He, therefore, introduced nonsense syllables, which had more uniform characteristics than existing words or other verbal material."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Ebbinghaus usou sílabas sem sentido para estudar a memória."
     },
@@ -64,7 +64,7 @@
           "excerpt": "Savings is defined as the relative amount of time saved on the second learning trial as a result of having had the first."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Ele mediu a memória pela economia de esforço ao reaprender."
     },
@@ -77,7 +77,7 @@
           "excerpt": "Forgetting is rapid shortly after learning but slows with time (Ebbinghaus 1885/1964)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "O esquecimento foi rápido logo após aprender e desacelerou com o tempo."
     },
@@ -94,7 +94,7 @@
           "excerpt": "The results are similar to Ebbinghaus' original data."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "Uma replicação publicada em 2015 reproduziu a curva de Ebbinghaus."
     },
@@ -107,7 +107,7 @@
           "excerpt": "One subject spent 70 hours learning lists and relearning them after 20 min, 1 hour, 9 hours, 1 day, 2 days, or 31 days."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "A replicação usou um participante que aprendeu e reaprendeu listas ao longo de 70 horas."
     }

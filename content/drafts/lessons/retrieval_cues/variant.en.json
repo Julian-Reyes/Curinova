@@ -51,7 +51,7 @@
           "excerpt": "Subjects were presented with a series of words. These words were drawn from multiple categories"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "In one experiment, people studied words from different categories."
     },
@@ -64,7 +64,7 @@
           "excerpt": "The cued recall group performed considerably better than the free recall group across categories"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "People given category cues remembered more words than those asked to recall freely."
     },
@@ -77,7 +77,7 @@
           "excerpt": "the same memory could be retrieved successfully with some retrieval cues, but not others"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "The same memory may be retrieved with some cues but not others."
     },
@@ -90,7 +90,7 @@
           "excerpt": "the greater the match between encoding and retrieval states, the higher the probability of retrieval success"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "A cue is more likely to help when it matches features present during learning."
     },
@@ -103,7 +103,7 @@
           "excerpt": "After studying weakly associated cue–target pairs (e.g., train-black), participants were better at cued recall of targets with the original cues compared with extraexperimental cues that were strongly associated to the targets (e.g., white)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
       "text": "In a word-pair study, original cues helped more than other strong associations introduced later."
     }
