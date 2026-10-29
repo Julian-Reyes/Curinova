@@ -171,7 +171,7 @@
           "excerpt": "they discovered that a greater number of droplets were released by blunter blades and faster cutting speeds."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -196,7 +196,7 @@
           "excerpt": "(Wu et al., PNAS, 2025)"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -247,7 +247,7 @@
           "excerpt": "Opinion on the efficacy of these methods is varied and they have been discounted by many people."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
