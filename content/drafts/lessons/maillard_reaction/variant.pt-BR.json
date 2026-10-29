@@ -28,15 +28,15 @@
     },
     {
       "type": "paragraph",
-      "text": "A caramelização é outra reação: envolve só açúcares, sem proteínas, e no açúcar de mesa começa em temperaturas ainda mais altas. Doce de leite e cebola dourada devagar envolvem as duas reações."
+      "text": "A caramelização é outra reação: envolve só açúcares, sem reagir com aminoácidos, e no açúcar de mesa começa em temperaturas ainda mais altas. Doce de leite e cebola dourada devagar envolvem as duas reações."
     },
     {
       "type": "paragraph",
-      "text": "Um ambiente alcalino acelera a reação de Maillard. É por isso que alguns pães, como o pretzel, são mergulhados em uma solução alcalina antes de assar, o que deixa a casca mais escura."
+      "text": "Um ambiente alcalino acelera a reação de Maillard. Alcalino indica a região alta da escala de pH, que mede a acidez. O banho alcalino dado aos pretzels antes de assar ajuda a deixar a casca mais escura."
     },
     {
       "type": "paragraph",
-      "text": "Secar bem a carne com papel antes de levar à frigideira e não lotar a panela, para que a água evapore rápido, ajudam a alcançar a temperatura da reação."
+      "text": "Quando a superfície da carne perde água e há espaço entre os pedaços na panela, os líquidos evaporam com mais facilidade. A superfície seca pode então atingir temperaturas favoráveis ao dourado."
     }
   ],
   "heroMedia": {
@@ -213,7 +213,7 @@
     },
     {
       "id": "c10",
-      "text": "Um ambiente alcalino acelera a reação de Maillard.",
+      "text": "Um ambiente alcalino, na região alta da escala de pH, que mede a acidez, acelera a reação de Maillard.",
       "highStakes": false,
       "support": [
         {
@@ -223,9 +223,13 @@
         {
           "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
           "excerpt": "This process is accelerated in an alkaline environment (e.g., lye applied to darken pretzels; see lye roll)"
+        },
+        {
+          "sourceId": "src_kunc_org_2014_08_09_for_26d1f5",
+          "excerpt": "baking soda maxes out at about 9.5 on the pH scale (which measures how acidic a substance is), while lye can get up to 14 (the highest ranking)."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -293,5 +297,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

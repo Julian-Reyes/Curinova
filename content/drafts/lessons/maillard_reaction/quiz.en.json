@@ -8,7 +8,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Water keeps the surface near 100 °C, below what the reaction needs"
+        "text": "Water keeps the surface near 100 °C, below the range for rapid browning"
       },
       {
         "id": "b",
@@ -20,7 +20,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "While water is present, the temperature barely rises above 100 °C. The Maillard reaction only really speeds up above about 140 °C.",
+    "explanation": "Water keeps the meat near 100 °C. The Maillard reaction proceeds more rapidly around 140 °C; this describes rapid browning, not a threshold below which the reaction is impossible.",
     "claimIds": ["c4", "c5"],
     "status": "draft"
   },
@@ -45,7 +45,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Both produce color and flavor, but caramelization needs no proteins, while the Maillard reaction does.",
+    "explanation": "The Maillard reaction involves amino acids and sugars. Caramelization involves sugars breaking down without reacting with amino acids.",
     "claimIds": ["c2", "c7"],
     "status": "draft"
   }

@@ -4,7 +4,7 @@
   "locale": "en",
   "slug": "why-does-cutting-onions-make-you-cry",
   "title": "Why does cutting onions make you cry?",
-  "hook": "A whole onion is harmless. The tears are a weapon you switch on yourself.",
+  "hook": "Cutting mixes substances previously kept apart in the cells and triggers the formation of an irritating gas.",
   "summary": "Cutting an onion mixes sulfur compounds and enzymes that were kept apart, producing a gas that irritates the eyes.",
   "cardText": "The knife breaks the onion’s cells and mixes sulfur compounds with an enzyme. Within seconds they form a gas that irritates your eyes, and tears wash it away.",
   "cardBlocks": [
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Within seconds, a chain of reactions produces a gas called syn-propanethial-S-oxide. It drifts up to your eyes, irritates nerve endings in the cornea, and your body responds with tears to wash it away. It is thought to be the plant’s defense against animals that eat it. Sharp knives and slow cuts spray fewer droplets of onion juice. Chilling the onion is common advice, but a 2025 study found that chilled onions released more droplets, not fewer."
+      "text": "Within seconds, a chain of reactions produces a gas called syn-propanethial-S-oxide. It drifts up to your eyes, irritates nerve endings in the cornea, and your body responds with tears to wash it away. It is thought to be the plant’s defense against animals that eat it. In experiments, sharp knives and slow cuts sprayed fewer droplets of onion juice. Chilling the onion is common advice, but a 2025 study found that chilled onions released more droplets, not fewer."
     },
     {
       "type": "takeaway",
-      "text": "When you cut an onion, you mix the ingredients of the plant’s chemical defense."
+      "text": "Cutting releases an irritating gas, possibly the onion’s chemical defense against animals that eat it."
     }
   ],
   "deepDiveBlocks": [
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Cooking switches the enzymes off. That is why sautéed onions do not sting your eyes and taste sweeter."
+      "text": "Heating an onion before chopping may reduce tearing by deactivating enzymes; the effectiveness of this method is disputed."
     }
   ],
   "heroMedia": {
@@ -159,7 +159,7 @@
     },
     {
       "id": "c8",
-      "text": "Sharp knives and slow cuts spray fewer droplets of onion juice.",
+      "text": "In experiments, sharp knives and slow cuts sprayed fewer droplets of onion juice.",
       "highStakes": false,
       "support": [
         {
@@ -171,7 +171,7 @@
           "excerpt": "they discovered that a greater number of droplets were released by blunter blades and faster cutting speeds."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -190,9 +190,13 @@
         {
           "sourceId": "src_nautil_us_no_more_tears_scientists_f1e16d",
           "excerpt": "They found that chilling onions actually yields a larger volume of droplet ejection, possibly due to the brittleness of plant tissues at lower temperatures (although the authors note more study is needed before any definitive conclusions can be reached)."
+        },
+        {
+          "sourceId": "src_sciencealert_com_theres_a_surprisingly_simple_e8de09",
+          "excerpt": "(Wu et al., PNAS, 2025)"
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -231,7 +235,7 @@
     },
     {
       "id": "c12",
-      "text": "Cooking switches the enzymes off, so cooked onions do not sting the eyes, and sautéed onions taste sweet.",
+      "text": "Heating an onion before chopping may reduce tearing by deactivating enzymes; the effectiveness of this method is disputed.",
       "highStakes": false,
       "support": [
         {
@@ -239,11 +243,11 @@
           "excerpt": "heating the onion prior to chopping may also reduce tearing by denaturing the enzymes present, preventing the formation of the irritant."
         },
         {
-          "sourceId": "src_curiousclinicians_com_af8c54",
-          "excerpt": "though when cooked and sauteed they retained their normal, sweet flavor that all onions take on."
+          "sourceId": "src_chm_bris_ac_uk_motm_pso_1da9c2",
+          "excerpt": "Opinion on the efficacy of these methods is varied and they have been discounted by many people."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],
@@ -271,5 +275,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

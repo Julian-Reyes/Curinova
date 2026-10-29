@@ -3,10 +3,10 @@
   "conceptId": "concept_altitude_boiling",
   "locale": "en",
   "slug": "why-does-water-boil-sooner-up-a-mountain",
-  "title": "Why does water boil sooner up a mountain?",
+  "title": "Why does water boil at a lower temperature up a mountain?",
   "hook": "At 2,300 meters above sea level, water boils at about 92 °C, and beans take longer to cook.",
-  "summary": "With less air pressure, water boils at lower temperatures: it boils sooner but cooks more slowly.",
-  "cardText": "Up high, there’s less air pressing on the water, so it boils at a lower temperature: about 92 °C at 2,300 meters. It boils sooner but cooks more slowly.",
+  "summary": "With less air pressure, water boils at lower temperatures and cooks food more slowly.",
+  "cardText": "Up high, there’s less air pressing on the water, so it boils at a lower temperature: about 92 °C at 2,300 meters. The boiling water is cooler and cooks more slowly.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Boiling means steam bubbles forming inside the liquid, and that only happens once the water’s vapor pressure matches the pressure of the air above it. High up, there is less air pressing down, so this happens at a lower temperature. The result: water boils sooner but cooks more slowly, because it never gets as hot. Beans, for example, take much longer to soften."
+      "text": "Boiling means steam bubbles forming inside the liquid, and that only happens once the water’s vapor pressure matches the pressure of the air above it. High up, there is less air pressing down, so this happens at a lower temperature. The result: water boils at a lower temperature and cooks more slowly, because it never gets as hot. Beans, for example, take much longer to soften."
     },
     {
       "type": "takeaway",
-      "text": "Lower air pressure means a lower boiling point: water boils sooner but cooks more slowly."
+      "text": "Lower air pressure means a lower boiling point: boiling water is cooler and cooks food more slowly."
     }
   ],
   "deepDiveBlocks": [
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A pressure cooker traps steam and raises the pressure inside. With more pressure, water only boils above 100 °C, typically near 120 °C. Those extra 20 degrees cut cooking times substantially. Embrapa lists a pressure cooker as one option for preparing biofortified common beans."
+      "text": "A pressure cooker traps steam and raises the pressure inside. With more pressure, water only boils above 100 °C, typically near 120 °C. Those extra 20 degrees cut cooking times substantially. Embrapa lists a pressure cooker as one option in its bean preparation guide."
     },
     {
       "type": "paragraph",
@@ -163,7 +163,7 @@
     },
     {
       "id": "c8",
-      "text": "Embrapa lists a pressure cooker as one option for preparing biofortified common beans.",
+      "text": "Embrapa lists a pressure cooker as one option in its bean preparation guide.",
       "highStakes": false,
       "support": [
         {
@@ -175,7 +175,7 @@
           "excerpt": "Depois de escorrer e desprezar a água, cozinhe em panela de pressão ou comum."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

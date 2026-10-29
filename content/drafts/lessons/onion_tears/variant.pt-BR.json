@@ -4,7 +4,7 @@
   "locale": "pt-BR",
   "slug": "por-que-cortar-cebola-faz-chorar",
   "title": "Por que cortar cebola faz chorar?",
-  "hook": "A cebola inteira é inofensiva. O choro é uma arma que você mesmo ativa.",
+  "hook": "O corte mistura substâncias antes separadas nas células e desencadeia a formação de um gás irritante.",
   "summary": "Cortar a cebola mistura compostos de enxofre e enzimas que estavam separados, produzindo um gás que irrita os olhos.",
   "cardText": "A faca rompe as células da cebola e mistura compostos de enxofre com uma enzima. Em segundos, eles formam um gás que irrita os olhos, e as lágrimas o lavam.",
   "cardBlocks": [
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Em segundos, uma cadeia de reações produz um gás chamado sin-propanotial-S-óxido. Ele chega aos olhos, irrita as terminações nervosas da córnea, e o corpo responde produzindo lágrimas para lavá-lo. Acredita-se que seja uma defesa da planta contra animais que a comem. Facas afiadas e cortes lentos espirram menos gotículas de suco de cebola. Gelar a cebola antes é um conselho comum, mas um estudo de 2025 viu que cebolas geladas soltavam mais gotículas, e não menos."
+      "text": "Em segundos, uma cadeia de reações produz um gás chamado sin-propanotial-S-óxido. Ele chega aos olhos, irrita as terminações nervosas da córnea, e o corpo responde produzindo lágrimas para lavá-lo. Acredita-se que seja uma defesa da planta contra animais que a comem. Em experimentos, facas afiadas e cortes lentos espirraram menos gotículas de suco de cebola. Gelar a cebola antes é um conselho comum, mas um estudo de 2025 viu que cebolas geladas soltavam mais gotículas, e não menos."
     },
     {
       "type": "takeaway",
-      "text": "Ao cortar a cebola, você mistura os ingredientes de uma defesa química da planta."
+      "text": "O corte libera um gás irritante, possivelmente uma defesa química da cebola contra animais que a comem."
     }
   ],
   "deepDiveBlocks": [
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Cozinhar a cebola desativa as enzimas. É por isso que cebola refogada não arde nos olhos e tem sabor mais doce."
+      "text": "Aquecer a cebola antes de cortar pode reduzir o lacrimejamento ao desativar enzimas; a eficácia desse método é discutida."
     }
   ],
   "heroMedia": {
@@ -159,7 +159,7 @@
     },
     {
       "id": "c8",
-      "text": "Facas afiadas e cortes lentos espirram menos gotículas de suco de cebola.",
+      "text": "Em experimentos, facas afiadas e cortes lentos espirraram menos gotículas de suco de cebola.",
       "highStakes": false,
       "support": [
         {
@@ -171,7 +171,7 @@
           "excerpt": "they discovered that a greater number of droplets were released by blunter blades and faster cutting speeds."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -190,9 +190,13 @@
         {
           "sourceId": "src_nautil_us_no_more_tears_scientists_f1e16d",
           "excerpt": "They found that chilling onions actually yields a larger volume of droplet ejection, possibly due to the brittleness of plant tissues at lower temperatures (although the authors note more study is needed before any definitive conclusions can be reached)."
+        },
+        {
+          "sourceId": "src_sciencealert_com_theres_a_surprisingly_simple_e8de09",
+          "excerpt": "(Wu et al., PNAS, 2025)"
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -231,7 +235,7 @@
     },
     {
       "id": "c12",
-      "text": "Cozinhar a cebola desativa as enzimas, por isso cebola cozida não arde nos olhos, e a refogada fica com sabor doce.",
+      "text": "Aquecer a cebola antes de cortar pode reduzir o lacrimejamento ao desativar enzimas; a eficácia desse método é discutida.",
       "highStakes": false,
       "support": [
         {
@@ -239,11 +243,11 @@
           "excerpt": "heating the onion prior to chopping may also reduce tearing by denaturing the enzymes present, preventing the formation of the irritant."
         },
         {
-          "sourceId": "src_curiousclinicians_com_af8c54",
-          "excerpt": "though when cooked and sauteed they retained their normal, sweet flavor that all onions take on."
+          "sourceId": "src_chm_bris_ac_uk_motm_pso_1da9c2",
+          "excerpt": "Opinion on the efficacy of these methods is varied and they have been discounted by many people."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],
@@ -271,5 +275,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

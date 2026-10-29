@@ -29,23 +29,23 @@
     "questionGroupId": "qg_onion_tears_2",
     "conceptId": "concept_onion_tears",
     "locale": "pt-BR",
-    "prompt": "Como cortar a cebola para espirrar menos gotículas que irritam os olhos?",
+    "prompt": "Nos experimentos descritos no estudo de 2025, qual condição produziu menos gotículas de cebola?",
     "options": [
       {
         "id": "a",
-        "text": "Usar faca afiada e cortar devagar"
+        "text": "Lâminas afiadas e cortes lentos"
       },
       {
         "id": "b",
-        "text": "Usar faca cega e cortar rápido"
+        "text": "Lâminas cegas e cortes rápidos"
       },
       {
         "id": "c",
-        "text": "Gelar a cebola antes"
+        "text": "Cebolas refrigeradas antes do corte"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Num estudo de 2025, lâminas cegas e cortes rápidos espirraram mais gotículas. Cebolas geladas também soltaram mais gotículas, e não menos.",
+    "explanation": "Nesses experimentos, lâminas cegas, cortes rápidos e cebolas refrigeradas produziram mais gotículas. O resultado se refere à emissão de gotículas; os autores apontam a necessidade de mais estudos antes de conclusões definitivas sobre o resfriamento.",
     "claimIds": ["c8", "c9"],
     "status": "draft"
   }

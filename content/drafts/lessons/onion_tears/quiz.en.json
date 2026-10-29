@@ -29,23 +29,23 @@
     "questionGroupId": "qg_onion_tears_2",
     "conceptId": "concept_onion_tears",
     "locale": "en",
-    "prompt": "How can you cut an onion so it sprays fewer of the droplets that sting your eyes?",
+    "prompt": "In the experiments described in the 2025 study, which condition produced fewer onion droplets?",
     "options": [
       {
         "id": "a",
-        "text": "Use a sharp knife and cut slowly"
+        "text": "Sharp blades and slow cuts"
       },
       {
         "id": "b",
-        "text": "Use a blunt knife and cut fast"
+        "text": "Blunt blades and fast cuts"
       },
       {
         "id": "c",
-        "text": "Chill the onion first"
+        "text": "Onions refrigerated before cutting"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "In a 2025 study, blunt blades and fast cuts sprayed more droplets. Chilled onions released more droplets too, not fewer.",
+    "explanation": "In those experiments, blunt blades, fast cuts and refrigerated onions produced more droplets. The finding concerns droplet emission; the authors note that more study is needed before definitive conclusions about chilling.",
     "claimIds": ["c8", "c9"],
     "status": "draft"
   }

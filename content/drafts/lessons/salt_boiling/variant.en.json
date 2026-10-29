@@ -4,21 +4,21 @@
   "locale": "en",
   "slug": "does-salt-make-pasta-water-boil-faster",
   "title": "Does salt make pasta water boil faster?",
-  "hook": "It is common kitchen advice. Chemistry says the opposite, by a fraction of a degree.",
-  "summary": "Salt slightly raises the boiling point; with the amounts used in cooking, the effect is well under 1 °C.",
-  "cardText": "No. Salt actually raises the boiling point, but a tablespoon in a few liters changes it by well under 1 °C. It’s really there to flavor the pasta.",
+  "hook": "Dissolving salt raises water’s boiling point. The size of the effect depends on concentration.",
+  "summary": "Salt raises the boiling point: 29.2 grams per kilogram of water increase the boiling temperature by about 0.5 °C.",
+  "cardText": "No. Salt raises the boiling point: 29.2 grams per kilogram of water add about 0.5 °C. Adding flavor to pasta is one reason to use it.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "It is common kitchen advice, but chemistry says the opposite. Dissolving salt in water slightly raises its boiling point, an effect called boiling-point elevation. With the amount we usually add, about a tablespoon in a few liters, the increase is well under 1 °C. In practice, the difference in time is unnoticeable."
+      "text": "Dissolving salt in water raises its boiling point, an effect called boiling-point elevation. The size of this increase depends on concentration: 29.2 grams of salt in one kilogram of water raise the boiling temperature by about 0.5 °C. With salt present, the water needs a higher temperature to boil."
     },
     {
       "type": "paragraph",
-      "text": "So why does the water seem to \"boil\" when the salt goes in? The grains give steam bubbles easy places to form, and water that is already hot suddenly fizzes. The salt is really there to flavor the pasta."
+      "text": "So why does boiling intensify when salt falls into water that is already boiling? The grains give steam bubbles easy places to form. This burst of bubbles does not mean salt lowered the boiling point. Adding flavor to pasta is one reason to add salt to its water."
     },
     {
       "type": "takeaway",
-      "text": "Salt raises the boiling point by only a fraction of a degree; it is there for flavor."
+      "text": "With 29.2 grams of salt per kilogram of water, the boiling point rises by about 0.5 °C."
     }
   ],
   "deepDiveBlocks": [
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The burst of bubbles when salt is added is called nucleation: solid grains, such as salt or sugar crystals, make it easier for bubbles to form in a liquid that is already close to boiling."
+      "text": "The burst of bubbles when salt is added is called nucleation: solid grains, such as salt or sugar crystals, make it easier for bubbles to form in water that is already boiling."
     }
   ],
   "heroMedia": {
@@ -82,24 +82,20 @@
     },
     {
       "id": "c3",
-      "text": "With cooking amounts of salt, about a tablespoon in a few liters, the boiling point rises by well under 1 °C.",
+      "text": "With 29.2 grams of salt per kilogram of water, the boiling point rises by about 0.5 °C.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
-          "excerpt": "You would need to add over 100 grams of NaCl to a liter of water to increase the boiling point a couple of degrees"
-        },
-        {
           "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
-          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of water."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c4",
-      "text": "Salt grains give steam bubbles easy places to form, so hot water suddenly fizzes when salt goes in.",
+      "text": "Salt grains provide sites for steam bubbles to form and intensify boiling in water that is already boiling.",
       "highStakes": false,
       "support": [
         {
@@ -111,12 +107,12 @@
           "excerpt": "They make it much more easy for bubbles of the vapour which is the boiling bit of water at the bottom of the pan to form."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c5",
-      "text": "Salt is added to pasta water mainly for flavor.",
+      "text": "Adding flavor to pasta is one reason to add salt to its water.",
       "highStakes": false,
       "support": [
         {
@@ -124,7 +120,7 @@
           "excerpt": "Salt is often added to boiling water when preparing spaghetti or other pasta. One reason is to add flavor to the food."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -230,5 +226,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

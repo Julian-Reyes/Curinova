@@ -4,21 +4,21 @@
   "locale": "pt-BR",
   "slug": "sal-faz-a-agua-do-macarrao-ferver-mais-rapido",
   "title": "Sal faz a água do macarrão ferver mais rápido?",
-  "hook": "O conselho é comum na cozinha. A química diz o contrário, por uma fração de grau.",
-  "summary": "Sal eleva levemente o ponto de ebulição; com a quantidade usada na cozinha, o efeito fica bem abaixo de 1 °C.",
-  "cardText": "Não. O sal até eleva o ponto de ebulição, mas uma colher de sopa em alguns litros muda bem menos de 1 °C. Ele está ali, mesmo, para dar sabor à massa.",
+  "hook": "Dissolver sal eleva o ponto de ebulição da água. O tamanho do efeito depende da concentração.",
+  "summary": "O sal eleva o ponto de ebulição: 29,2 gramas por quilo de água aumentam a temperatura de fervura em cerca de 0,5 °C.",
+  "cardText": "Não. O sal eleva o ponto de ebulição: 29,2 gramas por quilo de água aumentam a fervura em cerca de 0,5 °C. Dar sabor à massa é uma razão para adicioná-lo.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "É um conselho comum na cozinha, mas a química diz o contrário. Dissolver sal na água eleva levemente o ponto de ebulição, um efeito chamado ebulioscopia. Com a quantidade que costumamos usar, cerca de uma colher de sopa em alguns litros, o aumento fica bem abaixo de 1 °C. Na prática, a diferença no tempo é imperceptível."
+      "text": "Dissolver sal na água eleva seu ponto de ebulição, um efeito chamado ebulioscopia. O tamanho desse aumento depende da concentração: 29,2 gramas de sal em um quilo de água elevam a temperatura de fervura em cerca de 0,5 °C. A presença do sal faz a água precisar de uma temperatura maior para ferver."
     },
     {
       "type": "paragraph",
-      "text": "Então por que parece que a água \"ferve\" ao receber o sal? Os grãos oferecem pontos onde bolhas de vapor se formam com facilidade, e a água já quente borbulha de repente. O sal está ali, mesmo, para dar sabor à massa."
+      "text": "Então por que a fervura se intensifica quando o sal cai na água que já está fervendo? Os grãos oferecem pontos onde bolhas de vapor se formam com facilidade. Esse aumento de bolhas não significa que o sal baixou o ponto de ebulição. Dar sabor à massa é uma razão para adicionar sal à água."
     },
     {
       "type": "takeaway",
-      "text": "O sal sobe o ponto de ebulição só uma fração de grau; ele está ali pelo sabor."
+      "text": "Com 29,2 gramas de sal por quilo de água, o ponto de ebulição sobe cerca de 0,5 °C."
     }
   ],
   "deepDiveBlocks": [
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "As bolhas que aparecem ao jogar o sal são um fenômeno chamado nucleação: grãos sólidos, como cristais de sal ou de açúcar, facilitam a formação de bolhas em um líquido já perto de ferver."
+      "text": "As bolhas que aparecem ao jogar o sal são um fenômeno chamado nucleação: grãos sólidos, como cristais de sal ou de açúcar, facilitam a formação de bolhas em água que já está fervendo."
     }
   ],
   "heroMedia": {
@@ -82,24 +82,20 @@
     },
     {
       "id": "c3",
-      "text": "Com a quantidade usada na cozinha, cerca de uma colher de sopa em alguns litros, o ponto de ebulição sobe bem menos de 1 °C.",
+      "text": "Com 29,2 gramas de sal por quilo de água, o ponto de ebulição sobe cerca de 0,5 °C.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
-          "excerpt": "You would need to add over 100 grams of NaCl to a liter of water to increase the boiling point a couple of degrees"
-        },
-        {
           "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
-          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of water."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c4",
-      "text": "Os grãos de sal oferecem pontos onde bolhas de vapor se formam com facilidade, e a água quente borbulha de repente ao receber o sal.",
+      "text": "Os grãos de sal oferecem pontos para bolhas de vapor se formarem e intensificam a fervura da água que já está fervendo.",
       "highStakes": false,
       "support": [
         {
@@ -111,12 +107,12 @@
           "excerpt": "They make it much more easy for bubbles of the vapour which is the boiling bit of water at the bottom of the pan to form."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c5",
-      "text": "O sal vai na água do macarrão principalmente para dar sabor.",
+      "text": "Dar sabor à massa é uma razão para adicionar sal à água.",
       "highStakes": false,
       "support": [
         {
@@ -124,7 +120,7 @@
           "excerpt": "Salt is often added to boiling water when preparing spaghetti or other pasta. One reason is to add flavor to the food."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -230,5 +226,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

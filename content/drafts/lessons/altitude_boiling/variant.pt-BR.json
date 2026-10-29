@@ -3,10 +3,10 @@
   "conceptId": "concept_altitude_boiling",
   "locale": "pt-BR",
   "slug": "por-que-a-agua-ferve-antes-no-alto-da-montanha",
-  "title": "Por que a água ferve antes no alto da montanha?",
+  "title": "Por que a água ferve menos quente no alto da montanha?",
   "hook": "A 2.300 metros de altitude, a água ferve perto de 92 °C. E o feijão demora mais.",
-  "summary": "Com menos pressão do ar, a água ferve a temperaturas mais baixas: ferve antes, mas cozinha mais devagar.",
-  "cardText": "No alto, há menos ar pressionando a água, então ela ferve a uma temperatura mais baixa: perto de 92 °C a 2.300 metros. Ferve antes, mas cozinha mais devagar.",
+  "summary": "Com menos pressão do ar, a água ferve a temperaturas mais baixas e cozinha os alimentos mais devagar.",
+  "cardText": "No alto, há menos ar pressionando a água, então ela ferve a uma temperatura mais baixa: perto de 92 °C a 2.300 metros. A água fervente fica menos quente e cozinha mais devagar.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Ferver é formar bolhas de vapor dentro do líquido, e isso só acontece quando a pressão do vapor da água iguala a pressão do ar em cima dela. Lá no alto há menos ar empurrando, então isso acontece a uma temperatura mais baixa. Resultado: a água ferve mais cedo, mas cozinha mais devagar, porque nunca fica tão quente. O feijão, por exemplo, demora bem mais para ficar pronto."
+      "text": "Ferver é formar bolhas de vapor dentro do líquido, e isso só acontece quando a pressão do vapor da água iguala a pressão do ar em cima dela. Lá no alto há menos ar empurrando, então isso acontece a uma temperatura mais baixa. Resultado: a água ferve a uma temperatura mais baixa e cozinha mais devagar, porque nunca fica tão quente. O feijão, por exemplo, demora bem mais para ficar pronto."
     },
     {
       "type": "takeaway",
-      "text": "Menos pressão do ar, ponto de ebulição mais baixo: a água ferve antes e cozinha mais devagar."
+      "text": "Menos pressão do ar, ponto de ebulição mais baixo: a água fervente fica menos quente e cozinha mais devagar."
     }
   ],
   "deepDiveBlocks": [
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A panela de pressão prende o vapor e aumenta a pressão lá dentro. Com mais pressão, a água só ferve acima de 100 °C, em geral perto de 120 °C. Esses 20 graus a mais reduzem bastante o tempo de cozimento. A Embrapa inclui a panela de pressão entre as opções de preparo do feijão comum biofortificado."
+      "text": "A panela de pressão prende o vapor e aumenta a pressão lá dentro. Com mais pressão, a água só ferve acima de 100 °C, em geral perto de 120 °C. Esses 20 graus a mais reduzem bastante o tempo de cozimento. A Embrapa apresenta a panela de pressão como uma opção em suas orientações de preparo de feijão."
     },
     {
       "type": "paragraph",
@@ -163,7 +163,7 @@
     },
     {
       "id": "c8",
-      "text": "A Embrapa inclui a panela de pressão entre as opções de preparo do feijão comum biofortificado.",
+      "text": "A Embrapa apresenta a panela de pressão como uma opção em suas orientações de preparo de feijão.",
       "highStakes": false,
       "support": [
         {
@@ -175,7 +175,7 @@
           "excerpt": "Depois de escorrer e desprezar a água, cozinhe em panela de pressão ou comum."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

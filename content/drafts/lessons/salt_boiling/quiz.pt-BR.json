@@ -4,11 +4,11 @@
     "questionGroupId": "qg_salt_boiling_1",
     "conceptId": "concept_salt_boiling",
     "locale": "pt-BR",
-    "prompt": "Uma colher de sal em alguns litros de água muda o ponto de ebulição em quanto?",
+    "prompt": "Quanto 29,2 gramas de sal em um quilo de água elevam o ponto de ebulição?",
     "options": [
       {
         "id": "a",
-        "text": "Bem menos de 1 °C"
+        "text": "Cerca de 0,5 °C"
       },
       {
         "id": "b",
@@ -20,8 +20,8 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O sal eleva o ponto de ebulição, mas, na quantidade usada na cozinha, só uma fração de grau.",
-    "misconception": "O sal não faz a água ferver mais rápido. Se faz alguma coisa, é atrasar a fervura em um tempo imperceptível.",
+    "explanation": "Nessa concentração, o aumento é de cerca de 0,5 °C. A mudança no ponto de ebulição depende da quantidade de sal dissolvido por quilo de água.",
+    "misconception": "Mais bolhas ao adicionar sal não significam um ponto de ebulição menor: o sal dissolvido eleva essa temperatura.",
     "claimIds": ["c1", "c3"],
     "status": "draft"
   },
@@ -30,7 +30,7 @@
     "questionGroupId": "qg_salt_boiling_2",
     "conceptId": "concept_salt_boiling",
     "locale": "pt-BR",
-    "prompt": "Por que a água quente borbulha quando jogamos sal?",
+    "prompt": "Por que a água que já está fervendo borbulha mais quando recebe sal?",
     "options": [
       {
         "id": "a",
@@ -46,7 +46,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Os grãos sólidos funcionam como pontos de nucleação: facilitam a formação de bolhas em uma água que já estava quase fervendo.",
+    "explanation": "Os grãos sólidos funcionam como pontos de nucleação: facilitam a formação de bolhas de vapor na água que já estava fervendo.",
     "claimIds": ["c4", "c10"],
     "status": "draft"
   }

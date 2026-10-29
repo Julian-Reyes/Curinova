@@ -28,15 +28,15 @@
     },
     {
       "type": "paragraph",
-      "text": "Caramelization is a different reaction: it involves only sugars, no proteins, and for table sugar it starts at even higher temperatures. Slowly browned onions and dulce de leche involve both reactions."
+      "text": "Caramelization is a different reaction: it involves only sugars, without reacting with amino acids, and for table sugar it starts at even higher temperatures. Slowly browned onions and dulce de leche involve both reactions."
     },
     {
       "type": "paragraph",
-      "text": "An alkaline environment speeds up the Maillard reaction. That is why pretzels are dipped in an alkaline solution before baking, which deepens the brown of their crust."
+      "text": "An alkaline environment speeds up the Maillard reaction. Alkaline refers to the high end of the pH scale, which measures acidity. The alkaline bath given to pretzels before baking helps darken their crust."
     },
     {
       "type": "paragraph",
-      "text": "Patting meat dry before it goes into the pan, and not crowding the pan so water evaporates quickly, both help the surface reach reaction temperature."
+      "text": "When meat loses surface water and there is space between pieces in the pan, juices evaporate more readily. The dry surface can then reach temperatures favorable for browning."
     }
   ],
   "heroMedia": {
@@ -213,15 +213,19 @@
     },
     {
       "id": "c10",
-      "text": "An alkaline environment speeds up the Maillard reaction.",
+      "text": "An alkaline environment, at the high end of the pH scale that measures acidity, speeds up the Maillard reaction.",
       "highStakes": false,
       "support": [
         {
           "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
           "excerpt": "This process is accelerated in an alkaline environment (e.g., lye applied to darken pretzels; see lye roll)"
+        },
+        {
+          "sourceId": "src_kunc_org_2014_08_09_for_26d1f5",
+          "excerpt": "baking soda maxes out at about 9.5 on the pH scale (which measures how acidic a substance is), while lye can get up to 14 (the highest ranking)."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -288,5 +292,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

@@ -8,7 +8,7 @@
     "options": [
       {
         "id": "a",
-        "text": "A água mantém a superfície perto de 100 °C, abaixo do ideal para a reação"
+        "text": "A água mantém a superfície perto de 100 °C, abaixo da faixa de douramento rápido"
       },
       {
         "id": "b",
@@ -20,7 +20,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Enquanto há água, a temperatura não passa muito de 100 °C. A reação de Maillard só acelera de verdade acima de uns 140 °C.",
+    "explanation": "A água mantém a carne perto de 100 °C. A reação de Maillard ocorre mais rapidamente por volta de 140 °C; essa faixa descreve o douramento rápido, não um limite abaixo do qual a reação é impossível.",
     "claimIds": ["c4", "c5"],
     "status": "draft"
   },
@@ -45,7 +45,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "As duas produzem cor e sabor, mas a caramelização não precisa de proteínas, e a reação de Maillard sim.",
+    "explanation": "A reação de Maillard envolve aminoácidos e açúcares. A caramelização envolve a transformação dos açúcares sem reação com aminoácidos.",
     "claimIds": ["c2", "c7"],
     "status": "draft"
   }
