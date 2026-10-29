@@ -60,7 +60,7 @@
           "excerpt": "Bone is continuously remodelled at discrete sites in the skeleton in order to maintain the integrity of the tissue."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -73,7 +73,7 @@
           "excerpt": "The mineral makes bone hard and strong while the collagen provides flexibility so that the bone can resist breaking."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -86,7 +86,7 @@
           "excerpt": "old bone is resorbed by osteoclasts and replaced with new osteoid, secreted by osteoblasts."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -99,7 +99,7 @@
           "excerpt": "the matrix then mineralises to generate new bone and this completes the remodelling process."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -112,7 +112,7 @@
           "excerpt": "In young, healthy adults, about the same amounts of bone are removed and replaced."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -129,7 +129,7 @@
           "excerpt": "Bone houses the bone marrow, which makes blood cells."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -142,7 +142,7 @@
           "excerpt": "The dense, hard outer layer is called compact or cortical bone while the inner, less dense, lattice-like bone is called cancellous, trabecular or spongy bone"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -155,7 +155,7 @@
           "excerpt": "Bone stores growth factors and minerals such as calcium."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -168,7 +168,7 @@
           "excerpt": "In children and teens, the body adds more bone than it takes away. Bones gradually become larger, heavier, and denser as children grow."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

@@ -56,7 +56,7 @@
           "excerpt": "Gastric juice is secreted by gastric mucosal glands, and contains hydrochloric acid, mucus, and proteolytic enzymes pepsin (which breaks down proteins)"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -73,7 +73,7 @@
           "excerpt": "These cells produce a thin mucus gel that in larger part constitutes the gastromuscosal barrier."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -86,7 +86,7 @@
           "excerpt": "Surface mucous cells have short microvilli and secrete protective bicarbonate ions."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -103,7 +103,7 @@
           "excerpt": "repor as células mucosas superficiais e da fosseta, que se renova a cada 4-7 dias."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -116,7 +116,7 @@
           "excerpt": "The isthmus and neck contain dividing cells (stem cells) immature cells and maturing neck mucous cells. The mature cells move up to replace the surface mucous cells."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -129,7 +129,7 @@
           "excerpt": "Outras células filhas migram mais profundamente nas glândulas e se diferenciam em células mucosas do colo ou parietais, zimogênicas ou enteroendócrinas. Estas células são repostas muito mais lentamente que as células mucosas superficiais."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -142,7 +142,7 @@
           "excerpt": "Parietal cells make hydrochloric acid"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -155,7 +155,7 @@
           "excerpt": "Secretam a enzima inativa pepsinogênio que é rapidamente convertido na enzima pepsina após ser secretado no ambiente ácido do estômago."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

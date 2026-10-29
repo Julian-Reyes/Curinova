@@ -52,7 +52,7 @@
           "excerpt": "The epidermis is the outer part of the skin."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -69,7 +69,7 @@
           "excerpt": "São responsáveis pela constante renovação do epitélio, com intensa atividade mitótica"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -86,7 +86,7 @@
           "excerpt": "Keratins are a group of tough, fibrous proteins"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -99,7 +99,7 @@
           "excerpt": "Camada superficial de células achatadas, mortas, sem núcleo e sem organelas. Membrana celular bem espessa e citoplasma cheio de queratina. São removidas no processo de descamação natural da pele."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -112,7 +112,7 @@
           "excerpt": "The dermis is the next layer down, hidden under the epidermis. This layer contains blood vessels, nerve endings, and oil and sweat glands."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -125,7 +125,7 @@
           "excerpt": "Há locais, como a palma da mão e a planta dos pés, onde a epiderme é muito mais espessa"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -146,7 +146,7 @@
           "excerpt": "Gives a sense of touch, allowing us to sense texture, pressure, and temperature"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

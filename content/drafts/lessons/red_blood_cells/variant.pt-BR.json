@@ -60,7 +60,7 @@
           "excerpt": "Cada hemácia tem vida média de 120 dias no organismo."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -73,7 +73,7 @@
           "excerpt": "Bone marrow, the spongy material inside your bones, makes new blood cells."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -86,7 +86,7 @@
           "excerpt": "Blood cells constantly die and your body makes new ones."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -99,7 +99,7 @@
           "excerpt": "Red blood cells contain a special protein called hemoglobin, which helps carry oxygen from the lungs to the rest of the body"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -112,7 +112,7 @@
           "excerpt": "The shape of a red blood cell is a biconcave disk with a flattened center -- in other words, both faces of the disk have shallow, bowl-like indentations"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -125,7 +125,7 @@
           "excerpt": "Unlike many other cells, red blood cells have no nucleus and can easily change shape, helping them fit through the various blood vessels in the body."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -138,7 +138,7 @@
           "excerpt": "it also limits the cell’s lifespan as it travels through the smallest blood vessels, damaging the membrane and depleting its energy supplies."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -155,7 +155,7 @@
           "excerpt": "Hematopoietic stem cells can differentiate into red blood cells, white blood cells, and platelets."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -172,7 +172,7 @@
           "excerpt": "Some white blood cells live less than a day, but others live much longer."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -189,7 +189,7 @@
           "excerpt": "Platelets help the blood-clotting process (coagulation) by gathering at the site of an injury"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -202,7 +202,7 @@
           "excerpt": "The liquid part, called plasma, is made of water, salts, and protein. Over half of your blood is plasma."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
