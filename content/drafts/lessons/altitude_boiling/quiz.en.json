@@ -4,7 +4,7 @@
     "questionGroupId": "qg_altitude_boiling_1",
     "conceptId": "concept_altitude_boiling",
     "locale": "en",
-    "prompt": "Why does water boil below 100 °C in La Paz?",
+    "prompt": "Why does water boil below 100 °C at about 2,300 meters above sea level?",
     "options": [
       {
         "id": "a",
@@ -20,8 +20,8 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "With less air pressing on the surface, water forms steam bubbles at a lower temperature, around 88 °C.",
-    "misconception": "Cold does not change the boiling point; pressure does. Even on a warm day, boiling water in La Paz is around 88 °C.",
+    "explanation": "With less air pressing on the surface, water forms steam bubbles at a lower temperature, around 92 °C at that altitude.",
+    "misconception": "Lower air pressure at high altitude reduces the boiling point; cold surroundings are not the cause.",
     "claimIds": ["c2", "c4"],
     "status": "draft"
   },

@@ -4,13 +4,13 @@
   "locale": "en",
   "slug": "why-does-water-boil-sooner-up-a-mountain",
   "title": "Why does water boil sooner up a mountain?",
-  "hook": "In La Paz, water boils at about 88 °C, and beans take far longer to cook.",
+  "hook": "At 2,300 meters above sea level, water boils at about 92 °C, and beans take longer to cook.",
   "summary": "With less air pressure, water boils at lower temperatures: it boils sooner but cooks more slowly.",
-  "cardText": "Up high, there’s less air pressing on the water, so it boils at a lower temperature: about 88 °C in La Paz. It boils sooner but cooks more slowly.",
+  "cardText": "Up high, there’s less air pressing on the water, so it boils at a lower temperature: about 92 °C at 2,300 meters. It boils sooner but cooks more slowly.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "At sea level, water boils at 100 °C. In La Paz, Bolivia, about 3,650 meters up, it boils at around 88 °C. The reason is air pressure."
+      "text": "At sea level, water boils at 100 °C. At about 2,300 meters above sea level (7,500 feet), water boils at around 92 °C. The reason is air pressure."
     },
     {
       "type": "paragraph",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A pressure cooker traps steam and raises the pressure inside. With more pressure, water only boils above 100 °C, typically near 120 °C. Those extra 20 degrees cut cooking times substantially. In Brazil, one of the world’s biggest consumers of beans, they are traditionally cooked in a pressure cooker."
+      "text": "A pressure cooker traps steam and raises the pressure inside. With more pressure, water only boils above 100 °C, typically near 120 °C. Those extra 20 degrees cut cooking times substantially. Embrapa lists a pressure cooker as one option for preparing biofortified common beans."
     },
     {
       "type": "paragraph",
@@ -65,16 +65,12 @@
     },
     {
       "id": "c2",
-      "text": "In La Paz, Bolivia, about 3,650 meters up, water boils at around 88 °C.",
+      "text": "At about 2,300 meters above sea level (7,500 feet), water boils at around 92 °C.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_rmets_org_metmatters_travellers_guide_la_e5592b",
-          "excerpt": "The city has the highest elevation of any government city in the world, at an altitude of 3,650m."
-        },
-        {
-          "sourceId": "src_rmets_org_metmatters_travellers_guide_la_e5592b",
-          "excerpt": "with water boiling at 88°C (190F) in La Paz."
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "At 7,500 feet, for example, water boils at about 198 °F."
         }
       ],
       "autoVerdict": "pending",
@@ -167,12 +163,16 @@
     },
     {
       "id": "c8",
-      "text": "Brazil is one of the world’s biggest consumers of beans, which are traditionally cooked in a pressure cooker.",
+      "text": "Embrapa lists a pressure cooker as one option for preparing biofortified common beans.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_band_com_br_receitas_noticias_panela_830318",
-          "excerpt": "o Brasil é um dos maiores consumidores de feijão do mundo, alimento que tradicionalmente é preparado na panela de pressão."
+          "sourceId": "src_atermaisdigital_cnptia_embrapa_br_web_nutricao_595254",
+          "excerpt": "Preparo do feijão comum biofortificado"
+        },
+        {
+          "sourceId": "src_atermaisdigital_cnptia_embrapa_br_web_nutricao_595254",
+          "excerpt": "Depois de escorrer e desprezar a água, cozinhe em panela de pressão ou comum."
         }
       ],
       "autoVerdict": "pending",
@@ -254,10 +254,9 @@
   "sourceIds": [
     "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
     "src_fsis_usda_gov_food_safety_safe_7fbd98",
-    "src_rmets_org_metmatters_travellers_guide_la_e5592b",
     "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
     "src_extension_colostate_edu_routt_resource_high_4748bc",
-    "src_band_com_br_receitas_noticias_panela_830318",
+    "src_atermaisdigital_cnptia_embrapa_br_web_nutricao_595254",
     "src_edinformatics_com_math_science_science_of_1651d9",
     "src_en_wikipedia_org_wiki_boiled_egg_0e3203"
   ],
@@ -274,5 +273,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

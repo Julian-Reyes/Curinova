@@ -4,13 +4,13 @@
   "locale": "pt-BR",
   "slug": "por-que-a-agua-ferve-antes-no-alto-da-montanha",
   "title": "Por que a água ferve antes no alto da montanha?",
-  "hook": "Em La Paz, a água ferve perto de 88 °C. E o feijão demora muito mais.",
+  "hook": "A 2.300 metros de altitude, a água ferve perto de 92 °C. E o feijão demora mais.",
   "summary": "Com menos pressão do ar, a água ferve a temperaturas mais baixas: ferve antes, mas cozinha mais devagar.",
-  "cardText": "No alto, há menos ar pressionando a água, então ela ferve a uma temperatura mais baixa: perto de 88 °C em La Paz. Ferve antes, mas cozinha mais devagar.",
+  "cardText": "No alto, há menos ar pressionando a água, então ela ferve a uma temperatura mais baixa: perto de 92 °C a 2.300 metros. Ferve antes, mas cozinha mais devagar.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Ao nível do mar, a água ferve a 100 °C. Em La Paz, na Bolívia, a cerca de 3.650 metros de altitude, ela ferve perto de 88 °C. A razão é a pressão do ar."
+      "text": "Ao nível do mar, a água ferve a 100 °C. A cerca de 2.300 metros de altitude (7.500 pés), a água ferve perto de 92 °C. A razão é a pressão do ar."
     },
     {
       "type": "paragraph",
@@ -28,7 +28,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A panela de pressão prende o vapor e aumenta a pressão lá dentro. Com mais pressão, a água só ferve acima de 100 °C, em geral perto de 120 °C. Esses 20 graus a mais reduzem bastante o tempo de cozimento. No Brasil, um dos maiores consumidores de feijão do mundo, ele é tradicionalmente preparado na panela de pressão."
+      "text": "A panela de pressão prende o vapor e aumenta a pressão lá dentro. Com mais pressão, a água só ferve acima de 100 °C, em geral perto de 120 °C. Esses 20 graus a mais reduzem bastante o tempo de cozimento. A Embrapa inclui a panela de pressão entre as opções de preparo do feijão comum biofortificado."
     },
     {
       "type": "paragraph",
@@ -65,16 +65,12 @@
     },
     {
       "id": "c2",
-      "text": "Em La Paz, na Bolívia, a cerca de 3.650 metros de altitude, a água ferve perto de 88 °C.",
+      "text": "A cerca de 2.300 metros de altitude (7.500 pés), a água ferve perto de 92 °C.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_rmets_org_metmatters_travellers_guide_la_e5592b",
-          "excerpt": "The city has the highest elevation of any government city in the world, at an altitude of 3,650m."
-        },
-        {
-          "sourceId": "src_rmets_org_metmatters_travellers_guide_la_e5592b",
-          "excerpt": "with water boiling at 88°C (190F) in La Paz."
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "At 7,500 feet, for example, water boils at about 198 °F."
         }
       ],
       "autoVerdict": "pending",
@@ -167,12 +163,16 @@
     },
     {
       "id": "c8",
-      "text": "O Brasil é um dos maiores consumidores de feijão do mundo, e o feijão é tradicionalmente preparado na panela de pressão.",
+      "text": "A Embrapa inclui a panela de pressão entre as opções de preparo do feijão comum biofortificado.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_band_com_br_receitas_noticias_panela_830318",
-          "excerpt": "o Brasil é um dos maiores consumidores de feijão do mundo, alimento que tradicionalmente é preparado na panela de pressão."
+          "sourceId": "src_atermaisdigital_cnptia_embrapa_br_web_nutricao_595254",
+          "excerpt": "Preparo do feijão comum biofortificado"
+        },
+        {
+          "sourceId": "src_atermaisdigital_cnptia_embrapa_br_web_nutricao_595254",
+          "excerpt": "Depois de escorrer e desprezar a água, cozinhe em panela de pressão ou comum."
         }
       ],
       "autoVerdict": "pending",
@@ -254,10 +254,9 @@
   "sourceIds": [
     "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
     "src_fsis_usda_gov_food_safety_safe_7fbd98",
-    "src_rmets_org_metmatters_travellers_guide_la_e5592b",
     "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
     "src_extension_colostate_edu_routt_resource_high_4748bc",
-    "src_band_com_br_receitas_noticias_panela_830318",
+    "src_atermaisdigital_cnptia_embrapa_br_web_nutricao_595254",
     "src_edinformatics_com_math_science_science_of_1651d9",
     "src_en_wikipedia_org_wiki_boiled_egg_0e3203"
   ],
@@ -274,5 +273,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T00:00:00Z"
+  "updatedAt": "2026-10-29T00:00:00Z"
 }

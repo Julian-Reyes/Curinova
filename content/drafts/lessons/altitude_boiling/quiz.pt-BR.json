@@ -4,7 +4,7 @@
     "questionGroupId": "qg_altitude_boiling_1",
     "conceptId": "concept_altitude_boiling",
     "locale": "pt-BR",
-    "prompt": "Por que a água ferve abaixo de 100 °C em La Paz?",
+    "prompt": "Por que a água ferve abaixo de 100 °C a cerca de 2.300 metros de altitude?",
     "options": [
       {
         "id": "a",
@@ -20,8 +20,8 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Com menos ar pressionando a superfície, a água forma bolhas de vapor a uma temperatura mais baixa, perto de 88 °C.",
-    "misconception": "O frio não muda o ponto de ebulição; o que muda é a pressão. Mesmo num dia quente, a água fervendo em La Paz está perto de 88 °C.",
+    "explanation": "Com menos ar pressionando a superfície, a água forma bolhas de vapor a uma temperatura mais baixa, perto de 92 °C nessa altitude.",
+    "misconception": "É a menor pressão do ar em grandes altitudes que reduz o ponto de ebulição, não o frio do ambiente.",
     "claimIds": ["c2", "c4"],
     "status": "draft"
   },
