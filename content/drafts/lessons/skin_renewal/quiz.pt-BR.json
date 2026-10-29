@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_skin_renewal_1__pt-BR",
+    "questionGroupId": "qg_skin_renewal_1",
+    "conceptId": "concept_skin_renewal",
+    "locale": "pt-BR",
+    "prompt": "Onde começa a reposição das células que descamam na epiderme?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Na base da epiderme, com a produção de novas células"
+      },
+      {
+        "id": "b",
+        "text": "Na superfície, onde células mortas voltam a viver"
+      },
+      {
+        "id": "c",
+        "text": "No plasma, que vira pele"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Novas células se formam na base da epiderme para substituir as que se soltam na superfície.",
+    "claimIds": ["c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_skin_renewal_2__pt-BR",
+    "questionGroupId": "qg_skin_renewal_2",
+    "conceptId": "concept_skin_renewal",
+    "locale": "pt-BR",
+    "prompt": "Qual descrição corresponde à derme?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Camada abaixo da epiderme, com vasos e terminações nervosas"
+      },
+      {
+        "id": "b",
+        "text": "Nome das células mortas que descamam"
+      },
+      {
+        "id": "c",
+        "text": "Outro nome para o plasma sanguíneo"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A renovação superficial ocorre na epiderme; a derme é a camada abaixo dela e contém vasos e terminações nervosas.",
+    "claimIds": ["c1", "c2", "c5"],
+    "status": "draft"
+  }
+]

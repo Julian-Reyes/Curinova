@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_stomach_lining_1__en",
+    "questionGroupId": "qg_stomach_lining_1",
+    "conceptId": "concept_stomach_lining",
+    "locale": "en",
+    "prompt": "What helps protect the stomach lining?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Protective mucus and replacement of surface cells"
+      },
+      {
+        "id": "b",
+        "text": "An absence of acid inside the stomach"
+      },
+      {
+        "id": "c",
+        "text": "A wall that never loses cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The surface produces mucus and rapidly replaces cells, maintaining a barrier facing gastric juice.",
+    "claimIds": ["c1", "c2", "c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_stomach_lining_2__en",
+    "questionGroupId": "qg_stomach_lining_2",
+    "conceptId": "concept_stomach_lining",
+    "locale": "en",
+    "prompt": "Does replacing surface cells within days mean replacing the whole stomach that quickly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No; other gland cells are replaced more slowly"
+      },
+      {
+        "id": "b",
+        "text": "Yes; all cells in the organ have the same schedule"
+      },
+      {
+        "id": "c",
+        "text": "Yes; mucus and muscle are the same thing"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "That timetable concerns surface cells. Other gastric gland cells are replaced more slowly.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  }
+]

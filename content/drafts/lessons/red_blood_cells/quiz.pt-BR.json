@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_red_blood_cells_1__pt-BR",
+    "questionGroupId": "qg_red_blood_cells_1",
+    "conceptId": "concept_red_blood_cells",
+    "locale": "pt-BR",
+    "prompt": "Qual é a duração média de uma hemácia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 120 dias"
+      },
+      {
+        "id": "b",
+        "text": "Sete anos exatos"
+      },
+      {
+        "id": "c",
+        "text": "Toda a vida da pessoa"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A média é de cerca de 120 dias, aproximadamente quatro meses. A produção de novas células ocorre na medula óssea.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_red_blood_cells_2__pt-BR",
+    "questionGroupId": "qg_red_blood_cells_2",
+    "conceptId": "concept_red_blood_cells",
+    "locale": "pt-BR",
+    "prompt": "Onde são produzidas novas células sanguíneas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Na medula óssea"
+      },
+      {
+        "id": "b",
+        "text": "No plasma, por divisão do líquido"
+      },
+      {
+        "id": "c",
+        "text": "Na superfície da pele"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A medula óssea é um tecido dentro dos ossos que produz células sanguíneas; plasma é a parte líquida do sangue.",
+    "claimIds": ["c2", "c8", "c11"],
+    "status": "draft"
+  }
+]

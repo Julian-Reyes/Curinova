@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_seven_year_myth_1__en",
+    "questionGroupId": "qg_seven_year_myth_1",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "en",
+    "prompt": "Which comparison explains why there is no complete seven-year body replacement?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Different cells last days, months or decades"
+      },
+      {
+        "id": "b",
+        "text": "All cells live exactly 120 days"
+      },
+      {
+        "id": "c",
+        "text": "No cells are replaced after birth"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Stomach surface cells and red cells turn over rapidly, while the research found neurons approximately as old as the person.",
+    "claimIds": ["c1", "c2", "c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_seven_year_myth_2__en",
+    "questionGroupId": "qg_seven_year_myth_2",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "en",
+    "prompt": "Does finding old neurons mean adults never produce new neurons?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No; neuron formation has been observed in the adult hippocampus"
+      },
+      {
+        "id": "b",
+        "text": "Yes; any finding applies to the entire brain"
+      },
+      {
+        "id": "c",
+        "text": "No; every neuron is replaced every four months"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Results depend on the brain region and cell population studied. There is evidence of neuron formation in the adult hippocampus.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  }
+]

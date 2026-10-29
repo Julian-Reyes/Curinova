@@ -1,0 +1,228 @@
+{
+  "id": "lesson_red_blood_cells__pt-BR",
+  "conceptId": "concept_red_blood_cells",
+  "locale": "pt-BR",
+  "slug": "quanto-tempo-vive-uma-hemacia",
+  "title": "Quanto tempo vive uma hemácia?",
+  "hook": "Seu sangue se renova enquanto você lê: as hemácias vivem, em média, cerca de quatro meses.",
+  "summary": "As hemácias vivem cerca de 120 dias, em média, enquanto a medula óssea produz novas células sanguíneas.",
+  "cardText": "Uma hemácia vive cerca de 120 dias, em média. A medula óssea produz novas células para manter a renovação do sangue e o transporte de oxigênio.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Uma hemácia, também chamada de glóbulo vermelho, vive cerca de 120 dias, em média. Isso dá aproximadamente quatro meses, não sete anos. Enquanto células sanguíneas morrem, outras são produzidas na medula óssea, o tecido esponjoso que fica dentro dos ossos. O sangue está em renovação contínua."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada hemácia transporta oxigênio com a ajuda da hemoglobina, uma proteína. Seu formato lembra um disco afundado dos dois lados. As hemácias maduras não têm núcleo e mudam de forma com facilidade, o que ajuda na passagem pelos vasos. Mas a circulação também desgasta sua membrana e suas reservas de energia, limitando sua duração."
+    },
+    {
+      "type": "takeaway",
+      "text": "Hemácias vivem cerca de quatro meses, em média; a medula óssea mantém a produção de novas células sanguíneas."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O sangue não tem um único prazo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na medula óssea, células-tronco dão origem aos diferentes componentes celulares do sangue. São células capazes de produzir descendentes que se especializam, incluindo hemácias e glóbulos brancos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Glóbulos brancos participam da defesa contra infecções. Plaquetas são fragmentos celulares que ajudam na coagulação, o processo que forma um coágulo em um ferimento. Esses componentes não têm todos a mesma duração: alguns glóbulos brancos vivem menos de um dia, enquanto outros duram muito mais."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nem todo sangue é célula. Mais da metade de seu volume é plasma, a parte líquida. Ela contém água, sais e proteínas. Renovar hemácias e manter esse líquido são aspectos diferentes do funcionamento do sangue."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "red-cell",
+    "alt": "Ilustração de glóbulos vermelhos em forma de disco fluindo por um vaso sanguíneo.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hemácias vivem cerca de 120 dias, aproximadamente quatro meses, em média.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "A red blood cell survives an average of 120 days."
+        },
+        {
+          "sourceId": "src_hemoes_es_gov_br_sobre_o_5677a7",
+          "excerpt": "Cada hemácia tem vida média de 120 dias no organismo."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A medula óssea, tecido esponjoso dentro dos ossos, produz novas células sanguíneas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Bone marrow, the spongy material inside your bones, makes new blood cells."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Células sanguíneas morrem continuamente e são substituídas por novas células.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Blood cells constantly die and your body makes new ones."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "A hemoglobina das hemácias é uma proteína que transporta oxigênio dos pulmões ao corpo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Red blood cells contain a special protein called hemoglobin, which helps carry oxygen from the lungs to the rest of the body"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Hemácias têm formato de disco com depressões dos dois lados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "The shape of a red blood cell is a biconcave disk with a flattened center -- in other words, both faces of the disk have shallow, bowl-like indentations"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Hemácias maduras não têm núcleo e mudam de forma facilmente, o que ajuda na passagem pelos vasos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Unlike many other cells, red blood cells have no nucleus and can easily change shape, helping them fit through the various blood vessels in the body."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Danos à membrana e perda de reservas de energia durante a circulação limitam a vida das hemácias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "it also limits the cell’s lifespan as it travels through the smallest blood vessels, damaging the membrane and depleting its energy supplies."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Células-tronco da medula óssea podem se diferenciar em hemácias, glóbulos brancos e plaquetas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Blood cells develop from hematopoietic stem cells and are formed in the bone marrow"
+        },
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Hematopoietic stem cells can differentiate into red blood cells, white blood cells, and platelets."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Glóbulos brancos combatem infecções; alguns vivem menos de um dia e outros muito mais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "White blood cells (WBC) fight infection and are part of your immune system."
+        },
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Some white blood cells live less than a day, but others live much longer."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Plaquetas são fragmentos celulares que ajudam a formar coágulos em ferimentos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "platelets are not actually cells but rather small cell fragments."
+        },
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Platelets help the blood-clotting process (coagulation) by gathering at the site of an injury"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O plasma é a parte líquida do sangue, contém água, sais e proteínas e corresponde a mais da metade do volume sanguíneo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "The liquid part, called plasma, is made of water, salts, and protein. Over half of your blood is plasma."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_hematology_org_education_patients_blood_basics_816eee",
+    "src_hemoes_es_gov_br_sobre_o_5677a7",
+    "src_medlineplus_gov_blood_html_b9b75e"
+  ],
+  "quizIds": ["q_red_blood_cells_1__pt-BR", "q_red_blood_cells_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

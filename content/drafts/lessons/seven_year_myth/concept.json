@@ -1,0 +1,27 @@
+{
+  "id": "concept_seven_year_myth",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 5,
+  "tags": ["cells", "myths", "neuroscience"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_bone_remodeling",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
+      }
+    },
+    {
+      "conceptId": "concept_sleep_memory",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Continue pela trilha sobre como formamos memórias.",
+        "en": "Continue with the trail about how we form memories."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

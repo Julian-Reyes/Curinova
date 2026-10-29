@@ -1,0 +1,27 @@
+{
+  "id": "concept_bone_remodeling",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 4,
+  "tags": ["bones", "cells", "renewal"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_seven_year_myth",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Reúna os exemplos e examine a ideia de um ciclo de sete anos.",
+        "en": "Bring the examples together and examine the seven-year-cycle idea."
+      }
+    },
+    {
+      "conceptId": "concept_skin_renewal",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

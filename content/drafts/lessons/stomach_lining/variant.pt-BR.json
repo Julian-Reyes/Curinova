@@ -1,0 +1,181 @@
+{
+  "id": "lesson_stomach_lining__pt-BR",
+  "conceptId": "concept_stomach_lining",
+  "locale": "pt-BR",
+  "slug": "por-que-o-estomago-nao-digere-a-si-mesmo",
+  "title": "Por que o estômago não digere a si mesmo?",
+  "hook": "A superfície que enfrenta o suco gástrico combina proteção e reposição de células.",
+  "summary": "Uma barreira de muco, secreções protetoras e reposição rápida das células da superfície ajudam a proteger o estômago.",
+  "cardText": "O revestimento produz muco protetor e repõe células da superfície em poucos dias. A renovação mantém essa barreira; não significa trocar o estômago inteiro de uma vez.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "O estômago mistura o alimento com suco gástrico, que contém ácido e enzimas capazes de quebrar proteínas. Sua superfície não fica simplesmente exposta a essa mistura. Células do revestimento produzem uma camada de muco que ajuda a protegê-las do ácido e das enzimas. Elas também liberam bicarbonato, uma secreção protetora."
+    },
+    {
+      "type": "paragraph",
+      "text": "Essa barreira tem manutenção constante. Novas células se formam nas glândulas do estômago e migram para repor as células da superfície, substituídas em poucos dias. Isso não quer dizer que o estômago inteiro seja novo a cada semana: outras células das glândulas são repostas mais lentamente. Proteção e reposição trabalham juntas, com ritmos diferentes dentro do mesmo órgão."
+    },
+    {
+      "type": "takeaway",
+      "text": "O estômago mantém sua barreira com muco, secreções protetoras e renovação rápida das células da superfície."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nem todas as células fazem o mesmo trabalho"
+    },
+    {
+      "type": "paragraph",
+      "text": "As glândulas gástricas têm células especializadas. Algumas produzem ácido clorídrico; outras produzem pepsinogênio, uma forma inativa que se transforma na enzima pepsina no ambiente ácido do estômago. A pepsina participa da digestão de proteínas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Células-tronco, capazes de gerar células especializadas, também ficam nas glândulas. Parte de suas descendentes segue em direção à superfície; outra parte vai para regiões mais profundas. A reposição das células glandulares mais profundas é mais lenta que a das células mucosas superficiais."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por isso, falar apenas na “idade do estômago” esconde uma diferença importante: células de funções e posições distintas não precisam ter a mesma idade."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "stomach",
+    "alt": "Ilustração de um estômago com uma camada protetora de muco entre o ácido e a parede.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O suco gástrico contém ácido clorídrico e pepsina, enzima que quebra proteínas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Gastric juice is secreted by gastric mucosal glands, and contains hydrochloric acid, mucus, and proteolytic enzymes pepsin (which breaks down proteins)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O revestimento do estômago produz uma camada de muco que ajuda a protegê-lo do ácido e das enzimas digestivas.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "These cells produce a thick coating of mucus, that protects the gastric mucosa from acid and enzymes in the lumen."
+        },
+        {
+          "sourceId": "src_histology_med_cornell_edu_slides_54a_cb01f5",
+          "excerpt": "These cells produce a thin mucus gel that in larger part constitutes the gastromuscosal barrier."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Células mucosas superficiais do estômago secretam bicarbonato protetor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_med_cornell_edu_slides_54a_cb01f5",
+          "excerpt": "Surface mucous cells have short microvilli and secrete protective bicarbonate ions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "As células mucosas da superfície do estômago são substituídas em poucos dias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Even so, these cells have to be replaced after 4-6 days."
+        },
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b",
+          "excerpt": "repor as células mucosas superficiais e da fosseta, que se renova a cada 4-7 dias."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Células em divisão nas glândulas gástricas geram células que migram para repor a superfície.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "The isthmus and neck contain dividing cells (stem cells) immature cells and maturing neck mucous cells. The mature cells move up to replace the surface mucous cells."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Outras descendentes das células-tronco migram para partes mais profundas das glândulas e são repostas mais lentamente que as células mucosas superficiais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b",
+          "excerpt": "Outras células filhas migram mais profundamente nas glândulas e se diferenciam em células mucosas do colo ou parietais, zimogênicas ou enteroendócrinas. Estas células são repostas muito mais lentamente que as células mucosas superficiais."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Células parietais das glândulas gástricas produzem ácido clorídrico.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Parietal cells make hydrochloric acid"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Pepsinogênio é secretado como precursor inativo e se transforma em pepsina no ambiente ácido do estômago.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b",
+          "excerpt": "Secretam a enzima inativa pepsinogênio que é rapidamente convertido na enzima pepsina após ser secretado no ambiente ácido do estômago."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_histology_leeds_ac_uk_home_digestive_974fc6",
+    "src_histology_med_cornell_edu_slides_54a_cb01f5",
+    "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b"
+  ],
+  "quizIds": ["q_stomach_lining_1__pt-BR", "q_stomach_lining_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

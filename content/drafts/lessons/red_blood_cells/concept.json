@@ -1,0 +1,80 @@
+{
+  "id": "concept_red_blood_cells",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 1,
+  "tags": ["blood", "cells", "oxygen"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_stomach_lining",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do sangue ao revestimento de um órgão: outro ritmo de renovação.",
+        "en": "From blood to an organ’s lining: another renewal timetable."
+      }
+    },
+    {
+      "conceptId": "concept_seven_year_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Como esse prazo se encaixa na renovação do corpo inteiro?",
+        "en": "How does this lifespan fit into renewal across the whole body?"
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de hemácias passando por um vaso sanguíneo",
+        "en": "Illustration of red blood cells flowing through a blood vessel"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27",
+      "hash": "65e9d288"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de hemácias passando por um vaso sanguíneo",
+        "en": "Illustration of red blood cells flowing through a blood vessel"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27",
+      "hash": "60ae1427"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de quatro hemácias, discos com o centro afundado",
+        "en": "Illustration of four red blood cells, discs with a dip in the middle"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-27"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-27",
+      "hash": "02c7b317"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "lesson_red_blood_cells__en",
+  "conceptId": "concept_red_blood_cells",
+  "locale": "en",
+  "slug": "how-long-does-a-red-blood-cell-live",
+  "title": "How long does a red blood cell live?",
+  "hook": "Your blood is renewing as you read: red blood cells live about four months on average.",
+  "summary": "Red blood cells live about 120 days on average, while bone marrow produces new blood cells.",
+  "cardText": "A red blood cell lives about 120 days on average. Bone marrow makes new cells, keeping blood renewed and oxygen moving through the body.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A red blood cell lives about 120 days on average: roughly four months rather than seven years. As blood cells die, replacements are made in bone marrow, the spongy tissue inside bones. Blood renewal is a continuing process, rather than a single event that replaces everything at once."
+    },
+    {
+      "type": "paragraph",
+      "text": "Red cells carry oxygen with the help of a protein called hemoglobin. Each has a disc shape with a shallow dip on both sides. Mature red cells have no nucleus and can change shape easily, helping them pass through blood vessels. But circulation also damages their membrane and depletes their energy supplies, limiting their lifespan."
+    },
+    {
+      "type": "takeaway",
+      "text": "Red cells live about four months on average; bone marrow keeps producing new blood cells."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Blood has more than one timetable"
+    },
+    {
+      "type": "paragraph",
+      "text": "In bone marrow, stem cells give rise to different blood components. These cells can produce descendants that specialize, including red and white blood cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "White blood cells help defend against infection. Platelets are cell fragments involved in clotting, the process that forms a clot at a wound. These components do not all last equally long: some white cells live less than a day, while others live much longer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Blood is not all cells. More than half its volume is plasma, the liquid part containing water, salts and proteins. Replacing red cells and maintaining that liquid are different aspects of how blood works."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "red-cell",
+    "alt": "Illustration of disc-shaped red blood cells flowing through a blood vessel.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Red blood cells live about 120 days, roughly four months, on average.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "A red blood cell survives an average of 120 days."
+        },
+        {
+          "sourceId": "src_hemoes_es_gov_br_sobre_o_5677a7",
+          "excerpt": "Cada hemácia tem vida média de 120 dias no organismo."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Bone marrow, the spongy tissue inside bones, produces new blood cells.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Bone marrow, the spongy material inside your bones, makes new blood cells."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Blood cells continually die and are replaced by new cells.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Blood cells constantly die and your body makes new ones."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Hemoglobin in red cells is a protein that carries oxygen from the lungs to the body.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Red blood cells contain a special protein called hemoglobin, which helps carry oxygen from the lungs to the rest of the body"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Red cells have a disc shape with a depression on each side.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "The shape of a red blood cell is a biconcave disk with a flattened center -- in other words, both faces of the disk have shallow, bowl-like indentations"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Mature red cells have no nucleus and readily change shape, helping them pass through blood vessels.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Unlike many other cells, red blood cells have no nucleus and can easily change shape, helping them fit through the various blood vessels in the body."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Membrane damage and depleted energy supplies during circulation limit red-cell lifespan.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "it also limits the cell’s lifespan as it travels through the smallest blood vessels, damaging the membrane and depleting its energy supplies."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Bone-marrow stem cells can differentiate into red cells, white cells and platelets.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Blood cells develop from hematopoietic stem cells and are formed in the bone marrow"
+        },
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Hematopoietic stem cells can differentiate into red blood cells, white blood cells, and platelets."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "White cells fight infections; some live less than a day and others much longer.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "White blood cells (WBC) fight infection and are part of your immune system."
+        },
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Some white blood cells live less than a day, but others live much longer."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Platelets are cell fragments that help form clots at wounds.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "platelets are not actually cells but rather small cell fragments."
+        },
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "Platelets help the blood-clotting process (coagulation) by gathering at the site of an injury"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Plasma is the liquid part of blood, contains water, salts and proteins, and accounts for more than half of blood volume.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "The liquid part, called plasma, is made of water, salts, and protein. Over half of your blood is plasma."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_hematology_org_education_patients_blood_basics_816eee",
+    "src_hemoes_es_gov_br_sobre_o_5677a7",
+    "src_medlineplus_gov_blood_html_b9b75e"
+  ],
+  "quizIds": ["q_red_blood_cells_1__en", "q_red_blood_cells_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

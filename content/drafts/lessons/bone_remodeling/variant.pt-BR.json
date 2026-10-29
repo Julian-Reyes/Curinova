@@ -1,0 +1,193 @@
+{
+  "id": "lesson_bone_remodeling__pt-BR",
+  "conceptId": "concept_bone_remodeling",
+  "locale": "pt-BR",
+  "slug": "se-os-ossos-sao-duros-como-se-renovam",
+  "title": "Se os ossos são duros, como se renovam?",
+  "hook": "O esqueleto é uma estrutura viva: há células removendo e formando tecido ósseo.",
+  "summary": "Na remodelação óssea, osteoclastos removem tecido antigo e osteoblastos produzem material que dará origem a novo osso.",
+  "cardText": "Osso é tecido vivo. Células chamadas osteoclastos removem partes antigas; osteoblastos produzem material novo, que depois recebe minerais. Essa remodelação acontece em pontos do esqueleto.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Um osso não é uma pedra guardada dentro do corpo. Ele é tecido vivo, formado por células e por uma estrutura que combina colágeno e minerais. O colágeno oferece flexibilidade; os minerais ajudam a dar dureza e resistência. Essa estrutura está em remodelação, o nome dado à sua renovação contínua."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em pontos do esqueleto, células chamadas osteoclastos removem tecido antigo. Depois, osteoblastos produzem uma nova matriz, o material que vai receber minerais e se tornar osso. Nos adultos jovens saudáveis, as quantidades retiradas e repostas são parecidas. Não é uma troca de todo o esqueleto em um único dia, mas um trabalho localizado de remoção e formação."
+    },
+    {
+      "type": "takeaway",
+      "text": "Osteoclastos removem osso antigo; osteoblastos formam a matriz do novo osso. O esqueleto é tecido vivo em remodelação."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A mesma estrutura tem vários trabalhos"
+    },
+    {
+      "type": "paragraph",
+      "text": "O osso dá sustentação ao corpo e ajuda a proteger órgãos como cérebro, coração e pulmões. Ele também abriga a medula óssea que produz células sanguíneas. O tecido que sustenta o corpo, portanto, faz parte do ambiente onde começa a renovação do sangue."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nem toda região do osso tem o mesmo aspecto. Há uma camada externa compacta e uma região interna menos densa, em forma de rede, chamada osso esponjoso. O osso ainda armazena minerais, como cálcio."
+    },
+    {
+      "type": "paragraph",
+      "text": "A relação entre remover e formar tecido muda ao longo da vida. Em crianças e adolescentes, a formação supera a remoção e os ossos crescem. Nos adultos jovens saudáveis, as duas quantidades ficam aproximadamente equilibradas."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "bone",
+    "alt": "Ilustração de um osso com pequenas células demolindo e reconstruindo sua estrutura.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Osso é tecido vivo em remodelação contínua.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "Bone is made up of living tissue that is constantly changing, a process known as remodeling"
+        },
+        {
+          "sourceId": "src_york_ac_uk_res_bonefromblood_background_f7bed4",
+          "excerpt": "Bone is continuously remodelled at discrete sites in the skeleton in order to maintain the integrity of the tissue."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "No osso, o colágeno fornece flexibilidade e os minerais dão dureza e resistência.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "The mineral makes bone hard and strong while the collagen provides flexibility so that the bone can resist breaking."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Osteoclastos removem osso antigo e osteoblastos secretam a nova matriz óssea.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_york_ac_uk_res_bonefromblood_background_f7bed4",
+          "excerpt": "old bone is resorbed by osteoclasts and replaced with new osteoid, secreted by osteoblasts."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "A nova matriz se mineraliza, formando novo osso.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_york_ac_uk_res_bonefromblood_background_f7bed4",
+          "excerpt": "the matrix then mineralises to generate new bone and this completes the remodelling process."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Em adultos jovens saudáveis, quantidades aproximadamente iguais de osso são removidas e repostas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "In young, healthy adults, about the same amounts of bone are removed and replaced."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Os ossos sustentam o corpo, protegem órgãos e abrigam a medula que produz células sanguíneas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "The skeleton is made of bone to provide a strong framework to support and protect the soft organs (such as the brain, heart, and lungs) from injury."
+        },
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "Bone houses the bone marrow, which makes blood cells."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O osso tem uma camada externa compacta e uma região interna menos densa, em forma de rede, chamada osso esponjoso.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "The dense, hard outer layer is called compact or cortical bone while the inner, less dense, lattice-like bone is called cancellous, trabecular or spongy bone"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "O osso armazena minerais como cálcio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "Bone stores growth factors and minerals such as calcium."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Em crianças e adolescentes, mais osso é formado do que removido, permitindo o crescimento.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "In children and teens, the body adds more bone than it takes away. Bones gradually become larger, heavier, and denser as children grow."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_niams_nih_gov_health_topics_what_0d1ea5",
+    "src_york_ac_uk_res_bonefromblood_background_f7bed4"
+  ],
+  "quizIds": ["q_bone_remodeling_1__pt-BR", "q_bone_remodeling_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

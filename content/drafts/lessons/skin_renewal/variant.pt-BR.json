@@ -1,0 +1,172 @@
+{
+  "id": "lesson_skin_renewal__pt-BR",
+  "conceptId": "concept_skin_renewal",
+  "locale": "pt-BR",
+  "slug": "como-sua-pele-se-renova-sem-desaparecer",
+  "title": "Como sua pele se renova sem desaparecer?",
+  "hook": "A superfície perde células; mais abaixo, novas células entram em cena.",
+  "summary": "Na epiderme, a camada externa da pele, novas células formadas na base substituem as que descamam na superfície.",
+  "cardText": "A pele perde células na superfície e produz novas na base da epiderme. Essa reposição mantém sua camada externa em renovação enquanto ela protege o corpo.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A pele funciona como uma barreira entre o corpo e o mundo, mas sua superfície não é uma cobertura que fica intacta para sempre. Células se soltam naturalmente. A reposição começa na base da epiderme, o nome da camada externa da pele, onde novas células são produzidas para substituir as que saem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao longo desse percurso, as células acumulam queratina, uma proteína. Na camada mais superficial, elas já estão achatadas, mortas e cheias desse material; depois, descamam. A pele se mantém por essa combinação de produção e perda. A renovação descrita aqui é da epiderme: por baixo dela está a derme, com vasos sanguíneos e terminações nervosas."
+    },
+    {
+      "type": "takeaway",
+      "text": "Na epiderme, novas células formadas na base substituem as que descamam na superfície."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Camadas com funções diferentes"
+    },
+    {
+      "type": "paragraph",
+      "text": "A epiderme não tem a mesma espessura em toda parte. Na palma das mãos e na planta dos pés, ela é mais espessa que em muitas outras regiões. Isso não transforma toda a pele em uma única camada: a derme fica abaixo da epiderme."
+    },
+    {
+      "type": "paragraph",
+      "text": "Além de proteger contra o ambiente, a pele ajuda a manter líquidos dentro do corpo e participa da percepção de toque e temperatura. Uma superfície em renovação continua fazendo parte de um órgão com várias funções."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "renewal",
+    "alt": "Ilustração simbólica de uma pessoa com células e setas de renovação.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A epiderme é a camada externa da pele.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "The epidermis is the outer part of the skin."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Novas células formadas na base da epiderme substituem células que descamam na superfície.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "At the bottom of the epidermis, new skin cells form to replace old ones that flake off."
+        },
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "São responsáveis pela constante renovação do epitélio, com intensa atividade mitótica"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Durante a formação da camada mais superficial da epiderme, as células acumulam queratina, uma proteína.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "Aos grânulos de querato-hilaina se combinam com as tonofibrilas, convertendo-as em queratina. Esse processo envolve a decomposição do núcleo e das organelas e o espessamento da membrana celular;"
+        },
+        {
+          "sourceId": "src_medlineplus_gov_genetics_gene_krt1_1865de",
+          "excerpt": "Keratins are a group of tough, fibrous proteins"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "A camada mais superficial da epiderme contém células achatadas, mortas, sem núcleo e cheias de queratina, removidas na descamação.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "Camada superficial de células achatadas, mortas, sem núcleo e sem organelas. Membrana celular bem espessa e citoplasma cheio de queratina. São removidas no processo de descamação natural da pele."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A derme fica abaixo da epiderme e contém vasos sanguíneos e terminações nervosas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "The dermis is the next layer down, hidden under the epidermis. This layer contains blood vessels, nerve endings, and oil and sweat glands."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A epiderme é mais espessa na palma das mãos e na planta dos pés que em outras regiões.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "Há locais, como a palma da mão e a planta dos pés, onde a epiderme é muito mais espessa"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A pele protege o corpo do ambiente, ajuda a reter líquidos e permite perceber toque e temperatura.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "Protects us from the outside world"
+        },
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "Prevents dehydration by keeping fluids inside the body"
+        },
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "Gives a sense of touch, allowing us to sense texture, pressure, and temperature"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_health_nih_gov_health_topics_a_80f050",
+    "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+    "src_medlineplus_gov_genetics_gene_krt1_1865de"
+  ],
+  "quizIds": ["q_skin_renewal_1__pt-BR", "q_skin_renewal_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

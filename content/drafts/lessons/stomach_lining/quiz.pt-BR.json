@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_stomach_lining_1__pt-BR",
+    "questionGroupId": "qg_stomach_lining_1",
+    "conceptId": "concept_stomach_lining",
+    "locale": "pt-BR",
+    "prompt": "O que ajuda a proteger o revestimento do estômago?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Muco protetor e reposição das células superficiais"
+      },
+      {
+        "id": "b",
+        "text": "Ausência de ácido dentro do estômago"
+      },
+      {
+        "id": "c",
+        "text": "Uma parede que nunca perde células"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A superfície produz muco e repõe células rapidamente, mantendo uma barreira diante do suco gástrico.",
+    "claimIds": ["c1", "c2", "c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_stomach_lining_2__pt-BR",
+    "questionGroupId": "qg_stomach_lining_2",
+    "conceptId": "concept_stomach_lining",
+    "locale": "pt-BR",
+    "prompt": "Renovar células superficiais em poucos dias significa trocar o estômago inteiro nesse prazo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não; outras células das glândulas são repostas mais lentamente"
+      },
+      {
+        "id": "b",
+        "text": "Sim; todas as células do órgão têm o mesmo ritmo"
+      },
+      {
+        "id": "c",
+        "text": "Sim; muco e músculo são a mesma coisa"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O prazo se refere às células da superfície. Outras células das glândulas gástricas têm reposição mais lenta.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_skin_renewal_1__en",
+    "questionGroupId": "qg_skin_renewal_1",
+    "conceptId": "concept_skin_renewal",
+    "locale": "en",
+    "prompt": "Where does replacement of shed epidermal cells begin?",
+    "options": [
+      {
+        "id": "a",
+        "text": "At the base of the epidermis, where new cells form"
+      },
+      {
+        "id": "b",
+        "text": "At the surface, where dead cells come back to life"
+      },
+      {
+        "id": "c",
+        "text": "In plasma, which turns into skin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "New cells form at the base of the epidermis to replace those shed from the surface.",
+    "claimIds": ["c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_skin_renewal_2__en",
+    "questionGroupId": "qg_skin_renewal_2",
+    "conceptId": "concept_skin_renewal",
+    "locale": "en",
+    "prompt": "Which description matches the dermis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A layer beneath the epidermis, with vessels and nerve endings"
+      },
+      {
+        "id": "b",
+        "text": "The name for dead cells that flake off"
+      },
+      {
+        "id": "c",
+        "text": "Another name for blood plasma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Surface renewal occurs in the epidermis; the dermis is the layer beneath it and contains vessels and nerve endings.",
+    "claimIds": ["c1", "c2", "c5"],
+    "status": "draft"
+  }
+]

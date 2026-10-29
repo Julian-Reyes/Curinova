@@ -1,0 +1,27 @@
+{
+  "id": "concept_stomach_lining",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 2,
+  "tags": ["digestion", "stomach", "cells"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_skin_renewal",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Da barreira interna do estômago à superfície externa da pele.",
+        "en": "From the stomach’s inner barrier to the skin’s outer surface."
+      }
+    },
+    {
+      "conceptId": "concept_red_blood_cells",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

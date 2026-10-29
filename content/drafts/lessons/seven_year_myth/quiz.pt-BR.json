@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_seven_year_myth_1__pt-BR",
+    "questionGroupId": "qg_seven_year_myth_1",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "pt-BR",
+    "prompt": "Qual comparação explica por que não há uma troca geral do corpo a cada sete anos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Diferentes células duram dias, meses ou décadas"
+      },
+      {
+        "id": "b",
+        "text": "Todas as células vivem exatamente 120 dias"
+      },
+      {
+        "id": "c",
+        "text": "Nenhuma célula é substituída depois do nascimento"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Células superficiais do estômago e hemácias têm reposição rápida, enquanto a pesquisa encontrou neurônios aproximadamente da idade da pessoa.",
+    "claimIds": ["c1", "c2", "c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_seven_year_myth_2__pt-BR",
+    "questionGroupId": "qg_seven_year_myth_2",
+    "conceptId": "concept_seven_year_myth",
+    "locale": "pt-BR",
+    "prompt": "Encontrar neurônios antigos significa que adultos nunca produzem novos neurônios?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não; a formação de neurônios foi observada no hipocampo adulto"
+      },
+      {
+        "id": "b",
+        "text": "Sim; qualquer resultado vale para o cérebro inteiro"
+      },
+      {
+        "id": "c",
+        "text": "Não; todos os neurônios são trocados a cada quatro meses"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os resultados dependem da região e da população celular estudada. Há evidência de formação de neurônios no hipocampo adulto.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  }
+]

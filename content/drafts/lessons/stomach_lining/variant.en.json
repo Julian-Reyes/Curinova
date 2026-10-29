@@ -1,0 +1,181 @@
+{
+  "id": "lesson_stomach_lining__en",
+  "conceptId": "concept_stomach_lining",
+  "locale": "en",
+  "slug": "why-doesnt-your-stomach-digest-itself",
+  "title": "Why doesn’t your stomach digest itself?",
+  "hook": "The surface facing gastric juice combines protection with cell replacement.",
+  "summary": "A mucus barrier, protective secretions and rapid replacement of surface cells help protect the stomach.",
+  "cardText": "The lining produces protective mucus and replaces surface cells within days. Renewal maintains this barrier; it does not replace the whole stomach at once.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "The stomach mixes food with gastric juice containing acid and enzymes that break down proteins. Its surface is not simply left exposed to that mixture. Cells in the lining produce a coating of mucus that helps protect them from acid and digestive enzymes. They also release protective bicarbonate."
+    },
+    {
+      "type": "paragraph",
+      "text": "This barrier needs continuing maintenance. New cells form in the stomach’s glands and move to replace surface cells, which are exchanged within days. That does not mean the entire stomach becomes new every week: other gland cells are replaced more slowly. Protection and replacement work together, with different renewal rates even inside one organ."
+    },
+    {
+      "type": "takeaway",
+      "text": "The stomach maintains its barrier through mucus, protective secretions and rapid renewal of surface cells."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Different cells do different jobs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gastric glands contain specialized cells. Some produce hydrochloric acid; others make pepsinogen, an inactive form converted into the enzyme pepsin in the stomach’s acidic environment. Pepsin helps digest proteins."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stem cells, which can generate specialized descendants, also occur in the glands. Some descendants move toward the surface, while others enter deeper gland regions. These deeper gland cells are replaced more slowly than surface mucus cells."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why describing one “age of the stomach” hides an important distinction: cells with different jobs and positions need not be equally old."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "stomach",
+    "alt": "Illustration of a stomach with a protective layer of mucus between the acid and the wall.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Gastric juice contains hydrochloric acid and pepsin, an enzyme that breaks down proteins.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Gastric juice is secreted by gastric mucosal glands, and contains hydrochloric acid, mucus, and proteolytic enzymes pepsin (which breaks down proteins)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The stomach lining produces a mucus coating that helps protect it from acid and digestive enzymes.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "These cells produce a thick coating of mucus, that protects the gastric mucosa from acid and enzymes in the lumen."
+        },
+        {
+          "sourceId": "src_histology_med_cornell_edu_slides_54a_cb01f5",
+          "excerpt": "These cells produce a thin mucus gel that in larger part constitutes the gastromuscosal barrier."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Surface mucus cells in the stomach secrete protective bicarbonate.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_med_cornell_edu_slides_54a_cb01f5",
+          "excerpt": "Surface mucous cells have short microvilli and secrete protective bicarbonate ions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Surface mucus cells in the stomach are replaced within days.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Even so, these cells have to be replaced after 4-6 days."
+        },
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b",
+          "excerpt": "repor as células mucosas superficiais e da fosseta, que se renova a cada 4-7 dias."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Dividing cells in gastric glands generate cells that move to replenish the surface.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "The isthmus and neck contain dividing cells (stem cells) immature cells and maturing neck mucous cells. The mature cells move up to replace the surface mucous cells."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Other stem-cell descendants move into deeper gland regions and are replaced more slowly than surface mucus cells.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b",
+          "excerpt": "Outras células filhas migram mais profundamente nas glândulas e se diferenciam em células mucosas do colo ou parietais, zimogênicas ou enteroendócrinas. Estas células são repostas muito mais lentamente que as células mucosas superficiais."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Parietal cells in gastric glands produce hydrochloric acid.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Parietal cells make hydrochloric acid"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Pepsinogen is secreted as an inactive precursor and becomes pepsin in the stomach’s acidic environment.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b",
+          "excerpt": "Secretam a enzima inativa pepsinogênio que é rapidamente convertido na enzima pepsina após ser secretado no ambiente ácido do estômago."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_histology_leeds_ac_uk_home_digestive_974fc6",
+    "src_histology_med_cornell_edu_slides_54a_cb01f5",
+    "src_unifal_mg_edu_br_histologiainterativa_sistema_82626b"
+  ],
+  "quizIds": ["q_stomach_lining_1__en", "q_stomach_lining_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

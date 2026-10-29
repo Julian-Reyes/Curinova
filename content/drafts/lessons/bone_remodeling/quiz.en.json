@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_bone_remodeling_1__en",
+    "questionGroupId": "qg_bone_remodeling_1",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "en",
+    "prompt": "What do osteoclasts and osteoblasts do during remodeling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Osteoclasts remove tissue; osteoblasts form new matrix"
+      },
+      {
+        "id": "b",
+        "text": "Both only produce blood cells"
+      },
+      {
+        "id": "c",
+        "text": "Osteoblasts remove calcium and osteoclasts produce mucus"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Removal of old bone is followed by formation of new matrix, which mineralizes.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_bone_remodeling_2__en",
+    "questionGroupId": "qg_bone_remodeling_2",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "en",
+    "prompt": "In healthy young adults, how do bone removal and replacement compare?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The amounts are approximately equal"
+      },
+      {
+        "id": "b",
+        "text": "No bone tissue is removed"
+      },
+      {
+        "id": "c",
+        "text": "The entire skeleton is replaced simultaneously"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Remodeling is continuous and localized; in healthy young adults, removal and replacement are approximately balanced.",
+    "claimIds": ["c1", "c5"],
+    "status": "draft"
+  }
+]

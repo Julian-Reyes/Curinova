@@ -1,0 +1,193 @@
+{
+  "id": "lesson_bone_remodeling__en",
+  "conceptId": "concept_bone_remodeling",
+  "locale": "en",
+  "slug": "if-bones-are-hard-how-do-they-renew-themselves",
+  "title": "If bones are hard, how do they renew themselves?",
+  "hook": "The skeleton is a living structure: cells remove and build bone tissue.",
+  "summary": "During bone remodeling, osteoclasts remove old tissue and osteoblasts make material that becomes new bone.",
+  "cardText": "Bone is living tissue. Cells called osteoclasts remove old areas; osteoblasts make new material, which then mineralizes. This remodeling takes place at sites throughout the skeleton.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A bone is not a stone stored inside the body. It is living tissue, with a structure combining collagen and minerals. Collagen provides flexibility, while minerals help give bone its hardness and strength. This structure undergoes remodeling, the name for its continuing renewal."
+    },
+    {
+      "type": "paragraph",
+      "text": "At sites in the skeleton, cells called osteoclasts remove old tissue. Osteoblasts then produce new matrix, the material that will receive minerals and become bone. In healthy young adults, roughly similar amounts of bone are removed and replaced. This is not an exchange of the whole skeleton on one particular day, but localized work that combines removal and formation."
+    },
+    {
+      "type": "takeaway",
+      "text": "Osteoclasts remove old bone; osteoblasts form the matrix of new bone. The skeleton is living tissue undergoing remodeling."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "One structure, several jobs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bone supports the body and helps protect organs such as the brain, heart and lungs. It also houses the marrow that makes blood cells. The tissue supporting the body is therefore part of the setting where blood renewal begins."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bone does not look the same throughout. It has a compact outer layer and a less dense, lattice-like inner region called spongy bone. It also stores minerals such as calcium."
+    },
+    {
+      "type": "paragraph",
+      "text": "The balance between removing and making tissue changes through life. In children and teenagers, formation exceeds removal as bones grow. In healthy young adults, the two amounts are approximately balanced."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "bone",
+    "alt": "Illustration of a bone with tiny cells taking apart and rebuilding its structure.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bone is living tissue undergoing continuous remodeling.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "Bone is made up of living tissue that is constantly changing, a process known as remodeling"
+        },
+        {
+          "sourceId": "src_york_ac_uk_res_bonefromblood_background_f7bed4",
+          "excerpt": "Bone is continuously remodelled at discrete sites in the skeleton in order to maintain the integrity of the tissue."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "In bone, collagen provides flexibility and minerals give hardness and strength.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "The mineral makes bone hard and strong while the collagen provides flexibility so that the bone can resist breaking."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Osteoclasts remove old bone and osteoblasts secrete new bone matrix.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_york_ac_uk_res_bonefromblood_background_f7bed4",
+          "excerpt": "old bone is resorbed by osteoclasts and replaced with new osteoid, secreted by osteoblasts."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "New matrix mineralizes to form new bone.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_york_ac_uk_res_bonefromblood_background_f7bed4",
+          "excerpt": "the matrix then mineralises to generate new bone and this completes the remodelling process."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "In healthy young adults, approximately equal amounts of bone are removed and replaced.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "In young, healthy adults, about the same amounts of bone are removed and replaced."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Bones support the body, protect organs and house the marrow that produces blood cells.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "The skeleton is made of bone to provide a strong framework to support and protect the soft organs (such as the brain, heart, and lungs) from injury."
+        },
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "Bone houses the bone marrow, which makes blood cells."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Bone has a compact outer layer and a less dense lattice-like inner region called spongy bone.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "The dense, hard outer layer is called compact or cortical bone while the inner, less dense, lattice-like bone is called cancellous, trabecular or spongy bone"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Bone stores minerals such as calcium.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "Bone stores growth factors and minerals such as calcium."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "In children and teenagers, more bone is formed than removed, allowing growth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_niams_nih_gov_health_topics_what_0d1ea5",
+          "excerpt": "In children and teens, the body adds more bone than it takes away. Bones gradually become larger, heavier, and denser as children grow."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_niams_nih_gov_health_topics_what_0d1ea5",
+    "src_york_ac_uk_res_bonefromblood_background_f7bed4"
+  ],
+  "quizIds": ["q_bone_remodeling_1__en", "q_bone_remodeling_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}

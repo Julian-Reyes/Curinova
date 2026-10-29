@@ -1,0 +1,32 @@
+{
+  "id": "cluster_body_renews",
+  "topicId": "body",
+  "slug": {
+    "pt-BR": "o-corpo-que-se-renova",
+    "en": "the-body-that-renews-itself"
+  },
+  "title": {
+    "pt-BR": "O corpo que se renova",
+    "en": "The body that renews itself"
+  },
+  "hook": {
+    "pt-BR": "Seu corpo se reconstrói em ritmos diferentes. Algumas células acompanham você por décadas.",
+    "en": "Your body rebuilds itself at different speeds. Some cells stay with you for decades."
+  },
+  "conceptIds": [
+    "concept_red_blood_cells",
+    "concept_stomach_lining",
+    "concept_skin_renewal",
+    "concept_bone_remodeling",
+    "concept_seven_year_myth"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_how_memory_works",
+      "reason": {
+        "pt-BR": "Da duração das células às perguntas sobre como formamos memórias.",
+        "en": "From cell lifespans to questions about how we form memories."
+      }
+    }
+  ]
+}

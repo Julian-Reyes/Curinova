@@ -1,0 +1,27 @@
+{
+  "id": "concept_skin_renewal",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 3,
+  "tags": ["skin", "cells", "renewal"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_bone_remodeling",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Até uma estrutura dura como o osso passa por renovação.",
+        "en": "Even a hard structure such as bone undergoes renewal."
+      }
+    },
+    {
+      "conceptId": "concept_stomach_lining",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

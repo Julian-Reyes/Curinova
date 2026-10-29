@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_bone_remodeling_1__pt-BR",
+    "questionGroupId": "qg_bone_remodeling_1",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "pt-BR",
+    "prompt": "Qual é o papel dos osteoclastos e dos osteoblastos na remodelação?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Osteoclastos removem tecido; osteoblastos formam nova matriz"
+      },
+      {
+        "id": "b",
+        "text": "Ambos produzem apenas células sanguíneas"
+      },
+      {
+        "id": "c",
+        "text": "Osteoblastos retiram cálcio e osteoclastos produzem muco"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A remoção de osso antigo é seguida pela formação de matriz nova, que recebe minerais.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_bone_remodeling_2__pt-BR",
+    "questionGroupId": "qg_bone_remodeling_2",
+    "conceptId": "concept_bone_remodeling",
+    "locale": "pt-BR",
+    "prompt": "Em adultos jovens saudáveis, como se comparam a remoção e a reposição de osso?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As quantidades são aproximadamente iguais"
+      },
+      {
+        "id": "b",
+        "text": "Nenhum tecido ósseo é removido"
+      },
+      {
+        "id": "c",
+        "text": "Todo o esqueleto é substituído simultaneamente"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A remodelação é contínua e localizada; nos adultos jovens saudáveis, retirada e reposição ficam aproximadamente equilibradas.",
+    "claimIds": ["c1", "c5"],
+    "status": "draft"
+  }
+]

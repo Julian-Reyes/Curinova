@@ -1,0 +1,172 @@
+{
+  "id": "lesson_skin_renewal__en",
+  "conceptId": "concept_skin_renewal",
+  "locale": "en",
+  "slug": "how-does-your-skin-renew-itself-without-disappearing",
+  "title": "How does your skin renew itself without disappearing?",
+  "hook": "The surface sheds cells; farther down, new cells enter the picture.",
+  "summary": "In the epidermis, the skin’s outer layer, new cells formed at the base replace those shed at the surface.",
+  "cardText": "Skin sheds surface cells and makes new ones at the base of the epidermis. This replacement renews its outer layer while it protects the body.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Skin acts as a barrier between the body and the outside world, but its surface is not a covering that stays intact forever. Cells naturally flake off. Replacement begins at the base of the epidermis, the name of the skin’s outer layer, where new cells form to replace those being shed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Along this route, cells accumulate a protein called keratin. In the outermost layer they are flattened, dead and filled with this material; they then flake away. Skin is maintained through this combination of production and loss. This describes renewal of the epidermis: beneath it lies the dermis, containing blood vessels and nerve endings."
+    },
+    {
+      "type": "takeaway",
+      "text": "In the epidermis, new cells formed at the base replace those shed at the surface."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Layers with different jobs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The epidermis is not equally thick everywhere. It is thicker on the palms and soles than in many other places. That does not turn the whole skin into one layer: the dermis lies beneath the epidermis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Along with protection from the environment, skin helps keep fluids inside the body and contributes to sensing touch and temperature. A renewing surface remains part of an organ with several jobs."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "renewal",
+    "alt": "Symbolic illustration of a person with cells and renewal arrows.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The epidermis is the outer layer of skin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "The epidermis is the outer part of the skin."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "New cells formed at the base of the epidermis replace cells shed at the surface.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "At the bottom of the epidermis, new skin cells form to replace old ones that flake off."
+        },
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "São responsáveis pela constante renovação do epitélio, com intensa atividade mitótica"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "As the outermost epidermal layer forms, its cells accumulate keratin, a protein.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "Aos grânulos de querato-hilaina se combinam com as tonofibrilas, convertendo-as em queratina. Esse processo envolve a decomposição do núcleo e das organelas e o espessamento da membrana celular;"
+        },
+        {
+          "sourceId": "src_medlineplus_gov_genetics_gene_krt1_1865de",
+          "excerpt": "Keratins are a group of tough, fibrous proteins"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The outermost epidermal layer contains flattened dead cells without nuclei, filled with keratin and removed by shedding.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "Camada superficial de células achatadas, mortas, sem núcleo e sem organelas. Membrana celular bem espessa e citoplasma cheio de queratina. São removidas no processo de descamação natural da pele."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The dermis lies below the epidermis and contains blood vessels and nerve endings.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "The dermis is the next layer down, hidden under the epidermis. This layer contains blood vessels, nerve endings, and oil and sweat glands."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The epidermis is thicker on the palms and soles than in other regions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+          "excerpt": "Há locais, como a palma da mão e a planta dos pés, onde a epiderme é muito mais espessa"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Skin protects the body from the environment, helps retain fluids, and enables sensing touch and temperature.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "Protects us from the outside world"
+        },
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "Prevents dehydration by keeping fluids inside the body"
+        },
+        {
+          "sourceId": "src_health_nih_gov_health_topics_a_80f050",
+          "excerpt": "Gives a sense of touch, allowing us to sense texture, pressure, and temperature"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_health_nih_gov_health_topics_a_80f050",
+    "src_unifal_mg_edu_br_histologiainterativa_pele_9dc612",
+    "src_medlineplus_gov_genetics_gene_krt1_1865de"
+  ],
+  "quizIds": ["q_skin_renewal_1__en", "q_skin_renewal_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-29T00:00:00Z"
+}
