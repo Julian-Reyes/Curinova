@@ -1,0 +1,278 @@
+{
+  "id": "lesson_altitude_boiling__pt-BR",
+  "conceptId": "concept_altitude_boiling",
+  "locale": "pt-BR",
+  "slug": "por-que-a-agua-ferve-antes-no-alto-da-montanha",
+  "title": "Por que a água ferve antes no alto da montanha?",
+  "hook": "Em La Paz, a água ferve perto de 88 °C. E o feijão demora muito mais.",
+  "summary": "Com menos pressão do ar, a água ferve a temperaturas mais baixas: ferve antes, mas cozinha mais devagar.",
+  "cardText": "No alto, há menos ar pressionando a água, então ela ferve a uma temperatura mais baixa: perto de 88 °C em La Paz. Ferve antes, mas cozinha mais devagar.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Ao nível do mar, a água ferve a 100 °C. Em La Paz, na Bolívia, a cerca de 3.650 metros de altitude, ela ferve perto de 88 °C. A razão é a pressão do ar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ferver é formar bolhas de vapor dentro do líquido, e isso só acontece quando a pressão do vapor da água iguala a pressão do ar em cima dela. Lá no alto há menos ar empurrando, então isso acontece a uma temperatura mais baixa. Resultado: a água ferve mais cedo, mas cozinha mais devagar, porque nunca fica tão quente. O feijão, por exemplo, demora bem mais para ficar pronto."
+    },
+    {
+      "type": "takeaway",
+      "text": "Menos pressão do ar, ponto de ebulição mais baixo: a água ferve antes e cozinha mais devagar."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A panela de pressão faz o contrário"
+    },
+    {
+      "type": "paragraph",
+      "text": "A panela de pressão prende o vapor e aumenta a pressão lá dentro. Com mais pressão, a água só ferve acima de 100 °C, em geral perto de 120 °C. Esses 20 graus a mais reduzem bastante o tempo de cozimento. No Brasil, um dos maiores consumidores de feijão do mundo, ele é tradicionalmente preparado na panela de pressão."
+    },
+    {
+      "type": "paragraph",
+      "text": "No topo do Monte Everest, a quase 8.850 metros, a água ferve por volta de 70 °C, fria demais para um ovo ficar cozido duro. Por mais que se espere, a clara nunca firma por completo: sua principal proteína só endurece por volta de 80 °C. A gema, sim, endurece."
+    },
+    {
+      "type": "paragraph",
+      "text": "Receitas de bolo e pão para grandes altitudes costumam ajustar ingredientes e temperatura do forno, porque líquidos evaporam mais rápido e o fermento age de forma diferente."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "mountain-pot",
+    "alt": "Ilustração de uma montanha com uma panela fervendo no topo e um termômetro marcando menos de 100 °C.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ao nível do mar, a água ferve a 100 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
+          "excerpt": "limits the cooking temperature of wet foods to 100 °C / 212 °F (at sea level"
+        },
+        {
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "At sea level, water boils at 212 °F."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Em La Paz, na Bolívia, a cerca de 3.650 metros de altitude, a água ferve perto de 88 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_rmets_org_metmatters_travellers_guide_la_e5592b",
+          "excerpt": "The city has the highest elevation of any government city in the world, at an altitude of 3,650m."
+        },
+        {
+          "sourceId": "src_rmets_org_metmatters_travellers_guide_la_e5592b",
+          "excerpt": "with water boiling at 88°C (190F) in La Paz."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A água ferve quando a pressão do vapor nas bolhas iguala a pressão do ar sobre ela.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+          "excerpt": "The boiling point is the temperature at which the vapor pressure of a liquid is equal to the external pressure."
+        },
+        {
+          "sourceId": "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+          "excerpt": "When the vapor pressure inside the bubbles is equal to the external atmospheric pressure, the bubbles rise to the surface of the liquid and burst."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Com menos pressão do ar em grandes altitudes, a água ferve a uma temperatura mais baixa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "As atmospheric pressure decreases, water boils at lower temperatures."
+        },
+        {
+          "sourceId": "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+          "excerpt": "Because atmospheric pressure can change based on location, the boiling point of a liquid changes with the external pressure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Como a água fervente fica menos quente, o cozimento demora mais; o feijão, por exemplo, leva mais tempo para cozinhar no alto.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "Because water boils at a lower temperature at higher elevations, foods that are prepared by boiling or simmering will cook at a lower temperature, and it will take longer to cook."
+        },
+        {
+          "sourceId": "src_extension_colostate_edu_routt_resource_high_4748bc",
+          "excerpt": "Staple items, such as potatoes and beans, do not cook in the same timeframe as in low altitudes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A panela de pressão prende o vapor, o que aumenta a pressão interna e, com ela, o ponto de ebulição, para perto de 120 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
+          "excerpt": "It works by capturing the steam that, as it builds up, increases the pressure in the vessel. The pressure increase in turn raises the boiling point of water"
+        },
+        {
+          "sourceId": "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
+          "excerpt": "At these elevated pressures, water boils at 114 °C or 121 °C / 237 °F or 250 °F, respectively."
+        },
+        {
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "No matter how high the cooking temperature, water cannot exceed its own boiling point — unless if using a pressure cooker."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A água mais quente reduz bastante o tempo de cozimento.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
+          "excerpt": "as high as 120 °C / 250 °F — the cooking time can drop substantially."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "O Brasil é um dos maiores consumidores de feijão do mundo, e o feijão é tradicionalmente preparado na panela de pressão.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_band_com_br_receitas_noticias_panela_830318",
+          "excerpt": "o Brasil é um dos maiores consumidores de feijão do mundo, alimento que tradicionalmente é preparado na panela de pressão."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "No topo do Monte Everest, a quase 8.850 metros, a água ferve por volta de 70 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+          "excerpt": "Mount Everest in the Himalayan range, on the border between China and Nepal, is the highest point on the earth."
+        },
+        {
+          "sourceId": "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+          "excerpt": "the boiling point on top of Mount Everest is only about \\(70^\\text{o} \\text{C}\\)."
+        },
+        {
+          "sourceId": "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+          "excerpt": "At 29,029 feet \\(\\left( 8848 \\: \\text{m} \\right)\\)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Por volta de 70 °C a clara nunca firma por completo, porque sua principal proteína, a ovalbumina, precisa de uns 80 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_edinformatics_com_math_science_science_of_1651d9",
+          "excerpt": "The major protein of egg white, ovalbumin, makes up 54% of the white and doesn't coagulate until the temperature reaches 80 °C."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_boiled_egg_0e3203",
+          "excerpt": "which is cooked at a constant temperature of 70 °C (158 °F) as is present in hot springs of Japan, producing an egg with solid yolk and sol-like white."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "A gema endurece por volta de 70 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_boiled_egg_0e3203",
+          "excerpt": "egg yolks thicken at the slightly higher temperature of 65 °C (149 °F), solidifying at 70 °C (158 °F)."
+        },
+        {
+          "sourceId": "src_edinformatics_com_math_science_science_of_1651d9",
+          "excerpt": "The yolk proteins begin to thicken at 65 °C and set at 70 °C."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Receitas para grandes altitudes costumam precisar de ajustes, porque os líquidos evaporam mais rápido e os gases do fermento se expandem mais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "At altitudes above 3,000 feet, preparation of food may require changes in time, temperature or recipe."
+        },
+        {
+          "sourceId": "src_fsis_usda_gov_food_safety_safe_7fbd98",
+          "excerpt": "Water and other liquids evaporate faster and boil at lower temperatures. Leavening gases in breads and cakes expand more."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_modernistcuisine_com_mc_how_pressure_cookers_6fdc71",
+    "src_fsis_usda_gov_food_safety_safe_7fbd98",
+    "src_rmets_org_metmatters_travellers_guide_la_e5592b",
+    "src_chem_libretexts_org_bookshelves_introductory_chemistry_68f964",
+    "src_extension_colostate_edu_routt_resource_high_4748bc",
+    "src_band_com_br_receitas_noticias_panela_830318",
+    "src_edinformatics_com_math_science_science_of_1651d9",
+    "src_en_wikipedia_org_wiki_boiled_egg_0e3203"
+  ],
+  "quizIds": ["q_altitude_boiling_1__pt-BR", "q_altitude_boiling_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_kitchen_chemistry"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

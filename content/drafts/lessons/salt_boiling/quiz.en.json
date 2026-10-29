@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_salt_boiling_1__en",
+    "questionGroupId": "qg_salt_boiling_1",
+    "conceptId": "concept_salt_boiling",
+    "locale": "en",
+    "prompt": "How much does a tablespoon of salt in a few liters of water change the boiling point?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By well under 1 °C"
+      },
+      {
+        "id": "b",
+        "text": "By about 10 °C"
+      },
+      {
+        "id": "c",
+        "text": "It lowers it by 5 °C"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Salt does raise the boiling point, but at cooking amounts only by a fraction of a degree.",
+    "misconception": "Salt does not make water boil faster. If anything, it delays boiling by an unnoticeable moment.",
+    "claimIds": ["c1", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_salt_boiling_2__en",
+    "questionGroupId": "qg_salt_boiling_2",
+    "conceptId": "concept_salt_boiling",
+    "locale": "en",
+    "prompt": "Why does hot water fizz when you add salt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The grains give steam bubbles easy places to form"
+      },
+      {
+        "id": "b",
+        "text": "Salt reacts chemically and releases gas"
+      },
+      {
+        "id": "c",
+        "text": "Salt instantly heats the water"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Solid grains act as nucleation sites, helping bubbles form in water that was already nearly boiling.",
+    "claimIds": ["c4", "c10"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,292 @@
+{
+  "id": "lesson_maillard_reaction__en",
+  "conceptId": "concept_maillard_reaction",
+  "locale": "en",
+  "slug": "why-do-bread-steak-and-coffee-turn-brown",
+  "title": "Why do bread, steak and coffee turn brown and smell so good?",
+  "hook": "A bread crust, a seared steak and roasted coffee share the same chemistry.",
+  "summary": "In the Maillard reaction, amino acids and sugars under high, dry heat create hundreds of color and aroma molecules.",
+  "cardText": "It’s the Maillard reaction. Under high, dry heat, amino acids and sugars form hundreds of new molecules that brown the surface and create the aroma.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Bread crust, the sear on a steak and the aroma of roasted coffee have a common origin: the Maillard reaction, described by the French chemist Louis-Camille Maillard in 1912. When food is heated, amino acids, the building blocks of proteins, react with certain sugars and form hundreds of new molecules responsible for the brown color and many of the aromas."
+    },
+    {
+      "type": "paragraph",
+      "text": "The reaction speeds up sharply above about 140 °C. That is why boiled meat never browns: as long as there is water, the surface stays near 100 °C. To brown food, you need a dry surface and high heat."
+    },
+    {
+      "type": "takeaway",
+      "text": "Amino acids and sugars, under high and dry heat, create the color and aroma of browning."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Maillard is not caramel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Caramelization is a different reaction: it involves only sugars, no proteins, and for table sugar it starts at even higher temperatures. Slowly browned onions and dulce de leche involve both reactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "An alkaline environment speeds up the Maillard reaction. That is why pretzels are dipped in an alkaline solution before baking, which deepens the brown of their crust."
+    },
+    {
+      "type": "paragraph",
+      "text": "Patting meat dry before it goes into the pan, and not crowding the pan so water evaporates quickly, both help the surface reach reaction temperature."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "maillard",
+    "alt": "Illustration of a golden loaf of bread and a cup of coffee with aroma molecules rising.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Maillard reaction was first described by the French chemist Louis-Camille Maillard in 1912.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencefocus_com_science_what_is_the_a35703",
+          "excerpt": "French chemist LouisCamille Maillard first reported the reaction between proteins and sugars in 1912."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "It is named after French chemist Louis Camille Maillard, who first described it in 1912 while attempting to reproduce biological protein synthesis."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "When food is heated, amino acids, the building blocks of proteins, react with sugars and form hundreds of new molecules.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencefocus_com_science_what_is_the_a35703",
+          "excerpt": "When heat hits food, sugars react with the amino acids that make up proteins to form glycosylamine."
+        },
+        {
+          "sourceId": "src_sciencefocus_com_science_what_is_the_a35703",
+          "excerpt": "setting off a cascade of further reactions to produce hundreds of new substances, some of which contribute to flavour and aroma."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "These molecules give browned foods such as bread crust, seared steak and roasted coffee their brown color and many of their aromas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencefocus_com_science_what_is_the_a35703",
+          "excerpt": "Finally, the reaction creates large polymer molecules called melanoidins,which give a brown colour."
+        },
+        {
+          "sourceId": "src_sciencefocus_com_science_what_is_the_a35703",
+          "excerpt": "The reactions produce flavour chemicals and browning in foods including fried onions, toast, steak and roasted coffee."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "It contributes to the darkened crust of baked goods"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The reaction speeds up sharply from about 140 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "The reaction is a form of non-enzymatic browning which typically proceeds rapidly from around 140 to 165 °C (280 to 330 °F)."
+        },
+        {
+          "sourceId": "src_ricardocuisine_com_en_articles_food_chemistry_bacde3",
+          "excerpt": "In fact, it happens starting around 150 °C (300 °F), well beyond the boiling point of water"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Boiled meat does not brown, because while there is water the surface stays near 100 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cooksinfo_com_maillard_reaction_d5db3e",
+          "excerpt": "Meat in boiling water won’t get hotter than the boiling point of water, 100 C / 212 F, which is why boiled meat doesn’t brown."
+        },
+        {
+          "sourceId": "src_ricardocuisine_com_en_articles_food_chemistry_bacde3",
+          "excerpt": "This is why boiled meat does not brown."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Browning needs a dry surface and high heat.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cooksinfo_com_maillard_reaction_d5db3e",
+          "excerpt": "water cannot be present, because water lowers the highest temperature that is possible."
+        },
+        {
+          "sourceId": "src_ricardocuisine_com_en_articles_food_chemistry_bacde3",
+          "excerpt": "The bottom of the pan is still hot and dry, which allows the Maillard reaction to do its job."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Caramelization is a different reaction that involves only sugars, not amino acids.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_caramelization_8e6b28",
+          "excerpt": "Unlike the Maillard reaction, caramelization is pyrolytic, as opposed to being a reaction with amino acids."
+        },
+        {
+          "sourceId": "src_cooksinfo_com_maillard_reaction_d5db3e",
+          "excerpt": "A Maillard Reaction is not the same as Caramelization; Caramelization is just sugar on its own breaking down."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Table sugar (sucrose) caramelizes at higher temperatures than the Maillard reaction needs.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_caramelization_8e6b28",
+          "excerpt": "Sucrose 170 °C (338 °F)"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "The reaction is a form of non-enzymatic browning which typically proceeds rapidly from around 140 to 165 °C (280 to 330 °F)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Slowly browned onions and dulce de leche involve both reactions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "the browning and umami taste in fried onions and coffee roasting"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "the color and taste of dried and condensed milk, dulce de leche"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_caramelization_8e6b28",
+          "excerpt": "Caramelized onions, which are used in dishes like French onion soup."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_caramelization_8e6b28",
+          "excerpt": "Confiture de lait and dulce de leche, caramelized, sweetened milk"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "An alkaline environment speeds up the Maillard reaction.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "This process is accelerated in an alkaline environment (e.g., lye applied to darken pretzels; see lye roll)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Pretzels are dipped in an alkaline solution before baking, which deepens the brown of their crust.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_kunc_org_2014_08_09_for_26d1f5",
+          "excerpt": "Traditional Bavarian pretzels are dipped in a lye solution before they are baked."
+        },
+        {
+          "sourceId": "src_kunc_org_2014_08_09_for_26d1f5",
+          "excerpt": "That's because that bath was actually a caustic alkaline solution."
+        },
+        {
+          "sourceId": "src_kunc_org_2014_08_09_for_26d1f5",
+          "excerpt": "In the case of the pretzel, the Maillard reaction is responsible for the deep brown crust"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+          "excerpt": "lye applied to darken pretzels"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Removing surface water and not crowding the pan help the meat’s surface reach browning temperature.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cooksinfo_com_maillard_reaction_d5db3e",
+          "excerpt": "water cannot be present, because water lowers the highest temperature that is possible."
+        },
+        {
+          "sourceId": "src_ricardocuisine_com_en_articles_food_chemistry_bacde3",
+          "excerpt": "The surface of the meat will not reach the temperature required to trigger the Maillard reaction if the pan is not hot enough and is overcrowded with meat."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_sciencefocus_com_science_what_is_the_a35703",
+    "src_en_wikipedia_org_wiki_maillard_reaction_68e85a",
+    "src_ricardocuisine_com_en_articles_food_chemistry_bacde3",
+    "src_cooksinfo_com_maillard_reaction_d5db3e",
+    "src_en_wikipedia_org_wiki_caramelization_8e6b28",
+    "src_kunc_org_2014_08_09_for_26d1f5"
+  ],
+  "quizIds": ["q_maillard_reaction_1__en", "q_maillard_reaction_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_kitchen_chemistry"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-28T00:00:00Z"
+}

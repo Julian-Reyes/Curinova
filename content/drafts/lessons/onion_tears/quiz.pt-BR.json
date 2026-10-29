@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_onion_tears_1__pt-BR",
+    "questionGroupId": "qg_onion_tears_1",
+    "conceptId": "concept_onion_tears",
+    "locale": "pt-BR",
+    "prompt": "O que faz a cebola liberar o gás que irrita os olhos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cortar as células, misturando compostos que estavam separados"
+      },
+      {
+        "id": "b",
+        "text": "O contato com o ar, mesmo com a cebola inteira"
+      },
+      {
+        "id": "c",
+        "text": "O calor da faca"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Enquanto as células estão intactas, os compostos de enxofre e as enzimas ficam separados. A faca os mistura e a reação começa.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_onion_tears_2__pt-BR",
+    "questionGroupId": "qg_onion_tears_2",
+    "conceptId": "concept_onion_tears",
+    "locale": "pt-BR",
+    "prompt": "Como cortar a cebola para espirrar menos gotículas que irritam os olhos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Usar faca afiada e cortar devagar"
+      },
+      {
+        "id": "b",
+        "text": "Usar faca cega e cortar rápido"
+      },
+      {
+        "id": "c",
+        "text": "Gelar a cebola antes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Num estudo de 2025, lâminas cegas e cortes rápidos espirraram mais gotículas. Cebolas geladas também soltaram mais gotículas, e não menos.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  }
+]

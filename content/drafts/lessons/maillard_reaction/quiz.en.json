@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_maillard_reaction_1__en",
+    "questionGroupId": "qg_maillard_reaction_1",
+    "conceptId": "concept_maillard_reaction",
+    "locale": "en",
+    "prompt": "Why doesn’t boiled meat turn brown?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water keeps the surface near 100 °C, below what the reaction needs"
+      },
+      {
+        "id": "b",
+        "text": "Water dissolves the meat’s proteins"
+      },
+      {
+        "id": "c",
+        "text": "Boiled meat has no sugar left"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "While water is present, the temperature barely rises above 100 °C. The Maillard reaction only really speeds up above about 140 °C.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_maillard_reaction_2__en",
+    "questionGroupId": "qg_maillard_reaction_2",
+    "conceptId": "concept_maillard_reaction",
+    "locale": "en",
+    "prompt": "What is the difference between the Maillard reaction and caramelization?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Maillard involves amino acids and sugars; caramelization involves only sugars"
+      },
+      {
+        "id": "b",
+        "text": "They are the same reaction under two names"
+      },
+      {
+        "id": "c",
+        "text": "Caramelization only happens in coffee"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Both produce color and flavor, but caramelization needs no proteins, while the Maillard reaction does.",
+    "claimIds": ["c2", "c7"],
+    "status": "draft"
+  }
+]

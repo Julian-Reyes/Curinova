@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_maillard_reaction_1__pt-BR",
+    "questionGroupId": "qg_maillard_reaction_1",
+    "conceptId": "concept_maillard_reaction",
+    "locale": "pt-BR",
+    "prompt": "Por que carne cozida em água não fica dourada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A água mantém a superfície perto de 100 °C, abaixo do ideal para a reação"
+      },
+      {
+        "id": "b",
+        "text": "A água dissolve as proteínas da carne"
+      },
+      {
+        "id": "c",
+        "text": "Falta açúcar na carne cozida"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Enquanto há água, a temperatura não passa muito de 100 °C. A reação de Maillard só acelera de verdade acima de uns 140 °C.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_maillard_reaction_2__pt-BR",
+    "questionGroupId": "qg_maillard_reaction_2",
+    "conceptId": "concept_maillard_reaction",
+    "locale": "pt-BR",
+    "prompt": "Qual é a diferença entre a reação de Maillard e a caramelização?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Maillard envolve aminoácidos e açúcares; a caramelização, só açúcares"
+      },
+      {
+        "id": "b",
+        "text": "São a mesma reação com nomes diferentes"
+      },
+      {
+        "id": "c",
+        "text": "A caramelização só acontece no café"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As duas produzem cor e sabor, mas a caramelização não precisa de proteínas, e a reação de Maillard sim.",
+    "claimIds": ["c2", "c7"],
+    "status": "draft"
+  }
+]

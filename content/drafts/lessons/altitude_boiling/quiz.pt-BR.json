@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_altitude_boiling_1__pt-BR",
+    "questionGroupId": "qg_altitude_boiling_1",
+    "conceptId": "concept_altitude_boiling",
+    "locale": "pt-BR",
+    "prompt": "Por que a água ferve abaixo de 100 °C em La Paz?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A pressão do ar é menor em grandes altitudes"
+      },
+      {
+        "id": "b",
+        "text": "O ar é mais frio lá em cima"
+      },
+      {
+        "id": "c",
+        "text": "A água de lá tem menos sal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Com menos ar pressionando a superfície, a água forma bolhas de vapor a uma temperatura mais baixa, perto de 88 °C.",
+    "misconception": "O frio não muda o ponto de ebulição; o que muda é a pressão. Mesmo num dia quente, a água fervendo em La Paz está perto de 88 °C.",
+    "claimIds": ["c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_altitude_boiling_2__pt-BR",
+    "questionGroupId": "qg_altitude_boiling_2",
+    "conceptId": "concept_altitude_boiling",
+    "locale": "pt-BR",
+    "prompt": "Como a panela de pressão cozinha mais rápido?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ela aumenta a pressão e faz a água ferver acima de 100 °C"
+      },
+      {
+        "id": "b",
+        "text": "Ela faz a água ferver abaixo de 100 °C"
+      },
+      {
+        "id": "c",
+        "text": "Ela concentra o calor do fogo em um único ponto"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A pressão maior eleva o ponto de ebulição para perto de 120 °C, e essa água mais quente cozinha mais depressa.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

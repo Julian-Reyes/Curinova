@@ -1,0 +1,27 @@
+{
+  "id": "concept_salt_boiling",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_kitchen_chemistry",
+  "clusterOrder": 3,
+  "tags": ["chemistry", "cooking", "water"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_altitude_boiling",
+      "type": "next",
+      "reason": {
+        "pt-BR": "O que realmente muda o ponto de ebulição: a pressão do ar.",
+        "en": "What really changes the boiling point: air pressure."
+      }
+    },
+    {
+      "conceptId": "concept_maillard_reaction",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que a água em ebulição nunca doura nada.",
+        "en": "Why boiling water never browns anything."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}
