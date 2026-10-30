@@ -251,6 +251,16 @@ Plan: `/Users/apple/.claude/plans/iterative-swinging-rabin.md` (approved). Found
 - **Content loading (D16): split files, loaded by language.** Done in session 1: `pnpm content:build` writes `apps/web/public/content/` (manifest, hashed index, one file per topic and locale, a separate image list); the app loads only the learner's language and fetches the other on a language switch; the service worker checks the manifest online first and caches hashed files. The build runs before every app build and on content changes in dev, replacing the bundled `virtual:lumen-content` module (B2). First visit today: about 29 KB compressed (budget 350 KB; over budget → load topics on demand).
 - **New dev dependencies (approved):** `@mozilla/readability`, `jsdom`, `robots-parser` in `tools/content-pipeline`.
 
+### D20 · M3 review tool `/_review` — Founder (2026-10-30)
+
+Plan: [`docs/M3_REVIEW_TOOL_PLAN.md`](M3_REVIEW_TOOL_PLAN.md) (approved).
+
+- **English only.** The tool is for the founder, so `apps/web/app/dev/**` is exempt from the i18n lint rule and its strings stay out of the locale files. Deviation from the "no hard-coded strings" rule, limited to the dev-only tool.
+- **Reviewer:** `reviewedBy` is `Julian` on reviewed lessons and in `content/review-log.jsonl` (committed; the repository is public).
+- **Approve and publish are separate.** Approving moves a variant to `content/lessons/` as reviewed; publishing stays blocked while `contentLicense` is `pending` (P2 open).
+- **Image accuracy review comes later**, not in this build.
+- **No outline-approval screen** (deviation from the D18 plan): trail outlines are approved in chat and recorded in `docs/content/`.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.
