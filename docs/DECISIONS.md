@@ -13,7 +13,7 @@ These are open and **do not block** M1/M2. They must be settled before the publi
 | #       | Decision                                                                                                                               | Spec     | Notes                                                                                                                                                                                                                      |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | P1      | Final product name and trademark clearance                                                                                             | §0.1     | Working title is now **Curinova** (2026-10-26). Before launch, check INPI (classes 9 and 41), USPTO, app stores, registro.br, .com/.app. Renaming is cheap by design (see "Renaming the product").                         |
-| P2      | License all lesson text CC BY-SA 4.0?                                                                                                  | §5.6     | Until decided, drafts carry `contentLicense: "pending"`, and the validator blocks publishing anything "pending".                                                                                                           |
+| ~~P2~~  | ~~License all lesson text CC BY-SA 4.0?~~                                                                                              | §5.6     | **Resolved 2026-10-30 → D21** (all rights reserved).                                                                                                                                                                       |
 | P3      | LGPD legal basis for aggregate analytics (legitimate interest vs consent); is a formal _encarregado_ (data protection officer) needed? | §13, §14 | Analytics are M4.                                                                                                                                                                                                          |
 | P4      | ECA Digital (Lei 15.211/2025) age policy                                                                                               | §14      | Needed before launch and before accounts (P1).                                                                                                                                                                             |
 | P5      | Final domain → Capacitor appId / bundle ID                                                                                             | §9.4     | **TODO (M6+, Android):** the appId becomes permanent once published to the Play Store. Use a reverse-domain ID of the final domain with the codename, e.g. `<tld>.<domain>.lumen`. Never use the placeholder display name. |
@@ -264,9 +264,17 @@ Plan: [`docs/M3_REVIEW_TOOL_PLAN.md`](M3_REVIEW_TOOL_PLAN.md) (approved).
 
 - **English only.** The tool is for the founder, so `apps/web/app/dev/**` is exempt from the i18n lint rule and its strings stay out of the locale files. Deviation from the "no hard-coded strings" rule, limited to the dev-only tool.
 - **Reviewer:** `reviewedBy` is `Julian` on reviewed lessons and in `content/review-log.jsonl` (committed; the repository is public).
-- **Approve and publish are separate.** Approving moves a variant to `content/lessons/` as reviewed; publishing stays blocked while `contentLicense` is `pending` (P2 open).
+- **Approve and publish are separate.** Approving moves a variant to `content/lessons/` as reviewed and sets its license (D21); publishing is a separate action.
 - **Image accuracy review comes later**, not in this build.
 - **No outline-approval screen** (deviation from the D18 plan): trail outlines are approved in chat and recorded in `docs/content/`.
+
+### D21 · Lesson text license: all rights reserved — Founder (2026-10-30)
+
+Resolves P2 (§5.6). Lesson text is **all rights reserved** (`contentLicense: "all-rights-reserved"`), not CC BY-SA 4.0.
+
+- **Original prose only.** Lessons never adapt Wikipedia text (CC BY-SA) or any other source's wording; Wikipedia stays a pointer to sources, and citing it for a low-stakes claim is still allowed (§5.6). Writers already write from snapshots in their own words; WRITER.md now says so explicitly.
+- **Drafts keep `"pending"`.** The review tool sets `"all-rights-reserved"` when a variant is approved, so the license is set by a human review, never by a writer session.
+- Image licenses are separate and unchanged (D15/P11); the code's license is still undecided (README).
 
 ### P6 measurements (M2, 2026-10-25, before D11)
 
