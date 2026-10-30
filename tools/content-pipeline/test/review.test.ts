@@ -14,7 +14,7 @@ import {
   runAction,
   type ReviewContext,
 } from '../src/review/review';
-import type { ReviewAction } from '../src/review/types';
+import type { ReviewAction, ReviewActionInput } from '../src/review/types';
 import { loadTree } from '../src/validate/tree';
 import { validateContent } from '../src/validate/validate';
 import { asReal, validDocs } from './helpers';
@@ -87,9 +87,7 @@ async function setup(): Promise<{ ctx: ReviewContext; root: string }> {
 
 const read = async (root: string, path: string) =>
   JSON.parse(await readFile(join(root, path), 'utf8')) as Json;
-/** An action without the timing field (distributes over the union). */
-type Act = ReviewAction extends infer A ? (A extends ReviewAction ? Omit<A, 'ms'> : never) : never;
-const act = (ctx: ReviewContext, a: Act) => runAction(ctx, { ms: 90_000, ...a });
+const act = (ctx: ReviewContext, a: ReviewActionInput) => runAction(ctx, { ms: 90_000, ...a });
 
 async function approveAll(ctx: ReviewContext, key: string, locale: 'pt-BR' | 'en') {
   const lesson = await loadLesson(ctx, key);

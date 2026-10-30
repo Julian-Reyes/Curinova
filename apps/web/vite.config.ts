@@ -6,6 +6,7 @@ import { BRAND, CODENAME } from '../../packages/domain/src/brand.ts';
 import { defineConfig, type Plugin } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { lumenContent, type ContentChannel } from './content-plugin.ts';
+import { lumenReview } from './review-plugin.ts';
 
 /**
  * `vite preview` mimics a static host: app routes that were not prerendered fall
@@ -53,6 +54,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     lumenContent(contentChannel()),
+    lumenReview(),
     reactRouter(),
     spaFallbackInPreview(),
     VitePWA({

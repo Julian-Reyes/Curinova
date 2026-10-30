@@ -453,6 +453,7 @@ export async function loadLesson(ctx: ReviewContext, rawKey: string): Promise<Le
     }
     const view: LessonLocaleView = {
       variant,
+      fromDraft: draft !== undefined,
       questions: (draft ? quizIn(state.drafts, key, l) : quizIn(state.library, key, l)) ?? [],
       state: localeState(draft, lib),
       locations: locateClaims(variant),

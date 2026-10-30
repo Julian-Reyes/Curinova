@@ -93,7 +93,10 @@ export interface SupportView {
 }
 
 export interface LessonLocaleView {
+  /** The draft when there is one, otherwise the library's variant. */
   variant: LessonVariant;
+  /** False when only the library has this locale (nothing left to review). */
+  fromDraft: boolean;
   questions: QuizQuestion[];
   state: LocaleState;
   locations: ClaimLocation[];
@@ -158,6 +161,13 @@ export type ReviewAction =
       ms: number;
     }
   | { type: 'publish'; key: string; ms: number };
+
+/** An action as the screen builds it, before the time on the lesson screen is added. */
+export type ReviewActionInput = ReviewAction extends infer A
+  ? A extends ReviewAction
+    ? Omit<A, 'ms'>
+    : never
+  : never;
 
 export type ActionResult =
   { ok: true; message: string } | { ok: false; message: string; issues: Issue[] };
