@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tordesillas_1__pt-BR",
+    "questionGroupId": "qg_tordesillas_1",
+    "conceptId": "concept_tordesillas",
+    "locale": "pt-BR",
+    "prompt": "O que o Tratado de Tordesilhas procurou dividir?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Terras reivindicadas por Portugal e Espanha"
+      },
+      {
+        "id": "b",
+        "text": "As línguas indígenas do Brasil"
+      },
+      {
+        "id": "c",
+        "text": "As escolas do Brasil colonial"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Em 1494, os dois reinos escolheram um meridiano para dividir suas reivindicações sobre terras encontradas e por encontrar.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tordesillas_2__pt-BR",
+    "questionGroupId": "qg_tordesillas_2",
+    "conceptId": "concept_tordesillas",
+    "locale": "pt-BR",
+    "prompt": "A linha de Tordesilhas virou a fronteira definitiva do Brasil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não; a ocupação avançou além dela e houve novos acordos"
+      },
+      {
+        "id": "b",
+        "text": "Sim; ela coincide com as fronteiras atuais"
+      },
+      {
+        "id": "c",
+        "text": "Sim; o Tratado de Madri confirmou a mesma linha"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A linha nem foi demarcada com precisão. A ocupação portuguesa avançou para além dela, e o Tratado de Madri procurou ajustar os limites.",
+    "claimIds": ["c3", "c4", "c5"],
+    "status": "draft"
+  }
+]

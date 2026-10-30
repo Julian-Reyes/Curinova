@@ -1,0 +1,27 @@
+{
+  "id": "concept_lingua_geral",
+  "topicId": "history",
+  "clusterId": "cluster_portuguese_in_brazil",
+  "clusterOrder": 2,
+  "tags": ["brazil", "colonial-history", "language", "indigenous-languages"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_pombal_directorate",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Como a Coroa portuguesa tentou tirar a língua geral de cena.",
+        "en": "How the Portuguese Crown tried to push the general language aside."
+      }
+    },
+    {
+      "conceptId": "concept_tupi_words",
+      "type": "related",
+      "reason": {
+        "pt-BR": "As palavras tupi que sobreviveram e você usa até hoje.",
+        "en": "The Tupi words that survived and are still in use today."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

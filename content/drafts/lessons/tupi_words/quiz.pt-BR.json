@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tupi_words_1__pt-BR",
+    "questionGroupId": "qg_tupi_words_1",
+    "conceptId": "concept_tupi_words",
+    "locale": "pt-BR",
+    "prompt": "Qual palavra do português tem origem tupi?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pipoca"
+      },
+      {
+        "id": "b",
+        "text": "Pizza"
+      },
+      {
+        "id": "c",
+        "text": "Sushi"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A USP lista “pipoca” entre as palavras de origem tupi presentes no português.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tupi_words_2__pt-BR",
+    "questionGroupId": "qg_tupi_words_2",
+    "conceptId": "concept_tupi_words",
+    "locale": "pt-BR",
+    "prompt": "Em nomes de origem tupi, o que significa “ita”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pedra"
+      },
+      {
+        "id": "b",
+        "text": "Fogo"
+      },
+      {
+        "id": "c",
+        "text": "Céu"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A Academia Brasileira de Letras registra “ita” como pedra e cita Itaúna como exemplo.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  }
+]

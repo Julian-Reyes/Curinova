@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_lingua_geral_1__en",
+    "questionGroupId": "qg_lingua_geral_1",
+    "conceptId": "concept_lingua_geral",
+    "locale": "en",
+    "prompt": "Which language helped form the Paulista general language?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tupi spoken around São Vicente and the upper Tietê"
+      },
+      {
+        "id": "b",
+        "text": "Spanish spoken in Madrid"
+      },
+      {
+        "id": "c",
+        "text": "Latin used in courts"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Paulista general language grew from Tupi spoken around São Vicente and the upper Tietê.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_lingua_geral_2__en",
+    "questionGroupId": "qg_lingua_geral_2",
+    "conceptId": "concept_lingua_geral",
+    "locale": "en",
+    "prompt": "Which general language is still spoken in the Rio Negro region?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nheengatu, the Amazonian general language"
+      },
+      {
+        "id": "b",
+        "text": "The Paulista general language"
+      },
+      {
+        "id": "c",
+        "text": "Colonial Latin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Amazonian general language, called Nheengatu, is still spoken in the Rio Negro basin.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,201 @@
+{
+  "id": "lesson_lingua_geral__en",
+  "conceptId": "concept_lingua_geral",
+  "locale": "en",
+  "slug": "what-language-was-spoken-in-colonial-sao-paulo",
+  "title": "What language was common in colonial São Paulo?",
+  "hook": "A Tupi-based contact language traveled far beyond the coast.",
+  "summary": "The Tupi-derived Paulista general language was common in São Paulo and traveled inland with expeditions.",
+  "cardText": "In the 17th century, the Paulista general language was dominant in São Paulo. It grew from Tupi and traveled inland with the bandeirantes.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a conversation in 17th-century São Paulo. It might not be in Portuguese. The Paulista general language, rooted in Tupi spoken around São Vicente and the upper Tietê, was dominant there. It served as a contact language among Indigenous people, settlers and others. The bandeirantes carried it on expeditions into what are now Minas Gerais, Goiás, Mato Grosso and southern Brazil."
+    },
+    {
+      "type": "paragraph",
+      "text": "There was another general language in the north. Developed from Tupinambá in Maranhão and Pará, the Amazonian general language is known as Nheengatu. Unlike the Paulista language, Nheengatu is still spoken in the Rio Negro basin. Portuguese colonial rule did not mean an immediate switch to Portuguese speech."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tupi-derived Paulista speech spread through colonial São Paulo; its Amazonian counterpart, Nheengatu, is still alive."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Two histories of general languages"
+    },
+    {
+      "type": "paragraph",
+      "text": "Língua geral did not name a single language everywhere. The Paulista language grew from Tupi around São Vicente and the upper Tietê; the Amazonian language developed from Tupinambá farther north. José de Anchieta published a Tupi grammar in 1595, long before Portuguese became dominant in all these regions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nheengatu is still spoken around the Rio Negro. A 2002 law made it, Tukano and Baniwa co-official in São Gabriel da Cachoeira. In 2023, Brazil’s first official Indigenous-language translation of its Constitution was launched in Nheengatu. This is a living language, not merely a colonial memory."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "lingua-geral",
+    "alt": "Illustration of speech bubbles with Tupi and Portuguese words over a river and a colonial village.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Hundreds of Indigenous languages were spoken in the territory before the Portuguese arrived.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Quando os portugueses chegaram ao Brasil em 1500, falavam-se centenas de línguas indígenas no território de nosso país."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Língua geral named contact languages used by Indigenous people, settlers and other groups.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "Porém, o nome “Língua Geral” diz respeito também a uma L&iacute;ngua Franca, no caso uma língua comum a índios, mestiços, colonos, negros, enfim, aos falantes que se encontram nos espaços de contato linguístico das frentes colonizadoras."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The Paulista general language developed from Tupi spoken in São Vicente and along the upper Tietê.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "A Língua Geral Paulista, ou Língua Geral do Sul teve origem, segundo Rodrigues (1986), na língua dos índios Tupi de São Vicente e do alto rio Tietê, a qual diferia um pouco da língua dos Tupinambá do litoral."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The Paulista general language was dominant in São Paulo in the 17th century.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "Em São Paulo, ela foi dominante no século XVII e, a partir do século XVIII, com as medidas pombalinas (Mariani, 2004), passou a ser suplantada pela língua portuguesa."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Bandeirantes carried the Paulista general language into inland regions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "É a língua falada por bandeirantes, pioneiros e aventureiros que exploravam as regiões de Minas Gerais, Goiás, Mato Grosso e o Sul do Brasil."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The Amazonian general language developed from Tupinambá in Maranhão and Pará and is called Nheengatu.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "A Língua Geral Amazônica ou Nheengatú, desenvolvida inicialmente no Maranhão e no Pará, a partir do Tupinambá, foi a língua usada no processo de ocupação amazônica e é falada até hoje na bacia do rio Negro, sendo mais documentada que a Língua Geral Paulista."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Nheengatu is still spoken in the Rio Negro basin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "A Língua Geral Amazônica ou Nheengatú, desenvolvida inicialmente no Maranhão e no Pará, a partir do Tupinambá, foi a língua usada no processo de ocupação amazônica e é falada até hoje na bacia do rio Negro, sendo mais documentada que a Língua Geral Paulista."
+        },
+        {
+          "sourceId": "src_gov_br_museugoeldi_pt_br_arquivos_40a169",
+          "excerpt": "O nheengatu não é mais tão difundido quanto no passado, mas ainda hoje é falado em regiões como o alto Rio Negro, no estado do Amazonas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "José de Anchieta published an Old Tupi grammar in 1595.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Os jesuítas José de Anchieta e Luís Figueira ensinaram suas regras em gramáticas, publicando-as em 1595 e 1621, respectivamente."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A 2002 municipal law made Nheengatu, Tukano and Baniwa co-official in São Gabriel da Cachoeira.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_fapeam_am_gov_br_linguas_indigenas_259f58",
+          "excerpt": "O município amazonense de São Gabriel da Cachoeira será o primeiro a oficializar a prática das línguas indígenas tucano, nheengatu e baniua nos meios de comunicação, serviços públicos, escolas, placas de sinalização, comércio e serviços bancários. A adoção dos idiomas está na Lei Municipal no 145, de 2002."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "In 2023, the first official Indigenous-language translation of Brazil’s Constitution was launched in Nheengatu.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_povosindigenas_pt_br_assuntos_56efa2",
+          "excerpt": "Publicado em 19/07/2023 11:32Modificado em 20/07/2023 17:43Compartilhe: A ministra dos Povos Indígenas, Sonia Guajajara, participa do lançamento da Constituição Federal traduzida para língua indígena Nheengatu, a mais falada na região amazônica e conhecida como tupi moderno. O evento será nesta quarta-feira (19/07), em São Gabriel da Cachoeira, no Amazonas, e é liderado pela presidente do Supremo Tribunal Federal (STF) e do Conselho Nacional de Justiça (CNJ), ministra Rosa Weber. Essa é a primeira tradução oficial da Constituição"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_tupi_fflch_usp_br_b59a75",
+    "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+    "src_gov_br_museugoeldi_pt_br_arquivos_40a169",
+    "src_fapeam_am_gov_br_linguas_indigenas_259f58",
+    "src_gov_br_povosindigenas_pt_br_assuntos_56efa2"
+  ],
+  "quizIds": ["q_lingua_geral_1__en", "q_lingua_geral_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-30T00:00:00Z"
+}

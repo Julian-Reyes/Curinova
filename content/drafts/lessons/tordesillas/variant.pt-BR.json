@@ -1,0 +1,156 @@
+{
+  "id": "lesson_tordesillas__pt-BR",
+  "conceptId": "concept_tordesillas",
+  "locale": "pt-BR",
+  "slug": "por-que-o-brasil-fala-portugues-e-nao-espanhol",
+  "title": "Por que o Brasil fala português, e não espanhol?",
+  "hook": "Um acordo entre reinos veio antes da história das línguas faladas aqui.",
+  "summary": "Tordesilhas deu a Portugal uma reivindicação colonial sobre parte do atual Brasil; a difusão do português veio depois.",
+  "cardText": "O tratado de 1494 pôs parte do atual Brasil do lado português de uma linha no mapa. A língua portuguesa se espalhou depois, com a colonização.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Uma linha num mapa não fez ninguém mudar de idioma. Em 1494, Portugal e Espanha assinaram o Tratado de Tordesilhas para dividir terras encontradas e ainda por encontrar. O meridiano ficaria 370 léguas a oeste de Cabo Verde: a leste, Portugal; a oeste, Espanha. Parte do que viria a ser o Brasil ficou na zona reivindicada pelos portugueses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mas a linha nunca foi demarcada com precisão. A colonização portuguesa avançou para além dela, e o Tratado de Madri, em 1750, tentou ajustar os limites aos territórios ocupados. A história da língua foi mais lenta: quando os portugueses chegaram, já havia centenas de línguas indígenas, e os próprios colonizadores aprenderam e falaram tupi por muito tempo."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tordesilhas definiu reivindicações coloniais; não fez o português virar a língua do Brasil de uma vez."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A linha que não se marcou"
+    },
+    {
+      "type": "paragraph",
+      "text": "A posição exata do meridiano era difícil de estabelecer. Os negociadores não definiram qual ilha de Cabo Verde serviria de ponto inicial, e os mapas da época eram imprecisos. Por isso, o Tratado de 1494 nunca produziu uma fronteira bem demarcada no território."
+    },
+    {
+      "type": "paragraph",
+      "text": "No século XVIII, Portugal e Espanha voltaram a negociar. O Tratado de Madri, de 1750, procurou reconhecer a ocupação que já havia ultrapassado a linha. Esses acordos ajudam a explicar o domínio colonial português, mas a próxima etapa da história mostra por que isso não significava que todos falassem português."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tordesillas",
+    "alt": "Ilustração de um mapa antigo da América do Sul cortado por uma linha vertical.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Portugal e Espanha fizeram o Tratado de Tordesilhas em 1494 para dividir terras encontradas e por encontrar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "As duas Coroas, procurando evitar guerras, assinaram um acordo em 1494 que visava dividir entre elas as novas terras “descobertas e por descobrir”. Esse acordo ficou conhecido como Tratado de Tordesilhas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O tratado colocou a linha a 370 léguas a oeste de Cabo Verde, com o lado leste para Portugal e o oeste para a Espanha.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "O Tratado de Tordesilhas definiu o meridiano que ficava a 370 léguas a oeste de uma ilha do arquipélago de Cabo Verde como a nova referência para a divisão. Os territórios a leste desse meridiano pertenceriam a Portugal e aqueles a oeste pertenceriam à Espanha."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A linha de Tordesilhas nunca foi efetivamente demarcada, em parte pela indefinição da ilha de referência e pela imprecisão dos mapas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_index_php_586aaa",
+          "excerpt": "Entretanto, o Tratado de 1494 nunca foi efetivamente demarcado, segundo o historiador Guilherme Pereira das Neves, devido a fatores como a indefinição quanto a ilha de Cabo Verde que serviria de referência para a demarcação do meridiano de Tordesilhas e a precariedade dos mapas da época, os quais exibiam informações imprecisas das novas terras."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "A colonização portuguesa avançou além da linha de Tordesilhas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "Os portugueses, através da ação dos bandeirantes e dos jesuítas, ultrapassaram em muito os limites estabelecidos pelo Tratado de Tordesilhas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O Tratado de Madri de 1750 buscou ajustar os limites entre Portugal e Espanha aos territórios ocupados na América.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_index_php_586aaa",
+          "excerpt": "O acordo diplomático visava dirimir as indefinições da não demarcação de Tordesilhas e ratificar a soberania das duas monarquias ibéricas sobre os territórios ocupados na América."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Quando os portugueses chegaram em 1500, já se falavam centenas de línguas indígenas no território.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Quando os portugueses chegaram ao Brasil em 1500, falavam-se centenas de línguas indígenas no território de nosso país."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Os colonizadores aprenderam e falaram tupi antigo por muito tempo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "No entanto, foi aquela que os colonizadores do Brasil aprenderam e falaram por longo tempo."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+    "src_historialuso_an_gov_br_index_php_586aaa",
+    "src_tupi_fflch_usp_br_b59a75"
+  ],
+  "quizIds": ["q_tordesillas_1__pt-BR", "q_tordesillas_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-30T00:00:00Z"
+}

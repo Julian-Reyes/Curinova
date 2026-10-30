@@ -1,0 +1,156 @@
+{
+  "id": "lesson_tordesillas__en",
+  "conceptId": "concept_tordesillas",
+  "locale": "en",
+  "slug": "why-does-brazil-speak-portuguese-not-spanish",
+  "title": "Why does Brazil speak Portuguese rather than Spanish?",
+  "hook": "A treaty between kingdoms came before the story of languages spoken there.",
+  "summary": "Tordesillas gave Portugal a colonial claim to part of present-day Brazil; Portuguese spread later.",
+  "cardText": "A 1494 treaty put part of present-day Brazil on Portugal’s side of a line on a map. Portuguese spread later through colonization.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A line on a map could not make people change languages. In 1494, Portugal and Spain signed the Treaty of Tordesillas to divide lands found and yet to be found. The line lay 370 leagues west of Cape Verde: Portugal claimed the east, Spain the west. Part of what became Brazil fell on Portugal’s side."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the line was never marked out precisely. Portuguese colonization pushed beyond it, and the 1750 Treaty of Madrid tried to align borders with territory already occupied. Language followed a slower path. Hundreds of Indigenous languages were spoken when the Portuguese arrived, and colonizers themselves learned and spoke Tupi for a long time."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tordesillas set colonial claims; it did not make Brazil speak Portuguese overnight."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A line that was never marked"
+    },
+    {
+      "type": "paragraph",
+      "text": "The exact meridian was hard to locate. The negotiators did not settle which Cape Verde island counted as the starting point, and contemporary maps were imprecise. The 1494 treaty therefore never became a clearly marked border on the ground."
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal and Spain negotiated again in the 18th century. The 1750 Treaty of Madrid sought to recognize occupation that had gone beyond the old line. These agreements help explain Portuguese colonial rule. The next part of the trail shows why that rule did not mean everybody spoke Portuguese."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tordesillas",
+    "alt": "Illustration of an old map of South America split by a vertical line.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Portugal and Spain made the Treaty of Tordesillas in 1494 to divide lands found and yet to be found.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "As duas Coroas, procurando evitar guerras, assinaram um acordo em 1494 que visava dividir entre elas as novas terras “descobertas e por descobrir”. Esse acordo ficou conhecido como Tratado de Tordesilhas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The treaty placed a line 370 leagues west of Cape Verde, assigning the eastern side to Portugal and the western side to Spain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "O Tratado de Tordesilhas definiu o meridiano que ficava a 370 léguas a oeste de uma ilha do arquipélago de Cabo Verde como a nova referência para a divisão. Os territórios a leste desse meridiano pertenceriam a Portugal e aqueles a oeste pertenceriam à Espanha."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The Tordesillas line was never effectively marked, partly because the reference island was unclear and maps were imprecise.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_index_php_586aaa",
+          "excerpt": "Entretanto, o Tratado de 1494 nunca foi efetivamente demarcado, segundo o historiador Guilherme Pereira das Neves, devido a fatores como a indefinição quanto a ilha de Cabo Verde que serviria de referência para a demarcação do meridiano de Tordesilhas e a precariedade dos mapas da época, os quais exibiam informações imprecisas das novas terras."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Portuguese colonization advanced beyond the Tordesillas line.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "Os portugueses, através da ação dos bandeirantes e dos jesuítas, ultrapassaram em muito os limites estabelecidos pelo Tratado de Tordesilhas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The 1750 Treaty of Madrid sought to align the Portuguese–Spanish borders with occupied territories in the Americas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_index_php_586aaa",
+          "excerpt": "O acordo diplomático visava dirimir as indefinições da não demarcação de Tordesilhas e ratificar a soberania das duas monarquias ibéricas sobre os territórios ocupados na América."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "When the Portuguese arrived in 1500, hundreds of Indigenous languages were already spoken in the territory.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Quando os portugueses chegaram ao Brasil em 1500, falavam-se centenas de línguas indígenas no território de nosso país."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Colonizers learned and spoke Old Tupi for a long time.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "No entanto, foi aquela que os colonizadores do Brasil aprenderam e falaram por longo tempo."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+    "src_historialuso_an_gov_br_index_php_586aaa",
+    "src_tupi_fflch_usp_br_b59a75"
+  ],
+  "quizIds": ["q_tordesillas_1__en", "q_tordesillas_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-30T00:00:00Z"
+}

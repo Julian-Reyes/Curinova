@@ -1,0 +1,177 @@
+{
+  "id": "lesson_pombal_directorate__en",
+  "conceptId": "concept_pombal_directorate",
+  "locale": "en",
+  "slug": "when-did-portuguese-become-mandatory-in-brazil",
+  "title": "How did the Crown try to impose Portuguese?",
+  "hook": "An order for Indigenous towns targeted the languages spoken there.",
+  "summary": "The Directorate of the Indians prohibited Indigenous languages in the towns it governed and required Portuguese teaching.",
+  "cardText": "The Directorate of the Indians ordered Portuguese teaching in Indigenous towns and prohibited the general language and other local languages there. Its reach widened in 1758.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In the 18th century, the Portuguese Crown moved from living alongside general languages toward a policy of imposing Portuguese. The Directorate of the Indians had been made for Indigenous towns in Pará and Maranhão. In 1758, a decree extended it across colonial Brazil. In the Indigenous towns and villages it regulated, the general language and peoples’ own languages were to give way to Portuguese, including in teaching."
+    },
+    {
+      "type": "paragraph",
+      "text": "This was part of forced assimilation, not a neutral choice of words. Lay directors replaced missionaries, while exploitation of Indigenous labor and town lands continued. A decree could not erase speech overnight: Nheengatu was still widely spoken in the Amazon around the middle of the 19th century."
+    },
+    {
+      "type": "takeaway",
+      "text": "The Directorate tried to impose Portuguese in Indigenous towns, but language change was gradual."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Where the order applied"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Directorate governed Indigenous towns and villages, not every conversation in the territory. Its program included teaching Portuguese, prohibiting the general language and other Indigenous languages in those places, and putting lay directors in charge. The 1758 decree extended the policy beyond Pará and Maranhão."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Directorate was abolished in 1798, but its measures were part of a wider process of forced acculturation. Nheengatu’s persistence long after the decree shows why there is no single day when all of Brazil “started speaking Portuguese.”"
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "decree",
+    "alt": "Illustration of an official document with a royal seal and a quill.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Directorate of the Indians was made for Indigenous towns in Pará and Maranhão.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "O Diretório que se deve observar nas povoações dos índios do Pará e Maranhão, aprovado por d. José I em 1755, desempenhou papel central na política metropolitana de controle dos povos indígenas durante o período pombalino."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A 1758 decree extended the Directorate across colonial Brazil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "O alvará de 17 de agosto de 1758 estendia o Diretório a todo o Brasil."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The Directorate prohibited the general language and other Indigenous languages in the Indigenous towns and villages it regulated.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The Directorate required Portuguese to be adopted and taught in those towns.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
+        },
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Dentre as principais disposições, substituía os missionários por diretores leigos, nomeados pelos governadores, cujas obrigações abrangiam o incentivo à agricultura, à mestiçagem por meio de casamentos mistos e à adoção de hábitos e da língua portuguesa, com o fim de promover a “civilidade dos índios”."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The Directorate replaced missionaries with lay directors in Indigenous towns.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Dentre as principais disposições, substituía os missionários por diretores leigos, nomeados pelos governadores, cujas obrigações abrangiam o incentivo à agricultura, à mestiçagem por meio de casamentos mistos e à adoção de hábitos e da língua portuguesa, com o fim de promover a “civilidade dos índios”."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The Directorate was part of forced acculturation and did not prevent Indigenous labor exploitation or loss of town lands.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Apesar de uma perspectiva civilizatória, que pretendia abolir as diferenças entre índios e brancos, as determinações do Diretório nunca impediram a exploração da força de trabalho indígena, a espoliação das terras dos aldeamentos e o processo compulsório de aculturação dos inúmeros povos existentes no Brasil."
+        },
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The Directorate was abolished in 1798.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Em 12 de maio de 1798, o Diretório foi abolido em meio a denúncias de corrupção e abusos cometidos pelas autoridades responsáveis."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Nheengatu was still widely spoken in the Amazon around the middle of the 19th century.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_museugoeldi_pt_br_arquivos_40a169",
+          "excerpt": "Até por volta da metade do século XIX, a língua mais falada no atual estado do Pará e ao longo da bacia amazônica era o nheengatu."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_historialuso_an_gov_br_glossario_index_001993",
+    "src_revistas_ufrj_br_index_php_lh_210f17",
+    "src_gov_br_museugoeldi_pt_br_arquivos_40a169"
+  ],
+  "quizIds": ["q_pombal_directorate_1__en", "q_pombal_directorate_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-30T00:00:00Z"
+}

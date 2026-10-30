@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tupi_words_1__en",
+    "questionGroupId": "qg_tupi_words_1",
+    "conceptId": "concept_tupi_words",
+    "locale": "en",
+    "prompt": "Which Portuguese word has Tupi origins?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pipoca"
+      },
+      {
+        "id": "b",
+        "text": "Pizza"
+      },
+      {
+        "id": "c",
+        "text": "Sushi"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The University of São Paulo lists pipoca among Tupi-origin words in Portuguese.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tupi_words_2__en",
+    "questionGroupId": "qg_tupi_words_2",
+    "conceptId": "concept_tupi_words",
+    "locale": "en",
+    "prompt": "In Tupi-derived place names, what does “ita” mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stone"
+      },
+      {
+        "id": "b",
+        "text": "Fire"
+      },
+      {
+        "id": "c",
+        "text": "Sky"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Brazilian Academy of Letters records “ita” as stone and gives Itaúna as an example.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  }
+]

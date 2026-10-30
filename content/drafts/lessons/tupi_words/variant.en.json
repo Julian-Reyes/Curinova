@@ -1,0 +1,177 @@
+{
+  "id": "lesson_tupi_words__en",
+  "conceptId": "concept_tupi_words",
+  "locale": "en",
+  "slug": "which-everyday-words-come-from-tupi",
+  "title": "Which everyday Portuguese words came from Tupi?",
+  "hook": "The language shows up in food, animals and maps.",
+  "summary": "Words such as pipoca, capivara, mandioca, abacaxi and caju preserve Tupi roots in Portuguese.",
+  "cardText": "Pipoca, mandioca and capivara are Tupi-origin words in Portuguese. Place names such as Itaquera and Paraná carry the same heritage.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A Brazilian speaker may have used a Tupi-origin word today. Pipoca, mandioca and capivara entered Portuguese; so did abacaxi and caju. Tupi also left its mark on place names such as Itaquera and Paraná. In many names, “ita” means stone: Itaúna is one example."
+    },
+    {
+      "type": "paragraph",
+      "text": "These words tell part of the story, not all of it. Hundreds of Indigenous languages were spoken in the territory when the Portuguese arrived, and Old Tupi was just one. Tupi and Guarani, for example, are distinct though related languages. Indigenous influence is more than inherited vocabulary: Nheengatu, developed from a Tupi-based language, is still spoken in the Upper Rio Negro region."
+    },
+    {
+      "type": "takeaway",
+      "text": "Everyday words and place names preserve Tupi roots, while Indigenous languages remain alive."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "From dictionary to map"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portuguese dictionaries contain many words of Tupi origin. The University of São Paulo lists pipoca, mandioca and capivara among them; the Brazilian Academy of Letters also names abacaxi and caju. Such words appear in everyday talk about food, plants and animals."
+    },
+    {
+      "type": "paragraph",
+      "text": "Place names carry the story too: the university lists Itaquera and Paraná. In Tupi-derived names, “ita” means stone; Itaúna is one example. Old Tupi was a particular language, not a label for every Indigenous language of Brazil."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "tupi-words",
+    "alt": "Illustration of a jaguar, a toucan and a pineapple with Tupi-derived words.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Old Tupi was one of hundreds of Indigenous languages spoken in the territory when the Portuguese arrived.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Quando os portugueses chegaram ao Brasil em 1500, falavam-se centenas de línguas indígenas no território de nosso país."
+        },
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Assim, é bem verdade que o Tupi Antigo não era a única língua falada pelos índios quando se deu a chegada dos portugueses em 1500."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Brazilian Portuguese dictionaries contain thousands of entries of Tupi origin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "E, hoje, é possível encontrar, em quaisquer dicionários desta, milhares de verbetes daquela origem: termos como paca, capivara, tatu, jacaré-açu, cotia, perereca, guará, ubá, maniva, taquara, pindoba, pipoca, pirão, pururuca, mandioca, puba, expressões como “ficar com nhenhenhém”, “estar jururu”, “chorar as pitangas”, “ir para a cucuia” etc."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Capivara, pipoca and mandioca are Tupi-origin words used in Portuguese.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "E, hoje, é possível encontrar, em quaisquer dicionários desta, milhares de verbetes daquela origem: termos como paca, capivara, tatu, jacaré-açu, cotia, perereca, guará, ubá, maniva, taquara, pindoba, pipoca, pirão, pururuca, mandioca, puba, expressões como “ficar com nhenhenhém”, “estar jururu”, “chorar as pitangas”, “ir para a cucuia” etc."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Abacaxi and caju are other Tupi-origin words used in Portuguese.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_academia_org_br_artigos_tupi_or_043bf6",
+          "excerpt": "Na flora: aipim, abacaxi, caju, caroba, ipê, jabuticaba, jacarandá, maracujá, mandioca, pitanga, tiririca."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Place names such as Itaquera and Paraná also preserve Tupi.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Tal língua também está ostensivamente presente na toponímia, em nomes como Jabaquara, Tatuapé, Itaquera, Piratininga, Bertioga, Itanhaém, Paraguaçu, Cuiabá, Curitiba, Pará, Paraná, Sergipe, Paraíba etc."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "In Tupi-derived names, ita means stone; Itaúna is an example.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_academia_org_br_artigos_tupi_or_043bf6",
+          "excerpt": "e no grande número de \"itas\" existentes pelo país afora (\"ita\" significando \"pedra\": \"Itaúna\" = \"pedra negra\""
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Tupi and Guarani are distinct languages in the same family.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Tupi e Guarani são línguas distintas, embora estejam na mesma família linguística."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Nheengatu, developed from a Tupi-based language, is still spoken in the Upper Rio Negro region.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_museugoeldi_pt_br_arquivos_40a169",
+          "excerpt": "Nheengatu – Também conhecida como Língua Geral Amazônica, o nheengatu surgiu da língua falada pelos índios Tupinambá nos atuais estados do Pará e Maranhão. Essa língua sofreu modificações por influência do idioma dos colonizadores, resultando em uma língua “misturada”, usada nas relações entre as diferentes nações indígenas e povos europeus e africanos que se estabeleceram na região."
+        },
+        {
+          "sourceId": "src_gov_br_museugoeldi_pt_br_arquivos_40a169",
+          "excerpt": "O nheengatu não é mais tão difundido quanto no passado, mas ainda hoje é falado em regiões como o alto Rio Negro, no estado do Amazonas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_tupi_fflch_usp_br_b59a75",
+    "src_academia_org_br_artigos_tupi_or_043bf6",
+    "src_gov_br_museugoeldi_pt_br_arquivos_40a169"
+  ],
+  "quizIds": ["q_tupi_words_1__en", "q_tupi_words_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-10-30T00:00:00Z"
+}

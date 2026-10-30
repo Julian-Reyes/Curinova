@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_lingua_geral_1__pt-BR",
+    "questionGroupId": "qg_lingua_geral_1",
+    "conceptId": "concept_lingua_geral",
+    "locale": "pt-BR",
+    "prompt": "De que língua se originou a língua geral paulista?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Do tupi falado em São Vicente e no alto Tietê"
+      },
+      {
+        "id": "b",
+        "text": "Do espanhol falado em Madri"
+      },
+      {
+        "id": "c",
+        "text": "Do latim usado nos tribunais"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A língua geral paulista se desenvolveu a partir do tupi da região de São Vicente e do alto Tietê.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_lingua_geral_2__pt-BR",
+    "questionGroupId": "qg_lingua_geral_2",
+    "conceptId": "concept_lingua_geral",
+    "locale": "pt-BR",
+    "prompt": "Qual língua geral continua falada na região do rio Negro?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O nheengatu, de origem amazônica"
+      },
+      {
+        "id": "b",
+        "text": "A língua geral paulista"
+      },
+      {
+        "id": "c",
+        "text": "O latim colonial"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A língua geral amazônica, chamada nheengatu, ainda é falada na bacia do rio Negro.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

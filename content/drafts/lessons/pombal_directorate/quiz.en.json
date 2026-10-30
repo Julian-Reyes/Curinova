@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_pombal_directorate_1__en",
+    "questionGroupId": "qg_pombal_directorate_1",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "en",
+    "prompt": "What did the Directorate require in the towns it governed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Teach Portuguese and prohibit the general and other Indigenous languages"
+      },
+      {
+        "id": "b",
+        "text": "Teach only Spanish"
+      },
+      {
+        "id": "c",
+        "text": "Give every language the same official status"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The policy required Portuguese teaching and prohibited Indigenous languages in those towns and villages.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pombal_directorate_2__en",
+    "questionGroupId": "qg_pombal_directorate_2",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "en",
+    "prompt": "Did the Directorate make Nheengatu vanish immediately?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No; it was still widely spoken in the Amazon in the 19th century"
+      },
+      {
+        "id": "b",
+        "text": "Yes; it vanished in 1758"
+      },
+      {
+        "id": "c",
+        "text": "Yes; Spanish replaced it"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Goeldi Museum reports that Nheengatu remained widely spoken in the Amazon until around the middle of the 19th century.",
+    "claimIds": ["c8"],
+    "status": "draft"
+  }
+]

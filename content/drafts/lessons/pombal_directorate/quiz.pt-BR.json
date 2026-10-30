@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_pombal_directorate_1__pt-BR",
+    "questionGroupId": "qg_pombal_directorate_1",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "pt-BR",
+    "prompt": "O que o Diretório dos Índios determinava nas povoações que regulava?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ensinar português e proibir a língua geral e outras línguas indígenas"
+      },
+      {
+        "id": "b",
+        "text": "Ensinar apenas espanhol"
+      },
+      {
+        "id": "c",
+        "text": "Dar a todas as línguas o mesmo status oficial"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A política exigia adoção e ensino do português e proibia as línguas indígenas nessas povoações e vilas.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pombal_directorate_2__pt-BR",
+    "questionGroupId": "qg_pombal_directorate_2",
+    "conceptId": "concept_pombal_directorate",
+    "locale": "pt-BR",
+    "prompt": "O Diretório fez o nheengatu desaparecer imediatamente?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não; ele ainda era amplamente falado na Amazônia no século XIX"
+      },
+      {
+        "id": "b",
+        "text": "Sim; desapareceu em 1758"
+      },
+      {
+        "id": "c",
+        "text": "Sim; foi substituído pelo espanhol"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Museu Goeldi registra que o nheengatu continuou muito falado na Amazônia até por volta da metade do século XIX.",
+    "claimIds": ["c8"],
+    "status": "draft"
+  }
+]

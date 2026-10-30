@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_tordesillas_1__en",
+    "questionGroupId": "qg_tordesillas_1",
+    "conceptId": "concept_tordesillas",
+    "locale": "en",
+    "prompt": "What did the Treaty of Tordesillas seek to divide?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lands claimed by Portugal and Spain"
+      },
+      {
+        "id": "b",
+        "text": "Brazil’s Indigenous languages"
+      },
+      {
+        "id": "c",
+        "text": "Schools in colonial Brazil"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In 1494 the two kingdoms chose a meridian to divide claims to lands found and yet to be found.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tordesillas_2__en",
+    "questionGroupId": "qg_tordesillas_2",
+    "conceptId": "concept_tordesillas",
+    "locale": "en",
+    "prompt": "Did the Tordesillas line become Brazil’s final border?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No; settlement passed it and later agreements changed the borders"
+      },
+      {
+        "id": "b",
+        "text": "Yes; it matches today’s borders"
+      },
+      {
+        "id": "c",
+        "text": "Yes; Madrid confirmed the same line"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The line was never precisely marked. Portuguese colonization moved beyond it, and the Treaty of Madrid sought to adjust the borders.",
+    "claimIds": ["c3", "c4", "c5"],
+    "status": "draft"
+  }
+]
