@@ -251,6 +251,13 @@ Plan: `/Users/apple/.claude/plans/iterative-swinging-rabin.md` (approved). Found
 - **Content loading (D16): split files, loaded by language.** Done in session 1: `pnpm content:build` writes `apps/web/public/content/` (manifest, hashed index, one file per topic and locale, a separate image list); the app loads only the learner's language and fetches the other on a language switch; the service worker checks the manifest online first and caches hashed files. The build runs before every app build and on content changes in dev, replacing the bundled `virtual:lumen-content` module (B2). First visit today: about 29 KB compressed (budget 350 KB; over budget → load topics on demand).
 - **New dev dependencies (approved):** `@mozilla/readability`, `jsdom`, `robots-parser` in `tools/content-pipeline`.
 
+### D19 · Trail batch 2 — Founder (2026-10-30)
+
+The founder approved five more trails in chat, one per topic, 31 lessons: Brazil's three capitals, Brazil in space, Where your attention goes, Amazon survival tricks, Everyday science myths. Outlines, lesson keys, order and source requirements: [`docs/content/TRAILS_BATCH_2.md`](content/TRAILS_BATCH_2.md). Writer sessions skip WRITER.md §1 for these trails.
+
+- **Lesson text only for now.** No Discover card text (`cardText`) and no pictures; both come later, after the existing lessons get their photos.
+- **Amazon survival tricks sits under Body & Biology** until a topic such as Animals/Earth exists; moving it then changes only the cluster's `topicId`, so guest progress (keyed by `conceptId`) is kept.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.
