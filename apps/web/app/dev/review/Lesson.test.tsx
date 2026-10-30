@@ -108,6 +108,23 @@ const lesson: LessonView = {
     difficulty: 'beginner',
     related: [],
     variants: ['pt-BR', 'en'],
+    media: {
+      review: {
+        width: 1000,
+        height: 562,
+        alt: { 'pt-BR': 'A Lua cheia', en: 'The full Moon' },
+        origin: {
+          kind: 'licensed',
+          creator: 'Jane Doe',
+          platform: 'Wikimedia Commons',
+          license: 'CC BY 4.0',
+          sourceUrl: 'https://commons.wikimedia.org/wiki/File:Moon.jpg',
+        },
+        accuracyReviewedBy: null,
+        addedAt: '2026-10-30',
+        hash: '0123abcd',
+      },
+    },
   },
   topic: null,
   cluster: null,
@@ -184,6 +201,18 @@ describe('review lesson screen', () => {
     expect(within(en).getByText(/No local snapshot for/)).toBeTruthy();
     expect(within(en).getByText(/pnpm content:sources refetch/)).toBeTruthy();
     expect(screen.getByText(/All good\./)).toBeTruthy();
+  });
+
+  it('shows every image slot with its alt text and credit, or says the slot is empty', async () => {
+    await setup();
+    const en = screen.getByRole('region', { name: 'en variant' });
+    expect(within(en).getByRole('img', { name: 'The full Moon' })).toBeTruthy();
+    expect(
+      within(en).getByRole('link', { name: /Jane Doe, Wikimedia Commons · CC BY 4.0/ }),
+    ).toBeTruthy();
+    expect(within(en).getAllByText(/No image: the app shows/)).toHaveLength(2);
+    const pt = screen.getByRole('region', { name: 'pt-BR variant' });
+    expect(within(pt).getByRole('img', { name: 'A Lua cheia' })).toBeTruthy();
   });
 
   it('is keyboard driven: j/k move, a approves the claim or the locale', async () => {

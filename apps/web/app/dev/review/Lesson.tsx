@@ -1,4 +1,11 @@
-import type { Locale } from '@lumen/domain';
+import {
+  lessonImageUrl,
+  MEDIA_SLOTS,
+  type Concept,
+  type ImageOrigin,
+  type Locale,
+  type MediaSlot,
+} from '@lumen/domain';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router';
 import { QuizRunner } from '../../components/QuizRunner';
@@ -519,6 +526,9 @@ function LocaleColumn({
             </div>
           </LessonPreview>
 
+          <h3 className={H3}>Images</h3>
+          <ImagesPanel concept={view.concept} locale={locale} />
+
           <h3 className={H3}>Text and claims</h3>
           <LessonText lv={lv} focus={focus} onFocus={onFocus} />
 
@@ -782,6 +792,77 @@ function SnapshotContext({ s }: { s: SupportView }) {
       <mark className="bg-accent-soft text-ink">{s.context.match}</mark>
       {s.context.after}…
     </p>
+  );
+}
+
+const SLOT_LABEL: Record<MediaSlot, string> = {
+  discover: 'Discover card (9:16)',
+  deeper: 'Go Deeper (12:7)',
+  review: 'Quiz and Review (16:9)',
+};
+
+function originText(o: ImageOrigin): string {
+  switch (o.kind) {
+    case 'generated':
+      return `Generated · ${o.tool} · ${o.createdBy}, ${o.createdAt}`;
+    case 'licensed':
+      return `${o.creator}${o.platform ? `, ${o.platform}` : ''} · ${o.license}`;
+    case 'owned':
+      return `Owned · ${o.creator}`;
+    case 'unknown':
+      return 'Origin unknown';
+  }
+}
+
+/** Every image slot of the lesson, with its alt text and credit, so each can be checked here. */
+function ImagesPanel({ concept, locale }: { concept: Concept; locale: Locale }) {
+  return (
+    <div className="mb-6 grid grid-cols-[2fr_3fr] gap-3">
+      {MEDIA_SLOTS.map((slot) => {
+        const image = concept.media?.[slot];
+        return (
+          <figure
+            key={slot}
+            className={`flex flex-col gap-1 rounded-2xl border border-line bg-surface p-2 ${slot === 'discover' ? 'row-span-2' : ''}`}
+          >
+            <figcaption className="text-xs font-semibold">{SLOT_LABEL[slot]}</figcaption>
+            {image ? (
+              <>
+                <img
+                  src={lessonImageUrl(concept.id, slot, 'full', image.hash)}
+                  width={image.width}
+                  height={image.height}
+                  alt={image.alt[locale] ?? ''}
+                  loading="lazy"
+                  className="h-auto w-full rounded-xl bg-sunken"
+                />
+                <p className="text-xs">{image.alt[locale] ?? 'No alt text for this language'}</p>
+                <p className="text-xs text-muted">
+                  {image.origin.kind === 'licensed' ? (
+                    <a
+                      href={image.origin.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="underline"
+                    >
+                      {originText(image.origin)}
+                    </a>
+                  ) : (
+                    originText(image.origin)
+                  )}{' '}
+                  · {image.width}×{image.height} · accuracy{' '}
+                  {image.accuracyReviewedBy ?? 'not checked'}
+                </p>
+              </>
+            ) : (
+              <p className="rounded-xl bg-sunken p-3 text-xs text-muted">
+                No image: the app shows the lesson&apos;s diagram or the topic icon here.
+              </p>
+            )}
+          </figure>
+        );
+      })}
+    </div>
   );
 }
 
