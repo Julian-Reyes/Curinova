@@ -22,7 +22,7 @@ import { STORAGE_KEYS, writeStorage } from '../platform/storage-keys';
 import { applyTheme, watchSystemTheme } from '../platform/theme';
 import { db } from './db';
 import { loadLibrary, type Library } from './library';
-import { progress } from './progress';
+import { progress, type ProgressStore } from './progress';
 
 interface AppContextValue {
   library: Library;
@@ -105,6 +105,60 @@ export function AppProvider({
     [library, prefs, updatePrefs, storageOk, reportStorageError],
   );
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
+}
+
+/**
+ * A fixed library and preferences with nothing persisted: for previews of lessons that
+ * aren't in the bundle, such as the content review tool (D20).
+ */
+export function StaticAppProvider({
+  library,
+  prefs,
+  children,
+}: {
+  library: Library;
+  prefs: UserPreferences;
+  children: React.ReactNode;
+}) {
+  const value = useMemo(
+    () => ({
+      library,
+      prefs,
+      updatePrefs: () => undefined,
+      storageOk: true,
+      reportStorageError: () => undefined,
+    }),
+    [library, prefs],
+  );
+  return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
+}
+
+type Write<F> = F extends (...args: infer A) => Promise<unknown>
+  ? (...args: A) => Promise<unknown>
+  : never;
+
+/** The progress writes lesson components make (their results are never read). */
+export interface ProgressWriter {
+  record: Write<ProgressStore['record']>;
+  answer: Write<ProgressStore['answer']>;
+  setBookmark: Write<ProgressStore['setBookmark']>;
+}
+
+const ProgressContext = createContext<ProgressWriter>(progress);
+
+/** Replaces where lesson components record progress; the app itself uses the default store. */
+export function ProgressWriterProvider({
+  writer,
+  children,
+}: {
+  writer: ProgressWriter;
+  children: React.ReactNode;
+}) {
+  return <ProgressContext.Provider value={writer}>{children}</ProgressContext.Provider>;
+}
+
+export function useProgress(): ProgressWriter {
+  return useContext(ProgressContext);
 }
 
 export function useApp(): AppContextValue {

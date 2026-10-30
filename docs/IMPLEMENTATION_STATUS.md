@@ -1,13 +1,13 @@
 # Implementation status
 
-Last updated: 2026-10-28.
+Last updated: 2026-10-30.
 
 | Milestone                            | Status                           |
 | ------------------------------------ | -------------------------------- |
 | **M1 — Foundation**                  | ✅ Done (see below)              |
 | M2 — Guest MVP slice                 | In progress                      |
 | M2.5 — Product experience overhaul   | Built; awaiting founder sign-off |
-| M3 — Content pipeline tooling        | Not started                      |
+| M3 — Content pipeline tooling        | In progress (sessions 1–3 built) |
 | M4 — Public web and growth surface   | Not started                      |
 | M5 — Offline, polish, beta readiness | Not started                      |
 
@@ -95,16 +95,30 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 
 Plan approved 2026-10-28 (D18). Three build sessions, then a C1 pilot.
 
-| Item                                                                                                                                            | Status          |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
-| `content:build` (D16 split files, image list, budgets) + app loading                                                                            | ✅ session 1    |
-| `content:stats`, `content:due-review`                                                                                                           | ✅ session 1    |
-| Sources (`content:sources` refs, fetch, refetch), `content:check-drafts`, `content:check-links`, `content:dedupe`, writer/verifier instructions | ✅ session 2    |
-| Review tool `/_review` and a fixture dry run                                                                                                    | Session 3       |
-| C1 pilot on one trail                                                                                                                           | After session 3 |
+| Item                                                                                                                                            | Status       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| `content:build` (D16 split files, image list, budgets) + app loading                                                                            | ✅ session 1 |
+| `content:stats`, `content:due-review`                                                                                                           | ✅ session 1 |
+| Sources (`content:sources` refs, fetch, refetch), `content:check-drafts`, `content:check-links`, `content:dedupe`, writer/verifier instructions | ✅ session 2 |
+| Review tool `/_review` and a fixture dry run (D20)                                                                                              | ✅ session 3 |
+| C1 pilot on one trail                                                                                                                           | Next         |
+
+### Review tool `/_review` (session 3, 2026-10-30)
+
+Plan: `docs/M3_REVIEW_TOOL_PLAN.md`; how to use it: `docs/CONTENT_PIPELINE.md`.
+
+| Item                                                                                                              | Where                                                                            |
+| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Review operations: queue, lesson, approve claim/locale, edit, reject, note, publish (per lesson), log, trail sync | `tools/content-pipeline/src/review/`                                             |
+| Dev-only API `/__review/api/*` (content/ only)                                                                    | `apps/web/review-plugin.ts`                                                      |
+| Queue and lesson screens; app components with progress writes off; keyboard flow                                  | `apps/web/app/dev/review/`                                                       |
+| Route only outside production builds                                                                              | `apps/web/app/routes.ts`                                                         |
+| Tests: operations on temp folders, fixture-trail dry run, keyboard flow, production route list (12 + 8 new tests) | `tools/content-pipeline/test/review.test.ts`, `apps/web/app/dev/review/*.test.*` |
+
+Known limitations: image accuracy review is later (D20). Claims carry no position in the text, so highlighting is on the best-matching sentence; a claim with no good match is shown only in the list. A source whose snapshot can't be re-created on a machine blocks its lessons there.
 
 ### Deferred to later milestones
 
-- M3: content pipeline, review tool, `content:check-links`, `content:build` (must meet D16: content split and a separate image manifest, so small changes download little), sourcing and reviewing the sample drafts.
+- M3: the C1 pilot (sourcing and reviewing the sample drafts).
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).

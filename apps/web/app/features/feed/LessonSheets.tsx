@@ -16,8 +16,7 @@ import {
 import { imageCredits, LessonArt } from '../../components/LessonArt';
 import { QuizRunner, type AnswerResult } from '../../components/QuizRunner';
 import { Sheet } from '../../components/Sheet';
-import { useApp, useEvents } from '../../data/app-context';
-import { progress } from '../../data/progress';
+import { useApp, useEvents, useProgress } from '../../data/app-context';
 
 /** Opens a lesson in its trail; `from` is where the trail's exit returns (an /app/ path). */
 export function trailHref(
@@ -48,6 +47,7 @@ export function QuizSheet({
 }) {
   const { t } = useTranslation();
   const { library, prefs, reportStorageError } = useApp();
+  const progress = useProgress();
   const events = useEvents();
   const questions = library.questions(variant.conceptId, variant.locale);
   const [results, setResults] = useState<AnswerResult[] | null>(null);

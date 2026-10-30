@@ -287,6 +287,14 @@ The second build session brought every other screen into the same design:
 - **Welcome** shows a real Discover card.
 - **A final check** measured every Discover card in both languages on four screen sizes (all 160 fit completely), every button's tap area, and the colour contrast, and fixed what fell short. Details: `docs/M2_5_INTEGRATION_PLAN.md` §7.
 
+### Step 21: The founder's review screen (M3, 30 October)
+
+Lessons are written and fact-checked by two separate AI sessions (`docs/CONTENT_PIPELINE.md`), but nothing reaches learners until the founder has read it. The review screen is where that happens. It exists only on the developer's own computer (`pnpm dev`, then `/_review`) and is never part of the published app.
+
+- **The queue** lists every trail and lesson waiting for review, how the fact-checker judged each claim, and why a lesson can't be opened yet (for example, an unverified claim, or a source whose saved copy is missing on this computer). It also shows the median minutes spent per lesson language against the target of four.
+- **A lesson** shows Portuguese and English side by side, drawn with the app's real Discover card, Go Deeper and quiz, so you see exactly what a learner will see. Answering the quiz there doesn't touch your own progress. Each claim is highlighted in the text and listed with the source's words, a link to the source and the surrounding passage from the saved copy. The fact-checker's report sits in a side panel.
+- **Decisions** are keyboard-first (`j`/`k` to move, `a` approve, `e` edit, `r` reject with a note, `n` note, `[`/`]` previous/next lesson, `?` for the list), and every key also has a button. Approving a language moves it into the library as reviewed, under the "all rights reserved" licence (D21). Publishing is a separate step that puts both languages live together. Rejecting leaves a note for the writer. Every change is checked first, and refused if it would break the library. Every decision is logged in `content/review-log.jsonl`.
+
 ---
 
 ---

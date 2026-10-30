@@ -265,8 +265,14 @@ Plan: [`docs/M3_REVIEW_TOOL_PLAN.md`](M3_REVIEW_TOOL_PLAN.md) (approved).
 - **English only.** The tool is for the founder, so `apps/web/app/dev/**` is exempt from the i18n lint rule and its strings stay out of the locale files. Deviation from the "no hard-coded strings" rule, limited to the dev-only tool.
 - **Reviewer:** `reviewedBy` is `Julian` on reviewed lessons and in `content/review-log.jsonl` (committed; the repository is public).
 - **Approve and publish are separate.** Approving moves a variant to `content/lessons/` as reviewed and sets its license (D21); publishing is a separate action.
+- **Publish is per lesson (founder, 2026-10-30).** One Publish action publishes both locales together, once both are approved. The plan first said "per approved variant", but D4 requires both locales of a published lesson to be published, so a single-locale publish would always be refused.
 - **Image accuracy review comes later**, not in this build.
 - **No outline-approval screen** (deviation from the D18 plan): trail outlines are approved in chat and recorded in `docs/content/`.
+- **Build notes (agent, inside the plan).**
+  - A write is refused only if it **adds** an error (validator or `check-drafts`). Errors already present in other drafts don't block every review.
+  - The library's `concept.json` lists only the locales, related lessons and trail links the library can resolve. A lesson's draft folder is removed once both locales are approved **and** its related lessons are in the library. Until then the draft concept keeps the full links, and every approval re-syncs them. The fixture dry run found this: trail-mates link to each other.
+  - Lesson components record progress through a `useProgress()` context (default: the real store). The tool renders them with writes switched off.
+  - Review-tool writes under `content/drafts/` and to the log don't trigger a content rebuild or page reload.
 
 ### D21 · Lesson text license: all rights reserved — Founder (2026-10-30)
 

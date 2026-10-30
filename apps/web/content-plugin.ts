@@ -16,6 +16,9 @@ const run = promisify(execFile);
 export function lumenContent(channel: ContentChannel): Plugin {
   const repoRoot = resolve(import.meta.dirname, '../..');
   const contentDir = resolve(repoRoot, 'content');
+  // Drafts, review notes and the review log never reach the bundle; the review tool (D20)
+  // writes them on every action, which shouldn't rebuild content or reload the page.
+  const ignored = [resolve(contentDir, 'drafts'), resolve(contentDir, 'review-log.jsonl')];
   const build = async () => {
     const { stdout } = await run(
       resolve(repoRoot, 'node_modules/.bin/tsx'),
@@ -37,7 +40,7 @@ export function lumenContent(channel: ContentChannel): Plugin {
       server.watcher.add(contentDir);
       let timer: ReturnType<typeof setTimeout> | undefined;
       server.watcher.on('all', (_event, file) => {
-        if (!file.startsWith(contentDir)) return;
+        if (!file.startsWith(contentDir) || ignored.some((p) => file.startsWith(p))) return;
         clearTimeout(timer);
         timer = setTimeout(() => {
           build()

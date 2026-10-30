@@ -2,6 +2,8 @@
 
 You are writing lesson drafts for the app's library. Read `docs/SPEC.md` §5.1–5.4 (quality bar, bilingual authoring) and the content schemas in `packages/domain/src/schemas/content.ts`. Work in `content/drafts/`; never edit `content/lessons/` and never mark anything reviewed or published.
 
+**Review notes first.** If `content/drafts/review/` has notes for your trail (written by the review tool when the founder rejects a variant), read and resolve each one before anything else: fix the draft, set its `reviewStatus` back to `"draft"`, and note the fix under the note.
+
 ## 1. Plan (stop for approval)
 
 Propose one trail: a title and one-line hook in both locales, 5–8 lessons in order (each: question-style title, one-sentence answer, why it follows the previous one), and 1–3 links to existing trails. Prefer Brazil-relevant angles where natural (§5.2). Check `pnpm content:dedupe` and `content/lessons/` for overlap. **Stop and wait for the founder's approval or edits.**

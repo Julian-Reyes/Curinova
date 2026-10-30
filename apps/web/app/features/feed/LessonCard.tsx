@@ -12,8 +12,7 @@ import {
 import { LessonArt } from '../../components/LessonArt';
 import { useToast } from '../../components/Toast';
 import { TopicIcon } from '../../components/TopicIcon';
-import { useApp } from '../../data/app-context';
-import { progress } from '../../data/progress';
+import { useApp, useProgress } from '../../data/app-context';
 import { useSpeech } from '../../hooks/useSpeech';
 import { DeeperSheet, QuizSheet, SourcesSheet } from './LessonSheets';
 import { useLessonTracking } from './tracking';
@@ -53,6 +52,7 @@ export function LessonCard({
 }: LessonCardProps) {
   const { t } = useTranslation();
   const { library, prefs, reportStorageError } = useApp();
+  const progress = useProgress();
   const toast = useToast();
   const [sheet, setSheet] = useState<'quiz' | 'deeper' | 'sources' | null>(null);
   const { markCompleted } = useLessonTracking(variant, active, onOpened);
