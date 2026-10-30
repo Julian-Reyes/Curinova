@@ -38,11 +38,14 @@ export function LessonPreview({
     const raw: ContentLibrary = {
       topics: lesson.topic ? [lesson.topic] : [],
       clusters: lesson.cluster ? [lesson.cluster] : [],
-      concepts: [lesson.concept],
+      concepts: [lesson.concept, ...lesson.neighbors.concepts],
       // The app hides rejected variants; the preview still shows them.
-      variants: Object.values(lesson.locales).map((l) => ({
-        ...l.variant,
-        reviewStatus: l.variant.reviewStatus === 'rejected' ? 'draft' : l.variant.reviewStatus,
+      variants: [
+        ...Object.values(lesson.locales).map((l) => l.variant),
+        ...lesson.neighbors.variants,
+      ].map((v) => ({
+        ...v,
+        reviewStatus: v.reviewStatus === 'rejected' ? 'draft' : v.reviewStatus,
       })),
       questions: Object.values(lesson.locales).flatMap((l) => l.questions),
       sources: lesson.sources,

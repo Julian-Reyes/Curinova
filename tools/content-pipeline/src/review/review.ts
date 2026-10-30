@@ -467,10 +467,26 @@ export async function loadLesson(ctx: ReviewContext, rawKey: string): Promise<Le
     clustersIn(state.drafts).find((c) => c.cluster.id === concept.clusterId)?.cluster ??
     clustersIn(state.library).find((c) => c.cluster.id === concept.clusterId)?.cluster ??
     null;
+  const neighborIds = new Set([
+    ...(cluster?.conceptIds ?? []),
+    ...concept.related.map((r) => r.conceptId),
+  ]);
+  neighborIds.delete(concept.id);
+  const neighbors: LessonView['neighbors'] = { concepts: [], variants: [] };
+  for (const k of new Set([...lessonKeys(state.drafts), ...lessonKeys(state.library)])) {
+    const c = conceptIn(state.drafts, k) ?? conceptIn(state.library, k);
+    if (!c || !neighborIds.has(c.id)) continue;
+    neighbors.concepts.push(c);
+    for (const l of c.variants) {
+      const v = variantIn(state.drafts, k, l) ?? variantIn(state.library, k, l);
+      if (v) neighbors.variants.push(v);
+    }
+  }
   const log = await readLog(ctx.repoRoot);
   return {
     key,
     concept,
+    neighbors,
     topic: topics.find((t) => t.id === concept.topicId) ?? null,
     cluster,
     locales,

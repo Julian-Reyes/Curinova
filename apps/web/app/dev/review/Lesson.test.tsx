@@ -124,6 +124,7 @@ const lesson: LessonView = {
       },
     ]),
   ),
+  neighbors: { concepts: [], variants: [] },
   sources: [],
   reports: [{ name: '2026-10-30-cluster_moon.md', text: '# Verifier report\nAll good.' }],
   notes: [],

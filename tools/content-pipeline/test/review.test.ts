@@ -137,6 +137,9 @@ describe('review queue and lesson', () => {
       after: ' and Real excerpt two appear here. The end.',
     });
     expect(support[0]?.source?.publisher).toBe('Real Publisher One');
+    // The trail-mate in the library comes along for the preview.
+    expect(lesson?.neighbors.concepts.map((c) => c.id)).toEqual(['concept_a1']);
+    expect(lesson?.neighbors.variants).toHaveLength(2);
     const missing = await loadLesson({ ...ctx, readSnapshot: () => Promise.resolve(null) }, 'a2');
     expect(missing?.locales.en?.support.c1?.[0]?.context).toEqual({ kind: 'missing' });
   });

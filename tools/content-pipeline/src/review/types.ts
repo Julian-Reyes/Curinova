@@ -109,6 +109,11 @@ export interface LessonView {
   topic: Topic | null;
   cluster: Cluster | null;
   locales: Partial<Record<Locale, LessonLocaleView>>;
+  /**
+   * The trail's other lessons and related lessons (drafts first, else the library), so the
+   * preview shows the real trail step, "next in this trail" and related lessons.
+   */
+  neighbors: { concepts: Concept[]; variants: LessonVariant[] };
   /** Sources cited by any locale, for the app's Sources sheet. */
   sources: Source[];
   reports: { name: string; text: string }[];
