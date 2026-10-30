@@ -103,9 +103,9 @@
           "excerpt": "After studying weakly associated cue–target pairs (e.g., train-black), participants were better at cued recall of targets with the original cues compared with extraexperimental cues that were strongly associated to the targets (e.g., white)."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "supported",
       "humanVerdict": "pending",
-      "text": "Em um estudo de pares de palavras, pistas originais ajudaram mais que outras associações fortes feitas depois."
+      "text": "Em um estudo de pares de palavras, pistas originais ajudaram mais que outras pistas fortemente associadas ao alvo."
     }
   ],
   "sourceIds": [
