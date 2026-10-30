@@ -20,6 +20,7 @@ For each lesson:
 Write only from the saved snapshots (`content/sources/.snapshots/<id>.txt`); add nothing you cannot point to there. Create, per lesson `<key>` (snake_case):
 `content/drafts/lessons/<key>/concept.json`, `variant.pt-BR.json`, `variant.en.json`, `quiz.pt-BR.json`, `quiz.en.json` (and `content/drafts/clusters/<cluster>.json` for a new trail). Copy the structure of an existing lesson in `content/lessons/`.
 
+- **Your own words only.** Never adapt the wording of Wikipedia or any other source: lesson text is all rights reserved (D21). Keep `contentLicense: "pending"`; the review tool sets the license.
 - **pt-BR reads as native Brazilian Portuguese**, not translation; en is written from the same sources, not translated word for word.
 - Title: a question that hooks. `hook`: one line. `summary`: the answer in one sentence. `cardText`: 1–2 sentences, 12–40 words, answering the title (the Discover card). Card body: 80–150 words, one idea: narrative or analogy → the essential fact → a surprising or practical implication. Takeaway ≤ 25 words. Deep dive ≤ 400 words with headings.
 - Explain uncommon words. No sensationalism; mark hypotheses and disputes. No medical, financial or legal advice. Date-sensitive lessons get `reviewAfter`.

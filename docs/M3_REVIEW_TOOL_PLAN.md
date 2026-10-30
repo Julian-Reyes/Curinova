@@ -33,10 +33,10 @@ A page that exists only on the dev server (`pnpm dev`, `http://localhost:5273/_r
 Every action is also a visible button.
 
 - **Approve a claim**: `humanVerdict: "approved"`.
-- **Approve a locale** (needs every claim `approved` or `edited`): write `content/lessons/<key>/variant.<locale>.json` with `reviewStatus: "reviewed"`, `reviewedBy: "Julian"`, `reviewedAt` (now), `updatedAt`; write `quiz.<locale>.json` with `status: "reviewed"`; copy `concept.json`. `publicationStatus` stays `"draft"`. When both locales of a lesson are approved, delete the lesson's draft folder.
+- **Approve a locale** (needs every claim `approved` or `edited`): write `content/lessons/<key>/variant.<locale>.json` with `reviewStatus: "reviewed"`, `reviewedBy: "Julian"`, `reviewedAt` (now), `updatedAt`, `contentLicense: "all-rights-reserved"` (D21); write `quiz.<locale>.json` with `status: "reviewed"`; copy `concept.json`. `publicationStatus` stays `"draft"`. When both locales of a lesson are approved, delete the lesson's draft folder.
 - **Edit**: the lesson's text (title, hook, summary, `cardText` if present, card paragraphs, takeaway, deep-dive blocks, quiz prompt, options, explanation, misconception) and claim wording. Excerpts, source IDs and IDs are not editable (excerpts must match the snapshot). Saving writes the draft, re-runs the checks, and sets the claims touched to `humanVerdict: "edited"`.
 - **Reject**: set the variant's `reviewStatus: "rejected"`, keep it in drafts, and append the note (lesson, locale, claim if any, text) to `content/drafts/review/<YYYY-MM-DD>-<cluster>.md`. Add one line to `docs/content/WRITER.md` telling writer sessions to read and resolve those notes.
-- **Publish**: a separate action per approved variant (`publicationStatus: "published"`, `publishedAt`). Blocked, with the reason shown, while `contentLicense` is `"pending"` (P2 is open; the validator already blocks publishing `pending`).
+- **Publish**: a separate action per approved variant (`publicationStatus: "published"`, `publishedAt`). Refused, with the reason shown, for a variant that isn't reviewed or still has `contentLicense: "pending"` (the validator already blocks publishing `pending`).
 - **The library must stay valid.** Before any write, run the content validator over the resulting library and the excerpt check over the drafts (`checkDrafts`); on any error write nothing and show the issues.
 - **Trail files.** Approving a lesson of a trail writes or updates `content/clusters/<cluster>.json` from the draft, keeping only `conceptIds` already in the library (planned order kept) and only `links` to trails already in the library. When all the trail's lessons are in the library, the draft trail file is deleted.
 - **Review log**: every action appends one JSON line to `content/review-log.jsonl` (committed): time, reviewer, conceptId, locale, action, claimId, note, milliseconds on the lesson screen.
@@ -58,7 +58,7 @@ Every action is also a visible button.
 
 ## Tests
 
-- Review operations on temporary folders: approve writes the right files and fields and removes drafts when both locales are done; trail-file sync (partial trail, links to missing trails); a write that would break validation writes nothing; editing marks claims `edited`; reject notes and log lines are written; publish is refused while the license is `pending`; paths outside `content/` are refused.
+- Review operations on temporary folders: approve writes the right files and fields and removes drafts when both locales are done; trail-file sync (partial trail, links to missing trails); a write that would break validation writes nothing; editing marks claims `edited`; reject notes and log lines are written; approve sets `contentLicense: "all-rights-reserved"`; publish is refused for an unreviewed or `pending` variant; paths outside `content/` are refused.
 - Component test for the keyboard flow on the lesson screen.
 - The production route list has no `/_review` (and `pnpm build` output has no review chunk).
 - Dry run: a fixture trail goes from drafts to approved, and the library still validates.

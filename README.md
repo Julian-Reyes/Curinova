@@ -72,4 +72,4 @@ Every factual claim in a published lesson must map to a real source excerpt, wit
 
 ## License
 
-No license has been chosen yet, so all rights are reserved for now. The license for lesson text is a pending decision (see P2 in [DECISIONS.md](docs/DECISIONS.md)).
+No license has been chosen for the code yet, so all rights are reserved for now. Lesson text is all rights reserved (D21 in [DECISIONS.md](docs/DECISIONS.md)).
