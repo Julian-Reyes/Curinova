@@ -1,6 +1,6 @@
 # M3 session 3 — Review tool `/_review` (plan)
 
-Status: **approved by the founder on 2026-10-30 (D20). Not built yet.** This is the plan a build session follows; [`CLAUDE.md`](../CLAUDE.md) still applies (stop and ask before a new dependency, a structural change or a spec deviation). Spec: §5.5 step 6, §9.5, §9.6, §20 M3. Earlier context: the M3 plan in D18.
+Status: **approved by the founder on 2026-10-30 (D20). Built on 2026-10-30** (build notes in D20). This is the plan a build session follows; [`CLAUDE.md`](../CLAUDE.md) still applies (stop and ask before a new dependency, a structural change or a spec deviation). Spec: §5.5 step 6, §9.5, §9.6, §20 M3. Earlier context: the M3 plan in D18.
 
 ## What it is
 
