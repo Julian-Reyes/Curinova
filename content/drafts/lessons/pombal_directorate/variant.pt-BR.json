@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Não era uma escolha neutra de idioma: a política fazia parte da assimilação forçada dos povos indígenas. Missionários foram substituídos por diretores leigos, e a exploração do trabalho e das terras indígenas continuou. Uma lei, porém, não apagou as línguas de uma vez: o nheengatu ainda era amplamente falado na Amazônia por volta da metade do século XIX."
+      "text": "Não era uma escolha neutra de idioma: a política fazia parte da assimilação forçada dos povos indígenas. Missionários foram substituídos por diretores leigos, e o português passou a ser ensinado nas povoações. Uma lei, porém, não apagou as línguas de uma vez: o nheengatu ainda era amplamente falado na Amazônia por volta da metade do século XIX."
     },
     {
       "type": "takeaway",
@@ -52,7 +52,7 @@
           "excerpt": "O Diretório que se deve observar nas povoações dos índios do Pará e Maranhão, aprovado por d. José I em 1755, desempenhou papel central na política metropolitana de controle dos povos indígenas durante o período pombalino."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -65,7 +65,7 @@
           "excerpt": "O alvará de 17 de agosto de 1758 estendia o Diretório a todo o Brasil."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -78,7 +78,7 @@
           "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -95,7 +95,7 @@
           "excerpt": "Dentre as principais disposições, substituía os missionários por diretores leigos, nomeados pelos governadores, cujas obrigações abrangiam o incentivo à agricultura, à mestiçagem por meio de casamentos mistos e à adoção de hábitos e da língua portuguesa, com o fim de promover a “civilidade dos índios”."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -108,12 +108,12 @@
           "excerpt": "Dentre as principais disposições, substituía os missionários por diretores leigos, nomeados pelos governadores, cujas obrigações abrangiam o incentivo à agricultura, à mestiçagem por meio de casamentos mistos e à adoção de hábitos e da língua portuguesa, com o fim de promover a “civilidade dos índios”."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
       "id": "c6",
-      "text": "A política do Diretório foi parte de um processo de aculturação compulsória, que não impediu exploração do trabalho nem perda de terras indígenas.",
+      "text": "A imposição do português e a proibição das línguas indígenas pelo Diretório fizeram parte de um processo de aculturação compulsória.",
       "highStakes": true,
       "support": [
         {
@@ -138,7 +138,7 @@
           "excerpt": "Em 12 de maio de 1798, o Diretório foi abolido em meio a denúncias de corrupção e abusos cometidos pelas autoridades responsáveis."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -151,7 +151,7 @@
           "excerpt": "Até por volta da metade do século XIX, a língua mais falada no atual estado do Pará e ao longo da bacia amazônica era o nheengatu."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

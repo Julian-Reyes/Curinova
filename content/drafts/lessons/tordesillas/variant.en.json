@@ -5,12 +5,12 @@
   "slug": "why-does-brazil-speak-portuguese-not-spanish",
   "title": "Why does Brazil speak Portuguese rather than Spanish?",
   "hook": "A treaty between kingdoms came before the story of languages spoken there.",
-  "summary": "Tordesillas gave Portugal a colonial claim to part of present-day Brazil; Portuguese spread later.",
-  "cardText": "A 1494 treaty put part of present-day Brazil on Portugal’s side of a line on a map. Portuguese spread later through colonization.",
+  "summary": "Tordesillas helped define Portuguese colonial rule over part of present-day Brazil; Portuguese gained ground centuries later.",
+  "cardText": "The 1494 treaty put part of present-day Brazil in Portugal’s claimed zone. Centuries later, colonial policies helped Portuguese gain ground.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "A line on a map could not make people change languages. In 1494, Portugal and Spain signed the Treaty of Tordesillas to divide lands found and yet to be found. The line lay 370 leagues west of Cape Verde: Portugal claimed the east, Spain the west. Part of what became Brazil fell on Portugal’s side."
+      "text": "A line on a map could not make people change languages. In 1494, Portugal and Spain signed the Treaty of Tordesillas to divide lands found and yet to be found. The line lay 370 leagues west of Cape Verde: Portugal claimed the east, Spain the west. Part of what became Brazil fell on Portugal’s side. Centuries later, colonial policies helped Portuguese gain ground."
     },
     {
       "type": "paragraph",
@@ -52,7 +52,7 @@
           "excerpt": "As duas Coroas, procurando evitar guerras, assinaram um acordo em 1494 que visava dividir entre elas as novas terras “descobertas e por descobrir”. Esse acordo ficou conhecido como Tratado de Tordesilhas."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -65,7 +65,7 @@
           "excerpt": "O Tratado de Tordesilhas definiu o meridiano que ficava a 370 léguas a oeste de uma ilha do arquipélago de Cabo Verde como a nova referência para a divisão. Os territórios a leste desse meridiano pertenceriam a Portugal e aqueles a oeste pertenceriam à Espanha."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -78,7 +78,7 @@
           "excerpt": "Entretanto, o Tratado de 1494 nunca foi efetivamente demarcado, segundo o historiador Guilherme Pereira das Neves, devido a fatores como a indefinição quanto a ilha de Cabo Verde que serviria de referência para a demarcação do meridiano de Tordesilhas e a precariedade dos mapas da época, os quais exibiam informações imprecisas das novas terras."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -91,7 +91,7 @@
           "excerpt": "Os portugueses, através da ação dos bandeirantes e dos jesuítas, ultrapassaram em muito os limites estabelecidos pelo Tratado de Tordesilhas."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -104,7 +104,7 @@
           "excerpt": "O acordo diplomático visava dirimir as indefinições da não demarcação de Tordesilhas e ratificar a soberania das duas monarquias ibéricas sobre os territórios ocupados na América."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -117,7 +117,7 @@
           "excerpt": "Quando os portugueses chegaram ao Brasil em 1500, falavam-se centenas de línguas indígenas no território de nosso país."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -130,6 +130,23 @@
           "excerpt": "No entanto, foi aquela que os colonizadores do Brasil aprenderam e falaram por longo tempo."
         }
       ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Later colonial policies, including Pombaline measures, helped Portuguese gain ground in regions of Brazil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "Em São Paulo, ela foi dominante no século XVII e, a partir do século XVIII, com as medidas pombalinas (Mariani, 2004), passou a ser suplantada pela língua portuguesa."
+        },
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "Haja vista a “civilidade” dos povos indígenas que se pretendia alcançar, a política linguística expressa no Diretório e a sua implementação por meio da “escola para índios” configuram-se como variáveis fundamentais para uma maior compreensão sobre o avanço da língua portuguesa nas vilas de índios e suas implicações linguísticas."
+        }
+      ],
       "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
@@ -137,7 +154,9 @@
   "sourceIds": [
     "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
     "src_historialuso_an_gov_br_index_php_586aaa",
-    "src_tupi_fflch_usp_br_b59a75"
+    "src_tupi_fflch_usp_br_b59a75",
+    "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+    "src_revistas_ufrj_br_index_php_lh_210f17"
   ],
   "quizIds": ["q_tordesillas_1__en", "q_tordesillas_2__en"],
   "contentLicense": "pending",
