@@ -180,6 +180,60 @@ describe('review actions', () => {
     expect(await libraryErrors(root)).toEqual([]);
   });
 
+  it('holds back a link to a lesson not in the library yet, and restores it once that lesson is approved', async () => {
+    const { ctx, root } = await setup();
+    // A second draft lesson a3; a2 and a3 link to each other.
+    const reason = { 'pt-BR': 'Real ligação', en: 'Real link' };
+    const dir = 'content/drafts/lessons';
+    for (const name of await readdir(join(root, dir, 'a2'))) {
+      const text = (await readFile(join(root, dir, 'a2', name), 'utf8'))
+        .replaceAll('a2', 'a3')
+        .replaceAll('"clusterOrder": 2', '"clusterOrder": 3');
+      await mkdir(join(root, dir, 'a3'), { recursive: true });
+      await writeFile(join(root, dir, 'a3', name), text);
+    }
+    for (const [from, to] of [
+      ['a2', 'a3'],
+      ['a3', 'a2'],
+    ]) {
+      const path = `${dir}/${from!}/concept.json`;
+      const concept = await read(root, path);
+      concept.related = [{ conceptId: `concept_${to!}`, type: 'related', reason }];
+      await writeFile(join(root, path), JSON.stringify(concept));
+    }
+    const clusterPath = 'content/drafts/clusters/cluster_a.json';
+    const cluster = await read(root, clusterPath);
+    await writeFile(
+      join(root, clusterPath),
+      JSON.stringify({ ...cluster, conceptIds: ['concept_a1', 'concept_a2', 'concept_a3'] }),
+    );
+
+    // a2 approved first: the library copy can't hold the link to a3 yet.
+    expect((await approveAll(ctx, 'a2', 'pt-BR')).ok).toBe(true);
+    const done = await approveAll(ctx, 'a2', 'en');
+    expect(done).toMatchObject({ ok: true, message: 'Approved en into the library.' });
+    expect((await read(root, 'content/lessons/a2/concept.json')).related).toEqual([]);
+    // The draft concept keeps the link, and the queue says what a2 is waiting for.
+    expect((await read(root, `${dir}/a2/concept.json`)).related).toHaveLength(1);
+    const waiting = (await loadQueue(ctx)).trails[0]?.lessons.find((l) => l.key === 'a2');
+    expect(waiting?.waitingFor).toEqual(['concept_a3']);
+    expect(await libraryErrors(root)).toEqual([]);
+
+    // Approving a3 brings it into the library: a2's link is restored and both drafts leave.
+    expect((await approveAll(ctx, 'a3', 'pt-BR')).ok).toBe(true);
+    expect((await approveAll(ctx, 'a3', 'en')).ok).toBe(true);
+    expect((await read(root, 'content/lessons/a2/concept.json')).related).toEqual([
+      { conceptId: 'concept_a3', type: 'related', reason },
+    ]);
+    expect((await read(root, 'content/lessons/a3/concept.json')).related).toEqual([
+      { conceptId: 'concept_a2', type: 'related', reason },
+    ]);
+    expect(existsSync(join(root, dir, 'a2'))).toBe(false);
+    expect(existsSync(join(root, dir, 'a3'))).toBe(false);
+    expect(existsSync(join(root, clusterPath))).toBe(false);
+    expect(await libraryErrors(root)).toEqual([]);
+  });
+
   it('writes nothing when a change would break validation', async () => {
     const { ctx, root } = await setup();
     const path = 'content/drafts/lessons/a2/variant.en.json';

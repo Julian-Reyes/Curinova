@@ -107,13 +107,13 @@ Plan approved 2026-10-28 (D18). Three build sessions, then a C1 pilot.
 
 Plan: `docs/M3_REVIEW_TOOL_PLAN.md`; how to use it: `docs/CONTENT_PIPELINE.md`.
 
-| Item                                                                                                              | Where                                                                            |
-| ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| Review operations: queue, lesson, approve claim/locale, edit, reject, note, publish (per lesson), log, trail sync | `tools/content-pipeline/src/review/`                                             |
-| Dev-only API `/__review/api/*` (content/ only)                                                                    | `apps/web/review-plugin.ts`                                                      |
-| Queue and lesson screens; app components with progress writes off; keyboard flow                                  | `apps/web/app/dev/review/`                                                       |
-| Route only outside production builds                                                                              | `apps/web/app/routes.ts`                                                         |
-| Tests: operations on temp folders, fixture-trail dry run, keyboard flow, production route list (12 + 8 new tests) | `tools/content-pipeline/test/review.test.ts`, `apps/web/app/dev/review/*.test.*` |
+| Item                                                                                                                                                                       | Where                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Review operations: queue, lesson, approve claim/locale, edit, reject, note, publish (per lesson), log, trail sync                                                          | `tools/content-pipeline/src/review/`                                             |
+| Dev-only API `/__review/api/*` (content/ only)                                                                                                                             | `apps/web/review-plugin.ts`                                                      |
+| Queue and lesson screens; app components with progress writes off; keyboard flow                                                                                           | `apps/web/app/dev/review/`                                                       |
+| Route only outside production builds                                                                                                                                       | `apps/web/app/routes.ts`                                                         |
+| Tests: operations on temp folders, fixture-trail dry run, keyboard flow, production route list (13 + 8 new tests, including a held-back related link restored on approval) | `tools/content-pipeline/test/review.test.ts`, `apps/web/app/dev/review/*.test.*` |
 
 Known limitations: image accuracy review is later (D20). Claims carry no position in the text, so highlighting is on the best-matching sentence; a claim with no good match is shown only in the list. A source whose snapshot can't be re-created on a machine blocks its lessons there.
 
