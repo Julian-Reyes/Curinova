@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Cebola roxa cortada ao meio e picada sobre uma tábua de madeira",
+        "en": "A red onion cut in half and chopped on a wooden board"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Robert Loescher",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopped_red_onion.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "00612a55"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Cebola picada sobre uma tábua, ao lado de uma faca",
+        "en": "Chopped onion on a cutting board next to a knife"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "HungryHuy",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopped_onions_on_a_cutting_board_with_knife.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "e6f04355"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Cebolas roxas expostas em uma feira",
+        "en": "Red onions on display at a market"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Kritzolina",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Market_at_Hildegardplatz_in_Kempten_03.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "377dc0b8"
+    }
+  }
 }

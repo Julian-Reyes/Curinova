@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Raízes de mandioca empilhadas",
+        "en": "A pile of cassava roots"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "David Monniaux",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manihot_esculenta_dsc07325.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "3772c499"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Capivaras entre plantas aquáticas",
+        "en": "Capybaras among water plants"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Clodomiro Esteves Junior",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capivara(Hydrochoerus_hydrochaeris).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "0705cc6f"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Jabuticabas maduras presas ao galho",
+        "en": "Ripe jabuticabas growing on a branch"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Alexandre Campolina",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jabuticaba_fruto.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "a0930f4f"
+    }
+  }
 }

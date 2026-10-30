@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Fóssil de coral do período Devoniano, com vários coralitos lado a lado",
+        "en": "A Devonian fossil coral, with many coral cups side by side"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "James St. John",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eridophyllum_seriale_(fossil_rugose_coral)_(Middle_Devonian)_1_(35642559465).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "d5a159f1"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O nascer do Sol sobre o horizonte da Terra, visto da Estação Espacial Internacional",
+        "en": "Sunrise over Earth’s horizon, seen from the International Space Station"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "NASA Johnson Space Center",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_orbital_sunrise_bursts_above_Earth%27s_horizon_(iss073e1068530).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "34da9340"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Luzes de cidades na Terra à noite, vistas da órbita",
+        "en": "City lights on Earth at night, seen from orbit"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "NASA Johnson Space Center",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_orbital_sunrise_crowns_Earth%27s_horizon_(iss072e340644).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "5648dad3"
+    }
+  }
 }

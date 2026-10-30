@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Travesseiro sobre uma cama, sob luz quente",
+        "en": "A pillow on a bed in warm light"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "DeWithers",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pillow_made_of_paper,_plaster_and_wire.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "f98331af"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O Estudante Adormecido, pintura de Constantijn Verhout: um jovem dorme sobre seus livros",
+        "en": "The Sleeping Student, a painting by Constantijn Verhout: a young man asleep over his books"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Constantijn Verhout",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sleeping_Student_(Constantin_Verhout)_-_Nationalmuseum_-_17680.tif"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "f95c2614"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Cama arrumada com almofadas decoradas",
+        "en": "A made bed with decorated pillows"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Marek Ślusarczyk (Tupungato)",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:44_Made_bed_with_richly_decorated_pillows_and_ornate_bedspread.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "c73a6d35"
+    }
+  }
 }

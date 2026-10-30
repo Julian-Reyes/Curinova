@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Cristais de sal vistos de perto",
+        "en": "Salt crystals up close"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Prosthetic Head",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salt_Crystals_macro.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "6296c063"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Panela com água fervendo no fogão",
+        "en": "A pot of boiling water on the stove"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Shixart1985",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pot_of_boiling_water_on_the_stove.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "18ff2d49"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Panela com espaguete cozido",
+        "en": "A pot of cooked spaghetti"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Famartin",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-03-31_14_03_36_A_pot_of_spaghetti_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "f331b0f2"
+    }
+  }
 }

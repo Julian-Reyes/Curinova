@@ -37,8 +37,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "recall",
-    "alt": "A small category label helping someone find a memory.",
+    "illustrationId": "cue",
+    "alt": "Diagram of a label linked to one open drawer among several closed ones.",
     "license": "original"
   },
   "claims": [

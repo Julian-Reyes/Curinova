@@ -58,6 +58,24 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-10-27",
       "hash": "301d4b81"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Réplica de uma caravela portuguesa em Lagos, Portugal",
+        "en": "A replica of a Portuguese caravel in Lagos, Portugal"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Kolforn",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boa_Esperan%C3%A7a,_Lagos,_14_April_2016_(4).JPG"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "2e100b95"
     }
   }
 }

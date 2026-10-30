@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Trilha em um vale de montanha no Parque Provincial Aconcágua",
+        "en": "A trail through a mountain valley in Aconcagua Provincial Park"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Bernard Gagnon",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aconcagua_Provincial_Park_04.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "9610ea1b"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O Aconcágua, nos Andes argentinos, com o pico coberto de neve",
+        "en": "Aconcagua, in the Argentine Andes, with its snow-capped peak"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Mariordo Mario Roberto Duran Ortiz",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aconcagua_13.JPG"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "f9edf8e2"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "O Pico da Neblina, a montanha mais alta do Brasil, entre nuvens",
+        "en": "Pico da Neblina, Brazil’s highest mountain, among clouds"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Força Aérea do Brasil",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_da_Neblina_(FAB).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "ba03a90c"
+    }
+  }
 }

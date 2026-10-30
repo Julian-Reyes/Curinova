@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Estudantes fazendo uma prova em sala de aula",
+        "en": "Students taking an exam in a classroom"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Baluddhar",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal_Uddhar_Students_taking_exam_.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "9cdf2f4b"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Caixa de arquivo cheia de fichas",
+        "en": "A filing box full of index cards"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Pittigrilli",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filing_box_with_index_cards_containing_customer_data_of_a_small_business,_2022.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "bfd771ae"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Mesa de estudo com livros, papéis e anotações",
+        "en": "A study desk with books, papers and notes"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "brewbooks",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Studying_for_a_Biochemistry_exam_-_Flickr_-_brewbooks.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "cfe63744"
+    }
+  }
 }

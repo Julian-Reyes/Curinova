@@ -23,5 +23,43 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Corte microscópico do couro cabeludo, com a epiderme, a derme e um folículo piloso",
+        "en": "Microscope section of the scalp, showing the epidermis, the dermis and a hair follicle"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Lazar.zenit",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scalp_cross_section_(negro).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "515c42fd"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Pele humana vista bem de perto, com seus sulcos finos",
+        "en": "Human skin seen up close, with its fine grooves"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Montavius Howard (TongCreator)",
+        "platform": "Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_skin_close-up.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "862598ca"
+    }
+  }
 }

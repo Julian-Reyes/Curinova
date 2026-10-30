@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Pintura de Benedito Calixto da praia de São Vicente, no litoral paulista",
+        "en": "Benedito Calixto’s painting of the beach at São Vicente, on the São Paulo coast"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Benedito Calixto",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_-_Praia_de_S%C3%A3o_Vicente,_s.d.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "46dbe490"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O Pátio do Colégio, no centro de São Paulo, no local onde a cidade foi fundada",
+        "en": "Pátio do Colégio in central São Paulo, on the site where the city was founded"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Ferik80",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%A1tio_do_Col%C3%A9gio_-_S%C3%A3o_Paulo_-_20240717114112.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "cf29e6a6"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Detalhe do monumento Glória Imortal aos Fundadores de São Paulo",
+        "en": "Detail of the Glória Imortal aos Fundadores de São Paulo monument"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Wilfredor",
+        "platform": "Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gl%C3%B3ria_Imortal_aos_Fundadores_de_S%C3%A3o_Paulo.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "828bbc76"
+    }
+  }
 }

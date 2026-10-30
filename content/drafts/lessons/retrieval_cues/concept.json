@@ -23,5 +23,43 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Gaveta aberta de um catálogo de fichas, com etiquetas de assunto",
+        "en": "An open card-catalogue drawer with subject labels"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Dr. Marcus Gossler",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "5bc097c3"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Arquivo de madeira com muitas gavetas pequenas, numa biblioteca",
+        "en": "A wooden cabinet with many small drawers in a library"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "יעל י",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drawers_NLI.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "910437e3"
+    }
+  }
 }

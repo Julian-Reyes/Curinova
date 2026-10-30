@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Instrumentos da expedição britânica que observou o eclipse de 1919 em Sobral, no Ceará",
+        "en": "Instruments of the British expedition that observed the 1919 eclipse at Sobral, Ceará"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "C. Davidson",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eclipse_instruments_at_Sobral.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "5915c1c1"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O eclipse total do Sol de 2017: o disco escuro da Lua cercado pela coroa solar",
+        "en": "The 2017 total solar eclipse: the Moon’s dark disc surrounded by the Sun’s corona"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "NASA/Carla Thomas",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017_Total_Solar_Eclipse_(AFRC2017-0233-008).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "5e426ef1"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Eclipse parcial do Sol visto entre nuvens",
+        "en": "A partial solar eclipse seen through clouds"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "W.carter",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Partial_solar_eclipse_with_some_clouds_in_Tuntorp_43.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "9efa28d0"
+    }
+  }
 }

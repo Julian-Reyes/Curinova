@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um caderno escrito à mão, uma caneta-tinteiro e um relógio de bolso sobre uma mesa ao sol",
+        "en": "Illustration of a handwritten notebook, a fountain pen and a pocket watch on a sunlit desk"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "9a7d4211"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 2277,
+      "alt": {
+        "pt-BR": "Ilustração de um cérebro feito de luz se desfazendo em faíscas",
+        "en": "Illustration of a brain made of light dissolving into sparks"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "b94ac804"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um caderno aberto com a escrita apagada",
+        "en": "Illustration of an open notebook with faded handwriting"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "176b31e7"
+    }
+  }
 }
