@@ -17,6 +17,8 @@ approved  snapshot    claims     session     session 3)         + content:build
 | Check drafts                       | Either session                   | `pnpm content:check-drafts`, `pnpm content:dedupe`                                          |
 | Review and publish                 | Founder                          | `/_review` (M3 session 3)                                                                   |
 
+After a verifier report, the writer repairs blockers and resets changed claims to `pending`. A fresh verifier session rechecks those claims and every passage, quiz and locale that depends on them. Repeat until the verifier reports zero blockers and `content:check-drafts` passes. Editorial notes do not hold up founder review.
+
 ## Where things live
 
 - `content/drafts/`: drafts in the same layout as `content/` (`lessons/<key>/…`, `clusters/…`) and verifier reports in `content/drafts/verify/`. Committed on a content branch (e.g. `content/c1-moon`), never on `main`, so separate sessions (including cloud sessions) can hand work over. A draft replaces the library copy it shadows when checked; approved drafts move to `content/lessons/` and leave `content/drafts/`.
@@ -45,4 +47,4 @@ Writer and verifier sessions often run in Claude Code cloud containers. Two thin
 | `pnpm content:stats` / `content:due-review`  | Coverage and review backlog / published lessons past `reviewAfter`.                                                                                                                                                 |
 | `pnpm content:build`                         | The split content bundle the app loads (D16; runs automatically on build and in dev).                                                                                                                               |
 
-Instruction versions: the writer records `generation.promptVersion: "write-v1"`, the verifier `verify-v1` in its report. Change the version when an instruction file changes meaningfully.
+Instruction versions: the writer records `generation.promptVersion: "write-v1"`, the verifier `verify-v2` in new reports. Older `verify-v1` reports remain a record of their original checks. Change the version when an instruction file changes meaningfully.
