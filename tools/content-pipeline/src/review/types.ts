@@ -147,6 +147,7 @@ export interface LessonEdit {
 
 export type ReviewAction =
   | { type: 'approve-claim'; key: string; locale: Locale; claimId: string; ms: number }
+  | { type: 'approve-claims'; key: string; locale: Locale; ms: number }
   | { type: 'approve-locale'; key: string; locale: Locale; ms: number }
   | { type: 'edit'; key: string; locale: Locale; edit: LessonEdit; ms: number }
   | {

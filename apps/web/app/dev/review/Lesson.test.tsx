@@ -238,6 +238,16 @@ describe('review lesson screen', () => {
     expect(actions[1]).toMatchObject({ type: 'approve-locale', locale: 'en' });
   });
 
+  it('"Approve all claims" approves every open claim of that locale', async () => {
+    const { user } = await setup();
+    const pt = screen.getByRole('region', { name: 'pt-BR variant' });
+    await user.click(within(pt).getByRole('button', { name: /^Approve all claims/ }));
+    await waitFor(() => {
+      expect(actions).toHaveLength(1);
+    });
+    expect(actions[0]).toMatchObject({ type: 'approve-claims', key: 'moon', locale: 'pt-BR' });
+  });
+
   it('r asks for a required note; n adds a note; ? lists the shortcuts', async () => {
     const { user } = await setup();
     await user.keyboard('j');

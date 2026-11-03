@@ -126,6 +126,38 @@ describe('review queue and lesson', () => {
     expect(r.ok).toBe(false);
   });
 
+  it('approves every open claim of a locale at once, leaving rejected and unsupported ones', async () => {
+    const { ctx, root } = await setup();
+    const path = 'content/drafts/lessons/a2/variant.en.json';
+    const v = await read(root, path);
+    const c1 = (v.claims as Json[])[0]!;
+    await writeFile(
+      join(root, path),
+      JSON.stringify({
+        ...v,
+        claims: [
+          c1,
+          { ...c1, id: 'c2', humanVerdict: 'rejected' },
+          { ...c1, id: 'c3', autoVerdict: 'unsupported' },
+        ],
+      }),
+    );
+    const r = await act(ctx, { type: 'approve-claims', key: 'a2', locale: 'en' });
+    expect(r).toMatchObject({ ok: true, message: expect.stringMatching(/Approved 1 claim/) });
+    expect(r.message).toMatch(/1 can't be approved/);
+    const claims = (await read(root, path)).claims as Json[];
+    expect(claims.map((c) => c.humanVerdict)).toEqual(['approved', 'rejected', 'pending']);
+    expect((await readLog(root)).map((l) => l.action)).toEqual(['approve-claims']);
+    // Nothing left to approve.
+    expect((await act(ctx, { type: 'approve-claims', key: 'a2', locale: 'en' })).ok).toBe(false);
+  });
+
+  it('approve all claims, then approve the locale', async () => {
+    const { ctx } = await setup();
+    expect((await act(ctx, { type: 'approve-claims', key: 'a2', locale: 'pt-BR' })).ok).toBe(true);
+    expect((await act(ctx, { type: 'approve-locale', key: 'a2', locale: 'pt-BR' })).ok).toBe(true);
+  });
+
   it('shows each excerpt with the snapshot text around it, or says the snapshot is missing', async () => {
     const { ctx } = await setup();
     const lesson = await loadLesson(ctx, 'a2');
