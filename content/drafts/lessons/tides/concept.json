@@ -47,19 +47,18 @@
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "Lama exposta pela maré baixa, com prédios ao fundo",
-        "en": "Mud flats exposed at low tide, with buildings in the distance"
+        "pt-BR": "Ilustração da Lua cheia sobre o mar ao entardecer, refletida na areia molhada de uma praia",
+        "en": "Illustration of a full Moon over the sea at dusk, reflected in the wet sand of a beach"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "JKB fotos",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:No_fundo_da_lama.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-03",
-      "hash": "c433bfa1"
+      "hash": "422d987c"
     },
     "review": {
       "width": 1000,
