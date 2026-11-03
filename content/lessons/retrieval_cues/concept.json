@@ -29,37 +29,52 @@
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "Arquivo de madeira com muitas gavetas pequenas, numa biblioteca",
-        "en": "A wooden cabinet with many small drawers in a library"
+        "pt-BR": "Ilustração de mãos segurando uma foto antiga de uma praia, ao lado de uma concha, sob a luz de um abajur",
+        "en": "Illustration of hands holding an old photograph of a beach, next to a seashell, under lamplight"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "יעל י",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drawers_NLI.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "910437e3"
+      "addedAt": "2026-11-03",
+      "hash": "13086d1d"
     },
     "deeper": {
       "width": 1200,
       "height": 700,
       "alt": {
-        "pt-BR": "Gaveta aberta de um catálogo de fichas, com etiquetas de assunto",
-        "en": "An open card-catalogue drawer with subject labels"
+        "pt-BR": "Ilustração de uma mão com um barbante vermelho amarrado no dedo indicador, sobre uma mesa de madeira",
+        "en": "Illustration of a hand with a red string tied around the index finger, resting on a wooden table"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Dr. Marcus Gossler",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlagwortkatalog.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "5bc097c3"
+      "addedAt": "2026-11-03",
+      "hash": "61b89cbb"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de uma mão com um barbante vermelho amarrado no dedo indicador, sobre uma mesa de madeira",
+        "en": "Illustration of a hand with a red string tied around the index finger, resting on a wooden table"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-03",
+      "hash": "26ec3761"
     }
   }
 }
