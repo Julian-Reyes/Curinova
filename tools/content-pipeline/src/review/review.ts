@@ -579,6 +579,14 @@ function syncTrail(state: State, changes: Changes, clusterId: string): void {
     links: draft.cluster.links.filter((l) => libClusters.has(l.clusterId)),
   };
   changes.set(existing?.path ?? `${CONTENT}/clusters/${clusterId}.json`, cluster);
+  // A lesson added in the middle of a trail moves the library lessons after it down a place.
+  for (const k of lessonKeys(next.library)) {
+    const c = conceptIn(next.library, k);
+    if (c?.clusterId !== clusterId) continue;
+    const position = cluster.conceptIds.indexOf(c.id) + 1;
+    if (position > 0 && c.clusterOrder !== position)
+      changes.set(conceptPath(CONTENT, k), { ...c, clusterOrder: position });
+  }
   const stillDrafted = lessonKeys(next.drafts).some(
     (k) => conceptIn(next.drafts, k)?.clusterId === clusterId,
   );
