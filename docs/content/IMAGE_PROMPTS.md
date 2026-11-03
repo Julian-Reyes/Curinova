@@ -61,7 +61,7 @@ Reply only with the image.
   - `DISCOVER: Inside a blood vessel: many red blood cells drifting towards the viewer, each a smooth red disc with a shallow dip in the centre on both sides, soft warm backlight, the bottom of the frame dark red to black.` _Accuracy: biconcave discs with no nucleus; no spikes or bumps._
   - `REVIEW: Four red blood cells floating against a soft dark-red background, smooth discs dipped in the middle.` _Don't show bone or bone marrow (that's an answer)._
 
-### bone_remodeling — If bones are hard, how do they renew themselves?
+### bone_remodeling — Is your skeleton alive?
 
 - **Discover** (missing): `DISCOVER: A macro view inside spongy bone: a lattice of ivory-coloured struts and plates (trabecular bone) lit like a cave, warm light from above, the lower part in deep shadow.` _Accuracy: an irregular honeycomb-like lattice, not a regular grid._
 - **Deeper / Review:** keep the current AI femur images.
