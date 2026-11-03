@@ -20,9 +20,9 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Com a inclinação de cerca de 5 graus, a sombra da Lua normalmente passa acima ou abaixo da Terra. O alinhamento perfeito só ocorre nas temporadas de eclipse.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Com a inclinação de cerca de 5 graus, Sol, Lua e Terra normalmente não ficam alinhados na Lua nova. O alinhamento perfeito só ocorre nas temporadas de eclipse.",
+    "claimIds": ["c3", "c4", "c6"],
+    "status": "reviewed"
   },
   {
     "id": "q_eclipses_rare_2__pt-BR",
@@ -46,7 +46,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "Em Sobral, astrônomos fotografaram estrelas próximas ao Sol durante o eclipse total e mediram o desvio da luz previsto pela relatividade geral.",
-    "claimIds": [],
-    "status": "draft"
+    "claimIds": ["c10", "c11"],
+    "status": "reviewed"
   }
 ]

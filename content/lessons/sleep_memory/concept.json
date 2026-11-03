@@ -7,6 +7,14 @@
   "difficulty": "intermediate",
   "related": [
     {
+      "conceptId": "concept_retrieval_cues",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Depois de preservar uma memória, o que ajuda a encontrá-la?",
+        "en": "After a memory is preserved, what helps bring it back?"
+      }
+    },
+    {
       "conceptId": "concept_forgetting_curve",
       "type": "related",
       "reason": {
@@ -25,23 +33,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Ilustração de uma pessoa dormindo num quarto escuro, com um livro na mesa de cabeceira e a Lua cheia na janela",
-        "en": "Illustration of a person asleep in a dark bedroom, with a book on the nightstand and a full Moon in the window"
-      },
-      "origin": {
-        "kind": "generated",
-        "tool": "ChatGPT (Plus)",
-        "createdBy": "Founder",
-        "createdAt": "2026-11-03"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-03",
-      "hash": "d2cb398a"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -59,6 +50,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-10-30",
       "hash": "f95c2614"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de uma pessoa dormindo num quarto escuro, com um livro na mesa de cabeceira e a Lua cheia na janela",
+        "en": "Illustration of a person asleep in a dark bedroom, with a book on the nightstand and a full Moon in the window"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-03",
+      "hash": "d2cb398a"
     },
     "review": {
       "width": 1000,

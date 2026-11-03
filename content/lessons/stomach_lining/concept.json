@@ -7,42 +7,24 @@
   "difficulty": "beginner",
   "related": [
     {
-      "conceptId": "concept_bone_remodeling",
+      "conceptId": "concept_skin_renewal",
       "type": "next",
       "reason": {
-        "pt-BR": "Até o osso, que parece pedra, está sendo reconstruído agora.",
-        "en": "Even bone, which looks like stone, is being rebuilt right now."
+        "pt-BR": "Da barreira interna do estômago à superfície externa da pele.",
+        "en": "From the stomach’s inner barrier to the skin’s outer surface."
       }
     },
     {
       "conceptId": "concept_red_blood_cells",
       "type": "background",
       "reason": {
-        "pt-BR": "Outro exemplo de células com prazo de validade curto.",
-        "en": "Another example of cells with a short shelf life."
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
       }
     }
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Corte microscópico da mucosa do estômago em menor aumento",
-        "en": "Microscope section of the stomach lining at low magnification"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Nephron",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_gastric_mucosa_low_mag.jpg"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "2c08cf6b"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -60,6 +42,24 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-10-30",
       "hash": "ffd51170"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Corte microscópico da mucosa do estômago em menor aumento",
+        "en": "Microscope section of the stomach lining at low magnification"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Nephron",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Normal_gastric_mucosa_low_mag.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "2c08cf6b"
     },
     "review": {
       "width": 1000,

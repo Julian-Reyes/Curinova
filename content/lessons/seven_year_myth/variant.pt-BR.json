@@ -2,41 +2,37 @@
   "id": "lesson_seven_year_myth__pt-BR",
   "conceptId": "concept_seven_year_myth",
   "locale": "pt-BR",
-  "slug": "voce-vira-outra-pessoa-a-cada-sete-anos",
-  "title": "Você vira outra pessoa a cada sete anos?",
-  "hook": "O mito é popular. A realidade, medida com resíduos de testes nucleares, é mais curiosa.",
-  "summary": "Não existe um ciclo de sete anos: cada tecido se renova no próprio ritmo, e a maioria dos neurônios do córtex dura a vida toda.",
-  "cardText": "Não. Cada tecido se renova no próprio ritmo: o revestimento do intestino em dias, as hemácias em cerca de quatro meses. E a maioria dos neurônios do córtex dura a vida toda.",
+  "slug": "seu-corpo-inteiro-se-troca-a-cada-sete-anos",
+  "title": "Seu corpo inteiro se troca a cada sete anos?",
+  "hook": "A renovação tem vários ritmos: de dias a décadas, dependendo das células.",
+  "summary": "Não há uma troca completa a cada sete anos: diferentes células têm durações diferentes, e alguns neurônios persistem por décadas.",
+  "cardText": "Não. Células da superfície do estômago são repostas em dias; hemácias duram cerca de quatro meses. Estudos encontraram neurônios aproximadamente tão antigos quanto a pessoa. Não existe uma troca geral sincronizada.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Existe um mito popular de que todas as células do corpo são trocadas a cada sete anos. A realidade é mais interessante: cada tecido tem o seu próprio ritmo. O revestimento do intestino se renova em poucos dias; as hemácias, em cerca de quatro meses."
+      "text": "O corpo não troca todas as suas células em um pacote novo a cada sete anos. Basta comparar alguns de seus ritmos: células da superfície do estômago são repostas em poucos dias, enquanto hemácias vivem cerca de 120 dias, aproximadamente quatro meses. A renovação não segue um único calendário."
     },
     {
       "type": "paragraph",
-      "text": "Mas algumas células ficam com você a vida inteira. Em 2005, uma equipe do Instituto Karolinska, na Suécia, usou o carbono-14 espalhado na atmosfera pelos testes nucleares dos anos 1950 e 1960 para datar células humanas. Descobriram que os neurônios da parte visual do córtex têm a mesma idade da própria pessoa, e estudos seguintes encontraram o mesmo em todo o córtex."
+      "text": "Alguns neurônios, as células nervosas, persistem por décadas. Em uma pesquisa com tecido cerebral humano, cientistas mediram carbono-14 no DNA e encontraram neurônios aproximadamente tão antigos quanto a pessoa. É um contraste com os tecidos que repõem células rapidamente. Ter células antigas e produzir células novas são situações que coexistem no mesmo corpo, em vez de uma troca geral sincronizada."
     },
     {
       "type": "takeaway",
-      "text": "Não há ciclo de sete anos: cada tecido tem seu ritmo, e muitos neurônios nunca são trocados."
+      "text": "Não existe uma troca geral a cada sete anos: células de diferentes tecidos podem durar de dias a décadas."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "Um relógio deixado pela Guerra Fria"
+      "text": "Um relógio no DNA"
     },
     {
       "type": "paragraph",
-      "text": "Os testes nucleares a céu aberto dobraram a quantidade de carbono-14 na atmosfera até 1963, quando foram proibidos. Desde então, o nível vem caindo ano a ano. Como as células incorporam carbono ao se formar, o carbono-14 do seu DNA funciona como um carimbo de data."
+      "text": "Testes nucleares a céu aberto elevaram o carbono-14 na atmosfera durante a Guerra Fria. Esse sinal, incorporado ao DNA, permitiu estimar quando células se formaram. A pesquisa comparou os níveis de carbono-14 do DNA com registros atmosféricos."
     },
     {
       "type": "paragraph",
-      "text": "Com essa técnica, os pesquisadores estimaram que cerca de 10% das células de gordura são renovadas por ano, e que as células musculares do coração se renovam bem devagar, perto de 1% ao ano em adultos jovens, e menos com a idade."
-    },
-    {
-      "type": "paragraph",
-      "text": "As células do centro do cristalino, a lente do olho, se formam antes do nascimento e nunca são substituídas."
+      "text": "O resultado sobre neurônios antigos não quer dizer que nenhum neurônio novo apareça em adultos. Pesquisadores também encontraram formação de neurônios no hipocampo, uma região importante para a formação de memórias. São regiões e populações celulares diferentes: um resultado não precisa valer para o cérebro todo."
     }
   ],
   "heroMedia": {
@@ -45,20 +41,148 @@
     "alt": "Ilustração de um corpo humano com áreas em cores diferentes, cada uma com seu ritmo de renovação.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O corpo não substitui todas as células em uma troca sincronizada a cada sete anos: células de diferentes tecidos têm durações diferentes.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_blood_html_b9b75e",
+          "excerpt": "Red blood cells live about 120 days"
+        },
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Even so, these cells have to be replaced after 4-6 days."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_cc810a",
+          "excerpt": "Dating of nonneuronal cells demonstrates they are younger, whereas neurons are approximately as old as the individual."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Células mucosas da superfície do estômago são substituídas em poucos dias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_histology_leeds_ac_uk_home_digestive_974fc6",
+          "excerpt": "Even so, these cells have to be replaced after 4-6 days."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Hemácias vivem cerca de 120 dias, aproximadamente quatro meses, em média.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hematology_org_education_patients_blood_basics_816eee",
+          "excerpt": "A red blood cell survives an average of 120 days."
+        },
+        {
+          "sourceId": "src_hemoes_es_gov_br_sobre_o_5677a7",
+          "excerpt": "Cada hemácia tem vida média de 120 dias no organismo."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Uma pesquisa com tecido cerebral humano usou carbono-14 no DNA e encontrou neurônios aproximadamente tão antigos quanto a pessoa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_cc810a",
+          "excerpt": "We have taken advantage of the integration of 14C, generated by nuclear bomb tests during the Cold War, in DNA to establish the age of neurons in the major areas of the human cerebral neocortex."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_cc810a",
+          "excerpt": "Dating of nonneuronal cells demonstrates they are younger, whereas neurons are approximately as old as the individual."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Testes nucleares a céu aberto elevaram o carbono-14 atmosférico; comparar o sinal no DNA com registros atmosféricos permite estimar a época de formação de células.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_str_llnl_gov_past_issues_december_7a1921",
+          "excerpt": "Scientific forensics using radiocarbon bomb-pulse dating is possible because of the isotopic signature created by aboveground nuclear testing between 1955 and 1963, which nearly doubled the amount of carbon-14 in the atmosphere."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_cc810a",
+          "excerpt": "By comparing the measured 14C level in DNA to atmospheric concentrations at different times, we can establish the average year of birth for the cell populations"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Pesquisadores encontraram formação de neurônios no hipocampo de adultos, mostrando que a renovação neuronal depende da região do cérebro.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_news_ki_se_new_research_confirms_d045f1",
+          "excerpt": "there is an ongoing formation of neurons in the hippocampus of the adult brain"
+        },
+        {
+          "sourceId": "src_str_llnl_gov_past_issues_december_7a1921",
+          "excerpt": "indicating neuron growth continued in the hippocampus at least into the subjects’ fifth decade."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_cc810a",
+          "excerpt": "neurons in the human cerebral neocortex are not generated in adulthood at detectable levels but are generated perinatally."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "O hipocampo participa da formação de memórias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_ki_se_new_research_confirms_d045f1",
+          "excerpt": "This area is important for memory formation, learning and cognitive flexibility."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_medlineplus_gov_blood_html_b9b75e",
+    "src_histology_leeds_ac_uk_home_digestive_974fc6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_cc810a",
+    "src_hematology_org_education_patients_blood_basics_816eee",
+    "src_hemoes_es_gov_br_sobre_o_5677a7",
+    "src_str_llnl_gov_past_issues_december_7a1921",
+    "src_news_ki_se_new_research_confirms_d045f1"
+  ],
   "quizIds": ["q_seven_year_myth_1__pt-BR", "q_seven_year_myth_2__pt-BR"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "codex (gpt-6.1-sol)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_body_renews"
   },
-  "reviewStatus": "draft",
+  "reviewStatus": "reviewed",
   "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T20:52:31.734Z",
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-10-28T17:28:09Z"
+  "updatedAt": "2026-11-03T20:52:31.734Z"
 }

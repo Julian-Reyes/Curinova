@@ -25,9 +25,9 @@
     ],
     "correctOptionId": "a",
     "explanation": "The Moon spins once per orbit, about 27 days. That match is what keeps the same face toward Earth.",
-    "misconception": "Many people think the Moon does not rotate. If it didn’t, we would see all of its sides over a month.",
-    "claimIds": [],
-    "status": "draft"
+    "misconception": "Many people think the Moon does not rotate. It does, once per orbit, and that is exactly why the same face stays toward us.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "reviewed"
   },
   {
     "id": "q_moon_tidal_locking_2__en",
@@ -38,7 +38,7 @@
     "options": [
       {
         "id": "a",
-        "text": "No, it gets as much sunlight as the near side"
+        "text": "No, it has day and night like the near side"
       },
       {
         "id": "b",
@@ -51,7 +51,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "The \"far side\" just never faces us. It has day and night like the rest of the Moon; at new Moon it is fully lit.",
-    "claimIds": [],
-    "status": "draft"
+    "claimIds": ["c8", "c9"],
+    "status": "reviewed"
   }
 ]

@@ -4,49 +4,49 @@
     "questionGroupId": "qg_lingua_geral_1",
     "conceptId": "concept_lingua_geral",
     "locale": "pt-BR",
-    "prompt": "Em que língua se baseava a língua geral do Brasil colonial?",
+    "prompt": "De que língua se originou a língua geral paulista?",
     "options": [
       {
         "id": "a",
-        "text": "No tupi antigo"
+        "text": "Do tupi falado em São Vicente e no alto Tietê"
       },
       {
         "id": "b",
-        "text": "No latim"
+        "text": "Do espanhol falado em Madri"
       },
       {
         "id": "c",
-        "text": "No espanhol"
+        "text": "Do latim usado nos tribunais"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "A língua geral se formou a partir do tupi antigo, falado por muitos povos do litoral, e foi adotada por colonos e missionários.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A língua geral paulista se desenvolveu a partir do tupi da região de São Vicente e do alto Tietê.",
+    "claimIds": ["c3"],
+    "status": "reviewed"
   },
   {
     "id": "q_lingua_geral_2__pt-BR",
     "questionGroupId": "qg_lingua_geral_2",
     "conceptId": "concept_lingua_geral",
     "locale": "pt-BR",
-    "prompt": "Qual língua descendente da língua geral ainda é falada na Amazônia?",
+    "prompt": "Qual língua geral continua falada na região do rio Negro?",
     "options": [
       {
         "id": "a",
-        "text": "O nheengatu"
+        "text": "O nheengatu, de origem amazônica"
       },
       {
         "id": "b",
-        "text": "O quíchua"
+        "text": "A língua geral paulista"
       },
       {
         "id": "c",
-        "text": "O guarani paraguaio"
+        "text": "O latim colonial"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O nheengatu descende da língua geral amazônica e é cooficial em São Gabriel da Cachoeira, no Amazonas.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A língua geral amazônica, chamada nheengatu, ainda é falada na bacia do rio Negro.",
+    "claimIds": ["c6", "c7"],
+    "status": "reviewed"
   }
 ]

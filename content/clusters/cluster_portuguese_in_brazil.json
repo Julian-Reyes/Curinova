@@ -19,5 +19,13 @@
     "concept_pombal_directorate",
     "concept_tupi_words"
   ],
-  "links": []
+  "links": [
+    {
+      "clusterId": "cluster_how_memory_works",
+      "reason": {
+        "pt-BR": "Das palavras transmitidas entre gerações às pistas que ajudam cada pessoa a lembrar.",
+        "en": "From words passed between generations to the cues that help each person remember."
+      }
+    }
+  ]
 }

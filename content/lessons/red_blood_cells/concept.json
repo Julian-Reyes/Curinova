@@ -10,16 +10,16 @@
       "conceptId": "concept_stomach_lining",
       "type": "next",
       "reason": {
-        "pt-BR": "Outro tecido em renovação constante: o revestimento do estômago.",
-        "en": "Another tissue under constant renewal: the stomach lining."
+        "pt-BR": "Do sangue ao revestimento de um órgão: outro ritmo de renovação.",
+        "en": "From blood to an organ’s lining: another renewal timetable."
       }
     },
     {
       "conceptId": "concept_seven_year_myth",
       "type": "related",
       "reason": {
-        "pt-BR": "Cada tecido tem o seu ritmo de troca, e alguns nunca trocam.",
-        "en": "Every tissue has its own turnover rhythm, and some never turn over."
+        "pt-BR": "Como esse prazo se encaixa na renovação do corpo inteiro?",
+        "en": "How does this lifespan fit into renewal across the whole body?"
       }
     }
   ],

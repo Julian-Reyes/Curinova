@@ -1,0 +1,65 @@
+{
+  "id": "concept_skin_renewal",
+  "topicId": "body",
+  "clusterId": "cluster_body_renews",
+  "clusterOrder": 3,
+  "tags": ["skin", "cells", "renewal"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_bone_remodeling",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Até uma estrutura dura como o osso passa por renovação.",
+        "en": "Even a hard structure such as bone undergoes renewal."
+      }
+    },
+    {
+      "conceptId": "concept_stomach_lining",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Pele humana vista bem de perto, com seus sulcos finos",
+        "en": "Human skin seen up close, with its fine grooves"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Montavius Howard (TongCreator)",
+        "platform": "Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_skin_close-up.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "862598ca"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Corte microscópico do couro cabeludo, com a epiderme, a derme e um folículo piloso",
+        "en": "Microscope section of the scalp, showing the epidermis, the dermis and a hair follicle"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Lazar.zenit",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scalp_cross_section_(negro).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-10-30",
+      "hash": "515c42fd"
+    }
+  }
+}

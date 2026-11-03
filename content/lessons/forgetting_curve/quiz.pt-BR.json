@@ -4,49 +4,50 @@
     "questionGroupId": "qg_forgetting_curve_1",
     "conceptId": "concept_forgetting_curve",
     "locale": "pt-BR",
-    "prompt": "O que a curva do esquecimento mostra?",
+    "prompt": "O que Ebbinghaus mediu ao reaprender uma lista?",
     "options": [
       {
         "id": "a",
-        "text": "Esquecemos rápido no começo, e depois a perda desacelera"
+        "text": "O esforço economizado em relação à primeira aprendizagem"
       },
       {
         "id": "b",
-        "text": "Esquecemos a mesma quantidade a cada dia"
+        "text": "A quantidade de horas de sono antes do teste"
       },
       {
         "id": "c",
-        "text": "Só começamos a esquecer depois de uma semana"
+        "text": "A velocidade de leitura de um livro"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "A maior parte da perda acontece nas primeiras horas e dias. Depois, o que sobrou fica bem mais estável.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Menos esforço para reaprender indicava que parte da lista ainda estava preservada.",
+    "claimIds": ["c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_forgetting_curve_2__pt-BR",
     "questionGroupId": "qg_forgetting_curve_2",
     "conceptId": "concept_forgetting_curve",
     "locale": "pt-BR",
-    "prompt": "Como Ebbinghaus mediu o esquecimento?",
+    "prompt": "O que a curva do esquecimento permite concluir?",
     "options": [
       {
         "id": "a",
-        "text": "Pelo esforço que precisava para reaprender listas de sílabas sem sentido"
+        "text": "Nesse experimento, a perda foi mais rápida no começo"
       },
       {
         "id": "b",
-        "text": "Com exames de imagem do cérebro"
+        "text": "Toda pessoa esquece a mesma porcentagem em um dia"
       },
       {
         "id": "c",
-        "text": "Perguntando a voluntários do que lembravam da infância"
+        "text": "Depois de um dia, toda memória desaparece"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Ele usou o \"método da economia\": quanto menos esforço para reaprender, mais da lista ainda estava na memória. Exames de imagem do cérebro só surgiriam um século depois.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A curva mostra o formato observado nas listas estudadas, não uma taxa universal.",
+    "misconception": "O estudo usou material e participantes específicos; seus números não valem para todas as memórias.",
+    "claimIds": ["c3", "c5"],
+    "status": "reviewed"
   }
 ]

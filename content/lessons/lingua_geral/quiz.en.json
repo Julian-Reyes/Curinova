@@ -4,49 +4,49 @@
     "questionGroupId": "qg_lingua_geral_1",
     "conceptId": "concept_lingua_geral",
     "locale": "en",
-    "prompt": "What was colonial Brazil’s general language based on?",
+    "prompt": "Which language helped form the Paulista general language?",
     "options": [
       {
         "id": "a",
-        "text": "Old Tupi"
+        "text": "Tupi spoken around São Vicente and the upper Tietê"
       },
       {
         "id": "b",
-        "text": "Latin"
+        "text": "Spanish spoken in Madrid"
       },
       {
         "id": "c",
-        "text": "Spanish"
+        "text": "Latin used in courts"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "The general language grew out of Old Tupi, spoken by many coastal peoples, and was adopted by settlers and missionaries.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "The Paulista general language grew from Tupi spoken around São Vicente and the upper Tietê.",
+    "claimIds": ["c3"],
+    "status": "reviewed"
   },
   {
     "id": "q_lingua_geral_2__en",
     "questionGroupId": "qg_lingua_geral_2",
     "conceptId": "concept_lingua_geral",
     "locale": "en",
-    "prompt": "Which descendant of the general language is still spoken in the Amazon?",
+    "prompt": "Which general language is still spoken in the Rio Negro region?",
     "options": [
       {
         "id": "a",
-        "text": "Nheengatu"
+        "text": "Nheengatu, the Amazonian general language"
       },
       {
         "id": "b",
-        "text": "Quechua"
+        "text": "The Paulista general language"
       },
       {
         "id": "c",
-        "text": "Paraguayan Guarani"
+        "text": "Colonial Latin"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Nheengatu descends from the Amazonian general language and is co-official in São Gabriel da Cachoeira, Amazonas.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "The Amazonian general language, called Nheengatu, is still spoken in the Rio Negro basin.",
+    "claimIds": ["c6", "c7"],
+    "status": "reviewed"
   }
 ]

@@ -16,14 +16,14 @@
       },
       {
         "id": "c",
-        "text": "Earth’s core is cooling down"
+        "text": "The Sun’s gravity is getting stronger"
       }
     ],
     "correctOptionId": "a",
     "explanation": "Tides drag on the ocean floor and steal a little of Earth’s spin, about 2 milliseconds per century.",
-    "misconception": "Distance from the Sun affects the length of the year, not the day.",
-    "claimIds": [],
-    "status": "draft"
+    "misconception": "Earth’s distance from the Sun is not the cause: the slowdown comes from tidal friction.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "reviewed"
   },
   {
     "id": "q_day_lengthening_2__en",
@@ -47,7 +47,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "With Earth spinning faster, more days fit into each trip around the Sun: about 400 days of roughly 22 hours.",
-    "claimIds": [],
-    "status": "draft"
+    "claimIds": ["c5", "c6"],
+    "status": "reviewed"
   }
 ]

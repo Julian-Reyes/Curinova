@@ -4,49 +4,49 @@
     "questionGroupId": "qg_red_blood_cells_1",
     "conceptId": "concept_red_blood_cells",
     "locale": "en",
-    "prompt": "Why do human red blood cells live only about 120 days?",
+    "prompt": "What is the average lifespan of a red blood cell?",
     "options": [
       {
         "id": "a",
-        "text": "They have no nucleus, so they cannot repair themselves"
+        "text": "About 120 days"
       },
       {
         "id": "b",
-        "text": "The heart destroys them with every beat"
+        "text": "Exactly seven years"
       },
       {
         "id": "c",
-        "text": "They turn into white blood cells"
+        "text": "The person’s entire lifetime"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Without a nucleus, the cell gains room for hemoglobin but cannot make new proteins to fix damage, so its life is short.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "The average is about 120 days, roughly four months. New cells are produced in bone marrow.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_red_blood_cells_2__en",
     "questionGroupId": "qg_red_blood_cells_2",
     "conceptId": "concept_red_blood_cells",
     "locale": "en",
-    "prompt": "Which organs remove most old red blood cells?",
+    "prompt": "Where are new blood cells produced?",
     "options": [
       {
         "id": "a",
-        "text": "The spleen and the liver"
+        "text": "In bone marrow"
       },
       {
         "id": "b",
-        "text": "The lungs"
+        "text": "In plasma, by division of the liquid"
       },
       {
         "id": "c",
-        "text": "The kidneys"
+        "text": "At the skin’s surface"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Immune cells in the spleen and liver clear out old red cells, and their iron is recycled to build new ones.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Bone marrow is tissue inside bones that produces blood cells; plasma is the liquid part of blood.",
+    "claimIds": ["c2", "c8", "c11"],
+    "status": "reviewed"
   }
 ]

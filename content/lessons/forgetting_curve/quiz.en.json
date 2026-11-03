@@ -4,49 +4,50 @@
     "questionGroupId": "qg_forgetting_curve_1",
     "conceptId": "concept_forgetting_curve",
     "locale": "en",
-    "prompt": "What does the forgetting curve show?",
+    "prompt": "What did Ebbinghaus measure when relearning a list?",
     "options": [
       {
         "id": "a",
-        "text": "We forget quickly at first, then the loss slows down"
+        "text": "Effort saved compared with the first learning"
       },
       {
         "id": "b",
-        "text": "We forget the same amount every day"
+        "text": "Hours slept before the test"
       },
       {
         "id": "c",
-        "text": "We only start forgetting after a week"
+        "text": "Reading speed for a book"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Most of the loss happens in the first hours and days. After that, what remains is much more stable.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A saving in relearning effort showed that something of the list remained.",
+    "claimIds": ["c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_forgetting_curve_2__en",
     "questionGroupId": "qg_forgetting_curve_2",
     "conceptId": "concept_forgetting_curve",
     "locale": "en",
-    "prompt": "How did Ebbinghaus measure forgetting?",
+    "prompt": "What can the forgetting curve tell us?",
     "options": [
       {
         "id": "a",
-        "text": "By how much effort it took to relearn lists of nonsense syllables"
+        "text": "In this experiment, loss was fastest early on"
       },
       {
         "id": "b",
-        "text": "With brain scans"
+        "text": "Everyone forgets the same percentage in one day"
       },
       {
         "id": "c",
-        "text": "By asking volunteers about their childhood"
+        "text": "All memory disappears after one day"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "He used the \"savings method\": the less effort needed to relearn, the more of the list was still in memory. Brain imaging arrived about a century later.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "It shows the pattern observed for these lists, not a universal rate.",
+    "misconception": "The study used specific material and participants; its numbers do not apply to every memory.",
+    "claimIds": ["c3", "c5"],
+    "status": "reviewed"
   }
 ]
