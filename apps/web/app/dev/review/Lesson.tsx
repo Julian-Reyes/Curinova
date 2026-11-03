@@ -310,6 +310,9 @@ export function LessonScreen({
               editing={editing === locale}
               onFocus={setFocus}
               onApprove={approve}
+              onApproveAll={() => {
+                void run({ type: 'approve-claims', key: view.key, locale });
+              }}
               onEdit={() => {
                 setEditing(locale);
               }}
@@ -419,6 +422,7 @@ function LocaleColumn({
   editing,
   onFocus,
   onApprove,
+  onApproveAll,
   onEdit,
   onCancelEdit,
   onSave,
@@ -433,6 +437,7 @@ function LocaleColumn({
   editing: boolean;
   onFocus: (f: Focus) => void;
   onApprove: (f: Focus) => void;
+  onApproveAll: () => void;
   onEdit: () => void;
   onCancelEdit: () => void;
   onSave: (edit: LessonEdit) => Promise<void>;
@@ -440,6 +445,12 @@ function LocaleColumn({
 }) {
   const v = lv.variant;
   const allClaims = v.claims.every((c) => isApproved(c.humanVerdict));
+  const openClaims = v.claims.filter(
+    (c) =>
+      c.humanVerdict === 'pending' &&
+      c.autoVerdict !== 'unsupported' &&
+      c.autoVerdict !== 'pending',
+  ).length;
   const headerFocused = focus?.locale === locale && focus.claimId === null;
   const canAct = !readOnly && lv.fromDraft;
   return (
@@ -463,6 +474,15 @@ function LocaleColumn({
           approved · license {v.contentLicense}
         </span>
         <span className="flex-1" />
+        <button
+          type="button"
+          className={BTN}
+          disabled={!canAct || busy || openClaims === 0 || lv.state === 'approved'}
+          title="Approve every open claim in this language; read them first"
+          onClick={onApproveAll}
+        >
+          Approve all claims{openClaims > 0 ? ` (${String(openClaims)})` : ''}
+        </button>
         <button
           type="button"
           className={BTN_PRIMARY}

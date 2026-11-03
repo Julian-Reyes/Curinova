@@ -675,6 +675,28 @@ export async function runAction(ctx: ReviewContext, action: ReviewAction): Promi
       break;
     }
 
+    case 'approve-claims': {
+      // Every open claim of one locale at once (founder, 2026-11-03). Rejected claims and
+      // claims the verifier didn't support stay as they are.
+      const v = variantIn(state.drafts, key, action.locale);
+      if (!v) return fail(`no ${action.locale} draft for ${key}`);
+      const open = v.claims.filter((c) => c.humanVerdict === 'pending');
+      const ready = open.filter(
+        (c) => c.autoVerdict !== 'unsupported' && c.autoVerdict !== 'pending',
+      );
+      if (ready.length === 0) return fail(`no open claims to approve in ${key} (${action.locale})`);
+      const ids = new Set(ready.map((c) => c.id));
+      changes.set(variantPath(DRAFTS, key, action.locale), {
+        ...v,
+        claims: v.claims.map((c) => (ids.has(c.id) ? { ...c, humanVerdict: 'approved' } : c)),
+      });
+      const left = open.length - ready.length;
+      message =
+        `Approved ${String(ready.length)} claim(s) (${action.locale}).` +
+        (left > 0 ? ` ${String(left)} can't be approved (unsupported or unverified).` : '');
+      break;
+    }
+
     case 'approve-locale': {
       const l = action.locale;
       const v = variantIn(state.drafts, key, l);
