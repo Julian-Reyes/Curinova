@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-10-30.
+Last updated: 2026-11-03 (the lesson quiz shows the Review image, D15).
 
 | Milestone                            | Status                           |
 | ------------------------------------ | -------------------------------- |

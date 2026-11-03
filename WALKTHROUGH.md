@@ -295,6 +295,10 @@ Lessons are written and fact-checked by two separate AI sessions (`docs/CONTENT_
 - **A lesson** shows Portuguese and English side by side, drawn with the app's real Discover card, Go Deeper and quiz, so you see exactly what a learner will see. Answering the quiz there doesn't touch your own progress. Each claim is highlighted in the text and listed with the source's words, a link to the source and the surrounding passage from the saved copy. The fact-checker's report sits in a side panel.
 - **Decisions** are keyboard-first (`j`/`k` to move, `a` approve, `e` edit, `r` reject with a note, `n` note, `[`/`]` previous/next lesson, `?` for the list), and every key also has a button. Approving a language moves it into the library as reviewed, under the "all rights reserved" licence (D21). Publishing is a separate step that puts both languages live together. Rejecting leaves a note for the writer. Every change is checked first, and refused if it would break the library. Every decision is logged in `content/review-log.jsonl`.
 
+### Step 22: Quiz pictures after each lesson (3 November)
+
+The quiz after a lesson now shows the lesson's Review picture above the answers, just like the Review tab. Before, those pictures only appeared when a review was due, so they were hard to see. Lessons without a Review picture show the quiz as before.
+
 ---
 
 ---

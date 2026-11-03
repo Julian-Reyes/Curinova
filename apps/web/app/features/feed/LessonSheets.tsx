@@ -14,6 +14,7 @@ import {
   SpeakerIcon,
 } from '../../components/icons';
 import { imageCredits, LessonArt } from '../../components/LessonArt';
+import { QuizImage } from '../../components/QuizImage';
 import { QuizRunner, type AnswerResult } from '../../components/QuizRunner';
 import { Sheet } from '../../components/Sheet';
 import { useApp, useEvents, useProgress } from '../../data/app-context';
@@ -50,6 +51,8 @@ export function QuizSheet({
   const progress = useProgress();
   const events = useEvents();
   const questions = library.questions(variant.conceptId, variant.locale);
+  const concept = library.concept(variant.conceptId);
+  const topic = concept ? library.topic(concept.topicId) : undefined;
   const [results, setResults] = useState<AnswerResult[] | null>(null);
   const [run, setRun] = useState(0);
   const attempts = useMemo(() => {
@@ -108,6 +111,11 @@ export function QuizSheet({
             onCompleted(r);
           }}
           finishLabel={t('quiz.seeResult')}
+          renderMedia={() =>
+            concept && topic ? (
+              <QuizImage concept={concept} variant={variant} topic={topic} />
+            ) : null
+          }
         />
       ) : (
         <div
