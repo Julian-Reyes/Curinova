@@ -38,7 +38,7 @@
         "createdBy": "Founder",
         "createdAt": "2026-11-03"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "5a1e059e"
     },
@@ -55,7 +55,7 @@
         "createdBy": "Founder",
         "createdAt": "2026-11-03"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "59764982"
     },
@@ -73,7 +73,7 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Studying.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "656c77e7"
     }
