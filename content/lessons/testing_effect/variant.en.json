@@ -2,63 +2,129 @@
   "id": "lesson_testing_effect__en",
   "conceptId": "concept_testing_effect",
   "locale": "en",
-  "slug": "why-does-recalling-teach-more-than-rereading",
+  "slug": "why-does-trying-to-remember-teach-more-than-rereading",
   "title": "Why does trying to remember teach more than rereading?",
-  "hook": "Rereading feels like learning. Testing yourself is what makes it last.",
-  "summary": "The testing effect: pulling information out of memory strengthens it more than reviewing the material.",
-  "cardText": "Rereading feels like learning, but fetching information from memory strengthens it more. In a 2006 study, students who practiced recalling remembered much more a week later.",
+  "hook": "Closing the text and trying an answer can help memory last.",
+  "summary": "Testing your memory can improve delayed retention more than another reading.",
+  "cardText": "A short test can help more than rereading when the goal is to remember days later. In a study using science passages, retrieval pulled ahead after two or seven days.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Rereading gives you a pleasant feeling that everything is sinking in. That feeling is misleading. In a 2006 study, psychologists Henry Roediger and Jeffrey Karpicke had students read short texts. Some reread the material; others tried to write down what they remembered, without looking."
+      "text": "After reading something, should you read it again or try to say what it contained without looking? Researchers compared those approaches with students who studied science passages. On a test just five minutes later, rereading came out ahead."
     },
     {
       "type": "paragraph",
-      "text": "Five minutes later, the rereaders did slightly better. A week later the picture flipped: those who had practiced recalling remembered much more. The effort of fetching information from memory strengthens the path to it. That is why a quick quiz is worth more than it seems."
+      "text": "When the test came two or seven days later, the advantage switched to those who had practiced recalling. This is the testing effect: retrieving information is itself a way to study. Checking the answer afterward helps, especially when a first attempt fails. A short quiz or a summary written from memory can therefore be a study session as well as a check of performance."
     },
     {
       "type": "takeaway",
-      "text": "Pulling information out of memory strengthens it more than rereading it."
+      "text": "To remember later, try answering before rereading, then check the answer."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "The fluency illusion"
+      "text": "What if I get it wrong?"
     },
     {
       "type": "paragraph",
-      "text": "When we reread, the text feels familiar, and we mistake familiarity for knowledge. In Roediger and Karpicke’s study, the students who only reread expected to do better than they actually did."
+      "text": "A review reports that retrieval practice with feedback is ordinarily better than the same practice without it. It also finds benefits from retrieval attempts without feedback compared with additional study. This does not make errors a goal: correction helps prevent a wrong answer from going unaddressed."
     },
     {
       "type": "paragraph",
-      "text": "Retrieval practice works even when you get the answer wrong, as long as you then see the right one. A mistake followed by correction teaches too."
-    },
-    {
-      "type": "paragraph",
-      "text": "Simple ways to use it: close the book and summarize from memory, explain the topic to someone, or answer questions before checking your notes."
+      "text": "Timing matters. In the comparison described here, rereading did better after five minutes, while recall practice won on tests days later."
     }
   ],
   "heroMedia": {
     "type": "illustration",
     "illustrationId": "recall",
-    "alt": "Illustration of a person drawing an idea out of memory, shown as a thread of light.",
+    "alt": "A learner trying to recall an idea before checking the text.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A study compared rereading and recall tests after students read science passages.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "In their widely cited study, Roediger and Karpicke asked undergraduates to read prose passages on scientific topics."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "Practice test and restudy conditions were manipulated within-subjects by having participants study two different passages."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "At a five-minute delay, rereading helped more on the final test in that study.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "After two or seven days, retrieval practice produced better performance than rereading.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Retrieval practice with feedback is ordinarily better than retrieval practice without it.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "Retrieval practice with feedback is ordinarily superior to retrieval practice without feedback."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Even without feedback, retrieval attempts can benefit later memory more than additional study.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "But even retrieval trials without feedback are seen to be more beneficial to subsequent performance than additional study trials"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": ["src_pmc_ncbi_nlm_nih_gov_articles_f0af0e"],
   "quizIds": ["q_testing_effect_1__en", "q_testing_effect_2__en"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T21:05:52.799Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "publishedAt": "2026-11-03T21:53:47.554Z",
+  "updatedAt": "2026-11-03T21:53:47.554Z"
 }

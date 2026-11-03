@@ -4,50 +4,49 @@
     "questionGroupId": "qg_spacing_effect_1",
     "conceptId": "concept_spacing_effect",
     "locale": "en",
-    "prompt": "Two people study for three hours each. Who tends to remember more weeks later?",
+    "prompt": "What makes practice spaced?",
     "options": [
       {
         "id": "a",
-        "text": "The one who split it into sessions over several days"
+        "text": "Study opportunities are separated over time"
       },
       {
         "id": "b",
-        "text": "The one who crammed it all the night before"
+        "text": "All study happens in one sitting"
       },
       {
         "id": "c",
-        "text": "Both remember the same"
+        "text": "The topic changes every minute"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "That is the spacing effect: with the same total time, spread-out sessions produce longer-lasting memories.",
-    "misconception": "Cramming can work for the next day’s test, but the memory fades much faster.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Spaced practice separates study sessions across time.",
+    "claimIds": ["c1"],
+    "status": "reviewed"
   },
   {
     "id": "q_spacing_effect_2__en",
     "questionGroupId": "qg_spacing_effect_2",
     "conceptId": "concept_spacing_effect",
     "locale": "en",
-    "prompt": "According to one common explanation, why does spacing out study help?",
+    "prompt": "Is one review gap best for every goal?",
     "options": [
       {
         "id": "a",
-        "text": "Forgetting a little forces the brain to rebuild the memory, which strengthens it"
+        "text": "No; it depends on how long you need to remember"
       },
       {
         "id": "b",
-        "text": "The brain only stores memories at night"
+        "text": "Yes; it is always exactly one day"
       },
       {
         "id": "c",
-        "text": "Short sessions are easier on the eyes"
+        "text": "Yes; it is always exactly one week"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "The effort of retrieving something you have started to forget seems to strengthen memory more than reviewing something still fresh.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A useful gap tends to grow as the desired retention period grows.",
+    "claimIds": ["c5"],
+    "status": "reviewed"
   }
 ]

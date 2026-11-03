@@ -14,10 +14,10 @@ import {
   SpeakerIcon,
 } from '../../components/icons';
 import { imageCredits, LessonArt } from '../../components/LessonArt';
+import { QuizImage } from '../../components/QuizImage';
 import { QuizRunner, type AnswerResult } from '../../components/QuizRunner';
 import { Sheet } from '../../components/Sheet';
-import { useApp, useEvents } from '../../data/app-context';
-import { progress } from '../../data/progress';
+import { useApp, useEvents, useProgress } from '../../data/app-context';
 
 /** Opens a lesson in its trail; `from` is where the trail's exit returns (an /app/ path). */
 export function trailHref(
@@ -48,8 +48,11 @@ export function QuizSheet({
 }) {
   const { t } = useTranslation();
   const { library, prefs, reportStorageError } = useApp();
+  const progress = useProgress();
   const events = useEvents();
   const questions = library.questions(variant.conceptId, variant.locale);
+  const concept = library.concept(variant.conceptId);
+  const topic = concept ? library.topic(concept.topicId) : undefined;
   const [results, setResults] = useState<AnswerResult[] | null>(null);
   const [run, setRun] = useState(0);
   const attempts = useMemo(() => {
@@ -108,6 +111,11 @@ export function QuizSheet({
             onCompleted(r);
           }}
           finishLabel={t('quiz.seeResult')}
+          renderMedia={() =>
+            concept && topic ? (
+              <QuizImage concept={concept} variant={variant} topic={topic} />
+            ) : null
+          }
         />
       ) : (
         <div

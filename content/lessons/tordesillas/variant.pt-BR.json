@@ -4,39 +4,35 @@
   "locale": "pt-BR",
   "slug": "por-que-o-brasil-fala-portugues-e-nao-espanhol",
   "title": "Por que o Brasil fala português, e não espanhol?",
-  "hook": "A resposta começa com uma linha num mapa, traçada seis anos antes de Cabral chegar.",
-  "summary": "O Tratado de Tordesilhas, de 1494, dividiu as terras entre Portugal e Espanha e deixou com Portugal parte do atual Brasil.",
-  "cardText": "Um tratado de 1494 dividiu as novas terras entre Portugal e Espanha. Uma faixa do atual Brasil ficou com Portugal, e a ocupação depois avançou muito além da linha.",
+  "hook": "Um acordo entre reinos veio antes da história das línguas faladas aqui.",
+  "summary": "Tordesilhas ajudou a definir o domínio colonial português sobre parte do atual Brasil; o português ganhou espaço séculos depois.",
+  "cardText": "O tratado de 1494 colocou parte do atual Brasil na zona reivindicada por Portugal. Séculos depois, políticas coloniais ajudaram o português a ganhar espaço.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Em 1494, seis anos antes de a frota de Pedro Álvares Cabral chegar ao litoral da Bahia, Portugal e Espanha assinaram o Tratado de Tordesilhas. Os dois reinos traçaram no mapa uma linha imaginária a 370 léguas a oeste das ilhas de Cabo Verde: as terras a leste ficariam com Portugal, e as a oeste, com a Espanha."
+      "text": "Uma linha num mapa não fez ninguém mudar de idioma. Em 1494, Portugal e Espanha assinaram o Tratado de Tordesilhas para dividir terras encontradas e ainda por encontrar. O meridiano ficaria 370 léguas a oeste de Cabo Verde: a leste, Portugal; a oeste, Espanha. Parte do que viria a ser o Brasil ficou na zona reivindicada pelos portugueses. Séculos depois, medidas coloniais ajudaram o português a ganhar espaço."
     },
     {
       "type": "paragraph",
-      "text": "A linha cortava a América do Sul e deixava com os portugueses uma faixa do que hoje é o Brasil. Os povos que já viviam aqui, claro, não foram consultados. Mais tarde, a ocupação avançou muito além da linha, e tratados do século XVIII redesenharam as fronteiras."
+      "text": "Mas a linha nunca foi demarcada com precisão. A colonização portuguesa avançou para além dela, e o Tratado de Madri, em 1750, tentou ajustar os limites aos territórios ocupados. A história da língua foi mais lenta: quando os portugueses chegaram, já havia centenas de línguas indígenas, e os próprios colonizadores aprenderam e falaram tupi por muito tempo."
     },
     {
       "type": "takeaway",
-      "text": "Um tratado de 1494 dividiu o mundo entre Portugal e Espanha antes mesmo da chegada de Cabral."
+      "text": "Tordesilhas definiu reivindicações coloniais; não fez o português virar a língua do Brasil de uma vez."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "Da linha ao mapa atual"
+      "text": "A linha que não se marcou"
     },
     {
       "type": "paragraph",
-      "text": "A linha de Tordesilhas passava, aproximadamente, perto de onde hoje estão Belém, no Pará, e Laguna, em Santa Catarina. Tudo a oeste disso seria espanhol."
+      "text": "A posição exata do meridiano era difícil de estabelecer. Os negociadores não definiram qual ilha de Cabo Verde serviria de ponto inicial, e os mapas da época eram imprecisos. Por isso, o Tratado de 1494 nunca produziu uma fronteira bem demarcada no território."
     },
     {
       "type": "paragraph",
-      "text": "Nos séculos seguintes, expedições, missões e povoações portuguesas se espalharam para o interior, muito além da linha. Em 1750, o Tratado de Madri reconheceu boa parte dessa ocupação, adotando o princípio de que a terra pertence a quem efetivamente a ocupa."
-    },
-    {
-      "type": "paragraph",
-      "text": "Um dos principais negociadores do tratado foi Alexandre de Gusmão, diplomata nascido em Santos. O desenho resultante já se parece bastante com o contorno atual do Brasil."
+      "text": "No século XVIII, Portugal e Espanha voltaram a negociar. O Tratado de Madri, de 1750, procurou reconhecer a ocupação que já havia ultrapassado a linha. Esses acordos ajudam a explicar o domínio colonial português, mas a próxima etapa da história mostra por que isso não significava que todos falassem português."
     }
   ],
   "heroMedia": {
@@ -45,20 +41,135 @@
     "alt": "Ilustração de um mapa antigo da América do Sul cortado por uma linha vertical.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Portugal e Espanha fizeram o Tratado de Tordesilhas em 1494 para dividir terras encontradas e por encontrar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "As duas Coroas, procurando evitar guerras, assinaram um acordo em 1494 que visava dividir entre elas as novas terras “descobertas e por descobrir”. Esse acordo ficou conhecido como Tratado de Tordesilhas."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "O tratado colocou a linha a 370 léguas a oeste de Cabo Verde, com o lado leste para Portugal e o oeste para a Espanha.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "O Tratado de Tordesilhas definiu o meridiano que ficava a 370 léguas a oeste de uma ilha do arquipélago de Cabo Verde como a nova referência para a divisão. Os territórios a leste desse meridiano pertenceriam a Portugal e aqueles a oeste pertenceriam à Espanha."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "A linha de Tordesilhas nunca foi efetivamente demarcada, em parte pela indefinição da ilha de referência e pela imprecisão dos mapas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_index_php_586aaa",
+          "excerpt": "Entretanto, o Tratado de 1494 nunca foi efetivamente demarcado, segundo o historiador Guilherme Pereira das Neves, devido a fatores como a indefinição quanto a ilha de Cabo Verde que serviria de referência para a demarcação do meridiano de Tordesilhas e a precariedade dos mapas da época, os quais exibiam informações imprecisas das novas terras."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "A colonização portuguesa avançou além da linha de Tordesilhas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+          "excerpt": "Os portugueses, através da ação dos bandeirantes e dos jesuítas, ultrapassaram em muito os limites estabelecidos pelo Tratado de Tordesilhas."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "O Tratado de Madri de 1750 buscou ajustar os limites entre Portugal e Espanha aos territórios ocupados na América.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_index_php_586aaa",
+          "excerpt": "O acordo diplomático visava dirimir as indefinições da não demarcação de Tordesilhas e ratificar a soberania das duas monarquias ibéricas sobre os territórios ocupados na América."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Quando os portugueses chegaram em 1500, já se falavam centenas de línguas indígenas no território.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "Quando os portugueses chegaram ao Brasil em 1500, falavam-se centenas de línguas indígenas no território de nosso país."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Os colonizadores aprenderam e falaram tupi antigo por muito tempo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tupi_fflch_usp_br_b59a75",
+          "excerpt": "No entanto, foi aquela que os colonizadores do Brasil aprenderam e falaram por longo tempo."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Políticas coloniais posteriores, incluindo medidas pombalinas, ajudaram o português a ganhar espaço em regiões do Brasil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+          "excerpt": "Em São Paulo, ela foi dominante no século XVII e, a partir do século XVIII, com as medidas pombalinas (Mariani, 2004), passou a ser suplantada pela língua portuguesa."
+        },
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "Haja vista a “civilidade” dos povos indígenas que se pretendia alcançar, a política linguística expressa no Diretório e a sua implementação por meio da “escola para índios” configuram-se como variáveis fundamentais para uma maior compreensão sobre o avanço da língua portuguesa nas vilas de índios e suas implicações linguísticas."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_sme_goiania_go_gov_br_conexaoescola_8632ca",
+    "src_historialuso_an_gov_br_index_php_586aaa",
+    "src_tupi_fflch_usp_br_b59a75",
+    "src_labeurb_unicamp_br_elb_ler_102_8d1cbf",
+    "src_revistas_ufrj_br_index_php_lh_210f17"
+  ],
   "quizIds": ["q_tordesillas_1__pt-BR", "q_tordesillas_2__pt-BR"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T21:08:54.315Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "publishedAt": "2026-11-03T21:53:52.882Z",
+  "updatedAt": "2026-11-03T21:53:52.882Z"
 }

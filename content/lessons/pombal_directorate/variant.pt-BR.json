@@ -2,41 +2,37 @@
   "id": "lesson_pombal_directorate__pt-BR",
   "conceptId": "concept_pombal_directorate",
   "locale": "pt-BR",
-  "slug": "quando-o-portugues-se-tornou-obrigatorio-no-brasil",
-  "title": "Quando o português se tornou obrigatório no Brasil?",
-  "hook": "Foi por decreto, em meados do século XVIII, e a mudança levou gerações.",
-  "summary": "O Diretório dos Índios, de 1757, impôs o português nas povoações indígenas, primeiro na Amazônia e, a partir de 1758, em todo o Brasil.",
-  "cardText": "A partir de 1757. Sob o Marquês de Pombal, o Diretório dos Índios impôs o português nas povoações indígenas da Amazônia e proibiu ali a língua geral, de base tupi; em 1758, passou a valer em todo o Brasil.",
+  "slug": "como-a-coroa-tentou-impor-o-portugues-no-brasil",
+  "title": "Como a Coroa tentou impor o português no Brasil?",
+  "hook": "Uma ordem para povoações indígenas atingiu também as línguas que se falavam nelas.",
+  "summary": "O Diretório dos Índios proibiu línguas indígenas nas povoações que regulava e determinou o ensino do português.",
+  "cardText": "O Diretório dos Índios mandou ensinar português em povoações indígenas e proibiu ali a língua geral e outras línguas nativas. Sua aplicação se ampliou em 1758.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Em meados do século XVIII, a Coroa portuguesa decidiu que a língua geral precisava sair de cena. Sob o governo do Marquês de Pombal, o Diretório dos Índios, criado em 1757 para o Estado do Grão-Pará e Maranhão, na Amazônia, e estendido ao restante do Brasil em 1758, determinou o uso do português nas povoações indígenas e proibiu o uso da língua geral nesses lugares, inclusive nas escolas."
+      "text": "No século XVIII, a Coroa portuguesa passou da convivência com as línguas gerais a uma política de imposição do português. O Diretório dos Índios havia sido preparado para povoações indígenas do Pará e Maranhão. Em 1758, um alvará estendeu suas regras ao restante do Brasil colonial. Nas povoações e vilas indígenas sob essa política, a língua geral e as línguas próprias dos povos deveriam ceder lugar ao português, inclusive no ensino."
     },
     {
       "type": "paragraph",
-      "text": "O objetivo era reforçar o controle sobre o território num momento em que as fronteiras com a Espanha estavam sendo redesenhadas. Pouco depois, em 1759, os jesuítas, grandes usuários do tupi, foram expulsos dos domínios portugueses. A mudança não foi imediata, mas o português passou a ganhar espaço."
+      "text": "Não era uma escolha neutra de idioma: a política fazia parte da assimilação forçada dos povos indígenas. Missionários foram substituídos por diretores leigos, e o português passou a ser ensinado nas povoações. Uma lei, porém, não apagou as línguas de uma vez: o nheengatu ainda era amplamente falado na Amazônia por volta da metade do século XIX."
     },
     {
       "type": "takeaway",
-      "text": "O Diretório dos Índios, de 1757, impôs o português e afastou a língua geral."
+      "text": "O Diretório tentou impor o português nas povoações indígenas, mas a mudança de língua foi gradual."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "Uma troca lenta"
+      "text": "O que a ordem alcançava"
     },
     {
       "type": "paragraph",
-      "text": "Leis não mudam línguas da noite para o dia. Em São Paulo, a língua geral paulista já vinha cedendo espaço ao português antes do Diretório, e desapareceu nas décadas seguintes."
+      "text": "O Diretório regulava povoações e vilas indígenas, não cada conversa em todo o território. Seu projeto incluía ensino do português, proibição da língua geral e de outras línguas indígenas nesses lugares, e administração por diretores leigos. O alvará de 1758 levou a política, concebida para Pará e Maranhão, a outras regiões coloniais."
     },
     {
       "type": "paragraph",
-      "text": "Na Amazônia, a língua geral resistiu muito mais e continuou amplamente falada até o século XIX. Por isso, seu descendente, o nheengatu, sobrevive até hoje no Alto Rio Negro."
-    },
-    {
-      "type": "paragraph",
-      "text": "Historiadores ainda debatem quanto da mudança se deve ao Diretório e quanto a outros fatores, como a chegada de novos colonos e a urbanização."
+      "text": "O Diretório foi abolido em 1798, mas suas medidas fizeram parte de um processo maior de aculturação compulsória. A persistência do nheengatu até muito depois da lei mostra por que não há uma data única em que o Brasil inteiro “passou a falar português”."
     }
   ],
   "heroMedia": {
@@ -45,20 +41,137 @@
     "alt": "Ilustração de um documento oficial com selo real e uma pena.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O Diretório dos Índios foi criado para povoações indígenas do Pará e Maranhão.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "O Diretório que se deve observar nas povoações dos índios do Pará e Maranhão, aprovado por d. José I em 1755, desempenhou papel central na política metropolitana de controle dos povos indígenas durante o período pombalino."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Um alvará de 1758 estendeu o Diretório a todo o Brasil colonial.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "O alvará de 17 de agosto de 1758 estendia o Diretório a todo o Brasil."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "O Diretório proibia a língua geral e outras línguas indígenas nas povoações e vilas indígenas que regulava.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "O Diretório determinava a adoção e o ensino do português nessas povoações.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
+        },
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Dentre as principais disposições, substituía os missionários por diretores leigos, nomeados pelos governadores, cujas obrigações abrangiam o incentivo à agricultura, à mestiçagem por meio de casamentos mistos e à adoção de hábitos e da língua portuguesa, com o fim de promover a “civilidade dos índios”."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "O Diretório substituiu missionários por diretores leigos nas povoações indígenas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Dentre as principais disposições, substituía os missionários por diretores leigos, nomeados pelos governadores, cujas obrigações abrangiam o incentivo à agricultura, à mestiçagem por meio de casamentos mistos e à adoção de hábitos e da língua portuguesa, com o fim de promover a “civilidade dos índios”."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "A imposição do português e a proibição das línguas indígenas pelo Diretório fizeram parte de um processo de aculturação compulsória.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Apesar de uma perspectiva civilizatória, que pretendia abolir as diferenças entre índios e brancos, as determinações do Diretório nunca impediram a exploração da força de trabalho indígena, a espoliação das terras dos aldeamentos e o processo compulsório de aculturação dos inúmeros povos existentes no Brasil."
+        },
+        {
+          "sourceId": "src_revistas_ufrj_br_index_php_lh_210f17",
+          "excerpt": "A política de gestão das línguas na América portuguesa, expressa no Diretório dos índios, previa a proibição do uso da língua geral e das línguas próprias dos diversos grupos etnolinguísticos indígenas e, consequentemente, a adoção e o ensino da “Língua do Príncipe” nas povoações e vilas de índios."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "O Diretório foi abolido em 1798.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historialuso_an_gov_br_glossario_index_001993",
+          "excerpt": "Em 12 de maio de 1798, o Diretório foi abolido em meio a denúncias de corrupção e abusos cometidos pelas autoridades responsáveis."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "O nheengatu ainda era amplamente falado na Amazônia por volta da metade do século XIX.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_museugoeldi_pt_br_arquivos_40a169",
+          "excerpt": "Até por volta da metade do século XIX, a língua mais falada no atual estado do Pará e ao longo da bacia amazônica era o nheengatu."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_historialuso_an_gov_br_glossario_index_001993",
+    "src_revistas_ufrj_br_index_php_lh_210f17",
+    "src_gov_br_museugoeldi_pt_br_arquivos_40a169"
+  ],
   "quizIds": ["q_pombal_directorate_1__pt-BR", "q_pombal_directorate_2__pt-BR"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-30-cluster_portuguese_in_brazil"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T21:10:23.846Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-10-28T17:28:09Z"
+  "publishedAt": "2026-11-03T21:53:20.001Z",
+  "updatedAt": "2026-11-03T21:53:20.001Z"
 }

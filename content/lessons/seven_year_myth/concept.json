@@ -2,26 +2,79 @@
   "id": "concept_seven_year_myth",
   "topicId": "body",
   "clusterId": "cluster_body_renews",
-  "clusterOrder": 4,
+  "clusterOrder": 5,
   "tags": ["cells", "myths", "neuroscience"],
   "difficulty": "intermediate",
   "related": [
     {
-      "conceptId": "concept_red_blood_cells",
-      "type": "related",
+      "conceptId": "concept_bone_remodeling",
+      "type": "background",
       "reason": {
-        "pt-BR": "Volte ao começo da trilha: as hemácias e seus quatro meses de vida.",
-        "en": "Back to the start of the trail: red blood cells and their four-month lives."
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
       }
     },
     {
       "conceptId": "concept_sleep_memory",
       "type": "related",
       "reason": {
-        "pt-BR": "Se os neurônios do córtex são os mesmos, como guardamos memórias novas?",
-        "en": "If your cortical neurons are the same ones, how do you store new memories?"
+        "pt-BR": "Continue pela trilha sobre como formamos memórias.",
+        "en": "Continue with the trail about how we form memories."
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma figura humana feita de incontáveis células, algumas se soltando no ar",
+        "en": "Illustration of a human figure made of countless cells, some drifting away"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "72458eca"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de quatro tipos de células lado a lado: hemácias, um neurônio, células da pele em camadas e células que revestem o tubo digestivo",
+        "en": "Illustration of four kinds of cells side by side: red blood cells, a neuron, layered skin cells and cells that line the gut"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "baa4f4b4"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de uma mão humana aberta",
+        "en": "Illustration of an open human hand"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "cf63c74b"
+    }
+  }
 }

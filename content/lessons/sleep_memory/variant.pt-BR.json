@@ -4,61 +4,143 @@
   "locale": "pt-BR",
   "slug": "o-que-o-cerebro-faz-com-suas-memorias-enquanto-voce-dorme",
   "title": "O que o cérebro faz com suas memórias enquanto você dorme?",
-  "hook": "Em ratos, os neurônios \"repassam\" o dia durante o sono, em ritmo acelerado.",
-  "summary": "Durante o sono, o cérebro reativa e reorganiza memórias recentes, o que ajuda a consolidá-las.",
-  "cardText": "Ele as repassa. Em ratos, neurônios que disparavam enquanto o animal explorava um labirinto voltam a disparar na mesma ordem durante o sono, acelerados, o que ajudaria a consolidar as memórias.",
+  "hook": "O sono após aprender pode ajudar, mas o que acontece no cérebro é complexo.",
+  "summary": "Dormir após aprender pode favorecer a lembrança posterior, enquanto o papel exato do replay neural segue em estudo.",
+  "cardText": "Em estudos com estudantes, dormir após aprender vocabulário favoreceu a recordação posterior. Pesquisadores também observam replay de atividade neural em animais, mas ainda investigam seu papel.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Dormir não é só descansar. Durante o sono, o cérebro reorganiza o que aprendemos no dia. Experimentos com ratos mostraram que neurônios do hipocampo, uma região essencial para a memória, que disparavam enquanto o animal explorava um labirinto voltam a disparar na mesma ordem durante o sono, como uma reprise acelerada."
+      "text": "Aprender uma palavra nova não termina quando você fecha o caderno. Em dois experimentos, estudantes do ensino médio aprenderam vocabulário e foram testados depois. Dormir poucas horas após o estudo favoreceu a lembrança. Em uma comparação, os estudantes recordaram mais palavras quando passaram a noite dormindo do que quando permaneceram acordados."
     },
     {
       "type": "paragraph",
-      "text": "Pesquisadores acreditam que esse \"replay\" ajuda a consolidar memórias. Em pessoas, estudos mostram que quem dorme depois de aprender costuma lembrar melhor do que quem passa o mesmo tempo acordado. Já noites mal dormidas atrapalham a capacidade de guardar coisas novas."
+      "text": "O cérebro oferece uma possível pista. Em estudos com animais, pesquisadores chamam de replay a reaparição acelerada de sequências de atividade neural observadas antes, durante a exploração. Mas atividades parecidas também aparecem na vigília, e a interpretação desses sinais ainda é debatida. O resultado prático do experimento é mais claro que o mecanismo: o sono pode ajudar a preservar o aprendizado."
     },
     {
       "type": "takeaway",
-      "text": "O sono não é tempo perdido: é quando o cérebro consolida o que você aprendeu."
+      "text": "Dormir depois de aprender pode ajudar a lembrança; o mecanismo neural ainda é investigado."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "O que acontece em cada fase"
+      "text": "O que é replay?"
     },
     {
       "type": "paragraph",
-      "text": "O sono profundo, de ondas lentas, parece especialmente importante para memórias de fatos e eventos. Nessa fase, o hipocampo e o córtex trocam sinais em ritmos coordenados, e as reativações de memórias recentes são mais frequentes."
+      "text": "No estudo da memória, replay hipocampal nomeia a reaparição comprimida de padrões de atividade vistos antes enquanto o animal estava acordado. A região envolvida é o hipocampo. A ideia de que esse processo participa da consolidação é influente, mas uma revisão chama atenção para atividade semelhante durante a vigília e para dificuldades em medi-la."
     },
     {
       "type": "paragraph",
-      "text": "Ainda há muitas perguntas em aberto, como o papel exato do sono REM, a fase em que sonhamos com mais intensidade. Mas o quadro geral é consistente: aprender e depois dormir funciona melhor do que aprender e passar a noite em claro."
-    },
-    {
-      "type": "paragraph",
-      "text": "Até cochilos curtos durante o dia já mostraram benefícios para a memória em alguns estudos."
+      "text": "O estudo com pessoas não mediu replay: nele, os participantes aprenderam pares de palavras em inglês e alemão. Separar o resultado comportamental da hipótese sobre o cérebro evita atribuir a pessoas um mecanismo observado em outros estudos."
     }
   ],
   "heroMedia": {
     "type": "illustration",
     "illustrationId": "sleep",
-    "alt": "Ilustração de uma cabeça adormecida com uma lua e conexões de memória brilhando.",
+    "alt": "Pessoa dormindo com um livro fechado ao lado da cama.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Dois experimentos estudaram a memória de vocabulário em estudantes do ensino médio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "In two experiments, we examined high school students’ ability to remember vocabulary."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Nesses experimentos, dormir poucas horas após aprender favoreceu a lembrança posterior.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "We show that declarative memory is enhanced when sleep follows within a few hours of learning, independent of time of day, and with equal amounts of interference during retention intervals."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Em uma comparação, estudantes lembraram mais palavras após dormir do que após permanecer acordados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "Subjects remembered clearly more of the learned vocabulary when they had slept during the night following learning than when they had stayed awake"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Os participantes aprenderam pares de palavras em inglês e alemão.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f47789",
+          "excerpt": "Subjects learned on each occasion one of four 24-pair English–German vocabulary lists"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Em estudos de animais, replay hipocampal descreve a repetição comprimida de sequências neurais observadas antes em vigília.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+          "excerpt": "The term hippocampal replay originally referred to the temporally compressed reinstantiation, during rest, of sequential neural activity observed during prior active wake."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Atividades semelhantes a replay também ocorrem durante a vigília e sua interpretação permanece em debate.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+          "excerpt": "However, the methods used to measure the occurrence of replay remain debated"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+          "excerpt": "“Replay-like” activity happens during wake, can play out in reverse order, may represent trajectories never taken by the animal"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_2b29a3",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f47789"
+  ],
   "quizIds": ["q_sleep_memory_1__pt-BR", "q_sleep_memory_2__pt-BR"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T21:07:38.906Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "publishedAt": "2026-11-03T21:53:39.654Z",
+  "updatedAt": "2026-11-03T21:53:39.654Z"
 }

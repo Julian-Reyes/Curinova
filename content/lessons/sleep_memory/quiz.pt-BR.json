@@ -4,49 +4,49 @@
     "questionGroupId": "qg_sleep_memory_1",
     "conceptId": "concept_sleep_memory",
     "locale": "pt-BR",
-    "prompt": "O que é o \"replay\" observado em ratos durante o sono?",
+    "prompt": "O que os experimentos de vocabulário observaram?",
     "options": [
       {
         "id": "a",
-        "text": "Neurônios repetem padrões de atividade de experiências do dia"
+        "text": "Dormir após aprender favoreceu a lembrança posterior"
       },
       {
         "id": "b",
-        "text": "Os ratos sonham sempre com o mesmo labirinto"
+        "text": "O sono apagou o vocabulário aprendido"
       },
       {
         "id": "c",
-        "text": "O cérebro apaga as memórias do dia"
+        "text": "Apenas reler durante a madrugada ajudou"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Neurônios do hipocampo que dispararam durante a exploração voltam a disparar na mesma ordem durante o sono, como uma reprise acelerada.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Os estudantes lembraram melhor quando o sono veio poucas horas após aprender.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_sleep_memory_2__pt-BR",
     "questionGroupId": "qg_sleep_memory_2",
     "conceptId": "concept_sleep_memory",
     "locale": "pt-BR",
-    "prompt": "Em estudos com pessoas, dormir depois de aprender costuma…",
+    "prompt": "O que é correto dizer sobre o replay?",
     "options": [
       {
         "id": "a",
-        "text": "melhorar a lembrança, comparado a ficar acordado o mesmo tempo"
+        "text": "Ele também foi observado na vigília, e seu papel é investigado"
       },
       {
         "id": "b",
-        "text": "fazer esquecer mais rápido"
+        "text": "Ele só acontece no sono humano"
       },
       {
         "id": "c",
-        "text": "não ter nenhum efeito sobre a memória"
+        "text": "Ele prova sozinho por que qualquer lembrança dura"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Quem dorme depois de aprender tende a lembrar melhor, possivelmente porque o sono ajuda a consolidar as memórias recentes.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Atividade semelhante a replay ocorre na vigília; sua interpretação ainda é debatida.",
+    "claimIds": ["c5", "c6"],
+    "status": "reviewed"
   }
 ]

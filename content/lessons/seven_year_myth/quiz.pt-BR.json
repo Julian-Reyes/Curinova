@@ -4,49 +4,49 @@
     "questionGroupId": "qg_seven_year_myth_1",
     "conceptId": "concept_seven_year_myth",
     "locale": "pt-BR",
-    "prompt": "O mito diz que todas as células se renovam a cada sete anos. O que a ciência mostra?",
+    "prompt": "Qual comparação explica por que não há uma troca geral do corpo a cada sete anos?",
     "options": [
       {
         "id": "a",
-        "text": "Cada tecido tem seu próprio ritmo, e algumas células nunca são trocadas"
+        "text": "Diferentes células duram dias, meses ou décadas"
       },
       {
         "id": "b",
-        "text": "O ciclo real é de dez anos"
+        "text": "Todas as células vivem exatamente 120 dias"
       },
       {
         "id": "c",
-        "text": "Só as células da pele se renovam"
+        "text": "Nenhuma célula é substituída depois do nascimento"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Há tecidos que se renovam em dias e outros em anos. E a maioria dos neurônios do córtex, assim como o centro do cristalino, acompanha você a vida toda.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Células superficiais do estômago e hemácias têm reposição rápida, enquanto a pesquisa encontrou neurônios aproximadamente da idade da pessoa.",
+    "claimIds": ["c1", "c2", "c3", "c4"],
+    "status": "reviewed"
   },
   {
     "id": "q_seven_year_myth_2__pt-BR",
     "questionGroupId": "qg_seven_year_myth_2",
     "conceptId": "concept_seven_year_myth",
     "locale": "pt-BR",
-    "prompt": "O que permitiu datar a idade de células humanas?",
+    "prompt": "Encontrar neurônios antigos significa que adultos nunca produzem novos neurônios?",
     "options": [
       {
         "id": "a",
-        "text": "O carbono-14 liberado por testes nucleares nas décadas de 1950 e 1960"
+        "text": "Não; a formação de neurônios foi observada no hipocampo adulto"
       },
       {
         "id": "b",
-        "text": "Contar anéis nas células, como se faz com árvores"
+        "text": "Sim; qualquer resultado vale para o cérebro inteiro"
       },
       {
         "id": "c",
-        "text": "Exames de raio X"
+        "text": "Não; todos os neurônios são trocados a cada quatro meses"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O pico de carbono-14 causado pelos testes nucleares deixou uma \"assinatura\" no DNA das células formadas em cada época.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Os resultados dependem da região e da população celular estudada. Há evidência de formação de neurônios no hipocampo adulto.",
+    "claimIds": ["c4", "c6"],
+    "status": "reviewed"
   }
 ]

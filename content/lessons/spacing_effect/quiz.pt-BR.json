@@ -4,50 +4,49 @@
     "questionGroupId": "qg_spacing_effect_1",
     "conceptId": "concept_spacing_effect",
     "locale": "pt-BR",
-    "prompt": "Duas pessoas estudam três horas cada. Quem tende a lembrar mais semanas depois?",
+    "prompt": "O que define prática espaçada?",
     "options": [
       {
         "id": "a",
-        "text": "Quem dividiu o estudo em sessões ao longo de vários dias"
+        "text": "Distribuir oportunidades de estudo entre sessões"
       },
       {
         "id": "b",
-        "text": "Quem estudou tudo de uma vez na véspera"
+        "text": "Estudar todo o conteúdo de uma vez"
       },
       {
         "id": "c",
-        "text": "As duas lembram igual"
+        "text": "Trocar de assunto a cada minuto"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "É o efeito de espaçamento: com o mesmo tempo total, sessões distribuídas produzem lembranças mais duradouras.",
-    "misconception": "Estudar tudo na véspera pode até render bem no dia seguinte, mas a lembrança se desfaz bem mais rápido.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Prática espaçada separa sessões ao longo do tempo.",
+    "claimIds": ["c1"],
+    "status": "reviewed"
   },
   {
     "id": "q_spacing_effect_2__pt-BR",
     "questionGroupId": "qg_spacing_effect_2",
     "conceptId": "concept_spacing_effect",
     "locale": "pt-BR",
-    "prompt": "Segundo uma explicação comum, por que espaçar os estudos ajuda?",
+    "prompt": "Existe um único intervalo ideal para toda lembrança?",
     "options": [
       {
         "id": "a",
-        "text": "Esquecer um pouco obriga o cérebro a reconstruir a memória, o que a fortalece"
+        "text": "Não; ele depende do tempo pelo qual se quer lembrar"
       },
       {
         "id": "b",
-        "text": "O cérebro só grava memórias durante a noite"
+        "text": "Sim; sempre exatamente um dia"
       },
       {
         "id": "c",
-        "text": "Sessões curtas cansam menos os olhos"
+        "text": "Sim; sempre exatamente uma semana"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O esforço de recuperar algo que já começou a ser esquecido parece fortalecer a memória mais do que rever algo ainda fresco.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "O intervalo mais eficaz tende a aumentar para objetivos de retenção mais longos.",
+    "claimIds": ["c5"],
+    "status": "reviewed"
   }
 ]

@@ -1,7 +1,6 @@
 import type { LessonVariant } from '@lumen/domain';
 import { useEffect, useRef } from 'react';
-import { useApp } from '../../data/app-context';
-import { progress } from '../../data/progress';
+import { useApp, useProgress } from '../../data/app-context';
 import { useSession } from './session';
 
 /**
@@ -18,6 +17,7 @@ export function useLessonTracking(
   onOpened?: (conceptId: string) => void,
 ) {
   const { reportStorageError } = useApp();
+  const progress = useProgress();
   const { trackedOpen, trackedComplete } = useSession();
   const since = useRef<number | null>(null);
 

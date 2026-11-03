@@ -2,26 +2,80 @@
   "id": "concept_bone_remodeling",
   "topicId": "body",
   "clusterId": "cluster_body_renews",
-  "clusterOrder": 3,
-  "tags": ["bones", "cells", "exercise"],
+  "clusterOrder": 4,
+  "tags": ["bones", "cells", "renewal"],
   "difficulty": "beginner",
   "related": [
     {
       "conceptId": "concept_seven_year_myth",
       "type": "next",
       "reason": {
-        "pt-BR": "Então o corpo inteiro se renova a cada sete anos? Não exatamente.",
-        "en": "So does the whole body renew every seven years? Not quite."
+        "pt-BR": "Reúna os exemplos e examine a ideia de um ciclo de sete anos.",
+        "en": "Bring the examples together and examine the seven-year-cycle idea."
       }
     },
     {
-      "conceptId": "concept_stomach_lining",
+      "conceptId": "concept_skin_renewal",
       "type": "background",
       "reason": {
-        "pt-BR": "Ritmos de renovação muito diferentes: dias no estômago, anos no osso.",
-        "en": "Very different renewal rhythms: days in the stomach, years in bone."
+        "pt-BR": "Retome o exemplo anterior e compare os processos.",
+        "en": "Revisit the previous example and compare the processes."
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Radiografia de um punho e de uma mão, mostrando os ossos do antebraço, os pequenos ossos do punho e os da palma",
+        "en": "X-ray of a wrist and hand, showing the forearm bones, the small wrist bones and the bones of the palm"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Cara Shelton",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/x-ray-result-_GpJpHnyCSw"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-03",
+      "hash": "0b1e0c43"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um fêmur cortado ao meio, com o osso esponjoso por dentro de uma camada externa densa",
+        "en": "Illustration of a thigh bone cut open, with spongy bone inside a dense outer layer"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "913171d3"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um fêmur humano, o osso da coxa",
+        "en": "Illustration of a human thigh bone (femur)"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-10-30"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "34c2b58c"
+    }
+  }
 }

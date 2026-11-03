@@ -71,7 +71,8 @@ export default tseslint.config(
   {
     // No hard-coded user-facing strings in UI code (§0.7). Tests and config are exempt.
     files: ['apps/web/app/**/*.tsx'],
-    ignores: ['**/*.test.tsx'],
+    // The dev-only review tool is English only (founder, D20).
+    ignores: ['**/*.test.tsx', 'apps/web/app/dev/**'],
     plugins: { i18next },
     rules: {
       'i18next/no-literal-string': [

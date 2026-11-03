@@ -2,63 +2,129 @@
   "id": "lesson_testing_effect__pt-BR",
   "conceptId": "concept_testing_effect",
   "locale": "pt-BR",
-  "slug": "por-que-tentar-lembrar-ensina-mais-que-reler",
+  "slug": "por-que-tentar-lembrar-ensina-mais-do-que-reler",
   "title": "Por que tentar lembrar ensina mais do que reler?",
-  "hook": "Reler dá a sensação de aprender. Testar-se é que faz a memória durar.",
-  "summary": "O efeito de testagem: buscar a informação na memória fortalece a lembrança mais do que rever o material.",
-  "cardText": "Reler dá a sensação de aprender, mas buscar a informação na memória a fortalece mais. Num estudo de 2006, quem praticou lembrar recordava bem mais uma semana depois.",
+  "hook": "Fechar o texto e tentar responder pode ajudar a lembrança a durar.",
+  "summary": "Testar a própria memória pode favorecer a retenção tardia mais que uma nova leitura.",
+  "cardText": "Um teste curto pode ajudar mais que reler quando a meta é lembrar dias depois. Em um estudo com textos científicos, a vantagem da recordação apareceu após dois ou sete dias.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Reler um texto dá a sensação gostosa de que tudo está entrando. Mas essa sensação engana. Em um estudo de 2006, os psicólogos Henry Roediger e Jeffrey Karpicke pediram a estudantes que lessem textos curtos. Alguns releram o material; outros tentaram escrever o que lembravam, sem consultar."
+      "text": "Depois de ler um texto, o que fazer: lê-lo de novo ou tentar contar o que ele dizia sem olhar? Pesquisadores compararam essas duas ações com estudantes que leram passagens de ciência. No teste apenas cinco minutos depois, a releitura saiu na frente."
     },
     {
       "type": "paragraph",
-      "text": "Cinco minutos depois, quem releu se saiu um pouco melhor. Uma semana depois, o quadro se inverteu: quem praticou lembrar recordava bem mais. O esforço de buscar a informação na memória fortalece o caminho até ela. Por isso, um quiz rápido vale mais do que parece."
+      "text": "Quando o teste veio dois ou sete dias depois, a vantagem passou para quem havia praticado a recordação. É o chamado efeito de testagem: tentar recuperar a informação também é uma forma de estudar. Conferir a resposta depois ajuda, especialmente quando a tentativa falhou. Um quiz curto ou um resumo feito de memória pode ser uma sessão de estudo, não apenas uma medida de desempenho."
     },
     {
       "type": "takeaway",
-      "text": "Puxar a informação da memória a fortalece mais do que rever o texto."
+      "text": "Para lembrar mais tarde, tente responder antes de reler e confira a resposta em seguida."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "A ilusão da fluência"
+      "text": "E se eu errar?"
     },
     {
       "type": "paragraph",
-      "text": "Quando relemos, o texto parece familiar, e confundimos familiaridade com conhecimento. No estudo de Roediger e Karpicke, os estudantes que só releram achavam que iam se sair melhor do que de fato se saíram."
+      "text": "A revisão da pesquisa relata que a prática de recordação com feedback costuma superar a mesma prática sem correção. Também descreve benefícios de tentativas sem feedback em comparação com estudo adicional. Isso não torna o erro desejável por si só: a correção ajuda a evitar que uma resposta equivocada fique sem esclarecimento."
     },
     {
       "type": "paragraph",
-      "text": "A prática de lembrar funciona mesmo quando erramos, desde que depois vejamos a resposta certa. O erro seguido de correção também ensina."
-    },
-    {
-      "type": "paragraph",
-      "text": "Formas simples de usar isso: fechar o livro e resumir de memória, explicar o assunto para alguém ou responder perguntas antes de conferir as anotações."
+      "text": "O resultado depende do momento da prova. Na comparação descrita, reler foi melhor após cinco minutos; a recordação ganhou nos testes feitos dias depois."
     }
   ],
   "heroMedia": {
     "type": "illustration",
     "illustrationId": "recall",
-    "alt": "Ilustração de uma pessoa puxando uma ideia da memória, representada por um fio de luz.",
+    "alt": "Uma pessoa tentando recuperar uma ideia antes de conferir o texto.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Um estudo comparou releitura e testes de recordação após a leitura de textos científicos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "In their widely cited study, Roediger and Karpicke asked undergraduates to read prose passages on scientific topics."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "Practice test and restudy conditions were manipulated within-subjects by having participants study two different passages."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Cinco minutos depois, a releitura ajudou mais no teste final desse estudo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Depois de dois ou sete dias, a prática de recordação produziu melhor desempenho que a releitura.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "with the 5-min delay, the restudy condition exhibited a reliable benefit on final recall relative to the practice test condition, whereas after 2 or 7 days the practice test condition exhibited superior performance on the final test."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Em geral, prática de recordação com feedback supera prática sem feedback.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "Retrieval practice with feedback is ordinarily superior to retrieval practice without feedback."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Mesmo sem feedback, tentativas de recordar podem beneficiar a memória futura mais que estudo adicional.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f0af0e",
+          "excerpt": "But even retrieval trials without feedback are seen to be more beneficial to subsequent performance than additional study trials"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": ["src_pmc_ncbi_nlm_nih_gov_articles_f0af0e"],
   "quizIds": ["q_testing_effect_1__pt-BR", "q_testing_effect_2__pt-BR"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "codex (gpt-6)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-29-cluster_how_memory_works"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T21:05:50.919Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "publishedAt": "2026-11-03T21:53:47.554Z",
+  "updatedAt": "2026-11-03T21:53:47.554Z"
 }

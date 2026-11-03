@@ -21,16 +21,16 @@
     ],
     "correctOptionId": "a",
     "explanation": "The difference in pull between the near side, the center and the far side of Earth raises two bulges. Earth rotates beneath them.",
-    "misconception": "The Sun does affect tides, but the second high tide would exist without it: it comes from the difference in the Moon’s pull.",
-    "claimIds": [],
-    "status": "draft"
+    "misconception": "The Sun does affect tides, but the Moon alone raises both bulges: one on the side facing it and one on the far side.",
+    "claimIds": ["c1", "c2", "c3", "c5"],
+    "status": "reviewed"
   },
   {
     "id": "q_tides_2__en",
     "questionGroupId": "qg_tides_2",
     "conceptId": "concept_tides",
     "locale": "en",
-    "prompt": "When do the strongest tides, spring tides, happen?",
+    "prompt": "When do spring tides, with their extra-high high tides, happen?",
     "options": [
       {
         "id": "a",
@@ -47,7 +47,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "With all three aligned, solar and lunar tides add up. That happens twice a month, in every season.",
-    "claimIds": [],
-    "status": "draft"
+    "claimIds": ["c7", "c8", "c9"],
+    "status": "reviewed"
   }
 ]

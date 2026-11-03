@@ -341,6 +341,82 @@ const SCENES: Record<string, Scene> = {
       <path d="M88 108a26 26 0 1 1 8 18m-8 4v-12h12" fill="none" {...stroke} opacity="0.6" />
     </>
   ),
+  'skin-layers': (accent) => (
+    <>
+      <rect x="36" y="114" width="236" height="34" rx="10" fill={accent} opacity="0.22" />
+      <path d="M36 114h236" {...stroke} opacity="0.5" />
+      {[58, 84, 110, 136, 162, 188, 214, 240].map((x) => (
+        <circle key={x} cx={x} cy="102" r="9" fill={MINT} {...stroke} />
+      ))}
+      {[71, 97, 123, 149, 175, 201, 227].map((x) => (
+        <ellipse key={x} cx={x} cy="80" rx="12" ry="7" fill={AQUA} {...stroke} />
+      ))}
+      {[48, 74, 100, 126, 152, 178, 204, 230].map((x) => (
+        <rect key={x} x={x} y="58" width="22" height="6" rx="3" fill={SURFACE} {...stroke} />
+      ))}
+      <rect
+        x="92"
+        y="34"
+        width="20"
+        height="5"
+        rx="2.5"
+        fill={SURFACE}
+        {...stroke}
+        opacity="0.6"
+        transform="rotate(-14 102 36)"
+      />
+      <rect
+        x="170"
+        y="22"
+        width="18"
+        height="5"
+        rx="2.5"
+        fill={SURFACE}
+        {...stroke}
+        opacity="0.4"
+        transform="rotate(12 179 24)"
+      />
+      <path
+        d="M292 104V40"
+        stroke={TEAL}
+        strokeWidth="3"
+        strokeDasharray="3 7"
+        strokeLinecap="round"
+      />
+      <path d="M284 48l8-10 8 10" fill="none" stroke={TEAL} strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  cue: (accent) => (
+    <>
+      <path d="M36 62h72l18 18-18 18H36z" fill={accent} opacity="0.85" />
+      <path d="M36 62h72l18 18-18 18H36z" fill="none" {...stroke} />
+      <circle cx="54" cy="80" r="5" fill={SURFACE} {...stroke} />
+      <path
+        d="M132 80c26 0 28-37 52-37"
+        fill="none"
+        stroke={TEAL}
+        strokeWidth="3"
+        strokeDasharray="3 7"
+        strokeLinecap="round"
+      />
+      {(
+        [
+          [246, 28],
+          [196, 64],
+          [246, 64],
+          [196, 100],
+          [246, 100],
+        ] as const
+      ).map(([x, y]) => (
+        <g key={`${String(x)}-${String(y)}`}>
+          <rect x={x} y={y} width="44" height="30" rx="6" fill={SURFACE} {...stroke} />
+          <path d={`M${String(x + 16)} ${String(y + 15)}h12`} {...stroke} />
+        </g>
+      ))}
+      <rect x="186" y="28" width="52" height="30" rx="6" fill={MINT} {...stroke} />
+      <path d="M204 43h16" {...stroke} />
+    </>
+  ),
   maillard: (accent) => (
     <>
       <path d="M44 128c-4-40 20-70 70-70s76 30 70 70z" fill={accent} opacity="0.9" />

@@ -17,7 +17,8 @@
     "concept_forgetting_curve",
     "concept_spacing_effect",
     "concept_testing_effect",
-    "concept_sleep_memory"
+    "concept_sleep_memory",
+    "concept_retrieval_cues"
   ],
   "links": [
     {

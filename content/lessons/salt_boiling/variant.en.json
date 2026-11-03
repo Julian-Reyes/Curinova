@@ -4,21 +4,21 @@
   "locale": "en",
   "slug": "does-salt-make-pasta-water-boil-faster",
   "title": "Does salt make pasta water boil faster?",
-  "hook": "It is common kitchen advice. Chemistry says the opposite, by a fraction of a degree.",
-  "summary": "Salt slightly raises the boiling point; with the amounts used in cooking, the effect is well under 1 °C.",
-  "cardText": "No. Salt actually raises the boiling point, but a tablespoon in a few liters changes it by well under 1 °C. It’s really there to flavor the pasta.",
+  "hook": "Dissolving salt raises water’s boiling point. The size of the effect depends on concentration.",
+  "summary": "Salt raises the boiling point: 29.2 grams per kilogram of water increase the boiling temperature by about 0.5 °C.",
+  "cardText": "No. Salt raises the boiling point: 29.2 grams per kilogram of water add about 0.5 °C. Adding flavor to pasta is one reason to use it.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "It is common kitchen advice, but chemistry says the opposite. Dissolving salt in water slightly raises its boiling point, an effect called boiling-point elevation. With the amount we usually add, about a tablespoon in a few liters, the increase is well under 1 °C. In practice, the difference in time is unnoticeable."
+      "text": "Dissolving salt in water raises its boiling point, an effect called boiling-point elevation. The size of this increase depends on concentration: 29.2 grams of salt in one kilogram of water raise the boiling temperature by about 0.5 °C. With salt present, the water needs a higher temperature to boil."
     },
     {
       "type": "paragraph",
-      "text": "So why does the water seem to \"boil\" when the salt goes in? The grains give steam bubbles easy places to form, and water that is already hot suddenly fizzes. The salt is really there to flavor the pasta."
+      "text": "So why does boiling intensify when salt falls into water that is already boiling? The grains give steam bubbles easy places to form. This burst of bubbles does not mean salt lowered the boiling point. Adding flavor to pasta is one reason to add salt to its water."
     },
     {
       "type": "takeaway",
-      "text": "Salt raises the boiling point by only a fraction of a degree; it is there for flavor."
+      "text": "With 29.2 grams of salt per kilogram of water, the boiling point rises by about 0.5 °C."
     }
   ],
   "deepDiveBlocks": [
@@ -28,15 +28,15 @@
     },
     {
       "type": "paragraph",
-      "text": "The effect depends on the number of dissolved particles. To raise the boiling point by 1 °C, you would need to dissolve almost 60 grams of salt per liter, far saltier than seawater, which has about 35 grams per liter."
+      "text": "The effect depends on the number of dissolved particles. To raise the boiling point by 1 °C, you would need to dissolve almost 60 grams of salt per liter, far saltier than seawater, which is about 3.5% salt by weight."
     },
     {
       "type": "paragraph",
-      "text": "It is the same physics that lets salt melt ice on winter roads, in the opposite direction: dissolved particles lower water’s freezing point."
+      "text": "Dissolved salt also lowers water’s freezing point, and by more: the 29 grams per kilogram that raise the boiling point by 0.5 °C lower the freezing point by almost 2 °C."
     },
     {
       "type": "paragraph",
-      "text": "The burst of bubbles when salt is added is called nucleation: imperfections and solid grains make it easier for bubbles to form in a liquid that is already close to boiling."
+      "text": "The burst of bubbles when salt is added is called nucleation: solid grains, such as salt or sugar crystals, make it easier for bubbles to form in water that is already boiling."
     }
   ],
   "heroMedia": {
@@ -45,20 +45,186 @@
     "alt": "Illustration of a pot of boiling water with grains of salt falling in.",
     "license": "original"
   },
-  "claims": [],
-  "sourceIds": [],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Salt does not make water boil faster: dissolving it slightly raises water’s boiling point.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mentalfloss_com_science_chemistry_does_adding_d8bacf",
+          "excerpt": "In fact, adding salt does the very opposite of making water boil faster. Instead, it makes it take longer for the water to boil!"
+        },
+        {
+          "sourceId": "src_mentalfloss_com_science_chemistry_does_adding_d8bacf",
+          "excerpt": "The salt actually increases the boiling point of the water"
+        },
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "Some people believe that the addition of salt increases the boiling point of the water. Technically, they are correct, but the increase is rather small."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "This effect is called boiling-point elevation.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "Boiling Point Elevation The figure below shows the pha"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "With 29.2 grams of salt per kilogram of water, the boiling point rises by about 0.5 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of water."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Salt grains provide sites for steam bubbles to form and intensify boiling in water that is already boiling.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_thenakedscientists_com_node_179726_c31125",
+          "excerpt": "Every time I put a tablespoon of table salt into boiling water the boil intensifies and then subsides."
+        },
+        {
+          "sourceId": "src_thenakedscientists_com_node_179726_c31125",
+          "excerpt": "They make it much more easy for bubbles of the vapour which is the boiling bit of water at the bottom of the pan to form."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Adding flavor to pasta is one reason to add salt to its water.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "Salt is often added to boiling water when preparing spaghetti or other pasta. One reason is to add flavor to the food."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "The effect depends on the number of dissolved particles, and salt splits into two ions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The Na and Cl dissociate right away when dissolved, and so for a 0.5 molal solution of salt, there is a 1.0 molal concentration of ions"
+        },
+        {
+          "sourceId": "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+          "excerpt": "It is a constant that is equal to the change in the boiling point for a 1-molal solution of a nonvolatile molecular solute."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Raising the boiling point by 1 °C would take almost 60 grams of salt per liter (kilogram) of water.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+        },
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "If your concentrations of salt are different, then you can scale the boiling point elevation and melting point depression predictions directly with the concentration."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Seawater is about 3.5% salt by weight.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oceanservice_noaa_gov_facts_whysalty_html_4aadcf",
+          "excerpt": "The average salinity is about 35 parts per thousand. Stated in another way, about 3.5 percent of the weight of seawater comes from the dissolved salts."
+        },
+        {
+          "sourceId": "src_usgs_gov_special_topics_water_science_77bad6",
+          "excerpt": "about 35 of 1,000 (3.5%) of the weight of seawater comes from the dissolved salts"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "The same 29 grams of salt per kilogram of water that raise the boiling point by 0.5 °C lower the freezing point by almost 2 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The melting point is lowered by 1.85 degrees Celsius if 29.2 grams of salt are dissolved in each Kg of water"
+        },
+        {
+          "sourceId": "src_van_physics_illinois_edu_ask_listing_da77f1",
+          "excerpt": "The boiling point is raised by 0.5 degrees Celsius for water with 29.2 grams of salt dissolved in each kg of wate"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c10",
+      "text": "The burst of bubbles is called nucleation: solid grains such as salt or sugar crystals make it easier for bubbles to form.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_thenakedscientists_com_node_179726_c31125",
+          "excerpt": "The reason for this is that the salt crystals (you can put sugar in it and do the same thing) act as what are called nucleation points."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_mentalfloss_com_science_chemistry_does_adding_d8bacf",
+    "src_courses_lumenlearning_com_umes_cheminter_chapter_f134db",
+    "src_van_physics_illinois_edu_ask_listing_da77f1",
+    "src_thenakedscientists_com_node_179726_c31125",
+    "src_oceanservice_noaa_gov_facts_whysalty_html_4aadcf",
+    "src_usgs_gov_special_topics_water_science_77bad6"
+  ],
   "quizIds": ["q_salt_boiling_1__en", "q_salt_boiling_2__en"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
-    "model": "claude-opus-5-5",
-    "promptVersion": "m2-sample-drafts-v1",
-    "runId": "m2-prototype-2026-10-23"
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-10-28-cluster_kitchen_chemistry"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-03T21:24:36.721Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-10-23T00:00:00Z"
+  "publishedAt": "2026-11-03T21:53:32.329Z",
+  "updatedAt": "2026-11-03T21:53:32.329Z"
 }

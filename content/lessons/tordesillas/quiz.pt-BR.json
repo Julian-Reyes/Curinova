@@ -4,49 +4,49 @@
     "questionGroupId": "qg_tordesillas_1",
     "conceptId": "concept_tordesillas",
     "locale": "pt-BR",
-    "prompt": "O que o Tratado de Tordesilhas, de 1494, definiu?",
+    "prompt": "O que o Tratado de Tordesilhas procurou dividir?",
     "options": [
       {
         "id": "a",
-        "text": "Uma linha dividindo as novas terras entre Portugal e Espanha"
+        "text": "Terras reivindicadas por Portugal e Espanha"
       },
       {
         "id": "b",
-        "text": "A independência do Brasil"
+        "text": "As línguas indígenas do Brasil"
       },
       {
         "id": "c",
-        "text": "A fundação da cidade de Salvador"
+        "text": "As escolas do Brasil colonial"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O tratado traçou uma linha a 370 léguas a oeste de Cabo Verde: terras a leste para Portugal, a oeste para a Espanha.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Em 1494, os dois reinos escolheram um meridiano para dividir suas reivindicações sobre terras encontradas e por encontrar.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_tordesillas_2__pt-BR",
     "questionGroupId": "qg_tordesillas_2",
     "conceptId": "concept_tordesillas",
     "locale": "pt-BR",
-    "prompt": "As fronteiras atuais do Brasil seguem a linha de Tordesilhas?",
+    "prompt": "A linha de Tordesilhas virou a fronteira definitiva do Brasil?",
     "options": [
       {
         "id": "a",
-        "text": "Não: a ocupação foi além dela, e tratados posteriores redesenharam as fronteiras"
+        "text": "Não; a ocupação avançou além dela e houve novos acordos"
       },
       {
         "id": "b",
-        "text": "Sim, exatamente"
+        "text": "Sim; ela coincide com as fronteiras atuais"
       },
       {
         "id": "c",
-        "text": "Sim, exceto na região Nordeste"
+        "text": "Sim; o Tratado de Madri confirmou a mesma linha"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "A ocupação portuguesa avançou muito para o oeste, e o Tratado de Madri, de 1750, reconheceu boa parte dela.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A linha nem foi demarcada com precisão. A ocupação portuguesa avançou para além dela, e o Tratado de Madri procurou ajustar os limites.",
+    "claimIds": ["c3", "c4", "c5"],
+    "status": "reviewed"
   }
 ]

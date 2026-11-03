@@ -4,50 +4,49 @@
     "questionGroupId": "qg_testing_effect_1",
     "conceptId": "concept_testing_effect",
     "locale": "en",
-    "prompt": "In Roediger and Karpicke’s study, who remembered more a week later?",
+    "prompt": "In the science-passage study, which strategy did better days later?",
     "options": [
       {
         "id": "a",
-        "text": "Students who practiced recalling without looking at the text"
+        "text": "Trying to recall without the text"
       },
       {
         "id": "b",
-        "text": "Students who reread the text several times"
+        "text": "Only rereading the passage"
       },
       {
         "id": "c",
-        "text": "There was no difference"
+        "text": "Never returning to the topic"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Five minutes later, rereading looked better. A week later, those who had practiced recall remembered far more.",
-    "misconception": "The sense that rereading works comes from familiarity with the text, which does not guarantee you will remember it later.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Retrieval practice beat rereading after two or seven days.",
+    "claimIds": ["c1", "c3"],
+    "status": "reviewed"
   },
   {
     "id": "q_testing_effect_2__en",
     "questionGroupId": "qg_testing_effect_2",
     "conceptId": "concept_testing_effect",
     "locale": "en",
-    "prompt": "Why can rereading mislead students?",
+    "prompt": "Why check the answer after trying to recall?",
     "options": [
       {
         "id": "a",
-        "text": "It creates a feeling of mastery without strengthening memory"
+        "text": "Feedback ordinarily improves retrieval practice"
       },
       {
         "id": "b",
-        "text": "It tires the eyes"
+        "text": "Checking makes forgetting impossible"
       },
       {
         "id": "c",
-        "text": "It erases older memories"
+        "text": "Feedback replaces the recall attempt"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "A reread text feels familiar, and we confuse that with knowing it. Testing yourself shows what actually stuck.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "Retrieval practice with feedback is ordinarily better than without it.",
+    "claimIds": ["c4"],
+    "status": "reviewed"
   }
 ]

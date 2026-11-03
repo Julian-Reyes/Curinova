@@ -4,49 +4,49 @@
     "questionGroupId": "qg_tordesillas_1",
     "conceptId": "concept_tordesillas",
     "locale": "en",
-    "prompt": "What did the 1494 Treaty of Tordesillas establish?",
+    "prompt": "What did the Treaty of Tordesillas seek to divide?",
     "options": [
       {
         "id": "a",
-        "text": "A line dividing newly reached lands between Portugal and Spain"
+        "text": "Lands claimed by Portugal and Spain"
       },
       {
         "id": "b",
-        "text": "Brazil’s independence"
+        "text": "Brazil’s Indigenous languages"
       },
       {
         "id": "c",
-        "text": "The founding of the city of Salvador"
+        "text": "Schools in colonial Brazil"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "The treaty drew a line 370 leagues west of Cape Verde: lands to the east for Portugal, to the west for Spain.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "In 1494 the two kingdoms chose a meridian to divide claims to lands found and yet to be found.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_tordesillas_2__en",
     "questionGroupId": "qg_tordesillas_2",
     "conceptId": "concept_tordesillas",
     "locale": "en",
-    "prompt": "Do Brazil’s borders today follow the Tordesillas line?",
+    "prompt": "Did the Tordesillas line become Brazil’s final border?",
     "options": [
       {
         "id": "a",
-        "text": "No: settlement went far beyond it, and later treaties redrew the borders"
+        "text": "No; settlement passed it and later agreements changed the borders"
       },
       {
         "id": "b",
-        "text": "Yes, exactly"
+        "text": "Yes; it matches today’s borders"
       },
       {
         "id": "c",
-        "text": "Yes, except in the Northeast"
+        "text": "Yes; Madrid confirmed the same line"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Portuguese settlement pushed far west, and the 1750 Treaty of Madrid recognized much of it.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "The line was never precisely marked. Portuguese colonization moved beyond it, and the Treaty of Madrid sought to adjust the borders.",
+    "claimIds": ["c3", "c4", "c5"],
+    "status": "reviewed"
   }
 ]

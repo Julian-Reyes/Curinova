@@ -4,50 +4,49 @@
     "questionGroupId": "qg_bone_remodeling_1",
     "conceptId": "concept_bone_remodeling",
     "locale": "pt-BR",
-    "prompt": "Quais células dissolvem o osso velho?",
+    "prompt": "Qual é o papel dos osteoclastos e dos osteoblastos na remodelação?",
     "options": [
       {
         "id": "a",
-        "text": "Osteoclastos"
+        "text": "Osteoclastos removem tecido; osteoblastos formam nova matriz"
       },
       {
         "id": "b",
-        "text": "Osteoblastos"
+        "text": "Ambos produzem apenas células sanguíneas"
       },
       {
         "id": "c",
-        "text": "Hemácias"
+        "text": "Osteoblastos retiram cálcio e osteoclastos produzem muco"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Os osteoclastos demolem pequenas porções de osso; em seguida, os osteoblastos constroem osso novo no lugar.",
-    "misconception": "Os nomes se parecem. Uma forma de lembrar: osteoBLastos são os que constroem a \"base\"; osteoClastos são os que \"cortam\".",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A remoção de osso antigo é seguida pela formação de matriz nova, que recebe minerais.",
+    "claimIds": ["c3", "c4"],
+    "status": "reviewed"
   },
   {
     "id": "q_bone_remodeling_2__pt-BR",
     "questionGroupId": "qg_bone_remodeling_2",
     "conceptId": "concept_bone_remodeling",
     "locale": "pt-BR",
-    "prompt": "Por que astronautas perdem massa óssea no espaço?",
+    "prompt": "Em adultos jovens saudáveis, como se comparam a remoção e a reposição de osso?",
     "options": [
       {
         "id": "a",
-        "text": "Sem o peso da gravidade, o osso recebe menos carga e a reconstrução diminui"
+        "text": "As quantidades são aproximadamente iguais"
       },
       {
         "id": "b",
-        "text": "A radiação espacial dissolve o cálcio"
+        "text": "Nenhum tecido ósseo é removido"
       },
       {
         "id": "c",
-        "text": "Eles comem menos cálcio a bordo"
+        "text": "Todo o esqueleto é substituído simultaneamente"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O osso se ajusta às cargas que recebe. Sem o peso do corpo, a demolição passa a superar a reconstrução.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A remodelação é contínua e localizada; nos adultos jovens saudáveis, retirada e reposição ficam aproximadamente equilibradas.",
+    "claimIds": ["c1", "c5"],
+    "status": "reviewed"
   }
 ]

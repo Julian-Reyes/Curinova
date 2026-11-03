@@ -4,50 +4,49 @@
     "questionGroupId": "qg_stomach_lining_1",
     "conceptId": "concept_stomach_lining",
     "locale": "pt-BR",
-    "prompt": "O que neutraliza o ácido logo junto à parede do estômago?",
+    "prompt": "O que ajuda a proteger o revestimento do estômago?",
     "options": [
       {
         "id": "a",
-        "text": "Bicarbonato retido na camada de muco"
+        "text": "Muco protetor e reposição das células superficiais"
       },
       {
         "id": "b",
-        "text": "A saliva que engolimos"
+        "text": "Ausência de ácido dentro do estômago"
       },
       {
         "id": "c",
-        "text": "O sangue que passa pelo órgão"
+        "text": "Uma parede que nunca perde células"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "O muco forma uma barreira que segura o bicarbonato junto às células, criando uma zona quase neutra bem ao lado da parede.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A superfície produz muco e repõe células rapidamente, mantendo uma barreira diante do suco gástrico.",
+    "claimIds": ["c1", "c2", "c4", "c5"],
+    "status": "reviewed"
   },
   {
     "id": "q_stomach_lining_2__pt-BR",
     "questionGroupId": "qg_stomach_lining_2",
     "conceptId": "concept_stomach_lining",
     "locale": "pt-BR",
-    "prompt": "Que descoberta rendeu o Nobel de 2005 a Barry Marshall e Robin Warren?",
+    "prompt": "Renovar células superficiais em poucos dias significa trocar o estômago inteiro nesse prazo?",
     "options": [
       {
         "id": "a",
-        "text": "Que a bactéria Helicobacter pylori causa muitas úlceras"
+        "text": "Não; outras células das glândulas são repostas mais lentamente"
       },
       {
         "id": "b",
-        "text": "Que o estômago produz ácido clorídrico"
+        "text": "Sim; todas as células do órgão têm o mesmo ritmo"
       },
       {
         "id": "c",
-        "text": "Que o estresse é a única causa de úlceras"
+        "text": "Sim; muco e músculo são a mesma coisa"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Eles mostraram que a H. pylori está por trás de grande parte das úlceras, o que permitiu tratá-las com antibióticos.",
-    "misconception": "O estresse pode piorar sintomas, mas a ideia de que era a causa principal das úlceras foi derrubada por essa descoberta.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "O prazo se refere às células da superfície. Outras células das glândulas gástricas têm reposição mais lenta.",
+    "claimIds": ["c4", "c6"],
+    "status": "reviewed"
   }
 ]

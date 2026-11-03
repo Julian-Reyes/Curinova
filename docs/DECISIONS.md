@@ -13,7 +13,7 @@ These are open and **do not block** M1/M2. They must be settled before the publi
 | #       | Decision                                                                                                                               | Spec     | Notes                                                                                                                                                                                                                      |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | P1      | Final product name and trademark clearance                                                                                             | §0.1     | Working title is now **Curinova** (2026-10-26). Before launch, check INPI (classes 9 and 41), USPTO, app stores, registro.br, .com/.app. Renaming is cheap by design (see "Renaming the product").                         |
-| P2      | License all lesson text CC BY-SA 4.0?                                                                                                  | §5.6     | Until decided, drafts carry `contentLicense: "pending"`, and the validator blocks publishing anything "pending".                                                                                                           |
+| ~~P2~~  | ~~License all lesson text CC BY-SA 4.0?~~                                                                                              | §5.6     | **Resolved 2026-10-30 → D21** (all rights reserved).                                                                                                                                                                       |
 | P3      | LGPD legal basis for aggregate analytics (legitimate interest vs consent); is a formal _encarregado_ (data protection officer) needed? | §13, §14 | Analytics are M4.                                                                                                                                                                                                          |
 | P4      | ECA Digital (Lei 15.211/2025) age policy                                                                                               | §14      | Needed before launch and before accounts (P1).                                                                                                                                                                             |
 | P5      | Final domain → Capacitor appId / bundle ID                                                                                             | §9.4     | **TODO (M6+, Android):** the appId becomes permanent once published to the Play Store. Use a reverse-domain ID of the final domain with the codename, e.g. `<tld>.<domain>.lumen`. Never use the placeholder display name. |
@@ -212,6 +212,7 @@ Resolves P8 and P10–P15 from `docs/M2_5_INTEGRATION_PLAN.md` §2.
 - **P15 · Offline images.** Runtime cache (cache-first, capped) for lesson images; the diagram shows if an image isn't cached offline.
 - **Completion rule (agent, inside the approved plan).** A lesson counts as completed after 6 s on the Discover card, 40% of its reading time in Go Deeper, or finishing its quiz (§10.4 adapted to the short card).
 - **Topic pictures (agent, inside P10/P11).** Topics can carry one picture (`topics.json` → `image`), with the same origin, alt-text and file checks as lesson images, served from `/media/topics/<id>.webp`. Licensed topic pictures are credited at the foot of the topic page (the ESA/Webb image is CC BY 4.0 with a fixed credit line).
+- **Review image on the lesson quiz (founder, 2026-11-03).** The quiz after a lesson also shows the lesson's Review image above the options, as the Review tab does (shared `QuizImage` component). A lesson without a Review image shows none there (the Review tab keeps its topic-icon panel). Review images therefore must not give away the answer to any of the lesson's questions.
 - **Review rows (agent).** Review lists one row per lesson (a lesson has a review state per question), showing its next due question's date.
 - **Implementation notes (agent).** Images live in `apps/web/public/media/<lesson>/<slot>.webp` (+ `-sm`), declared in `concept.json` → `media`, URLs versioned by `addedAt`. Trails exit to the page they were started from (`?from=`), else Discover. The Discover card keeps the spec's reason line and the "Preview" chip (B1) inside E's topic line.
 
@@ -236,6 +237,53 @@ Overrides §3.8's session goal and soft stop, and relaxes §6's "never optimize 
 - **Honest catalog end (§6 kept).** When every lesson has been seen, one card says so ("You've seen everything new for now"), then the feed repeats every lesson, seen longest ago first, pass after pass. No button, no stop.
 - **Gentle nudge instead of a stop.** When reviews are due at session start, a skippable "Time to remember" card appears every 20 lessons (and after the first lesson in "Remember more" mode, P7). Nothing blocks scrolling.
 - **Before launch:** review against ECA Digital (Lei 15.211/2025, P4), which has protections for minors against features that encourage compulsive use.
+
+### D18 · M3 content pipeline approach — Founder (2026-10-28)
+
+Plan: `/Users/apple/.claude/plans/iterative-swinging-rabin.md` (approved). Founder choices and the deviations they imply:
+
+- **Engine: two Claude Code sessions, no engine layer (founder, simplified 2026-10-28).** A writer session drafts and extracts claims; a **separate** verifier session, which has not seen the writer's session, judges every claim (`docs/content/WRITER.md`, `VERIFIER.md`, versioned `write-v1` / current `verify-v2`; earlier reports used `verify-v1`). No provider interface, API adapter or cost logging: there is no per-use bill, and an API connector can be added if fully automatic runs are ever wanted. Code is limited to mechanical, checkable work: source fetching and snapshots, excerpt matching, validation, link checks, dedupe. Deviation from §5.5 ("provider-agnostic LLM interface", "different model", "log cost per lesson"): verification is a separate session with its own instructions, plus the deterministic check that every excerpt appears verbatim in its source snapshot.
+- **Proportional verification (founder, 2026-10-30).** Block incorrect claims, misleading explanations, unsupported numbers and ambiguous quiz answers. Treat minor wording and citation improvements as editorial notes. Accept omitted detail and ordinary, clearly qualified explanations when the simplification remains true; fix simplifications that teach the wrong mechanism. After repairs, recheck changed claims and their dependent prose, quizzes and locale counterpart. See `docs/content/VERIFIER.md` (`verify-v2`).
+- **Sources: free.** Wikipedia's API to find the references articles cite, plus manual URLs. No paid search API.
+- **Snapshots stay out of git.** Fetched page text is never committed (the repository is public); only source metadata and `snapshotHash` are. Re-verification needs the authoring machine.
+- **Re-fetching keeps curated fields (founder, 2026-10-28).** Another session re-creates snapshots with `pnpm content:sources refetch`. Fetching a source that already has a record never overwrites the writer's `publisher`, `type` or `license`; if the page text is unchanged the record is left as it is, otherwise only its title, language, access date and hash are updated and the command flags it. Prompted by the first verifier run, where the old re-fetch loop rewrote curated publishers.
+- **One shared content branch (founder, 2026-10-29).** All trails are drafted and verified on `content/c1-moon`, which branches from the M3 feature branch and stays open until founder review publishes each trail. Pipeline code and docs go to the feature branch, never only to the content branch. (Replaces a same-day plan of one branch per trail.)
+- **Dedupe: local text similarity** (TF-IDF), no embeddings service.
+- **Content loading (D16): split files, loaded by language.** Done in session 1: `pnpm content:build` writes `apps/web/public/content/` (manifest, hashed index, one file per topic and locale, a separate image list); the app loads only the learner's language and fetches the other on a language switch; the service worker checks the manifest online first and caches hashed files. The build runs before every app build and on content changes in dev, replacing the bundled `virtual:lumen-content` module (B2). First visit today: about 29 KB compressed (budget 350 KB; over budget → load topics on demand).
+- **New dev dependencies (approved):** `@mozilla/readability`, `jsdom`, `robots-parser` in `tools/content-pipeline`.
+
+### D19 · Trail batch 2 — Founder (2026-10-30)
+
+The founder approved five more trails in chat, one per topic, 31 lessons: Brazil's three capitals, Brazil in space, Where your attention goes, Amazon survival tricks, Everyday science myths. Outlines, lesson keys, order and source requirements: [`docs/content/TRAILS_BATCH_2.md`](content/TRAILS_BATCH_2.md). Writer sessions skip WRITER.md §1 for these trails.
+
+- **Lesson text only for now.** No Discover card text (`cardText`) and no pictures; both come later, after the existing lessons get their photos.
+- **Amazon survival tricks sits under Body & Biology** until a topic such as Animals/Earth exists; moving it then changes only the cluster's `topicId`, so guest progress (keyed by `conceptId`) is kept.
+
+### D20 · M3 review tool `/_review` — Founder (2026-10-30)
+
+Plan: [`docs/M3_REVIEW_TOOL_PLAN.md`](M3_REVIEW_TOOL_PLAN.md) (approved).
+
+- **English only.** The tool is for the founder, so `apps/web/app/dev/**` is exempt from the i18n lint rule and its strings stay out of the locale files. Deviation from the "no hard-coded strings" rule, limited to the dev-only tool.
+- **Reviewer:** `reviewedBy` is `Julian` on reviewed lessons and in `content/review-log.jsonl` (committed; the repository is public).
+- **Approve and publish are separate.** Approving moves a variant to `content/lessons/` as reviewed and sets its license (D21); publishing is a separate action.
+- **Publish is per lesson (founder, 2026-10-30).** One Publish action publishes both locales together, once both are approved. The plan first said "per approved variant", but D4 requires both locales of a published lesson to be published, so a single-locale publish would always be refused.
+- **Image accuracy review comes later**, not in this build.
+- **No outline-approval screen** (deviation from the D18 plan): trail outlines are approved in chat and recorded in `docs/content/`.
+- **Image accuracy for the C1 pilot (founder, 2026-11-03).** The founder had seen every picture of the 22 sample lessons, so all 64 were marked `accuracyReviewedBy: "Julian"` in one step to allow publishing; the review tool still has no image-check button. New images (batch 2 onward) need their own check before publishing.
+- **Approve all claims (founder, 2026-11-03).** Each language header has an "Approve all claims" button that approves every open claim of that language in one action (one log line, `approve-claims`). Rejected claims and claims the verifier judged unsupported or left unverified are never approved by it. Approving the language stays a separate step.
+- **Build notes (agent, inside the plan).**
+  - A write is refused only if it **adds** an error (validator or `check-drafts`). Errors already present in other drafts don't block every review.
+  - The library's `concept.json` lists only the locales, related lessons and trail links the library can resolve. A lesson's draft folder is removed once both locales are approved **and** its related lessons are in the library. Until then the draft concept keeps the full links, and every approval re-syncs them. The fixture dry run found this: trail-mates link to each other.
+  - Lesson components record progress through a `useProgress()` context (default: the real store). The tool renders them with writes switched off.
+  - Review-tool writes under `content/drafts/` and to the log don't trigger a content rebuild or page reload.
+
+### D21 · Lesson text license: all rights reserved — Founder (2026-10-30)
+
+Resolves P2 (§5.6). Lesson text is **all rights reserved** (`contentLicense: "all-rights-reserved"`), not CC BY-SA 4.0.
+
+- **Original prose only.** Lessons never adapt Wikipedia text (CC BY-SA) or any other source's wording; Wikipedia stays a pointer to sources, and citing it for a low-stakes claim is still allowed (§5.6). Writers already write from snapshots in their own words; WRITER.md now says so explicitly.
+- **Drafts keep `"pending"`.** The review tool sets `"all-rights-reserved"` when a variant is approved, so the license is set by a human review, never by a writer session.
+- Image licenses are separate and unchanged (D15/P11); the code's license is still undecided (README).
 
 ### P6 measurements (M2, 2026-10-25, before D11)
 

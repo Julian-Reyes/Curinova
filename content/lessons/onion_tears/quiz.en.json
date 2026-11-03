@@ -21,32 +21,32 @@
     ],
     "correctOptionId": "a",
     "explanation": "While the cells are intact, the sulfur compounds and enzymes are separated. The knife mixes them and the reaction begins.",
-    "claimIds": [],
-    "status": "draft"
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_onion_tears_2__en",
     "questionGroupId": "qg_onion_tears_2",
     "conceptId": "concept_onion_tears",
     "locale": "en",
-    "prompt": "Why do chilled onions usually make you cry less?",
+    "prompt": "In the experiments described in the 2025 study, which condition produced fewer onion droplets?",
     "options": [
       {
         "id": "a",
-        "text": "Cold slows down the reactions and the release of the gas"
+        "text": "Sharp blades and slow cuts"
       },
       {
         "id": "b",
-        "text": "Cold destroys the sulfur"
+        "text": "Blunt blades and fast cuts"
       },
       {
         "id": "c",
-        "text": "Chilled onions have no enzymes"
+        "text": "Onions refrigerated before cutting"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Enzymes work more slowly in the cold, and less gas evaporates. The substances are still there; they just react less quickly.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "In those experiments, blunt blades, fast cuts and refrigerated onions produced more droplets. The finding concerns droplet emission; the authors note that more study is needed before definitive conclusions about chilling.",
+    "claimIds": ["c8", "c9"],
+    "status": "reviewed"
   }
 ]

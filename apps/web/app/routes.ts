@@ -1,5 +1,11 @@
 import { type RouteConfig, index, layout, route } from '@react-router/dev/routes';
 
+/**
+ * The content review tool (D20) is a dev-server route only: production builds never contain
+ * it (the service worker also denies /_review).
+ */
+const includeReviewTool = process.env.NODE_ENV !== 'production';
+
 export default [
   index('routes/index.tsx'),
   layout('routes/app-layout.tsx', [
@@ -15,5 +21,6 @@ export default [
       route('app/settings', 'routes/settings.tsx'),
     ]),
   ]),
+  ...(includeReviewTool ? [route('_review', 'dev/review/route.tsx')] : []),
   route('*', 'routes/not-found.tsx'),
 ] satisfies RouteConfig;

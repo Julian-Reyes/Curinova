@@ -1,4 +1,5 @@
 export * from './brand';
+export * from './content-bundle';
 export * from './ids';
 export * from './locale';
 export * from './media';

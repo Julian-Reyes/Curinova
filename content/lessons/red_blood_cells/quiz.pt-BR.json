@@ -4,49 +4,49 @@
     "questionGroupId": "qg_red_blood_cells_1",
     "conceptId": "concept_red_blood_cells",
     "locale": "pt-BR",
-    "prompt": "Por que as hemácias humanas vivem tão pouco, cerca de 120 dias?",
+    "prompt": "Qual é a duração média de uma hemácia?",
     "options": [
       {
         "id": "a",
-        "text": "Elas não têm núcleo e não conseguem se consertar"
+        "text": "Cerca de 120 dias"
       },
       {
         "id": "b",
-        "text": "O coração as destrói a cada batimento"
+        "text": "Sete anos exatos"
       },
       {
         "id": "c",
-        "text": "Elas se transformam em glóbulos brancos"
+        "text": "Toda a vida da pessoa"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Sem núcleo, a hemácia ganha espaço para hemoglobina, mas não consegue produzir proteínas novas para reparar danos. Por isso tem vida curta.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A média é de cerca de 120 dias, aproximadamente quatro meses. A produção de novas células ocorre na medula óssea.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
   },
   {
     "id": "q_red_blood_cells_2__pt-BR",
     "questionGroupId": "qg_red_blood_cells_2",
     "conceptId": "concept_red_blood_cells",
     "locale": "pt-BR",
-    "prompt": "Que órgãos recolhem a maior parte das hemácias velhas?",
+    "prompt": "Onde são produzidas novas células sanguíneas?",
     "options": [
       {
         "id": "a",
-        "text": "O baço e o fígado"
+        "text": "Na medula óssea"
       },
       {
         "id": "b",
-        "text": "Os pulmões"
+        "text": "No plasma, por divisão do líquido"
       },
       {
         "id": "c",
-        "text": "Os rins"
+        "text": "Na superfície da pele"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Células de defesa no baço e no fígado removem as hemácias velhas, e o ferro delas é reciclado para fabricar novas.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "A medula óssea é um tecido dentro dos ossos que produz células sanguíneas; plasma é a parte líquida do sangue.",
+    "claimIds": ["c2", "c8", "c11"],
+    "status": "reviewed"
   }
 ]

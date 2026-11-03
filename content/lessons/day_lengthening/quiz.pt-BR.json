@@ -16,14 +16,14 @@
       },
       {
         "id": "c",
-        "text": "O núcleo da Terra está esfriando"
+        "text": "A gravidade do Sol está ficando mais forte"
       }
     ],
     "correctOptionId": "a",
     "explanation": "As marés atritam com o fundo dos oceanos e roubam um pouco da rotação da Terra, cerca de 2 milissegundos por século.",
-    "misconception": "A distância até o Sol muda a duração do ano, não a do dia.",
-    "claimIds": [],
-    "status": "draft"
+    "misconception": "A distância até o Sol não é a causa: quem freia a rotação é o atrito das marés.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "reviewed"
   },
   {
     "id": "q_day_lengthening_2__pt-BR",
@@ -47,7 +47,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "Com a Terra girando mais rápido, cabiam mais dias em cada volta ao redor do Sol: uns 400 dias de cerca de 22 horas.",
-    "claimIds": [],
-    "status": "draft"
+    "claimIds": ["c5", "c6"],
+    "status": "reviewed"
   }
 ]

@@ -4,49 +4,49 @@
     "questionGroupId": "qg_pombal_directorate_1",
     "conceptId": "concept_pombal_directorate",
     "locale": "en",
-    "prompt": "What did the 1757 Directorate of the Indians require?",
+    "prompt": "What did the Directorate require in the towns it governed?",
     "options": [
       {
         "id": "a",
-        "text": "The use of Portuguese in Indigenous villages"
+        "text": "Teach Portuguese and prohibit the general and other Indigenous languages"
       },
       {
         "id": "b",
-        "text": "The founding of Brazil’s first universities"
+        "text": "Teach only Spanish"
       },
       {
         "id": "c",
-        "text": "Moving the capital to Rio de Janeiro"
+        "text": "Give every language the same official status"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "The Directorate imposed Portuguese and banned the general language in Indigenous villages, including in teaching.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "The policy required Portuguese teaching and prohibited Indigenous languages in those towns and villages.",
+    "claimIds": ["c3", "c4"],
+    "status": "reviewed"
   },
   {
     "id": "q_pombal_directorate_2__en",
     "questionGroupId": "qg_pombal_directorate_2",
     "conceptId": "concept_pombal_directorate",
     "locale": "en",
-    "prompt": "Which group, the great users of Tupi, was expelled from Portuguese lands in 1759?",
+    "prompt": "Did the Directorate make Nheengatu vanish immediately?",
     "options": [
       {
         "id": "a",
-        "text": "The Jesuits"
+        "text": "No; it was still widely spoken in the Amazon in the 19th century"
       },
       {
         "id": "b",
-        "text": "The Dutch"
+        "text": "Yes; it vanished in 1758"
       },
       {
         "id": "c",
-        "text": "The French"
+        "text": "Yes; Spanish replaced it"
       }
     ],
     "correctOptionId": "a",
-    "explanation": "The Jesuits had studied and used Tupi for two centuries. Their expulsion weakened the general language further.",
-    "claimIds": [],
-    "status": "draft"
+    "explanation": "The Goeldi Museum reports that Nheengatu remained widely spoken in the Amazon until around the middle of the 19th century.",
+    "claimIds": ["c8"],
+    "status": "reviewed"
   }
 ]
