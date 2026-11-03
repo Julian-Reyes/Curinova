@@ -103,6 +103,25 @@ export const PURPOSE_WEIGHTS: Record<Purpose, FeedWeights> = {
   remember: { ...FEED_WEIGHTS, trailContinuation: 3.0, encounteredTrail: 3.0, novelty: 0.5 },
 };
 
+/**
+ * The order lessons repeat in once the catalog is exhausted (D17): seen longest ago first,
+ * then lessons first seen during this session, in their given order. ISO timestamps
+ * compare by code point; `localeCompare` would not do (it sorts symbols before digits).
+ */
+export function orderRepeats(
+  conceptIds: readonly string[],
+  lastSeen: ReadonlyMap<string, string>,
+): string[] {
+  return [...conceptIds].sort((a, b) => {
+    const x = lastSeen.get(a);
+    const y = lastSeen.get(b);
+    if (x === y) return 0;
+    if (x === undefined) return 1;
+    if (y === undefined) return -1;
+    return x < y ? -1 : 1;
+  });
+}
+
 export function weightsFor(purpose: Purpose | undefined): FeedWeights {
   return purpose === undefined ? FEED_WEIGHTS : PURPOSE_WEIGHTS[purpose];
 }

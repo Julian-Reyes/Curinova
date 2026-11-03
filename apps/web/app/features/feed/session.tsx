@@ -1,4 +1,4 @@
-import { isDue, rankFeed, type FeedItem } from '@lumen/domain';
+import { isDue, orderRepeats, rankFeed, type FeedItem } from '@lumen/domain';
 import { createContext, useCallback, useContext, useMemo, useState } from 'react';
 import { useApp } from '../../data/app-context';
 import { db } from '../../data/db';
@@ -94,11 +94,11 @@ export function SessionProvider({ children }: { children: React.ReactNode }) {
         seed,
         purpose: prefs.purpose,
       });
-      // Lessons not seen before this session sort last ('~' > any ISO date).
-      const repeats = library.concepts
-        .filter((c) => !prefs.mutedTopics.includes(c.topicId))
-        .map((c) => c.id)
-        .sort((a, b) => (lastSeen.get(a) ?? '~').localeCompare(lastSeen.get(b) ?? '~'));
+      // Seen longest ago first; lessons not seen before this session go last.
+      const repeats = orderRepeats(
+        library.concepts.filter((c) => !prefs.mutedTopics.includes(c.topicId)).map((c) => c.id),
+        lastSeen,
+      );
       const next: DiscoverSession = {
         sessionId: newId(),
         seed,

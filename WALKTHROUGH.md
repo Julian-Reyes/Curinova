@@ -299,6 +299,8 @@ Lessons are written and fact-checked by two separate AI sessions (`docs/CONTENT_
 
 The quiz after a lesson now shows the lesson's Review picture above the answers, just like the Review tab. Before, those pictures only appeared when a review was due, so they were hard to see. Lessons without a Review picture show the quiz as before.
 
+**A fix to the repeats.** After "You've seen everything new", Discover is meant to repeat the lessons you saw longest ago first. It was putting the lessons you had just seen for the first time at the front instead, so you saw them twice in a row. They now come last.
+
 ---
 
 ---

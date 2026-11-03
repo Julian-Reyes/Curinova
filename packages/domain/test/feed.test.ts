@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { rankFeed, type FeedConcept, type FeedInput } from '../src/feed';
+import { orderRepeats, rankFeed, type FeedConcept, type FeedInput } from '../src/feed';
 
 // 3 topics × 1 trail × 4 concepts.
 const concepts: FeedConcept[] = ['space', 'brain', 'history'].flatMap((topicId) =>
@@ -138,5 +138,22 @@ describe('purpose profiles (P7)', () => {
           expect(new Set(window).size).toBeGreaterThan(1);
       }
     }
+  });
+});
+
+describe('orderRepeats (D17)', () => {
+  it('repeats lessons seen longest ago first, and lessons new this session last', () => {
+    const lastSeen = new Map([
+      ['old', '2026-10-01T09:00:00.000Z'],
+      ['recent', '2026-11-02T09:00:00.000Z'],
+      ['middle', '2026-10-15T09:00:00.000Z'],
+    ]);
+    expect(orderRepeats(['new_a', 'recent', 'new_b', 'old', 'middle'], lastSeen)).toEqual([
+      'old',
+      'middle',
+      'recent',
+      'new_a',
+      'new_b',
+    ]);
   });
 });
