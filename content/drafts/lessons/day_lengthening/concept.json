@@ -47,19 +47,18 @@
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "O nascer do Sol sobre o horizonte da Terra, visto da Estação Espacial Internacional",
-        "en": "Sunrise over Earth’s horizon, seen from the International Space Station"
+        "pt-BR": "Ilustração do nascer do Sol sobre o horizonte curvo da Terra visto do espaço, com luzes de cidades no lado noturno",
+        "en": "Illustration of sunrise over Earth’s curved horizon seen from space, with city lights on the night side"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "NASA Johnson Space Center",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_orbital_sunrise_bursts_above_Earth%27s_horizon_(iss073e1068530).jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "34da9340"
+      "addedAt": "2026-11-03",
+      "hash": "b300cca5"
     },
     "review": {
       "width": 1000,
