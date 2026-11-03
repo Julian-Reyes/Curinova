@@ -29,55 +29,52 @@
       "width": 1200,
       "height": 700,
       "alt": {
-        "pt-BR": "Estudantes fazendo uma prova em sala de aula",
-        "en": "Students taking an exam in a classroom"
+        "pt-BR": "Ilustração de uma mão virando um cartão em branco de uma pilha sobre uma mesa à noite",
+        "en": "Illustration of a hand turning over a blank card from a stack on a desk at night"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Baluddhar",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal_Uddhar_Students_taking_exam_.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "9cdf2f4b"
+      "addedAt": "2026-11-03",
+      "hash": "cb66b658"
     },
     "discover": {
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "Caixa de arquivo cheia de fichas",
-        "en": "A filing box full of index cards"
+        "pt-BR": "Ilustração de uma mão virando um cartão em branco de uma pilha, sob a luz de uma luminária",
+        "en": "Illustration of a hand turning over a blank card from a stack under a desk lamp"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Pittigrilli",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filing_box_with_index_cards_containing_customer_data_of_a_small_business,_2022.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "bfd771ae"
+      "addedAt": "2026-11-03",
+      "hash": "e77efacc"
     },
     "review": {
       "width": 1000,
       "height": 562,
       "alt": {
-        "pt-BR": "Mesa de estudo com livros, papéis e anotações",
-        "en": "A study desk with books, papers and notes"
+        "pt-BR": "Ilustração de uma mão virando um cartão em branco de uma pilha sobre uma mesa à noite",
+        "en": "Illustration of a hand turning over a blank card from a stack on a desk at night"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "brewbooks",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Studying_for_a_Biochemistry_exam_-_Flickr_-_brewbooks.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "cfe63744"
+      "addedAt": "2026-11-03",
+      "hash": "9a9cd381"
     }
   }
 }

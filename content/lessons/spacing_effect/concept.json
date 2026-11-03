@@ -29,37 +29,35 @@
       "width": 1200,
       "height": 700,
       "alt": {
-        "pt-BR": "Folhas de calendário de setembro, outubro e novembro",
-        "en": "Calendar pages for September, October and November"
+        "pt-BR": "Ilustração da mesma mesa de estudo com um caderno aberto, vista de manhã, à tarde e à noite",
+        "en": "Illustration of the same study desk with an open notebook, seen in the morning, afternoon and evening"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Claudio Elias",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:WallCalendar.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "0b3dc227"
+      "addedAt": "2026-11-03",
+      "hash": "5a1e059e"
     },
     "discover": {
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "Calendário de parede de madeira, com dia e mês ajustáveis",
-        "en": "A wooden wall calendar with adjustable day and month"
+        "pt-BR": "Ilustração de um calendário de parede em branco, com alguns dias espaçados marcados por pontos coloridos e um lápis pendurado",
+        "en": "Illustration of a blank wall calendar with a few spaced-out days marked by coloured dots and a pencil hanging beside it"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Amitbalani",
-        "platform": "Wikimedia Commons",
-        "license": "CC0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manual_scrollable_wooden_wall_calendar.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "17f21c96"
+      "addedAt": "2026-11-03",
+      "hash": "59764982"
     },
     "review": {
       "width": 1000,
