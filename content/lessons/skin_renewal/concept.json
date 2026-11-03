@@ -29,37 +29,52 @@
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "Pele humana vista bem de perto, com seus sulcos finos",
-        "en": "Human skin seen up close, with its fine grooves"
+        "pt-BR": "Ilustração de uma mão aberta, com a palma para cima, num feixe de luz quente sobre fundo escuro",
+        "en": "Illustration of an open hand, palm up, in a beam of warm light against a dark background"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Montavius Howard (TongCreator)",
-        "platform": "Wikimedia Commons",
-        "license": "CC0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Human_skin_close-up.jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "862598ca"
+      "addedAt": "2026-11-03",
+      "hash": "5e780035"
     },
     "deeper": {
       "width": 1200,
       "height": 700,
       "alt": {
-        "pt-BR": "Corte microscópico do couro cabeludo, com a epiderme, a derme e um folículo piloso",
-        "en": "Microscope section of the scalp, showing the epidermis, the dermis and a hair follicle"
+        "pt-BR": "Ilustração de mãos em concha recebendo água de uma torneira",
+        "en": "Illustration of cupped hands catching water from a tap"
       },
       "origin": {
-        "kind": "licensed",
-        "creator": "Lazar.zenit",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scalp_cross_section_(negro).jpg"
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "515c42fd"
+      "addedAt": "2026-11-03",
+      "hash": "f229d867"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de mãos em concha recebendo água de uma torneira",
+        "en": "Illustration of cupped hands catching water from a tap"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-03",
+      "hash": "6f8d9fbc"
     }
   }
 }
