@@ -58,6 +58,24 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-10-30",
       "hash": "34c2b58c"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Radiografia de um punho e de uma mão, mostrando os ossos do antebraço, os pequenos ossos do punho e os da palma",
+        "en": "X-ray of a wrist and hand, showing the forearm bones, the small wrist bones and the bones of the palm"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Cara Shelton",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/x-ray-result-_GpJpHnyCSw"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-03",
+      "hash": "0b1e0c43"
     }
   }
 }
