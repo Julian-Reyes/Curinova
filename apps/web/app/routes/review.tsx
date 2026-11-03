@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
 import { ArrowRightIcon, CheckIcon, ChevronLeftIcon, ReviewIcon } from '../components/icons';
-import { LessonArt } from '../components/LessonArt';
+import { QuizImage } from '../components/QuizImage';
 import { LessonRow } from '../components/LessonRow';
 import { buttonPrimary, Card, EmptyState, Page, Section } from '../components/Page';
 import { QuizRunner, type AnswerResult } from '../components/QuizRunner';
@@ -253,22 +253,7 @@ function ReviewSession({
             const variant = concept ? library.variant(concept.id, q.locale) : undefined;
             const topic = concept ? library.topic(concept.topicId) : undefined;
             if (!concept || !variant || !topic) return null;
-            return (
-              <div className="review-ill" data-topic={topic.id}>
-                {concept.media?.review ? (
-                  <LessonArt
-                    concept={concept}
-                    variant={variant}
-                    slot="review"
-                    accent={topic.accentColor}
-                    priority
-                    className="h-full w-full object-cover"
-                  />
-                ) : (
-                  <TopicIcon icon={topic.icon} size={72} className="text-tl" />
-                )}
-              </div>
-            );
+            return <QuizImage concept={concept} variant={variant} topic={topic} fallback />;
           }}
         />
       </div>
