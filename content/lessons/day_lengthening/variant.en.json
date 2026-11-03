@@ -259,10 +259,10 @@
     "runId": "2026-10-28-cluster_moon_shapes_earth"
   },
   "reviewStatus": "reviewed",
-  "publicationStatus": "draft",
+  "publicationStatus": "published",
   "reviewedBy": "Julian",
   "reviewedAt": "2026-11-03T21:25:54.803Z",
   "reviewAfter": "2028-01-01T00:00:00Z",
-  "publishedAt": null,
-  "updatedAt": "2026-11-03T21:25:54.803Z"
+  "publishedAt": "2026-11-03T21:52:54.082Z",
+  "updatedAt": "2026-11-03T21:52:54.082Z"
 }

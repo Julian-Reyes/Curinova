@@ -172,10 +172,10 @@
     "runId": "2026-10-29-cluster_body_renews"
   },
   "reviewStatus": "reviewed",
-  "publicationStatus": "draft",
+  "publicationStatus": "published",
   "reviewedBy": "Julian",
   "reviewedAt": "2026-11-03T20:44:32.883Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-11-03T20:44:32.883Z"
+  "publishedAt": "2026-11-03T21:53:45.181Z",
+  "updatedAt": "2026-11-03T21:53:45.181Z"
 }
