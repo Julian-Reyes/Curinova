@@ -266,6 +266,28 @@ describe('review actions', () => {
     expect(await libraryErrors(root)).toEqual([]);
   });
 
+  it('a lesson added before library lessons moves them down the trail', async () => {
+    const { ctx, root } = await setup();
+    // The new lesson a2 goes first in the trail, ahead of the library's a1.
+    const clusterPath = 'content/drafts/clusters/cluster_a.json';
+    const cluster = await read(root, clusterPath);
+    await writeFile(
+      join(root, clusterPath),
+      JSON.stringify({ ...cluster, conceptIds: ['concept_a2', 'concept_a1'] }),
+    );
+    const conceptPath = 'content/drafts/lessons/a2/concept.json';
+    await writeFile(
+      join(root, conceptPath),
+      JSON.stringify({ ...(await read(root, conceptPath)), clusterOrder: 1 }),
+    );
+    expect((await approveAll(ctx, 'a2', 'en')).ok).toBe(true);
+    expect(await read(root, 'content/clusters/cluster_a.json')).toMatchObject({
+      conceptIds: ['concept_a2', 'concept_a1'],
+    });
+    expect(await read(root, 'content/lessons/a1/concept.json')).toMatchObject({ clusterOrder: 2 });
+    expect(await libraryErrors(root)).toEqual([]);
+  });
+
   it('writes nothing when a change would break validation', async () => {
     const { ctx, root } = await setup();
     const path = 'content/drafts/lessons/a2/variant.en.json';
