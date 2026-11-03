@@ -65,19 +65,19 @@
       "width": 1000,
       "height": 562,
       "alt": {
-        "pt-BR": "Margem na maré baixa na Baía de Fundy",
-        "en": "A shore at low tide in the Bay of Fundy"
+        "pt-BR": "Barcos de pesca pousados no fundo na maré baixa, na Baía de Fundy, no Canadá",
+        "en": "Fishing boats resting on the bottom at low tide in the Bay of Fundy, Canada"
       },
       "origin": {
         "kind": "licensed",
-        "creator": "Lars Plougmann",
+        "creator": "Dylan Kereluk",
         "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Low_tide,_Bay_of_Fundy_(20214469966).jpg"
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_of_Fundy_-_Tide_Out.jpg"
       },
       "accuracyReviewedBy": null,
-      "addedAt": "2026-10-30",
-      "hash": "830acb3f"
+      "addedAt": "2026-11-03",
+      "hash": "d80a3239"
     }
   }
 }
