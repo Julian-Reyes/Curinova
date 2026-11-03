@@ -66,7 +66,7 @@ Reply only with the image.
 - **Discover** (missing): `DISCOVER: A macro view inside spongy bone: a lattice of ivory-coloured struts and plates (trabecular bone) lit like a cave, warm light from above, the lower part in deep shadow.` _Accuracy: an irregular honeycomb-like lattice, not a regular grid._
 - **Deeper / Review:** keep the current AI femur images.
 
-### skin_renewal — How does your skin renew itself without disappearing?
+### skin_renewal — Where does your old skin go?
 
 - **Discover:** keep the skin close-up photo, or `DISCOVER: Extreme close-up of the back of a human hand in warm side light, fine skin grooves and tiny hairs visible, the lower part fading into shadow.`
 - **Deeper:** keep the microscope section.
@@ -84,7 +84,7 @@ Reply only with the image.
 
 ## Brain & Mind
 
-### forgetting_curve — How much do you forget in a day?
+### forgetting_curve — How fast do you forget?
 
 - **Discover:** keep the current AI image, or `DISCOVER: An old leather notebook open on a desk at night, the illegible ink handwriting on its pages fading and lifting off as fine dust into the lamplight above.`
 - **Deeper:** keep the current AI desk scene.
@@ -115,7 +115,7 @@ Reply only with the image.
 
 ## Everyday Science
 
-### altitude_boiling — Why does water boil at a lower temperature up a mountain?
+### altitude_boiling — Why does water boil below 100 °C up a mountain?
 
 - **Discover:** `DISCOVER: A small pot of water boiling on a camping stove at a high mountain campsite at dawn, steam rising, snowy peaks glowing pink behind it in the upper part, the foreground rocks dark.`
 - **Deeper:** `DEEPER: A mountain cabin kitchen: a pot of beans simmering on a wood stove, a window behind showing snowy peaks.`
