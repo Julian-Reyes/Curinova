@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_vls_accident_2003_1__en",
+    "questionGroupId": "qg_vls_accident_2003_1",
+    "conceptId": "concept_vls_accident_2003",
+    "locale": "en",
+    "prompt": "What happened to the VLS-1 on 22 August 2003?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An unplanned ignition destroyed it on the pad, killing 21 technicians"
+      },
+      {
+        "id": "b",
+        "text": "It exploded just after lift-off"
+      },
+      {
+        "id": "c",
+        "text": "The launch was postponed because of bad weather"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Three days before launch, an unplanned ignition destroyed the rocket while it was still on the pad at Alcântara.",
+    "misconception": "The rocket never lifted off: the accident happened during preparations, at the launch tower.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_vls_accident_2003_2__en",
+    "questionGroupId": "qg_vls_accident_2003_2",
+    "conceptId": "concept_vls_accident_2003",
+    "locale": "en",
+    "prompt": "What did the investigation find started the accident?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A motor firing unexpectedly, probably set off by a detonator"
+      },
+      {
+        "id": "b",
+        "text": "A deliberate act by a technician"
+      },
+      {
+        "id": "c",
+        "text": "Lightning striking the tower"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The 130-page report pointed to a first-stage motor firing unexpectedly and found no error or sabotage.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "concept_equator_launch_alcantara",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 1,
+  "tags": ["brazil", "rockets", "alcantara"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_vls_accident_2003",
+      "type": "next",
+      "reason": {
+        "pt-BR": "A mesma base foi palco da maior tragédia do programa espacial brasileiro.",
+        "en": "The same base saw the worst tragedy of Brazil’s space programme."
+      }
+    },
+    {
+      "conceptId": "concept_amazonia_1",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que o primeiro satélite 100% brasileiro não saiu de Alcântara.",
+        "en": "Why Brazil’s first all-Brazilian satellite didn’t launch from Alcântara."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

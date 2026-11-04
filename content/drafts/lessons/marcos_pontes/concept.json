@@ -1,0 +1,27 @@
+{
+  "id": "concept_marcos_pontes",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 6,
+  "tags": ["brazil", "astronauts", "iss"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_equator_launch_alcantara",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Do Brasil, por enquanto, só sobem foguetes; astronautas ainda não.",
+        "en": "From Brazil, for now, only rockets go up, not astronauts."
+      }
+    },
+    {
+      "conceptId": "concept_amazonia_1",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra estreia brasileira no espaço.",
+        "en": "Another Brazilian first in space."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

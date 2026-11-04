@@ -1,0 +1,27 @@
+{
+  "id": "concept_inpe_amazon_monitoring",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 3,
+  "tags": ["brazil", "satellites", "amazon"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_cbers_program",
+      "type": "next",
+      "reason": {
+        "pt-BR": "De onde vêm parte das imagens: os satélites feitos com a China.",
+        "en": "Where some of the images come from: the satellites built with China."
+      }
+    },
+    {
+      "conceptId": "concept_amazonia_1",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O satélite brasileiro que também alimenta os alertas.",
+        "en": "The Brazilian satellite that also feeds the alerts."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

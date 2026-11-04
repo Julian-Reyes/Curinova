@@ -1,0 +1,27 @@
+{
+  "id": "concept_cbers_program",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 4,
+  "tags": ["brazil", "satellites", "china"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_amazonia_1",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Depois dos satélites em parceria, o primeiro feito só pelo Brasil.",
+        "en": "After the joint satellites, the first built by Brazil alone."
+      }
+    },
+    {
+      "conceptId": "concept_inpe_amazon_monitoring",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Os CBERS alimentam os alertas diários do DETER.",
+        "en": "CBERS satellites feed DETER’s daily alerts."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

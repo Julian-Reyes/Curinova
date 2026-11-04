@@ -1,0 +1,27 @@
+{
+  "id": "concept_amazonia_1",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 5,
+  "tags": ["brazil", "satellites", "amazon"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_marcos_pontes",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Satélites brasileiros no espaço; e o primeiro brasileiro também.",
+        "en": "Brazilian satellites in space, and the first Brazilian too."
+      }
+    },
+    {
+      "conceptId": "concept_cbers_program",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Os satélites em parceria que vieram antes.",
+        "en": "The joint satellites that came first."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "concept_vls_accident_2003",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 2,
+  "tags": ["brazil", "rockets", "alcantara"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_inpe_amazon_monitoring",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Enquanto o foguete nacional parava, os satélites seguiam vigiando a Amazônia.",
+        "en": "While the national rocket stalled, satellites kept watching the Amazon."
+      }
+    },
+    {
+      "conceptId": "concept_equator_launch_alcantara",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que Alcântara foi escolhida para lançar foguetes.",
+        "en": "Why Alcântara was chosen for rocket launches."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}
