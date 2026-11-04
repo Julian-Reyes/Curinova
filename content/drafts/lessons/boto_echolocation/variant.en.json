@@ -55,7 +55,7 @@
           "excerpt": "Amazonian rivers are often very murky, and the Amazon river dolphin is therefore likely to depend much more on its sense of echolocation than vision when navigating and finding prey."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -68,7 +68,7 @@
           "excerpt": "There is evidence that the boto uses echolocation for navigation and to capture prey. The sounds they produce are known as \"clicks,\""
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -81,7 +81,7 @@
           "excerpt": "which are predominantly between 85 and 100 kHz, well above the frequency audible to human beings."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "It has a melon on the head, the shape of which can be modified by muscular control when used for biosonar."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -111,7 +111,7 @@
           "excerpt": "Botos are very flexible, largely due to free cervical vertebra."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -124,7 +124,7 @@
           "excerpt": "The fin size, unfused vertebrae, and its relative size allow for improved maneuverability when navigating flooded forests and capturing prey."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "Breathing takes place every 30 to 110 seconds."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

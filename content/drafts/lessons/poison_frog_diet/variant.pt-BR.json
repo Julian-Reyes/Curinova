@@ -59,7 +59,7 @@
           "excerpt": "This bright coloration is correlated with the toxicity of the species, making them aposematic"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -76,7 +76,7 @@
           "excerpt": "Scientists believe that poison frogs gain their poison from"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -89,7 +89,7 @@
           "excerpt": "these insects most likely acquire the poison from their plant diet."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -110,7 +110,7 @@
           "excerpt": "These results indicate that dendrobatids only present alkaloids if they consume alkaloid-containing arthropods and insects."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -123,7 +123,7 @@
           "excerpt": "However, the biosynthetic hypothesis quickly gave way to the dietary hypothesis following numerous, parallel experiment results"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -140,7 +140,7 @@
           "excerpt": "while species which eat a much larger variety of prey have cryptic coloration with minimal to no amount of observed toxicity."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -153,7 +153,7 @@
           "excerpt": "out of over 170 species, only four have been documented as being used for this purpose"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
