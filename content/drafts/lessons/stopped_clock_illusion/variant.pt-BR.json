@@ -59,7 +59,7 @@
           "excerpt": "observers sometimes think that the second hand takes longer than normal to move to its next position. For a short period, the clock appears to have stopped (chronostasis)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -72,7 +72,7 @@
           "excerpt": "is a type of temporal illusion in which the first impression following the introduction of a new even"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -93,7 +93,7 @@
           "excerpt": "the brain extends the percept of the saccadic target backwards in time to just before the onset of the saccade."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -106,7 +106,7 @@
           "excerpt": "This occurs every time we move the eyes but it is only perceived when an external time reference alerts us to the phenomenon."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -123,7 +123,7 @@
           "excerpt": "if the target is moved unpredictably during the saccade, breaking perception of the target's spatial continuity, then the illusion disappears."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -136,7 +136,7 @@
           "excerpt": "This effect can extend apparent durations by up to half a s"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -149,7 +149,7 @@
           "excerpt": "This illusion can also occur in the auditory and tactile domain."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

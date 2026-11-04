@@ -55,7 +55,7 @@
           "excerpt": "This allows most people to tune effortlessly into a single voice while tuning out all others."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -68,7 +68,7 @@
           "excerpt": "when one may immediately detect words of importance originating from unattended stimuli, for instance hearing one's name among a wide range of auditory input."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -81,7 +81,7 @@
           "excerpt": "It has been proposed that a person's sensory memory subconsciously parses all stimuli and identifies"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -98,7 +98,7 @@
           "excerpt": "Cherry conducted attention experiments in which participants listened to two different messages from a single loudspeaker at the same time and tried to separate them"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "In the early 1950s much of the early attention research can be traced to problems faced by air traffic controllers. At that time, controllers received messages from pilots over loudspeakers in the control tower. Hearing the intermixed voices of many pilots over a single loudspeaker made the controller's task very difficult."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "The cocktail party effect works best as a binaural effect, which requires hearing with both ears. People with only one functioning ear seem much more distracted by interfering noise than people with two typical ears."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

@@ -55,7 +55,7 @@
           "excerpt": "This can easily be duplicated by looking into a mirror, and looking from one eye to another. The eyes can never be observed in motion, yet an external observer clearly sees the motion of the eyes."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -68,7 +68,7 @@
           "excerpt": "A saccade is a fast eye motion, and because it is a motion that is optimised for speed, there is inevitable blurring of the image on the retina"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -85,7 +85,7 @@
           "excerpt": "It's long been known that vision is transiently impaired during larger gaze shifts"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -98,7 +98,7 @@
           "excerpt": "omenon was first described by Erdmann and Dodge in 1898"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -111,7 +111,7 @@
           "excerpt": "Because saccadic suppression starts before the actual onset of the saccade, it cannot be triggered by retinal motion and must be centrally activated by the brain."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "mmediately before and immediately after participants' gaze shifted, the participants could not see the fleas, even when they were looking directly at them."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "the researchers found that vision recovered rapidly at the center of the gaze"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -158,7 +158,7 @@
           "excerpt": "Within-saccade movement detection was proven and detailed in a paper by Richard Schweitzer and Martin Rolfs"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
