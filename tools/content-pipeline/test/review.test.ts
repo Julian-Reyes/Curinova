@@ -408,6 +408,67 @@ describe('review actions', () => {
   });
 });
 
+describe('image accuracy check', () => {
+  const image = (over: Json = {}) => ({
+    width: 1200,
+    height: 700,
+    alt: { 'pt-BR': 'Real imagem', en: 'Real picture' },
+    origin: { kind: 'owned', creator: 'Real Creator' },
+    accuracyReviewedBy: null,
+    addedAt: '2026-11-04',
+    hash: '0123abcd',
+    ...over,
+  });
+  const draftConcept = 'content/drafts/lessons/a2/concept.json';
+
+  it('marks every unchecked image of a lesson, once each has a credit and alt text', async () => {
+    const { ctx, root } = await setup();
+    const concept = await read(root, draftConcept);
+    await writeDocs(root, {
+      [draftConcept]: {
+        ...concept,
+        media: { deeper: image({ origin: { kind: 'unknown' } }), review: image() },
+      },
+    });
+    const early = await act(ctx, { type: 'check-images', key: 'a2' });
+    expect(early.ok).toBe(false);
+    expect(early.message).toMatch(/deeper: no credit/);
+
+    await writeDocs(root, {
+      [draftConcept]: { ...concept, media: { deeper: image(), review: image() } },
+    });
+    const done = await act(ctx, { type: 'check-images', key: 'a2' });
+    expect(done).toMatchObject({ ok: true, message: 'Images checked: deeper, review.' });
+    const media = (await read(root, draftConcept)).media as Record<string, Json>;
+    expect(media.deeper?.accuracyReviewedBy).toBe('Julian');
+    expect(media.review?.accuracyReviewedBy).toBe('Julian');
+    expect((await readLog(root)).map((l) => l.action)).toEqual(['check-images']);
+    expect((await act(ctx, { type: 'check-images', key: 'a2' })).message).toMatch(
+      /no unchecked images/,
+    );
+  });
+
+  it('holds back publishing until the images are checked', async () => {
+    const { ctx, root } = await setup();
+    const concept = await read(root, draftConcept);
+    await writeDocs(root, { [draftConcept]: { ...concept, media: { review: image() } } });
+    await approveAll(ctx, 'a2', 'pt-BR');
+    await approveAll(ctx, 'a2', 'en');
+    expect((await loadQueue(ctx)).ready.map((r) => [r.key, r.blockers])).toEqual([
+      ['a2', ['images not checked yet: review']],
+    ]);
+    expect((await act(ctx, { type: 'publish', key: 'a2' })).message).toMatch(
+      /images not checked yet/,
+    );
+    expect((await act(ctx, { type: 'check-images', key: 'a2' })).ok).toBe(true);
+    expect(
+      ((await read(root, 'content/lessons/a2/concept.json')).media as Record<string, Json>).review
+        ?.accuracyReviewedBy,
+    ).toBe('Julian');
+    expect((await act(ctx, { type: 'publish', key: 'a2' })).ok).toBe(true);
+  });
+});
+
 describe('review safety', () => {
   it('refuses paths outside content/ and odd lesson keys', async () => {
     const { ctx } = await setup();

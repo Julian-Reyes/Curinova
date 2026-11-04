@@ -43,7 +43,7 @@ Every action is also a visible button.
 
 ### Not in this session
 
-- Image accuracy review (`accuracyReviewedBy`) — later (founder, 2026-10-30).
+- Image accuracy review (`accuracyReviewedBy`) — later (founder, 2026-10-30). Added 2026-11-04 as the "Images checked" button (DECISIONS.md, D20).
 - The trail-outline approval screen from the D18 plan: dropped, since outlines are approved in chat (see `docs/content/TRAILS_BATCH_2.md`).
 - Re-review of published lessons (`content:due-review` already lists them).
 

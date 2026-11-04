@@ -166,6 +166,7 @@ export type ReviewAction =
       note: string;
       ms: number;
     }
+  | { type: 'check-images'; key: string; ms: number }
   | { type: 'publish'; key: string; ms: number };
 
 /** An action as the screen builds it, before the time on the lesson screen is added. */
