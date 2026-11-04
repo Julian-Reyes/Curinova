@@ -59,7 +59,7 @@
           "excerpt": "a velocidade de rotação da Terra na altura do Equador favorece a propulsão dos veículo"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -76,7 +76,7 @@
           "excerpt": "está muito próximo à linha do Equador, a uma distância equivalente a apenas dois graus de latitude"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -89,7 +89,7 @@
           "excerpt": "O Centro de Lançamento de Alcântara (CLA), localizado no município de Alcântara, a 30 km de São Luís, no Maranhão, é um espaçoporto administrado pela Agência Espacial Brasileira (AEB)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -102,7 +102,7 @@
           "excerpt": "1° de março de 1983 é considerada a data oficial de inauguração do CLA"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -115,7 +115,7 @@
           "excerpt": "contribuindo para uma economia significativa dos combustíveis propelentes utilizados nos foguetes, diminuindo gastos em até 30%."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "a linha do Equador está mais próxima do espaço e mais distante do centro da Terra, diminuindo tanto o percurso de ida quanto a força da gravidade que precisa ser vencida para tirar algo do chão."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "O CLA também foi cenário da maior tragédia do programa espacial brasileiro, que deixou 21 pessoas mortas em Agosto de 2003."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

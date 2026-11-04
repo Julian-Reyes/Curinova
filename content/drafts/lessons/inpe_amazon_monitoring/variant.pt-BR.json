@@ -67,7 +67,7 @@
           "excerpt": "O PRODES considera como desmatamento a remoção completa da cobertura florestal primária por corte raso, independentemente da futura utilização destas áreas."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -84,7 +84,7 @@
           "excerpt": "o menor valor da série histórica iniciada em 1988, segundo o Inpe."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -97,7 +97,7 @@
           "excerpt": "O DETER emite avisos diários de supressão, desmatamento e degradação da vegetação nativa, produzidos a partir de imagens dos sensores WFI, a bordo dos satélites CBERS-04, CBERS-04A e Amazônia-1. Seu objetivo é subsidiar as ações de fiscalização e controle realizadas pelos órgãos competentes."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -110,7 +110,7 @@
           "excerpt": "os avisos não constituem taxa mensal de desmatamento: eles indicam uma tendência do comportamento do desmatamento"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -127,7 +127,7 @@
           "excerpt": "estimado foi de 10.129 km2 de corte raso no período de agosto de 2018 a julho de 2019."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -152,7 +152,7 @@
           "excerpt": "É o menor índice da série histórica da Amazónia recolhida pelo Prodes desde 1988"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -165,7 +165,7 @@
           "excerpt": "Os avisos do DETER para os biomas monitorados estão disponíveis, em transparência ativa, na plataforma Terra Brasilis, do INPE"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

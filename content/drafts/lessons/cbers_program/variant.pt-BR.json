@@ -55,7 +55,7 @@
           "excerpt": "tornam os países em desenvolvimento dependentes das imagens fornecidas por equipamentos de outras nações."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -72,7 +72,7 @@
           "excerpt": "O Programa CBERS contemplava o desenvolvimento e construção de dois satélites de sensoriamento remoto"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -85,7 +85,7 @@
           "excerpt": "O satélite Sino-Brasileiro de Recursos Terrestres –2 (CBERS-2)"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -102,7 +102,7 @@
           "excerpt": "pelo foguete Longa Marcha 4B, a partir do Centro de Lançamento de Taiyuan, na República Popular da China."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -119,7 +119,7 @@
           "excerpt": "hina - 50% para cada país."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -132,7 +132,7 @@
           "excerpt": "um repetidor para o Sistema Brasileiro de"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -145,7 +145,7 @@
           "excerpt": "em 2004, decidiram construir o CBERS-2B e lançá-lo em 2007. O CBERS-2B operou até o começo de 2010."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -158,7 +158,7 @@
           "excerpt": "O DETER emite avisos diários de supressão, desmatamento e degradação da vegetação nativa, produzidos a partir de imagens dos sensores WFI, a bordo dos satélites CBERS-04, CBERS-04A e Amazônia-1."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
