@@ -59,7 +59,7 @@
           "excerpt": "ood is always red."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -72,7 +72,7 @@
           "excerpt": "Blood that has been oxygenated (mostly flowing through the arteries) is bright red and blood that has lost its oxygen (mostly flowing through the veins) is dark red."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -85,7 +85,7 @@
           "excerpt": "Anyone who has donated blood or had their blood drawn by a nurse can attest that deoxygenated blood is dark red and not blue."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -98,7 +98,7 @@
           "excerpt": "The veins themselves are not blue, but are mostly colorless. It is the blood in the veins that gives them color."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -115,7 +115,7 @@
           "excerpt": "Skin scatters a lot of the red portion of white light before it can reflect off the blood, leaving the blue light to reflect off the blood and back to our eyes."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "according to Alwin Kienle in his paper \"Why do veins appear blue? A new look at an old question\""
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "It is a similar effect to how the white sun appears red at sunset due to the blue colors"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

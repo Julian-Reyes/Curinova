@@ -59,7 +59,7 @@
           "excerpt": "You’ve probably heard people say how if you drop a penny off the top of the Empire State Building, it will accelerate to such a speed that if it struck someone, it would kill them. This simply isn’t true at all"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -76,7 +76,7 @@
           "excerpt": "The faster the penny falls, the more drag it encounters, which slows down the object’s acceleration."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -89,7 +89,7 @@
           "excerpt": "Their flat shape makes them particularly susceptible to air resistance."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -102,7 +102,7 @@
           "excerpt": "they will reach terminal velocity at about 50 feet down, according to Bloomfield. Then they will fall to the ground at about 25 mph (40 kph)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -115,7 +115,7 @@
           "excerpt": "The worst that would happen if you dropped a penny from this height is that it would sting a bit when it hit them."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "In a vacuum, a penny thrown from a skyscraper would reach a speed of 208 mph (335 kph)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "as demonstrated by Myth Busters when they shot a penny at over 700 mph at a gel “skull”. The penny wasn’t even able to penetrate the gel at all at that speed"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -154,7 +154,7 @@
           "excerpt": "a pen could spin, flutter, or act as a torpedo, traveling up to 200 mph. A falling ballpoint pen could definitely chip a sidewalk and cause a head injury."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     }
   ],

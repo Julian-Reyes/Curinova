@@ -59,7 +59,7 @@
           "excerpt": "Em algumas áreas, podem cair não apenas dois, mas vários raios no mesmo local."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -72,7 +72,7 @@
           "excerpt": "Height, pointy shape, and isolation are the dominant factors controlling where a lightning bolt will strike."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -89,7 +89,7 @@
           "excerpt": "According to The National Institute for Space Research (INPE), each year the 95 ft tall monument is subjected to by somewhere between three to five strikes of lighting, with some causing damage."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -106,7 +106,7 @@
           "excerpt": "The same hand of the statue was recently struck in the same place"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -119,7 +119,7 @@
           "excerpt": "The Empire State Building is hit an average of 23 times a year"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -132,7 +132,7 @@
           "excerpt": "The presence of metal makes absolutely no difference on where lightning strikes. Natural objects that are tall and isolated, but are made of little to no metal, like trees and mountains get struck by lightning many times a year."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

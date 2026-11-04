@@ -59,7 +59,7 @@
           "excerpt": "it’s not necessarily accurate to say the food is cooked from the inside out."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -76,7 +76,7 @@
           "excerpt": "most of the microwave energy will be absorbed by the water near the surface before it gets into the center of the food"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -89,7 +89,7 @@
           "excerpt": "Once the electrical field's energy is initially absorbed, heat will gradually spread through the object similarly to any other contact with a hotter body."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -102,7 +102,7 @@
           "excerpt": "after you remove the food from the microwave, you’re supposed to let it stand for a prescribed time before serving. This lets the heat diffuse through the food via ordinary conduction so that a uniform temperature is reached."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -115,7 +115,7 @@
           "excerpt": "if the surface of the food is drier than the center, as with bread or a baked potato, the center will heat up faster. You can see this clearly if you microwave foods with a dry outer crust and a moist filling"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "is induces polar molecules in the food to rotate and produce thermal energy (heat) in a process known as dielectric heating."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
