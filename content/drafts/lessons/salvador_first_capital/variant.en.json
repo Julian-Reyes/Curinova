@@ -1,0 +1,223 @@
+{
+  "id": "lesson_salvador_first_capital__en",
+  "conceptId": "concept_salvador_first_capital",
+  "locale": "en",
+  "slug": "why-was-salvador-brazils-first-capital",
+  "title": "Why was Salvador Brazil’s first capital?",
+  "hook": "When the captaincies failed, Portugal needed a seat of government.",
+  "summary": "Salvador was founded in 1549 by Tomé de Sousa as the seat of the colonial government, and it stayed the capital until 1763.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "At first, Portugal tried to colonize Brazil by splitting the coast into hereditary captaincies. The plan collapsed, and the Crown took the job on itself with a General Government. On 29 March 1549, the first governor-general, Tomé de Sousa, founded Salvador on a small peninsula between the Bay of All Saints and the Atlantic Ocean."
+    },
+    {
+      "type": "paragraph",
+      "text": "The city was meant to centralize Portuguese rule in the Americas and ease trade with Africa and the Far East. It grew fast, becoming Brazil’s main seaport and a major centre of the sugar industry and of the trade in enslaved people. It stayed the capital for more than two centuries, until 1763."
+    },
+    {
+      "type": "takeaway",
+      "text": "Salvador was founded in 1549 as the seat of colonial government and was Brazil’s capital until 1763."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A city on a cliff"
+    },
+    {
+      "type": "paragraph",
+      "text": "Salvador’s centre was built to defend itself. The Upper Town, with defensive, administrative and residential roles, sits on top of an 85-metre escarpment."
+    },
+    {
+      "type": "heading",
+      "text": "Tomé de Sousa’s voyage"
+    },
+    {
+      "type": "paragraph",
+      "text": "His expedition had six ships and brought about a thousand people. Tomé de Sousa governed from 1549 to 1553."
+    },
+    {
+      "type": "heading",
+      "text": "Sugar and slavery"
+    },
+    {
+      "type": "paragraph",
+      "text": "From 1558, Salvador was also the first slave market in the New World: Africans were brought by force to work on the sugar plantations. In 1985, the Historic Centre of Salvador was added to UNESCO’s World Heritage List."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Portugal first tried to colonize Brazil with hereditary captaincies, and the plan collapsed.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bahia_ws_en_instalacao_do_governo_968d97",
+          "excerpt": "With the collapse of the Hereditary Captaincies project, Portugal was forced to take on the task of permanently settling and colonising Brazil."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The Crown then set up a General Government to colonize Brazil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bahia_ws_en_instalacao_do_governo_968d97",
+          "excerpt": "Central to this was the establishment of the General Government."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Salvador was founded on 29 March 1549 by the first governor-general, Tomé de Sousa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tjba_jus_br_portal_odisseia_no_988205",
+          "excerpt": "fundada pelo primeiro Governador-Geral, Tomé de Sousa, em 29 de março de 1549"
+        },
+        {
+          "sourceId": "src_bahia_ws_en_instalacao_do_governo_968d97",
+          "excerpt": "Tomé de Sousa: He was the founder of the city of Salvador."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Salvador sits on a small peninsula between the Bay of All Saints and the Atlantic.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "Founded in 1549 on a small peninsula that separates Todos os Santos Bay from the Atlantic Ocean on the northeast coast of Brazil"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The city was meant to centralize Portuguese rule in the Americas and ease trade with Africa and the Far East.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "was aimed at centralising the activities of the metropolis in Portuguese America and facilitating trade with Africa and the Far East."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Salvador became Brazil’s main seaport and a major centre of the sugar industry and the slave trade.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "The city grew quickly, becoming Brazil’s main seaport and an important centre of the sugar industry and the slave trade."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Salvador was Portuguese America’s first capital and remained so until 1763.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "Salvador de Bahia became Portuguese America’s first capital and remained so until 1763."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The Upper Town, with defensive, administrative and residential roles, sits on top of an 85-metre escarpment.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "the Cidade Alta (Upper Town), a defensive, administrative and residential neighbourhood perched atop an 85m-high escarpment."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Tomé de Sousa’s expedition had six ships and brought about a thousand people; he governed from 1549 to 1553.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bahia_ws_en_instalacao_do_governo_968d97",
+          "excerpt": "He reigned from 1549 to 1553 and his expedition, made up of six ships, brought about a thousand people"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "From 1558, Salvador was the first slave market in the New World, with Africans brought to work on the sugar plantations.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "Salvador de Bahia was also, from 1558, the first slave market in the New World, with slaves arriving to work on the sugar plantations."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The Historic Centre of Salvador has been on UNESCO’s World Heritage List since 1985.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_artsandculture_google_com_story_historic_centre_24fdb7",
+          "excerpt": "Historic Centre of Salvador de Bahia (1985) by Historic Centre of Salvador de BahiaUNESCO World Heritage"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_bahia_ws_en_instalacao_do_governo_968d97",
+    "src_tjba_jus_br_portal_odisseia_no_988205",
+    "src_artsandculture_google_com_story_historic_centre_24fdb7"
+  ],
+  "quizIds": ["q_salvador_first_capital_1__en", "q_salvador_first_capital_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

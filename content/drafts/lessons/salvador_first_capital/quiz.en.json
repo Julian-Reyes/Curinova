@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_salvador_first_capital_1__en",
+    "questionGroupId": "qg_salvador_first_capital_1",
+    "conceptId": "concept_salvador_first_capital",
+    "locale": "en",
+    "prompt": "Who founded Salvador, Brazil’s first capital, and when?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tomé de Sousa, in 1549"
+      },
+      {
+        "id": "b",
+        "text": "Pedro Álvares Cabral, in 1500"
+      },
+      {
+        "id": "c",
+        "text": "John VI, in 1808"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Salvador was founded in 1549 by the first governor-general, Tomé de Sousa, and was the capital until 1763.",
+    "misconception": "Cabral arrived in 1500 but founded no city; the seat of government came half a century later.",
+    "claimIds": ["c3", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_salvador_first_capital_2__en",
+    "questionGroupId": "qg_salvador_first_capital_2",
+    "conceptId": "concept_salvador_first_capital",
+    "locale": "en",
+    "prompt": "Why did Portugal set up a capital in Brazil in 1549?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The hereditary captaincies had failed, and the Crown wanted central rule"
+      },
+      {
+        "id": "b",
+        "text": "To escape an invasion in Europe"
+      },
+      {
+        "id": "c",
+        "text": "Because gold had been found in Bahia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "After the captaincies failed, the Crown created the General Government and founded Salvador to centralize rule.",
+    "claimIds": ["c1", "c2", "c5"],
+    "status": "draft"
+  }
+]

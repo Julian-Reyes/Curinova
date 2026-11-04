@@ -1,0 +1,27 @@
+{
+  "id": "concept_court_in_rio_1808",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 3,
+  "tags": ["brazil", "colonial-history", "portuguese-court"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_inland_capital_idea",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Com a corte no Rio, ressurgiu a ideia de uma capital no interior.",
+        "en": "With the court in Rio, the idea of an inland capital came back."
+      }
+    },
+    {
+      "conceptId": "concept_rio_capital_1763",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que o Rio já era a capital quando a corte chegou.",
+        "en": "Why Rio was already the capital when the court arrived."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_brasilia_plan_shape_1__pt-BR",
+    "questionGroupId": "qg_brasilia_plan_shape_1",
+    "conceptId": "concept_brasilia_plan_shape",
+    "locale": "pt-BR",
+    "prompt": "De onde Lúcio Costa partiu para desenhar Brasília?",
+    "options": [
+      {
+        "id": "a",
+        "text": "De dois eixos cruzados em ângulo reto, como o sinal da cruz"
+      },
+      {
+        "id": "b",
+        "text": "Do desenho de um avião"
+      },
+      {
+        "id": "c",
+        "text": "Do mapa de uma cidade europeia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "No relatório de 1957, Lúcio Costa descreveu dois eixos cruzando-se em ângulo reto; o avião é uma leitura popular.",
+    "misconception": "A forma de avião é como muita gente vê o Plano Piloto, mas o próprio Lúcio Costa preferia falar em borboleta.",
+    "claimIds": ["c3", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_brasilia_plan_shape_2__pt-BR",
+    "questionGroupId": "qg_brasilia_plan_shape_2",
+    "conceptId": "concept_brasilia_plan_shape",
+    "locale": "pt-BR",
+    "prompt": "O que o título de Patrimônio Mundial de Brasília, de 1987, protege?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O plano urbanístico de Lúcio Costa"
+      },
+      {
+        "id": "b",
+        "text": "Só os prédios de Oscar Niemeyer"
+      },
+      {
+        "id": "c",
+        "text": "A área demarcada pela Missão Cruls"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O tombamento protege o projeto urbanístico de Lúcio Costa; os prédios de Niemeyer são protegidos por outras leis.",
+    "claimIds": ["c9", "c10"],
+    "status": "draft"
+  }
+]

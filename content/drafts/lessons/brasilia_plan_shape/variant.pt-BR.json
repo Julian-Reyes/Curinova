@@ -1,0 +1,266 @@
+{
+  "id": "lesson_brasilia_plan_shape__pt-BR",
+  "conceptId": "concept_brasilia_plan_shape",
+  "locale": "pt-BR",
+  "slug": "por-que-brasilia-tem-forma-de-aviao",
+  "title": "Por que Brasília tem forma de avião?",
+  "hook": "Lúcio Costa não desenhou um avião. Desenhou uma cruz.",
+  "summary": "O Plano Piloto de Lúcio Costa nasceu de dois eixos cruzados, um deles curvado pelo terreno; o avião é uma leitura popular.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Visto do alto, o Plano Piloto parece um avião: um corpo reto e duas asas curvas. Mas o urbanista Lúcio Costa não partiu dessa imagem. No relatório com que venceu o concurso da nova capital, em 1957, ele explicou que o traçado nasceu de \"dois eixos cruzando-se em ângulo reto, ou seja, o próprio sinal da cruz\"."
+    },
+    {
+      "type": "paragraph",
+      "text": "Para se adaptar ao relevo, um dos eixos foi arqueado. Assim surgiram o Eixo Monumental, com a Esplanada dos Ministérios, e o Eixo Rodoviário, curvo, com as Asas Norte e Sul. Daí veio a ideia do avião, que pegou. Mas é uma leitura popular: o próprio Lúcio Costa preferia comparar o desenho a uma borboleta."
+    },
+    {
+      "type": "takeaway",
+      "text": "Brasília nasceu de uma cruz de dois eixos; o avião é uma leitura popular, não a ideia de Lúcio Costa."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Um esboço vencedor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lúcio Costa entregou apenas um esboço simples e um memorial, bem menos que os concorrentes. Mesmo assim, entre 26 trabalhos, o júri escolheu o projeto número 22, o dele."
+    },
+    {
+      "type": "heading",
+      "text": "Patrimônio Mundial"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 1987, Brasília entrou na lista do Patrimônio Mundial da UNESCO. O que se protege é o plano urbanístico de Lúcio Costa, e não os prédios de Oscar Niemeyer, que têm outras leis. O plano se organiza em quatro escalas: monumental, residencial, gregária e bucólica."
+    },
+    {
+      "type": "heading",
+      "text": "Outras leituras"
+    },
+    {
+      "type": "paragraph",
+      "text": "O arquiteto Léon Pressouyre, relator da candidatura na UNESCO, viu no desenho \"um pássaro gigante voando em direção ao sudeste\"."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Popularmente, o Plano Piloto é comparado a um avião, com o Eixo Monumental como corpo e o Eixo Rodoviário como asas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_curtamais_com_br_brasilia_2025_03_46e961",
+          "excerpt": "Mas popularmente, o formato da cidade é comparado ao de um avião."
+        },
+        {
+          "sourceId": "src_correiobraziliense_com_br_revista_do_correio_08ec0b",
+          "excerpt": "sobreviveu a ideia de um Eixo Monumental, como corpo desse avião, e de um Eixo Rodoviário, como suas asas, divididas em Asa Norte e Asa Sul."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Lúcio Costa venceu o concurso do Plano Piloto em 1957.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_curtamais_com_br_brasilia_2025_03_46e961",
+          "excerpt": "O Plano Piloto da cidade de Brasília, no Distrito Federal, foi projetado por Lucio Costa, vencedor do concurso, em 1957, para o projeto urbanístico da Nova Capital."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "No relatório do concurso, Lúcio Costa escreveu que o traçado nasceu de dois eixos cruzando-se em ângulo reto, \"o próprio sinal da cruz\".",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_correiobraziliense_com_br_revista_do_correio_08ec0b",
+          "excerpt": "o urbanista explicou que o traçado \"nasceu do gesto primário de quem assinala um lugar ou dele toma posse: dois eixos cruzando-se em ângulo reto, ou seja, o próprio sinal da cruz\"."
+        },
+        {
+          "sourceId": "src_curtamais_com_br_brasilia_2025_03_46e961",
+          "excerpt": "No relatório que escreveu para justificar sua proposta, o arquiteto e urbanista define Brasília como um “sinal da cruz”."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Para se adaptar ao relevo, um dos eixos foi arqueado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
+          "excerpt": "a adaptação à topografia local, ao escoamento natural das águas, à melhor orientação , arqueando-se um dos eixos a fim de contê-lo no triângulo equilátero que define a área urbanizada"
+        },
+        {
+          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
+          "excerpt": "Laid out along a monumental east-west axis, crossed by a north-south axis curved to follow the topography as a transportation thoroughfare"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O Eixo Monumental reúne a Esplanada dos Ministérios; ao longo do Eixo Rodoviário ficam as Asas Norte e Sul.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
+          "excerpt": "the Esplanade of the Ministries and representative structures that make up the Monumental Axis (Eixo Monumental)"
+        },
+        {
+          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
+          "excerpt": "centered on the Thoroughfare Axis (Eixo Rodoviário) along which the Neighborhood Units are distributed and divided into a North and South Wing (Asa Norte and Asa Sul)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A comparação com o avião é uma leitura popular; Lúcio Costa preferia comparar o desenho a uma borboleta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
+          "excerpt": "Para muitos, o Plano Piloto lembra um avião. Mas Lucio Costa o comparava a uma borboleta."
+        },
+        {
+          "sourceId": "src_curtamais_com_br_brasilia_2025_03_46e961",
+          "excerpt": "Lucio Costa, entretanto, defendeu a tese de que a capital federal pudesse ser comparada a uma borboleta, rejeitando a comparação anterior com avião."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Lúcio Costa entregou só um esboço simples e um memorial, bem menos que os concorrentes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
+          "excerpt": "O professor Lúcio Costa apresentou à consideração da Comissão Julgadora um simples esboço de traços simples e um memorial. Pouco, em relação aos concorrentes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Entre 26 trabalhos, o júri escolheu o projeto número 22, de Lúcio Costa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
+          "excerpt": "Dentre os 26 trabalhos apresentados"
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
+          "excerpt": "é o projeto número 22, do senhor Lúcio Costa"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Brasília entrou na lista do Patrimônio Mundial da UNESCO em 1987.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
+          "excerpt": "the entity’s studies were critical to Brasilia’s inclusion on UNESCO’s List of World Heritage Sites in 1987"
+        },
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
+          "excerpt": "inscrita na lista de Patrimônio da Unesco em 7 de dezembro de 1987."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "O tombamento protege o plano urbanístico de Lúcio Costa, e não os prédios de Niemeyer, que têm outras leis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
+          "excerpt": "seria tombado o projeto urbanístico de Lucio Costa e não os prédios modernistas de Oscar Niemeyer. Esses viriam a ser protegidos por meio de outra leis."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O plano se organiza em quatro escalas: monumental, residencial, gregária (social) e bucólica.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
+          "excerpt": "as escalas são definidas como monumental (a do poder), residencial (das superquadras), gregária (dos setores de serviços e diversão) e"
+        },
+        {
+          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
+          "excerpt": "These attributes are best understood on the basis of the four scales identified by Lucio Costa"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "O relator da candidatura na UNESCO, Léon Pressouyre, viu no desenho \"um pássaro gigante voando em direção ao sudeste\".",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
+          "excerpt": "O arquiteto Leon Pressouyre, o relator da candidatura de Brasília ao o título de Patrimônio Cultural da Humanidade da Unesco, viu “um pássaro gigante voando em direção ao sudeste”."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_curtamais_com_br_brasilia_2025_03_46e961",
+    "src_correiobraziliense_com_br_revista_do_correio_08ec0b",
+    "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
+    "src_whc_unesco_org_en_list_445_aeab5d",
+    "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2"
+  ],
+  "quizIds": ["q_brasilia_plan_shape_1__pt-BR", "q_brasilia_plan_shape_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

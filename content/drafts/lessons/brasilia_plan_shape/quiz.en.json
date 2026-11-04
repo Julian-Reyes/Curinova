@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_brasilia_plan_shape_1__en",
+    "questionGroupId": "qg_brasilia_plan_shape_1",
+    "conceptId": "concept_brasilia_plan_shape",
+    "locale": "en",
+    "prompt": "What did Lúcio Costa start from when he drew Brasília?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two axes crossing at a right angle, like the sign of the cross"
+      },
+      {
+        "id": "b",
+        "text": "The outline of an airplane"
+      },
+      {
+        "id": "c",
+        "text": "The map of a European city"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In his 1957 report, Costa described two axes crossing at a right angle; the airplane is a popular reading.",
+    "misconception": "The airplane is how many people see the Plano Piloto, but Costa himself preferred a butterfly.",
+    "claimIds": ["c3", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_brasilia_plan_shape_2__en",
+    "questionGroupId": "qg_brasilia_plan_shape_2",
+    "conceptId": "concept_brasilia_plan_shape",
+    "locale": "en",
+    "prompt": "What does Brasília’s 1987 World Heritage listing protect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lúcio Costa’s urban plan"
+      },
+      {
+        "id": "b",
+        "text": "Only Oscar Niemeyer’s buildings"
+      },
+      {
+        "id": "c",
+        "text": "The area marked out by the Cruls Mission"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The listing protects Costa’s urban plan; Niemeyer’s buildings are protected by other laws.",
+    "claimIds": ["c9", "c10"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "concept_inland_capital_idea",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 4,
+  "tags": ["brazil", "republic", "brasilia"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_building_brasilia",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mais de 60 anos depois, a área demarcada recebeu a nova capital.",
+        "en": "More than 60 years later, the marked-out area got its new capital."
+      }
+    },
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A vinda da corte trouxe a ideia de volta.",
+        "en": "The court’s arrival revived the idea."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "lesson_building_brasilia__en",
+  "conceptId": "concept_building_brasilia",
+  "locale": "en",
+  "slug": "how-was-brasilia-built-so-fast",
+  "title": "How was Brasília built so fast?",
+  "hook": "A whole capital, raised on the Cerrado in little more than three years.",
+  "summary": "Under Juscelino Kubitschek, thousands of workers called candangos built Brasília in about 41 months; it opened on 21 April 1960.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Campaigning in 1955, Juscelino Kubitschek promised to follow the Constitution and move the capital inland. Once elected, he made Brasília part of a development plan that promised \"fifty years in five\". The work fell to thousands of laborers from many regions of Brazil, above all the Northeast: the candangos."
+    },
+    {
+      "type": "paragraph",
+      "text": "The pace set a record. Construction took about 41 months, from 1956 to the inauguration on 21 April 1960, a date chosen to honour Tiradentes, a hero of Brazil’s fight against colonial rule. Many candangos refused to leave the city they had built from scratch, and stayed."
+    },
+    {
+      "type": "takeaway",
+      "text": "With thousands of candangos, Brasília was built in about 41 months and opened on 21 April 1960."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How long, exactly?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It depends where you start counting. From the start of work in 1956 to the inauguration was about 41 months. From the \"stake zero\", driven into the ground on 20 April 1957, it was three years."
+    },
+    {
+      "type": "heading",
+      "text": "Who built it"
+    },
+    {
+      "type": "paragraph",
+      "text": "The candangos came from many parts of Brazil, and many arrived fleeing the Great Drought of 1958 in the Northeast. Women worked on it too: IBGE’s experimental census of 1959 counted 2,966 economically active women in Brasília. The first laborers slept in sheds; in December 1956, the Free City appeared, today the Núcleo Bandeirante district."
+    },
+    {
+      "type": "heading",
+      "text": "The party"
+    },
+    {
+      "type": "paragraph",
+      "text": "The city was inaugurated at midnight on 21 April, during an open-air Mass on the Square of the Three Powers. The celebrations lasted three days, until the night of 23 April."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Campaigning in 1955, Juscelino Kubitschek promised to follow the Constitution and move the capital inland.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+          "excerpt": "resolvera seguir a Constituição, como prometera ainda na campanha à Presidência, em 1955."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Brasília was part of Kubitschek’s development plan, which promised \"fifty years in five\".",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_politica_inaugurada_por_f173b8",
+          "excerpt": "Como parte do plano de metas que prometia “cinquenta anos em cinco”, Brasília foi concebida para promover a integração nacional"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Brasília was built in record time by workers from many regions, above all the Northeast: the candangos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_politica_inaugurada_por_f173b8",
+          "excerpt": "em tempo recorde por trabalhadores vindos de várias regiões do país, mas principalmente do Nordeste — os candangos."
+        },
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "candangos — trabalhadores de diversas parte do Brasil que contribuíram para a construção de Brasília."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Construction took about 41 months, from 1956 to the inauguration on 21 April 1960.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_domusweb_it_en_speciali_brasilia_2020_9f2674",
+          "excerpt": "the construction of Brasilia lasted 41 months, from 1956 to the 21st April 1960, the day of its inauguration."
+        },
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "inaugurada pelo presidente Juscelino Kubitschek em 21 de abril de 1960"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The 21 April date was chosen to honour Tiradentes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "em uma clara homenagem a Joaquim José da Silva Xavier, o Tiradentes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Many candangos refused to leave the city they had built from scratch.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+          "excerpt": "os candangos se recusavam em deixar a cidade que ergueram do zero."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "From the \"stake zero\", driven in on 20 April 1957, to the inauguration was three years.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Do dia que fincou a Estaca Zero, 20 de abril de 1957, – como visto ontem – até a inauguração de Brasília passou-se três anos de construção"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Many workers reached Brasília fleeing the Great Drought of 1958 in the Northeast.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+          "excerpt": "Na Grande Seca de 1958, veio uma delas, quando milhares de nordestinos cruzaram os sertões para desembarcar na capital da esperança"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "IBGE’s experimental census of 1959 counted 2,966 economically active women in Brasília.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "O Censo Experimental de Brasília, realizado pelo Instituto Brasileiro de Geografia e Estatística no ano de 1959"
+        },
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "O IBGE contou 2.966 mulheres economicamente ativas em sua coleta de dados."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The first laborers slept in sheds; in December 1956 the Free City appeared, today Núcleo Bandeirante.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Os primeiros operários a chegarem no Planalto Central, na metade de 1956, não possuíam locais apropriados para moradia, sendo abrigados nos galpões da Novacap."
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Em 19 de dezembro de 1956, surge a Cidade Livre, conhecida hoje como Núcleo Bandeirante, autorizada por JK."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Brasília was inaugurated at midnight on 21 April during an open-air Mass on the Square of the Three Powers, and the celebrations lasted until the night of 23 April.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Às 00h, do dia 21 de abril, durante a cerimônia religiosa, Brasília é inaugurada."
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "se reuniram em frente ao Palácio da Justiça, na Praça dos Três Poderes, para a missa campal"
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "A inauguração foi marcada por três dias de festa, tendo fim apenas na noite de 23 de abril."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+    "src_cnnbrasil_com_br_politica_inaugurada_por_f173b8",
+    "src_www12_senado_leg_br_noticias_materias_088770",
+    "src_domusweb_it_en_speciali_brasilia_2020_9f2674",
+    "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c"
+  ],
+  "quizIds": ["q_building_brasilia_1__en", "q_building_brasilia_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

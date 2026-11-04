@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_building_brasilia_1__pt-BR",
+    "questionGroupId": "qg_building_brasilia_1",
+    "conceptId": "concept_building_brasilia",
+    "locale": "pt-BR",
+    "prompt": "Quanto tempo levou a construção de Brasília?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 41 meses, de 1956 a 1960"
+      },
+      {
+        "id": "b",
+        "text": "Cerca de dez anos"
+      },
+      {
+        "id": "c",
+        "text": "Menos de um ano"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Do início das obras, em 1956, à inauguração, em 21 de abril de 1960, foram uns 41 meses; contando da Estaca Zero, em 1957, três anos.",
+    "claimIds": ["c4", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_building_brasilia_2__pt-BR",
+    "questionGroupId": "qg_building_brasilia_2",
+    "conceptId": "concept_building_brasilia",
+    "locale": "pt-BR",
+    "prompt": "Quem eram os candangos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Os trabalhadores, vindos sobretudo do Nordeste, que construíram Brasília"
+      },
+      {
+        "id": "b",
+        "text": "Os arquitetos que desenharam a cidade"
+      },
+      {
+        "id": "c",
+        "text": "Os primeiros deputados a se mudar para Brasília"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Candangos é o nome dos operários de várias regiões do país, principalmente do Nordeste, que ergueram a nova capital.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

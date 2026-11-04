@@ -1,0 +1,27 @@
+{
+  "id": "concept_salvador_first_capital",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 1,
+  "tags": ["brazil", "colonial-history", "salvador"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_rio_capital_1763",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mais de dois séculos depois, o ouro levou a capital para o Rio.",
+        "en": "Two centuries later, gold pulled the capital to Rio."
+      }
+    },
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Em 1808, a corte portuguesa desembarcou primeiro em Salvador.",
+        "en": "In 1808 the Portuguese court landed first in Salvador."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

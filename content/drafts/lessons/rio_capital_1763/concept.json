@@ -1,0 +1,27 @@
+{
+  "id": "concept_rio_capital_1763",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 2,
+  "tags": ["brazil", "colonial-history", "gold"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Meio século depois, o Rio passaria a abrigar a própria corte portuguesa.",
+        "en": "Half a century later, Rio would host the Portuguese court itself."
+      }
+    },
+    {
+      "conceptId": "concept_salvador_first_capital",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A capital que o Rio substituiu.",
+        "en": "The capital Rio replaced."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}
