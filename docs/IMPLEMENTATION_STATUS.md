@@ -68,7 +68,7 @@ Last updated: 2026-11-03 (C1 pilot published: 22 lessons live).
 - In a mobile _browser_ (not installed), most cards show "Continue reading" because the browser's toolbars take about 190px of height (see D11 measurements).
 - Local E2E uses Chrome emulating iPhones (A9); real WebKit runs in CI.
 - Deployment: the live site (domain and setup in docs/DEPLOYMENT.md) goes live once GitHub Pages and DNS are configured.
-- Sample lessons are unverified drafts with no sources (B1); the production channel shows no lessons until M3 review publishes some.
+- The live site builds with the `production` content channel (D22): only reviewed, published lessons. Local builds use `preview`, which also shows drafts.
 - §16 E2E 6 (offline), 7 (prerendered pages), 10 (axe) belong to M4/M5.
 
 ## M2.5 — Product experience overhaul (done)
@@ -119,6 +119,6 @@ Known limitations: image accuracy review is later (D20). Claims carry no positio
 
 ### Deferred to later milestones
 
-- M3: trail batch 2 (D19, 31 lessons). Before it: the live site switches to the `production` content channel, and `/_review` gets an image-check button.
+- M3: trail batch 2 (D19, 31 lessons). Before it: `/_review` gets an image-check button (the live site already uses the `production` channel, D22).
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).

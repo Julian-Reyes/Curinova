@@ -24,6 +24,9 @@ describe('CI workflow', () => {
     expect(deploy).toContain("if: github.event_name == 'push' && github.ref == 'refs/heads/main'");
     expect(deploy).toContain('needs: [verify, e2e-smoke]');
     expect(deploy).toContain('404.html');
+    expect(deploy, 'the live site builds only reviewed, published lessons').toContain(
+      'LUMEN_PUBLIC_CONTENT_CHANNEL: production',
+    );
   });
 
   it('puts a time limit on every job', () => {
