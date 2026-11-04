@@ -1,0 +1,33 @@
+{
+  "id": "cluster_amazon_survival",
+  "topicId": "body",
+  "slug": {
+    "pt-BR": "truques-de-sobrevivencia-da-amazonia",
+    "en": "amazon-survival-tricks"
+  },
+  "title": {
+    "pt-BR": "Truques de sobrevivência da Amazônia",
+    "en": "Amazon survival tricks"
+  },
+  "hook": {
+    "pt-BR": "Peixes que se afogam, sapos que tiram veneno da comida e uma enguia de 860 volts.",
+    "en": "Fish that can drown, frogs that get their poison from dinner, and an 860-volt eel."
+  },
+  "links": [
+    {
+      "clusterId": "cluster_brazil_in_space",
+      "reason": {
+        "pt-BR": "O INPE vigia esta floresta da órbita.",
+        "en": "INPE watches this forest from orbit."
+      }
+    }
+  ],
+  "conceptIds": [
+    "concept_electric_eel",
+    "concept_pirarucu_air_breathing",
+    "concept_leafcutter_farming",
+    "concept_poison_frog_diet",
+    "concept_boto_echolocation",
+    "concept_giant_water_lily"
+  ]
+}

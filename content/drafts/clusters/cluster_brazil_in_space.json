@@ -20,6 +20,13 @@
         "pt-BR": "Do que o Brasil manda para a órbita à Lua que gira em volta de nós.",
         "en": "From what Brazil sends into orbit to the Moon that circles us."
       }
+    },
+    {
+      "clusterId": "cluster_amazon_survival",
+      "reason": {
+        "pt-BR": "A floresta que os satélites do INPE vigiam, vista de perto.",
+        "en": "The forest INPE’s satellites watch, seen up close."
+      }
     }
   ],
   "conceptIds": [

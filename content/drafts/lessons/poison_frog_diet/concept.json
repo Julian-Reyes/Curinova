@@ -1,0 +1,27 @@
+{
+  "id": "concept_poison_frog_diet",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 4,
+  "tags": ["amazon", "frogs", "toxins"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_boto_echolocation",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do chão da mata para o rio: o boto que caça às cegas.",
+        "en": "From the forest floor to the river: the dolphin that hunts blind."
+      }
+    },
+    {
+      "conceptId": "concept_leafcutter_farming",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Formigas alimentam fungos; outras alimentam o veneno dos sapos.",
+        "en": "Some ants feed fungus; others feed frogs their poison."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

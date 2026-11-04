@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_boto_echolocation_1__en",
+    "questionGroupId": "qg_boto_echolocation_1",
+    "conceptId": "concept_boto_echolocation",
+    "locale": "en",
+    "prompt": "How does the boto find prey in murky water?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By echolocation: it makes clicks and listens to the echoes"
+      },
+      {
+        "id": "b",
+        "text": "By smell, like sharks"
+      },
+      {
+        "id": "c",
+        "text": "By following the light coming into the water"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In murky rivers sight helps little; the boto uses the echoes of its own clicks to navigate and hunt.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_boto_echolocation_2__en",
+    "questionGroupId": "qg_boto_echolocation_2",
+    "conceptId": "concept_boto_echolocation",
+    "locale": "en",
+    "prompt": "Can a person hear the boto’s clicks?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No, they are far above the human hearing range"
+      },
+      {
+        "id": "b",
+        "text": "Yes, they sound like a whistle"
+      },
+      {
+        "id": "c",
+        "text": "Only underwater"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The clicks are mostly between 85 and 100 kHz, well above what human ears pick up.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

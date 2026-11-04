@@ -1,0 +1,179 @@
+{
+  "id": "lesson_poison_frog_diet__pt-BR",
+  "conceptId": "concept_poison_frog_diet",
+  "locale": "pt-BR",
+  "slug": "de-onde-vem-o-veneno-dos-sapos-ponta-de-flecha",
+  "title": "De onde vem o veneno dos sapos-ponta-de-flecha?",
+  "hook": "Criados em cativeiro, esses sapos coloridos perdem o veneno.",
+  "summary": "Da comida: os sapos-ponta-de-flecha acumulam toxinas de pequenos artrópodes que comem; criados com grilos, não são venenosos.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "As cores fortes dos sapos-ponta-de-flecha avisam: estes estão entre os animais mais tóxicos da Terra. Mas o veneno não é fabricado por eles. Os sapos acumulam alcaloides, substâncias tóxicas, ao comer pequenos artrópodes e insetos, como formigas e ácaros, que provavelmente obtêm essas toxinas das plantas de que se alimentam."
+    },
+    {
+      "type": "paragraph",
+      "text": "A prova está no cativeiro. No Zoológico Nacional do Smithsonian, nos Estados Unidos, os sapos comem grilos, besouros e moscas-das-frutas, insetos sem veneno, e por isso não são venenosos. Os cientistas testaram as duas hipóteses: que os sapos produziam as toxinas ou que as tiravam da dieta. A da dieta venceu."
+    },
+    {
+      "type": "takeaway",
+      "text": "O veneno dos sapos-ponta-de-flecha vem da comida; criados com insetos sem toxina, eles não são venenosos."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Cor e cardápio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nas espécies mais coloridas, a toxicidade vem de uma dieta de formigas, ácaros e cupins. Espécies que comem presas muito variadas tendem a ter cores discretas e pouca ou nenhuma toxicidade."
+    },
+    {
+      "type": "heading",
+      "text": "Por que \"ponta-de-flecha\""
+    },
+    {
+      "type": "paragraph",
+      "text": "O nome vem do uso das secreções por povos indígenas da América do Sul para envenenar a ponta de dardos. Mas, de mais de 170 espécies, só quatro têm esse uso documentado."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Os sapos-ponta-de-flecha estão entre os animais mais tóxicos da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "Dendrobatids include some of the most toxic animals known on Earth."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "This bright coloration is correlated with the toxicity of the species, making them aposematic"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Eles acumulam alcaloides ao comer pequenos artrópodes e insetos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "They are alkaloid-containing amphibians that sequester their alkaloids through the consumption of small arthropods and insects."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "Scientists believe that poison frogs gain their poison from"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Os insetos que eles comem provavelmente obtêm o veneno das plantas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "these insects most likely acquire the poison from their plant diet."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "No Zoológico Nacional, alimentados com grilos e outros insetos sem veneno, os sapos não são venenosos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "As a result, poison frogs in human care on a diet of crickets and other non-poisonous insects are not poisonous themselves."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "At the Zoo, they are fed small crickets, bean beetles, black worms and/or fruit flies daily and as a result, are not poisonous."
+        },
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "These results indicate that dendrobatids only present alkaloids if they consume alkaloid-containing arthropods and insects."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Entre as hipóteses de os sapos produzirem as toxinas ou as obterem da dieta, prevaleceu a da dieta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "However, the biosynthetic hypothesis quickly gave way to the dietary hypothesis following numerous, parallel experiment results"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Nas espécies coloridas, a toxicidade vem de uma dieta de formigas, ácaros e cupins; espécies de dieta variada têm cores discretas e pouca toxicidade.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "a feature derived from their diet of ants, mites and termites"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "while species which eat a much larger variety of prey have cryptic coloration with minimal to no amount of observed toxicity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "De mais de 170 espécies, só quatro têm documentado o uso das secreções para envenenar dardos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "out of over 170 species, only four have been documented as being used for this purpose"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+    "src_en_wikipedia_org_wiki_poison_dart_32a467",
+    "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e"
+  ],
+  "quizIds": ["q_poison_frog_diet_1__pt-BR", "q_poison_frog_diet_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_amazon_survival"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

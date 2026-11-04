@@ -1,0 +1,27 @@
+{
+  "id": "concept_electric_eel",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 1,
+  "tags": ["amazon", "fish", "electricity"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_pirarucu_air_breathing",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro peixe gigante da Amazônia, com outro truque: respirar ar.",
+        "en": "Another giant Amazon fish, with another trick: breathing air."
+      }
+    },
+    {
+      "conceptId": "concept_poison_frog_diet",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra defesa química, ou melhor, elétrica, da floresta.",
+        "en": "Another of the forest’s defences, this one chemical."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

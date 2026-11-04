@@ -1,0 +1,27 @@
+{
+  "id": "concept_leafcutter_farming",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 3,
+  "tags": ["amazon", "ants", "farming"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_poison_frog_diet",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro bicho cuja força vem do que come.",
+        "en": "Another animal whose power comes from what it eats."
+      }
+    },
+    {
+      "conceptId": "concept_giant_water_lily",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra engenharia natural da Amazônia.",
+        "en": "More natural engineering from the Amazon."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

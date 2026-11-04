@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_boto_echolocation_1__pt-BR",
+    "questionGroupId": "qg_boto_echolocation_1",
+    "conceptId": "concept_boto_echolocation",
+    "locale": "pt-BR",
+    "prompt": "Como o boto encontra presas em águas turvas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pela ecolocalização: emite cliques e escuta os ecos"
+      },
+      {
+        "id": "b",
+        "text": "Pelo olfato, como os tubarões"
+      },
+      {
+        "id": "c",
+        "text": "Seguindo a luz que entra na água"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Nos rios turvos, a visão ajuda pouco; o boto usa os ecos dos próprios cliques para navegar e caçar.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_boto_echolocation_2__pt-BR",
+    "questionGroupId": "qg_boto_echolocation_2",
+    "conceptId": "concept_boto_echolocation",
+    "locale": "pt-BR",
+    "prompt": "Uma pessoa consegue ouvir os cliques do boto?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não, ficam muito acima da faixa audível humana"
+      },
+      {
+        "id": "b",
+        "text": "Sim, são parecidos com um apito"
+      },
+      {
+        "id": "c",
+        "text": "Só debaixo d’água"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os cliques ficam quase todos entre 85 e 100 kHz, bem acima do que o ouvido humano percebe.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

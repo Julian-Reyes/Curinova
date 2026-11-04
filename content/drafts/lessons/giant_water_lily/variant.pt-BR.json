@@ -1,0 +1,196 @@
+{
+  "id": "lesson_giant_water_lily__pt-BR",
+  "conceptId": "concept_giant_water_lily",
+  "locale": "pt-BR",
+  "slug": "como-a-vitoria-regia-aguenta-tanto-peso",
+  "title": "Como a folha da vitória-régia aguenta tanto peso?",
+  "hook": "O segredo está embaixo da folha, e inspirou um palácio de vidro.",
+  "summary": "Nervuras grossas e cheias de ar, cruzadas embaixo da folha, espalham a carga; esse desenho inspirou o Palácio de Cristal.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Uma folha de vitória-régia pode ter de 2 a 3 metros de diâmetro e, mesmo assim, é fina como papel. O segredo fica embaixo d’água: a parte de baixo da folha é coberta por nervuras grossas que se ramificam e se cruzam, formando uma rede que dá resistência. Por dentro, essas nervuras têm tecido cheio de ar, que ajuda a folha a flutuar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Entre as nervuras há centenas de espinhos afiados, que protegem a planta de animais que tentam comê-la. Para a folha aguentar peso, a carga precisa ser bem distribuída por uma área grande: um peso concentrado num ponto pode furá-la."
+    },
+    {
+      "type": "takeaway",
+      "text": "A folha da vitória-régia se sustenta com uma rede de nervuras cruzadas e cheias de ar na parte de baixo."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Do lago ao Palácio de Cristal"
+    },
+    {
+      "type": "paragraph",
+      "text": "O jardineiro e arquiteto britânico Joseph Paxton foi o primeiro a fazer uma vitória-régia florescer fora da natureza, em 1849, num lago aquecido em Chatsworth. Inspirado pelas nervuras que sustentam a folha, ele adotou um sistema parecido de travamento cruzado na estrutura de ferro e vidro do Palácio de Cristal, construído para a Grande Exposição de 1851, em Londres."
+    },
+    {
+      "type": "heading",
+      "text": "Um nome de rainha"
+    },
+    {
+      "type": "paragraph",
+      "text": "A planta foi batizada em homenagem à rainha Vitória, recém-coroada em 1837. Hoje se conhecem três espécies de vitória-régia, todas de rios da América do Sul tropical."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "As folhas da vitória-régia podem ter de 2 a 3 metros de diâmetro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Famous for their leaves, which can grow 2-3m in diameter"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A folha é quase tão fina quanto papel.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
+          "excerpt": "But with an almost paper-thin leaf consistency"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A parte de baixo é coberta por nervuras grossas que se ramificam e se cruzam, dando resistência à folha.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
+          "excerpt": "The underside of the pads are cover"
+        },
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Thick, strong cross-braced veins form a network of branching ribs along the leaf undersides, providing strength."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O tecido cheio de ar dentro das nervuras ajuda a folha a flutuar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "The buoyant, air-filled tissue inside the ribs, shown in this midrib cross-section on the underside of a V. amazonica leaf, allows the huge leaves to float"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Entre as nervuras há centenas de espinhos afiados que protegem a planta de herbívoros.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
+          "excerpt": "over and between which jut hundreds of sharp spines to protect the plant from herbivorous swimmers."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Para a folha aguentar peso, a carga precisa ser espalhada por uma área grande.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
+          "excerpt": "you’d have to spread that weight out over a large surface area to keep from turning the disc into a donut."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Joseph Paxton fez a vitória-régia florescer pela primeira vez em 1849, num lago aquecido em Chatsworth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Joseph Paxton first successfully coaxed a plant of Victoria amazonica to flower in 1849, grown in his custom-designed, indoor, heated pond at Chatsworth House."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Inspirado pelas nervuras da folha, Paxton adotou o sistema de travamento cruzado no Palácio de Cristal da Grande Exposição de 1851.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Paxton adopted the cross-braced system to support the cast iron and glass structure of the Crystal Palace for the Great Exhibition of 1851 in London’s Hyde Park."
+        },
+        {
+          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
+          "excerpt": "The cell-like design was actually the inspiration for Joseph Paxton‘s famed Crystal Palace in London"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A planta homenageia a rainha Vitória, coroada em 1837; há três espécies, de rios da América do Sul tropical.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "to honour the newly crowned Queen Victoria in 1837"
+        },
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "on the warm, still waters of rivers in tropical South America live three Victoria water lily species (Victoria amazonica, V. cruziana, and V. boliviana)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+    "src_nybg_org_blogs_plant_talk_2012_bf7179"
+  ],
+  "quizIds": ["q_giant_water_lily_1__pt-BR", "q_giant_water_lily_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_amazon_survival"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

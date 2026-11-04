@@ -1,0 +1,27 @@
+{
+  "id": "concept_giant_water_lily",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 6,
+  "tags": ["amazon", "plants", "engineering"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_leafcutter_farming",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro exemplo de engenharia natural da Amazônia.",
+        "en": "Another case of Amazon natural engineering."
+      }
+    },
+    {
+      "conceptId": "concept_boto_echolocation",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Os mesmos rios calmos onde o boto caça.",
+        "en": "The same calm rivers where the boto hunts."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

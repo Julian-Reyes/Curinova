@@ -1,0 +1,220 @@
+{
+  "id": "lesson_pirarucu_air_breathing__en",
+  "conceptId": "concept_pirarucu_air_breathing",
+  "locale": "en",
+  "slug": "why-does-the-pirarucu-drown-if-it-cannot-surface",
+  "title": "Why does the pirarucu drown if it can’t reach the surface?",
+  "hook": "A fish that can drown. Literally.",
+  "summary": "The adult pirarucu breathes air with a swim bladder that works like a lung, so it must come to the surface from time to time.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "The pirarucu, also called arapaima, is one of the world’s largest freshwater fish and, strange as it sounds, it can drown. As a youngster it breathes with gills. After a certain age, the gills stop developing and gradually lose their function, while the swim bladder, an organ fish normally use to float, turns into something like a lung."
+    },
+    {
+      "type": "paragraph",
+      "text": "That makes the pirarucu an obligate air-breather: it has to come up to the surface from time to time to fill its bladder with air, roughly every 15 minutes. If it can’t, it doesn’t get enough oxygen from the water. The adaptation lets it live in warm Amazon lakes that are low in oxygen."
+    },
+    {
+      "type": "takeaway",
+      "text": "The pirarucu breathes air with a swim bladder that became a lung; if it can’t surface, it drowns."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Counted by its breathing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because the pirarucu has to surface to breathe, fishers in the Mamirauá reserve can count the fish in a lake by watching each rise. Officials use those counts to set how many can be caught."
+    },
+    {
+      "type": "heading",
+      "text": "An unexpected risk"
+    },
+    {
+      "type": "paragraph",
+      "text": "This strategy can backfire: when oil covers the surface, fish that come up to breathe swallow it and are poisoned. In tests, the pirarucu was the most sensitive species."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The pirarucu can drown.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_amazonia_voce_sabia_que_4acc94",
+          "excerpt": "o pirarucu, pode acabar morrendo afogado. Isso mesmo! Um peixe pode morrer afogado...Literalmente."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_jogo_invertido_2df890",
+          "excerpt": "o pirarucu tem de necessariamente ascender de tempos em tempos à superfície, num movimento de sobrevivência"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The pirarucu is one of the world’s largest freshwater fish.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gpb_org_node_854671_3495b1",
+          "excerpt": "the pirarucu, one of the world's largest freshwater fish."
+        },
+        {
+          "sourceId": "src_portalamazonia_com_amazonia_voce_sabia_que_4acc94",
+          "excerpt": "é o maior peixe com escamas de água doce do mundo"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The gills develop in the larval and juvenile stages, but later stop developing and lose their breathing role.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_amazonia_voce_sabia_que_4acc94",
+          "excerpt": "Os pirarucus desenvolvem brânquias na fase de larvas a alevino, porém a partir de uma determinada idade, ou peso, as brânquias param de se desenvolver e sofrem diversas modificações e vão perdendo a sua função de aparelho respiratório."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_jogo_invertido_2df890",
+          "excerpt": "perdeu totalmente a capacidade de retirar oxigênio dissolvido na água"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The swim bladder, normally a buoyancy organ, evolved in the pirarucu into a lung-like organ.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_amazonia_voce_sabia_que_4acc94",
+          "excerpt": "A bexiga natatória é um órgão hidrostático, normalmente cheio de gases, que atua na flutuação dos peixes. No caso dos pirarucus, no entanto, a bexiga natatória evoluiu para um órgão semelhante a um pulmão."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_arapaima_e3f7c1",
+          "excerpt": "it has a modified and enlarged swim bladder, composed of lung-like tissue, which enables it to extract oxygen from the air."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The pirarucu is an obligate air-breather and must surface to fill its bladder with air.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_amazonia_voce_sabia_que_4acc94",
+          "excerpt": "Por ser um tipo de peixe denominado respirador aéreo obrigatório, o pirarucu precisa do ar da superfície para suprir suas necessidades metabólicas"
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_jogo_invertido_2df890",
+          "excerpt": "o pirarucu tem de necessariamente ascender de tempos em tempos à superfície, num movimento de sobrevivência, que o leva a inspirar ar para dentro da bexiga natatória."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The pirarucu surfaces roughly every 15 minutes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nwf_org_magazines_national_wildlife_2003_74ae56",
+          "excerpt": "The pirarucu must surface every 15 minutes or so to gulp oxygen"
+        },
+        {
+          "sourceId": "src_gpb_org_node_854671_3495b1",
+          "excerpt": "must rise to the surface every 15 minutes or so to gulp oxygen"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Air-breathing lets the pirarucu live in low-oxygen water, common in warm Amazon lakes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_catracalivre_com_br_noticias_como_o_393eca",
+          "excerpt": "Permite viver em águas com pouco oxigênio, comuns em lagos amazônicos quentes e cheios de matéria orgânica."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Fishers count pirarucu by watching them surface to breathe, and the counts are used to set catch quotas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gpb_org_node_854671_3495b1",
+          "excerpt": "First, fishermen count the number of pirarucu in nearby lakes and rivers by watching them surface."
+        },
+        {
+          "sourceId": "src_nwf_org_magazines_national_wildlife_2003_74ae56",
+          "excerpt": "These data are used by government officials to set annual catch quotas for the fish."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "With oil on the surface, air-breathing fish swallow it and are poisoned; the pirarucu was the most sensitive.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_jogo_invertido_2df890",
+          "excerpt": "as espécies de respiração aérea obrigatória e de respiração aérea facultativa acabam ingerindo quantidades elevadas de petróleo, intoxicam-se e morrem rapidamente."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_jogo_invertido_2df890",
+          "excerpt": "Mas o mais sensível ao petróleo foi o pirarucu, justamente a espécie de respiração aérea obrigatória."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_portalamazonia_com_amazonia_voce_sabia_que_4acc94",
+    "src_revistapesquisa_fapesp_br_jogo_invertido_2df890",
+    "src_gpb_org_node_854671_3495b1",
+    "src_en_wikipedia_org_wiki_arapaima_e3f7c1",
+    "src_nwf_org_magazines_national_wildlife_2003_74ae56",
+    "src_catracalivre_com_br_noticias_como_o_393eca"
+  ],
+  "quizIds": ["q_pirarucu_air_breathing_1__en", "q_pirarucu_air_breathing_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_amazon_survival"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "concept_boto_echolocation",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 5,
+  "tags": ["amazon", "dolphins", "echolocation"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_giant_water_lily",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Na superfície do mesmo rio, uma folha que aguenta peso.",
+        "en": "On the surface of the same river, a leaf that bears weight."
+      }
+    },
+    {
+      "conceptId": "concept_pirarucu_air_breathing",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O boto também precisa subir para respirar.",
+        "en": "The boto also has to surface to breathe."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

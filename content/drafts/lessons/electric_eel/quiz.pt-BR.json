@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_electric_eel_1__pt-BR",
+    "questionGroupId": "qg_electric_eel_1",
+    "conceptId": "concept_electric_eel",
+    "locale": "pt-BR",
+    "prompt": "De onde vem a eletricidade do poraquê?",
+    "options": [
+      {
+        "id": "a",
+        "text": "De órgãos feitos de células empilhadas, derivadas de músculo"
+      },
+      {
+        "id": "b",
+        "text": "De bactérias que vivem na pele"
+      },
+      {
+        "id": "c",
+        "text": "Da água do rio, que conduz eletricidade"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os órgãos elétricos são formados por eletrócitos, células modificadas de músculo e organizadas em pilhas.",
+    "claimIds": ["c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_electric_eel_2__pt-BR",
+    "questionGroupId": "qg_electric_eel_2",
+    "conceptId": "concept_electric_eel",
+    "locale": "pt-BR",
+    "prompt": "O que o estudo de 2019 descobriu sobre os poraquês?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que são três espécies, e uma chega a 860 volts"
+      },
+      {
+        "id": "b",
+        "text": "Que eles não produzem eletricidade de verdade"
+      },
+      {
+        "id": "c",
+        "text": "Que vivem também nos oceanos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O estudo mostrou três espécies; a E. voltai deu o maior choque já medido num animal, 860 volts.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  }
+]

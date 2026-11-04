@@ -1,0 +1,27 @@
+{
+  "id": "concept_pirarucu_air_breathing",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 2,
+  "tags": ["amazon", "fish", "breathing"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_leafcutter_farming",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Da água para o chão da floresta: formigas que plantam.",
+        "en": "From the water to the forest floor: ants that farm."
+      }
+    },
+    {
+      "conceptId": "concept_electric_eel",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro peixe amazônico com um superpoder.",
+        "en": "Another Amazon fish with a superpower."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

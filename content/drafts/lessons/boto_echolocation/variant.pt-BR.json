@@ -1,0 +1,166 @@
+{
+  "id": "lesson_boto_echolocation__pt-BR",
+  "conceptId": "concept_boto_echolocation",
+  "locale": "pt-BR",
+  "slug": "como-o-boto-caca-em-agua-barrenta",
+  "title": "Como o boto caça em água barrenta?",
+  "hook": "Nos rios turvos da Amazônia, os olhos ajudam pouco. Os ouvidos, muito.",
+  "summary": "O boto usa a ecolocalização: emite cliques e escuta os ecos para navegar e achar presas em rios de água turva.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Os rios da Amazônia costumam ser muito turvos, e enxergar ali é difícil. Por isso, o boto-cor-de-rosa deve depender muito mais da ecolocalização do que da visão para se orientar e encontrar presas. Ele emite sons, os chamados cliques, e usa o eco que volta para \"ver\" o que está ao redor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Os cliques ficam quase todos entre 85 e 100 quilohertz, muito acima do que o ouvido humano consegue ouvir. Na cabeça, o boto tem o melão, um órgão usado no biossonar, cuja forma ele pode mudar com músculos quando ecolocaliza. Há evidências de que ele usa a ecolocalização tanto para navegar quanto para capturar presas."
+    },
+    {
+      "type": "takeaway",
+      "text": "Em águas turvas, o boto se guia e caça pelo eco dos próprios cliques: a ecolocalização."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Um pescoço que dobra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao contrário dos golfinhos do mar, o boto tem as vértebras do pescoço soltas, o que permite virar a cabeça em até 90 graus. Isso ajuda a manobrar na floresta alagada e a capturar presas."
+    },
+    {
+      "type": "heading",
+      "text": "Olhos pequenos, mas úteis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apesar dos olhos pequenos, o boto parece enxergar bem dentro e fora da água. Ele respira a cada 30 a 110 segundos."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Os rios amazônicos costumam ser muito turvos, e por isso o boto deve depender mais da ecolocalização que da visão para navegar e achar presas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+          "excerpt": "Amazonian rivers are often very murky, and the Amazon river dolphin is therefore likely to depend much more on its sense of echolocation than vision when navigating and finding prey."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Há evidências de que o boto usa ecolocalização para navegar e capturar presas; os sons que emite são chamados cliques.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_environment_encyclopedias_almanacs_transcripts_900e9c",
+          "excerpt": "There is evidence that the boto uses echolocation for navigation and to capture prey. The sounds they produce are known as \"clicks,\""
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Os cliques ficam predominantemente entre 85 e 100 kHz, bem acima do que o ouvido humano capta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_environment_encyclopedias_almanacs_transcripts_900e9c",
+          "excerpt": "which are predominantly between 85 and 100 kHz, well above the frequency audible to human beings."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O boto tem um melão, órgão usado no biossonar, cuja forma pode ser modificada por músculos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+          "excerpt": "It has a melon on the head, the shape of which can be modified by muscular control when used for biosonar."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Ao contrário dos golfinhos oceânicos, o boto tem as vértebras do pescoço não fundidas, o que permite virar a cabeça 90 graus.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+          "excerpt": "Unlike in oceanic dolphins, the cervical vertebrae are not fused, allowing the head to turn 90 degrees."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_environment_encyclopedias_almanacs_transcripts_900e9c",
+          "excerpt": "Botos are very flexible, largely due to free cervical vertebra."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "As vértebras soltas ajudam o boto a manobrar na floresta alagada e capturar presas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+          "excerpt": "The fin size, unfused vertebrae, and its relative size allow for improved maneuverability when navigating flooded forests and capturing prey."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Apesar dos olhos pequenos, o boto parece enxergar bem dentro e fora da água, e respira a cada 30 a 110 segundos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+          "excerpt": "Despite small eyes, the species seems to have good eyesight in and out of the water."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+          "excerpt": "Breathing takes place every 30 to 110 seconds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_en_wikipedia_org_wiki_amazon_river_9b36e9",
+    "src_encyclopedia_com_environment_encyclopedias_almanacs_transcripts_900e9c"
+  ],
+  "quizIds": ["q_boto_echolocation_1__pt-BR", "q_boto_echolocation_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_amazon_survival"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}
