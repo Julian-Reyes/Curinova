@@ -285,6 +285,14 @@ Resolves P2 (§5.6). Lesson text is **all rights reserved** (`contentLicense: "a
 - **Drafts keep `"pending"`.** The review tool sets `"all-rights-reserved"` when a variant is approved, so the license is set by a human review, never by a writer session.
 - Image licenses are separate and unchanged (D15/P11); the code's license is still undecided (README).
 
+### D22 · Live site shows only published lessons — Founder (2026-11-04)
+
+The deploy job in `.github/workflows/ci.yml` builds with `LUMEN_PUBLIC_CONTENT_CHANNEL=production` (B2), so the live site includes only reviewed, published lesson variants. Done before trail batch 2 (D19), so its drafts can be pushed to `main` without appearing on the live site.
+
+- When it was switched, all 22 sample lessons were published, so the live site showed the same lessons; only the Settings → About text changed (from "preview build" to "every lesson has been source-checked and human-reviewed").
+- Local `pnpm dev`/`pnpm build` and the E2E job keep the default `preview` channel.
+- `apps/web/app/ci-workflow.test.ts` fails if the deploy build stops using the production channel.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.
