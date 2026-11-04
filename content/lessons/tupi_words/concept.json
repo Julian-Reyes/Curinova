@@ -29,55 +29,55 @@
       "width": 1024,
       "height": 1820,
       "alt": {
-        "pt-BR": "Capivaras entre plantas aquáticas",
-        "en": "Capybaras among water plants"
+        "pt-BR": "Abacaxis empilhados no porta-malas aberto de um carro",
+        "en": "Pineapples piled in the open trunk of a car"
       },
       "origin": {
         "kind": "licensed",
-        "creator": "Clodomiro Esteves Junior",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capivara(Hydrochoerus_hydrochaeris).jpg"
+        "creator": "Nasiru othman",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/fresh-pineapples-loaded-in-car-trunk-40082914/"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "0705cc6f"
+      "addedAt": "2026-11-04",
+      "hash": "c5eca4f9"
     },
     "deeper": {
       "width": 1200,
       "height": 700,
       "alt": {
-        "pt-BR": "Raízes de mandioca empilhadas",
-        "en": "A pile of cassava roots"
+        "pt-BR": "Dois cajus numa cesta de palha trançada",
+        "en": "Two cashew apples in a woven straw basket"
       },
       "origin": {
         "kind": "licensed",
-        "creator": "David Monniaux",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manihot_esculenta_dsc07325.jpg"
+        "creator": "Magali Guimarães",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/fresh-cashew-fruits-in-a-woven-basket-5768033/"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "3772c499"
+      "addedAt": "2026-11-04",
+      "hash": "f9efbe54"
     },
     "review": {
       "width": 1000,
       "height": 562,
       "alt": {
-        "pt-BR": "Jabuticabas maduras presas ao galho",
-        "en": "Ripe jabuticabas growing on a branch"
+        "pt-BR": "Dois cajus numa cesta de palha trançada",
+        "en": "Two cashew apples in a woven straw basket"
       },
       "origin": {
         "kind": "licensed",
-        "creator": "Alexandre Campolina",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY 3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jabuticaba_fruto.jpg"
+        "creator": "Magali Guimarães",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/fresh-cashew-fruits-in-a-woven-basket-5768033/"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "a0930f4f"
+      "addedAt": "2026-11-04",
+      "hash": "5d89f4a9"
     }
   }
 }

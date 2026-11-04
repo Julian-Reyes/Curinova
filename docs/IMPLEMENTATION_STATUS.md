@@ -1,15 +1,15 @@
 # Implementation status
 
-Last updated: 2026-11-03 (the lesson quiz shows the Review image, D15).
+Last updated: 2026-11-03 (C1 pilot published: 22 lessons live).
 
-| Milestone                            | Status                           |
-| ------------------------------------ | -------------------------------- |
-| **M1 — Foundation**                  | ✅ Done (see below)              |
-| M2 — Guest MVP slice                 | In progress                      |
-| M2.5 — Product experience overhaul   | Built; awaiting founder sign-off |
-| M3 — Content pipeline tooling        | In progress (sessions 1–3 built) |
-| M4 — Public web and growth surface   | Not started                      |
-| M5 — Offline, polish, beta readiness | Not started                      |
+| Milestone                            | Status                          |
+| ------------------------------------ | ------------------------------- |
+| **M1 — Foundation**                  | ✅ Done (see below)             |
+| M2 — Guest MVP slice                 | In progress                     |
+| M2.5 — Product experience overhaul   | ✅ Done (signed off 2026-11-03) |
+| M3 — Content pipeline tooling        | Pilot done; batch 2 next        |
+| M4 — Public web and growth surface   | Not started                     |
+| M5 — Offline, polish, beta readiness | Not started                     |
 
 ## M1 — Foundation
 
@@ -71,7 +71,7 @@ Last updated: 2026-11-03 (the lesson quiz shows the Review image, D15).
 - Sample lessons are unverified drafts with no sources (B1); the production channel shows no lessons until M3 review publishes some.
 - §16 E2E 6 (offline), 7 (prerendered pages), 10 (axe) belong to M4/M5.
 
-## M2.5 — Product experience overhaul (in review)
+## M2.5 — Product experience overhaul (done)
 
 Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28 as one squashed commit **without** the Design Lab (`experiments/m2-5/`): its history contains supplied photos whose rights were never cleared, so it stays on the local branch `feature/m2-5-ux-overhaul` and is never pushed. Paths under `experiments/` in the M2.5 docs refer to that branch.
 
@@ -84,12 +84,12 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | Plan step 1–2: decisions recorded; foundations (tokens, Inter Tight)      | `apps/web/app/styles/`             | ✅                                     |
 | Plan step 3: lesson images (schema, validator, `pnpm media:add`, offline) | `packages/domain`, `tools/`        | ✅ 4 lessons with images (11 files)    |
 | Discover card text for all 20 lessons (P8)                                | `docs/M2_5_CARD_TEXT.md`           | ✅ approved, in the lesson files       |
-| Plan step 4: Discover card and feed                                       | `apps/web/app/features/feed/`      | ✅ awaiting founder review             |
-| Plan step 5: Go Deeper                                                    | `LessonSheets.tsx`                 | ✅ awaiting founder review             |
+| Plan step 4: Discover card and feed                                       | `apps/web/app/features/feed/`      | ✅                                     |
+| Plan step 5: Go Deeper                                                    | `LessonSheets.tsx`                 | ✅                                     |
 | Plan step 6: Review (P12, question-first, full-screen session)            | `routes/review.tsx`                | ✅                                     |
 | Plan step 7: Explore tiles, topic pages, trails, lesson rows              | `routes/explore.tsx`, `topic.tsx`  | ✅ 4 topics with pictures              |
 | Plan step 8: Library, You, Settings, Welcome, desktop                     | `routes/`                          | ✅                                     |
-| Plan step 9: review pass (fit, tap targets, contrast, image weight)       | `docs/M2_5_INTEGRATION_PLAN.md` §7 | ✅ founder phone sign-off pending      |
+| Plan step 9: review pass (fit, tap targets, contrast, image weight)       | `docs/M2_5_INTEGRATION_PLAN.md` §7 | ✅ founder signed off on phone (11-03) |
 
 ## M3 — Content pipeline (in progress, branch `feature/m3-content-pipeline`)
 
@@ -101,7 +101,7 @@ Plan approved 2026-10-28 (D18). Three build sessions, then a C1 pilot.
 | `content:stats`, `content:due-review`                                                                                                           | ✅ session 1 |
 | Sources (`content:sources` refs, fetch, refetch), `content:check-drafts`, `content:check-links`, `content:dedupe`, writer/verifier instructions | ✅ session 2 |
 | Review tool `/_review` and a fixture dry run (D20)                                                                                              | ✅ session 3 |
-| C1 pilot on one trail                                                                                                                           | Next         |
+| C1 pilot: all five sample trails (22 lessons) reviewed and published, live 2026-11-03                                                           | ✅           |
 
 ### Review tool `/_review` (session 3, 2026-10-30)
 
@@ -119,6 +119,6 @@ Known limitations: image accuracy review is later (D20). Claims carry no positio
 
 ### Deferred to later milestones
 
-- M3: the C1 pilot (sourcing and reviewing the sample drafts).
+- M3: trail batch 2 (D19, 31 lessons). Before it: the live site switches to the `production` content channel, and `/_review` gets an image-check button.
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).
