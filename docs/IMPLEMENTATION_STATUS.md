@@ -115,10 +115,10 @@ Plan: `docs/M3_REVIEW_TOOL_PLAN.md`; how to use it: `docs/CONTENT_PIPELINE.md`.
 | Route only outside production builds                                                                                                                                       | `apps/web/app/routes.ts`                                                         |
 | Tests: operations on temp folders, fixture-trail dry run, keyboard flow, production route list (13 + 8 new tests, including a held-back related link restored on approval) | `tools/content-pipeline/test/review.test.ts`, `apps/web/app/dev/review/*.test.*` |
 
-Known limitations: image accuracy review is later (D20). Claims carry no position in the text, so highlighting is on the best-matching sentence; a claim with no good match is shown only in the list. A source whose snapshot can't be re-created on a machine blocks its lessons there.
+Pictures are checked for accuracy with "Images checked" on each lesson (D20, 2026-11-04). Known limitations: Claims carry no position in the text, so highlighting is on the best-matching sentence; a claim with no good match is shown only in the list. A source whose snapshot can't be re-created on a machine blocks its lessons there.
 
 ### Deferred to later milestones
 
-- M3: trail batch 2 (D19, 31 lessons). Before it: `/_review` gets an image-check button (the live site already uses the `production` channel, D22).
+- M3: trail batch 2 (D19, 31 lessons). Ready to start: the live site uses the `production` channel (D22) and `/_review` has "Images checked".
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).

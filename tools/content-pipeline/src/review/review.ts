@@ -5,6 +5,7 @@ import {
   ConceptSchema,
   LOCALES,
   LessonVariantSchema,
+  MEDIA_SLOTS,
   QuizFileSchema,
   SourceSchema,
   TopicsFileSchema,
@@ -13,6 +14,7 @@ import {
   type Concept,
   type LessonVariant,
   type Locale,
+  type MediaSlot,
   type QuizQuestion,
   type Source,
 } from '@lumen/domain';
@@ -359,7 +361,14 @@ function publishBlockers(state: State, key: string, hasDrafts: boolean): string[
     else if (v.reviewStatus !== 'reviewed') out.push(`${l}: not approved yet`);
     else if (v.contentLicense === 'pending') out.push(`${l}: license is still "pending"`);
   }
+  const unchecked = uncheckedSlots(conceptIn(state.library, key));
+  if (unchecked.length > 0) out.push(`images not checked yet: ${unchecked.join(', ')}`);
   return out;
+}
+
+/** Image slots of a concept nobody has checked for accuracy yet. */
+function uncheckedSlots(concept: Concept | undefined): MediaSlot[] {
+  return MEDIA_SLOTS.filter((slot) => concept?.media?.[slot]?.accuracyReviewedBy === null);
 }
 
 // ---- Lesson ----------------------------------------------------------------------------
@@ -803,6 +812,44 @@ export async function runAction(ctx: ReviewContext, action: ReviewAction): Promi
       if (note === '') return fail('the note is empty');
       await log(action.locale, action.claimId, note);
       return { ok: true, message: 'Note added to the review log.' };
+    }
+
+    case 'check-images': {
+      // One button marks every unchecked picture of the lesson as checked (founder,
+      // 2026-11-04). The lesson's concept can sit in the drafts, the library or both.
+      const copies = [
+        { path: conceptPath(DRAFTS, key), c: conceptIn(state.drafts, key) },
+        { path: conceptPath(CONTENT, key), c: conceptIn(state.library, key) },
+      ].filter((x): x is { path: string; c: Concept } => x.c !== undefined);
+      const slots = new Set(copies.flatMap(({ c }) => uncheckedSlots(c)));
+      if (slots.size === 0) return fail(`no unchecked images in ${key}`);
+      const missing = new Set<string>();
+      for (const { c } of copies)
+        for (const slot of uncheckedSlots(c)) {
+          const image = c.media?.[slot];
+          if (image?.origin.kind === 'unknown') missing.add(`${slot}: no credit`);
+          for (const l of c.variants)
+            if (image?.alt[l] === undefined) missing.add(`${slot}: no ${l} alt text`);
+        }
+      if (missing.size > 0)
+        return fail(`fill these in before checking the images: ${[...missing].join('; ')}`);
+      for (const { path, c } of copies) {
+        const media = c.media;
+        if (!media || uncheckedSlots(c).length === 0) continue;
+        changes.set(path, {
+          ...c,
+          media: Object.fromEntries(
+            Object.entries(media).map(([slot, image]) => [
+              slot,
+              image?.accuracyReviewedBy === null
+                ? { ...image, accuracyReviewedBy: REVIEWER }
+                : image,
+            ]),
+          ),
+        } satisfies Concept);
+      }
+      message = `Images checked: ${[...slots].join(', ')}.`;
+      break;
     }
 
     case 'publish': {

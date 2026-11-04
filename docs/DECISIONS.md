@@ -260,9 +260,10 @@ Plan: [`docs/M3_REVIEW_TOOL_PLAN.md`](M3_REVIEW_TOOL_PLAN.md) (approved).
 - **Reviewer:** `reviewedBy` is `Julian` on reviewed lessons and in `content/review-log.jsonl` (committed; the repository is public).
 - **Approve and publish are separate.** Approving moves a variant to `content/lessons/` as reviewed and sets its license (D21); publishing is a separate action.
 - **Publish is per lesson (founder, 2026-10-30).** One Publish action publishes both locales together, once both are approved. The plan first said "per approved variant", but D4 requires both locales of a published lesson to be published, so a single-locale publish would always be refused.
-- **Image accuracy review comes later**, not in this build.
+- **Image accuracy review comes later**, not in this build (added 2026-11-04, see "Images checked" below).
 - **No outline-approval screen** (deviation from the D18 plan): trail outlines are approved in chat and recorded in `docs/content/`.
-- **Image accuracy for the C1 pilot (founder, 2026-11-03).** The founder had seen every picture of the 22 sample lessons, so all 64 were marked `accuracyReviewedBy: "Julian"` in one step to allow publishing; the review tool still has no image-check button. New images (batch 2 onward) need their own check before publishing.
+- **Image accuracy for the C1 pilot (founder, 2026-11-03).** The founder had seen every picture of the 22 sample lessons, so all 64 were marked `accuracyReviewedBy: "Julian"` in one step to allow publishing; New images (batch 2 onward) need their own check before publishing.
+- **Images checked (founder, 2026-11-04).** Each lesson's images panel has an "Images checked" button that sets `accuracyReviewedBy: "Julian"` on every unchecked picture of that lesson, in the draft and the library concept (one log line, `check-images`). It refuses while a picture to be checked has no credit or is missing alt text for a locale. The queue lists unchecked pictures as a publish blocker, so publishing waits for the check.
 - **Approve all claims (founder, 2026-11-03).** Each language header has an "Approve all claims" button that approves every open claim of that language in one action (one log line, `approve-claims`). Rejected claims and claims the verifier judged unsupported or left unverified are never approved by it. Approving the language stays a separate step.
 - **Build notes (agent, inside the plan).**
   - A write is refused only if it **adds** an error (validator or `check-drafts`). Errors already present in other drafts don't block every review.
