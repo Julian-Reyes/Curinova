@@ -313,6 +313,9 @@ export function LessonScreen({
               onApproveAll={() => {
                 void run({ type: 'approve-claims', key: view.key, locale });
               }}
+              onCheckImages={() => {
+                void run({ type: 'check-images', key: view.key });
+              }}
               onEdit={() => {
                 setEditing(locale);
               }}
@@ -423,6 +426,7 @@ function LocaleColumn({
   onFocus,
   onApprove,
   onApproveAll,
+  onCheckImages,
   onEdit,
   onCancelEdit,
   onSave,
@@ -438,6 +442,7 @@ function LocaleColumn({
   onFocus: (f: Focus) => void;
   onApprove: (f: Focus) => void;
   onApproveAll: () => void;
+  onCheckImages: () => void;
   onEdit: () => void;
   onCancelEdit: () => void;
   onSave: (edit: LessonEdit) => Promise<void>;
@@ -547,7 +552,7 @@ function LocaleColumn({
           </LessonPreview>
 
           <h3 className={H3}>Images</h3>
-          <ImagesPanel concept={view.concept} locale={locale} />
+          <ImagesPanel concept={view.concept} locale={locale} busy={busy} onCheck={onCheckImages} />
 
           <h3 className={H3}>Text and claims</h3>
           <LessonText lv={lv} focus={focus} onFocus={onFocus} />
@@ -835,54 +840,84 @@ function originText(o: ImageOrigin): string {
 }
 
 /** Every image slot of the lesson, with its alt text and credit, so each can be checked here. */
-function ImagesPanel({ concept, locale }: { concept: Concept; locale: Locale }) {
+function ImagesPanel({
+  concept,
+  locale,
+  busy,
+  onCheck,
+}: {
+  concept: Concept;
+  locale: Locale;
+  busy: boolean;
+  onCheck: () => void;
+}) {
+  const unchecked = MEDIA_SLOTS.filter((s) => concept.media?.[s]?.accuracyReviewedBy === null);
   return (
-    <div className="mb-6 grid grid-cols-[2fr_3fr] gap-3">
-      {MEDIA_SLOTS.map((slot) => {
-        const image = concept.media?.[slot];
-        return (
-          <figure
-            key={slot}
-            className={`flex flex-col gap-1 rounded-2xl border border-line bg-surface p-2 ${slot === 'discover' ? 'row-span-2' : ''}`}
-          >
-            <figcaption className="text-xs font-semibold">{SLOT_LABEL[slot]}</figcaption>
-            {image ? (
-              <>
-                <img
-                  src={lessonImageUrl(concept.id, slot, 'full', image.hash)}
-                  width={image.width}
-                  height={image.height}
-                  alt={image.alt[locale] ?? ''}
-                  loading="lazy"
-                  className="h-auto w-full rounded-xl bg-sunken"
-                />
-                <p className="text-xs">{image.alt[locale] ?? 'No alt text for this language'}</p>
-                <p className="text-xs text-muted">
-                  {image.origin.kind === 'licensed' ? (
-                    <a
-                      href={image.origin.sourceUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline"
-                    >
-                      {originText(image.origin)}
-                    </a>
-                  ) : (
-                    originText(image.origin)
-                  )}{' '}
-                  · {image.width}×{image.height} · accuracy{' '}
-                  {image.accuracyReviewedBy ?? 'not checked'}
+    <>
+      <div className="mb-2 flex items-center gap-2">
+        <span className="text-xs text-muted">
+          {unchecked.length > 0
+            ? `${String(unchecked.length)} image(s) not checked for accuracy`
+            : 'Every image is checked for accuracy'}
+        </span>
+        <span className="flex-1" />
+        <button
+          type="button"
+          className={BTN}
+          disabled={busy || unchecked.length === 0}
+          title="Mark every unchecked image of this lesson as checked for accuracy; look at each first"
+          onClick={onCheck}
+        >
+          Images checked{unchecked.length > 0 ? ` (${String(unchecked.length)})` : ''}
+        </button>
+      </div>
+      <div className="mb-6 grid grid-cols-[2fr_3fr] gap-3">
+        {MEDIA_SLOTS.map((slot) => {
+          const image = concept.media?.[slot];
+          return (
+            <figure
+              key={slot}
+              className={`flex flex-col gap-1 rounded-2xl border border-line bg-surface p-2 ${slot === 'discover' ? 'row-span-2' : ''}`}
+            >
+              <figcaption className="text-xs font-semibold">{SLOT_LABEL[slot]}</figcaption>
+              {image ? (
+                <>
+                  <img
+                    src={lessonImageUrl(concept.id, slot, 'full', image.hash)}
+                    width={image.width}
+                    height={image.height}
+                    alt={image.alt[locale] ?? ''}
+                    loading="lazy"
+                    className="h-auto w-full rounded-xl bg-sunken"
+                  />
+                  <p className="text-xs">{image.alt[locale] ?? 'No alt text for this language'}</p>
+                  <p className="text-xs text-muted">
+                    {image.origin.kind === 'licensed' ? (
+                      <a
+                        href={image.origin.sourceUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline"
+                      >
+                        {originText(image.origin)}
+                      </a>
+                    ) : (
+                      originText(image.origin)
+                    )}{' '}
+                    · {image.width}×{image.height} · accuracy{' '}
+                    {image.accuracyReviewedBy ?? 'not checked'}
+                  </p>
+                </>
+              ) : (
+                <p className="rounded-xl bg-sunken p-3 text-xs text-muted">
+                  No image: the app shows the lesson&apos;s diagram or the topic icon here.
                 </p>
-              </>
-            ) : (
-              <p className="rounded-xl bg-sunken p-3 text-xs text-muted">
-                No image: the app shows the lesson&apos;s diagram or the topic icon here.
-              </p>
-            )}
-          </figure>
-        );
-      })}
-    </div>
+              )}
+            </figure>
+          );
+        })}
+      </div>
+    </>
   );
 }
 

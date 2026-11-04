@@ -215,6 +215,17 @@ describe('review lesson screen', () => {
     expect(within(pt).getByRole('img', { name: 'A Lua cheia' })).toBeTruthy();
   });
 
+  it('"Images checked" marks the lesson\'s unchecked images', async () => {
+    const { user } = await setup();
+    const pt = screen.getByRole('region', { name: 'pt-BR variant' });
+    expect(within(pt).getByText('1 image(s) not checked for accuracy')).toBeTruthy();
+    await user.click(within(pt).getByRole('button', { name: 'Images checked (1)' }));
+    await waitFor(() => {
+      expect(actions).toHaveLength(1);
+    });
+    expect(actions[0]).toMatchObject({ type: 'check-images', key: 'moon' });
+  });
+
   it('is keyboard driven: j/k move, a approves the claim or the locale', async () => {
     const { user } = await setup();
     await user.keyboard('j'); // pt-BR c1
