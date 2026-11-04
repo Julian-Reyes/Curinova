@@ -1,0 +1,41 @@
+{
+  "id": "cluster_everyday_myths",
+  "topicId": "everyday_science",
+  "slug": {
+    "pt-BR": "mitos-da-ciencia-do-dia-a-dia",
+    "en": "everyday-science-myths"
+  },
+  "title": {
+    "pt-BR": "Mitos da ciência do dia a dia",
+    "en": "Everyday science myths"
+  },
+  "hook": {
+    "pt-BR": "Coisas que todo mundo \"sabe\", e o que a ciência diz de verdade.",
+    "en": "Things everyone \"knows\", and what science actually says."
+  },
+  "links": [
+    {
+      "clusterId": "cluster_kitchen_chemistry",
+      "reason": {
+        "pt-BR": "Mais ciência da cozinha, sem mitos.",
+        "en": "More kitchen science, minus the myths."
+      }
+    },
+    {
+      "clusterId": "cluster_body_renews",
+      "reason": {
+        "pt-BR": "O sangue vermelho das veias se renova o tempo todo.",
+        "en": "The red blood in your veins renews itself all the time."
+      }
+    }
+  ],
+  "conceptIds": [
+    "concept_microwave_inside_out",
+    "concept_mpemba_effect",
+    "concept_blue_veins",
+    "concept_falling_coin",
+    "concept_radioactive_foods",
+    "concept_knuckle_cracking",
+    "concept_lightning_strikes_twice"
+  ]
+}

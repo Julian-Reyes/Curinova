@@ -1,0 +1,27 @@
+{
+  "id": "concept_falling_coin",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 4,
+  "tags": ["myths", "physics", "gravity"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_radioactive_foods",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do perigo que não existe ao que existe, mas é minúsculo.",
+        "en": "From a danger that isn’t real to one that is, but tiny."
+      }
+    },
+    {
+      "conceptId": "concept_lightning_strikes_twice",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o que cai do céu.",
+        "en": "Another myth about what falls from the sky."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

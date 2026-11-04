@@ -1,0 +1,27 @@
+{
+  "id": "concept_radioactive_foods",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 5,
+  "tags": ["myths", "radiation", "food"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_knuckle_cracking",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mais um medo comum que a ciência examinou.",
+        "en": "Another common fear that science has examined."
+      }
+    },
+    {
+      "conceptId": "concept_microwave_inside_out",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Radiação na cozinha, de outro tipo.",
+        "en": "Radiation in the kitchen, of another kind."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

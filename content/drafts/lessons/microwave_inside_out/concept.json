@@ -1,0 +1,27 @@
+{
+  "id": "concept_microwave_inside_out",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 1,
+  "tags": ["myths", "kitchen", "microwaves"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_mpemba_effect",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro mito de cozinha: a água quente que congela antes.",
+        "en": "Another kitchen myth: hot water that freezes first."
+      }
+    },
+    {
+      "conceptId": "concept_radioactive_foods",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Micro-ondas não deixa a comida radioativa; algumas comidas já são, um pouco.",
+        "en": "Microwaves don’t make food radioactive; some foods already are, a little."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

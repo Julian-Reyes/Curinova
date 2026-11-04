@@ -1,0 +1,158 @@
+{
+  "id": "lesson_lightning_strikes_twice__en",
+  "conceptId": "concept_lightning_strikes_twice",
+  "locale": "en",
+  "slug": "does-lightning-never-strike-the-same-place-twice",
+  "title": "Does lightning never strike the same place twice?",
+  "hook": "Christ the Redeemer would beg to differ.",
+  "summary": "It does: lightning often hits tall, isolated objects again and again, and Christ the Redeemer is struck several times a year.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "The saying goes that lightning never strikes the same place twice. Science says otherwise: lightning often strikes the same spot repeatedly, especially if it is tall, pointy and isolated. Height, a pointed shape and isolation are the main factors deciding where a bolt will land."
+    },
+    {
+      "type": "paragraph",
+      "text": "The proof is in Rio de Janeiro. The Christ the Redeemer statue, on top of Corcovado mountain, is hit by lightning several times a year: estimates from INPE, Brazil’s space research institute, range from three to five to about six a year. Some strikes have damaged the statue, such as those that hit the fingers of its right hand."
+    },
+    {
+      "type": "takeaway",
+      "text": "Lightning strikes the same place many times, above all tall, isolated spots like Christ the Redeemer."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A record-holder in New York"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the United States, the Empire State Building is hit an average of 23 times a year, according to the country’s National Weather Service."
+    },
+    {
+      "type": "heading",
+      "text": "Metal doesn’t attract it"
+    },
+    {
+      "type": "paragraph",
+      "text": "Metal makes no difference to where lightning strikes. Trees and mountains, tall and isolated but with little or no metal, also get struck many times a year."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Lightning often strikes the same place repeatedly, especially tall, pointy, isolated objects.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "Fact: Lightning often strikes the same place repeatedly, especially if it's a tall, pointy, isolated object."
+        },
+        {
+          "sourceId": "src_olhardigital_com_br_2024_11_17_255f74",
+          "excerpt": "Em algumas áreas, podem cair não apenas dois, mas vários raios no mesmo local."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Height, a pointed shape and isolation are the dominant factors in where lightning strikes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "Height, pointy shape, and isolation are the dominant factors controlling where a lightning bolt will strike."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Christ the Redeemer is hit by lightning several times a year; INPE estimates range from three to five to about six.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_olhardigital_com_br_2024_11_17_255f74",
+          "excerpt": "Segundo o Instituto Nacional de Pesquisas Espaciais (Inpe), o monumento é atingido por seis raios por ano, em média."
+        },
+        {
+          "sourceId": "src_riotimesonline_com_7886c9",
+          "excerpt": "According to The National Institute for Space Research (INPE), each year the 95 ft tall monument is subjected to by somewhere between three to five strikes of lighting, with some causing damage."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Strikes have damaged Christ the Redeemer, such as those that hit the fingers of its right hand.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_riotimesonline_com_7886c9",
+          "excerpt": "The third finger of the right arm of the open armed statue suffered a strike and is due to be repaired."
+        },
+        {
+          "sourceId": "src_riotimesonline_com_7886c9",
+          "excerpt": "The same hand of the statue was recently struck in the same place"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The Empire State Building is hit an average of 23 times a year.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "The Empire State Building is hit an average of 23 times a year"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Metal makes no difference; tall, isolated trees and mountains also get struck many times a year.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "The presence of metal makes absolutely no difference on where lightning strikes. Natural objects that are tall and isolated, but are made of little to no metal, like trees and mountains get struck by lightning many times a year."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_weather_gov_safety_lightning_myths_7cb444",
+    "src_olhardigital_com_br_2024_11_17_255f74",
+    "src_riotimesonline_com_7886c9"
+  ],
+  "quizIds": ["q_lightning_strikes_twice_1__en", "q_lightning_strikes_twice_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_mpemba_effect_1__pt-BR",
+    "questionGroupId": "qg_mpemba_effect_1",
+    "conceptId": "concept_mpemba_effect",
+    "locale": "pt-BR",
+    "prompt": "O que se sabe hoje sobre o efeito Mpemba?",
+    "options": [
+      {
+        "id": "a",
+        "text": "É disputado: alguns experimentos o relatam, outros não o reproduzem"
+      },
+      {
+        "id": "b",
+        "text": "É uma lei física comprovada"
+      },
+      {
+        "id": "c",
+        "text": "Nunca foi estudado por cientistas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Estudos com água têm resultados mistos, e um estudo controlado de 2016 não encontrou evidência significativa do efeito.",
+    "claimIds": ["c3", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_mpemba_effect_2__pt-BR",
+    "questionGroupId": "qg_mpemba_effect_2",
+    "conceptId": "concept_mpemba_effect",
+    "locale": "pt-BR",
+    "prompt": "Por que é difícil comparar experimentos sobre o efeito Mpemba?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque \"congelar\" pode ser a primeira camada de gelo ou o líquido todo sólido"
+      },
+      {
+        "id": "b",
+        "text": "Porque só funciona com sorvete"
+      },
+      {
+        "id": "c",
+        "text": "Porque não existem freezers precisos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sem uma definição única do que é \"congelar\", experimentos diferentes medem coisas diferentes.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  }
+]

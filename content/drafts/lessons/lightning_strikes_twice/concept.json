@@ -1,0 +1,27 @@
+{
+  "id": "concept_lightning_strikes_twice",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 7,
+  "tags": ["myths", "lightning", "weather"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_falling_coin",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o que vem do alto.",
+        "en": "Another myth about what comes from above."
+      }
+    },
+    {
+      "conceptId": "concept_microwave_inside_out",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O primeiro mito da trilha.",
+        "en": "The trail’s first myth."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

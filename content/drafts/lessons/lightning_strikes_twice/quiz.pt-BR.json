@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_lightning_strikes_twice_1__pt-BR",
+    "questionGroupId": "qg_lightning_strikes_twice_1",
+    "conceptId": "concept_lightning_strikes_twice",
+    "locale": "pt-BR",
+    "prompt": "Um raio pode cair duas vezes no mesmo lugar?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sim; o Cristo Redentor é atingido várias vezes por ano"
+      },
+      {
+        "id": "b",
+        "text": "Não, nunca"
+      },
+      {
+        "id": "c",
+        "text": "Só se o lugar tiver metal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Raios atingem repetidas vezes pontos altos e isolados; o Cristo Redentor leva vários por ano.",
+    "misconception": "O ditado é só um ditado: pontos altos e isolados são atingidos de novo e de novo.",
+    "claimIds": ["c1", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_lightning_strikes_twice_2__pt-BR",
+    "questionGroupId": "qg_lightning_strikes_twice_2",
+    "conceptId": "concept_lightning_strikes_twice",
+    "locale": "pt-BR",
+    "prompt": "O que mais influencia onde um raio cai?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Altura, forma pontuda e isolamento"
+      },
+      {
+        "id": "b",
+        "text": "A quantidade de metal no lugar"
+      },
+      {
+        "id": "c",
+        "text": "A cor do objeto"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os fatores dominantes são altura, forma e isolamento; o metal não faz diferença.",
+    "claimIds": ["c2", "c6"],
+    "status": "draft"
+  }
+]

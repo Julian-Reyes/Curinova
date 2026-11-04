@@ -1,0 +1,27 @@
+{
+  "id": "concept_blue_veins",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 3,
+  "tags": ["myths", "blood", "light"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_falling_coin",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro mito que a física desmonta.",
+        "en": "Another myth physics takes apart."
+      }
+    },
+    {
+      "conceptId": "concept_knuckle_cracking",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o próprio corpo.",
+        "en": "Another myth about your own body."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

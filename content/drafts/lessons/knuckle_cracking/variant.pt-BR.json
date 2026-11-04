@@ -1,0 +1,197 @@
+{
+  "id": "lesson_knuckle_cracking__pt-BR",
+  "conceptId": "concept_knuckle_cracking",
+  "locale": "pt-BR",
+  "slug": "estalar-os-dedos-causa-artrite",
+  "title": "Estalar os dedos causa artrite?",
+  "hook": "Um médico estalou os dedos de uma só mão por mais de 60 anos para descobrir.",
+  "summary": "Os estudos não encontraram ligação; o estalo vem de uma cavidade de gás que se forma no líquido da articulação.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Estalar os dedos pode irritar quem está por perto, mas provavelmente não aumenta o risco de artrite. Essa é a conclusão de vários estudos que compararam a artrite nas mãos de quem tem o hábito e de quem não tem. Num estudo com 215 pessoas, a artrite apareceu em proporções parecidas nos dois grupos."
+    },
+    {
+      "type": "paragraph",
+      "text": "E o barulho? As articulações dos dedos têm um líquido lubrificante, o líquido sinovial. Quando os ossos são afastados, a pressão cai e se forma uma cavidade de gás nesse líquido. Imagens de ressonância magnética de 2015 mostraram que o estalo acontece quando essa cavidade se forma, e não quando uma bolha estoura, como se pensava."
+    },
+    {
+      "type": "takeaway",
+      "text": "Os estudos não ligam estalar os dedos à artrite; o estalo vem de uma cavidade de gás que se forma na articulação."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Um experimento de 60 anos"
+    },
+    {
+      "type": "paragraph",
+      "text": "O médico americano Donald Unger estalou os dedos da mão esquerda todos os dias, por mais de 60 anos, e nunca os da direita, para ver se o hábito causava artrite. Ele publicou o resultado em 1998 e ganhou um Prêmio IgNobel."
+    },
+    {
+      "type": "heading",
+      "text": "Por que o estalo não repete na hora"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depois de um estalo, leva cerca de 20 minutos para o gás se dissolver de novo no líquido sinovial e permitir outro estalo."
+    },
+    {
+      "type": "heading",
+      "text": "O mecanismo ainda em debate"
+    },
+    {
+      "type": "paragraph",
+      "text": "A causa exata do barulho foi discutida por décadas. Ainda há quem descreva o estalo como bolhas estourando, mas as imagens de 2015 apontam para a formação da cavidade."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Estalar os dedos provavelmente não aumenta o risco de artrite, segundo vários estudos que compararam quem tem e quem não tem o hábito.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_health_harvard_edu_pain_does_cracking_46293d",
+          "excerpt": "Cracking your knuckles may aggravate the people around you, but it probably won't raise your risk for arthritis. That's the conclusion of several studies that compared rates of hand arthritis among habitual knuckle-crackers and people who didn't crack their knuckles."
+        },
+        {
+          "sourceId": "src_jabfm_org_content_24_2_169_570563",
+          "excerpt": "A history of habitual KC—including the total duration and total cumulative exposure—does not seem to be a risk factor for hand OA."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Num estudo com 215 pessoas, a artrite apareceu em proporções parecidas em quem estala e em quem não estala os dedos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jabfm_org_content_24_2_169_570563",
+          "excerpt": "The prevalence of KC among 215 respondents (135 patients, 80 controls) was 20%. When examined in aggregate, the prevalence of OA in any joint was similar among those who crack knuckles (18.1%) and those who do not (21.5%; P = .548)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Ao afastar os ossos, a pressão no líquido sinovial cai e se forma uma cavidade de gás.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "When the pressure inside the joint cavity is quickly reduced due to mechanical expansion, nitrogen gas is released from the solution, leading to the formation of cavitation bubbles."
+        },
+        {
+          "sourceId": "src_health_harvard_edu_pain_does_cracking_46293d",
+          "excerpt": "the synovial fluid — the fluid that helps lubricate joints."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Imagens de ressonância de 2015 mostraram que o estalo está ligado à formação da cavidade, e não ao estouro de uma bolha.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_b9a6aa",
+          "excerpt": "Here we present direct evidence from real-time magnetic resonance imaging that the mechanism of joint cracking is related to cav"
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_b9a6aa",
+          "excerpt": "ity formation rather than bubble collapse."
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_b9a6aa",
+          "excerpt": "Published: April 15, 2015"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "MRI of a cracking finger joint depicting cavitation between the bones"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Donald Unger estalou os dedos da mão esquerda, mas nunca os da direita, todos os dias por mais de 60 anos; publicou em 1998 e ganhou um IgNobel.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_improbable_com_ig_winners_a265d6",
+          "excerpt": "Donald L. Unger, of Thousand Oaks, California, USA, for investigating a possible cause of arthritis of the fingers, by diligently cracking the knuckles of his left hand — but never cracking the knuckles of his right hand — every day for more than sixty (60) yea"
+        },
+        {
+          "sourceId": "src_improbable_com_ig_winners_a265d6",
+          "excerpt": "Donald L. Unger, Arthritis and Rheumatism, vol. 41, no. 5, 1998"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Leva cerca de 20 minutos para o gás se dissolver de novo e permitir outro estalo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "bout 20 minutes for the nitrogen to fully dissolve back into the synovial fluid, which allows the joint to produce another set of cavitation bubbles"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O mecanismo do estalo ficou incerto por décadas; algumas fontes ainda o descrevem como bolhas estourando.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "For many decades, the physical mechanism underlying the cracking sound produced by bending, twisting, or compressing joints remained uncertain."
+        },
+        {
+          "sourceId": "src_health_harvard_edu_pain_does_cracking_46293d",
+          "excerpt": "The \"pop\" of a cracked knuckle is caused by bubbles bursting in"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_health_harvard_edu_pain_does_cracking_46293d",
+    "src_jabfm_org_content_24_2_169_570563",
+    "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+    "src_journals_plos_org_plosone_article_b9a6aa",
+    "src_improbable_com_ig_winners_a265d6"
+  ],
+  "quizIds": ["q_knuckle_cracking_1__pt-BR", "q_knuckle_cracking_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

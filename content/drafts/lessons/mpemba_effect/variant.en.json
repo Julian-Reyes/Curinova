@@ -1,0 +1,182 @@
+{
+  "id": "lesson_mpemba_effect__en",
+  "conceptId": "concept_mpemba_effect",
+  "locale": "en",
+  "slug": "does-hot-water-freeze-faster-than-cold",
+  "title": "Does hot water freeze faster than cold?",
+  "hook": "A schoolboy in Tanzania thought so. Physicists still argue about it.",
+  "summary": "It is sometimes reported, but disputed: results depend on conditions and even on how the effect is defined.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In the 1960s, a Tanzanian student, Erasto Mpemba, noticed that a hot ice cream mix froze before a cold one. He studied it with the physicist Denis Osborne, and the idea that very hot liquids can freeze faster than colder ones became known as the Mpemba effect."
+    },
+    {
+      "type": "paragraph",
+      "text": "The effect is disputed, though. It doesn’t show up in every setting or experiment, and studies with water have mixed results: some found nothing reproducible. Physicists don’t even agree on its definition. In a 2016 study, researchers cooled water under carefully controlled conditions and concluded there was no evidence for meaningful observations of the effect."
+    },
+    {
+      "type": "takeaway",
+      "text": "The Mpemba effect is disputed: hot water has been reported to freeze first, but controlled experiments don’t always agree."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "What counts as frozen?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Part of the argument is about definitions. \"Freezing\" can mean the moment a surface layer of ice appears or the moment the liquid is completely solid, which makes experiments hard to compare."
+    },
+    {
+      "type": "heading",
+      "text": "An old idea"
+    },
+    {
+      "type": "paragraph",
+      "text": "References to the idea that hot water cools faster go back to Aristotle. In 2012, the UK’s Royal Society of Chemistry even ran a competition for explanations of the effect."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The effect is named after Erasto Mpemba, a Tanzanian student who studied it in the 1960s with Denis Osborne, starting from a hot ice cream mix.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "The effect is named after Erasto Mpemba, a Tanzanian teenager who studied it scientifically in the 1960s for the first time, along with Denis Osborne."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "who described it in 1963 in Form 3 of Magamba Secondary School, Tanganyika; when freezing a hot ice cream mixture"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The Mpemba effect is the observation that very hot liquids can freeze faster than colder ones.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "The Mpemba effect is the observation that very hot liquids or colloids (such as ice cream) can freeze more quickly than colder ones"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The effect does not appear in every setting or experiment; water studies have mixed results, some with no reproducible effect.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "The effect is not observed in all environments or experimental setups. Studies of th"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "e effect in water have mixed results, with some experiments finding no reproducible effect."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e89e1d",
+          "excerpt": "We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Physicists disagree on the effect’s precise definition and mechanisms.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "Physicists remain divided on the effect's precise definition and underlying mechanisms."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "In a 2016 study, researchers cooled water under controlled conditions and found no evidence of meaningful observations of the effect.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e89e1d",
+          "excerpt": "carry out our own experiments by cooling water in carefully controlled conditions. We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "some experiments finding no reproducible effect."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "\"Freezing\" can mean a surface ice layer forming or complete freezing, which makes experiments hard to compare.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "Even this definition does not specify whether \"freezing\" refers to the point at which a visible surface layer of ice has formed, or the point at which the liquid is completely frozen."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+          "excerpt": "making it difficult to compare experiments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "References to the idea go back to Aristotle, and in 2012 the Royal Society of Chemistry ran a competition on the effect.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e89e1d",
+          "excerpt": "references to the effect go back a"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_e89e1d",
+          "excerpt": "was the focus of a competition organised in 2012 by the Royal Society of Chemistry (RSC)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_en_wikipedia_org_wiki_mpemba_effect_2d70dd",
+    "src_pmc_ncbi_nlm_nih_gov_articles_e89e1d"
+  ],
+  "quizIds": ["q_mpemba_effect_1__en", "q_mpemba_effect_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

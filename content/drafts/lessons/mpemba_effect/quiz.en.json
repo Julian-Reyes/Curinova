@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_mpemba_effect_1__en",
+    "questionGroupId": "qg_mpemba_effect_1",
+    "conceptId": "concept_mpemba_effect",
+    "locale": "en",
+    "prompt": "What is known today about the Mpemba effect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It’s disputed: some experiments report it, others can’t reproduce it"
+      },
+      {
+        "id": "b",
+        "text": "It’s a proven law of physics"
+      },
+      {
+        "id": "c",
+        "text": "Scientists have never studied it"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Water studies have mixed results, and a controlled 2016 study found no meaningful evidence for the effect.",
+    "claimIds": ["c3", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_mpemba_effect_2__en",
+    "questionGroupId": "qg_mpemba_effect_2",
+    "conceptId": "concept_mpemba_effect",
+    "locale": "en",
+    "prompt": "Why are Mpemba experiments hard to compare?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because \"freezing\" can mean the first ice layer or the whole liquid turning solid"
+      },
+      {
+        "id": "b",
+        "text": "Because it only works with ice cream"
+      },
+      {
+        "id": "c",
+        "text": "Because there are no accurate freezers"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Without one definition of \"freezing\", different experiments measure different things.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  }
+]

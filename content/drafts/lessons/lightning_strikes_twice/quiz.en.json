@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_lightning_strikes_twice_1__en",
+    "questionGroupId": "qg_lightning_strikes_twice_1",
+    "conceptId": "concept_lightning_strikes_twice",
+    "locale": "en",
+    "prompt": "Can lightning strike the same place twice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes; Christ the Redeemer is hit several times a year"
+      },
+      {
+        "id": "b",
+        "text": "No, never"
+      },
+      {
+        "id": "c",
+        "text": "Only if the place has metal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Lightning hits tall, isolated spots again and again; Christ the Redeemer takes several strikes a year.",
+    "misconception": "The saying is just a saying: tall, isolated spots get hit over and over.",
+    "claimIds": ["c1", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_lightning_strikes_twice_2__en",
+    "questionGroupId": "qg_lightning_strikes_twice_2",
+    "conceptId": "concept_lightning_strikes_twice",
+    "locale": "en",
+    "prompt": "What most affects where lightning strikes?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Height, a pointed shape and isolation"
+      },
+      {
+        "id": "b",
+        "text": "The amount of metal present"
+      },
+      {
+        "id": "c",
+        "text": "The object’s colour"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The dominant factors are height, shape and isolation; metal makes no difference.",
+    "claimIds": ["c2", "c6"],
+    "status": "draft"
+  }
+]

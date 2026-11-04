@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_blue_veins_1__en",
+    "questionGroupId": "qg_blue_veins_1",
+    "conceptId": "concept_blue_veins",
+    "locale": "en",
+    "prompt": "What colour is the blood in your veins?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dark red"
+      },
+      {
+        "id": "b",
+        "text": "Blue"
+      },
+      {
+        "id": "c",
+        "text": "Purple, until it touches air"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Blood is always red: bright in the arteries and dark in the veins after losing oxygen.",
+    "misconception": "It doesn’t \"turn red\" on contact with air: it comes out dark red even in a collection tube.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_blue_veins_2__en",
+    "questionGroupId": "qg_blue_veins_2",
+    "conceptId": "concept_blue_veins",
+    "locale": "en",
+    "prompt": "Why do veins look blue through the skin?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skin scatters red light, and blue light comes back to the eye"
+      },
+      {
+        "id": "b",
+        "text": "Blood turns blue without oxygen"
+      },
+      {
+        "id": "c",
+        "text": "Veins have a blue pigment"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Seen through skin and fat, veins send back more blue light because the skin scatters the red.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

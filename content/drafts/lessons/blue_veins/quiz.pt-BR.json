@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_blue_veins_1__pt-BR",
+    "questionGroupId": "qg_blue_veins_1",
+    "conceptId": "concept_blue_veins",
+    "locale": "pt-BR",
+    "prompt": "De que cor é o sangue que corre nas veias?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vermelho-escuro"
+      },
+      {
+        "id": "b",
+        "text": "Azul"
+      },
+      {
+        "id": "c",
+        "text": "Roxo, até tocar o ar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O sangue é sempre vermelho: vivo nas artérias e escuro nas veias, depois de perder oxigênio.",
+    "misconception": "Ele não \"fica vermelho\" ao tocar o ar: sai vermelho-escuro mesmo num tubo de coleta.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_blue_veins_2__pt-BR",
+    "questionGroupId": "qg_blue_veins_2",
+    "conceptId": "concept_blue_veins",
+    "locale": "pt-BR",
+    "prompt": "Por que as veias parecem azuis na pele?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A pele espalha a luz vermelha, e a luz azul volta aos olhos"
+      },
+      {
+        "id": "b",
+        "text": "O sangue fica azul sem oxigênio"
+      },
+      {
+        "id": "c",
+        "text": "As veias têm um pigmento azul"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Vistas através da pele e da gordura, as veias refletem mais luz azul porque a pele espalha a vermelha.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

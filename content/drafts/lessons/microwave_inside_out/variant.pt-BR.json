@@ -1,0 +1,153 @@
+{
+  "id": "lesson_microwave_inside_out__pt-BR",
+  "conceptId": "concept_microwave_inside_out",
+  "locale": "pt-BR",
+  "slug": "o-micro-ondas-cozinha-de-dentro-para-fora",
+  "title": "O micro-ondas cozinha de dentro para fora?",
+  "hook": "Se cozinhasse de dentro para fora, o meio do prato não ficaria frio.",
+  "summary": "Não: as micro-ondas aquecem as camadas externas da comida, e o calor chega ao centro aos poucos, por condução.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Muita gente ouviu dizer que o micro-ondas cozinha de dentro para fora. Mas, se fosse assim, o meio do prato não ficaria frio enquanto as bordas queimam. O que acontece é que as micro-ondas penetram só alguns centímetros na comida: o aquecimento é razoavelmente uniforme nos 2,5 a 3,8 centímetros mais externos de um alimento homogêneo e com muita água."
+    },
+    {
+      "type": "paragraph",
+      "text": "Daí para dentro, o calor se espalha devagar, por condução, como em qualquer outro cozimento. É por isso que muitas embalagens pedem um \"tempo de descanso\" depois de aquecer: ele deixa o calor chegar ao centro até a temperatura ficar uniforme."
+    },
+    {
+      "type": "takeaway",
+      "text": "O micro-ondas aquece as camadas de fora; o centro esquenta depois, por condução, por isso o descanso ajuda."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "De onde vem o mito"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em alguns alimentos, o centro de fato esquenta primeiro. Se a superfície é mais seca que o interior, como num pão ou numa batata assada, ou se há um recheio úmido sob uma casca seca, o recheio pode ficar mais quente que a parte de fora."
+    },
+    {
+      "type": "heading",
+      "text": "Como o micro-ondas aquece"
+    },
+    {
+      "type": "paragraph",
+      "text": "As micro-ondas fazem as moléculas polares da comida, como as de água, girarem tentando se alinhar ao campo elétrico. Esse movimento produz calor."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "É comum ouvir que o micro-ondas cozinha de dentro para fora, mas o centro do prato costuma ficar mais frio que as bordas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_straightdope_com_21343254_do_microwave_ovens_f9ad26",
+          "excerpt": "I’ve been told by everyone that “a microwave oven cooks from the inside out.” If that’s so, then why is my plate of food always coldest in the center, while the outside edges are scalding hot?"
+        },
+        {
+          "sourceId": "src_straightdope_com_21343254_do_microwave_ovens_f9ad26",
+          "excerpt": "it’s not necessarily accurate to say the food is cooked from the inside out."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O aquecimento é razoavelmente uniforme nos 25 a 38 mm mais externos de um alimento homogêneo e com muita água.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_microwave_oven_2a6beb",
+          "excerpt": "the heating effect is fairly uniform in the outer 25–38 mm (1–1.5 inches) of a homogeneous, high-water-content food item."
+        },
+        {
+          "sourceId": "src_straightdope_com_21343254_do_microwave_ovens_f9ad26",
+          "excerpt": "most of the microwave energy will be absorbed by the water near the surface before it gets into the center of the food"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Depois, o calor se espalha pela comida por condução, como em qualquer contato com um corpo quente.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_microwave_oven_2a6beb",
+          "excerpt": "Once the electrical field's energy is initially absorbed, heat will gradually spread through the object similarly to any other contact with a hotter body."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O tempo de descanso depois de aquecer deixa o calor se espalhar por condução até a temperatura ficar uniforme.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_straightdope_com_21343254_do_microwave_ovens_f9ad26",
+          "excerpt": "after you remove the food from the microwave, you’re supposed to let it stand for a prescribed time before serving. This lets the heat diffuse through the food via ordinary conduction so that a uniform temperature is reached."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Se a superfície é mais seca que o interior, como em pão ou batata assada, ou num recheio úmido sob casca seca, o centro pode esquentar mais rápido.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_straightdope_com_21343254_do_microwave_ovens_f9ad26",
+          "excerpt": "if the surface of the food is drier than the center, as with bread or a baked potato, the center will heat up faster. You can see this clearly if you microwave foods with a dry outer crust and a moist filling"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "As micro-ondas fazem moléculas polares da comida girarem tentando se alinhar ao campo, o que produz calor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_microwave_oven_2a6beb",
+          "excerpt": "is induces polar molecules in the food to rotate and produce thermal energy (heat) in a process known as dielectric heating."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_straightdope_com_21343254_do_microwave_ovens_f9ad26",
+    "src_en_wikipedia_org_wiki_microwave_oven_2a6beb"
+  ],
+  "quizIds": ["q_microwave_inside_out_1__pt-BR", "q_microwave_inside_out_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

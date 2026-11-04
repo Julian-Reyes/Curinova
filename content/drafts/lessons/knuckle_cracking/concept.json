@@ -1,0 +1,27 @@
+{
+  "id": "concept_knuckle_cracking",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 6,
+  "tags": ["myths", "joints", "body"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_lightning_strikes_twice",
+      "type": "next",
+      "reason": {
+        "pt-BR": "O último mito: o raio que não cai duas vezes.",
+        "en": "The last myth: lightning that never strikes twice."
+      }
+    },
+    {
+      "conceptId": "concept_blue_veins",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o corpo.",
+        "en": "Another myth about the body."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

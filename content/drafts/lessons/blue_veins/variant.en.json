@@ -1,0 +1,163 @@
+{
+  "id": "lesson_blue_veins__en",
+  "conceptId": "concept_blue_veins",
+  "locale": "en",
+  "slug": "is-the-blood-in-your-veins-blue",
+  "title": "Is the blood in your veins blue?",
+  "hook": "Anyone who has had blood drawn knows the answer.",
+  "summary": "Never: blood is always red. Veins look blue because of the way skin scatters red light.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Human blood is never blue. Oxygen-rich blood, mostly in the arteries, is bright red; blood that has given up its oxygen, mostly in the veins, is dark red. Anyone who has given blood or had a blood test can confirm it: venous blood comes out dark, but red. The veins themselves, by the way, are mostly colourless."
+    },
+    {
+      "type": "paragraph",
+      "text": "So why do they look blue? Because we see them through layers of skin and fat. According to a study by the physicist Alwin Kienle, skin scatters much of the red part of white light before it can reflect off the blood, leaving blue light to bounce back to our eyes. It’s a similar effect to the red sun at sunset."
+    },
+    {
+      "type": "takeaway",
+      "text": "Blood is always red; veins look blue because skin scatters red light before it can reach your eyes."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Sunset in reverse"
+    },
+    {
+      "type": "paragraph",
+      "text": "At sunset the atmosphere scatters blue colours away and the sun looks red. Skin does something similar, scattering the red light before it reflects off the blood."
+    },
+    {
+      "type": "heading",
+      "text": "What gives the colour"
+    },
+    {
+      "type": "paragraph",
+      "text": "A vein’s colour comes from the blood inside it, not from the vessel wall, which is mostly colourless."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Human blood is always red, never blue.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "the blood in human veins is also not blue. Bl"
+        },
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "ood is always red."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Oxygenated blood (in arteries) is bright red; blood that has lost oxygen (in veins) is dark red.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "Blood that has been oxygenated (mostly flowing through the arteries) is bright red and blood that has lost its oxygen (mostly flowing through the veins) is dark red."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Anyone who has given or had blood drawn can confirm venous blood is dark red, not blue.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "Anyone who has donated blood or had their blood drawn by a nurse can attest that deoxygenated blood is dark red and not blue."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Veins themselves are mostly colourless; the colour comes from the blood inside.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "The veins themselves are not blue, but are mostly colorless. It is the blood in the veins that gives them color."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "We see veins through skin and fat; skin scatters the red part of light before it reflects off the blood, and blue light returns to the eye.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "you are looking at your veins through layers of"
+        },
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "Skin scatters a lot of the red portion of white light before it can reflect off the blood, leaving the blue light to reflect off the blood and back to our eyes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The explanation comes from a study by Alwin Kienle on why veins look blue.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "according to Alwin Kienle in his paper \"Why do veins appear blue? A new look at an old question\""
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "It is similar to the red sun at sunset, when the atmosphere scatters the blue colours.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "It is a similar effect to how the white sun appears red at sunset due to the blue colors"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": ["src_wtamu_edu_cbaird_sq_2012_12_05aa86"],
+  "quizIds": ["q_blue_veins_1__en", "q_blue_veins_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

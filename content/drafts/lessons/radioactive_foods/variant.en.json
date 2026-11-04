@@ -1,0 +1,179 @@
+{
+  "id": "lesson_radioactive_foods__en",
+  "conceptId": "concept_radioactive_foods",
+  "locale": "en",
+  "slug": "are-bananas-and-brazil-nuts-radioactive",
+  "title": "Are bananas and Brazil nuts radioactive?",
+  "hook": "Yes, a tiny bit. There’s even a \"banana dose\".",
+  "summary": "Slightly: bananas contain potassium-40 and Brazil nuts can carry radium, in very small doses.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Bananas contain natural radioactive material: potassium-40, one of the naturally occurring forms of potassium. It is so familiar that it became an informal unit, the \"banana equivalent dose\", used to explain tiny radiation doses. Eating an average banana works out to about 0.1 microsieverts, and the dose doesn’t build up, because the body gets rid of extra potassium in urine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brazil nuts can contain traces of radium, another radioactive element. The trees have a very extensive root system that can concentrate radium when it is present in the soil. It is a small dose, though higher than in most foods."
+    },
+    {
+      "type": "takeaway",
+      "text": "Bananas and Brazil nuts carry a little natural radioactivity, in very small doses."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How much radium?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A kilogram of Brazil nuts can have between 40 and 260 becquerels of radium activity. One popular-science magazine goes as far as saying radium levels can be a thousand times those of other foods."
+    },
+    {
+      "type": "heading",
+      "text": "A ruler for small risks"
+    },
+    {
+      "type": "paragraph",
+      "text": "The \"banana dose\" is not an official unit: it was created to explain very small radiation doses and risks to the public."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Bananas contain natural radioactive material in the form of potassium-40.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_banana_equivalent_7c2dc3",
+          "excerpt": "A banana contains naturally occurring radioactive material in the form of potassium-40."
+        },
+        {
+          "sourceId": "src_mentalfloss_com_article_63768_7_most_32c00e",
+          "excerpt": "bananas also happen to be one of the most radioactive foods because they contain the isotope potassium-40."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The \"banana equivalent dose\" is an informal unit for comparing radiation doses.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_banana_equivalent_7c2dc3",
+          "excerpt": "Banana equivalent dose (BED) is an informal unit of measurement of ionizing radiation exposure"
+        },
+        {
+          "sourceId": "src_mentalfloss_com_article_63768_7_most_32c00e",
+          "excerpt": "there’s even an unofficial unit of measurement for radiation called the BED, or Banana Equivalent Dose"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "One banana is about 0.1 microsieverts, and the dose doesn’t build up because potassium is excreted in urine.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_banana_equivalent_7c2dc3",
+          "excerpt": "One BED is often correlated to 10−7 sievert (0.1 μSv); however, in practice, this dose is not cumulative, as the potassium in foods is excreted in urin"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Brazil nuts can contain traces of radium, a radioactive element.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_brazil_nut_a113ec",
+          "excerpt": "The nuts may contain traces of radium, a radioactive element"
+        },
+        {
+          "sourceId": "src_mentalfloss_com_article_63768_7_most_32c00e",
+          "excerpt": "The roots absorb the radium, which then makes its way to the"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The tree’s very extensive root system can concentrate radium when it is present in the soil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_brazil_nut_a113ec",
+          "excerpt": "the very extensive root system of the tree\" can concentrate naturally occurring radioactive material, when present in the soil."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "It is a small radium dose, though higher than common foods; a kilogram can have 40 to 260 becquerels.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_brazil_nut_a113ec",
+          "excerpt": "with a kilogram of nuts containing an activity between 40 and 260 becquerels (1 and 7 nanocuries); although a small dose of radium, this exposure is higher than in common foods."
+        },
+        {
+          "sourceId": "src_mentalfloss_com_article_63768_7_most_32c00e",
+          "excerpt": "the radium levels of Brazil nuts can be 1000 times what you’d see in other foods."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The banana dose is not an official unit and is used to explain very small doses and risks to the public.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_banana_equivalent_7c2dc3",
+          "excerpt": "The BED is only meant as an educational exercise and is not a formally adopted dose measurement."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_banana_equivalent_7c2dc3",
+          "excerpt": "very useful in attempting to explain infinitesimal doses (and corresponding infinitesimal risks) to members of the public"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_en_wikipedia_org_wiki_banana_equivalent_7c2dc3",
+    "src_mentalfloss_com_article_63768_7_most_32c00e",
+    "src_en_wikipedia_org_wiki_brazil_nut_a113ec"
+  ],
+  "quizIds": ["q_radioactive_foods_1__en", "q_radioactive_foods_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "concept_mpemba_effect",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 2,
+  "tags": ["myths", "water", "physics"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_microwave_inside_out",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre esquentar e esfriar.",
+        "en": "Another myth about heating and cooling."
+      }
+    },
+    {
+      "conceptId": "concept_blue_veins",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do freezer para o corpo: a cor do sangue.",
+        "en": "From the freezer to the body: the colour of blood."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

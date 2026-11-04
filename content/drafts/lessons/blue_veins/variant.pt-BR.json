@@ -1,0 +1,163 @@
+{
+  "id": "lesson_blue_veins__pt-BR",
+  "conceptId": "concept_blue_veins",
+  "locale": "pt-BR",
+  "slug": "o-sangue-nas-veias-e-azul",
+  "title": "O sangue nas veias é azul?",
+  "hook": "Quem já tirou sangue sabe a resposta.",
+  "summary": "Nunca: o sangue é sempre vermelho. As veias parecem azuis por causa de como a pele espalha a luz vermelha.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "O sangue humano nunca é azul. O sangue oxigenado, que corre principalmente nas artérias, é vermelho vivo; o que já perdeu oxigênio, que corre nas veias, é vermelho-escuro. Quem já doou sangue ou fez exame pode confirmar: o sangue venoso sai escuro, mas vermelho. As próprias veias, aliás, são quase incolores."
+    },
+    {
+      "type": "paragraph",
+      "text": "Então por que elas parecem azuis? Porque as vemos através de camadas de pele e gordura. Segundo um estudo do físico Alwin Kienle, a pele espalha boa parte da parte vermelha da luz branca antes que ela chegue ao sangue, e a luz azul é a que volta para os nossos olhos. É um efeito parecido com o do Sol avermelhado no pôr do sol."
+    },
+    {
+      "type": "takeaway",
+      "text": "O sangue é sempre vermelho; as veias parecem azuis porque a pele espalha a luz vermelha antes que ela volte aos olhos."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O pôr do sol ao contrário"
+    },
+    {
+      "type": "paragraph",
+      "text": "No pôr do sol, a atmosfera espalha as cores azuis e o Sol parece vermelho. Na pele acontece algo parecido, só que com a luz vermelha sendo espalhada antes de refletir no sangue."
+    },
+    {
+      "type": "heading",
+      "text": "Quem é o responsável pela cor"
+    },
+    {
+      "type": "paragraph",
+      "text": "A cor das veias vem do sangue dentro delas, não da parede do vaso, que é quase incolor."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O sangue humano é sempre vermelho, nunca azul.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "the blood in human veins is also not blue. Bl"
+        },
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "ood is always red."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O sangue oxigenado (nas artérias) é vermelho vivo; o que perdeu oxigênio (nas veias) é vermelho-escuro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "Blood that has been oxygenated (mostly flowing through the arteries) is bright red and blood that has lost its oxygen (mostly flowing through the veins) is dark red."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Quem já doou ou tirou sangue pode confirmar que o sangue venoso é vermelho-escuro, não azul.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "Anyone who has donated blood or had their blood drawn by a nurse can attest that deoxygenated blood is dark red and not blue."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "As veias em si são quase incolores; a cor vem do sangue dentro delas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "The veins themselves are not blue, but are mostly colorless. It is the blood in the veins that gives them color."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Vemos as veias através de pele e gordura; a pele espalha a parte vermelha da luz antes que ela reflita no sangue, e a azul volta aos olhos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "you are looking at your veins through layers of"
+        },
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "Skin scatters a lot of the red portion of white light before it can reflect off the blood, leaving the blue light to reflect off the blood and back to our eyes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A explicação vem de um estudo de Alwin Kienle sobre por que as veias parecem azuis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "according to Alwin Kienle in his paper \"Why do veins appear blue? A new look at an old question\""
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "É um efeito parecido com o do Sol avermelhado no pôr do sol, quando a atmosfera espalha as cores azuis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
+          "excerpt": "It is a similar effect to how the white sun appears red at sunset due to the blue colors"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": ["src_wtamu_edu_cbaird_sq_2012_12_05aa86"],
+  "quizIds": ["q_blue_veins_1__pt-BR", "q_blue_veins_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}
