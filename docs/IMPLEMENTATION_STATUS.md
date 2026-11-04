@@ -1,13 +1,13 @@
 # Implementation status
 
-Last updated: 2026-11-03 (the lesson quiz shows the Review image, D15).
+Last updated: 2026-11-03 (C1 pilot published: 22 lessons live).
 
 | Milestone                            | Status                           |
 | ------------------------------------ | -------------------------------- |
 | **M1 — Foundation**                  | ✅ Done (see below)              |
 | M2 — Guest MVP slice                 | In progress                      |
 | M2.5 — Product experience overhaul   | Built; awaiting founder sign-off |
-| M3 — Content pipeline tooling        | In progress (sessions 1–3 built) |
+| M3 — Content pipeline tooling        | Pilot done; batch 2 next         |
 | M4 — Public web and growth surface   | Not started                      |
 | M5 — Offline, polish, beta readiness | Not started                      |
 
@@ -101,7 +101,7 @@ Plan approved 2026-10-28 (D18). Three build sessions, then a C1 pilot.
 | `content:stats`, `content:due-review`                                                                                                           | ✅ session 1 |
 | Sources (`content:sources` refs, fetch, refetch), `content:check-drafts`, `content:check-links`, `content:dedupe`, writer/verifier instructions | ✅ session 2 |
 | Review tool `/_review` and a fixture dry run (D20)                                                                                              | ✅ session 3 |
-| C1 pilot on one trail                                                                                                                           | Next         |
+| C1 pilot: all five sample trails (22 lessons) reviewed and published, live 2026-11-03                                                           | ✅           |
 
 ### Review tool `/_review` (session 3, 2026-10-30)
 
@@ -119,6 +119,6 @@ Known limitations: image accuracy review is later (D20). Claims carry no positio
 
 ### Deferred to later milestones
 
-- M3: the C1 pilot (sourcing and reviewing the sample drafts).
+- M3: trail batch 2 (D19, 31 lessons). Before it: the live site switches to the `production` content channel, and `/_review` gets an image-check button.
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).
