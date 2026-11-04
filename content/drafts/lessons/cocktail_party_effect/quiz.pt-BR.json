@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_cocktail_party_effect_1__pt-BR",
+    "questionGroupId": "qg_cocktail_party_effect_1",
+    "conceptId": "concept_cocktail_party_effect",
+    "locale": "pt-BR",
+    "prompt": "No experimento de 1959, que parte dos voluntários ouviu o próprio nome no ouvido que deviam ignorar?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de um terço"
+      },
+      {
+        "id": "b",
+        "text": "Praticamente todos"
+      },
+      {
+        "id": "c",
+        "text": "Ninguém"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Cerca de um terço percebeu o próprio nome, resultado repetido em 1995: o som ignorado ainda é em parte processado.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_cocktail_party_effect_2__pt-BR",
+    "questionGroupId": "qg_cocktail_party_effect_2",
+    "conceptId": "concept_cocktail_party_effect",
+    "locale": "pt-BR",
+    "prompt": "Por que você nota seu nome numa conversa que estava ignorando?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O som ignorado não é totalmente descartado; palavras importantes ainda são detectadas"
+      },
+      {
+        "id": "b",
+        "text": "Porque seu ouvido fica mais sensível em festas"
+      },
+      {
+        "id": "c",
+        "text": "Porque as pessoas falam seu nome mais alto"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Mesmo sons fora do foco da atenção podem ter palavras importantes detectadas, como o próprio nome.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  }
+]

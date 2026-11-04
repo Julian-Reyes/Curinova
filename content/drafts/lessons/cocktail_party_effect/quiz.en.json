@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_cocktail_party_effect_1__en",
+    "questionGroupId": "qg_cocktail_party_effect_1",
+    "conceptId": "concept_cocktail_party_effect",
+    "locale": "en",
+    "prompt": "In the 1959 experiment, what share of volunteers heard their own name in the ear they were told to ignore?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About a third"
+      },
+      {
+        "id": "b",
+        "text": "Nearly all"
+      },
+      {
+        "id": "c",
+        "text": "None"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "About a third noticed their name, a result repeated in 1995: ignored sound is still partly processed.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_cocktail_party_effect_2__en",
+    "questionGroupId": "qg_cocktail_party_effect_2",
+    "conceptId": "concept_cocktail_party_effect",
+    "locale": "en",
+    "prompt": "Why do you notice your name in a conversation you were ignoring?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignored sound isn’t fully discarded; important words still get detected"
+      },
+      {
+        "id": "b",
+        "text": "Because your ears get more sensitive at parties"
+      },
+      {
+        "id": "c",
+        "text": "Because people say your name louder"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Even sounds outside your focus can have important words picked out, such as your own name.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  }
+]

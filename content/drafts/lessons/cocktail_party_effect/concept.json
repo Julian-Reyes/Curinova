@@ -1,0 +1,27 @@
+{
+  "id": "concept_cocktail_party_effect",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 3,
+  "tags": ["attention", "hearing", "perception"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_saccadic_suppression",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Agora a visão: o que o cérebro apaga a cada movimento dos olhos.",
+        "en": "Now vision: what the brain erases each time your eyes move."
+      }
+    },
+    {
+      "conceptId": "concept_invisible_gorilla",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O lado oposto: o que a atenção deixa passar.",
+        "en": "The flip side: what attention lets slip."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

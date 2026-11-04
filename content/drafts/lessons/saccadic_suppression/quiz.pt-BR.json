@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_saccadic_suppression_1__pt-BR",
+    "questionGroupId": "qg_saccadic_suppression_1",
+    "conceptId": "concept_saccadic_suppression",
+    "locale": "pt-BR",
+    "prompt": "Por que não vemos o mundo borrado quando os olhos saltam de um ponto a outro?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O cérebro bloqueia por um instante o processamento visual durante o salto"
+      },
+      {
+        "id": "b",
+        "text": "Os olhos se movem devagar demais para borrar a imagem"
+      },
+      {
+        "id": "c",
+        "text": "A retina tira uma foto antes de cada movimento"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Durante as sacadas, a imagem na retina borra, mas o cérebro bloqueia seletivamente o processamento visual.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_saccadic_suppression_2__pt-BR",
+    "questionGroupId": "qg_saccadic_suppression_2",
+    "conceptId": "concept_saccadic_suppression",
+    "locale": "pt-BR",
+    "prompt": "Como se sabe que a supressão é ativada pelo próprio cérebro?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ela começa antes de o olho começar a se mover"
+      },
+      {
+        "id": "b",
+        "text": "Ela só acontece no escuro"
+      },
+      {
+        "id": "c",
+        "text": "Ela aparece só em pessoas míopes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Como começa antes do início da sacada, ela não pode ser disparada pelo movimento da imagem.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

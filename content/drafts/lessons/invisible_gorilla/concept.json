@@ -1,0 +1,27 @@
+{
+  "id": "concept_invisible_gorilla",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 2,
+  "tags": ["attention", "perception", "experiments"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_cocktail_party_effect",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Nem tudo o que você ignora some: seu nome atravessa a sala.",
+        "en": "Not everything you ignore disappears: your name crosses the room."
+      }
+    },
+    {
+      "conceptId": "concept_multitasking_switching",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que dividir a atenção cobra um preço.",
+        "en": "Why splitting your attention has a cost."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

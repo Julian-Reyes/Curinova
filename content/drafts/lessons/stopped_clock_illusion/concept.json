@@ -1,0 +1,27 @@
+{
+  "id": "concept_stopped_clock_illusion",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 5,
+  "tags": ["attention", "time-perception", "vision"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_time_slows_fear",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outra distorção do tempo, desta vez feita pela memória.",
+        "en": "Another time distortion, this one made by memory."
+      }
+    },
+    {
+      "conceptId": "concept_saccadic_suppression",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O buraco na visão que a ilusão ajuda a preencher.",
+        "en": "The gap in vision the illusion helps fill."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

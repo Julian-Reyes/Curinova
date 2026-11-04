@@ -1,0 +1,166 @@
+{
+  "id": "lesson_cocktail_party_effect__pt-BR",
+  "conceptId": "concept_cocktail_party_effect",
+  "locale": "pt-BR",
+  "slug": "como-voce-ouve-seu-nome-numa-sala-barulhenta",
+  "title": "Como você ouve seu nome numa sala barulhenta?",
+  "hook": "Você ignora as conversas ao redor, até alguém dizer seu nome.",
+  "summary": "O som que você ignora ainda é em parte processado: por isso seu próprio nome pode chamar sua atenção do outro lado da sala.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Numa festa cheia, a maioria das pessoas consegue acompanhar uma única conversa e deixar as outras de lado. Mesmo assim, se alguém lá do outro lado diz o seu nome, você costuma perceber. Isso indica que o som ignorado não é simplesmente descartado: uma hipótese é que o cérebro analisa todos os estímulos sem que a gente perceba e separa os mais importantes."
+    },
+    {
+      "type": "paragraph",
+      "text": "O fenômeno foi definido e batizado em 1953 por Colin Cherry, que estudava como as pessoas separam duas mensagens ouvidas ao mesmo tempo. Em 1959, o pesquisador Moray pediu que voluntários repetissem uma mensagem ouvida num ouvido e ignorassem a do outro, onde o nome deles aparecia. Cerca de um terço ouviu o próprio nome, resultado repetido em 1995."
+    },
+    {
+      "type": "takeaway",
+      "text": "O som que você ignora ainda é em parte processado; por isso seu nome atravessa uma sala barulhenta."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nasceu numa torre de controle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nos anos 1950, controladores de voo recebiam mensagens de vários pilotos pelo mesmo alto-falante. Ouvir tantas vozes misturadas tornava o trabalho muito difícil, e problemas assim estão na origem das primeiras pesquisas sobre atenção."
+    },
+    {
+      "type": "heading",
+      "text": "Dois ouvidos ajudam"
+    },
+    {
+      "type": "paragraph",
+      "text": "O efeito funciona melhor com os dois ouvidos. Pessoas que ouvem com um só costumam se distrair muito mais com ruídos."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A maioria das pessoas consegue acompanhar uma única conversa numa sala barulhenta e deixar as outras de lado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "This allows most people to tune effortlessly into a single voice while tuning out all others."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Palavras importantes, como o próprio nome, podem ser detectadas mesmo vindas de sons ignorados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "when one may immediately detect words of importance originating from unattended stimuli, for instance hearing one's name among a wide range of auditory input."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Uma hipótese é que o cérebro analisa todos os estímulos de forma inconsciente e os identifica conforme sua importância.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "It has been proposed that a person's sensory memory subconsciously parses all stimuli and identifies"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O efeito foi definido e batizado por Colin Cherry em 1953, que estudava como as pessoas separam duas mensagens ouvidas ao mesmo tempo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "The effect was first defined and named \"the cocktail party problem\" by Colin Cherry in 1953."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "Cherry conducted attention experiments in which participants listened to two different messages from a single loudspeaker at the same time and tried to separate them"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Em 1959, Moray fez voluntários repetirem a mensagem de um ouvido e ignorarem a do outro, onde aparecia o nome deles; cerca de um terço ouviu o próprio nome, resultado repetido em 1995.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_edc704",
+          "excerpt": "Moray (1959) used a dichotic listening task in which participants shadowed (repeated) the relevant message presented to one ear, and had to ignore the irrelevant message in the other ear, into which their name was inserted."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_edc704",
+          "excerpt": "bout one-third of the participants reported hearing their name in the unattended channel, a finding replicated by Wood & Cowan (1995)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Nos anos 1950, controladores de voo recebiam mensagens de vários pilotos pelo mesmo alto-falante, o que dificultava o trabalho e motivou as primeiras pesquisas sobre atenção.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "In the early 1950s much of the early attention research can be traced to problems faced by air traffic controllers. At that time, controllers received messages from pilots over loudspeakers in the control tower. Hearing the intermixed voices of many pilots over a single loudspeaker made the controller's task very difficult."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O efeito funciona melhor com os dois ouvidos; quem ouve só com um se distrai mais com ruídos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+          "excerpt": "The cocktail party effect works best as a binaural effect, which requires hearing with both ears. People with only one functioning ear seem much more distracted by interfering noise than people with two typical ears."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_en_wikipedia_org_wiki_cocktail_party_b64682",
+    "src_pmc_ncbi_nlm_nih_gov_articles_edc704"
+  ],
+  "quizIds": ["q_cocktail_party_effect_1__pt-BR", "q_cocktail_party_effect_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

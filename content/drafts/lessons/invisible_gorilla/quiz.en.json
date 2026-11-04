@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_invisible_gorilla_1__en",
+    "questionGroupId": "qg_invisible_gorilla_1",
+    "conceptId": "concept_invisible_gorilla",
+    "locale": "en",
+    "prompt": "In the gorilla experiment, how many of the people counting passes missed the gorilla?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About half"
+      },
+      {
+        "id": "b",
+        "text": "Almost nobody"
+      },
+      {
+        "id": "c",
+        "text": "Everyone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "About half missed it: attention locked on a task can erase something unexpected right in front of you.",
+    "misconception": "Thinking \"I would definitely see it\" is exactly the intuition the experiment overturns.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_invisible_gorilla_2__en",
+    "questionGroupId": "qg_invisible_gorilla_2",
+    "conceptId": "concept_invisible_gorilla",
+    "locale": "en",
+    "prompt": "What is inattentional blindness?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Failing to notice something unexpected because attention is on another task"
+      },
+      {
+        "id": "b",
+        "text": "An eye problem that comes with age"
+      },
+      {
+        "id": "c",
+        "text": "Seeing things that aren’t there"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Someone focused on a task can miss events around them, even in plain sight.",
+    "claimIds": ["c6", "c8"],
+    "status": "draft"
+  }
+]

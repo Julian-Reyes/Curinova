@@ -1,0 +1,183 @@
+{
+  "id": "lesson_saccadic_suppression__pt-BR",
+  "conceptId": "concept_saccadic_suppression",
+  "locale": "pt-BR",
+  "slug": "por-que-voce-nao-ve-o-mundo-borrar-quando-mexe-os-olhos",
+  "title": "Por que você não vê o mundo borrar quando mexe os olhos?",
+  "hook": "Tente ver seus próprios olhos se mexendo no espelho. Não dá.",
+  "summary": "A cada salto rápido dos olhos, o cérebro bloqueia por um instante o processamento visual, e o borrão nunca chega à consciência.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Olhe no espelho e passe o olhar de um olho para o outro: você nunca vai ver seus olhos em movimento, embora outra pessoa veja. Esses saltos rápidos do olhar se chamam sacadas. Como são muito velozes, a imagem na retina inevitavelmente fica borrada durante o movimento."
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagens borradas não servem para muita coisa, e o cérebro bloqueia seletivamente o processamento visual durante esses saltos. É a supressão sacádica, descrita pela primeira vez em 1898. Ela começa antes mesmo de o olho se mover, então não pode ser disparada pelo movimento da imagem: é ativada pelo próprio cérebro."
+    },
+    {
+      "type": "takeaway",
+      "text": "A cada salto do olhar, o cérebro desliga por um instante a visão; por isso você não vê o mundo borrar."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Até nos saltos minúsculos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2021, pesquisadores da Universidade de Rochester mostraram que o efeito também ocorre nas microssacadas, saltos minúsculos do olhar. Logo antes e logo depois do movimento, os participantes não conseguiam ver os alvos, mesmo olhando direto para eles. A visão no centro do olhar, porém, se recuperava rápido."
+    },
+    {
+      "type": "heading",
+      "text": "Um tema ainda em debate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os detalhes continuam em discussão. Por muito tempo se falou em dois tipos de supressão, mas testes mais recentes indicam que essas explicações podem não estar corretas, e um estudo mostrou que é possível detectar movimento durante a sacada."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Olhando no espelho de um olho para o outro, nunca se vê os próprios olhos em movimento, embora outra pessoa veja.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "This can easily be duplicated by looking into a mirror, and looking from one eye to another. The eyes can never be observed in motion, yet an external observer clearly sees the motion of the eyes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Sacadas são movimentos rápidos dos olhos, e durante elas a imagem na retina fica inevitavelmente borrada.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "A saccade is a fast eye motion, and because it is a motion that is optimised for speed, there is inevitable blurring of the image on the retina"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O cérebro bloqueia seletivamente o processamento visual durante as sacadas: é a supressão sacádica.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Saccadic masking, also known as (visual) saccadic suppression, is the phenomenon in visual perception where the brain selectively blocks visual processing during eye movements"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "It's long been known that vision is transiently impaired during larger gaze shifts"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O fenômeno foi descrito pela primeira vez em 1898.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "omenon was first described by Erdmann and Dodge in 1898"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A supressão começa antes do início da sacada, então não pode ser disparada pelo movimento na retina: é ativada pelo cérebro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Because saccadic suppression starts before the actual onset of the saccade, it cannot be triggered by retinal motion and must be centrally activated by the brain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Em 2021, pesquisadores de Rochester mostraram que, logo antes e logo depois de microssacadas, os participantes não viam os alvos, mesmo olhando para eles.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "researchers at the University of Rochester"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "mmediately before and immediately after participants' gaze shifted, the participants could not see the fleas, even when they were looking directly at them."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A visão no centro do olhar se recuperava rapidamente.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "the researchers found that vision recovered rapidly at the center of the gaze"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Testes mais recentes indicam que as explicações clássicas podem não estar corretas, e um estudo mostrou detecção de movimento durante a sacada.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Testing since then has revealed that these two theories may not be correct."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Within-saccade movement detection was proven and detailed in a paper by Richard Schweitzer and Martin Rolfs"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+    "src_sciencedaily_com_releases_2021_12_211202132437_b88639"
+  ],
+  "quizIds": ["q_saccadic_suppression_1__pt-BR", "q_saccadic_suppression_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

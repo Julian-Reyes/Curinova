@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_stopped_clock_illusion_1__en",
+    "questionGroupId": "qg_stopped_clock_illusion_1",
+    "conceptId": "concept_stopped_clock_illusion",
+    "locale": "en",
+    "prompt": "Why does the clock’s first tick seem to last longer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The brain extends the hand’s image backwards, to before the eyes moved"
+      },
+      {
+        "id": "b",
+        "text": "The clock really slows down when watched"
+      },
+      {
+        "id": "c",
+        "text": "The eyes get tired from focusing"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The brain fills in the eye jump by stretching the target’s image back in time.",
+    "misconception": "The clock doesn’t change: time perception adjusts after the eye movement.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_stopped_clock_illusion_2__en",
+    "questionGroupId": "qg_stopped_clock_illusion_2",
+    "conceptId": "concept_stopped_clock_illusion",
+    "locale": "en",
+    "prompt": "How often does the brain do this stretching?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every time we move our eyes, but we only notice with a time reference"
+      },
+      {
+        "id": "b",
+        "text": "Only when we look at clocks"
+      },
+      {
+        "id": "c",
+        "text": "Only when we’re sleepy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "It happens with every eye movement; the second hand just makes the effect visible.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  }
+]

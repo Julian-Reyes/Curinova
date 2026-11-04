@@ -1,0 +1,27 @@
+{
+  "id": "concept_saccadic_suppression",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 4,
+  "tags": ["attention", "vision", "eyes"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_stopped_clock_illusion",
+      "type": "next",
+      "reason": {
+        "pt-BR": "O cérebro \"tapa\" esse buraco, e o relógio parece parar.",
+        "en": "The brain patches the gap, and the clock seems to stop."
+      }
+    },
+    {
+      "conceptId": "concept_invisible_gorilla",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra prova de que não vemos tudo o que está diante dos olhos.",
+        "en": "More proof that we don’t see everything in front of our eyes."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

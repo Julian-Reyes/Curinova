@@ -1,0 +1,27 @@
+{
+  "id": "concept_time_slows_fear",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 6,
+  "tags": ["attention", "time-perception", "memory"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_stopped_clock_illusion",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra ilusão de tempo, esta da visão.",
+        "en": "Another time illusion, this one from vision."
+      }
+    },
+    {
+      "conceptId": "concept_multitasking_switching",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Os limites da atenção no dia a dia.",
+        "en": "The everyday limits of attention."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

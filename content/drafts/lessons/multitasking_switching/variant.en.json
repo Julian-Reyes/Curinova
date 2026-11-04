@@ -1,0 +1,201 @@
+{
+  "id": "lesson_multitasking_switching__en",
+  "conceptId": "concept_multitasking_switching",
+  "locale": "en",
+  "slug": "can-you-really-do-two-things-at-once",
+  "title": "Can you really do two things at once?",
+  "hook": "Multitasking feels efficient, but every switch has a price.",
+  "summary": "Mostly not: the mind isn’t built for heavy multitasking, and every switch between tasks costs time and accuracy.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Multitasking can mean doing two tasks at the same time, switching between them, or doing them in quick succession. Psychologists who study it have concluded that the mind and brain were not designed for heavy-duty multitasking. In task-switching experiments, people lost time whenever they had to move from one task to another, and the more complex the tasks, the more time they lost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each switch costs only a few tenths of a second, but the cost adds up when people go back and forth many times. According to psychologist David Meyer, these brief mental blocks can eat up as much as 40% of someone’s productive time. Multitasking may look efficient, but it can end up taking longer and producing more errors."
+    },
+    {
+      "type": "takeaway",
+      "text": "Every task switch costs time; added up, switching makes multitasking slower and more error-prone."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Two steps in every switch"
+    },
+    {
+      "type": "paragraph",
+      "text": "According to Meyer and colleagues, the brain’s executive control works in two stages: goal shifting (\"I want to do this now instead of that\") and rule activation (\"I’m turning off the rules for that and turning on the rules for this\")."
+    },
+    {
+      "type": "heading",
+      "text": "Even when the switch is predictable"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 1990s, Robert Rogers and Stephen Monsell showed that even when people knew exactly when they would switch tasks, they were slower on a switch than when repeating the same task."
+    },
+    {
+      "type": "heading",
+      "text": "On the road"
+    },
+    {
+      "type": "paragraph",
+      "text": "Losing half a second to a task switch can make a life-or-death difference for a driver on a phone. In that time the car can travel far enough to hit an obstacle that could otherwise have been avoided."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Multitasking can mean doing two tasks at once, switching between them, or doing them in quick succession.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "Multitasking can take place when someone tries to perform two tasks simultaneously, switch . from one task to another, or perform two or more tasks in rapid succession."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Psychologists have concluded that the mind and brain were not designed for heavy-duty multitasking.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "have found that the mind and brain were not designed for heavy-duty multitasking."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "In experiments, people lost time whenever they switched tasks, and lost more with more complex tasks.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "For all tasks, the participants lost time when they had to switch from one task to another."
+        },
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "As tasks got more complex, participants lost more time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Each switch costs a few tenths of a second, but the cost adds up with repeated switching.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "Although switch costs may be relatively small, sometimes just a few tenths of a second per switch"
+        },
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "they can add up to large amounts when people switch repeatedly back and forth between tasks."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "According to David Meyer, the mental blocks of switching can cost up to 40% of productive time.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "Meyer has said that even brief mental blocks created by shifting between tasks can cost as much as 40 percent of someone's productive time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Multitasking may seem efficient but can take more time and involve more errors.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "Thus, multitasking may seem efficient on the surface but may actually take more time in the end and involve more error."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Executive control has two stages: goal shifting and rule activation.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "They call one stage \"goal shifting\" (\"I want to do this now instead of that\") and the other stage \"rule activation\" (\"I'm turning off the rules for that and turning on the rules for this\")."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Rogers and Monsell showed that even with predictable switches, people were slower when switching than when repeating a task.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "In the mid-1990s, Robert Rogers, PhD, and Stephen Monsell, D.Phil, found that even when people had to switch completely predictably between two tasks every two or four trials, they were still slower on task-switch t"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Losing half a second to a switch can be life or death for a driver on a phone.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "losing just a half second of time to task switching can make a life-or-death difference for a driver on a cell phone traveling at 30 MPH."
+        },
+        {
+          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
+          "excerpt": "it can travel far enough to crash into an obstacle that might otherwise have been avoided."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": ["src_apa_org_topics_research_multitasking_dfe2c4"],
+  "quizIds": ["q_multitasking_switching_1__en", "q_multitasking_switching_2__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

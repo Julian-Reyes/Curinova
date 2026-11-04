@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_invisible_gorilla_1__pt-BR",
+    "questionGroupId": "qg_invisible_gorilla_1",
+    "conceptId": "concept_invisible_gorilla",
+    "locale": "pt-BR",
+    "prompt": "No experimento do gorila, quantas das pessoas ocupadas em contar passes não viram o gorila?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de metade"
+      },
+      {
+        "id": "b",
+        "text": "Quase ninguém"
+      },
+      {
+        "id": "c",
+        "text": "Todas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Cerca de metade não viu o gorila: a atenção presa a uma tarefa pode apagar algo inesperado bem à frente.",
+    "misconception": "Achar que \"eu com certeza veria\" é justamente a intuição que o experimento derruba.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_invisible_gorilla_2__pt-BR",
+    "questionGroupId": "qg_invisible_gorilla_2",
+    "conceptId": "concept_invisible_gorilla",
+    "locale": "pt-BR",
+    "prompt": "O que é a cegueira por desatenção?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não perceber algo inesperado porque a atenção está em outra tarefa"
+      },
+      {
+        "id": "b",
+        "text": "Um problema nos olhos que surge com a idade"
+      },
+      {
+        "id": "c",
+        "text": "Ver coisas que não existem"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Quem está concentrado numa tarefa pode não notar acontecimentos à sua volta, mesmo à vista.",
+    "claimIds": ["c6", "c8"],
+    "status": "draft"
+  }
+]

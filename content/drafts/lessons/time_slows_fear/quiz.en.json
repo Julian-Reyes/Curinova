@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_time_slows_fear_1__en",
+    "questionGroupId": "qg_time_slows_fear_1",
+    "conceptId": "concept_time_slows_fear",
+    "locale": "en",
+    "prompt": "What did the free-fall experiment show about \"slow-motion\" time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nobody gained slow-motion vision; the impression comes later, from memory"
+      },
+      {
+        "id": "b",
+        "text": "Time really slows down when you’re scared"
+      },
+      {
+        "id": "c",
+        "text": "Only fearful people feel time slow down"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Volunteers couldn’t read fast numbers during the fall, but later remembered the fall as longer.",
+    "misconception": "The feeling is real, but it’s built by memory, not by perception in the moment.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_time_slows_fear_2__en",
+    "questionGroupId": "qg_time_slows_fear_2",
+    "conceptId": "concept_time_slows_fear",
+    "locale": "en",
+    "prompt": "By how much did volunteers overestimate their own fall?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 36%"
+      },
+      {
+        "id": "b",
+        "text": "About 5%"
+      },
+      {
+        "id": "c",
+        "text": "More than 300%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Compared with other people’s falls, their own seemed to last 36% longer.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

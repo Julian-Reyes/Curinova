@@ -1,0 +1,27 @@
+{
+  "id": "concept_multitasking_switching",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 1,
+  "tags": ["attention", "multitasking", "productivity"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_invisible_gorilla",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Quando a atenção está presa numa tarefa, o resto pode sumir.",
+        "en": "When attention is locked on one task, everything else can vanish."
+      }
+    },
+    {
+      "conceptId": "concept_cocktail_party_effect",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O que o cérebro faz com o que você está ignorando.",
+        "en": "What the brain does with what you’re ignoring."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

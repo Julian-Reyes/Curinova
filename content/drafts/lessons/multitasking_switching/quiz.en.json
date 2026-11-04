@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_multitasking_switching_1__en",
+    "questionGroupId": "qg_multitasking_switching_1",
+    "conceptId": "concept_multitasking_switching",
+    "locale": "en",
+    "prompt": "What happens when you switch between two tasks?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Each switch costs a little time, and the cost adds up"
+      },
+      {
+        "id": "b",
+        "text": "The brain does both at once with no loss"
+      },
+      {
+        "id": "c",
+        "text": "You get faster at both"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In task-switching experiments, people always lose time with each switch, and more so with complex tasks.",
+    "misconception": "The feeling of efficiency is misleading: added up, the small losses can exceed a third of productive time.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_multitasking_switching_2__en",
+    "questionGroupId": "qg_multitasking_switching_2",
+    "conceptId": "concept_multitasking_switching",
+    "locale": "en",
+    "prompt": "Why is multitasking especially dangerous at the wheel?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Half a second lost to a switch can be enough to crash"
+      },
+      {
+        "id": "b",
+        "text": "Because the phone interferes with the engine"
+      },
+      {
+        "id": "c",
+        "text": "Because driving takes no attention"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In the time lost to the switch, the car can travel far enough to hit an obstacle.",
+    "claimIds": ["c9"],
+    "status": "draft"
+  }
+]

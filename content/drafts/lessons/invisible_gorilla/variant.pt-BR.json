@@ -1,0 +1,209 @@
+{
+  "id": "lesson_invisible_gorilla__pt-BR",
+  "conceptId": "concept_invisible_gorilla",
+  "locale": "pt-BR",
+  "slug": "como-metade-das-pessoas-nao-viu-um-gorila",
+  "title": "Como metade das pessoas não viu um gorila?",
+  "hook": "Um gorila passou bem no meio do vídeo. Muita gente jurou que não.",
+  "summary": "Ocupadas em contar passes, cerca de metade das pessoas não viu um gorila no vídeo: é a cegueira por desatenção (Simons e Chabris, 1999).",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Num vídeo curto, dois times, um de camisa branca e outro de camisa preta, trocam passes de basquete. A tarefa é contar só os passes do time de branco. No meio do vídeo, uma pessoa fantasiada de gorila entra, para no centro da cena, bate no peito e sai, cerca de nove segundos depois."
+    },
+    {
+      "type": "paragraph",
+      "text": "No experimento de Daniel Simons e Christopher Chabris, publicado em 1999, cerca de metade das pessoas ocupadas em contar os passes não viu o gorila. Ao assistir de novo, muitas acusaram os pesquisadores de trocar o vídeo. O fenômeno se chama cegueira por desatenção: quem está concentrado numa tarefa pode não perceber algo inesperado bem à sua frente."
+    },
+    {
+      "type": "takeaway",
+      "text": "Com a atenção presa a uma tarefa, até um gorila pode passar despercebido: é a cegueira por desatenção."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Por que surpreende"
+    },
+    {
+      "type": "paragraph",
+      "text": "Temos a forte intuição de que algo inesperado e marcante na nossa frente vai chamar a atenção sozinho. Por isso o resultado espanta: quem viu o gorila não acredita que alguém o perdeu, e quem o perdeu não acredita que perdeu."
+    },
+    {
+      "type": "heading",
+      "text": "No dia a dia"
+    },
+    {
+      "type": "paragraph",
+      "text": "Concentrados numa tarefa, como falar ao celular enquanto dirigem, muitos de nós ficamos cegos a acontecimentos à nossa volta."
+    },
+    {
+      "type": "heading",
+      "text": "Uma ideia mais antiga"
+    },
+    {
+      "type": "paragraph",
+      "text": "O estudo foi uma nova versão de experimentos anteriores do psicólogo Ulric Neisser, dos anos 1970."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No vídeo, times de camisa branca e preta trocam passes de basquete, e a tarefa é contar os passes do time de branco.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "One team wears white shirts and the other black shirts, and the members move around one another in a small room tossing two basketballs. Your task is to count the number of passes made by the white team"
+        },
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "We had people watch a video in which three people were wearing white shirts and passing a basketball and the only task was to count how many times the players passed the ball."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Uma pessoa fantasiada de gorila entra, vai ao centro da cena, bate no peito e sai cerca de nove segundos depois.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "About halfway through the video we had a person wearing a gorilla suit walk into the scene, walk to the middle of the scene, turn to face the camera, thump its chest and then walk off, a total of about nine seconds later."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O estudo de Simons e Chabris foi publicado em 1999.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_inattentional_blindness_cd5a81",
+          "excerpt": "The paper describing the study, \"Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events\", was published in the journal Perception in 1999."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Cerca de metade das pessoas ocupadas em contar os passes não viu o gorila.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "about half didn't see the gorilla at all; when we showed it to them later, they were shocked."
+        },
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "In fact, 50 percent of subjects in this remarkable experiment by Daniel J. Simons of the University of Illinois and Christopher F. Chabris of Harvard University did not see the gorilla"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Quando viram o vídeo de novo, muitos acusaram os pesquisadores de trocar a gravação.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "They accused us of rewinding the tape or switching the video that we showed them."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O fenômeno se chama cegueira por desatenção.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "The effect is called inattentional blindness."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Temos a forte intuição de que algo inesperado e marcante à nossa frente vai chamar atenção automaticamente.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "we have the strong intuition that if someth"
+        },
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "People who saw the gorilla couldn't believe that anyone could miss it and the people who missed it were shocked that they had missed it"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Concentrados numa tarefa, como falar ao celular enquanto dirigem, muitos ficam cegos a acontecimentos à volta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "When attending to one task — say, talking on a cell phone while driving — many of us become blind to dynamic events"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "O estudo foi uma nova versão de experimentos anteriores de Ulric Neisser, dos anos 1970.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "it was based on some much earlier work by our colleague Ulric Neisser f"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_inattentional_blindness_cd5a81",
+          "excerpt": "This study, a revised version of earlier studies conducted by Ulric Neisser"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+    "src_nzherald_co_nz_world_gorillas_in_14e162",
+    "src_en_wikipedia_org_wiki_inattentional_blindness_cd5a81"
+  ],
+  "quizIds": ["q_invisible_gorilla_1__pt-BR", "q_invisible_gorilla_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}
