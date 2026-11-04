@@ -85,7 +85,10 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      # The live site shows only reviewed, published lessons; drafts stay off it (D22).
       - run: pnpm build
+        env:
+          LUMEN_PUBLIC_CONTENT_CHANNEL: production
       # GitHub Pages serves 404.html for unknown paths; the SPA fallback page loads the
       # app at any route, so reloading /app/review works.
       - run: cp apps/web/build/client/__spa-fallback.html apps/web/build/client/404.html

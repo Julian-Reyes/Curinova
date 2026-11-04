@@ -24,7 +24,7 @@ The custom domain lives in the repo settings. With Actions-based deploys, no `CN
 
 ## Content shown on the live site
 
-The build uses the default `preview` content channel: the 20 sample lessons appear, labeled "Preview" (unreviewed drafts). To publish only reviewed lessons, build with `LUMEN_PUBLIC_CONTENT_CHANNEL=production`. That shows no lessons until some have been through review (milestone M3).
+The deploy job builds with `LUMEN_PUBLIC_CONTENT_CHANNEL=production` (D22): the live site shows only lessons that were reviewed and published in `/_review`. Drafts stay off it until they are published. Local `pnpm dev`, `pnpm build` and the E2E job keep the default `preview` channel, which also shows drafts, labeled as such.
 
 ## Moving to a different domain later
 
