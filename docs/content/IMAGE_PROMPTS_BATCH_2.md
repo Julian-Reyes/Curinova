@@ -8,19 +8,19 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 **Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
 
-## Still to do
+## Still to do *******************************************************************************************************************
 
 ### Everyday science myths (AI)
 
-#### microwave_inside_out: Do microwaves cook food from the inside out? (Discover only)
+#### microwave_inside_out: Do microwaves cook food from the inside out? (Discover and Review)
 
 - **Discover:** `DISCOVER: Inside a microwave oven seen through its door, a bowl of soup on the turntable glowing under the warm interior light, steam curling up, the area below the door dark.` _Accuracy: a normal mesh-screen door; no rays, glowing beams or waves drawn in the air._
+- **Review:** `REVIEW: A modern microwave oven on a kitchen counter, door closed, soft morning light.` _Don't show a cut-open dish with a hot outside and cold centre, or a timer (both answers)._
 
-#### mpemba_effect: Does hot water freeze faster than cold?
+#### mpemba_effect: Does hot water freeze faster than cold? (Discover and Deeper)
 
 - **Discover:** `DISCOVER: Two glasses of water side by side on a dark table, one with steam rising, the other with ice crystals forming at its rim, cold blue light, the lower part dark.`
 - **Deeper:** `DEEPER: A tray of ice cubes in a frosty freezer, frost feathers on the walls, cold blue light.`
-- **Review:** `REVIEW: A steaming kettle beside an empty glass on a kitchen counter.` _Don't show which glass froze first, a thin ice layer or a fully frozen block (all answers)._
 
 #### knuckle_cracking: Does cracking your knuckles cause arthritis?
 
@@ -42,7 +42,7 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 - **Deeper:** `DEEPER: A small group of people seen from behind passing a basketball in a plain corridor, motion-blurred.`
 - **Review:** `REVIEW: A single basketball resting on a polished gym floor.` _Don't show a gorilla or a half-filled crowd (both answers)._
 
-## Still to do: Brazil's three capitals (real photos)
+## Still to do: Brazil's three capitals (real photos) ********************************************************************************************
 
 Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
 
@@ -186,10 +186,13 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 
 ### Everyday science myths
 
-#### microwave_inside_out: Do microwaves cook food from the inside out? (Deeper and Review)
+#### mpemba_effect: Does hot water freeze faster than cold? (Review)
+
+- **Review:** `REVIEW: A steaming kettle beside an empty glass on a kitchen counter.` _Don't show which glass froze first, a thin ice layer or a fully frozen block (all answers)._
+
+#### microwave_inside_out: Do microwaves cook food from the inside out? (Deeper)
 
 - **Deeper:** `DEEPER: A plate of steaming rice and vegetables just out of the microwave on a kitchen counter, a fork resting beside it.`
-- **Review:** `REVIEW: A modern microwave oven on a kitchen counter, door closed, soft morning light.` _Don't show a cut-open dish with a hot outside and cold centre, or a timer (both answers)._
 
 #### blue_veins: Is the blood in your veins blue?
 
