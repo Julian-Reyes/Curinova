@@ -9,7 +9,7 @@
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Em 29 de março de 2006, às 20h30 (horário de Brasília), uma nave russa Soyuz decolou do Cosmódromo de Baikonur, no Cazaquistão, rumo à Estação Espacial Internacional (ISS). Ao lado do russo Pavel Vinogradov e do americano Jeffrey Williams estava Marcos Pontes, o primeiro astronauta brasileiro."
+      "text": "Na noite de 29 de março de 2006 (horário de Brasília), uma nave russa Soyuz decolou do Cosmódromo de Baikonur, no Cazaquistão, rumo à Estação Espacial Internacional (ISS). Ao lado do russo Pavel Vinogradov e do americano Jeffrey Williams estava Marcos Pontes, o primeiro astronauta brasileiro."
     },
     {
       "type": "paragraph",
@@ -47,7 +47,7 @@
   "claims": [
     {
       "id": "c1",
-      "text": "Em 29 de março de 2006, às 20h30 (de Brasília), a Missão Centenário decolou de Baikonur, no Cazaquistão, rumo à Estação Espacial Internacional.",
+      "text": "Na noite de 29 de março de 2006 (horário de Brasília), a Missão Centenário decolou de Baikonur, no Cazaquistão, rumo à Estação Espacial Internacional.",
       "highStakes": false,
       "support": [
         {
@@ -55,11 +55,11 @@
           "excerpt": "Na noite de 29 de março de 2006, as atenções estavam voltadas ao Cosmódromo de Baikonur, no Cazaquistão, para a decolagem da Missão Centenário rumo à Estação Espacial Internacional (ISS)."
         },
         {
-          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
-          "excerpt": "A decolagem de Marcos Pontes, Pavel Vinogradov e Jeffrey Williams ocorreu às 20h30 (horário de Brasília) do dia 29 de março de 2006."
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "is scheduled for liftoff at 11:30 pm tonight (Brazilian time)"
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

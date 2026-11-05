@@ -5,37 +5,45 @@
   "slug": "o-sangue-nas-veias-e-azul",
   "title": "O sangue nas veias é azul?",
   "hook": "Quem já tirou sangue sabe a resposta.",
-  "summary": "Nunca: o sangue é sempre vermelho. As veias parecem azuis por causa de como a pele espalha a luz vermelha.",
+  "summary": "Nunca: o sangue humano é sempre vermelho. As veias parecem azuis por causa do jeito como a luz atravessa a pele.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "O sangue humano nunca é azul. O sangue oxigenado, que corre principalmente nas artérias, é vermelho vivo; o que já perdeu oxigênio, que corre nas veias, é vermelho-escuro. Quem já doou sangue ou fez exame pode confirmar: o sangue venoso sai escuro, mas vermelho. As próprias veias, aliás, são quase incolores."
+      "text": "O sangue humano nunca é azul. Depois de pegar oxigênio nos pulmões, ele fica vermelho vivo e segue para as artérias; na volta ao coração pelas veias, já sem esse oxigênio, é vermelho-escuro. Sangue colhido num tubo a vácuo, sem nenhum contato com o ar, continua saindo vermelho-escuro. E uma veia vista diretamente, dentro do corpo, também não é azul."
     },
     {
       "type": "paragraph",
-      "text": "Então por que elas parecem azuis? Porque as vemos através de camadas de pele e gordura. Segundo um estudo do físico Alwin Kienle, a pele espalha boa parte da parte vermelha da luz branca antes que ela chegue ao sangue, e a luz azul é a que volta para os nossos olhos. É um efeito parecido com o do Sol avermelhado no pôr do sol."
+      "text": "Então por que as veias parecem azuis através da pele? Tudo depende de como a luz atravessa a pele. Em comparação com a luz vermelha, a azul penetra menos na pele e tem mais chance de ser espalhada de volta para os olhos. Sobre uma veia um pouco mais funda, a luz que volta parece azulada. O jeito como o cérebro processa as cores também conta."
     },
     {
       "type": "takeaway",
-      "text": "O sangue é sempre vermelho; as veias parecem azuis porque a pele espalha a luz vermelha antes que ela volte aos olhos."
+      "text": "O sangue é sempre vermelho; as veias parecem azuis pelo jeito como a luz atravessa a pele e o cérebro lê as cores."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "O pôr do sol ao contrário"
+      "text": "Vermelhas perto da superfície"
     },
     {
       "type": "paragraph",
-      "text": "No pôr do sol, a atmosfera espalha as cores azuis e o Sol parece vermelho. Na pele acontece algo parecido, só que com a luz vermelha sendo espalhada antes de refletir no sangue."
+      "text": "A profundidade faz diferença. Uma veia muito perto da superfície pode até parecer avermelhada, enquanto as mais fundas parecem azuis, porque a luz azul não chega tão fundo quanto a vermelha."
     },
     {
       "type": "heading",
-      "text": "Quem é o responsável pela cor"
+      "text": "Uma pergunta antiga, estudada com física"
     },
     {
       "type": "paragraph",
-      "text": "A cor das veias vem do sangue dentro delas, não da parede do vaso, que é quase incolor."
+      "text": "Em 1996, uma equipe liderada por Alwin Kienle publicou na revista Applied Optics um estudo chamado “Why do veins appear blue? A new look at an old question” (“Por que as veias parecem azuis? Um novo olhar sobre uma velha pergunta”). A resposta está na óptica da pele e no modo como percebemos as cores, não na cor do sangue."
+    },
+    {
+      "type": "heading",
+      "text": "Sangue azul existe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Todos os animais com coluna vertebral, incluindo os humanos, têm sangue vermelho. Mas alguns animais, como lagostas, caranguejos, polvos, lulas, mexilhões e mariscos, têm mesmo sangue azul."
     }
   ],
   "heroMedia": {
@@ -51,101 +59,148 @@
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "the blood in human veins is also not blue. Bl"
+          "sourceId": "src_livescience_com_why_veins_blue_arteries_7312f0",
+          "excerpt": "Blood is always red."
         },
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "ood is always red."
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "Our blood is not blue. It is always red."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c2",
-      "text": "O sangue oxigenado (nas artérias) é vermelho vivo; o que perdeu oxigênio (nas veias) é vermelho-escuro.",
+      "text": "O sangue fica vermelho vivo depois de pegar oxigênio nos pulmões e seguir para as artérias; voltando pelas veias, sem esse oxigênio, é vermelho-escuro.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "Blood that has been oxygenated (mostly flowing through the arteries) is bright red and blood that has lost its oxygen (mostly flowing through the veins) is dark red."
+          "sourceId": "src_livescience_com_why_veins_blue_arteries_7312f0",
+          "excerpt": "When the hemoglobin picks up oxygen in the lungs, the blood is a bright cherry red as it heads into the arteries"
+        },
+        {
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "On its return trip to the heart through the veins, the oxygen-depleted blood is dark red or maroon, because the hemoglobin is no longer bound to oxygen."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c3",
-      "text": "Quem já doou ou tirou sangue pode confirmar que o sangue venoso é vermelho-escuro, não azul.",
+      "text": "Sangue colhido num tubo a vácuo, sem contato com o ar, continua vermelho-escuro.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "Anyone who has donated blood or had their blood drawn by a nurse can attest that deoxygenated blood is dark red and not blue."
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "Even when it's deoxygenated. Even in the absence of oxygen in a vacuum."
+        },
+        {
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "when you get blood drawn at your doctor's office, they use a vacutainer, which is essentially a vacuum in a tube."
+        },
+        {
+          "sourceId": "src_straightdope_com_21342562_if_blood_is_e41550",
+          "excerpt": "I drew hundreds of samples of venous blood. Almost all samples were dark red."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c4",
-      "text": "As veias em si são quase incolores; a cor vem do sangue dentro delas.",
+      "text": "Uma veia vista diretamente dentro do corpo não é azul.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "The veins themselves are not blue, but are mostly colorless. It is the blood in the veins that gives them color."
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "when you poke around inside a human being and see a vein or artery in its naked glory, it isn't blue."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c5",
-      "text": "Vemos as veias através de pele e gordura; a pele espalha a parte vermelha da luz antes que ela reflita no sangue, e a azul volta aos olhos.",
+      "text": "Em comparação com a luz vermelha, a azul penetra menos na pele e tem mais chance de ser espalhada de volta para os olhos.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "you are looking at your veins through layers of"
-        },
-        {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "Skin scatters a lot of the red portion of white light before it can reflect off the blood, leaving the blue light to reflect off the blood and back to our eyes."
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "blue light, compared to red light 1) doesn't penetrate the skin as well, 2) is absorbed by the blood more, and 3) is more likely to be scattered and make it back to your eye."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c6",
-      "text": "A explicação vem de um estudo de Alwin Kienle sobre por que as veias parecem azuis.",
+      "text": "Veias muito perto da superfície podem parecer avermelhadas, e as mais fundas parecem azuis porque a luz azul não penetra tão fundo quanto a vermelha.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "according to Alwin Kienle in his paper \"Why do veins appear blue? A new look at an old question\""
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "if a vein is close to the surface of the skin, most of the blue light will be absorbed, and even though red light doesn't reflect as much, the red light:blue light ratio is high enough to make the vein appear red."
+        },
+        {
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "But the blue light's inability to penetrate as deeply as red light makes the veins appear blue."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c7",
-      "text": "É um efeito parecido com o do Sol avermelhado no pôr do sol, quando a atmosfera espalha as cores azuis.",
+      "text": "As veias parecem azuis por causa da forma como a pele espalha a luz e de como o cérebro processa as cores, não por causa do sangue, que é vermelho-escuro.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_wtamu_edu_cbaird_sq_2012_12_05aa86",
-          "excerpt": "It is a similar effect to how the white sun appears red at sunset due to the blue colors"
+          "sourceId": "src_en_wikipedia_org_wiki_vein_3fe807",
+          "excerpt": "The factors that contribute to this alteration of color perception are related to the light-scattering properties of the skin and the processing of visual input by the visual cortex, rather than the actual colour of the venous blood which is dark red."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Em 1996, uma equipe liderada por Alwin Kienle publicou “Why do veins appear blue? A new look at an old question” na revista Applied Optics.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_vein_3fe807",
+          "excerpt": "Kienle A, Lilge L, Vitkin IA, Patterson MS, Wilson BC, Hibst R, Steiner R (March 1996). \"Why do veins appear blue? A new look at an old question\""
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_vein_3fe807",
+          "excerpt": "Applied Optics"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Todos os animais com coluna vertebral têm sangue vermelho, mas alguns, como lagostas, caranguejos, polvos, lulas, mexilhões e mariscos, têm sangue azul.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mentalfloss_com_science_body_if_blood_c1a049",
+          "excerpt": "Humans and all other animals with backbones have red blood, but some animals, such as lobsters, crabs, crawfish, octopodes, squid, mussels and clams, do have blue blood."
+        }
+      ],
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],
-  "sourceIds": ["src_wtamu_edu_cbaird_sq_2012_12_05aa86"],
+  "sourceIds": [
+    "src_livescience_com_why_veins_blue_arteries_7312f0",
+    "src_mentalfloss_com_science_body_if_blood_c1a049",
+    "src_straightdope_com_21342562_if_blood_is_e41550",
+    "src_en_wikipedia_org_wiki_vein_3fe807"
+  ],
   "quizIds": ["q_blue_veins_1__pt-BR", "q_blue_veins_2__pt-BR"],
   "contentLicense": "pending",
   "generation": {

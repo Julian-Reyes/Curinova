@@ -9,11 +9,11 @@
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Uma folha de vitória-régia pode ter de 2 a 3 metros de diâmetro e, mesmo assim, é fina como papel. O segredo fica embaixo d’água: a parte de baixo da folha é coberta por nervuras grossas que se ramificam e se cruzam, formando uma rede que dá resistência. Por dentro, essas nervuras têm tecido cheio de ar, que ajuda a folha a flutuar."
+      "text": "Uma folha de vitória-régia pode ter de 2 a 3 metros de diâmetro e, mesmo assim, ter apenas cerca de um milímetro de espessura. O segredo fica embaixo d’água: a parte de baixo da folha é coberta por nervuras grossas que se ramificam e se cruzam, formando uma rede que dá resistência. Por dentro, essas nervuras têm tecido cheio de ar, que ajuda a folha a flutuar."
     },
     {
       "type": "paragraph",
-      "text": "Entre as nervuras há centenas de espinhos afiados, que protegem a planta de animais que tentam comê-la. Para a folha aguentar peso, a carga precisa ser bem distribuída por uma área grande: um peso concentrado num ponto pode furá-la."
+      "text": "A parte de baixo também é coberta de espinhos, que protegem a planta de peixes e outros animais que tentam comê-la. A folha aguenta um peso surpreendente, mas só se a carga estiver bem distribuída por toda a superfície."
     },
     {
       "type": "takeaway",
@@ -60,15 +60,15 @@
     },
     {
       "id": "c2",
-      "text": "A folha é quase tão fina quanto papel.",
+      "text": "A lâmina da folha tem só cerca de 1 mm de espessura.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
-          "excerpt": "But with an almost paper-thin leaf consistency"
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_7a09bb",
+          "excerpt": "The lamina is relatively thin for such a large leaf (ca. 1 mm)"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -77,15 +77,11 @@
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
-          "excerpt": "The underside of the pads are cover"
-        },
-        {
           "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
           "excerpt": "Thick, strong cross-braced veins form a network of branching ribs along the leaf undersides, providing strength."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -103,28 +99,32 @@
     },
     {
       "id": "c5",
-      "text": "Entre as nervuras há centenas de espinhos afiados que protegem a planta de herbívoros.",
+      "text": "Muitos espinhos na parte de baixo da folha protegem a planta de peixes e outros herbívoros.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
-          "excerpt": "over and between which jut hundreds of sharp spines to protect the plant from herbivorous swimmers."
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_7a09bb",
+          "excerpt": "The undersurface of the leaf is also covered in numerous robust spines (Fig. 1E) that protect the lamina from herbivory."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_victoria_amazonica_74346f",
+          "excerpt": "The stem and underside of the leaves are coated with many small spines to defend itself from fish and other herbivores that dwell underwater"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c6",
-      "text": "Para a folha aguentar peso, a carga precisa ser espalhada por uma área grande.",
+      "text": "A folha flutua com muito peso quando a carga está distribuída por toda a superfície.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
-          "excerpt": "you’d have to spread that weight out over a large surface area to keep from turning the disc into a donut."
+          "sourceId": "src_en_wikipedia_org_wiki_victoria_amazonica_74346f",
+          "excerpt": "These leaves are enormously buoyant if the weight is distributed evenly over the entire surface of the leaf"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -150,11 +150,11 @@
           "excerpt": "Paxton adopted the cross-braced system to support the cast iron and glass structure of the Crystal Palace for the Great Exhibition of 1851 in London’s Hyde Park."
         },
         {
-          "sourceId": "src_nybg_org_blogs_plant_talk_2012_bf7179",
-          "excerpt": "The cell-like design was actually the inspiration for Joseph Paxton‘s famed Crystal Palace in London"
+          "sourceId": "src_en_wikipedia_org_wiki_victoria_amazonica_74346f",
+          "excerpt": "The lily, with ribbed undersurface and leaves veining \"like transverse girders and supports\", \"as Paxton's inspiration for The Crystal Palace"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -177,7 +177,8 @@
   ],
   "sourceIds": [
     "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
-    "src_nybg_org_blogs_plant_talk_2012_bf7179"
+    "src_pmc_ncbi_nlm_nih_gov_articles_7a09bb",
+    "src_en_wikipedia_org_wiki_victoria_amazonica_74346f"
   ],
   "quizIds": ["q_giant_water_lily_1__pt-BR", "q_giant_water_lily_2__pt-BR"],
   "contentLicense": "pending",

@@ -21,8 +21,8 @@
     ],
     "correctOptionId": "a",
     "explanation": "Blood is always red: bright in the arteries and dark in the veins after losing oxygen.",
-    "misconception": "It doesn’t \"turn red\" on contact with air: it comes out dark red even in a collection tube.",
-    "claimIds": ["c1", "c2"],
+    "misconception": "It doesn’t \"turn red\" on contact with air: blood drawn into a sealed vacuum tube is already dark red.",
+    "claimIds": ["c1", "c2", "c3"],
     "status": "draft"
   },
   {
@@ -34,7 +34,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Skin scatters red light, and blue light comes back to the eye"
+        "text": "Blue and red light travel through skin differently"
       },
       {
         "id": "b",
@@ -46,8 +46,8 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Seen through skin and fat, veins send back more blue light because the skin scatters the red.",
-    "claimIds": ["c5"],
+    "explanation": "Blue light penetrates skin less than red and scatters back to the eye more, so deeper veins look bluish; the blood itself is dark red.",
+    "claimIds": ["c5", "c6", "c7"],
     "status": "draft"
   }
 ]

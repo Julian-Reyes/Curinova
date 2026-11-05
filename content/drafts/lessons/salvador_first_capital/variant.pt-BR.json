@@ -43,7 +43,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A partir de 1558, Salvador foi também o primeiro mercado de escravizados do Novo Mundo: africanos trazidos à força para trabalhar nas plantações de cana. Em 1985, o Centro Histórico de Salvador entrou na lista do Patrimônio Mundial da UNESCO."
+      "text": "A partir de 1558, Salvador também teve um mercado de escravizados: africanos eram trazidos à força para trabalhar nas plantações de cana. Em 1985, o Centro Histórico de Salvador entrou na lista do Patrimônio Mundial da UNESCO."
     }
   ],
   "heroMedia": {
@@ -176,7 +176,7 @@
     },
     {
       "id": "c10",
-      "text": "A partir de 1558, Salvador foi o primeiro mercado de escravizados do Novo Mundo, com africanos levados para as plantações de cana.",
+      "text": "A partir de 1558, Salvador teve um mercado de escravizados, com africanos levados para as plantações de cana.",
       "highStakes": false,
       "support": [
         {
@@ -184,7 +184,7 @@
           "excerpt": "Salvador de Bahia was also, from 1558, the first slave market in the New World, with slaves arriving to work on the sugar plantations."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

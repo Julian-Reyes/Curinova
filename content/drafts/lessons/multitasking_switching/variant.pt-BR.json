@@ -5,19 +5,19 @@
   "slug": "da-para-fazer-duas-coisas-ao-mesmo-tempo",
   "title": "Dá para fazer duas coisas ao mesmo tempo?",
   "hook": "A multitarefa parece eficiente, mas cada troca cobra um preço.",
-  "summary": "Na maioria das vezes não: a mente não foi feita para multitarefa pesada, e cada troca de tarefa custa tempo e precisão.",
+  "summary": "Na maioria das vezes não: nos experimentos, cada troca de tarefa custa tempo, e o custo cresce com tarefas mais difíceis.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Fazer várias coisas ao mesmo tempo pode significar realizar duas tarefas juntas, alternar entre elas ou fazê-las em sequência rápida. Os psicólogos que estudam isso concluíram que a mente e o cérebro não foram feitos para multitarefa pesada. Em experimentos de troca de tarefas, as pessoas perderam tempo sempre que precisaram passar de uma tarefa para outra, e quanto mais complexas as tarefas, mais tempo perderam."
+      "text": "Num estudo de 2001, pesquisadores da Universidade de Michigan e da Administração Federal de Aviação dos EUA pediram a jovens adultos que alternassem entre tarefas, como resolver contas e classificar formas geométricas. Em todo tipo de tarefa, as pessoas perdiam tempo a cada troca, e perdiam mais quando as tarefas eram complexas ou pouco conhecidas."
     },
     {
       "type": "paragraph",
-      "text": "Cada troca custa só alguns décimos de segundo, mas o custo se acumula quando a pessoa vai e volta muitas vezes. Segundo o psicólogo David Meyer, esses pequenos bloqueios mentais podem consumir até 40% do tempo produtivo. A multitarefa parece eficiente, mas pode acabar levando mais tempo e gerando mais erros."
+      "text": "Cada troca custa só alguns décimos de segundo, mas isso se acumula quando a pessoa vai e volta muitas vezes. Os voluntários também ficaram mais lentos e erraram mais, mesmo quando recebiam dinheiro para fazer bem feito. A multitarefa parece eficiente, mas pode acabar levando mais tempo."
     },
     {
       "type": "takeaway",
-      "text": "Cada troca de tarefa cobra tempo; somadas, as trocas tornam a multitarefa mais lenta e mais sujeita a erros."
+      "text": "Cada troca de tarefa cobra tempo; somadas, as trocas tornam a multitarefa mais lenta e menos precisa."
     }
   ],
   "deepDiveBlocks": [
@@ -27,7 +27,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Segundo Meyer e colegas, o controle executivo do cérebro trabalha em duas etapas: a troca de objetivo (\"quero fazer isto agora, em vez daquilo\") e a ativação de regras (\"desligo as regras daquela tarefa e ligo as desta\")."
+      "text": "Os pesquisadores sugeriram que o controle executivo do cérebro trabalha em duas etapas: a troca de objetivo (\"quero fazer isto agora, em vez daquilo\") e a ativação de regras (\"desligo as regras daquela tarefa e ligo as desta\")."
     },
     {
       "type": "heading",
@@ -35,7 +35,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Nos anos 1990, Robert Rogers e Stephen Monsell mostraram que, mesmo quando as pessoas sabiam exatamente quando trocariam de tarefa, elas eram mais lentas ao mudar do que ao repetir a mesma tarefa."
+      "text": "Em 1995, Robert Rogers e Stephen Monsell pediram que as pessoas fizessem duas rodadas de uma tarefa e depois duas de outra, de modo que cada troca vinha num momento previsível. Mesmo assim, elas ficavam mais lentas logo depois de cada troca."
     },
     {
       "type": "heading",
@@ -43,7 +43,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Perder meio segundo numa troca de tarefa pode fazer a diferença entre a vida e a morte para quem dirige falando ao celular. Nesse intervalo, o carro anda o bastante para bater num obstáculo que poderia ter sido evitado."
+      "text": "Meyer lembra que meio segundo perdido numa troca de tarefa pode fazer a diferença entre a vida e a morte para quem dirige mexendo no celular: nesse intervalo, o carro anda o bastante para bater num obstáculo que poderia ter sido evitado."
     }
   ],
   "heroMedia": {
@@ -55,12 +55,20 @@
   "claims": [
     {
       "id": "c1",
-      "text": "Multitarefa pode ser fazer duas tarefas ao mesmo tempo, alternar entre elas ou fazê-las em sequência rápida.",
+      "text": "Num estudo de 2001, pesquisadores da Universidade de Michigan e da Administração Federal de Aviação dos EUA pediram a jovens adultos que alternassem entre tarefas como contas e classificação de formas geométricas.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "Multitasking can take place when someone tries to perform two tasks simultaneously, switch . from one task to another, or perform two or more tasks in rapid succession."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "AUGUST 5, 2001"
+        },
+        {
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "Joshua Rubinstein, Ph.D., of the Federal Aviation Administration, and David Meyer, Ph.D., and Jeffrey Evans, Ph.D., both at the University of Michigan"
+        },
+        {
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "young adult subjects (in turn, 12, 36, 36 and 24 in number) switched between different tasks, such as solving math problems or classifying geometric objects."
         }
       ],
       "autoVerdict": "pending",
@@ -68,12 +76,12 @@
     },
     {
       "id": "c2",
-      "text": "Psicólogos concluíram que a mente e o cérebro não foram feitos para multitarefa pesada.",
+      "text": "Em todo tipo de tarefa, as pessoas perderam tempo ao trocar, e perderam mais com tarefas mais complexas.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "have found that the mind and brain were not designed for heavy-duty multitasking."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "for all types of tasks, subjects lost time when they had to switch from one task to another, and time costs increased with the complexity of the tasks"
         }
       ],
       "autoVerdict": "pending",
@@ -81,16 +89,12 @@
     },
     {
       "id": "c3",
-      "text": "Em experimentos, as pessoas perderam tempo sempre que trocaram de tarefa, e perderam mais com tarefas mais complexas.",
+      "text": "A troca custou mais tempo quando a nova tarefa era menos conhecida.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "For all tasks, the participants lost time when they had to switch from one task to another."
-        },
-        {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "As tasks got more complex, participants lost more time."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "Time costs also were greater when subjects switched to tasks that were relatively unfamiliar."
         }
       ],
       "autoVerdict": "pending",
@@ -98,16 +102,12 @@
     },
     {
       "id": "c4",
-      "text": "Cada troca custa alguns décimos de segundo, mas o custo se acumula com trocas repetidas.",
+      "text": "Cada troca custa alguns décimos de segundo, o que se acumula quando a pessoa vai e volta repetidamente.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "Although switch costs may be relatively small, sometimes just a few tenths of a second per switch"
-        },
-        {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "they can add up to large amounts when people switch repeatedly back and forth between tasks."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "Rule activation itself takes significant amounts of time, several tenths of a second -- which can add up when people switch back and forth repeatedly between tasks."
         }
       ],
       "autoVerdict": "pending",
@@ -115,12 +115,16 @@
     },
     {
       "id": "c5",
-      "text": "Segundo David Meyer, os bloqueios mentais das trocas podem custar até 40% do tempo produtivo.",
+      "text": "Ao trocar de tarefa, as pessoas ficaram mais lentas e menos precisas; no estudo de 2001, isso aconteceu mesmo com dinheiro oferecido pelo bom desempenho.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "Meyer has said that even brief mental blocks created by shifting between tasks can cost as much as 40 percent of someone's productive time."
+          "sourceId": "src_archive_seattletimes_com_archive_20010807_multitask07_598dcf",
+          "excerpt": "The volunteers accomplished the tasks more slowly and did them more poorly, even when offered cash for jobs well done."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_task_switching_8398d4",
+          "excerpt": "This disruption is characterized by a slower performance and decrease in accuracy"
         }
       ],
       "autoVerdict": "pending",
@@ -128,12 +132,12 @@
     },
     {
       "id": "c6",
-      "text": "A multitarefa pode parecer eficiente, mas pode levar mais tempo e envolver mais erros.",
+      "text": "A multitarefa pode parecer eficiente, mas pode levar mais tempo no fim.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "Thus, multitasking may seem efficient on the surface but may actually take more time in the end and involve more error."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "Thus, multitasking may seem more efficient on the surface, but may actually take more time in the end."
         }
       ],
       "autoVerdict": "pending",
@@ -141,12 +145,12 @@
     },
     {
       "id": "c7",
-      "text": "O controle executivo tem duas etapas: a troca de objetivo e a ativação de regras.",
+      "text": "Os pesquisadores sugeriram que o controle executivo tem duas etapas: a troca de objetivo e a ativação de regras.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "They call one stage \"goal shifting\" (\"I want to do this now instead of that\") and the other stage \"rule activation\" (\"I'm turning off the rules for that and turning on the rules for this\")."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "The researchers say their results suggest that executive control involves two distinct, complementary stages: goal shifting (\"I want to do this now instead of that\") and rule activation (\"I'm turning off the rules for that and turning on the rules for this\")."
         }
       ],
       "autoVerdict": "pending",
@@ -154,12 +158,20 @@
     },
     {
       "id": "c8",
-      "text": "Rogers e Monsell mostraram que, mesmo com trocas previsíveis, as pessoas eram mais lentas ao trocar do que ao repetir a tarefa.",
+      "text": "Em 1995, Rogers e Monsell fizeram as pessoas trocarem de tarefa a cada duas rodadas, uma troca previsível, e mesmo assim elas ficavam mais lentas logo após cada troca.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "In the mid-1990s, Robert Rogers, PhD, and Stephen Monsell, D.Phil, found that even when people had to switch completely predictably between two tasks every two or four trials, they were still slower on task-switch t"
+          "sourceId": "src_psytoolkit_org_experiment_library_taskswitching_html_ba9a4e",
+          "excerpt": "Robert Rogers' and Stephen Monsell’s 1995 paper"
+        },
+        {
+          "sourceId": "src_psytoolkit_org_experiment_library_taskswitching_html_ba9a4e",
+          "excerpt": "In this task, participants carry out two trials of task A, followed by two trails of task B, and then back to task A. Hence, a task switch occurs every two trials. The difficulty to switch between tasks is expressed as the slow down immediately following a task switch."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_task_switching_8398d4",
+          "excerpt": "The cost of a predictable switch between simple cognitive tasks"
         }
       ],
       "autoVerdict": "pending",
@@ -167,23 +179,24 @@
     },
     {
       "id": "c9",
-      "text": "Perder meio segundo numa troca pode ser questão de vida ou morte para quem dirige ao celular.",
+      "text": "Segundo Meyer, meio segundo perdido numa troca de tarefa pode ser a diferença entre a vida e a morte para quem dirige ao celular, porque o carro pode andar o bastante para bater num obstáculo.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "losing just a half second of time to task switching can make a life-or-death difference for a driver on a cell phone traveling at 30 MPH."
-        },
-        {
-          "sourceId": "src_apa_org_topics_research_multitasking_dfe2c4",
-          "excerpt": "it can travel far enough to crash into an obstacle that might otherwise have been avoided."
+          "sourceId": "src_newswise_com_articles_is_multitasking_more_5d6275",
+          "excerpt": "Meyer points out, a mere half second of time lost to task switching can mean the difference between life and death for a driver using a cell phone, because during the time that the car is not totally under control, it can travel far enough to crash into obstacles the driver might have otherwise avoided."
         }
       ],
       "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],
-  "sourceIds": ["src_apa_org_topics_research_multitasking_dfe2c4"],
+  "sourceIds": [
+    "src_newswise_com_articles_is_multitasking_more_5d6275",
+    "src_archive_seattletimes_com_archive_20010807_multitask07_598dcf",
+    "src_en_wikipedia_org_wiki_task_switching_8398d4",
+    "src_psytoolkit_org_experiment_library_taskswitching_html_ba9a4e"
+  ],
   "quizIds": ["q_multitasking_switching_1__pt-BR", "q_multitasking_switching_2__pt-BR"],
   "contentLicense": "pending",
   "generation": {

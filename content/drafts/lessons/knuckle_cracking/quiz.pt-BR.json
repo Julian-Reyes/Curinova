@@ -20,7 +20,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Estudos que compararam quem estala e quem não estala os dedos encontraram taxas parecidas de artrite.",
+    "explanation": "Estudos que compararam quem tem e quem não tem o hábito não encontraram ligação com artrite nas mãos.",
     "claimIds": ["c1", "c2"],
     "status": "draft"
   },
@@ -45,7 +45,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Ao afastar os ossos, a pressão cai e se forma uma cavidade de gás; a ressonância mostrou o estalo nesse momento.",
+    "explanation": "Ao afastar os ossos, a pressão cai e se forma uma cavidade de gás; imagens de ressonância sugerem que o estalo acontece nesse momento.",
     "claimIds": ["c3", "c4"],
     "status": "draft"
   }

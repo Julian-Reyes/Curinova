@@ -5,19 +5,19 @@
   "slug": "does-cracking-your-knuckles-cause-arthritis",
   "title": "Does cracking your knuckles cause arthritis?",
   "hook": "One doctor cracked the knuckles of only one hand for over 60 years to find out.",
-  "summary": "Studies haven’t found a link; the pop comes from a gas-filled cavity forming in the joint fluid.",
+  "summary": "Studies haven’t found a link; the pop most likely comes from a gas-filled cavity forming in the joint fluid.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Cracking your knuckles may annoy the people around you, but it probably won’t raise your risk of arthritis. That is the conclusion of several studies comparing hand arthritis in habitual knuckle-crackers and in people who don’t. In one study of 215 people, arthritis showed up at similar rates in both groups."
+      "text": "Cracking your knuckles may annoy the people around you, but it probably won’t raise your risk of arthritis. That is the conclusion of several studies comparing hand arthritis in habitual knuckle-crackers and in people who don’t. In a 2011 study, X-rays of 215 people’s hands showed no link between the habit and arthritis."
     },
     {
       "type": "paragraph",
-      "text": "And the noise? Finger joints hold a lubricating liquid, synovial fluid. When the bones are pulled apart, pressure drops and a gas-filled cavity forms in that fluid. MRI images from 2015 showed that the crack happens as the cavity forms, not when a bubble bursts, as had long been thought."
+      "text": "And the noise? Finger joints hold a lubricating liquid, synovial fluid. When the bones are pulled apart, pressure drops and a gas-filled cavity forms in that fluid. MRI images from 2015 suggested that the crack happens as the cavity forms, not when a bubble bursts, though scientists still debate it."
     },
     {
       "type": "takeaway",
-      "text": "Studies don’t link knuckle cracking to arthritis; the pop comes from a gas cavity forming in the joint."
+      "text": "Studies don’t link knuckle cracking to arthritis; the pop most likely comes from a gas cavity forming in the joint."
     }
   ],
   "deepDiveBlocks": [
@@ -43,7 +43,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The exact cause of the sound was argued over for decades. Some still describe the pop as bubbles bursting, but the 2015 images point to the cavity forming."
+      "text": "The exact cause of the sound was argued over for decades. Some still describe the pop as bubbles bursting. The 2015 images point to the cavity forming, but in 2018 a team in France used a mathematical simulation to argue that collapsing bubbles cause the sound. Because that conclusion came from theory rather than experiments, scientists remain unconvinced."
     }
   ],
   "heroMedia": {
@@ -63,24 +63,28 @@
           "excerpt": "Cracking your knuckles may aggravate the people around you, but it probably won't raise your risk for arthritis. That's the conclusion of several studies that compared rates of hand arthritis among habitual knuckle-crackers and people who didn't crack their knuckles."
         },
         {
-          "sourceId": "src_jabfm_org_content_24_2_169_570563",
-          "excerpt": "A history of habitual KC—including the total duration and total cumulative exposure—does not seem to be a risk factor for hand OA."
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "The common old wives' tale that cracking one's knuckles causes arthritis is without scientific evidence."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c2",
-      "text": "In a study of 215 people, arthritis appeared at similar rates in crackers and non-crackers.",
+      "text": "In a 2011 study, hand X-rays of 215 people showed no link between knuckle cracking and hand arthritis.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_jabfm_org_content_24_2_169_570563",
-          "excerpt": "The prevalence of KC among 215 respondents (135 patients, 80 controls) was 20%. When examined in aggregate, the prevalence of OA in any joint was similar among those who crack knuckles (18.1%) and those who do not (21.5%; P = .548)."
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "A study published in 2011 examined the hand radiographs of 215 people (aged 50 to 89). It compared the joints of those who regularly cracked their knuckles to those who did not."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "The study concluded that knuckle-cracking did not cause hand osteoarthritis, no matter how many years or how often a person cracked their knuckles."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -102,7 +106,7 @@
     },
     {
       "id": "c4",
-      "text": "2015 MRI images showed the crack is linked to the cavity forming, not to a bubble collapsing.",
+      "text": "A 2015 MRI study suggested the crack is linked to the cavity forming, not to a bubble collapsing.",
       "highStakes": true,
       "support": [
         {
@@ -119,10 +123,10 @@
         },
         {
           "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
-          "excerpt": "MRI of a cracking finger joint depicting cavitation between the bones"
+          "excerpt": "In 2015, research indicated that bubbles remained in the fluid after a joint cracked, suggesting that the cracking sound was produced when the bubble within the joint formed, rather than when it collapsed."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -137,9 +141,13 @@
         {
           "sourceId": "src_improbable_com_ig_winners_a265d6",
           "excerpt": "Donald L. Unger, Arthritis and Rheumatism, vol. 41, no. 5, 1998"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "American doctor Donald Unger"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -171,11 +179,27 @@
       ],
       "autoVerdict": "supported",
       "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "In 2018, a team in France used a mathematical simulation to argue that collapsing bubbles cause the sound; because it was theoretical, scientists remain unconvinced.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "In 2018, a team in France developed a mathematical simulation to investigate what occurs in a joint just before it cracks. This team concluded that the sound is caused by the collapse of bubbles, while the bubbles observed in the fluid result from a partial collapse."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "Due to the theoretical nature of this conclusion and the absence of physical experimentation, the scientific community remains unconvinced."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
     }
   ],
   "sourceIds": [
     "src_health_harvard_edu_pain_does_cracking_46293d",
-    "src_jabfm_org_content_24_2_169_570563",
     "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
     "src_journals_plos_org_plosone_article_b9a6aa",
     "src_improbable_com_ig_winners_a265d6"

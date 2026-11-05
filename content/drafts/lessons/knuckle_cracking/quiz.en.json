@@ -20,7 +20,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Studies comparing crackers and non-crackers found similar rates of arthritis.",
+    "explanation": "Studies comparing habitual crackers and non-crackers found no link to hand arthritis.",
     "claimIds": ["c1", "c2"],
     "status": "draft"
   },
@@ -45,7 +45,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Pulling the bones apart drops the pressure and a gas cavity forms; MRI caught the pop at that moment.",
+    "explanation": "Pulling the bones apart drops the pressure and a gas cavity forms; MRI images suggest the pop happens at that moment.",
     "claimIds": ["c3", "c4"],
     "status": "draft"
   }

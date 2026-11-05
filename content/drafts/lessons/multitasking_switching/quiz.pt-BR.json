@@ -20,9 +20,9 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Em experimentos de troca de tarefas, as pessoas sempre perdem tempo a cada troca, e mais ainda com tarefas complexas.",
-    "misconception": "A sensação de eficiência engana: somadas, as pequenas perdas podem passar de um terço do tempo produtivo.",
-    "claimIds": ["c3", "c4"],
+    "explanation": "Nos experimentos de troca de tarefas, as pessoas perderam tempo a cada troca, e mais ainda com tarefas complexas.",
+    "misconception": "A sensação de eficiência engana: perdas de alguns décimos de segundo se somam ao longo de muitas trocas.",
+    "claimIds": ["c2", "c4"],
     "status": "draft"
   },
   {

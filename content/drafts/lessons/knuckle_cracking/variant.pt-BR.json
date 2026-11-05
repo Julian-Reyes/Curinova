@@ -5,19 +5,19 @@
   "slug": "estalar-os-dedos-causa-artrite",
   "title": "Estalar os dedos causa artrite?",
   "hook": "Um médico estalou os dedos de uma só mão por mais de 60 anos para descobrir.",
-  "summary": "Os estudos não encontraram ligação; o estalo vem de uma cavidade de gás que se forma no líquido da articulação.",
+  "summary": "Os estudos não encontraram ligação; o estalo provavelmente vem de uma cavidade de gás que se forma no líquido da articulação.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Estalar os dedos pode irritar quem está por perto, mas provavelmente não aumenta o risco de artrite. Essa é a conclusão de vários estudos que compararam a artrite nas mãos de quem tem o hábito e de quem não tem. Num estudo com 215 pessoas, a artrite apareceu em proporções parecidas nos dois grupos."
+      "text": "Estalar os dedos pode irritar quem está por perto, mas provavelmente não aumenta o risco de artrite. Essa é a conclusão de vários estudos que compararam a artrite nas mãos de quem tem o hábito e de quem não tem. Num estudo de 2011, radiografias das mãos de 215 pessoas não mostraram ligação entre o hábito e a artrite."
     },
     {
       "type": "paragraph",
-      "text": "E o barulho? As articulações dos dedos têm um líquido lubrificante, o líquido sinovial. Quando os ossos são afastados, a pressão cai e se forma uma cavidade de gás nesse líquido. Imagens de ressonância magnética de 2015 mostraram que o estalo acontece quando essa cavidade se forma, e não quando uma bolha estoura, como se pensava."
+      "text": "E o barulho? As articulações dos dedos têm um líquido lubrificante, o líquido sinovial. Quando os ossos são afastados, a pressão cai e se forma uma cavidade de gás nesse líquido. Imagens de ressonância magnética de 2015 sugeriram que o estalo acontece quando essa cavidade se forma, e não quando uma bolha estoura, mas os cientistas ainda debatem a questão."
     },
     {
       "type": "takeaway",
-      "text": "Os estudos não ligam estalar os dedos à artrite; o estalo vem de uma cavidade de gás que se forma na articulação."
+      "text": "Os estudos não ligam estalar os dedos à artrite; o estalo provavelmente vem de uma cavidade de gás que se forma na articulação."
     }
   ],
   "deepDiveBlocks": [
@@ -43,7 +43,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A causa exata do barulho foi discutida por décadas. Ainda há quem descreva o estalo como bolhas estourando, mas as imagens de 2015 apontam para a formação da cavidade."
+      "text": "A causa exata do barulho foi discutida por décadas. Ainda há quem descreva o estalo como bolhas estourando. As imagens de 2015 apontam para a formação da cavidade, mas em 2018 uma equipe na França usou uma simulação matemática para defender que o som vem do colapso das bolhas. Como essa conclusão veio da teoria, e não de experimentos, os cientistas continuam sem se convencer."
     }
   ],
   "heroMedia": {
@@ -63,24 +63,28 @@
           "excerpt": "Cracking your knuckles may aggravate the people around you, but it probably won't raise your risk for arthritis. That's the conclusion of several studies that compared rates of hand arthritis among habitual knuckle-crackers and people who didn't crack their knuckles."
         },
         {
-          "sourceId": "src_jabfm_org_content_24_2_169_570563",
-          "excerpt": "A history of habitual KC—including the total duration and total cumulative exposure—does not seem to be a risk factor for hand OA."
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "The common old wives' tale that cracking one's knuckles causes arthritis is without scientific evidence."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c2",
-      "text": "Num estudo com 215 pessoas, a artrite apareceu em proporções parecidas em quem estala e em quem não estala os dedos.",
+      "text": "Num estudo de 2011, radiografias das mãos de 215 pessoas não mostraram ligação entre estalar os dedos e artrite nas mãos.",
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_jabfm_org_content_24_2_169_570563",
-          "excerpt": "The prevalence of KC among 215 respondents (135 patients, 80 controls) was 20%. When examined in aggregate, the prevalence of OA in any joint was similar among those who crack knuckles (18.1%) and those who do not (21.5%; P = .548)."
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "A study published in 2011 examined the hand radiographs of 215 people (aged 50 to 89). It compared the joints of those who regularly cracked their knuckles to those who did not."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "The study concluded that knuckle-cracking did not cause hand osteoarthritis, no matter how many years or how often a person cracked their knuckles."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -102,7 +106,7 @@
     },
     {
       "id": "c4",
-      "text": "Imagens de ressonância de 2015 mostraram que o estalo está ligado à formação da cavidade, e não ao estouro de uma bolha.",
+      "text": "Um estudo de ressonância de 2015 sugeriu que o estalo está ligado à formação da cavidade, e não ao estouro de uma bolha.",
       "highStakes": true,
       "support": [
         {
@@ -119,10 +123,10 @@
         },
         {
           "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
-          "excerpt": "MRI of a cracking finger joint depicting cavitation between the bones"
+          "excerpt": "In 2015, research indicated that bubbles remained in the fluid after a joint cracked, suggesting that the cracking sound was produced when the bubble within the joint formed, rather than when it collapsed."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -137,9 +141,13 @@
         {
           "sourceId": "src_improbable_com_ig_winners_a265d6",
           "excerpt": "Donald L. Unger, Arthritis and Rheumatism, vol. 41, no. 5, 1998"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "American doctor Donald Unger"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -171,11 +179,27 @@
       ],
       "autoVerdict": "supported",
       "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Em 2018, uma equipe na França usou uma simulação matemática para defender que o colapso das bolhas causa o som; por ser teórica, a conclusão não convenceu os cientistas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "In 2018, a team in France developed a mathematical simulation to investigate what occurs in a joint just before it cracks. This team concluded that the sound is caused by the collapse of bubbles, while the bubbles observed in the fluid result from a partial collapse."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "Due to the theoretical nature of this conclusion and the absence of physical experimentation, the scientific community remains unconvinced."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
     }
   ],
   "sourceIds": [
     "src_health_harvard_edu_pain_does_cracking_46293d",
-    "src_jabfm_org_content_24_2_169_570563",
     "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
     "src_journals_plos_org_plosone_article_b9a6aa",
     "src_improbable_com_ig_winners_a265d6"

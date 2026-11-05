@@ -35,7 +35,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Shape matters. A ballpoint pen, being more streamlined, can fall like a torpedo, reach about 320 km/h and cause a head injury."
+      "text": "Shape matters. A ballpoint pen, being more streamlined, can fall like a torpedo, at up to about 320 km/h, and cause a head injury."
     }
   ],
   "heroMedia": {
@@ -146,7 +146,7 @@
     },
     {
       "id": "c8",
-      "text": "A ballpoint pen can fall like a torpedo, reach about 200 mph (about 320 km/h) and cause a head injury.",
+      "text": "A ballpoint pen can fall like a torpedo, travel at up to 200 mph (about 320 km/h) and cause a head injury.",
       "highStakes": false,
       "support": [
         {
@@ -154,7 +154,7 @@
           "excerpt": "a pen could spin, flutter, or act as a torpedo, traveling up to 200 mph. A falling ballpoint pen could definitely chip a sidewalk and cause a head injury."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],

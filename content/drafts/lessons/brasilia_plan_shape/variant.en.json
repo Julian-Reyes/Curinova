@@ -108,13 +108,9 @@
         {
           "sourceId": "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
           "excerpt": "a adaptação à topografia local, ao escoamento natural das águas, à melhor orientação , arqueando-se um dos eixos a fim de contê-lo no triângulo equilátero que define a área urbanizada"
-        },
-        {
-          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
-          "excerpt": "Laid out along a monumental east-west axis, crossed by a north-south axis curved to follow the topography as a transportation thoroughfare"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -123,12 +119,12 @@
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
-          "excerpt": "the Esplanade of the Ministries and representative structures that make up the Monumental Axis (Eixo Monumental)"
+          "sourceId": "src_correiobraziliense_com_br_revista_do_correio_08ec0b",
+          "excerpt": "para quem vai e vem na direção da Esplanada dos Ministérios, pelo Eixo Monumental"
         },
         {
-          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
-          "excerpt": "centered on the Thoroughfare Axis (Eixo Rodoviário) along which the Neighborhood Units are distributed and divided into a North and South Wing (Asa Norte and Asa Sul)"
+          "sourceId": "src_correiobraziliense_com_br_revista_do_correio_08ec0b",
+          "excerpt": "sobreviveu a ideia de um Eixo Monumental, como corpo desse avião, e de um Eixo Rodoviário, como suas asas, divididas em Asa Norte e Asa Sul."
         }
       ],
       "autoVerdict": "pending",
@@ -187,15 +183,11 @@
       "highStakes": false,
       "support": [
         {
-          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
-          "excerpt": "the entity’s studies were critical to Brasilia’s inclusion on UNESCO’s List of World Heritage Sites in 1987"
-        },
-        {
           "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
           "excerpt": "inscrita na lista de Patrimônio da Unesco em 7 de dezembro de 1987."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -219,13 +211,9 @@
         {
           "sourceId": "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2",
           "excerpt": "as escalas são definidas como monumental (a do poder), residencial (das superquadras), gregária (dos setores de serviços e diversão) e"
-        },
-        {
-          "sourceId": "src_whc_unesco_org_en_list_445_aeab5d",
-          "excerpt": "These attributes are best understood on the basis of the four scales identified by Lucio Costa"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -246,7 +234,6 @@
     "src_curtamais_com_br_brasilia_2025_03_46e961",
     "src_correiobraziliense_com_br_revista_do_correio_08ec0b",
     "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
-    "src_whc_unesco_org_en_list_445_aeab5d",
     "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2"
   ],
   "quizIds": ["q_brasilia_plan_shape_1__en", "q_brasilia_plan_shape_2__en"],

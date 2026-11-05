@@ -113,6 +113,10 @@
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_edc704",
           "excerpt": "bout one-third of the participants reported hearing their name in the unattended channel, a finding replicated by Wood & Cowan (1995)."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8f9ea7",
+          "excerpt": "approximately one third of the participants report hearing their own name being presented in the irrelevant message during a selective listening task (Moray, 1959; Wood & Cowan, 1995)."
         }
       ],
       "autoVerdict": "pending",
@@ -147,7 +151,8 @@
   ],
   "sourceIds": [
     "src_en_wikipedia_org_wiki_cocktail_party_b64682",
-    "src_pmc_ncbi_nlm_nih_gov_articles_edc704"
+    "src_pmc_ncbi_nlm_nih_gov_articles_edc704",
+    "src_pmc_ncbi_nlm_nih_gov_articles_8f9ea7"
   ],
   "quizIds": ["q_cocktail_party_effect_1__pt-BR", "q_cocktail_party_effect_2__pt-BR"],
   "contentLicense": "pending",

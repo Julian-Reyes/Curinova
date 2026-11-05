@@ -9,7 +9,7 @@
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "On 29 March 2006, at 8:30 p.m. Brasília time, a Russian Soyuz spacecraft lifted off from the Baikonur Cosmodrome in Kazakhstan for the International Space Station (ISS). Alongside Russian Pavel Vinogradov and American Jeffrey Williams sat Marcos Pontes, Brazil’s first astronaut."
+      "text": "On the night of 29 March 2006, Brasília time, a Russian Soyuz spacecraft lifted off from the Baikonur Cosmodrome in Kazakhstan for the International Space Station (ISS). Alongside Russian Pavel Vinogradov and American Jeffrey Williams sat Marcos Pontes, Brazil’s first astronaut."
     },
     {
       "type": "paragraph",
@@ -47,7 +47,7 @@
   "claims": [
     {
       "id": "c1",
-      "text": "On 29 March 2006, at 8:30 p.m. Brasília time, the Centenary Mission lifted off from Baikonur, Kazakhstan, for the International Space Station.",
+      "text": "On the night of 29 March 2006 (Brasília time), the Centenary Mission lifted off from Baikonur, Kazakhstan, for the International Space Station.",
       "highStakes": false,
       "support": [
         {
@@ -55,11 +55,11 @@
           "excerpt": "Na noite de 29 de março de 2006, as atenções estavam voltadas ao Cosmódromo de Baikonur, no Cazaquistão, para a decolagem da Missão Centenário rumo à Estação Espacial Internacional (ISS)."
         },
         {
-          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
-          "excerpt": "A decolagem de Marcos Pontes, Pavel Vinogradov e Jeffrey Williams ocorreu às 20h30 (horário de Brasília) do dia 29 de março de 2006."
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "is scheduled for liftoff at 11:30 pm tonight (Brazilian time)"
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

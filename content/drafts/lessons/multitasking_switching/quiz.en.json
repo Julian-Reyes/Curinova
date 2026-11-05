@@ -20,9 +20,9 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "In task-switching experiments, people always lose time with each switch, and more so with complex tasks.",
-    "misconception": "The feeling of efficiency is misleading: added up, the small losses can exceed a third of productive time.",
-    "claimIds": ["c3", "c4"],
+    "explanation": "In task-switching experiments, people lost time with every switch, and more so with complex tasks.",
+    "misconception": "The feeling of efficiency is misleading: losses of a few tenths of a second add up over many switches.",
+    "claimIds": ["c2", "c4"],
     "status": "draft"
   },
   {

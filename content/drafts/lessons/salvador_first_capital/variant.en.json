@@ -43,7 +43,7 @@
     },
     {
       "type": "paragraph",
-      "text": "From 1558, Salvador was also the first slave market in the New World: Africans were brought by force to work on the sugar plantations. In 1985, the Historic Centre of Salvador was added to UNESCO’s World Heritage List."
+      "text": "From 1558, Salvador also had a slave market: Africans were brought there by force to work on the sugar plantations. In 1985, the Historic Centre of Salvador was added to UNESCO’s World Heritage List."
     }
   ],
   "heroMedia": {
@@ -176,7 +176,7 @@
     },
     {
       "id": "c10",
-      "text": "From 1558, Salvador was the first slave market in the New World, with Africans brought to work on the sugar plantations.",
+      "text": "From 1558, Salvador had a slave market, with Africans brought to work on the sugar plantations.",
       "highStakes": false,
       "support": [
         {
@@ -184,7 +184,7 @@
           "excerpt": "Salvador de Bahia was also, from 1558, the first slave market in the New World, with slaves arriving to work on the sugar plantations."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

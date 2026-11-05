@@ -35,7 +35,7 @@
     },
     {
       "type": "paragraph",
-      "text": "O formato importa. Uma caneta esferográfica, mais aerodinâmica, pode cair como um torpedo, chegar a uns 320 km/h e causar um ferimento na cabeça."
+      "text": "O formato importa. Uma caneta esferográfica, mais aerodinâmica, pode cair como um torpedo, a até cerca de 320 km/h, e causar um ferimento na cabeça."
     }
   ],
   "heroMedia": {
@@ -146,7 +146,7 @@
     },
     {
       "id": "c8",
-      "text": "Uma caneta esferográfica pode cair como um torpedo, chegar a uns 200 mph (cerca de 320 km/h) e causar ferimento na cabeça.",
+      "text": "Uma caneta esferográfica pode cair como um torpedo, chegar a até 200 mph (cerca de 320 km/h) e causar ferimento na cabeça.",
       "highStakes": false,
       "support": [
         {
@@ -154,7 +154,7 @@
           "excerpt": "a pen could spin, flutter, or act as a torpedo, traveling up to 200 mph. A falling ballpoint pen could definitely chip a sidewalk and cause a head injury."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     }
   ],
