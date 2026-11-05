@@ -2,7 +2,7 @@
 
 ChatGPT prompts and photo search briefs for every picture slot in the five batch 2 trails. Same workflow, house style and slots as `docs/content/IMAGE_PROMPTS.md`; read its **How to use** section first.
 
-**Order:** pictures can be added only after a lesson's text is approved in `/_review` (`pnpm media:add` writes to `content/lessons/`). Work one trail at a time: approve its text, make its pictures, run `pnpm media:add <folder>`, look at them in `/_review`, replace any you don't like (same file name, run it again), then press **Images checked**.
+**Order:** pictures can be added before or after a lesson's text is approved: `pnpm media:add` writes to the draft (`content/drafts/lessons/`) while the lesson is in review, and approving it carries the pictures into the library. Make a lesson's pictures, run `pnpm media:add <folder>`, look at them in `/_review`, replace any you don't like (same file name, run it again), then press **Images checked**.
 
 **Slots:** _Discover_ is the full-screen card (9:16, white title over the bottom). _Deeper_ is the Go Deeper hero (cropped to 12:7). _Review_ is the quiz picture (cropped to 16:9) and **must not give the answer away**; each Review line says what to avoid.
 
