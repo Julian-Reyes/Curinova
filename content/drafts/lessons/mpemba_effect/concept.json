@@ -41,6 +41,40 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "73ca3c49"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de uma forma de gelo cheia de cubos num congelador coberto de geada",
+        "en": "Illustration of an ice cube tray full of cubes in a frosty freezer"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "f636fdc7"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de dois copos de água lado a lado numa mesa escura, um soltando vapor e o outro com cristais de gelo na borda",
+        "en": "Illustration of two glasses of water side by side on a dark table, one steaming and the other with ice crystals at its rim"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "01c9d349"
     }
   }
 }

@@ -17,11 +17,6 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 - **Discover:** `DISCOVER: Inside a microwave oven seen through its door, a bowl of soup on the turntable glowing under the warm interior light, steam curling up, the area below the door dark.` _Accuracy: a normal mesh-screen door; no rays, glowing beams or waves drawn in the air._
 - **Review:** `REVIEW: A modern microwave oven on a kitchen counter, door closed, soft morning light.` _Don't show a cut-open dish with a hot outside and cold centre, or a timer (both answers)._
 
-#### mpemba_effect: Does hot water freeze faster than cold? (Discover and Deeper)
-
-- **Discover:** `DISCOVER: Two glasses of water side by side on a dark table, one with steam rising, the other with ice crystals forming at its rim, cold blue light, the lower part dark.`
-- **Deeper:** `DEEPER: A tray of ice cubes in a frosty freezer, frost feathers on the walls, cold blue light.`
-
 #### knuckle_cracking: Does cracking your knuckles cause arthritis?
 
 - **Discover:** `DISCOVER: Two hands with fingers interlaced and pushed outward, as if about to crack the knuckles, against a dark background, warm side light on the knuckles, the lower part in shadow.` _Accuracy: normal, healthy hands; no visible joint swelling._
@@ -186,8 +181,10 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 
 ### Everyday science myths
 
-#### mpemba_effect: Does hot water freeze faster than cold? (Review)
+#### mpemba_effect: Does hot water freeze faster than cold?
 
+- **Discover:** `DISCOVER: Two glasses of water side by side on a dark table, one with steam rising, the other with ice crystals forming at its rim, cold blue light, the lower part dark.`
+- **Deeper:** `DEEPER: A tray of ice cubes in a frosty freezer, frost feathers on the walls, cold blue light.`
 - **Review:** `REVIEW: A steaming kettle beside an empty glass on a kitchen counter.` _Don't show which glass froze first, a thin ice layer or a fully frozen block (all answers)._
 
 #### microwave_inside_out: Do microwaves cook food from the inside out? (Deeper)
