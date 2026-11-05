@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um boto-cor-de-rosa vindo à superfície entre as árvores de uma floresta alagada",
+        "en": "Illustration of a pink river dolphin surfacing among the trees of a flooded forest"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "35dec6aa"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de um boto-cor-de-rosa, com seu bico longo e fino, nadando na água marrom do rio, iluminado de cima",
+        "en": "Illustration of a pink river dolphin, with its long thin beak, swimming in brown river water lit from above"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "77c854ef"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração do dorso rosado de um boto rompendo a superfície ao lado de uma canoa de madeira",
+        "en": "Illustration of the pink back of a river dolphin breaking the surface beside a wooden canoe"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "08e1ed7e"
+    }
+  }
 }

@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um poraquê parado no fundo lamacento de um rio verde e turvo",
+        "en": "Illustration of an electric eel resting on the muddy bottom of a murky green river"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "7fb50ad4"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de um poraquê nadando entre raízes submersas num rio escuro da Amazônia, iluminado por raios de sol",
+        "en": "Illustration of an electric eel swimming among submerged roots in a dark Amazon river, lit by rays of sunlight"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "416d0873"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um rio amazônico ao pôr do sol, com a mata densa refletida na água calma",
+        "en": "Illustration of an Amazon river at sunset, with dense forest reflected in the calm water"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "cba71657"
+    }
+  }
 }

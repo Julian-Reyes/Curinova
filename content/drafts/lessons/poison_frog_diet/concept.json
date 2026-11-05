@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um sapo-ponta-de-flecha vermelho de patas azuis sobre um tronco com musgo na floresta",
+        "en": "Illustration of a red poison dart frog with blue legs on a mossy log in the rainforest"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "024aceff"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Ilustração de um sapo-ponta-de-flecha azul-vivo com manchas pretas sobre uma folha molhada",
+        "en": "Illustration of a bright blue poison dart frog with black spots on a wet leaf"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "f63340bc"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um sapo-ponta-de-flecha amarelo e preto sobre uma folha molhada",
+        "en": "Illustration of a yellow and black poison dart frog on a wet leaf"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "27ba6277"
+    }
+  }
 }

@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração da parte de baixo de uma folha de vitória-régia, mostrando suas nervuras vermelhas com espinhos",
+        "en": "Illustration of the underside of a giant water lily leaf, showing its spiny red ribs"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "e82af11c"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Ilustração de folhas de vitória-régia com bordas levantadas flutuando na água escura, com uma flor branca",
+        "en": "Illustration of giant water lily leaves with upturned rims floating on dark water, with a white flower"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "e9f1bdfc"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de folhas de vitória-régia num lago ao pôr do sol",
+        "en": "Illustration of giant water lily leaves on a lake at sunset"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "79021f02"
+    }
+  }
 }
