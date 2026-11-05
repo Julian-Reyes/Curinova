@@ -93,7 +93,7 @@
           "excerpt": "We conclude, somewhat sadly, that there is no evidence to support meaningful observations of the Mpemba effect."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -123,7 +123,7 @@
           "excerpt": "some experiments finding no reproducible effect."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -157,7 +157,7 @@
           "excerpt": "was the focus of a competition organised in 2012 by the Royal Society of Chemistry (RSC)"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

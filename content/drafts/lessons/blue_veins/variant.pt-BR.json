@@ -67,7 +67,7 @@
           "excerpt": "Our blood is not blue. It is always red."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -84,7 +84,7 @@
           "excerpt": "On its return trip to the heart through the veins, the oxygen-depleted blood is dark red or maroon, because the hemoglobin is no longer bound to oxygen."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -105,7 +105,7 @@
           "excerpt": "I drew hundreds of samples of venous blood. Almost all samples were dark red."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -118,7 +118,7 @@
           "excerpt": "when you poke around inside a human being and see a vein or artery in its naked glory, it isn't blue."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -131,7 +131,7 @@
           "excerpt": "blue light, compared to red light 1) doesn't penetrate the skin as well, 2) is absorbed by the blood more, and 3) is more likely to be scattered and make it back to your eye."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -148,7 +148,7 @@
           "excerpt": "But the blue light's inability to penetrate as deeply as red light makes the veins appear blue."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -161,7 +161,7 @@
           "excerpt": "The factors that contribute to this alteration of color perception are related to the light-scattering properties of the skin and the processing of visual input by the visual cortex, rather than the actual colour of the venous blood which is dark red."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -178,7 +178,7 @@
           "excerpt": "Applied Optics"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -191,7 +191,7 @@
           "excerpt": "Humans and all other animals with backbones have red blood, but some animals, such as lobsters, crabs, crawfish, octopodes, squid, mussels and clams, do have blue blood."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
