@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de uma multidão desfocada conversando numa festa à noite, sob varais de luzes",
+        "en": "Illustration of a blurred crowd of people talking at an evening party under string lights"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "ab7d9557"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma mulher vista de costas numa festa cheia à noite, com uma taça na mão, virando um pouco a cabeça",
+        "en": "Illustration of a woman seen from behind at a crowded evening party, glass in hand, turning her head slightly"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "ab067d8c"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de duas taças vazias sobre uma mesa, com uma festa desfocada ao fundo",
+        "en": "Illustration of two empty wine glasses on a table, with a party blurred in the background"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-05",
+      "hash": "9ea91c91"
+    }
+  }
 }
