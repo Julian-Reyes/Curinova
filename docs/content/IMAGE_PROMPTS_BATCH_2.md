@@ -10,32 +10,15 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 ## Still to do *******************************************************************************************************************
 
-### Everyday science myths (AI)
-
-#### microwave_inside_out: Do microwaves cook food from the inside out? (Discover and Review)
-
-- **Discover:** `DISCOVER: Inside a microwave oven seen through its door, a bowl of soup on the turntable glowing under the warm interior light, steam curling up, the area below the door dark.` _Accuracy: a normal mesh-screen door; no rays, glowing beams or waves drawn in the air._
-- **Review:** `REVIEW: A modern microwave oven on a kitchen counter, door closed, soft morning light.` _Don't show a cut-open dish with a hot outside and cold centre, or a timer (both answers)._
-
-#### knuckle_cracking: Does cracking your knuckles cause arthritis?
-
-- **Discover:** `DISCOVER: Two hands with fingers interlaced and pushed outward, as if about to crack the knuckles, against a dark background, warm side light on the knuckles, the lower part in shadow.` _Accuracy: normal, healthy hands; no visible joint swelling._
-- **Deeper:** `DEEPER: A hand resting on a desk next to a keyboard, fingers slightly bent, soft daylight.`
-- **Review:** `REVIEW: A relaxed hand resting on a wooden table, soft daylight.` _Don't show X-rays, MRI scans, bubbles or a cut-away joint (all answers)._
-
 ### Where your attention goes (AI)
-
-#### multitasking_switching: Can you really do two things at once?
-
-- **Discover:** `DISCOVER: A desk at night seen from behind a person: a laptop, an open notebook and a phone lighting up with a notification, two hands moving between them, the lower part in shadow.` _Accuracy: screens show only blurred, illegible shapes._
-- **Deeper:** `DEEPER: Two hands juggling three balls against a plain dark background, soft light.`
-- **Review:** `REVIEW: A tidy desk with a single open notebook and a pen, soft daylight.` _Don't show driving, a car or a phone at the wheel (that's an answer)._
 
 #### invisible_gorilla: How did half the viewers miss a gorilla?
 
-- **Discover:** `DISCOVER: A basketball spinning in mid-air between blurred players' hands in a bright hallway, seen as a freeze-frame, the lower part dark.` _No gorilla and no faces._
-- **Deeper:** `DEEPER: A small group of people seen from behind passing a basketball in a plain corridor, motion-blurred.`
-- **Review:** `REVIEW: A single basketball resting on a polished gym floor.` _Don't show a gorilla or a half-filled crowd (both answers)._
+New prompts (2026-11-06). The Discover card can show the gorilla: it's the hook, and it doesn't answer either quiz question.
+
+- **Discover:** `DISCOVER: A person in a gorilla costume standing still in the middle of a bright school hallway, chest out, while players in white and black T-shirts pass basketballs around it in a motion-blurred swirl; only the gorilla is sharp; the lower part dark.` _Accuracy: clearly a costume, not a real gorilla; players' faces turned away or blurred; no text._
+- **Deeper:** `DEEPER: A busy city pavement at rush hour, everyone looking down at their phones as they walk, and a person in a gorilla costume standing among them that nobody is looking at.` _No recognisable faces or shop names._
+- **Review:** `REVIEW: Close-up of hands in white sleeves catching a basketball, motion blur, plain pale wall behind.` _Don't show a gorilla, a crowd with half the faces marked, or a person counting on their fingers (all answers)._
 
 ## Still to do: Brazil's three capitals (real photos) ********************************************************************************************
 
@@ -129,7 +112,7 @@ Specific rockets, satellites and people should be real. NASA photos are public d
 - **Review:** Earth from orbit at night, city lights (NASA). _Don't show: The ISS, the 14-Bis, Santos Dumont, a calendar (2006)._
 - **Search:** Commons/NASA: "Marcos Pontes", "Expedition 13", "Soyuz TMA-8".
 
-## Already done (pictures added 2026-11-05)
+## Already done (pictures added 2026-11-05 and 2026-11-06)
 
 These lessons have their pictures; they are kept here in case one needs replacing. Each still needs **Images checked** in `/_review`.
 
@@ -187,9 +170,17 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 - **Deeper:** `DEEPER: A tray of ice cubes in a frosty freezer, frost feathers on the walls, cold blue light.`
 - **Review:** `REVIEW: A steaming kettle beside an empty glass on a kitchen counter.` _Don't show which glass froze first, a thin ice layer or a fully frozen block (all answers)._
 
-#### microwave_inside_out: Do microwaves cook food from the inside out? (Deeper)
+#### microwave_inside_out: Do microwaves cook food from the inside out?
 
+- **Discover:** `DISCOVER: Inside a microwave oven seen through its door, a bowl of soup on the turntable glowing under the warm interior light, steam curling up, the area below the door dark.` _Accuracy: a normal mesh-screen door; no rays, glowing beams or waves drawn in the air._
 - **Deeper:** `DEEPER: A plate of steaming rice and vegetables just out of the microwave on a kitchen counter, a fork resting beside it.`
+- **Review:** `REVIEW: A modern microwave oven on a kitchen counter, door closed, soft morning light.` _Don't show a cut-open dish with a hot outside and cold centre, or a timer (both answers)._
+
+#### knuckle_cracking: Does cracking your knuckles cause arthritis?
+
+- **Discover:** `DISCOVER: Two hands with fingers interlaced and pushed outward, as if about to crack the knuckles, against a dark background, warm side light on the knuckles, the lower part in shadow.` _Accuracy: normal, healthy hands; no visible joint swelling._
+- **Deeper:** `DEEPER: A hand resting on a desk next to a keyboard, fingers slightly bent, soft daylight.`
+- **Review:** `REVIEW: A relaxed hand resting on a wooden table, soft daylight.` _Don't show X-rays, MRI scans, bubbles or a cut-away joint (all answers)._
 
 #### blue_veins: Is the blood in your veins blue?
 
@@ -240,3 +231,9 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 - **Discover:** `DISCOVER: Looking down from a high platform into a deep canyon, a bungee cord trailing off the edge, the canyon floor far below in shadow.`
 - **Deeper:** `DEEPER: A rollercoaster at the top of a steep drop against a bright sky, cars about to plunge.` _No faces._
 - **Review:** `REVIEW: A big sand hourglass on a dark table, sand falling.` _Don't show a free-fall drop, a net or a stopwatch (all answers)._
+
+#### multitasking_switching: Can you really do two things at once?
+
+- **Discover:** `DISCOVER: A desk at night seen from behind a person: a laptop, an open notebook and a phone lighting up with a notification, two hands moving between them, the lower part in shadow.` _Accuracy: screens show only blurred, illegible shapes._
+- **Deeper:** `DEEPER: Two hands juggling three balls against a plain dark background, soft light.`
+- **Review:** `REVIEW: A tidy desk with a single open notebook and a pen, soft daylight.` _Don't show driving, a car or a phone at the wheel (that's an answer)._

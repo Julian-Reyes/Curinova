@@ -41,6 +41,40 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "dd533226"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma tigela de sopa fumegante dentro de um micro-ondas iluminado, sobre o prato giratório de vidro",
+        "en": "Illustration of a steaming bowl of soup inside a lit microwave, on the glass turntable"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "49cb5be3"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um micro-ondas de aço inox fechado sobre uma bancada de granito, com luz de fim de tarde",
+        "en": "Illustration of a closed stainless-steel microwave on a granite counter in late-afternoon light"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "36a5c0a8"
     }
   }
 }
