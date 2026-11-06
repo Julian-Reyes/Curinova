@@ -23,5 +23,25 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Litografia de Jean-Baptiste Debret do centro do Rio de Janeiro visto do Mosteiro de São Bento, com telhados, igrejas e o porto",
+        "en": "Jean-Baptiste Debret's lithograph of central Rio de Janeiro seen from the São Bento Monastery, with rooftops, churches and the harbour"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Jean-Baptiste Debret",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_do_Rio_de_Janeiro_AN1.tif"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "55a065b6"
+    }
+  }
 }

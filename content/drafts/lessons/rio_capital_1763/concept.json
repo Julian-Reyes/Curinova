@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "A Praça do Comércio, em Lisboa, reconstruída sob o Marquês de Pombal, com o arco da Rua Augusta",
+        "en": "Praça do Comércio in Lisbon, rebuilt under the Marquis of Pombal, with the Rua Augusta arch"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Carlos Maciel",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/22086565/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "0607404c"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "O Pão de Açúcar e a Baía de Guanabara vistos do alto, com a cidade do Rio de Janeiro abaixo",
+        "en": "Sugarloaf Mountain and Guanabara Bay seen from above, with the city of Rio de Janeiro below"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Danilo Marcelino",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/11051182/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "11adb587"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Barcos ancorados na Baía de Guanabara, vista de uma mureta à beira d'água no Rio de Janeiro",
+        "en": "Boats moored on Guanabara Bay, seen from a seawall in Rio de Janeiro"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Felipe Bittencourt",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/36868317/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "face700e"
+    }
+  }
 }

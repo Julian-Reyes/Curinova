@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "O Elevador Lacerda, em Salvador, com a Baía de Todos os Santos e barcos ao fundo",
+        "en": "The Lacerda Elevator in Salvador, with the Bay of All Saints and boats behind"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Luís Otávio",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/30567575/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "ac41585a"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Rua de pedra do Pelourinho, em Salvador, com casarões coloniais coloridos e as torres de uma igreja ao fundo",
+        "en": "A cobbled street in Salvador's Pelourinho, with colourful colonial houses and church towers at the end"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Marcelo Gonzalez",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/31792604/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "c164bd1f"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Vista aérea da orla de Salvador, com prédios, um morro arborizado e o mar",
+        "en": "Aerial view of Salvador's seafront, with tall buildings, a wooded hill and the sea"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "LEONARDO DOURADO",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/16842379/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "cd3f855b"
+    }
+  }
 }

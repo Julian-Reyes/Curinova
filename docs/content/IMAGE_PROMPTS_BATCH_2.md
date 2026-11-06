@@ -24,25 +24,10 @@ New prompts (2026-11-06). The Discover card can show the gorilla: it's the hook,
 
 Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
 
-#### salvador_first_capital: Why was Salvador Brazil's first capital?
+#### court_in_rio_1808: How did Rio become the capital of a European empire? (Discover and Deeper)
 
-- **Discover:** Pelourinho's colourful colonial houses and church towers.
-- **Deeper:** Salvador's upper and lower town with the Lacerda Elevator and bay.
-- **Review:** Salvador's bay seen from the upper town. _Don't show: Tomé de Sousa, 1549, caravels arriving._
-- **Search:** Pexels/Unsplash: "Pelourinho", "Salvador Bahia", "Elevador Lacerda". Commons: "Salvador 17th century engraving".
-
-#### rio_capital_1763: Why did the capital move to Rio in 1763?
-
-- **Discover:** An old engraving or painting of colonial Rio and Guanabara Bay.
-- **Deeper:** Paço Imperial or Praça XV today.
-- **Review:** Guanabara Bay with Sugarloaf (no gold). _Don't show: Gold, mines, Minas Gerais, Pombal._
-- **Search:** Commons: "Rio de Janeiro 18th century", "Rugendas Rio". Pexels: "Paço Imperial", "Praça XV".
-
-#### court_in_rio_1808: How did Rio become the capital of a European empire?
-
-- **Discover:** Portrait of Dom João VI (Commons, public domain).
-- **Deeper:** Debret or Rugendas painting of Rio in the 1810s.
-- **Review:** Rio's old centre today (e.g. Real Gabinete Português de Leitura). _Don't show: Napoleon, a fleet, anything about 1815._
+- **Discover:** Portrait of Dom João VI (Commons, public domain). _Suggestion: Debret's 1817 portrait, public domain, very large: https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Debret_-_Retrato_de_Dom_Jo%C3%A3o_VI_(MNBA).jpg_
+- **Deeper:** Debret or Rugendas painting of Rio in the 1810s. _Must be Rio, not another European palace or library._
 - **Search:** Commons: "Dom João VI retrato", "Debret Rio de Janeiro", "chegada da família real". Pexels: "Real Gabinete Português".
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
@@ -205,6 +190,26 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 - **Discover:** `DISCOVER: A bright lightning bolt striking a lone tall tree on a dark plain under a stormy night sky, the bolt in the upper half, the ground below black.`
 - **Deeper:** `DEEPER: A stormy sky over a city at night, several lightning bolts reaching down to tall buildings.` _No identifiable landmark._
 - **Review:** `REVIEW: Dark storm clouds gathering over an open field, no lightning yet.` _Don't show Christ the Redeemer, a lightning rod, or lightning hitting a tall object (all answers)._
+
+### Brazil's three capitals
+
+#### salvador_first_capital: Why was Salvador Brazil's first capital?
+
+- **Discover:** Pelourinho's colourful colonial houses and church towers.
+- **Deeper:** Salvador's upper and lower town with the Lacerda Elevator and bay.
+- **Review:** Salvador's bay seen from the upper town. _Don't show: Tomé de Sousa, 1549, caravels arriving._
+- **Search:** Pexels/Unsplash: "Pelourinho", "Salvador Bahia", "Elevador Lacerda". Commons: "Salvador 17th century engraving".
+
+#### rio_capital_1763: Why did the capital move to Rio in 1763?
+
+- **Discover:** An old engraving or painting of colonial Rio and Guanabara Bay.
+- **Deeper:** Paço Imperial or Praça XV today.
+- **Review:** Guanabara Bay with Sugarloaf (no gold). _Don't show: Gold, mines, Minas Gerais, Pombal._
+- **Search:** Commons: "Rio de Janeiro 18th century", "Rugendas Rio". Pexels: "Paço Imperial", "Praça XV".
+
+#### court_in_rio_1808: How did Rio become the capital of a European empire? (Review)
+
+- **Review:** Debret's lithograph of central Rio seen from the São Bento Monastery (Commons, public domain), cropped to the top panel. _Don't show: Napoleon, a fleet, anything about 1815._
 
 ### Where your attention goes
 
