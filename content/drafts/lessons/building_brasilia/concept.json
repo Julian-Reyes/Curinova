@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Fotografia de 1959 do Congresso Nacional em construção, com a cúpula e andaimes ao fundo e um galpão de madeira à frente",
+        "en": "A 1959 photograph of the National Congress under construction, with its dome and scaffolding behind a wooden shed"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Agência Nacional (Arquivo Nacional)",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_de_Bras%C3%ADlia_-_Congresso_Nacional_em_constru%C3%A7%C3%A3o_(2).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "4991e54d"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O topo da Catedral de Brasília, com seus pilares curvos de concreto branco, sinos e uma cruz contra o céu nublado",
+        "en": "The top of Brasília Cathedral, with its curved white concrete columns, bells and a cross against a cloudy sky"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "FILIPE COELHO",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/7002509/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "32615d96"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Foto em preto e branco do Palácio do Planalto, em Brasília, com sua rampa e colunas curvas",
+        "en": "Black-and-white photo of the Planalto Palace in Brasília, with its ramp and curved columns"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Lucas Vinícius Pontes",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/20758172/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "0338c949"
+    }
+  }
 }

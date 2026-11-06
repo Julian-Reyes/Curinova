@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Fotografia de 1894 de Henrique Morize com os membros da Comissão Cruls posando diante de um muro de pedra",
+        "en": "Henrique Morize's 1894 photograph of the members of the Cruls Commission posing in front of a stone wall"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Henrique Morize",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morize_-_Comiss%C3%A3o_Cruls.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "c19e3ce1"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Uma pessoa sozinha num campo extenso de capim, com mata e um planalto ao fundo sob um céu azul",
+        "en": "A lone person in a wide grassy field, with woodland and a plateau behind under a blue sky"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Matheus Bertelli",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/31853371/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "eab725e0"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Uma árvore retorcida do Cerrado diante de serras azuladas no Parque Nacional da Chapada dos Veadeiros",
+        "en": "A twisted Cerrado tree against bluish hills in Chapada dos Veadeiros National Park"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Eliane de Castro",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerrado_-_Parque_Nacional_Chapada_dos_veadeiros.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "f49f3ccc"
+    }
+  }
 }

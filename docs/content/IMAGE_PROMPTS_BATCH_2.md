@@ -8,18 +8,6 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 **Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
 
-## Still to do *******************************************************************************************************************
-
-### Where your attention goes (AI)
-
-#### invisible_gorilla: How did half the viewers miss a gorilla?
-
-New prompts (2026-11-06). The Discover card can show the gorilla: it's the hook, and it doesn't answer either quiz question.
-
-- **Discover:** `DISCOVER: A person in a gorilla costume standing still in the middle of a bright school hallway, chest out, while players in white and black T-shirts pass basketballs around it in a motion-blurred swirl; only the gorilla is sharp; the lower part dark.` _Accuracy: clearly a costume, not a real gorilla; players' faces turned away or blurred; no text._
-- **Deeper:** `DEEPER: A busy city pavement at rush hour, everyone looking down at their phones as they walk, and a person in a gorilla costume standing among them that nobody is looking at.` _No recognisable faces or shop names._
-- **Review:** `REVIEW: Close-up of hands in white sleeves catching a basketball, motion blur, plain pale wall behind.` _Don't show a gorilla, a crowd with half the faces marked, or a person counting on their fingers (all answers)._
-
 ## Still to do: Brazil's three capitals (real photos) ********************************************************************************************
 
 Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
@@ -29,20 +17,6 @@ Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; coloni
 - **Discover:** Portrait of Dom João VI (Commons, public domain). _Suggestion: Debret's 1817 portrait, public domain, very large: https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Debret_-_Retrato_de_Dom_Jo%C3%A3o_VI_(MNBA).jpg_
 - **Deeper:** Debret or Rugendas painting of Rio in the 1810s. _Must be Rio, not another European palace or library._
 - **Search:** Commons: "Dom João VI retrato", "Debret Rio de Janeiro", "chegada da família real". Pexels: "Real Gabinete Português".
-
-#### inland_capital_idea: When did the idea of an inland capital begin?
-
-- **Discover:** Cerrado landscape on the Planalto Central (twisted trees, red earth, big sky).
-- **Deeper:** Old map of Brazil's interior, or a Cruls Mission photo (Commons).
-- **Review:** Wide Cerrado landscape with a dirt road. _Don't show: Surveyors, markers, the 1891 Constitution._
-- **Search:** Pexels/Unsplash: "cerrado", "Chapada dos Veadeiros". Commons: "Missão Cruls", "Planalto Central 1892".
-
-#### building_brasilia: How was Brasília built so fast?
-
-- **Discover:** Brasília Cathedral or the Congress towers at dusk.
-- **Deeper:** Construction photo from 1957–1960 (Arquivo Público do DF).
-- **Review:** Esplanada dos Ministérios today. _Don't show: Workers, cranes, building sites, a calendar._
-- **Search:** Pexels/Unsplash: "Brasília cathedral", "Congresso Nacional". Commons: "construção de Brasília", "candangos".
 
 #### brasilia_plan_shape: Why is Brasília shaped like an airplane?
 
@@ -211,6 +185,20 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 
 - **Review:** Debret's lithograph of central Rio seen from the São Bento Monastery (Commons, public domain), cropped to the top panel. _Don't show: Napoleon, a fleet, anything about 1815._
 
+#### inland_capital_idea: When did the idea of an inland capital begin?
+
+- **Discover:** Cerrado landscape on the Planalto Central (twisted trees, red earth, big sky).
+- **Deeper:** Henrique Morize's 1894 photo of the Cruls Commission (Commons, public domain).
+- **Review:** A twisted Cerrado tree in Chapada dos Veadeiros (Commons, CC BY-SA 4.0, Eliane de Castro). _Don't show: Surveyors, markers, the 1891 Constitution._
+- **Search:** Pexels/Unsplash: "cerrado", "Chapada dos Veadeiros". Commons: "Missão Cruls", "Planalto Central 1892".
+
+#### building_brasilia: How was Brasília built so fast?
+
+- **Discover:** Brasília Cathedral or the Congress towers at dusk.
+- **Deeper:** The Congress dome under construction, 1959 (Commons, Agência Nacional / Arquivo Nacional, public domain).
+- **Review:** The Planalto Palace (Pexels). _Don't show: Workers, cranes, building sites, a calendar._
+- **Search:** Pexels/Unsplash: "Brasília cathedral", "Congresso Nacional". Commons: "construção de Brasília", "candangos".
+
 ### Where your attention goes
 
 #### cocktail_party_effect: How do you hear your own name across a noisy room?
@@ -242,3 +230,13 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 - **Discover:** `DISCOVER: A desk at night seen from behind a person: a laptop, an open notebook and a phone lighting up with a notification, two hands moving between them, the lower part in shadow.` _Accuracy: screens show only blurred, illegible shapes._
 - **Deeper:** `DEEPER: Two hands juggling three balls against a plain dark background, soft light.`
 - **Review:** `REVIEW: A tidy desk with a single open notebook and a pen, soft daylight.` _Don't show driving, a car or a phone at the wheel (that's an answer)._
+
+#### invisible_gorilla: How did half the viewers miss a gorilla?
+
+- **Discover:** `DISCOVER: A person in a gorilla costume standing still in the middle of a bright school hallway, chest out, while players in white and black T-shirts pass basketballs around it in a motion-blurred swirl; only the gorilla is sharp; the lower part dark.` _Accuracy: clearly a costume, not a real gorilla; players' faces turned away or blurred; no text._
+- **Deeper:** `DEEPER: A busy city pavement at rush hour, everyone looking down at their phones as they walk, and a person in a gorilla costume standing among them that nobody is looking at.` _No recognisable faces or shop names._
+- **Review:** `REVIEW: Close-up of hands in white sleeves catching a basketball, motion blur, plain pale wall behind.` _Don't show a gorilla, a crowd with half the faces marked, or a person counting on their fingers (all answers)._
+
+## Still to do: Brazil's three capitals (real photos) ********************************************************************************************
+
+Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
