@@ -8,19 +8,14 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 **Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. A Discover source shorter than 9:16 is zoomed in (cropped to 9:16 around the subject) before `media:add`, so it fills the whole card; never use the blurred fill. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
 
-## Still to do (22 pictures, all real photos)
+## Still to do (21 pictures, all real photos)
 
-- **Brazil's three capitals:** 1808 court Go Deeper (1); Brasília airplane shape (3).
+- **Brazil's three capitals:** Brasília airplane shape (3).
 - **Brazil in space:** all 6 lessons (18).
 
 ### Brazil's three capitals (real photos)
 
 Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover must fill the whole card: a tall (portrait) picture, or a wider one zoomed in to 9:16.
-
-#### court_in_rio_1808: How did Rio become the capital of a European empire? (Deeper)
-
-- **Deeper:** Debret or Rugendas painting of Rio in the 1810s. _Must be Rio, not another European palace or library._
-- **Search:** Commons: "Dom João VI retrato", "Debret Rio de Janeiro", "chegada da família real". Pexels: "Real Gabinete Português".
 
 #### brasilia_plan_shape: Why is Brasília shaped like an airplane?
 
@@ -187,9 +182,10 @@ _Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel To
 - **Review:** Boats on Guanabara Bay from a seawall (Pexels, Felipe Bittencourt). _Don't show: Gold, mines, Minas Gerais, Pombal._
 - **Search:** Commons: "Rio de Janeiro 18th century", "Rugendas Rio". Pexels: "Paço Imperial", "Praça XV".
 
-#### court_in_rio_1808: How did Rio become the capital of a European empire? (Discover and Review)
+#### court_in_rio_1808: How did Rio become the capital of a European empire?
 
 - **Discover:** Jean-Baptiste Debret's 1817 portrait of Dom João VI (Commons, public domain), zoomed to fill the card.
+- **Deeper:** Debret's 1834 print of the Royal Theatre of São João on the Largo do Rocio (Commons, public domain). The other Commons copy, Debret-SaoJoaoTheatre-1834.jpg, is too small (600 px).
 - **Review:** Debret's lithograph of central Rio seen from the São Bento Monastery (Commons, public domain), cropped to the top panel. _Don't show: Napoleon, a fleet, anything about 1815._
 
 #### inland_capital_idea: When did the idea of an inland capital begin?

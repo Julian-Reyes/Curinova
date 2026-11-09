@@ -60,6 +60,24 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-09",
       "hash": "2c1ea0f0"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Gravura colorida de Jean-Baptiste Debret do Real Teatro de São João, no Rio de Janeiro, com a praça cheia de gente, soldados e uma coluna ao centro",
+        "en": "Jean-Baptiste Debret's coloured print of the Royal Theatre of São João in Rio de Janeiro, with the square full of people, soldiers and a column in the middle"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Jean-Baptiste Debret",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RealTeatroSJoao-Debret-1834.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-09",
+      "hash": "66c26f50"
     }
   }
 }
