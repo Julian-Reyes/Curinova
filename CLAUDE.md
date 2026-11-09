@@ -23,6 +23,15 @@ Conventions every coding run must follow. The product spec is `docs/SPEC.md`; "Â
 - **Near-zero running cost.** No paid APIs or services are required to run, develop or test the app.
 - **Keep it green.** `pnpm typecheck`, `pnpm lint`, `pnpm test`, `pnpm content:validate` and `pnpm build` must pass before every commit. Exceptions (founder, 2026-10-28): image-only changes (adding or replacing pictures and their records) need only `pnpm content:validate` and a Prettier check of the edited files; docs-only changes (Markdown) need only a Prettier check of the edited files. Run E2E only for app-code changes or when asked.
 - **Production quality.** Real error handling; every visible control works, is intentionally disabled, or is clearly marked "not yet available". No TODOs pretending to be features.
+- **Do only what was asked.** When a request reveals a related issue (another file, a schema gap, an old picture with the same problem), do the request and _mention_ the issue in one line; don't fold in extra edits until the founder says yes.
+- **Never trust silent checks.** Run checks without `pnpm -s`: in recursive runs it drops the child output, so a failing `tsc` prints nothing. Check each command's exit code, and treat "no output" as unknown, not as a pass.
+
+## Lesson pictures
+
+- **Discover pictures fill the whole card.** If a Discover source is shorter than 9:16, pre-crop it to 9:16 around the subject before `pnpm media:add`; never let it use the blurred mirror fill. Deeper and Review slots already fill their frame by centre-crop.
+- **Download the full-size original** from the source page (Pexels, Unsplash, Wikimedia Commons), not a pasted preview, and record the real creator, license and page URL. Never guess a credit.
+- **Check before adding:** the place, species or person is the right one (say so when it isn't, e.g. a photo of Lisbon on a Rio lesson), and a Review picture never gives a quiz answer away.
+- Briefs and progress for each batch live in `docs/content/IMAGE_PROMPTS*.md`: remaining pictures at the top, finished ones at the bottom.
 
 ## Commands
 
@@ -38,4 +47,4 @@ pnpm test:e2e           # Playwright; needs a build first
 ## Git
 
 - Local repository, `main` branch. Commit in small, logical steps with clear messages.
-- **Never push or add a remote without the founder's approval.**
+- **Never push or add a remote without the founder's approval.** Approval covers that one push; an earlier "push" does not carry over to later commits. Committing locally is fine.
