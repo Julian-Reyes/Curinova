@@ -12,9 +12,8 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
 
-#### court_in_rio_1808: How did Rio become the capital of a European empire? (Discover and Deeper)
+#### court_in_rio_1808: How did Rio become the capital of a European empire? (Deeper)
 
-- **Discover:** Portrait of Dom João VI (Commons, public domain). _Suggestion: Debret's 1817 portrait, public domain, very large: https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Debret_-_Retrato_de_Dom_Jo%C3%A3o_VI_(MNBA).jpg_
 - **Deeper:** Debret or Rugendas painting of Rio in the 1810s. _Must be Rio, not another European palace or library._
 - **Search:** Commons: "Dom João VI retrato", "Debret Rio de Janeiro", "chegada da família real". Pexels: "Real Gabinete Português".
 
@@ -181,8 +180,9 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 - **Review:** Guanabara Bay with Sugarloaf (no gold). _Don't show: Gold, mines, Minas Gerais, Pombal._
 - **Search:** Commons: "Rio de Janeiro 18th century", "Rugendas Rio". Pexels: "Paço Imperial", "Praça XV".
 
-#### court_in_rio_1808: How did Rio become the capital of a European empire? (Review)
+#### court_in_rio_1808: How did Rio become the capital of a European empire? (Discover and Review)
 
+- **Discover:** Jean-Baptiste Debret's 1817 portrait of Dom João VI (Commons, public domain).
 - **Review:** Debret's lithograph of central Rio seen from the São Bento Monastery (Commons, public domain), cropped to the top panel. _Don't show: Napoleon, a fleet, anything about 1815._
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
