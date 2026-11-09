@@ -45,7 +45,7 @@
     },
     "discover": {
       "width": 1024,
-      "height": 1820,
+      "height": 1821,
       "alt": {
         "pt-BR": "Retrato de Dom João VI pintado por Jean-Baptiste Debret em 1817, de corpo inteiro, com manto real, cetro e a coroa sobre uma mesa ao lado",
         "en": "Jean-Baptiste Debret's 1817 full-length portrait of Dom João VI in royal robes, holding a sceptre, with the crown on a table beside him"
@@ -59,7 +59,7 @@
       },
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-09",
-      "hash": "d298b0b5"
+      "hash": "2c1ea0f0"
     }
   }
 }
