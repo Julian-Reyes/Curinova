@@ -6,11 +6,16 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 **Slots:** _Discover_ is the full-screen card (9:16, white title over the bottom). _Deeper_ is the Go Deeper hero (cropped to 12:7). _Review_ is the quiz picture (cropped to 16:9) and **must not give the answer away**; each Review line says what to avoid.
 
-**Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
+**Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. A Discover source shorter than 9:16 is zoomed in (cropped to 9:16 around the subject) before `media:add`, so it fills the whole card; never use the blurred fill. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
 
-## Still to do: Brazil's three capitals (real photos) ********************************************************************************************
+## Still to do (22 pictures, all real photos)
 
-Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
+- **Brazil's three capitals:** 1808 court Go Deeper (1); Brasília airplane shape (3).
+- **Brazil in space:** all 6 lessons (18).
+
+### Brazil's three capitals (real photos)
+
+Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover must fill the whole card: a tall (portrait) picture, or a wider one zoomed in to 9:16.
 
 #### court_in_rio_1808: How did Rio become the capital of a European empire? (Deeper)
 
@@ -24,7 +29,7 @@ Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; coloni
 - **Review:** A Brasília superquadra with pilotis and trees. _Don't show: The airplane or cross-shaped plan from above, UNESCO, Lúcio Costa._
 - **Search:** Pexels/Unsplash: "Brasília aerial", "Eixo Monumental", "superquadra". Commons: "Plano Piloto Brasília".
 
-## Still to do: Brazil in space (real photos preferred)
+### Brazil in space (real photos preferred)
 
 Specific rockets, satellites and people should be real. NASA photos are public domain (on Commons and nasa.gov); check the license on INPE, AEB, FAB and ISRO pictures. Generic scenes (Earth from orbit, a night launch) can be AI if no real picture fits.
 
@@ -70,7 +75,7 @@ Specific rockets, satellites and people should be real. NASA photos are public d
 - **Review:** Earth from orbit at night, city lights (NASA). _Don't show: The ISS, the 14-Bis, Santos Dumont, a calendar (2006)._
 - **Search:** Commons/NASA: "Marcos Pontes", "Expedition 13", "Soyuz TMA-8".
 
-## Already done (pictures added 2026-11-05 and 2026-11-06)
+## Already done (pictures added 2026-11-05 to 2026-11-09)
 
 These lessons have their pictures; they are kept here in case one needs replacing. Each still needs **Images checked** in `/_review`.
 
@@ -136,6 +141,8 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 
 #### knuckle_cracking: Does cracking your knuckles cause arthritis?
 
+_Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel Torres (Deeper), Teguh Arief (Review)._
+
 - **Discover:** `DISCOVER: Two hands with fingers interlaced and pushed outward, as if about to crack the knuckles, against a dark background, warm side light on the knuckles, the lower part in shadow.` _Accuracy: normal, healthy hands; no visible joint swelling._
 - **Deeper:** `DEEPER: A hand resting on a desk next to a keyboard, fingers slightly bent, soft daylight.`
 - **Review:** `REVIEW: A relaxed hand resting on a wooden table, soft daylight.` _Don't show X-rays, MRI scans, bubbles or a cut-away joint (all answers)._
@@ -168,35 +175,35 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 
 #### salvador_first_capital: Why was Salvador Brazil's first capital?
 
-- **Discover:** Pelourinho's colourful colonial houses and church towers.
-- **Deeper:** Salvador's upper and lower town with the Lacerda Elevator and bay.
-- **Review:** Salvador's bay seen from the upper town. _Don't show: Tomé de Sousa, 1549, caravels arriving._
+- **Discover:** A Pelourinho street with colonial houses and church towers (Pexels, Marcelo Gonzalez).
+- **Deeper:** The Lacerda Elevator and the Bay of All Saints (Pexels, Luís Otávio).
+- **Review:** Aerial view of Salvador's seafront (Pexels, LEONARDO DOURADO). _Don't show: Tomé de Sousa, 1549, caravels arriving._
 - **Search:** Pexels/Unsplash: "Pelourinho", "Salvador Bahia", "Elevador Lacerda". Commons: "Salvador 17th century engraving".
 
 #### rio_capital_1763: Why did the capital move to Rio in 1763?
 
-- **Discover:** An old engraving or painting of colonial Rio and Guanabara Bay.
-- **Deeper:** Paço Imperial or Praça XV today.
-- **Review:** Guanabara Bay with Sugarloaf (no gold). _Don't show: Gold, mines, Minas Gerais, Pombal._
+- **Discover:** Sugarloaf and Guanabara Bay from above, zoomed to 9:16 (Pexels, Danilo Marcelino).
+- **Deeper:** Praça do Comércio in **Lisbon**, rebuilt under Pombal (Pexels, Carlos Maciel). _Swap for Paço Imperial or Praça XV if you'd rather show Rio._
+- **Review:** Boats on Guanabara Bay from a seawall (Pexels, Felipe Bittencourt). _Don't show: Gold, mines, Minas Gerais, Pombal._
 - **Search:** Commons: "Rio de Janeiro 18th century", "Rugendas Rio". Pexels: "Paço Imperial", "Praça XV".
 
 #### court_in_rio_1808: How did Rio become the capital of a European empire? (Discover and Review)
 
-- **Discover:** Jean-Baptiste Debret's 1817 portrait of Dom João VI (Commons, public domain).
+- **Discover:** Jean-Baptiste Debret's 1817 portrait of Dom João VI (Commons, public domain), zoomed to fill the card.
 - **Review:** Debret's lithograph of central Rio seen from the São Bento Monastery (Commons, public domain), cropped to the top panel. _Don't show: Napoleon, a fleet, anything about 1815._
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
 
-- **Discover:** Cerrado landscape on the Planalto Central (twisted trees, red earth, big sky).
+- **Discover:** A lone hiker in a wide grassy field below a plateau (Pexels, Matheus Bertelli; no location given).
 - **Deeper:** Henrique Morize's 1894 photo of the Cruls Commission (Commons, public domain).
 - **Review:** A twisted Cerrado tree in Chapada dos Veadeiros (Commons, CC BY-SA 4.0, Eliane de Castro). _Don't show: Surveyors, markers, the 1891 Constitution._
 - **Search:** Pexels/Unsplash: "cerrado", "Chapada dos Veadeiros". Commons: "Missão Cruls", "Planalto Central 1892".
 
 #### building_brasilia: How was Brasília built so fast?
 
-- **Discover:** Brasília Cathedral or the Congress towers at dusk.
+- **Discover:** The top of Brasília Cathedral (Pexels, FILIPE COELHO).
 - **Deeper:** The Congress dome under construction, 1959 (Commons, Agência Nacional / Arquivo Nacional, public domain).
-- **Review:** The Planalto Palace (Pexels). _Don't show: Workers, cranes, building sites, a calendar._
+- **Review:** The Planalto Palace in black and white (Pexels, Lucas Vinícius Pontes). _Don't show: Workers, cranes, building sites, a calendar._
 - **Search:** Pexels/Unsplash: "Brasília cathedral", "Congresso Nacional". Commons: "construção de Brasília", "candangos".
 
 ### Where your attention goes
@@ -236,7 +243,3 @@ Animals and plants can be AI or real. If you prefer real photos, the **Search** 
 - **Discover:** `DISCOVER: A person in a gorilla costume standing still in the middle of a bright school hallway, chest out, while players in white and black T-shirts pass basketballs around it in a motion-blurred swirl; only the gorilla is sharp; the lower part dark.` _Accuracy: clearly a costume, not a real gorilla; players' faces turned away or blurred; no text._
 - **Deeper:** `DEEPER: A busy city pavement at rush hour, everyone looking down at their phones as they walk, and a person in a gorilla costume standing among them that nobody is looking at.` _No recognisable faces or shop names._
 - **Review:** `REVIEW: Close-up of hands in white sleeves catching a basketball, motion blur, plain pale wall behind.` _Don't show a gorilla, a crowd with half the faces marked, or a person counting on their fingers (all answers)._
-
-## Still to do: Brazil's three capitals (real photos) ********************************************************************************************
-
-Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover needs a tall (portrait) picture or a tall crop.
