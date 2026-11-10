@@ -9,6 +9,7 @@
  *   discover  the full-screen Discover card (9:16 or taller works best)
  *   deeper    the Go Deeper hero and Explore lesson card (centre-cropped to 12:7)
  *   review    the Review question image (centre-cropped to 16:9; must not give the answer away)
+ *   diagram   the "How it works" picture in Go Deeper (centre-cropped to 2:1, D23)
  * A Discover image whose subject would sit behind the title can be shifted up by a share
  * of its height: tides_discover-up20.jpg.
  * A topic's picture (Explore tile and topic page) is named topic_<topic id>, e.g.
@@ -40,6 +41,7 @@ const SIZE: Record<MediaSlot, { width: number; height: number }> = {
   discover: { width: 1024, height: 1820 },
   deeper: { width: 1200, height: 700 },
   review: { width: 1000, height: 562 },
+  diagram: { width: 1200, height: 600 },
 };
 
 const INK = '8,7,10';

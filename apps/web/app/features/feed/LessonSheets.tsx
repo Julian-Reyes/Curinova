@@ -208,6 +208,9 @@ export function DeeperSheet({
   const sources = library.sources(variant);
   const credits = imageCredits(concept);
   const hasImage = concept.media?.deeper !== undefined;
+  // A "How it works" picture (D23) replaces the SVG scene in the diagram box.
+  const diagram = concept.media?.diagram;
+  const showDiagram = hasImage || diagram !== undefined;
 
   // Deep-dive paragraphs grouped under their headings, each group a collapsible section.
   const groups: { title: string; paragraphs: string[] }[] = [];
@@ -370,25 +373,26 @@ export function DeeperSheet({
               </ul>
             </section>
 
-            {(hasImage || rest.length > 0 || groups.length > 0) && (
+            {(showDiagram || rest.length > 0 || groups.length > 0) && (
               <section className="deeper-sec">
                 <h3 className="deeper-label" lang={prefs.locale}>
                   {t('deeper.howItWorks')}
                 </h3>
-                {hasImage && (
+                {showDiagram && (
                   <div className="deeper-diagram" data-open={diagramOpen ? 'true' : undefined}>
                     <div className="deeper-diagram-box">
                       <LessonArt
-                        concept={{ ...concept, media: undefined }}
+                        concept={diagram ? concept : { ...concept, media: undefined }}
                         variant={variant}
-                        slot="deeper"
+                        slot={diagram ? 'diagram' : 'deeper'}
                         accent={accent}
+                        className={diagram ? 'block h-auto w-full rounded-xl' : ''}
                         plateClassName="deeper-diagram-plate"
                       />
                     </div>
                     <div className="mt-2 flex items-center gap-2">
                       <p className="flex-1 text-[13px] leading-snug text-muted">
-                        {variant.heroMedia.alt}
+                        {diagram?.alt[variant.locale] ?? variant.heroMedia.alt}
                       </p>
                       <button
                         type="button"

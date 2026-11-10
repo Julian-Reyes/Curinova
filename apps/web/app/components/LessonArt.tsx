@@ -13,6 +13,7 @@ const SIZES: Record<MediaSlot | 'thumb', string> = {
   discover: '(min-width: 1024px) 500px, 100vw',
   deeper: '(min-width: 1024px) 560px, 92vw',
   review: '(min-width: 1024px) 520px, 90vw',
+  diagram: '(min-width: 1024px) 520px, 88vw',
   thumb: '(min-width: 1024px) 280px, 45vw',
 };
 
