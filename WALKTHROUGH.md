@@ -302,6 +302,12 @@ The quiz after a lesson now shows the lesson's Review picture above the answers,
 
 **A fix to the repeats.** After "You've seen everything new", Discover is meant to repeat the lessons you saw longest ago first. It was putting the lessons you had just seen for the first time at the front instead, so you saw them twice in a row. They now come last.
 
+### Step 23: "How it works" drawings for batch 2 (10 November)
+
+Go Deeper's **How it works** box shows a drawing of the lesson's idea. The 22 original lessons had one each, but the 31 batch 2 lessons were still showing an empty placeholder box. Each now has its own drawing in the same flat style: the satellite's view of fishbone-shaped clearings, the pirarucu's lung-like swim bladder, the coin whose speed levels off, the eye that briefly stops seeing during a jump, and so on. The caption under each drawing says what it explains, in both languages.
+
+For when we want richer versions, `docs/content/HOW_IT_WORKS_PROMPTS.md` holds a ChatGPT prompt for every one of the 53 drawings, with a reference picture of each. The app can't show those pictures yet: that needs a new picture slot, still to be decided (D23).
+
 ---
 
 ---
