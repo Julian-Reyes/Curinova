@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "frog-diet",
+    "alt": "Diagram comparing two diets: in the wild, toxins pass from plants to ants and mites and on to the frog, which becomes poisonous; in captivity, fed toxin-free flies and crickets, the frog has no poison.",
     "license": "original"
   },
   "claims": [

@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "name-filter",
+    "alt": "Diagram of a head surrounded by conversations: the ignored voices stop at a filter, but the one carrying your name gets through and grabs attention.",
     "license": "original"
   },
   "claims": [

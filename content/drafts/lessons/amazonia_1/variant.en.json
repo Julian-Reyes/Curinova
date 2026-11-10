@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "multimission-platform",
+    "alt": "Diagram of the Multimission Platform: the same service module, with solar panel and thrusters, can carry different payloads; on Amazonia-1, a camera that watches the forest.",
     "license": "original"
   },
   "claims": [

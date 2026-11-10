@@ -48,8 +48,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "task-switch",
+    "alt": "Diagram of two tasks, sums and shapes, and two timelines: doing one at a time finishes sooner; switching back and forth, each switch costs a little time and the total grows.",
     "license": "original"
   },
   "claims": [

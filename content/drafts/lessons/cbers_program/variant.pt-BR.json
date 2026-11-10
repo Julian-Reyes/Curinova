@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "illustrationId": "cbers-satellite",
+    "alt": "Diagrama de um satélite CBERS em órbita, com o corpo dividido em duas cores pelos dois países que o constroem: a câmera fotografa uma faixa da Terra, e o satélite também retransmite dados de estações no solo.",
     "license": "original"
   },
   "claims": [

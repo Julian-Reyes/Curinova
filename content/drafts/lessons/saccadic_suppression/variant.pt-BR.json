@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "illustrationId": "saccade-blink",
+    "alt": "Diagrama de um salto do olhar de um ponto a outro: durante o movimento a imagem borraria, e a linha do tempo mostra a visão desligada um pouco antes e durante o salto.",
     "license": "original"
   },
   "claims": [

@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "microwave-depth",
+    "alt": "Diagram of food cut in half: microwaves heat only the outer layers, and heat reaches the centre slowly by conduction; beside it, a water molecule spinning.",
     "license": "original"
   },
   "claims": [

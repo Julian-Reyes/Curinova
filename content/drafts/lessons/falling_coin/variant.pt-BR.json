@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "illustrationId": "coin-drag",
+    "alt": "Diagrama de uma moeda caindo de um prédio: a velocidade cresce até a resistência do ar igualar o peso, e daí em diante fica constante, como mostra a curva que se achata.",
     "license": "original"
   },
   "claims": [

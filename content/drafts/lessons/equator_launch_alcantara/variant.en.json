@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "equator-launch",
+    "alt": "Diagram of the spinning Earth: near the equator, where Alcântara lies, the surface moves faster than near the poles and gives the rocket an extra push; Earth is also wider at the equator.",
     "license": "original"
   },
   "claims": [

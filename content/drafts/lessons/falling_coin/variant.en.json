@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "coin-drag",
+    "alt": "Diagram of a coin falling from a building: its speed grows until air resistance matches its weight, then stays steady, as the flattening curve shows.",
     "license": "original"
   },
   "claims": [

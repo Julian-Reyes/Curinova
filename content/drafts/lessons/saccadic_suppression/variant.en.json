@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "saccade-blink",
+    "alt": "Diagram of the gaze jumping from one point to another: the image would blur during the movement, and the timeline shows vision switched off just before and during the jump.",
     "license": "original"
   },
   "claims": [

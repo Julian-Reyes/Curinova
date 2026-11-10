@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "cbers-satellite",
+    "alt": "Diagram of a CBERS satellite in orbit, its body split in two colours for the two countries that build it: the camera photographs a strip of Earth, and the satellite also relays data from ground stations.",
     "license": "original"
   },
   "claims": [

@@ -48,8 +48,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "illustrationId": "task-switch",
+    "alt": "Diagrama de duas tarefas, contas e formas, e duas linhas do tempo: fazendo uma de cada vez, termina-se antes; alternando, cada troca custa um pouco de tempo e o total fica maior.",
     "license": "original"
   },
   "claims": [

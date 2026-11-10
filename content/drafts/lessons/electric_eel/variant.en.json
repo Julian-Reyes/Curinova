@@ -48,8 +48,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "eel-cells",
+    "alt": "Diagram of an electric eel with a cutaway showing stacks of electrocytes along its body, positive at the head and negative at the tail, sending discharges towards fish.",
     "license": "original"
   },
   "claims": [

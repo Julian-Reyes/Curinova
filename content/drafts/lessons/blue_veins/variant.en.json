@@ -48,8 +48,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "vein-light",
+    "alt": "Diagram of light entering skin: red light goes deeper and is absorbed by the vein, while blue light scatters near the surface and returns to the eye, so the deep vein looks bluish.",
     "license": "original"
   },
   "claims": [

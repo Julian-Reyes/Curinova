@@ -40,8 +40,8 @@
   ],
   "heroMedia": {
     "type": "illustration",
-    "illustrationId": "fixture",
-    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "illustrationId": "clock-stretch",
+    "alt": "Diagram of a glance jumping to a clock: the brain stretches the first image backwards in time, so the first second seems longer than the ones after it.",
     "license": "original"
   },
   "claims": [
