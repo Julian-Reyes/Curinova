@@ -8,34 +8,9 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 **Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. A Discover source shorter than 9:16 is zoomed in (cropped to 9:16 around the subject) before `media:add`, so it fills the whole card; never use the blurred fill. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
 
-## Still to do (9 pictures, all real photos)
+## Still to do
 
-- **Brazil in space:** CBERS, Amazonia-1, Marcos Pontes (9).
-
-### Brazil in space (real photos preferred)
-
-Specific rockets, satellites and people should be real. NASA photos are public domain (on Commons and nasa.gov); check the license on INPE, AEB, FAB and ISRO pictures. Generic scenes (Earth from orbit, a night launch) can be AI if no real picture fits.
-
-#### cbers_program: What is CBERS?
-
-- **Discover:** A CBERS satellite (photo or official render).
-- **Deeper:** A CBERS satellite image of a Brazilian city or river.
-- **Review:** Earth from orbit over South America at night. _Don't show: Flags of Brazil and China, dates._
-- **Search:** Commons: "CBERS-4", "CBERS satellite", "CBERS image". INPE gallery.
-
-#### amazonia_1: What was Amazonia-1?
-
-- **Discover:** The Amazonia-1 satellite in the clean room (INPE).
-- **Deeper:** Earth-observation image of the Amazon taken by Amazonia-1.
-- **Review:** Earth's curve from orbit over clouds. _Don't show: A launch, India, the PSLV rocket._
-- **Search:** Commons: "Amazonia-1 satellite", "Amazônia 1 INPE". INPE and AEB galleries.
-
-#### marcos_pontes: Who was the first Brazilian in space?
-
-- **Discover:** NASA portrait of Marcos Pontes in his spacesuit (public domain).
-- **Deeper:** Marcos Pontes aboard the ISS in 2006 (NASA).
-- **Review:** Earth from orbit at night, city lights (NASA). _Don't show: The ISS, the 14-Bis, Santos Dumont, a calendar (2006)._
-- **Search:** Commons/NASA: "Marcos Pontes", "Expedition 13", "Soyuz TMA-8".
+Nothing: every batch 2 lesson has its pictures.
 
 ## ********************************** Already done (pictures added 2026-11-05 to 2026-11-10) ****************************************************
 
@@ -60,6 +35,24 @@ These lessons have their pictures; they are kept here in case one needs replacin
 - **Discover:** A toco toucan on a treetop above misty forest (Pexels, Matheus Bertelli; no location given).
 - **Deeper:** Amazon canopy from above in San Juan Bautista, Peru (Unsplash, David Geere). _No forest-edge or deforestation photo found yet; swap one in if it turns up._
 - **Review:** A river bend through unbroken forest in the Vale do Javari Indigenous Territory, Amazonas (Commons, CC BY 2.0, Amazônia Real). _Don't show: Calendars, alerts, charts, the words PRODES or DETER. Tom Fisk's Pexels forest (2739664) was turned down: it is Rochester, Minnesota._
+
+#### cbers_program: What is CBERS?
+
+- **Discover:** CBERS-4A in INPE's test chamber, around 2019 (Commons, INPE, attribution), zoomed to 9:16.
+- **Deeper:** CBERS-4 image of Vitória, Espírito Santo, 2017 (Commons, CC BY-SA 4.0, INPE/OBT/DPI).
+- **Review:** Brazil from the ISS before dawn, 2014 (Commons, NASA, public domain). _Don't show: Flags of Brazil and China, dates._
+
+#### amazonia_1: What was Amazonia-1?
+
+- **Discover:** Amazonia-1 in the clean room, 2021 (Commons, CC BY-SA 3.0, INPE), zoomed to 9:16. Only 700 px wide, so a little soft.
+- **Deeper:** Amazonia-1 image of Manaus and the meeting of the rivers, 2021 (Commons, CC BY-SA 2.0, Emiliano Castejon / INPE).
+- **Review:** The top of the atmosphere over clouds with a crescent Moon, from the ISS in 2006 (Commons, NASA, public domain). _Don't show: A launch, India, the PSLV rocket._
+
+#### marcos_pontes: Who was the first Brazilian in space?
+
+- **Discover:** Pontes in his Sokol suit floating in the ISS Zvezda module, 2006 (Commons, NASA, public domain), cropped inside the white edge.
+- **Deeper:** Pontes at a computer in the Destiny lab, 3 April 2006 (Commons, NASA, public domain), with the caption strip cropped off.
+- **Review:** Rio de Janeiro's lights at night from the ISS, 2022 (Commons, NASA, public domain). _Don't show: The ISS, the 14-Bis, Santos Dumont, a calendar (2006)._
 
 ### Brazil's three capitals (real photos)
 
