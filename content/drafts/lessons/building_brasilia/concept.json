@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "0338c949"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "A construção de Brasília: caminhões trazem candangos, guindastes erguem as torres do Congresso entre andaimes, e uma barra de doze blocos mostra a obra quase pronta.",
+        "en": "Brasília being built: trucks bring in workers, cranes raise the Congress towers among scaffolding, and a bar of twelve blocks shows the work nearly finished."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "0741b30b"
     }
   }
 }

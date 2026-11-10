@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "face700e"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Mapa antigo: o ouro desce das minas até o porto do Rio e segue de navio, e a coroa passa da antiga capital, mais ao norte, para o Rio.",
+        "en": "An old-style map: gold travels down from the mines to the port of Rio and on by ship, and the crown moves from the old capital further north to Rio."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "a22836fc"
     }
   }
 }

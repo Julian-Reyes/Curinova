@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "eb775ff2"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Vista explodida de um satélite modular: a mesma plataforma, com painel solar, pode receber um módulo de câmera que observa a Amazônia ou outro instrumento.",
+        "en": "Exploded view of a modular satellite: the same platform, with its solar panel, can take a camera module that watches the Amazon or another instrument."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "035f3896"
     }
   }
 }

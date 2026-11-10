@@ -77,6 +77,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "08b70711"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "A Terra vista do espaço com a América do Sul: setas mostram que a superfície gira mais rápido no equador do que mais ao norte, e um foguete parte de Alcântara rumo ao leste.",
+        "en": "Earth from space with South America: arrows show the surface spinning faster at the equator than further north, and a rocket leaves Alcântara heading east."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "d74c1160"
     }
   }
 }

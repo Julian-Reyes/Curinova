@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "ebefe0aa"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma nave Soyuz sobe da Terra e se aproxima da Estação Espacial Internacional para atracar, acima da curva do planeta.",
+        "en": "A Soyuz spacecraft rises from Earth and approaches the International Space Station to dock, above the planet’s curve."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "13e905a6"
     }
   }
 }

@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "9aee740c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Corte do solo: saúvas levam pedaços de folha para o ninho, onde as folhas alimentam um jardim de fungo, e uma formiga come o fungo.",
+        "en": "A cross-section of the ground: leafcutter ants carry leaf pieces into the nest, where the leaves feed a fungus garden, and one ant eats the fungus."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "56867d16"
     }
   }
 }

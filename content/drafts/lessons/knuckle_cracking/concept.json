@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "cc112345"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Diagrama de uma articulação do dedo: os ossos se afastam e uma bolha de gás se forma no líquido sinovial, com ondas de som acima.",
+        "en": "Diagram of a finger joint: the bones move apart and a gas bubble forms in the synovial fluid, with sound waves above."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "e13918d8"
     }
   }
 }

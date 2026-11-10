@@ -23,5 +23,24 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "O Plano Piloto visto de cima: o Eixo Monumental reto cruza o Eixo Rodoviário curvo, ladeado pelas superquadras; uma linha tracejada mostra o eixo reto que foi curvado.",
+        "en": "The Plano Piloto from above: the straight Monumental Axis crosses the curved Road Axis, lined by superblocks; a dashed line shows the straight axis that was bent."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "35a90b73"
+    }
+  }
 }

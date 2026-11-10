@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "cba71657"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um poraquê com um corte mostrando fileiras de eletrócitos empilhados como pilhas, com o polo positivo na cabeça e o negativo na cauda, soltando descargas na direção de dois peixes.",
+        "en": "An electric eel with a cutaway showing rows of electrocytes stacked like batteries, positive at the head and negative at the tail, sending discharges towards two fish."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "19ff45bc"
     }
   }
 }

@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "32943a8c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "O olhar salta entre dois pontos de um parque e a imagem no meio fica borrada; embaixo, uma linha do tempo mostra a visão desligada durante o salto.",
+        "en": "The gaze jumps between two points in a park and the view in between is blurred; below, a timeline shows vision switched off during the jump."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "600e0773"
     }
   }
 }

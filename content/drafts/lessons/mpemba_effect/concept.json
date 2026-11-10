@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "01c9d349"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um copo de água quente e um de água fria no congelador, e um gráfico das duas temperaturas caindo até o ponto de congelamento, com uma zona incerta onde as curvas se encontram.",
+        "en": "A glass of hot water and a glass of cold water in a freezer, and a graph of both temperatures falling to freezing, with an uncertain zone where the curves meet."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "a2665296"
     }
   }
 }

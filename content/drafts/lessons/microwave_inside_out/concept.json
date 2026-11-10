@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "36a5c0a8"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um alimento cortado ao meio: as micro-ondas aquecem as camadas de fora, o centro ainda está frio e o calor avança para dentro; ao lado, uma molécula de água girando.",
+        "en": "Food cut in half: microwaves heat the outer layers, the centre is still cool and heat moves inwards; beside it, a water molecule spinning."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "29f1a74a"
     }
   }
 }

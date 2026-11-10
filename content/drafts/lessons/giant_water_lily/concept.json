@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "79021f02"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma folha de vitória-régia vista de lado, com pesos espalhados por cima e nervuras rasas por baixo, e vista de baixo, com a rede de nervuras avermelhadas e espinhos.",
+        "en": "A giant water lily leaf seen from the side, with weights spread across the top and shallow ribs underneath, and from below, with its network of reddish ribs and spines."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "207742ae"
     }
   }
 }

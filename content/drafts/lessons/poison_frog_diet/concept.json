@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "27ba6277"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Na natureza, a toxina passa da folha para formigas e ácaros e deles para um sapo amarelo e preto; em cativeiro, com moscas e grilos, o sapo fica sem veneno.",
+        "en": "In the wild, toxins pass from a leaf to ants and mites and on to a yellow-and-black frog; in captivity, fed flies and crickets, the frog has no poison."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "fffedf1f"
     }
   }
 }

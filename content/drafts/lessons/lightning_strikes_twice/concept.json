@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "d8cb02e2"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Raios caem repetidas vezes na estátua no alto de um morro alto e isolado, e uma vez numa árvore solitária, enquanto as casas baixas do vale não são atingidas.",
+        "en": "Lightning strikes the statue on a tall, isolated peak again and again, and a lone tree once, while the low houses in the valley are not hit."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "b0fda30e"
     }
   }
 }

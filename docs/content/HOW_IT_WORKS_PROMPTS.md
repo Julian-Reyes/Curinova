@@ -1,367 +1,308 @@
 # "How it works" diagram prompts (53 lessons)
 
-ChatGPT prompts for polished versions of every lesson's **How it works** drawing in Go Deeper. Today each lesson shows an original SVG scene drawn in code (`apps/web/app/components/Illustration.tsx` and `illustrations/`). These prompts are for when we want better-looking versions: send ChatGPT the scene's picture together with its prompt, and it redraws the same idea in a richer style.
+ChatGPT prompts for the pictures in Go Deeper's **How it works** box. All 53 were generated on 2026-11-10 by Claude Code on the founder's ChatGPT account and checked for accuracy before being kept; the prompts below are the versions that worked, with any correction folded in.
 
-**Not wired up yet.** The app can only show the SVG scenes in this spot. Using ChatGPT pictures here needs a fourth picture slot ("diagram") in the lesson format, which is a decision to make first (D23 in `docs/DECISIONS.md`). Until then, keep the finished pictures in a folder; nothing in the app changes.
+**Where the pictures are**
+
+- **Batch 2 (31 drafts):** on the site in the new `diagram` slot (D23), waiting for **Images checked** in `/_review`. A lesson with a diagram picture shows it in How it works; the others keep their SVG scene.
+- **Published lessons (22):** generated but not added. An unchecked picture on a published lesson fails `content:validate` and would reach the live site unchecked, and `/_review` lists drafts only. The originals are in `~/Downloads/lumen-diagrams/final/`, named `<lesson>_diagram.png`, ready for `pnpm media:add` once that is sorted.
 
 ## How to use
 
-1. Start a new ChatGPT chat and paste the **house style** below once.
-2. For each lesson, attach its reference picture from `docs/content/how-it-works/<scene>.png` and paste the lesson's prompt.
-3. Check the **accuracy notes** before keeping a picture. A diagram that teaches the wrong thing is worse than the plain SVG.
-4. Name the file `<lesson>_diagram.png` (for example `tides_diagram.png`) and keep it until the diagram slot exists.
+1. Start a fresh ChatGPT chat (long chats start refusing harmless prompts).
+2. Paste a lesson's prompt followed by the **house style** line. Do not attach the SVG reference: with a reference ChatGPT just traces the rough drawing.
+3. Check the picture against the **Check** line. ChatGPT often gets arrow directions, lengths and balance wrong; ask for a redo naming the exact fix.
+4. Save as `<lesson>_diagram.png` and run `pnpm media:add <folder>`; then fill in alt text and the origin in the lesson's `concept.json`.
 
-**The reference pictures are a snapshot** of the scenes as drawn on 2026-11-10. If a scene changes in code, ask for the PNGs to be exported again.
+The old SVG reference pictures stay in `docs/content/how-it-works/` for comparison.
 
-**Shape:** the drawing sits in a 2:1 box that shows only the top 170 pixels until the reader taps "Show more". Keep the key idea in the middle band and nothing important near the edges.
-
-## House style (paste once per chat)
+## House style (add to every prompt)
 
 ```text
-You'll redraw a series of simple diagrams for a science-learning app for curious adults. For each one I'll attach a rough reference drawing and describe what it must show. House style for every image:
-- A polished educational illustration: clean shapes, soft shading and gentle gradients, like a high-quality museum or textbook infographic. Calm, natural colours with mint, aqua and teal as the base palette plus one accent colour I'll name.
-- Keep the reference drawing's layout and every element it contains, in the same places, so the idea stays the same. Make it richer and clearer, not different.
-- Absolutely no text, letters, numbers, labels, logos or watermarks. Arrows, dashed lines and simple symbols are fine.
-- No recognisable faces; people are small simple figures or silhouettes.
-- Wide landscape, exactly twice as wide as tall (for example 1536×768). Plain light background, nothing important near the edges.
-- Scientifically and historically accurate. Don't add things I didn't ask for.
-Reply only with the image.
+Polished educational illustration in the style of a high-end museum or textbook infographic: soft shading, gentle gradients, realistic but clean, calm natural colours. Wide landscape, exactly twice as wide as tall, with nothing important near the edges. Absolutely no text, letters, numbers, labels, logos or watermarks; arrows and dashed lines are fine. Reply only with the image.
 ```
 
-## Brazil in space (accent: blue)
+## Brazil in space
 
 #### equator_launch_alcantara: Why launch rockets near the equator?
 
-- **Reference:** `how-it-works/equator-launch.png`
-- **Prompt:** `DIAGRAM: Earth seen from the side, slightly wider at the equator than a perfect circle (a faint dashed circle shows the difference). A dashed golden equator line crosses South America; a blue dot marks Alcântara just below it. Two teal arrows on Earth's surface show rotation speed: a long one at the equator, a short one higher up. A curved arrow above the north pole shows Earth spinning west to east. A small rocket leaves from near the equator towards the upper right along a dashed path, with faint speed lines behind it. Accent colour: blue.`
-- **Accuracy:** Earth spins west to east (left to right on the near side). Alcântara is about 2° south of the equator, on Brazil's north-east coast. The bulge at the equator should be subtle.
+- **Prompt:** `Why rockets launch near the equator. On the left, a realistic Earth seen from space, South America facing us, very slightly wider at the equator than at the poles (a faint dashed circle shows a perfect sphere for comparison). A thin golden dashed line marks the equator, and a small glowing blue dot marks Alcântara on Brazil's north-east coast, just south of the equator. Two teal arrows on the surface show the speed of Earth's spin from west to east: a long arrow at the equator and a short arrow at a higher latitude. A curved arrow above the North Pole shows the spin direction. On the right, a white rocket climbs away from near the equator towards the east on a curved dashed path, with faint speed streaks behind it. Deep navy space with faint stars.`
+- **Check:** Spin and launch are west to east (left to right on the near side); the equator arrow is clearly longer; Alcântara is just south of the equator on Brazil's north-east coast.
 
 #### vls_accident_2003: What happened at Alcântara in 2003?
 
-- **Reference:** `how-it-works/vls-pad.png`
-- **Prompt:** `DIAGRAM: The VLS-1 rocket standing on its launch table beside a tall white mobile tower, with two thin red-and-white lightning masts to the left. The rocket has a slim central core with a pointed blue nose and four strap-on boosters around its base (three visible). One booster is highlighted in gold with a small spark at its base. A dashed line leads from it to a round inset showing a small detonator cartridge with a spark. Calm daylight, no fire, no smoke, no explosion. Accent colour: blue.`
-- **Accuracy:** This lesson is about a real accident that killed 21 people: keep it sober. No flames, debris or people. The VLS-1 had four first-stage boosters around a central core.
+- **Prompt:** `A calm technical illustration of a historic Brazilian satellite launch vehicle, the VLS-1, standing on its launch pad on a tropical coast in daylight. A tall white mobile service tower on the left; two thin red-and-white lightning masts behind; low green scrub and the ocean in the distance. The rocket is slim and white with a pointed nose: a central core with four strap-on boosters around its base (three visible). One booster is softly outlined in a warm golden glow, and a thin dashed line leads from its bottom to a round magnified inset on the right showing its small cylindrical ignition unit. Peaceful scene, no people.`
+- **Check:** ChatGPT refuses the words accident and detonator; keep the wording neutral. Four boosters; nothing violent.
 
 #### inpe_amazon_monitoring: How does INPE watch the Amazon from space?
 
-- **Reference:** `how-it-works/deforestation-watch.png`
-- **Prompt:** `DIAGRAM: A small Earth-observation satellite at the top centre with two solar panels, its field of view a pale cone reaching down to a strip of green rainforest seen from above. Across the forest runs a road with side roads and rectangular clearings in a "fishbone" pattern; one clearing area is outlined with a dashed box, as if detected. On the left, a round dial with twelve marks stands for one yearly measurement; on the right, a bell with a row of dots stands for daily alerts. Dashed lines link the satellite to both. Accent colour: blue.`
-- **Accuracy:** The fishbone pattern (roads with clearings branching off) is the classic look of Amazon deforestation from space. No words, calendars with dates or charts.
+- **Prompt:** `How satellites watch the Amazon. At the top centre, a small Earth-observation satellite with solar panels, its field of view a pale translucent cone reaching down to the rainforest. Below, an aerial view of dense green Amazon rainforest crossed by a straight dirt road with side roads branching off it, and rectangular brown clearings along them in the typical fishbone pattern of deforestation; one cluster of clearings is outlined with a dashed rectangle, as if just detected. On the left, a round dial with twelve segments (one measurement a year); on the right, a small bell with a row of dots (daily alerts); thin dashed lines link the satellite to both.`
+- **Check:** Fishbone pattern of roads and clearings; satellite looks down; no words, dates or charts.
 
 #### cbers_program: What is CBERS?
 
-- **Reference:** `how-it-works/cbers-satellite.png`
-- **Prompt:** `DIAGRAM: A boxy CBERS remote-sensing satellite in orbit above Earth's curved horizon. Its body is split down the middle into two colours (blue and gold) to show it is built by two countries. A single long solar panel wing extends to the right. A camera under the body looks down at Earth, its field of view a pale trapezoid on the ground. On the left, a small stack of satellite images (green land with a river) shows what it sends back. On the right, a small ground data station with an antenna sends signal arcs up to the satellite. Accent colour: blue.`
-- **Accuracy:** No flags. CBERS satellites have one solar wing on one side. The ground station stands for the environmental data relay the first satellites carried.
+- **Prompt:** `An Earth-observation satellite at work. A boxy satellite wrapped in gold foil orbits above the curve of the Earth, with a single long dark-blue solar panel wing on one side only. A camera under its body looks down; its field of view is a pale translucent trapezoid on the land below, where a river winds through green and brown terrain. On the left, a small stack of satellite photos of land and rivers floats as what it sends back. On the right, a small ground station with an antenna sends faint signal arcs up to the satellite. Deep space with faint stars.`
+- **Check:** ChatGPT refused the version that said the satellite is built by two countries. One solar wing only; no flags.
 
 #### amazonia_1: What was Amazonia-1?
 
-- **Reference:** `how-it-works/multimission-platform.png`
-- **Prompt:** `DIAGRAM: An exploded view of a modular satellite. At the bottom centre, a blue service module (the Multimission Platform) with a long solar panel to the right and a small thruster nozzle underneath. Above it, two possible payload modules: on the left a solid module with a camera lens, joined to the platform by a solid teal arrow; on the right a dashed, ghosted module with a small dish antenna, joined by a dashed arrow, showing the same platform can carry other payloads. On the far left, a framed aerial view of green forest with a river shows what the camera observes. Accent colour: blue.`
-- **Accuracy:** The point is reuse: one standard platform, different payloads. No rocket, no India, no launch.
+- **Prompt:** `An exploded technical view of a modular satellite, explaining a reusable platform. At the bottom centre, a box-shaped service module (the platform) with a long dark-blue solar panel to the right and a small thruster nozzle underneath. Above it, two alternative top modules float: on the left a solid module with a camera lens, joined to the platform by a solid teal arrow; on the right a ghosted, translucent module with a small dish antenna, joined by a dashed arrow, showing the same platform can carry other instruments. On the far left, a framed aerial view of green Amazon forest with a winding river shows what the camera observes. Clean light background.`
+- **Check:** The idea is one platform, interchangeable payloads; no rocket, no launch, no India.
 
 #### marcos_pontes: Who was the first Brazilian in space?
 
-- **Reference:** `how-it-works/soyuz-iss.png`
-- **Prompt:** `DIAGRAM: Earth's curved horizon along the bottom with a thin glowing atmosphere. A dashed path rises from Earth to a Soyuz spacecraft (round orbital module at the front, bell-shaped descent module, cylindrical service module with two small blue solar panels) approaching the International Space Station on the right. The station has a long horizontal truss with eight golden solar arrays and a cluster of white modules in the middle. A dashed arrow between them shows the docking approach. A few faint stars. Accent colour: blue.`
-- **Accuracy:** The Soyuz docks nose-first with its orbital module. Keep the station generic in detail, no flags or mission patches.
+- **Prompt:** `A Soyuz spacecraft approaching the International Space Station to dock, above Earth's curved horizon with a thin glowing blue atmosphere. A dashed path rises from Earth to the Soyuz on the left: a round orbital module at the front, a bell-shaped descent module and a cylindrical service module with two small solar panels. On the right, the space station with its long horizontal truss, several pairs of large golden solar arrays and a cluster of white modules in the middle. A short dashed arrow between them shows the docking approach. Deep space with a few faint stars. The dashed path's arrowhead is at the Soyuz end, so it clearly rises from Earth.`
+- **Check:** The first try put the arrowhead at Earth, like a return trip.
 
-## Amazon survival tricks (accent: coral red)
+## Amazon survival tricks
 
 #### electric_eel: How does an electric eel make electricity?
 
-- **Reference:** `how-it-works/eel-cells.png`
-- **Prompt:** `DIAGRAM: A long olive-green electric eel swimming in pale water, head on the right. A cutaway window along its body shows rows of thin stacked cells (electrocytes) in alternating gold and coral, like a stack of tiny batteries. A plus symbol above the head end and a minus symbol above the tail end. Zigzag golden discharges leave the head towards two small fish on the right. Accent colour: coral red.`
-- **Accuracy:** The electric organs run along most of the body, not just the tail; the head end is positive. Electric eels are knifefish, not true eels: long body, long fin along the belly, no big dorsal fin.
+- **Prompt:** `How an electric eel makes electricity. A long, dark olive electric eel swims in clear Amazon river water, head on the right, with a long fin running along its belly and no tall back fin. A cutaway window along most of its body reveals thousands of thin, flat cells stacked in rows like coins in a battery, glowing softly in gold and coral. A small plus symbol floats above the head end and a minus symbol above the tail end. Bright golden zigzag discharges leave the head towards two small fish on the right. Soft underwater light.`
+- **Check:** The electric organs run along most of the body; head end positive; body shaped like a knifefish, not a true eel.
 
 #### boto_echolocation: How does the boto hunt in muddy water?
 
-- **Reference:** `how-it-works/boto-sonar.png`
-- **Prompt:** `DIAGRAM: A pink Amazon river dolphin (boto) in murky brown water, facing right, with its long thin beak and a rounded bulge on its forehead (the melon). Golden curved sound waves spread from the melon towards a small fish; dashed teal echo waves bounce back from the fish towards the dolphin. Flooded tree trunks stand in the background on the right, and the wavy water surface runs along the top. Accent colour: coral red.`
-- **Accuracy:** The boto has a long narrow beak, a prominent melon, small eyes and a low ridge instead of a tall dorsal fin.
+- **Prompt:** `How the Amazon river dolphin (boto) hunts in muddy water by echolocation. An underwater view of a murky, brownish-green Amazon river, the wavy surface along the top, submerged tree trunks and roots of the flooded forest behind. On the left, a pink boto facing right: long thin beak, a rounded bulging forehead (the melon), small eyes, a low ridge on its back instead of a tall fin. Golden curved sound waves spread from its forehead towards a small silver fish on the right, half hidden in the murk; fainter dashed teal echo waves bounce back from the fish towards the dolphin.`
+- **Check:** Long beak, melon, no tall dorsal fin; echoes return from the fish.
 
 #### pirarucu_air_breathing: Why does the pirarucu drown if it can't reach the surface?
 
-- **Reference:** `how-it-works/pirarucu-breath.png`
-- **Prompt:** `DIAGRAM: A huge pirarucu (arapaima) tilted upwards with its mouth breaking the water surface to gulp air; a few air bubbles above. Its body is dark olive with a red rear half and tail. A cutaway along its back shows the swim bladder as a long spongy, lung-like organ. Faint gill arcs behind the head. Below, a dashed loop and a small clock show that it must come up again and again. Accent colour: coral red.`
-- **Accuracy:** The red colour is on the rear scales and tail. The swim bladder sits along the back, above the gut. It surfaces roughly every 15 minutes; no numbers in the image.
+- **Prompt:** `Why the pirarucu must breathe air. A huge pirarucu (arapaima) in a warm, greenish Amazon lake, tilted upwards with its mouth breaking the water surface to gulp air, a few bubbles above. Its body is long and dark olive, with bright red scales on the rear half and tail. A cutaway along its back shows the swim bladder as a long, spongy, lung-like organ full of small air pockets, glowing slightly. Faint gill arches behind the head. Below the fish, a curved dashed loop and a small clock face without numbers show that it has to come up again and again. Soft underwater light.`
+- **Check:** Red colouring on the rear and tail; the lung-like bladder is along the back; no numbers on the clock.
 
 #### leafcutter_farming: Do leafcutter ants eat leaves?
 
-- **Reference:** `how-it-works/ant-fungus.png`
-- **Prompt:** `DIAGRAM: A cross-section of ground. Above the surface on the left, a plant; leafcutter ants walk in a line towards a small nest mound, each holding a green leaf piece over its head. A tunnel leads down from the mound to a large underground chamber filled with a spongy white fungus garden. One ant inside the chamber eats from the fungus. A dashed arrow runs from the leaves to the fungus. Accent colour: coral red.`
-- **Accuracy:** The ants feed the leaves to the fungus and eat the fungus; don't show ants eating leaves. Leafcutter workers are reddish-brown with three body segments and six legs.
+- **Prompt:** `Leafcutter ants farming fungus, as a cross-section of rainforest ground. Above the surface on the left, a leafy plant; a line of reddish-brown leafcutter ants walks towards a small nest mound, each holding a green leaf fragment over its head. A tunnel leads down from the mound to a large underground chamber filled with a spongy, white-grey fungus garden. Inside the chamber, ants place leaf pieces on the fungus and one ant eats from the fungus. A curved dashed arrow runs from the leaves to the fungus. Warm earthy soil tones.`
+- **Check:** Ants eat the fungus, never the leaves; ants have three body parts and six legs.
 
 #### poison_frog_diet: Where do poison dart frogs get their poison?
 
-- **Reference:** `how-it-works/frog-diet.png`
-- **Prompt:** `DIAGRAM: Two rows separated by a dashed line. Top row (in the wild): a leaf, an arrow, an ant and a tiny red mite, an arrow, and a brightly coloured poison frog with dark-red spots and two small toxin drops above it. Bottom row (in captivity): a fruit fly and a cricket, an arrow, and the same frog drawn pale and plain with no drops, next to a small crossed-out drop symbol. Accent colour: coral red.`
-- **Accuracy:** The toxins come from the diet (ants and mites that likely get them from plants), not from the frog itself. Captive frogs on crickets and fruit flies aren't poisonous.
+- **Prompt:** `Where poison dart frogs get their poison, as two rows separated by a thin dashed line. Top row (in the wild): a green rainforest leaf, an arrow, a small ant and a tiny red mite, an arrow, then a brilliant yellow-and-black poison dart frog with two small drops of toxin glistening above it. Bottom row (in captivity): a fruit fly and a cricket, an arrow, then the same kind of frog shown pale and plain, with a small crossed-out drop symbol next to it. Clean light background.`
+- **Check:** Toxin flows from diet (ants and mites) to the frog; the captive frog has no toxin.
 
 #### giant_water_lily: How can a giant water lily leaf carry so much weight?
 
-- **Reference:** `how-it-works/lily-ribs.png`
-- **Prompt:** `DIAGRAM: Left: a side view of a giant water lily leaf floating on water, flat with a low upturned rim; five small weights sit evenly spread across the top, each with a small downward arrow; under the thin leaf, ribs hang down with air pockets inside. Right: the leaf seen from underneath as a large circle in reddish-purple, with thick ribs radiating from the centre, rings of cross-ribs connecting them, small air-filled pockets and scattered spines. Accent colour: coral red.`
-- **Accuracy:** The blade is very thin; the strength is in the rib network underneath. The load works only when spread evenly. The underside is reddish-purple and spiny.
+- **Prompt:** `Why a giant water lily leaf can carry weight, in two views. Left: a side view of a huge round lily leaf floating on calm water, very thin and flat with a low upturned rim; five small weights sit evenly spread across the top, each with a small downward arrow; beneath the thin leaf, a shallow network of ribs only a few centimetres deep, like the beams under a floor, with small air pockets between them; the long stalk goes straight down from the centre. Right: the same leaf seen from underneath as a large circle, reddish-purple, with thick ribs radiating from the centre, rings of cross-ribs connecting them, small air-filled pockets and scattered sharp spines. Soft natural light.`
+- **Check:** The first try drew the ribs as a deep cone. Weight evenly spread; underside reddish and spiny.
 
-## Everyday science myths (accent: amber)
+## Everyday science myths
 
 #### blue_veins: Is the blood in your veins blue?
 
-- **Reference:** `how-it-works/vein-light.png`
-- **Prompt:** `DIAGRAM: A cross-section of skin: a thin pale outer layer over a thicker pink layer, with a small dark-red vein near the surface and a larger dark-red vein deeper down. A sun in the upper left sends two rays: a red ray travels deep into the skin to the deep vein; a blue ray enters only a little way, scatters (small blue dots) and bounces back up to an eye in the upper right. Above the shallow vein the skin has a faint reddish tint; above the deep vein a faint bluish tint. Accent colour: amber.`
-- **Accuracy:** Blood is always red: both veins must be dark red, never blue. Red light reaches deeper than blue light.
+- **Prompt:** `Why veins look blue though blood is red, as a cross-section of human skin. A thin pale outer layer over a thicker pink layer; a small dark-red vein lies just under the surface on the left, and a larger dark-red vein lies deeper on the right. A soft light source in the upper left sends two beams into the skin: a red beam travels deep and reaches the deep vein; a blue beam enters only a little way, scatters into small blue dots and bounces back up to a human eye in the upper right. On the surface, the skin above the shallow vein has a faint reddish tint and above the deep vein a faint bluish tint.`
+- **Check:** Both veins are dark red, never blue; red light goes deeper than blue.
 
 #### falling_coin: Could a coin dropped from a skyscraper kill someone?
 
-- **Reference:** `how-it-works/coin-drag.png`
-- **Prompt:** `DIAGRAM: A tall skyscraper on the left. Beside it, a coin falls at four moments, top to bottom, with a speed arrow under each that grows at first and then stays the same length. At the lowest coin, an amber downward arrow (weight) and an equal teal upward arrow (air drag) balance. On the right, a simple graph: speed rises and then flattens into a level line, with a faint dashed line climbing steeply for a fall without air. Accent colour: amber.`
-- **Accuracy:** The speed levels off (terminal velocity) after a short fall; the two forces at the bottom are equal. No numbers.
+- **Prompt:** `Why a coin dropped from a skyscraper can't kill anyone. Light sky background. On the left, a tall glass skyscraper seen from the side. Beside it, the same small copper coin at four moments of its fall, top to bottom; under each coin an amber speed arrow: short under the first coin, clearly longer under the second, and the longest under the third and fourth, which are exactly equal. At the lowest coin, a teal arrow pointing up (air resistance) exactly as long as an amber arrow pointing down (weight), with faint air swirls. On the right, a minimal graph with two unlabelled axes: a teal curve rises steeply, then levels off; a faint dashed line keeps climbing (a fall without air).`
+- **Check:** Speed arrows grow, then stay equal; up and down arrows at the bottom are equal (the first try drew all arrows the same and the forces unequal).
 
 #### knuckle_cracking: Does cracking your knuckles cause arthritis?
 
-- **Reference:** `how-it-works/knuckle-joint.png`
-- **Prompt:** `DIAGRAM: A finger joint in cross-section: two bone ends with mint cartilage caps facing each other inside a joint capsule filled with pale-blue synovial fluid. Arrows on both bones point outwards as they are pulled apart. In the fluid between them, a gas cavity forms as a bubble. Golden sound arcs above the joint. Accent colour: amber.`
-- **Accuracy:** The pop most likely comes from the cavity forming (MRI, 2015); this is still debated, so don't show a bursting bubble. No signs of arthritis or damage.
+- **Prompt:** `A simple, friendly textbook diagram (not photorealistic, no skin or blood) of a finger joint in a neat cut-away. Two smooth ivory bone ends with pale cartilage caps face each other inside a soft translucent capsule of clear pale-blue fluid. Two arrows on the bones point outwards as they are gently pulled apart. In the fluid between them, a single round gas bubble forms. Soft golden sound arcs rise above the joint.`
+- **Check:** A realistic version was blocked by ChatGPT's output filter; keep it stylised. The bubble is forming, not bursting.
 
 #### lightning_strikes_twice: Does lightning never strike the same place twice?
 
-- **Reference:** `how-it-works/lightning-tower.png`
-- **Prompt:** `DIAGRAM: Grey storm clouds along the top. On the right, a tall, isolated, pointed hill with a small statue with open arms on its peak; three lightning bolts (one bright, two fainter, as if at different times) all strike the statue. On a low hill on the left, a lone tree is struck by one bolt. Small houses in the valley between are not struck. A tally of strikes in the sky on the right. Accent colour: amber.`
-- **Accuracy:** Height, a pointed shape and isolation decide where lightning lands, not metal. Keep the statue a simple silhouette.
+- **Prompt:** `Why lightning strikes the same place many times. Dark grey storm clouds fill the top. On the right, a tall, pointed, isolated granite hill with a small statue with open arms on its summit; three lightning bolts, one bright and two fainter as if at different moments, all strike the statue. On a low hill on the left, a lone tall tree is struck by one fainter bolt. Small low houses in the valley between are untouched. A row of short tally marks glows faintly in the sky on the right. Dramatic but clear lighting.`
+- **Check:** Tall, pointed, isolated places get struck; the low houses are not.
 
 #### microwave_inside_out: Do microwaves cook food from the inside out?
 
-- **Reference:** `how-it-works/microwave-depth.png`
-- **Prompt:** `DIAGRAM: A block of food cut in half, seen in cross-section: a hot amber outer band, a warm gold middle band and a cool pale-blue centre. Wavy golden microwave arrows come in from both sides and stop in the outer band. Small dashed teal arrows point inwards from the warm band to the cool centre (heat spreading by conduction). In the lower right corner, a water molecule (one red atom, two white atoms) with a curved arrow showing it spinning. Accent colour: amber.`
-- **Accuracy:** Microwaves reach only the outer few centimetres; the centre warms later by conduction. Never show the centre hotter than the outside.
+- **Prompt:** `How a microwave really heats food, as a block of food cut in half and seen in cross-section. The outer band is hot amber-orange, a middle band is warm gold and the centre is still cool pale blue. Wavy golden microwave arrows come in from both sides and stop within the outer band. Small dashed teal arrows point inwards from the warm band towards the cool centre, showing heat spreading by conduction. In the lower right corner, a small water molecule (one red atom and two white atoms) with a curved arrow showing it spinning. Clean light background.`
+- **Check:** The centre is the coolest part; microwaves stop in the outer layer.
 
 #### mpemba_effect: Does hot water freeze faster than cold?
 
-- **Reference:** `how-it-works/mpemba-cups.png`
-- **Prompt:** `DIAGRAM: Left: a freezer compartment holding two glasses, one of hot amber water with steam and one of cold teal water, with a small snowflake. Right: a simple graph of two temperature curves falling towards a dashed freezing line, the hot one starting higher; where they approach the line, a soft grey uncertain zone shows that they may or may not cross. Accent colour: amber.`
-- **Accuracy:** The effect is disputed: don't show the hot water clearly winning. No numbers or words.
+- **Prompt:** `The disputed Mpemba effect. On the left, an open freezer compartment with frosty walls holding two identical glasses: one of hot water with rising steam and one of cold water, with a small snowflake symbol. On the right, a clean minimal graph with two axes and no labels: two temperature curves, amber for hot and teal for cold, fall towards a dashed horizontal freezing line, the hot one starting higher; near the freezing line a soft grey cloud of uncertainty covers the place where they might or might not cross. Light background.`
+- **Check:** The graph must not show the hot water clearly winning; no numbers.
 
 #### radioactive_foods: Are bananas and Brazil nuts radioactive?
 
-- **Reference:** `how-it-works/radium-roots.png`
-- **Prompt:** `DIAGRAM: A Brazil nut tree in the centre, its very wide, spreading roots reaching through the soil, which holds scattered tiny amber particles (radium). Some particles sit on the roots, and a dashed arrow runs up the trunk to a round woody pod in the canopy; beside it, an opened pod with nuts. On the left, a banana with a few tiny amber dots for its trace of radioactive potassium. Accent colour: amber.`
-- **Accuracy:** The doses are tiny: no warning symbols, glowing or danger signs. The pod is a hard round shell holding the nuts.
+- **Prompt:** `Why bananas and Brazil nuts carry a tiny amount of natural minerals from the soil. In the centre, a tall Brazil nut tree with a cross-section of the soil below showing its very wide, spreading roots; the soil holds scattered tiny amber specks, and some specks sit along the roots. A dashed arrow runs up the trunk to a round, hard woody pod in the canopy; beside the tree, an opened pod with the nuts packed inside. On the left, a ripe banana with a few tiny amber specks around it. Calm, matter-of-fact natural colours.`
+- **Check:** Tiny doses: no warning symbols or glow.
 
-## Brazil's three capitals (accent: brown)
+## Brazil's three capitals
 
 #### salvador_first_capital: Why was Salvador Brazil's first capital?
 
-- **Reference:** `how-it-works/salvador-cliff.png`
-- **Prompt:** `DIAGRAM: Salvador in cross-section, 1600s style. On the left, the sea with a sailing ship. At sea level, the Lower Town with warehouses by the port. A steep escarpment rises to the Upper Town on top: houses, a church with two towers and a fortified building. A tall lift shaft with a cabin connects the two levels, and a dashed double arrow beside the cliff shows the height. In the upper-left corner, an inset map shows the city on a peninsula between a bay and the open ocean. Accent colour: brown.`
-- **Accuracy:** The Upper Town sits on an escarpment about 85 m high above the Lower Town and port. The peninsula lies between the Bay of All Saints and the Atlantic.
+- **Prompt:** `Colonial Salvador in the 1600s, shown as a cross-section from the bay. On the left, the calm sea with a sailing ship. At sea level, the Lower Town with warehouses along the port. A steep escarpment rises to the Upper Town on top, with whitewashed houses, a church with two bell towers and fortified walls. A tall, simple wooden hoist or lift shaft connects the two levels, and a dashed double-headed arrow beside the cliff shows its height. In the upper-left corner, a small inset map shows the city on a peninsula between a large bay and the open ocean. Warm historical colours.`
+- **Check:** Upper Town on top of a steep escarpment above the port; peninsula between bay and ocean.
 
 #### rio_capital_1763: Why did the capital move to Rio in 1763?
 
-- **Reference:** `how-it-works/gold-route.png`
-- **Prompt:** `DIAGRAM: A schematic map with land on the left and the ocean on the right. Inland, green mountains with gold nuggets (Minas Gerais). A dashed teal route runs from the mines down to a port on the coast (Rio, with a small rounded peak beside it), and a sailing ship heads out to sea to the right. Further up the coast, a faded crown marks Salvador; a dashed brown arrow carries the crown down to Rio, where a bright crown sits. Accent colour: brown.`
-- **Accuracy:** Minas Gerais is inland and north of Rio; Salvador is far to the north on the coast. No names on the map.
+- **Prompt:** `Why the capital moved to Rio in 1763, as an illustrated 18th-century-style map of south-eastern Brazil, land on the left and the Atlantic on the right. Inland, green mountains with gold nuggets glinting among them (the gold mines). A dashed route runs down from the mines to a port city on the coast, beside a rounded granite peak at the mouth of a bay; a sailing ship leaves the port heading out to sea. Far up the coast, a faded crown marks the old capital; a curved dashed arrow carries the crown down the coast to the port city, where a bright golden crown now sits.`
+- **Check:** Mines inland, north of the port; the old capital far up the coast; no names.
 
 #### court_in_rio_1808: How did Rio become the capital of a European empire?
 
-- **Reference:** `how-it-works/court-crossing.png`
-- **Prompt:** `DIAGRAM: A schematic map of the Atlantic: Brazil's coast on the left, Portugal at the top right. A brown arrow presses into Portugal from the east (the invasion). A dashed route of a small fleet of sailing ships crosses the ocean from Lisbon, stops at Salvador, then continues south to Rio de Janeiro, where a gold crown sits. Accent colour: brown.`
-- **Accuracy:** The court reached Salvador in January 1808 and Rio in March. No portraits or flags.
+- **Prompt:** `The Portuguese court crossing the Atlantic in 1808, as an illustrated map. Brazil's coast on the left, Portugal and the Iberian coast at the top right. A dark arrow presses into Portugal from the east, standing for the invading army. A small fleet of sailing ships follows a dashed route from Lisbon across the ocean, stops at a port on Brazil's north-east coast, then continues south to a bay further down the coast, where a golden crown sits. Aged-parchment ocean colours.`
+- **Check:** Route Lisbon, then Salvador, then Rio; no portraits or flags.
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
 
-- **Reference:** `how-it-works/inland-plateau.png`
-- **Prompt:** `DIAGRAM: A schematic map of Brazil on a pale-blue sea. A coastal city marker on the south-east coast, and a dashed teal arrow moving inland from it to the central plateau, where a dashed brown rectangle marks out an area with a small flat-topped plateau and a gold star inside. Two rivers cross the country. Near the bottom, a surveyor's theodolite on a tripod. Accent colour: brown.`
-- **Accuracy:** The outline should be recognisably Brazil. The marked area (the Cruls Quadrilateral) sits in the middle of the country, where Brasília is today.
+- **Prompt:** `The idea of moving Brazil's capital inland, as an illustrated map of Brazil (recognisable outline) with the rest of South America around it to the north, west and south as plain, pale land with thin borders, and the sea only on the east. A marker sits on the south-east coast; a dashed arrow leads from it inland to the central plateau, where a dashed rectangle marks out an area containing a small flat-topped plateau and a golden star. A couple of rivers cross the country. Near the bottom, a 19th-century surveyor's theodolite on a wooden tripod. Clean cartographic style.`
+- **Check:** The first try drew Brazil as an island. The rectangle sits in the centre of the country.
 
 #### building_brasilia: How was Brasília built so fast?
 
-- **Reference:** `how-it-works/brasilia-build.png`
-- **Prompt:** `DIAGRAM: A building site on the red earth of the central plateau under a strong sun. A truck full of workers drives in from the left. A tall crane lifts a load. In the middle, the twin towers of the National Congress rise inside scaffolding; on the right, the shallow bowl and the dome of the Congress stand on a low platform. Small worker figures walk around. In the top right, a row of twelve small blocks, ten filled in, shows the work nearly done. Accent colour: brown.`
-- **Accuracy:** The Congress has two tall towers, a bowl facing up and a dome facing down. Workers came largely from the Northeast; keep figures small and generic.
+- **Prompt:** `Brasília being built in the late 1950s on the red earth of the central plateau under a strong sun. From the left, an open truck loaded with workers drives in along a dirt road. A tall construction crane lifts a load. In the middle, two tall slender towers rise inside scaffolding; on the right, a shallow upturned bowl and a low dome stand on a long low platform. Small worker figures carry materials. In the top right corner, a row of twelve small blocks, ten of them filled in, shows the work nearly finished. Warm, dusty light.`
+- **Check:** Two towers, an upturned bowl and a dome; figures small and generic.
 
 #### brasilia_plan_shape: Why is Brasília shaped like an airplane?
 
-- **Reference:** `how-it-works/plano-piloto.png`
-- **Prompt:** `DIAGRAM: A schematic top view of the Plano Piloto: a straight brown axis running left to right (the Monumental Axis) crossed by a long curved teal axis (the Road Axis) forming the "wings". Small mint residential blocks line both sides of the curved axis; small white buildings line the straight one; a gold triangle at its right end marks the Square of the Three Powers. Lake Paranoá curves around the right side. A faint dashed straight line through the crossing shows the original straight cross, with a small dashed arrow showing how it was bent. Accent colour: brown.`
-- **Accuracy:** The plan began as two axes crossing at a right angle; one was bent to fit the terrain. Don't draw an actual airplane.
+- **Prompt:** `Brasília's Plano Piloto from directly above as an elegant planning drawing. A straight axis runs left to right, with government buildings and a small triangular square at its right end by a large blue lake. Crossing it is one single smooth C-shaped curved road, like a drawn bow: its middle, at the crossing, sits furthest to the left and both ends sweep evenly to the right towards the lake, parallel to the curved rows of residential blocks on either side. One faint dashed straight vertical line through the crossing shows where a straight axis would have been, with a small dashed arrow from it to the curved road. Soft greens and sandy tones. Do not draw an airplane.`
+- **Check:** Took three tries: the curved axis came out straight, then S-shaped. It must be one smooth arc.
 
-## Where your attention goes (accent: purple)
+## Where your attention goes
 
 #### cocktail_party_effect: How do you hear your own name across a noisy room?
 
-- **Reference:** `how-it-works/name-filter.png`
-- **Prompt:** `DIAGRAM: On the left, a cloud of faded grey speech bubbles. One bright purple bubble holds a gold star (standing for your name). On the right, a head in profile, facing left, with an ear and a funnel-shaped filter inside the head. Dotted grey lines from the faded bubbles stop before the head; a solid purple arrow carries the star bubble into the head and lights up a spot above the filter. Accent colour: purple.`
-- **Accuracy:** Ignored sound is still partly processed; the name gets through. No letters in the bubbles.
+- **Prompt:** `How your own name cuts through the noise of a party. On the left, a cloud of faded, blank grey speech bubbles. One bright purple speech bubble holds a small golden star, standing for the listener's name. On the right, a head in profile facing left, drawn as a smooth, softly shaded translucent silhouette with no facial features, showing the brain and a funnel-shaped filter inside. Dotted grey lines from the faded bubbles fade out just before the ear; a solid purple arrow carries the star bubble into the ear, through the funnel, and lights up a glowing spot in the brain.`
+- **Check:** The first try drew a realistic face with the arrow entering the forehead.
 
 #### invisible_gorilla: How did half the viewers miss a gorilla?
 
-- **Reference:** `how-it-works/gorilla-count.png`
-- **Prompt:** `DIAGRAM: A simple court with six small players, three in white shirts and three in black. Purple dashed arcs show the white team passing two orange balls between them, and a small purple tally in the top left counts the passes. In the middle of the scene, a large gorilla figure stands drawn faint and see-through with a dashed outline, as if unnoticed. Accent colour: purple.`
-- **Accuracy:** Only the white team's passes are counted. The gorilla is right in the middle of the scene, not hidden.
+- **Prompt:** `The invisible gorilla experiment. A simple indoor court with six small players, three in white shirts and three in black shirts, passing two orange basketballs; dashed purple arcs trace the passes of the white team only, and a small purple tally of marks in the top left counts them. Right in the middle of the scene, a large person in a gorilla suit stands thumping its chest, drawn faint and semi-transparent with a dashed outline, as if unnoticed. Soft indoor lighting.`
+- **Check:** Only the white team's passes are traced; the gorilla is in plain sight in the middle.
 
 #### multitasking_switching: Can you really do two things at once?
 
-- **Reference:** `how-it-works/task-switch.png`
-- **Prompt:** `DIAGRAM: At the top, two task cards: on the left, simple maths symbols; on the right, a triangle, a square and a circle. Between them, two small gears (switching goals, then rules). Below, two timelines: the top one is one long purple block then one long teal block; the bottom one alternates short purple and teal blocks with small grey gaps between them and ends later. A dashed line and a purple arrow show the extra time. Accent colour: purple.`
-- **Accuracy:** The grey gaps are the switch costs; the switching timeline must end later than the one-task-at-a-time timeline.
+- **Prompt:** `Why switching between tasks costs time. At the top, two task cards: on the left, simple arithmetic symbols; on the right, a triangle, a square and a circle. Between them, two small interlocking gears. Below, two timelines: the top one is one long purple block followed by one long teal block; the bottom one alternates short purple and teal blocks with small grey gaps between them and ends noticeably later. A dashed vertical line and a purple arrow show the extra time. Clean light background.`
+- **Check:** The switching timeline must end later than the one-at-a-time timeline.
 
 #### saccadic_suppression: Why don't you see the world blur when your eyes jump?
 
-- **Reference:** `how-it-works/saccade-blink.png`
-- **Prompt:** `DIAGRAM: A wide landscape panel with two target dots, left and right, and a purple arc arrow showing the gaze jumping from one to the other. The middle of the panel is smeared and darkened, as the blurred view during the jump. Below, an eye, and under it a timeline bar: teal (seeing), then a dark segment (vision switched off) that starts just before a small dashed marker for the start of the eye movement, then teal again. Accent colour: purple.`
-- **Accuracy:** The suppression starts slightly before the eye begins to move.
+- **Prompt:** `Why you don't see a blur when your eyes jump. A wide landscape panel with two small target dots, left and right, and a purple arc arrow showing the gaze jumping from one to the other; the middle of the panel is smeared and darkened, as the blurred view the eye would get during the jump. Below, a realistic human eye looking sideways, and under it a timeline bar: teal (seeing), then a dark segment (vision switched off) that starts just before a small dashed marker for the start of the eye movement, then teal again.`
+- **Check:** The dark segment starts slightly before the eye movement. The current picture only brackets the dark segment; ask for it to start clearly before the eye-movement marker if you redo it.
 
 #### stopped_clock_illusion: Why does a clock's second hand seem to stop when you glance at it?
 
-- **Reference:** `how-it-works/clock-stretch.png`
-- **Prompt:** `DIAGRAM: An eye on the left with a dashed teal arrow jumping to an analogue clock on the right, its purple second hand pointing down to the right. Below, a timeline of seconds: the first block (purple) is about twice as long as the three teal blocks after it. A curved purple arrow points backwards from the first block to a dashed marker before it, showing the image stretched back in time. Accent colour: purple.`
-- **Accuracy:** Only the first second after the glance seems longer; the following seconds are normal.
+- **Prompt:** `The stopped-clock illusion. On the left, a realistic human eye; a dashed arrow arcs from it to a classic analogue wall clock on the right with a thin purple second hand. Below, a timeline of seconds: the first block, purple, is about twice as long as the three equal teal blocks after it. A curved purple arrow points backwards from the start of the first block to a small dashed marker before it, showing the image stretched back in time. Clean light background; the clock face has marks but no numbers.`
+- **Check:** Only the first second is longer; the later seconds are equal; no numbers on the clock.
 
 #### time_slows_fear: Does time really slow down when you're scared?
 
-- **Reference:** `how-it-works/fall-memory.png`
-- **Prompt:** `DIAGRAM: On the left, a tall free-fall tower; a small figure falls backwards, lying flat, towards a net at the bottom. A small wrist display beside it shows flickering bars. On the right, two film strips starting at the same point: the top one, "what happened", has four frames; the bottom one, "what is remembered", is longer and packed with more frames. A golden arrow marks the extra length. Accent colour: purple.`
-- **Accuracy:** The memory is longer (about a third), not the experience itself. No numbers on the display.
+- **Prompt:** `Why a scare seems to last longer. On the left, a tall free-fall tower against the sky; a small figure falls backwards, lying flat, towards a large safety net at the bottom; a small wrist display beside it shows rapidly flickering blocks. On the right, two film strips starting at the same point: the upper one has four frames; the lower one is noticeably longer and packed with more, denser frames. A golden arrow marks the extra length. Clean light background.`
+- **Check:** The memory strip is longer, not the actual fall; no numbers.
 
-## The Moon shapes Earth (original lessons, accent: blue)
+## The Moon shapes Earth (published)
 
 #### moon_tidal_locking: Why does the Moon always show the same face?
 
-- **Reference:** `how-it-works/moon-face.png`
-- **Prompt:** `DIAGRAM: Earth in the centre of a dashed circular orbit, with the Moon drawn at four points around it (top, right, bottom, left). On each Moon the same dark patch faces Earth. Accent colour: blue.`
-- **Accuracy:** At every position the same side faces Earth, so the patch turns a quarter turn each time.
+- **Prompt:** `Why the Moon always shows the same face. A realistic Earth in the centre of a dashed circular orbit; the Moon is shown at four positions around it: top, right, bottom and left. At every position the same distinctive dark patch on the Moon faces Earth, so the patch turns a quarter turn each time. Small arrows along the orbit show the direction of travel. Deep navy space with faint stars.`
+- **Check:** The same patch always faces Earth.
 
 #### tides: Why are there two high tides a day?
 
-- **Reference:** `how-it-works/tides.png`
-- **Prompt:** `DIAGRAM: Earth on the left inside a pale mint oval of ocean that bulges out on both sides along the line to the Moon; the Moon on the right with a small arrow pointing towards Earth. Accent colour: blue.`
-- **Accuracy:** Two bulges, one facing the Moon and one on the far side, of equal size. Not to scale; don't add the Sun.
+- **Prompt:** `Why there are two high tides a day. Deep navy space with faint stars. On the left, a realistic Earth seen from above the North Pole, with blue oceans, recognisable continents and soft white clouds. Around it, a translucent aqua layer of ocean water drawn as an exaggerated oval that bulges out equally on two sides: one bulge towards the Moon and one on the opposite side. On the right, a smaller realistic grey Moon with craters. Between them, a few subtle golden arrows pointing from Earth towards the Moon, showing the Moon's pull.`
+- **Check:** Two equal bulges; the arrows point towards the Moon (the first try pointed them at Earth). No Sun.
 
 #### day_lengthening: Are Earth's days getting longer?
 
-- **Reference:** `how-it-works/day-length.png`
-- **Prompt:** `DIAGRAM: Earth on the left with a clock face on it; the Moon on the right with an arrow pointing away from Earth, showing it slowly drifting outward; a dotted curve below between them for the tidal pull that brakes Earth's spin. Accent colour: blue.`
-- **Accuracy:** The day lengthens by about 2 milliseconds per century; keep the change subtle, no numbers.
+- **Prompt:** `Why Earth's days slowly get longer. On the left, a realistic Earth with a translucent ocean layer bulging gently and equally on both sides along the Earth-Moon line and a curved arrow showing its spin slowing, a small translucent clock face without numbers overlaid on it. On the right, the Moon with a small arrow pointing away from Earth, as it slowly drifts outward. A faint dotted arc of tidal pull links them. Deep navy space with faint stars.`
+- **Check:** The first try showed only one bulge; tides make two.
 
 #### eclipses_rare: Why isn't there an eclipse every month?
 
-- **Reference:** `how-it-works/eclipse.png`
-- **Prompt:** `DIAGRAM: The Sun on the left with a soft glow, the Moon in the middle and Earth on the right, in a line, with a faint shadow cone from the Moon reaching Earth and a small dark spot where it lands. Add a faint tilted orbit line for the Moon to show it usually passes above or below the line. Accent colour: blue.`
-- **Accuracy:** The Moon's orbit is tilted about 5°; eclipses only happen when it crosses near the Sun–Earth line. Not to scale.
+- **Prompt:** `Why eclipses are rare. The glowing Sun on the left, the Moon in the middle and Earth on the right, lined up, with a faint shadow cone from the Moon reaching Earth and a small dark spot where it lands. A thin tilted ellipse shows the Moon's orbit, tilted against the line from Sun to Earth, with two faded Moons at other points on the orbit sitting above and below the line. Not to scale. Deep space background.`
+- **Check:** The Moon's orbit is tilted, so it usually passes above or below the line.
 
-## How memory works (original lessons, accent: purple)
+## How memory works (published)
 
 #### forgetting_curve: How fast do you forget?
 
-- **Reference:** `how-it-works/forgetting-curve.png`
-- **Prompt:** `DIAGRAM: A simple graph: a faint dashed curve that drops steeply then levels out, and over it a bold teal sawtooth line that drops, jumps back up at three review points (marked with small mint circles) and drops more gently each time. Accent colour: purple.`
-- **Accuracy:** Forgetting is fastest at first, then flattens; each review slows it. No numbers or axis labels.
+- **Prompt:** `The forgetting curve. A clean minimal graph with two axes and no labels: a faint dashed curve drops steeply and then levels out low. Over it, a bold teal line drops, jumps back up at three review moments marked with small glowing mint circles, and drops more gently after each review, levelling out higher each time. Clean light background.`
+- **Check:** Forgetting is fastest at first; each review slows it.
 
 #### spacing_effect: Why does spacing out your study work better?
 
-- **Reference:** `how-it-works/spacing.png`
-- **Prompt:** `DIAGRAM: A wall calendar with a grid of days; a few study sessions are marked on separate, spread-out days in teal and purple, the rest of the days empty. Accent colour: purple.`
-- **Accuracy:** The sessions must be spread out, not grouped together. No dates.
+- **Prompt:** `Spaced study. A tidy wall calendar with a grid of days, no numbers; a few study sessions are marked as small open books on separate, spread-out days, the rest of the days empty. Beside it, a small plant that has grown taller with each session. Clean light background.`
+- **Check:** Sessions spread out, not grouped; no numbers or dates.
 
 #### testing_effect: Why does trying to remember teach more than rereading?
 
-- **Reference:** `how-it-works/recall.png`
-- **Prompt:** `DIAGRAM: A tilted card with a question mark on the left, a dashed teal path leading to a glowing purple spark inside a mint circle on the right (the memory being retrieved), with two short lines below it. Accent colour: purple.`
-- **Accuracy:** The idea is active recall before checking, not rereading. No text on the card.
+- **Prompt:** `The testing effect. On the left, a closed book and a blank flashcard with a large question mark; a dashed teal path leads from the card to a glowing purple spark inside a soft mint circle on the right, a memory being pulled out. Below the spark, a small tick mark appears as the answer is checked. Clean light background.`
+- **Check:** Recall before checking, not rereading.
 
 #### retrieval_cues: Why can a cue bring a memory back?
 
-- **Reference:** `how-it-works/cue.png`
-- **Prompt:** `DIAGRAM: A purple label tag on the left, a dashed teal line leading to a set of six drawers on the right; one drawer is pulled open and highlighted in mint, the others closed. Accent colour: purple.`
-- **Accuracy:** The cue leads to one memory among many stored ones.
+- **Prompt:** `How a cue brings a memory back. On the left, a purple luggage-style label tag with a small piece of fruit drawn on it; a dashed teal line leads from it to a wooden cabinet of six drawers on the right. One drawer is pulled open and glows softly, showing small objects inside; the other drawers stay closed. Clean light background.`
+- **Check:** The cue opens one drawer among several.
 
 #### sleep_memory: What does your brain do with your memories while you sleep?
 
-- **Reference:** `how-it-works/sleep.png`
-- **Prompt:** `DIAGRAM: A purple crescent moon on the left with a few small "z" shapes drawn as simple zigzags; on the right, a small network of mint nodes joined by teal lines, as memories being linked during sleep. Accent colour: purple.`
-- **Accuracy:** Keep it suggestive: researchers still debate how replay during sleep works. Draw the "z" marks as shapes, not letters.
+- **Prompt:** `Memory during sleep. A person sleeping peacefully under a blanket on the left, seen from behind, with a purple crescent moon above the bed. On the right, a soft translucent network of glowing mint nodes joined by teal lines, with a few connections brightening, as memories being linked during sleep. Calm night colours. No letter Z symbols.`
+- **Check:** Keep it suggestive; the person seen from behind.
 
-## Kitchen chemistry (original lessons, accent: amber)
+## Kitchen chemistry (published)
 
 #### maillard_reaction: Why do bread, steak and coffee turn brown and smell so good?
 
-- **Reference:** `how-it-works/maillard.png`
-- **Prompt:** `DIAGRAM: A golden-brown loaf of bread on the left with a few small aroma molecules rising above it; a cup of coffee on the right with steam. Accent colour: amber.`
-- **Accuracy:** Browning needs dry surface heat above about 140 °C; don't show boiling water. No numbers.
+- **Prompt:** `The Maillard reaction. On the left, a golden-brown crusty loaf of bread on a board; in the middle, a seared steak in a hot dry pan; on the right, a cup of coffee with roasted beans. Small translucent aroma molecules, drawn as linked spheres, rise from all three. Warm kitchen light.`
+- **Check:** Browning on dry, very hot surfaces; no boiling water.
 
 #### onion_tears: Why does cutting onions make you cry?
 
-- **Reference:** `how-it-works/onion.png`
-- **Prompt:** `DIAGRAM: A cut onion on the left releasing small mint puffs of gas that drift right towards an eye, with a single tear below the eye. Accent colour: amber.`
-- **Accuracy:** The gas forms only once the onion's cells are cut. Show the eye alone, not a face.
+- **Prompt:** `Why cutting onions makes you cry. On a cutting board on the left, a halved onion with a knife; small translucent puffs of gas rise from the cut surface and drift right towards a single human eye, drawn alone, with one tear forming below it. Clean light background.`
+- **Check:** Gas appears only from the cut surface; show the eye alone, not a face.
 
 #### salt_boiling: Does salt make pasta water boil faster?
 
-- **Reference:** `how-it-works/salt-pot.png`
-- **Prompt:** `DIAGRAM: A pot of water with a few bubbles at the surface; on the right, a salt shaker with grains falling towards the water. Accent colour: amber.`
-- **Accuracy:** Salt slightly raises the boiling point; the burst of bubbles when it goes in comes from grains giving bubbles places to form. Don't suggest it boils faster.
+- **Prompt:** `What salt really does to boiling water. A pot of water on a stove with bubbles rising; salt grains fall in from a salt shaker above, and around each grain a small burst of bubbles forms. A thermometer beside the pot rises just a hair above its usual mark. Clean kitchen background.`
+- **Check:** The bubbles form on the grains; salt slightly raises the boiling point; no numbers.
 
 #### altitude_boiling: Why does water boil below 100 °C up a mountain?
 
-- **Reference:** `how-it-works/mountain-pot.png`
-- **Prompt:** `DIAGRAM: A mountain with a small pot steaming near its snowy peak; on the right, a thermometer whose level sits below the top mark. Accent colour: amber.`
-- **Accuracy:** Lower air pressure up high means water boils at a lower temperature (about 92 °C at 2,300 m). No numbers in the image.
+- **Prompt:** `Why water boils at a lower temperature up a mountain. A snowy mountain, with a small camping pot steaming near the summit and another pot at its foot; a column of air arrows presses down, many arrows at the foot and fewer near the summit. On the right, two thermometers: the summit one reads lower than the one at the foot. Clear sky.`
+- **Check:** Less air pressure up high, lower boiling temperature; no numbers.
 
-## The body renews itself (original lessons, accent: coral red)
+## The body renews itself (published)
 
 #### red_blood_cells: How long does a red blood cell live?
 
-- **Reference:** `how-it-works/red-cell.png`
-- **Prompt:** `DIAGRAM: A blood vessel running across the image with five red blood cells flowing through it, each a disc with a shallow dip in the middle, at different angles. Accent colour: coral red.`
-- **Accuracy:** Red blood cells are discs dimpled on both sides, with no nucleus.
+- **Prompt:** `Red blood cells on their journey. A cut-away blood vessel running across the image, with many red blood cells flowing through it: each a smooth red disc dimpled on both sides, seen at different angles. On the left, a cross-section of spongy bone marrow releasing new cells into the stream. Soft medical-illustration lighting.`
+- **Check:** Discs dimpled on both sides, no nucleus.
 
 #### bone_remodeling: Is your skeleton alive?
 
-- **Reference:** `how-it-works/bone.png`
-- **Prompt:** `DIAGRAM: A long bone with rounded ends; along its middle, small hexagonal cells in two colours, some removing old tissue and some laying down new, with a curved teal arrow below showing the cycle. Accent colour: coral red.`
-- **Accuracy:** Osteoclasts remove old bone and osteoblasts build new matrix; it's a continuing cycle.
+- **Prompt:** `Bone remodelling. A long bone with a magnified cut-away window into its spongy inner structure. Inside, large cells nibble away a small pit of old bone, and nearby smaller cells line up laying down fresh new bone matrix. A curved arrow underneath shows the continuing cycle of removal and rebuilding. Soft medical-illustration lighting.`
+- **Check:** Removal and rebuilding side by side, as a cycle.
 
 #### seven_year_myth: Does your entire body replace itself every seven years?
 
-- **Reference:** `how-it-works/renewal.png`
-- **Prompt:** `DIAGRAM: A simple human figure with a few coloured spots for different tissues, and two circular arrows on either side turning at different sizes, showing different renewal speeds. Accent colour: coral red.`
-- **Accuracy:** Renewal follows many different timetables, from days to a lifetime; there is no single seven-year cycle.
+- **Prompt:** `Different parts of the body renew at different speeds. A translucent human figure seen from the front with a few highlighted areas: the stomach lining, the blood, the skin and the brain. Beside each, a small circular arrow of a different size and speed: small fast circles for the stomach lining, medium ones for blood and skin, and a still, solid ring for the brain's neurons. Clean light background.`
+- **Check:** Many different timetables, no single cycle; no numbers.
 
 #### skin_renewal: Where does your old skin go?
 
-- **Reference:** `how-it-works/skin-layers.png`
-- **Prompt:** `DIAGRAM: Layers of skin cells: round new cells at the base, flatter cells above them, thin flat cells near the surface and a few flakes lifting off the top; a dashed teal arrow on the right points upwards. Accent colour: coral red.`
-- **Accuracy:** New cells form at the base of the epidermis, move up, flatten and flake off.
+- **Prompt:** `How skin renews itself, as a cross-section of the outer skin. At the base, round, plump new cells; above them, cells that grow flatter layer by layer; at the surface, thin flat dead cells, with a few flakes lifting away into the air. A dashed arrow on the side points upward. Soft medical-illustration lighting.`
+- **Check:** New cells at the base move up, flatten and flake off.
 
 #### stomach_lining: Why doesn't your stomach digest itself?
 
-- **Reference:** `how-it-works/stomach.png`
-- **Prompt:** `DIAGRAM: A stomach shape with a mint protective layer of mucus lining its inner wall and a few amber acid drops inside, kept away from the wall by the layer. Accent colour: coral red.`
-- **Accuracy:** The mucus layer (with bicarbonate) protects the lining; surface cells are replaced within days.
+- **Prompt:** `Why the stomach doesn't digest itself. A cut-away human stomach with its muscular wall; a thick glistening layer of protective mucus lines the inside of the wall; inside the stomach, droplets of acid stay kept away from the wall by the mucus layer. A small magnified inset shows the surface cells under the mucus. Soft medical-illustration lighting.`
+- **Check:** The mucus layer separates acid from the wall.
 
-## The Portuguese language in Brazil (original lessons, accent: brown)
+## The Portuguese language in Brazil (published)
 
 #### tordesillas: Why does Brazil speak Portuguese rather than Spanish?
 
-- **Reference:** `how-it-works/tordesillas.png`
-- **Prompt:** `DIAGRAM: An old parchment map of South America split by a dashed vertical line; a small compass rose in the lower right. Accent colour: brown.`
-- **Accuracy:** The 1494 line ran north–south, 370 leagues west of Cape Verde; Portugal's side was the east. No words on the map.
+- **Prompt:** `The Treaty of Tordesillas line. An aged parchment map of the Atlantic and South America in 15th-century style, with a dashed north-south line drawn down the map, cutting through the eastern bulge of South America; the land east of the line is lightly tinted one colour and the land to the west another. A compass rose in the lower right and a small sailing ship in the ocean. No words or names on the map.`
+- **Check:** The line runs north to south and cuts off the eastern part of South America.
 
 #### lingua_geral: What language did colonial São Paulo speak?
 
-- **Reference:** `how-it-works/lingua-geral.png`
-- **Prompt:** `DIAGRAM: Two speech bubbles, one brown and one mint, above a winding river. Add a small colonial village with a whitewashed chapel on the riverbank below the bubbles. Accent colour: brown.`
-- **Accuracy:** The bubbles must hold no letters. The general language was rooted in Tupi and was a contact language.
+- **Prompt:** `The general language of colonial São Paulo. A winding river through forest, with a small colonial village of whitewashed houses and a chapel on the riverbank, and a canoe on the water. Above, two blank speech bubbles overlap in soft brown and mint, standing for two languages mixing. Warm historical colours.`
+- **Check:** The speech bubbles are blank, with no letters.
 
 #### pombal_directorate: How did the Crown try to impose Portuguese in Brazil?
 
-- **Reference:** `how-it-works/decree.png`
-- **Prompt:** `DIAGRAM: An official document with faint unreadable lines of text and a red wax seal with ribbons, and a quill beside it. Accent colour: brown.`
-- **Accuracy:** The lines must be illegible marks, not words.
+- **Prompt:** `An 18th-century royal decree. An official document on aged paper covered in illegible handwritten lines, a red wax seal with ribbons at the bottom, a quill and inkwell beside it, on a dark wooden desk. Warm candlelit colours.`
+- **Check:** The writing is illegible marks, not real words.
 
 #### tupi_words: Which everyday Portuguese words came from Tupi?
 
-- **Reference:** `how-it-works/tupi-words.png`
-- **Prompt:** `DIAGRAM: A pineapple (abacaxi) and a toucan side by side, in a friendly, simple style. Accent colour: brown.`
-- **Accuracy:** No written words: the objects stand for the words. A toco toucan has a black body, a white throat and a large orange beak (the reference draws it brown).
+- **Prompt:** `Things whose Portuguese names come from Tupi, arranged as a friendly still life: a pineapple, a toco toucan perched on a branch, a capybara, a bowl of popcorn and cassava roots. Bright natural colours on a light background.`
+- **Check:** The toco toucan is black with a white throat and a large orange beak; no written words.

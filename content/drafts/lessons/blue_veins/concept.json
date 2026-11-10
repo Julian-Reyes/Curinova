@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "6e89716c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Corte da pele: a luz vermelha chega até a veia funda, enquanto a luz azul se espalha perto da superfície e volta ao olho; o sangue nas duas veias é vermelho.",
+        "en": "A cross-section of skin: red light reaches the deep vein, while blue light scatters near the surface and returns to the eye; the blood in both veins is red."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "60d80d94"
     }
   }
 }

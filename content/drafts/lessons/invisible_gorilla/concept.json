@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "69cad067"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Jogadores de camisa branca e preta trocam bolas, com os passes do time branco contados, enquanto um gorila quase transparente está no meio da quadra.",
+        "en": "Players in white and black shirts pass balls, with the white team’s passes counted, while an almost transparent gorilla stands in the middle of the court."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "97332120"
     }
   }
 }

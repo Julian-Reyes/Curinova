@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "9ea91c91"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma cabeça em silhueta cercada de balões de conversa apagados; só o balão com uma estrela, que representa o seu nome, entra pelo ouvido, passa pelo filtro e acende o cérebro.",
+        "en": "A silhouetted head surrounded by faded speech bubbles; only the bubble with a star, standing for your name, enters the ear, passes the filter and lights up the brain."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "38fb7823"
     }
   }
 }

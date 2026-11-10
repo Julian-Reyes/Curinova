@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "ff97d455"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma moeda caindo ao lado de um arranha-céu: as setas de velocidade crescem e depois ficam iguais, a resistência do ar equilibra o peso na última moeda, e o gráfico da velocidade se achata.",
+        "en": "A coin falling beside a skyscraper: the speed arrows grow and then stay the same, air resistance balances weight at the last coin, and the speed graph levels off."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "33f2c271"
     }
   }
 }

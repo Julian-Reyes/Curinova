@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "050a0ce1"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma castanheira com raízes muito extensas que recolhem partículas do solo e as levam até o ouriço e as castanhas; ao lado, uma banana com algumas partículas.",
+        "en": "A Brazil nut tree whose very wide roots gather specks from the soil and carry them up to the pod and nuts; beside it, a banana with a few specks."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "f687757b"
     }
   }
 }

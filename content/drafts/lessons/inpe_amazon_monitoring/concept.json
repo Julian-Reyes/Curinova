@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "2b8903c5"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um satélite observa a floresta amazônica cortada por estradas e clareiras em espinha de peixe; uma área desmatada é destacada, ligada a um mostrador anual e a um sino de alertas diários.",
+        "en": "A satellite watches the Amazon forest cut by roads and fishbone clearings; one cleared area is outlined, linked to a yearly dial and a bell for daily alerts."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "6914cc31"
     }
   }
 }

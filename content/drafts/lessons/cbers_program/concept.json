@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "8c27c7e5"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um satélite de observação da Terra fotografa uma faixa de terra com um rio, envia as imagens de volta e recebe sinais de uma estação no solo.",
+        "en": "An Earth-observation satellite photographs a strip of land with a river, sends the images back and receives signals from a ground station."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "140671ce"
     }
   }
 }

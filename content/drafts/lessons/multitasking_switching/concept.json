@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "1c061e7c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Duas tarefas, contas e formas, e duas linhas do tempo: fazendo uma de cada vez, termina-se antes; alternando, as trocas criam intervalos e o total fica maior.",
+        "en": "Two tasks, sums and shapes, and two timelines: doing one at a time finishes sooner; switching back and forth adds gaps and the total grows."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "a4660796"
     }
   }
 }

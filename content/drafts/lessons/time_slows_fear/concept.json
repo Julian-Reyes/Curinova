@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "24d0b17a"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma pessoa cai de costas de uma torre de queda livre até uma rede, com um mostrador no pulso; ao lado, a lembrança da queda tem mais quadros e é mais longa do que a queda.",
+        "en": "A person falls backwards from a free-fall tower into a net, with a wrist display; beside it, the memory of the fall holds more frames and runs longer than the fall."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "5e97c53d"
     }
   }
 }

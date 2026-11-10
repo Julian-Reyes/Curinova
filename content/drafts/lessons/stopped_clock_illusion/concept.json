@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "77d4bcaa"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um olho salta até um relógio, e a linha do tempo mostra o primeiro segundo mais longo que os seguintes, esticado para trás no tempo.",
+        "en": "An eye jumps to a clock, and the timeline shows the first second longer than the ones after it, stretched back in time."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "75617964"
     }
   }
 }

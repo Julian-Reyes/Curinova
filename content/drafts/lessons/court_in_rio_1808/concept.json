@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-09",
       "hash": "66c26f50"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Mapa antigo do Atlântico: pressionada por um exército vindo do leste, a frota da corte sai de Lisboa, para no Nordeste do Brasil e segue até o Rio, onde fica a coroa.",
+        "en": "An old-style map of the Atlantic: pressed by an army from the east, the court’s fleet leaves Lisbon, stops in north-east Brazil and continues to Rio, where the crown sits."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "fcfd655a"
     }
   }
 }

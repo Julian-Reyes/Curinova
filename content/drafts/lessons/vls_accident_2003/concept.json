@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "2a4b7d42"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "O foguete VLS-1 na plataforma ao lado da torre de serviço, com um dos propulsores destacado e, no detalhe, a pequena unidade de ignição desse motor.",
+        "en": "The VLS-1 rocket on the pad beside its service tower, with one booster highlighted and, in the inset, that motor’s small ignition unit."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "fdd39c9f"
     }
   }
 }

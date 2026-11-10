@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "f49f3ccc"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Mapa do Brasil: uma seta leva do litoral sudeste até uma área demarcada no Planalto Central, e um teodolito antigo lembra a expedição de medição.",
+        "en": "A map of Brazil: an arrow leads from the south-east coast to a marked area on the central plateau, and an old theodolite recalls the surveying expedition."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "2eddcba1"
     }
   }
 }

@@ -75,6 +75,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-05",
       "hash": "08e1ed7e"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um boto-cor-de-rosa em água barrenta entre raízes da floresta alagada: ondas sonoras douradas saem da testa dele até um peixe, e ecos verdes voltam do peixe.",
+        "en": "A pink river dolphin in muddy water among flooded-forest roots: golden sound waves travel from its forehead to a fish, and green echoes come back from the fish."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "71e2b14d"
     }
   }
 }

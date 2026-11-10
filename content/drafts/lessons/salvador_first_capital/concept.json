@@ -78,6 +78,23 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-06",
       "hash": "cd3f855b"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Salvador colonial em corte: a Cidade Baixa e o porto junto ao mar, a escarpa com um elevador de madeira e a Cidade Alta no topo; no detalhe, a península entre a baía e o oceano.",
+        "en": "Colonial Salvador in cross-section: the Lower Town and port by the sea, the escarpment with a wooden lift and the Upper Town on top; in the inset, the peninsula between the bay and the ocean."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "ba197bdd"
     }
   }
 }
