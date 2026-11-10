@@ -8,46 +8,13 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 **Real photos** (Pexels, Unsplash, Wikimedia Commons): keep each picture's page link for the credit. Pexels and Unsplash photos are free to use; on Commons, check the license (public domain, CC0, CC BY or CC BY-SA) and the author. Tall sources for wide slots may need a manual pre-crop around the subject first, because `media:add` only centre-crops. A Discover source shorter than 9:16 is zoomed in (cropped to 9:16 around the subject) before `media:add`, so it fills the whole card; never use the blurred fill. Use `-up20` (or another percentage) on a Discover file name to lift the subject above the title.
 
-## Still to do (21 pictures, all real photos)
+## Still to do (9 pictures, all real photos)
 
-- **Brazil's three capitals:** Brasília airplane shape (3).
-- **Brazil in space:** all 6 lessons (18).
-
-### Brazil's three capitals (real photos)
-
-Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover must fill the whole card: a tall (portrait) picture, or a wider one zoomed in to 9:16.
-
-#### brasilia_plan_shape: Why is Brasília shaped like an airplane?
-
-- **Discover:** Congress towers or Palácio do Planalto in a tall crop.
-- **Deeper:** Aerial view of the Eixo Monumental.
-- **Review:** A Brasília superquadra with pilotis and trees. _Don't show: The airplane or cross-shaped plan from above, UNESCO, Lúcio Costa._
-- **Search:** Pexels/Unsplash: "Brasília aerial", "Eixo Monumental", "superquadra". Commons: "Plano Piloto Brasília".
+- **Brazil in space:** CBERS, Amazonia-1, Marcos Pontes (9).
 
 ### Brazil in space (real photos preferred)
 
 Specific rockets, satellites and people should be real. NASA photos are public domain (on Commons and nasa.gov); check the license on INPE, AEB, FAB and ISRO pictures. Generic scenes (Earth from orbit, a night launch) can be AI if no real picture fits.
-
-#### equator_launch_alcantara: Why launch rockets near the equator?
-
-- **Discover:** A rocket lifting off at night over the sea (real, or AI).
-- **Deeper:** Alcântara Launch Centre on the Maranhão coast.
-- **Review:** Coast of Maranhão from above (or the Lençóis Maranhenses). _Don't show: A globe or a line marking the equator._
-- **Search:** Commons: "Centro de Lançamento de Alcântara", "VSB-30 launch". Pexels: "rocket launch night", "Maranhão".
-
-#### vls_accident_2003: What happened at Alcântara in 2003?
-
-- **Discover:** The VLS-1 on its launch tower before the accident.
-- **Deeper:** Alcântara's launch area, or the memorial to the 21 technicians.
-- **Review:** The Alcântara coastline. _Don't show: Fire, explosion, smoke, a detonator._
-- **Search:** Commons: "VLS-1", "Veículo Lançador de Satélites", "Alcântara memorial".
-
-#### inpe_amazon_monitoring: How does INPE watch the Amazon from space?
-
-- **Discover:** Satellite photo of the Amazon with deforestation patches (NASA Earth Observatory).
-- **Deeper:** Aerial photo of the edge between forest and cleared land.
-- **Review:** Aerial photo of unbroken Amazon forest and a winding river. _Don't show: Calendars, alerts, charts, the words PRODES or DETER._
-- **Search:** Commons/NASA: "Rondônia deforestation from space", "Landsat Amazon". Pexels/Unsplash: "Amazon aerial".
 
 #### cbers_program: What is CBERS?
 
@@ -70,9 +37,40 @@ Specific rockets, satellites and people should be real. NASA photos are public d
 - **Review:** Earth from orbit at night, city lights (NASA). _Don't show: The ISS, the 14-Bis, Santos Dumont, a calendar (2006)._
 - **Search:** Commons/NASA: "Marcos Pontes", "Expedition 13", "Soyuz TMA-8".
 
-## Already done (pictures added 2026-11-05 to 2026-11-09)
+## ********************************** Already done (pictures added 2026-11-05 to 2026-11-10) ****************************************************
 
 These lessons have their pictures; they are kept here in case one needs replacing. Each still needs **Images checked** in `/_review`.
+
+### Brazil in space
+
+#### equator_launch_alcantara: Why launch rockets near the equator?
+
+- **Discover:** A rocket lifting off at night over the sea (AI, ChatGPT).
+- **Deeper:** Drone view of the CLA launch tower with the Atlantic behind, 2020 (Commons, CC BY 2.0, Odjair Baena / ASCOM-MCTIC), cropped inside the photo's white border and caption. _The SpaceX Vandenberg photo (Pexels 586066) was turned down: wrong place, and a polar-orbit site._
+- **Review:** Lençóis Maranhenses from above (Pexels, Leo Castro). _Don't show: A globe or a line marking the equator._
+
+#### vls_accident_2003: What happened at Alcântara in 2003?
+
+- **Discover:** The VLS-1 V03 itself beside its tower at Alcântara, 2003 (Commons, IAE/FAB, attribution), zoomed to 9:16. Only 581 px wide, so a little soft; swap if a larger copy turns up. _An AI VLS-1 was turned down: invented tower and misspelled lettering._
+- **Deeper:** A VLS-1 mock-up on the rebuilt launch tower, 2012 (Commons, CC BY-SA 3.0, Força Aérea Brasileira). Only 620 px wide.
+- **Review:** Livramento Island seen from Alcântara on a cloudy day (Commons, CC0, Ridiculopathy). _Don't show: Fire, explosion, smoke, a detonator._
+
+#### inpe_amazon_monitoring: How does INPE watch the Amazon from space?
+
+- **Discover:** A toco toucan on a treetop above misty forest (Pexels, Matheus Bertelli; no location given).
+- **Deeper:** Amazon canopy from above in San Juan Bautista, Peru (Unsplash, David Geere). _No forest-edge or deforestation photo found yet; swap one in if it turns up._
+- **Review:** A river bend through unbroken forest in the Vale do Javari Indigenous Territory, Amazonas (Commons, CC BY 2.0, Amazônia Real). _Don't show: Calendars, alerts, charts, the words PRODES or DETER. Tom Fisk's Pexels forest (2739664) was turned down: it is Rochester, Minnesota._
+
+### Brazil's three capitals (real photos)
+
+Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; colonial history needs Wikimedia Commons (paintings, old engravings, maps). Discover must fill the whole card: a tall (portrait) picture, or a wider one zoomed in to 9:16.
+
+#### brasilia_plan_shape: Why is Brasília shaped like an airplane?
+
+- **Discover:** Congress towers or Palácio do Planalto in a tall crop.
+- **Deeper:** Aerial view of the Eixo Monumental.
+- **Review:** A Brasília superquadra with pilotis and trees. _Don't show: The airplane or cross-shaped plan from above, UNESCO, Lúcio Costa._
+- **Search:** Pexels/Unsplash: "Brasília aerial", "Eixo Monumental", "superquadra". Commons: "Plano Piloto Brasília".
 
 ### Amazon survival tricks
 
