@@ -76,6 +76,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-04",
       "hash": "b8b7fa9c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um mapa antigo do Atlântico com uma linha tracejada de norte a sul que corta o leste da América do Sul, um navio e uma rosa dos ventos.",
+        "en": "An old map of the Atlantic with a dashed north–south line cutting through eastern South America, a ship and a compass rose."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "a1f1b415"
     }
   }
 }

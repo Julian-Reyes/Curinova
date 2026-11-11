@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Pintura de Benedito Calixto da praia de São Vicente, no litoral paulista",
-        "en": "Benedito Calixto’s painting of the beach at São Vicente, on the São Paulo coast"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Benedito Calixto",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_-_Praia_de_S%C3%A3o_Vicente,_s.d.jpg"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "46dbe490"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -61,6 +43,24 @@
       "addedAt": "2026-11-04",
       "hash": "a33a7be1"
     },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Pintura de Benedito Calixto da praia de São Vicente, no litoral paulista",
+        "en": "Benedito Calixto’s painting of the beach at São Vicente, on the São Paulo coast"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Benedito Calixto",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benedito_Calixto_-_Praia_de_S%C3%A3o_Vicente,_s.d.jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "46dbe490"
+    },
     "review": {
       "width": 1000,
       "height": 562,
@@ -78,6 +78,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "828bbc76"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma vila colonial à beira de um rio, com uma igreja e uma canoa com dois remadores, sob dois balões de fala que se sobrepõem.",
+        "en": "A colonial riverside village with a church and a canoe with two paddlers, under two overlapping speech bubbles."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "04337dd3"
     }
   }
 }

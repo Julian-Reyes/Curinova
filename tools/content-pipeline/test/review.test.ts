@@ -571,6 +571,27 @@ describe('image accuracy check', () => {
     ).toBe('Julian');
     expect((await act(ctx, { type: 'publish', key: 'a2' })).ok).toBe(true);
   });
+
+  it('lists a published lesson given a new picture, and checks it there', async () => {
+    const { ctx, root } = await setup();
+    await approveAll(ctx, 'a2', 'pt-BR');
+    await approveAll(ctx, 'a2', 'en');
+    expect((await act(ctx, { type: 'publish', key: 'a2' })).ok).toBe(true);
+    expect((await loadQueue(ctx)).imagesToCheck).toEqual([]);
+
+    const libraryConcept = 'content/lessons/a2/concept.json';
+    const concept = await read(root, libraryConcept);
+    await writeDocs(root, { [libraryConcept]: { ...concept, media: { diagram: image() } } });
+    expect((await loadQueue(ctx)).imagesToCheck.map((r) => r.key)).toEqual(['a2']);
+    expect(await loadLesson(ctx, 'a2')).toMatchObject({ blockers: [] });
+
+    expect(await act(ctx, { type: 'check-images', key: 'a2' })).toMatchObject({
+      ok: true,
+      message: 'Images checked: diagram.',
+    });
+    expect((await loadQueue(ctx)).imagesToCheck).toEqual([]);
+    expect(await libraryErrors(root)).toEqual([]);
+  });
 });
 
 describe('review safety', () => {

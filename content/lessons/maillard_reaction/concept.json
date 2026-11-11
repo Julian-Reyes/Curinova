@@ -78,6 +78,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-27",
       "hash": "7347be14"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Pão tostado, um bife selando numa frigideira e uma xícara de café, com moléculas de aroma subindo de cada um.",
+        "en": "Toasted bread, a steak searing in a pan and a cup of coffee, with aroma molecules rising from each."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "e88ba154"
     }
   }
 }

@@ -152,6 +152,7 @@ const lesson: LessonView = {
 const queue: Queue = {
   trails: [],
   ready: [],
+  imagesToCheck: [],
   medianMinutes: null,
   reviewedVariants: 0,
   targetMinutes: 4,

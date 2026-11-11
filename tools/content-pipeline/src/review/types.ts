@@ -65,6 +65,8 @@ export interface Queue {
   trails: QueueTrail[];
   /** Approved (reviewed) lessons in the library that are not published yet. */
   ready: ReadyLesson[];
+  /** Published lessons with pictures nobody has checked yet, e.g. a picture added later (D23). */
+  imagesToCheck: { key: string; titles: Partial<Record<Locale, string>> }[];
   /** Median minutes on the lesson screen per reviewed or rejected variant; null with no data. */
   medianMinutes: number | null;
   reviewedVariants: number;

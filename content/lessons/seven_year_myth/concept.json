@@ -75,6 +75,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "cf63c74b"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um corpo com ciclos de renovação de velocidades diferentes no sangue, no estômago e na pele, e um círculo parado ligado ao cérebro.",
+        "en": "A body with renewal cycles of different speeds in the blood, stomach and skin, and a still circle linked to the brain."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "7274b751"
     }
   }
 }

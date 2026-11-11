@@ -75,6 +75,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "6f8d9fbc"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um corte da pele: células novas nascem na base, sobem por camadas e se soltam como escamas na superfície.",
+        "en": "A cross-section of skin: new cells form at the base, rise through the layers and flake off at the surface."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "b6fea182"
     }
   }
 }

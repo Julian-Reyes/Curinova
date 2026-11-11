@@ -25,6 +25,23 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração do nascer do Sol sobre o horizonte curvo da Terra visto do espaço, com luzes de cidades no lado noturno",
+        "en": "Illustration of sunrise over Earth’s curved horizon seen from space, with city lights on the night side"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-03",
+      "hash": "b300cca5"
+    },
     "deeper": {
       "width": 1200,
       "height": 700,
@@ -43,23 +60,6 @@
       "addedAt": "2026-10-30",
       "hash": "d5a159f1"
     },
-    "discover": {
-      "width": 1024,
-      "height": 1820,
-      "alt": {
-        "pt-BR": "Ilustração do nascer do Sol sobre o horizonte curvo da Terra visto do espaço, com luzes de cidades no lado noturno",
-        "en": "Illustration of sunrise over Earth’s curved horizon seen from space, with city lights on the night side"
-      },
-      "origin": {
-        "kind": "generated",
-        "tool": "ChatGPT (Plus)",
-        "createdBy": "Founder",
-        "createdAt": "2026-11-03"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-11-03",
-      "hash": "b300cca5"
-    },
     "review": {
       "width": 1000,
       "height": 562,
@@ -77,6 +77,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "5648dad3"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "A Terra girando com um relógio no centro e um bojo de maré puxado à frente da Lua; a Lua se afasta devagar, indicada por uma seta.",
+        "en": "Earth spinning with a clock at its centre and a tidal bulge pulled ahead of the Moon; the Moon drifts slowly away, shown by an arrow."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "30532583"
     }
   }
 }

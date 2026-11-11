@@ -75,6 +75,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-27",
       "hash": "02c7b317"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "A medula de um osso produz glóbulos vermelhos que seguem por um vaso sanguíneo.",
+        "en": "Bone marrow makes red blood cells that flow off along a blood vessel."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "89ea16bf"
     }
   }
 }
