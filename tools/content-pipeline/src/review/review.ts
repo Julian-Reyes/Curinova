@@ -607,8 +607,12 @@ function syncTrail(state: State, changes: Changes, clusterId: string): void {
 function libraryConcept(next: State, key: string, draft: Concept): Concept {
   const inLibrary = conceptIdsIn(next.library);
   const media = conceptIn(next.library, key)?.media;
+  // The draft's clusterOrder counts the whole draft trail; the library trail may hold fewer.
+  const trail = clustersIn(next.library).find((c) => c.cluster.id === draft.clusterId);
+  const position = (trail?.cluster.conceptIds.indexOf(draft.id) ?? -1) + 1;
   return {
     ...draft,
+    clusterOrder: position > 0 ? position : draft.clusterOrder,
     // Images already in the library are kept if the draft doesn't carry them.
     ...(draft.media === undefined && media !== undefined ? { media } : {}),
     // Approving one locale of a new lesson: list only the locales the library has.
