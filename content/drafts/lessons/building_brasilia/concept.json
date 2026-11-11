@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Fotografia de 1959 do Congresso Nacional em construção, com a cúpula e andaimes ao fundo e um galpão de madeira à frente",
-        "en": "A 1959 photograph of the National Congress under construction, with its dome and scaffolding behind a wooden shed"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Agência Nacional (Arquivo Nacional)",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_de_Bras%C3%ADlia_-_Congresso_Nacional_em_constru%C3%A7%C3%A3o_(2).jpg"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-06",
-      "hash": "4991e54d"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -57,9 +39,27 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/7002509/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-09",
       "hash": "40bc32c7"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Fotografia de 1959 do Congresso Nacional em construção, com a cúpula e andaimes ao fundo e um galpão de madeira à frente",
+        "en": "A 1959 photograph of the National Congress under construction, with its dome and scaffolding behind a wooden shed"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Agência Nacional (Arquivo Nacional)",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vistas_de_Bras%C3%ADlia_-_Congresso_Nacional_em_constru%C3%A7%C3%A3o_(2).jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "4991e54d"
     },
     "review": {
       "width": 1000,
@@ -75,7 +75,7 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/20758172/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "0338c949"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "0741b30b"
     }

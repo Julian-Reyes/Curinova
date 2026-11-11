@@ -1,0 +1,100 @@
+{
+  "id": "concept_inpe_amazon_monitoring",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 3,
+  "tags": ["brazil", "satellites", "amazon"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_cbers_program",
+      "type": "next",
+      "reason": {
+        "pt-BR": "De onde vêm parte das imagens: os satélites feitos com a China.",
+        "en": "Where some of the images come from: the satellites built with China."
+      }
+    },
+    {
+      "conceptId": "concept_amazonia_1",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O satélite brasileiro que também alimenta os alertas.",
+        "en": "The Brazilian satellite that also feeds the alerts."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Um tucano-toco pousado no alto de uma árvore, acima de uma floresta tropical coberta de neblina",
+        "en": "A toco toucan perched at the top of a tree above a misty tropical forest"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Matheus Bertelli",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/toco-toucan-perching-on-top-of-a-tree-17767032/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "abea6a64"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Copas da floresta amazônica vistas de cima, no Peru, com árvores em muitos tons de verde e algumas palmeiras",
+        "en": "The Amazon forest canopy seen from above in Peru, with trees in many shades of green and a few palms"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "David Geere",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/green-leaves-in-close-up-photography-oFxuQxE0Hm0"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "fd3e8205"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Vista aérea de um rio barrento fazendo uma curva fechada no meio da floresta amazônica contínua, na Terra Indígena Vale do Javari, no Amazonas",
+        "en": "Aerial view of a muddy river making a tight bend through unbroken Amazon forest, in the Vale do Javari Indigenous Territory, Amazonas"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Amazônia Real",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TI_Vale_do_Javari_-_Kanamari_(45836644185).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "2b8903c5"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um satélite observa a floresta amazônica cortada por estradas e clareiras em espinha de peixe; uma área desmatada é destacada, ligada a um mostrador anual e a um sino de alertas diários.",
+        "en": "A satellite watches the Amazon forest cut by roads and fishbone clearings; one cleared area is outlined, linked to a yearly dial and a bell for daily alerts."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "6914cc31"
+    }
+  }
+}

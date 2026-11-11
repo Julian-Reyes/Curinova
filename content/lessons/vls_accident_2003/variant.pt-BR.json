@@ -1,0 +1,205 @@
+{
+  "id": "lesson_vls_accident_2003__pt-BR",
+  "conceptId": "concept_vls_accident_2003",
+  "locale": "pt-BR",
+  "slug": "o-que-aconteceu-em-alcantara-em-2003",
+  "title": "O que aconteceu em Alcântara em 2003?",
+  "hook": "Três dias antes do lançamento, o foguete brasileiro explodiu na plataforma.",
+  "summary": "Em 22 de agosto de 2003, o foguete VLS-1 explodiu na plataforma de Alcântara e matou 21 técnicos.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Em agosto de 2003, o Brasil se preparava para a terceira tentativa de lançar o seu Veículo Lançador de Satélites, o VLS-1. A missão levaria à órbita o microssatélite meteorológico SATEC, do INPE, e um nanossatélite universitário. O lançamento estava marcado para 25 de agosto."
+    },
+    {
+      "type": "paragraph",
+      "text": "Três dias antes, em 22 de agosto, às 13h26, uma ignição não planejada destruiu o foguete ainda na plataforma do Centro de Lançamento de Alcântara. Em minutos, a torre virou um amontoado de ferro retorcido. Morreram 21 técnicos e engenheiros do Centro Técnico Aeroespacial, de São José dos Campos. Foi a maior tragédia do programa espacial brasileiro."
+    },
+    {
+      "type": "takeaway",
+      "text": "Em 22 de agosto de 2003, o VLS-1 explodiu na plataforma de Alcântara e matou 21 técnicos: a maior tragédia do programa espacial."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O que concluiu a investigação"
+    },
+    {
+      "type": "paragraph",
+      "text": "O relatório da comissão de investigação, de 130 páginas, concluiu que o acidente começou com o funcionamento inesperado de um propulsor do primeiro estágio, muito provavelmente por causa do acionamento também inesperado de um dos detonadores. A comissão não encontrou falha provocada por erro ou sabotagem."
+    },
+    {
+      "type": "heading",
+      "text": "Uma perda difícil de repor"
+    },
+    {
+      "type": "paragraph",
+      "text": "A maioria das vítimas era de especialistas, e mais da metade eram engenheiros que dominavam todo o processo de lançamento do VLS. O programa do foguete acabou extinto em 2016."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "vls-pad",
+    "alt": "Diagrama do VLS-1 na torre de lançamento, entre torres de para-raios: um dos motores do primeiro estágio, em destaque, foi o que se acendeu sem comando, provavelmente por um detonador.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Em 2003, era a terceira tentativa de lançar o VLS-1, que levaria o microssatélite meteorológico SATEC, do INPE, e um nanossatélite universitário.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_oimparcial_com_br_noticias_2023_08_a54fb6",
+          "excerpt": "Era a terceira vez que se tentava lançar o VLS-1, com o objetivo de colocar, em órbita, o microssatélite meteorológico SATEC do Instituto Nacional de Pesquisas Espaciais (INPE) e o nanosatélite UNOSAT da Universidade do Norte do Paraná (UENP)."
+        },
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_nordeste_ma_c488c1",
+          "excerpt": "a equipe se preparava para o lançamento da terceira versão do VLS (Veículo Lançador de Satélite) nacional"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "O lançamento estava marcado para 25 de agosto de 2003, mas o acidente aconteceu três dias antes, em 22 de agosto.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_oimparcial_com_br_noticias_2023_08_a54fb6",
+          "excerpt": "O lançamento do VLS-1 estava programada para o dia 25 de agosto de 2003, mas, três dias antes, aconteceu o acidente."
+        },
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_133484_ha_d7143b",
+          "excerpt": "O acidente aconteceu três dias antes da data prevista para a decolagem da missão, 22 de agosto de 2003"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Às 13h26, uma ignição não planejada destruiu o foguete na plataforma do CLA, e em minutos a torre virou ferro retorcido.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_oimparcial_com_br_noticias_2023_08_a54fb6",
+          "excerpt": "o acidente aconteceu às 13h 26min 06s (horário de Brasília). Uma ignição não-planejada destruiu o veículo de lançamento enquanto estava na plataforma do CLA."
+        },
+        {
+          "sourceId": "src_oimparcial_com_br_noticias_2023_08_a54fb6",
+          "excerpt": "Cinco minutos depois, a torre virou um amontoado de ferro retorcido."
+        },
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_133484_ha_d7143b",
+          "excerpt": "Um incêndio seguido por uma explosão foi causado pela ignição acidental de um dos qua"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Morreram 21 técnicos e engenheiros do Centro Técnico Aeroespacial, de São José dos Campos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_agencia_fapesp_br_sequencia_de_surpresas_bfcd66",
+          "excerpt": "O acidente matou 21 técnicos e engenheiros do Centro Técnico Aeroespacial (CTA), de São José dos Campos (SP)."
+        },
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_133484_ha_d7143b",
+          "excerpt": "deixou 21 mortos, todos funcionários do Centro Técnico Espacial (CTA) de São José dos Campos, no estado de São Paulo."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Foi a maior tragédia do programa espacial brasileiro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_nordeste_ma_c488c1",
+          "excerpt": "O CLA também foi cenário da maior tragédia do programa espacial brasileiro"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "O relatório da investigação, de 130 páginas, concluiu que o acidente começou com o funcionamento inesperado de um propulsor do primeiro estágio, muito provavelmente pelo acionamento também inesperado de um detonador.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_agencia_fapesp_br_sequencia_de_surpresas_bfcd66",
+          "excerpt": "O acidente teve início com o funcionamento intempestivo do propulsor A do primeiro estági"
+        },
+        {
+          "sourceId": "src_agencia_fapesp_br_sequencia_de_surpresas_bfcd66",
+          "excerpt": "muito provavelmente causado pelo acionamento também intempestivo de um dos detonadores do conjunto de ignição do referido propulsor."
+        },
+        {
+          "sourceId": "src_agencia_fapesp_br_sequencia_de_surpresas_bfcd66",
+          "excerpt": "Os resultados da investigação, contidos em um relatório de 130 páginas"
+        },
+        {
+          "sourceId": "src_oimparcial_com_br_noticias_2023_08_a54fb6",
+          "excerpt": "O episódio foi provocado pelo acionamento não-planejado de um propulsor, segundo inquérito policial."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "A comissão não encontrou falha provocada por erro ou violação, acidental ou intencional.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_agencia_fapesp_br_sequencia_de_surpresas_bfcd66",
+          "excerpt": "O relatório afirma que não foi identificada nenhuma falha ativa, ou seja, provocada por erro ou violação acidental ou intencional, que possa ter originado o incêndio."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "A maioria das vítimas era de especialistas; mais da metade eram engenheiros que dominavam o processo de lançamento do VLS, programa extinto em 2016.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_nordeste_ma_c488c1",
+          "excerpt": "A maioria das vítimas fazia parte do grupo de especialistas brasileiros, mais da metade eram engenheiros que detinham o conhecimento de todo o processo para o lançamento do VLS, que acabou extinto em 2016."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_oimparcial_com_br_noticias_2023_08_a54fb6",
+    "src_cnnbrasil_com_br_nacional_nordeste_ma_c488c1",
+    "src_tecmundo_com_br_ciencia_133484_ha_d7143b",
+    "src_agencia_fapesp_br_sequencia_de_surpresas_bfcd66"
+  ],
+  "quizIds": ["q_vls_accident_2003_1__pt-BR", "q_vls_accident_2003_2__pt-BR"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_in_space"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "draft",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:56:05.953Z",
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-11T11:56:05.953Z"
+}

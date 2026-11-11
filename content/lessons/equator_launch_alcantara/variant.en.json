@@ -1,0 +1,167 @@
+{
+  "id": "lesson_equator_launch_alcantara__en",
+  "conceptId": "concept_equator_launch_alcantara",
+  "locale": "en",
+  "slug": "why-launch-rockets-near-the-equator",
+  "title": "Why launch rockets near the equator?",
+  "hook": "Earth’s own spin can give a rocket a push.",
+  "summary": "Near the equator Earth spins faster, which helps push a rocket along; Alcântara lies just two degrees from it.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "For a rocket, the starting point matters. Earth spins, and the speed of that rotation is higher near the equator than at higher latitudes. Launching from there gives the rocket an extra push and saves fuel."
+    },
+    {
+      "type": "paragraph",
+      "text": "That is why the Alcântara Launch Centre (CLA), in Maranhão state, is considered one of the best-placed launch sites in the world: it lies just two degrees from the equator, about 30 kilometres from the city of São Luís. Run by the Brazilian Space Agency, the base officially opened on 1 March 1983."
+    },
+    {
+      "type": "takeaway",
+      "text": "Near the equator, Earth’s rotation gives rockets an extra push; Alcântara lies just two degrees from it."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How much is saved?"
+    },
+    {
+      "type": "paragraph",
+      "text": "According to a report in the newspaper Estadão, fuel savings can reach 30%. There is another reason too: because Earth is flattened at the poles, the equator is farther from the planet’s centre, which shortens the trip to space and lowers the gravity to overcome."
+    },
+    {
+      "type": "heading",
+      "text": "A base with a history"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alcântara was also the scene of the worst tragedy in Brazil’s space programme, in August 2003."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "equator-launch",
+    "alt": "Diagram of the spinning Earth: near the equator, where Alcântara lies, the surface moves faster than near the poles and gives the rocket an extra push; Earth is also wider at the equator.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Earth’s rotation is faster near the equator than at higher latitudes, which helps push rockets and saves fuel.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_estados_maranhao_centro_de_b60644",
+          "excerpt": "uma vez que a velocidade de rotação da Terra é maior que em latitudes mais elevadas, o que ajuda no impulsionamento de foguetes, proporcionando economia no combustível para o lançamento."
+        },
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_261195_base_4e41d6",
+          "excerpt": "a velocidade de rotação da Terra na altura do Equador favorece a propulsão dos veículo"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "The Alcântara base is considered one of the best-placed in the world because it lies two degrees from the equator.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_estados_maranhao_centro_de_b60644",
+          "excerpt": "A base de Alcântara é uma das mais bem localizadas do mundo por estar a dois graus da Linha do Equador"
+        },
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_261195_base_4e41d6",
+          "excerpt": "está muito próximo à linha do Equador, a uma distância equivalente a apenas dois graus de latitude"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "The CLA is in the municipality of Alcântara, 30 km from São Luís, in Maranhão, and is run by the Brazilian Space Agency.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_estados_maranhao_centro_de_b60644",
+          "excerpt": "O Centro de Lançamento de Alcântara (CLA), localizado no município de Alcântara, a 30 km de São Luís, no Maranhão, é um espaçoporto administrado pela Agência Espacial Brasileira (AEB)."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "The CLA’s official opening date is 1 March 1983.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_portalamazonia_com_estados_maranhao_centro_de_b60644",
+          "excerpt": "1° de março de 1983 é considerada a data oficial de inauguração do CLA"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "According to Estadão, propellant savings can reach 30%.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_261195_base_4e41d6",
+          "excerpt": "contribuindo para uma economia significativa dos combustíveis propelentes utilizados nos foguetes, diminuindo gastos em até 30%."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Because Earth is flattened at the poles, the equator is farther from its centre, shortening the trip and lowering the gravity to overcome.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_tecmundo_com_br_ciencia_261195_base_4e41d6",
+          "excerpt": "a linha do Equador está mais próxima do espaço e mais distante do centro da Terra, diminuindo tanto o percurso de ida quanto a força da gravidade que precisa ser vencida para tirar algo do chão."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "The CLA was the scene of the worst tragedy of Brazil’s space programme, in August 2003.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_nordeste_ma_c488c1",
+          "excerpt": "O CLA também foi cenário da maior tragédia do programa espacial brasileiro, que deixou 21 pessoas mortas em Agosto de 2003."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_portalamazonia_com_estados_maranhao_centro_de_b60644",
+    "src_tecmundo_com_br_ciencia_261195_base_4e41d6",
+    "src_cnnbrasil_com_br_nacional_nordeste_ma_c488c1"
+  ],
+  "quizIds": ["q_equator_launch_alcantara_1__en", "q_equator_launch_alcantara_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_in_space"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:55:47.428Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:07.442Z",
+  "updatedAt": "2026-11-11T12:31:07.442Z"
+}

@@ -1,0 +1,192 @@
+{
+  "id": "lesson_inpe_amazon_monitoring__en",
+  "conceptId": "concept_inpe_amazon_monitoring",
+  "locale": "en",
+  "slug": "how-does-inpe-watch-the-amazon-from-space",
+  "title": "How does INPE watch the Amazon from space?",
+  "hook": "One measurement a year, and alerts every day.",
+  "summary": "PRODES has measured Amazon deforestation once a year since 1988; DETER sends daily alerts to law enforcement.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Brazil’s National Institute for Space Research (INPE) follows the forest with two systems. PRODES uses satellite images to measure, once a year, how much primary forest in the Legal Amazon has been clear-cut, counting areas larger than 6.25 hectares. It provides the country’s official deforestation rate, in a series that starts in 1988."
+    },
+    {
+      "type": "paragraph",
+      "text": "DETER is faster. It issues daily alerts of deforestation and degradation from cameras on the CBERS-04, CBERS-04A and Amazonia-1 satellites, to guide enforcement on the ground. The alerts are not a monthly deforestation rate: they show a trend."
+    },
+    {
+      "type": "takeaway",
+      "text": "PRODES has measured Amazon deforestation once a year since 1988; DETER sends daily alerts to guide enforcement."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "How a year is counted"
+    },
+    {
+      "type": "paragraph",
+      "text": "The PRODES year runs from August to July. For 2019, for example, INPE analysed 229 images of the Legal Amazon and estimated 10,129 km² of clear-cutting between August 2018 and July 2019."
+    },
+    {
+      "type": "heading",
+      "text": "The latest figure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Between August 2025 and July 2026, PRODES recorded 3,335 km² of deforestation in the Amazon, the lowest value in the series that began in 1988."
+    },
+    {
+      "type": "heading",
+      "text": "Open data"
+    },
+    {
+      "type": "paragraph",
+      "text": "DETER alerts are open to anyone on INPE’s TerraBrasilis platform."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "deforestation-watch",
+    "alt": "Diagram of a satellite photographing the forest, with roads and clearings in a fishbone pattern: the data become one measurement a year (PRODES) and daily alerts (DETER).",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "PRODES uses satellite images to map and measure clear-cut areas larger than 6.25 hectares in the Legal Amazon.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ihu_unisinos_br_599865_a_taxa_a8689a",
+          "excerpt": "O mapeamento utilizou imagens do satélite Landsat ou similares, para registrar e quantificar as áreas desmatadas maiores que 6,25 hectares."
+        },
+        {
+          "sourceId": "src_ihu_unisinos_br_599865_a_taxa_a8689a",
+          "excerpt": "O PRODES considera como desmatamento a remoção completa da cobertura florestal primária por corte raso, independentemente da futura utilização destas áreas."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "PRODES is INPE’s yearly monitoring and produces the official deforestation rate, in a series starting in 1988.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_rtp_pt_noticias_mundo_desmatamento_na_72d69f",
+          "excerpt": "O Prodes é o sistema de monitoramento anual da supressão de vegetação nativa por sensoriamento remoto do Instituto Nacional de Pesquisas Espaciais (INPE), órgão responsável por calcular a taxa oficial de desmatamento no p"
+        },
+        {
+          "sourceId": "src_dgabc_com_br_noticia_4353216_inpe_33e885",
+          "excerpt": "o menor valor da série histórica iniciada em 1988, segundo o Inpe."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "DETER issues daily alerts of clearing, deforestation and degradation from sensors on the CBERS-04, CBERS-04A and Amazonia-1 satellites, to support enforcement.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_assuntos_3156e9",
+          "excerpt": "O DETER emite avisos diários de supressão, desmatamento e degradação da vegetação nativa, produzidos a partir de imagens dos sensores WFI, a bordo dos satélites CBERS-04, CBERS-04A e Amazônia-1. Seu objetivo é subsidiar as ações de fiscalização e controle realizadas pelos órgãos competentes."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "DETER alerts are not a monthly deforestation rate; they show a trend.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_assuntos_3156e9",
+          "excerpt": "os avisos não constituem taxa mensal de desmatamento: eles indicam uma tendência do comportamento do desmatamento"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "For 2019, INPE analysed 229 images and estimated 10,129 km² of clear-cutting between August 2018 and July 2019.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ihu_unisinos_br_599865_a_taxa_a8689a",
+          "excerpt": "A taxa foi calculada a partir da análise das 229 imagens que compõem a ALB e o valor"
+        },
+        {
+          "sourceId": "src_ihu_unisinos_br_599865_a_taxa_a8689a",
+          "excerpt": "estimado foi de 10.129 km2 de corte raso no período de agosto de 2018 a julho de 2019."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Between August 2025 and July 2026, PRODES recorded 3,335 km² of Amazon deforestation, the lowest in the series begun in 1988.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_dgabc_com_br_noticia_4353216_inpe_33e885",
+          "excerpt": "Na Amazônia, a área desmatada caiu para 3.335 km"
+        },
+        {
+          "sourceId": "src_dgabc_com_br_noticia_4353216_inpe_33e885",
+          "excerpt": "o menor valor da série histórica iniciada em 1988, segundo o Inpe."
+        },
+        {
+          "sourceId": "src_rtp_pt_noticias_mundo_desmatamento_na_72d69f",
+          "excerpt": "Os dados foram recolhidos pelo Projeto de Monitoramento do Desmatamento na Amazónia Legal por Satélite (Prodes) entre agosto de 2025 e julho de 2026."
+        },
+        {
+          "sourceId": "src_rtp_pt_noticias_mundo_desmatamento_na_72d69f",
+          "excerpt": "É o menor índice da série histórica da Amazónia recolhida pelo Prodes desde 1988"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "DETER alerts are publicly available on INPE’s TerraBrasilis platform.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_assuntos_3156e9",
+          "excerpt": "Os avisos do DETER para os biomas monitorados estão disponíveis, em transparência ativa, na plataforma Terra Brasilis, do INPE"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_ihu_unisinos_br_599865_a_taxa_a8689a",
+    "src_rtp_pt_noticias_mundo_desmatamento_na_72d69f",
+    "src_dgabc_com_br_noticia_4353216_inpe_33e885",
+    "src_gov_br_inpe_pt_br_assuntos_3156e9"
+  ],
+  "quizIds": ["q_inpe_amazon_monitoring_1__en", "q_inpe_amazon_monitoring_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_in_space"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "draft",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:57:03.826Z",
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-11T11:57:03.826Z"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "concept_invisible_gorilla",
+  "topicId": "brain",
+  "clusterId": "cluster_where_attention_goes",
+  "clusterOrder": 2,
+  "tags": ["attention", "perception", "experiments"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_cocktail_party_effect",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Nem tudo o que você ignora some: seu nome atravessa a sala.",
+        "en": "Not everything you ignore disappears: your name crosses the room."
+      }
+    },
+    {
+      "conceptId": "concept_multitasking_switching",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que dividir a atenção cobra um preço.",
+        "en": "Why splitting your attention has a cost."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma pessoa fantasiada de gorila parada no meio de um corredor de escola, enquanto jogadores de camiseta branca e preta passam bolas de basquete ao redor, borrados pelo movimento",
+        "en": "Illustration of a person in a gorilla suit standing still in a school hallway while players in white and black T-shirts pass basketballs around it in a motion blur"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "7e185326"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de uma calçada lotada em que todos olham para o celular, inclusive uma pessoa fantasiada de gorila no meio da multidão",
+        "en": "Illustration of a crowded pavement where everyone is looking at their phone, including a person in a gorilla suit in the middle of the crowd"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "17e1a5d5"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de mãos com mangas brancas pegando uma bola de basquete, contra um fundo escuro",
+        "en": "Illustration of hands in white sleeves catching a basketball against a dark background"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "69cad067"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Jogadores de camisa branca e preta trocam bolas, com os passes do time branco contados, enquanto um gorila quase transparente está no meio da quadra.",
+        "en": "Players in white and black shirts pass balls, with the white team’s passes counted, while an almost transparent gorilla stands in the middle of the court."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "97332120"
+    }
+  }
+}

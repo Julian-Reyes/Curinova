@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_poison_frog_diet_1__en",
+    "questionGroupId": "qg_poison_frog_diet_1",
+    "conceptId": "concept_poison_frog_diet",
+    "locale": "en",
+    "prompt": "Why aren’t poison dart frogs raised in zoos poisonous?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They eat toxin-free insects, and the poison comes from diet"
+      },
+      {
+        "id": "b",
+        "text": "Keepers remove the poison"
+      },
+      {
+        "id": "c",
+        "text": "The zoo’s cooler air switches the poison off"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The frogs store toxins from the arthropods they eat; on crickets and fruit flies there is no poison to store.",
+    "misconception": "The poison isn’t built in: without the right food, the frog doesn’t have it.",
+    "claimIds": ["c2", "c4"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_poison_frog_diet_2__en",
+    "questionGroupId": "qg_poison_frog_diet_2",
+    "conceptId": "concept_poison_frog_diet",
+    "locale": "en",
+    "prompt": "What kind of diet goes with the brightest, most toxic frogs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ants, mites and termites"
+      },
+      {
+        "id": "b",
+        "text": "Fruit and seeds"
+      },
+      {
+        "id": "c",
+        "text": "Small fish"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In the showiest species, toxicity comes from a diet specialised in ants, mites and termites.",
+    "claimIds": ["c6"],
+    "status": "reviewed"
+  }
+]

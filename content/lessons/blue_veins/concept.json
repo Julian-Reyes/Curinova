@@ -1,0 +1,97 @@
+{
+  "id": "concept_blue_veins",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 3,
+  "tags": ["myths", "blood", "light"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_falling_coin",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro mito que a física desmonta.",
+        "en": "Another myth physics takes apart."
+      }
+    },
+    {
+      "conceptId": "concept_knuckle_cracking",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o próprio corpo.",
+        "en": "Another myth about your own body."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração da parte interna de um pulso com veias azuladas e fracas sob a pele",
+        "en": "Illustration of the inside of a wrist with faint bluish veins under the skin"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "4a4bf093"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração do dorso de uma mão com veias saltadas, sob a luz suave da janela",
+        "en": "Illustration of the back of a hand with raised veins in soft window light"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "fc2fca93"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de uma mão aberta, com a palma para cima, sobre um lençol branco",
+        "en": "Illustration of an open hand resting palm up on a white sheet"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "6e89716c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Corte da pele: a luz vermelha chega até a veia funda, enquanto a luz azul se espalha perto da superfície e volta ao olho; o sangue nas duas veias é vermelho.",
+        "en": "A cross-section of skin: red light reaches the deep vein, while blue light scatters near the surface and returns to the eye; the blood in both veins is red."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "60d80d94"
+    }
+  }
+}

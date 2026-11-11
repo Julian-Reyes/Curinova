@@ -1,0 +1,196 @@
+{
+  "id": "lesson_time_slows_fear__en",
+  "conceptId": "concept_time_slows_fear",
+  "locale": "en",
+  "slug": "does-time-really-slow-down-when-you-are-scared",
+  "title": "Does time really slow down when you’re scared?",
+  "hook": "In a scare, everything seems to go in slow motion. A free-fall experiment put that to the test.",
+  "summary": "In a free-fall study, nobody gained slow-motion vision; the sense that time slowed comes later, in memory.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Many people say that in an accident everything seemed to happen in slow motion. To test this, David Eagleman and colleagues took volunteers to a free-fall ride: they dropped backwards 31 metres into a net. On their wrists they wore a \"perceptual chronometer\" that flashed numbers too fast to read normally."
+    },
+    {
+      "type": "paragraph",
+      "text": "If time really slowed down, they would have been able to read the numbers during the fall. They couldn’t. Yet when asked afterwards how long their own fall had lasted, the volunteers estimated 36% longer than other people’s falls. The slow motion wasn’t in their perception, but in their memory."
+    },
+    {
+      "type": "takeaway",
+      "text": "In a scare, time doesn’t slow down; memory records the moment more richly, so it seems to have lasted longer."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Denser memories"
+    },
+    {
+      "type": "paragraph",
+      "text": "The authors suggest that a frightening event is recorded more richly in memory. When it is recalled, that richness makes it seem to have lasted longer than it did."
+    },
+    {
+      "type": "heading",
+      "text": "Time isn’t one thing"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the researchers, subjective time is not a single thing that speeds up or slows down: it is made of parts that can work separately."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fall-memory",
+    "alt": "Diagram of a backwards free fall into a net, with a wrist display flashing too fast to read; beside it, the memory of the fall holds more frames and seems longer than it was.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "People commonly report that time seemed to move in slow motion during a car accident.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+          "excerpt": "People commonly report that time seemed to move in slow motion during a car accident"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "In Eagleman and colleagues’ study, volunteers fell backwards 31 metres into a net.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "Participants are released from the apex of the tower and fall backward for 31 m before landing safely in a net below."
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "Stetson C, Fiesta MP, Eagleman DM (2007) Does Time Really Slow Down during a Frightening Event?"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "They wore a wrist \"perceptual chronometer\" showing numbers too fast to read normally.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "They merely had to read two numbers that were displayed on a wrist-mounted machine called a ‘perceptual chronometer’."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+          "excerpt": "oped a special device called the perceptual chronometer that was strapped to the volunteers' wrists."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "During the fall, volunteers did not gain slow-motion vision.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "We found no evidence of increased temporal resolution"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+          "excerpt": "they were not able to see more events in time. Instead, the longer durat"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Afterwards they estimated their own fall lasted 36% longer than others’.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "participants retrospectively estimated their own fall to last 36% longer than other"
+        },
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "On average, the volunteers estimated that own experience took 36% longer than that of their fellows."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Time slowing is a matter of recollection, not perception.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "Our findings suggest that time-slowing is a function of recollection, not perception"
+        },
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "Time didn’t slow down – the volunteers just remembered that it did."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "A richer memory encoding may make a salient event seem, in retrospect, to have lasted longer.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "a richer encoding of memory may cause a salient event to appear, retrospectively, as though it lasted longer."
+        },
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "Stetson and co believe that people lay down richer, denser memories when they experience shocking events."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Subjective time is not a single entity that speeds or slows, but is made of separable parts.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "subjective time is not a single entity that speeds or slows, but instead is composed of separable subcomponents."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+    "src_journals_plos_org_plosone_article_9ffe9b",
+    "src_nationalgeographic_com_science_article_time_doesnt_3d983b"
+  ],
+  "quizIds": ["q_time_slows_fear_1__en", "q_time_slows_fear_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:09:29.343Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:49.287Z",
+  "updatedAt": "2026-11-11T12:31:49.287Z"
+}

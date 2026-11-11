@@ -1,0 +1,33 @@
+{
+  "id": "cluster_where_attention_goes",
+  "topicId": "brain",
+  "slug": {
+    "pt-BR": "para-onde-vai-sua-atencao",
+    "en": "where-your-attention-goes"
+  },
+  "title": {
+    "pt-BR": "Para onde vai sua atenção",
+    "en": "Where your attention goes"
+  },
+  "hook": {
+    "pt-BR": "Você percebe bem menos do que imagina, e nem o tempo é o que parece.",
+    "en": "You notice far less than you think, and even time isn’t what it seems."
+  },
+  "conceptIds": [
+    "concept_multitasking_switching",
+    "concept_invisible_gorilla",
+    "concept_cocktail_party_effect",
+    "concept_saccadic_suppression",
+    "concept_stopped_clock_illusion",
+    "concept_time_slows_fear"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_how_memory_works",
+      "reason": {
+        "pt-BR": "O medo estica o tempo na memória; veja como a memória funciona.",
+        "en": "Fear stretches time in memory; see how memory works."
+      }
+    }
+  ]
+}

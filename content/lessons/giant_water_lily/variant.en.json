@@ -1,0 +1,197 @@
+{
+  "id": "lesson_giant_water_lily__en",
+  "conceptId": "concept_giant_water_lily",
+  "locale": "en",
+  "slug": "how-can-a-giant-water-lily-leaf-carry-so-much-weight",
+  "title": "How can a giant water lily leaf carry so much weight?",
+  "hook": "The secret is under the leaf, and it inspired a palace of glass.",
+  "summary": "Thick, air-filled ribs crossing under the leaf spread the load; that design inspired the Crystal Palace.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A giant water lily leaf can be 2 to 3 metres across and yet its blade is only about a millimetre thick. The secret is underwater: the underside of the leaf is covered in thick ribs that branch and cross, forming a network that gives it strength. Inside, the ribs hold air-filled tissue that helps the leaf float."
+    },
+    {
+      "type": "paragraph",
+      "text": "The underside is also covered in many spines that protect the plant from fish and other animals trying to eat it. The leaf can float a surprising load, but only if the weight is spread evenly over its whole surface."
+    },
+    {
+      "type": "takeaway",
+      "text": "A giant water lily leaf holds itself up with a network of crossing, air-filled ribs on its underside."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "From pond to Crystal Palace"
+    },
+    {
+      "type": "paragraph",
+      "text": "The British gardener and architect Joseph Paxton was the first to make the plant flower in cultivation, in 1849, in a heated pond at Chatsworth. Inspired by the ribs that hold up the leaf, he used a similar cross-braced system for the iron and glass frame of the Crystal Palace, built for the Great Exhibition of 1851 in London."
+    },
+    {
+      "type": "heading",
+      "text": "Named for a queen"
+    },
+    {
+      "type": "paragraph",
+      "text": "The plant was named after Queen Victoria, newly crowned in 1837. Three species of giant water lily are known today, all from rivers in tropical South America."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "lily-ribs",
+    "alt": "Diagram of a giant water lily leaf: from the side, with weight spread across the top and air-filled ribs below; from underneath, with the network of crossing ribs and spines.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Giant water lily leaves can be 2 to 3 metres across.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Famous for their leaves, which can grow 2-3m in diameter"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "The leaf blade is only about 1 mm thick.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_7a09bb",
+          "excerpt": "The lamina is relatively thin for such a large leaf (ca. 1 mm)"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "The underside is covered in thick ribs that branch and cross, giving the leaf strength.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Thick, strong cross-braced veins form a network of branching ribs along the leaf undersides, providing strength."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Air-filled tissue inside the ribs helps the leaf float.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "The buoyant, air-filled tissue inside the ribs, shown in this midrib cross-section on the underside of a V. amazonica leaf, allows the huge leaves to float"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Many spines on the leaf’s underside protect the plant from fish and other plant-eaters.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_7a09bb",
+          "excerpt": "The undersurface of the leaf is also covered in numerous robust spines (Fig. 1E) that protect the lamina from herbivory."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_victoria_amazonica_74346f",
+          "excerpt": "The stem and underside of the leaves are coated with many small spines to defend itself from fish and other herbivores that dwell underwater"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "The leaf is very buoyant when weight is spread evenly over its whole surface.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_victoria_amazonica_74346f",
+          "excerpt": "These leaves are enormously buoyant if the weight is distributed evenly over the entire surface of the leaf"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Joseph Paxton first got the plant to flower in 1849, in a heated pond at Chatsworth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Joseph Paxton first successfully coaxed a plant of Victoria amazonica to flower in 1849, grown in his custom-designed, indoor, heated pond at Chatsworth House."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Inspired by the leaf’s ribs, Paxton used the cross-braced system in the Crystal Palace for the 1851 Great Exhibition.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "Paxton adopted the cross-braced system to support the cast iron and glass structure of the Crystal Palace for the Great Exhibition of 1851 in London’s Hyde Park."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_victoria_amazonica_74346f",
+          "excerpt": "The lily, with ribbed undersurface and leaves veining \"like transverse girders and supports\", \"as Paxton's inspiration for The Crystal Palace"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "The plant honours Queen Victoria, crowned in 1837; there are three species, from rivers in tropical South America.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "to honour the newly crowned Queen Victoria in 1837"
+        },
+        {
+          "sourceId": "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+          "excerpt": "on the warm, still waters of rivers in tropical South America live three Victoria water lily species (Victoria amazonica, V. cruziana, and V. boliviana)."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_gardensbythebay_com_sg_en_learn_with_cddf5f",
+    "src_pmc_ncbi_nlm_nih_gov_articles_7a09bb",
+    "src_en_wikipedia_org_wiki_victoria_amazonica_74346f"
+  ],
+  "quizIds": ["q_giant_water_lily_1__en", "q_giant_water_lily_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_amazon_survival"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:59:14.712Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:12.176Z",
+  "updatedAt": "2026-11-11T12:31:12.176Z"
+}

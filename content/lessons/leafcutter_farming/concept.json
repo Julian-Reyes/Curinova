@@ -1,0 +1,97 @@
+{
+  "id": "concept_leafcutter_farming",
+  "topicId": "body",
+  "clusterId": "cluster_amazon_survival",
+  "clusterOrder": 3,
+  "tags": ["amazon", "ants", "farming"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_poison_frog_diet",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro bicho cuja força vem do que come.",
+        "en": "Another animal whose power comes from what it eats."
+      }
+    },
+    {
+      "conceptId": "concept_giant_water_lily",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra engenharia natural da Amazônia.",
+        "en": "More natural engineering from the Amazon."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Ilustração de uma fila de saúvas carregando pedaços de folha por um tronco com musgo na floresta",
+        "en": "Illustration of a line of leafcutter ants carrying pieces of leaf up a mossy log in the rainforest"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "8898b4da"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de saúvas carregando pedaços de folha pelo chão da floresta",
+        "en": "Illustration of leafcutter ants carrying leaf pieces across the forest floor"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "ff89f166"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de uma saúva segurando um pedaço de folha num galho",
+        "en": "Illustration of a single leafcutter ant holding a piece of leaf on a branch"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "9aee740c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Corte do solo: saúvas levam pedaços de folha para o ninho, onde as folhas alimentam um jardim de fungo, e uma formiga come o fungo.",
+        "en": "A cross-section of the ground: leafcutter ants carry leaf pieces into the nest, where the leaves feed a fungus garden, and one ant eats the fungus."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "56867d16"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_equator_launch_alcantara_1__en",
+    "questionGroupId": "qg_equator_launch_alcantara_1",
+    "conceptId": "concept_equator_launch_alcantara",
+    "locale": "en",
+    "prompt": "Why is it an advantage to launch rockets near the equator?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Earth spins faster there and gives the rocket an extra push"
+      },
+      {
+        "id": "b",
+        "text": "The air is colder and denser"
+      },
+      {
+        "id": "c",
+        "text": "There are no clouds near the equator"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Earth’s rotation is faster near the equator, which helps push the rocket and saves fuel.",
+    "claimIds": ["c1"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_equator_launch_alcantara_2__en",
+    "questionGroupId": "qg_equator_launch_alcantara_2",
+    "conceptId": "concept_equator_launch_alcantara",
+    "locale": "en",
+    "prompt": "How far from the equator is the Alcântara Launch Centre?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About two degrees of latitude"
+      },
+      {
+        "id": "b",
+        "text": "About twenty degrees of latitude"
+      },
+      {
+        "id": "c",
+        "text": "Right on the equator"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The CLA, in Maranhão, lies just two degrees from the equator.",
+    "claimIds": ["c2", "c3"],
+    "status": "reviewed"
+  }
+]

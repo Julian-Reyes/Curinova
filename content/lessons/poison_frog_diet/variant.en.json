@@ -1,0 +1,179 @@
+{
+  "id": "lesson_poison_frog_diet__en",
+  "conceptId": "concept_poison_frog_diet",
+  "locale": "en",
+  "slug": "where-do-poison-dart-frogs-get-their-poison",
+  "title": "Where do poison dart frogs get their poison?",
+  "hook": "Raised in captivity, these bright frogs lose their poison.",
+  "summary": "From their food: poison dart frogs store toxins from the small arthropods they eat; raised on crickets, they aren’t poisonous.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "The bright colours of poison dart frogs are a warning: they are among the most toxic animals on Earth. But the frogs don’t make the poison themselves. They store alkaloids, toxic compounds, by eating small arthropods and insects such as ants and mites, which most likely get the toxins from the plants they feed on."
+    },
+    {
+      "type": "paragraph",
+      "text": "Captivity is the proof. At the Smithsonian’s National Zoo in the United States, the frogs eat crickets, beetles and fruit flies, insects with no poison, so they are not poisonous. Scientists tested two ideas, that the frogs make the toxins or that they get them from their diet, and the diet explanation won."
+    },
+    {
+      "type": "takeaway",
+      "text": "Poison dart frogs get their poison from their food; raised on toxin-free insects, they aren’t poisonous."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Colour and menu"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the brightest species, toxicity comes from a diet of ants, mites and termites. Species that eat a much wider range of prey tend to have dull colours and little or no toxicity."
+    },
+    {
+      "type": "heading",
+      "text": "Why \"dart\""
+    },
+    {
+      "type": "paragraph",
+      "text": "The name comes from Indigenous South Americans using their secretions to poison the tips of blowgun darts. But out of more than 170 species, only four are documented as used this way."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "frog-diet",
+    "alt": "Diagram comparing two diets: in the wild, toxins pass from plants to ants and mites and on to the frog, which becomes poisonous; in captivity, fed toxin-free flies and crickets, the frog has no poison.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Poison dart frogs are among the most toxic animals on Earth.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "Dendrobatids include some of the most toxic animals known on Earth."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "This bright coloration is correlated with the toxicity of the species, making them aposematic"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "They store alkaloids by eating small arthropods and insects.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "They are alkaloid-containing amphibians that sequester their alkaloids through the consumption of small arthropods and insects."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "Scientists believe that poison frogs gain their poison from"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "The insects they eat most likely get the poison from plants.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "these insects most likely acquire the poison from their plant diet."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "At the National Zoo, fed crickets and other non-poisonous insects, the frogs are not poisonous.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "As a result, poison frogs in human care on a diet of crickets and other non-poisonous insects are not poisonous themselves."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e",
+          "excerpt": "At the Zoo, they are fed small crickets, bean beetles, black worms and/or fruit flies daily and as a result, are not poisonous."
+        },
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "These results indicate that dendrobatids only present alkaloids if they consume alkaloid-containing arthropods and insects."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Between the frogs making the toxins and getting them from their diet, the diet hypothesis won.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+          "excerpt": "However, the biosynthetic hypothesis quickly gave way to the dietary hypothesis following numerous, parallel experiment results"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "In bright species, toxicity comes from a diet of ants, mites and termites; species with varied diets have dull colours and little toxicity.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "a feature derived from their diet of ants, mites and termites"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "while species which eat a much larger variety of prey have cryptic coloration with minimal to no amount of observed toxicity."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Of more than 170 species, only four are documented as used to poison darts.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_poison_dart_32a467",
+          "excerpt": "out of over 170 species, only four have been documented as being used for this purpose"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_lakeforest_edu_news_effects_of_dietary_0bffbf",
+    "src_en_wikipedia_org_wiki_poison_dart_32a467",
+    "src_nationalzoo_si_edu_animals_poison_frogs_a54a6e"
+  ],
+  "quizIds": ["q_poison_frog_diet_1__en", "q_poison_frog_diet_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_amazon_survival"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:43:08.984Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:37.890Z",
+  "updatedAt": "2026-11-11T12:31:37.890Z"
+}

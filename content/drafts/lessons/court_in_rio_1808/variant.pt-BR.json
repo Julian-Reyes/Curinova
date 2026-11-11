@@ -60,7 +60,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c2",
@@ -77,7 +77,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c3",
@@ -90,7 +90,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c4",
@@ -103,7 +103,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c5",
@@ -124,7 +124,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c6",
@@ -137,7 +137,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c7",
@@ -150,7 +150,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c8",
@@ -163,7 +163,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c9",
@@ -176,7 +176,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     }
   ],
   "sourceIds": [
@@ -193,11 +193,11 @@
     "promptVersion": "write-v1",
     "runId": "2026-11-04-cluster_brazil_capitals"
   },
-  "reviewStatus": "draft",
+  "reviewStatus": "reviewed",
   "publicationStatus": "draft",
   "reviewedBy": null,
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-04T00:00:00Z"
+  "updatedAt": "2026-11-11T11:44:52.686Z"
 }

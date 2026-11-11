@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "A Praça do Comércio, em Lisboa, reconstruída sob o Marquês de Pombal, com o arco da Rua Augusta",
-        "en": "Praça do Comércio in Lisbon, rebuilt under the Marquis of Pombal, with the Rua Augusta arch"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Carlos Maciel",
-        "platform": "Pexels",
-        "license": "Pexels License",
-        "sourceUrl": "https://www.pexels.com/photo/22086565/"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-06",
-      "hash": "0607404c"
-    },
     "discover": {
       "width": 1024,
       "height": 1821,
@@ -57,9 +39,27 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/11051182/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "11adb587"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "A Praça do Comércio, em Lisboa, reconstruída sob o Marquês de Pombal, com o arco da Rua Augusta",
+        "en": "Praça do Comércio in Lisbon, rebuilt under the Marquis of Pombal, with the Rua Augusta arch"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Carlos Maciel",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/22086565/"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "0607404c"
     },
     "review": {
       "width": 1000,
@@ -75,7 +75,7 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/36868317/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "face700e"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "a22836fc"
     }

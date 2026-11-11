@@ -1,0 +1,203 @@
+{
+  "id": "lesson_court_in_rio_1808__en",
+  "conceptId": "concept_court_in_rio_1808",
+  "locale": "en",
+  "slug": "how-did-rio-become-the-capital-of-a-european-empire",
+  "title": "How did Rio become the capital of a European empire?",
+  "hook": "Fleeing Napoleon, a European ruler went to govern from his colony.",
+  "summary": "In 1808 the Portuguese court fled Napoleon to Rio; in 1815 Brazil became a kingdom united with Portugal, with Rio as its capital.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In 1808, the seat of a European empire crossed the Atlantic. Threatened by Napoleon Bonaparte’s troops invading Portugal, the Portuguese royal family reached Salvador in January and Rio de Janeiro on 7 March, together with the court elite and the kingdom’s administration. Although still a colony, Brazil became, in practice, the seat of the Portuguese empire."
+    },
+    {
+      "type": "paragraph",
+      "text": "The plan was a short stay, but the court remained until 1821. On 16 December 1815, a law signed by Prince John raised Brazil to a kingdom and joined Portugal, Brazil and the Algarves in a single United Kingdom. Brazil was no longer a colony, and the new kingdom had Rio as its capital."
+    },
+    {
+      "type": "takeaway",
+      "text": "Fleeing Napoleon, the Portuguese court settled in Rio in 1808; in 1815 Brazil became a kingdom."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The ports open"
+    },
+    {
+      "type": "paragraph",
+      "text": "While still in Salvador, on 28 January 1808, the Prince Regent John opened Brazil’s ports to direct trade with other countries. Until then, the colony could trade with the world only through Portugal."
+    },
+    {
+      "type": "heading",
+      "text": "An empire on four continents"
+    },
+    {
+      "type": "paragraph",
+      "text": "The United Kingdom of Portugal, Brazil and the Algarves had its capital in Rio de Janeiro and lands in Europe, the Americas, Africa and Asia. In historian Lilia Schwarcz’s words, from 1815 the whole empire was run by the United Kingdom, no longer by the old mother country."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "court-crossing",
+    "alt": "Schematic map of the Atlantic: pressed by the invasion from the east, the Portuguese court’s fleet leaves Lisbon, stops at Salvador and reaches Rio de Janeiro, which becomes the seat of the empire.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Portuguese royal family came to Brazil fleeing the invasion of Portugal by Napoleon’s troops.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www2_camara_leg_br_a_camara_6e8aa4",
+          "excerpt": "ameaçada pelas tropas invasoras de Napoleão Bonaparte em Portugal."
+        },
+        {
+          "sourceId": "src_exame_com_brasil_ha_200_anos_d4e545",
+          "excerpt": "A família real portuguesa desembarcou aqui, para fugir dos exércitos do imperador francês Napoleão Bonaparte."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "The royal family reached Salvador on 22 January 1808 and Rio de Janeiro on 7 March 1808, with the court elite and the administration.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www2_camara_leg_br_a_camara_6e8aa4",
+          "excerpt": "22.01.1808 - Chegada da família real portuguesa em território brasileiro (Salvador, Bahia)."
+        },
+        {
+          "sourceId": "src_www2_camara_leg_br_a_camara_6e8aa4",
+          "excerpt": "07.03.1808 - Chegada da família real portuguesa (a rainha, o príncipe regente, sua esposa e os filhos) e de sua comitiva, formada pelo aparelho burocrático-administrativo e pela elite cortesã, ao Rio de Janeiro."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Although still a colony, Brazil became in practice the seat of the Portuguese empire.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_exame_com_brasil_ha_200_anos_d4e545",
+          "excerpt": "Ou seja, mesmo sendo uma colônia, o Brasil era extraoficialmente a sede do império português."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "The court meant to stay briefly but remained from 1808 to 1821.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_cnn_bicentenario_4defa0",
+          "excerpt": "A família vinha fugida da invasão napoleônica, e chega ao Brasil com uma perspectiva de ficar pouco tempo por aqui. Mas acabou ficando por muito tempo, de 1808 até 1821"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "On 16 December 1815, a law raised Brazil to a kingdom and joined Portugal, Brazil and the Algarves in a United Kingdom.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www2_camara_leg_br_legin_fed_6e7ef8",
+          "excerpt": "Que desde a publicação desta Carta de Lei o Estado do Brazil seja elevado a dignidade, preeminencia e denominação de -Reino do Brazil-."
+        },
+        {
+          "sourceId": "src_www2_camara_leg_br_legin_fed_6e7ef8",
+          "excerpt": "Que os meus Reinos de Portugal, Algarves e Brazil formem d'ora em diante um só e unico Reino debaixo do titulo - Reino Unido de Portugal e do Brazil e Algarves.-"
+        },
+        {
+          "sourceId": "src_exame_com_brasil_ha_200_anos_d4e545",
+          "excerpt": "Foi por meio dessas palavras do príncipe regente Dom João que o Brasil deixou em 16 de dezembro de 1815, de ser uma colonia portuguesa"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "The United Kingdom had its capital in Rio de Janeiro and lands on four continents: Europe, the Americas, Africa and Asia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ihu_unisinos_br_categorias_550117_o_83f210",
+          "excerpt": "Com capital no Rio de Janeiro, seus domínios se estendiam por quatro continentes: Europa, América, África e Ásia."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "On 28 January 1808, still in Salvador, the Prince Regent John opened Brazil’s ports to direct foreign trade.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www2_camara_leg_br_a_camara_6e8aa4",
+          "excerpt": "28.01.1808 - Em Salvador, o príncipe regente D. João expede Carta Régia que \"abre os portos do Brasil ao comércio direto estrangeiro"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Until then, the colony could trade with other countries only through Portugal.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_cnn_bicentenario_4defa0",
+          "excerpt": "Até então, o Brasil como colônia não poderia negociar livremente com outros países, pois sempre existia Portugal como intermediário"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "According to historian Lilia Schwarcz, from 1815 the whole empire was run by the United Kingdom, no longer by the mother country.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_nacional_cnn_bicentenario_4defa0",
+          "excerpt": "A partir dessa data, quem mandava no império português inteiro era o Reino Unido, e não mais a metrópole portuguesa\", disse Lilia."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_www2_camara_leg_br_a_camara_6e8aa4",
+    "src_exame_com_brasil_ha_200_anos_d4e545",
+    "src_cnnbrasil_com_br_nacional_cnn_bicentenario_4defa0",
+    "src_www2_camara_leg_br_legin_fed_6e7ef8",
+    "src_ihu_unisinos_br_categorias_550117_o_83f210"
+  ],
+  "quizIds": ["q_court_in_rio_1808_1__en", "q_court_in_rio_1808_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:44:54.969Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:02.404Z",
+  "updatedAt": "2026-11-11T12:31:02.404Z"
+}

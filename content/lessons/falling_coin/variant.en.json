@@ -1,0 +1,180 @@
+{
+  "id": "lesson_falling_coin__en",
+  "conceptId": "concept_falling_coin",
+  "locale": "en",
+  "slug": "could-a-coin-dropped-from-a-skyscraper-kill-someone",
+  "title": "Could a coin dropped from a skyscraper kill someone?",
+  "hook": "Legend says it would punch through the pavement. Physics disagrees.",
+  "summary": "No: air resistance caps the coin’s speed, and it reaches the ground far too slowly to kill.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Legend has it that a coin dropped from the top of New York’s Empire State Building would pick up enough speed to kill someone below. It wouldn’t. As the coin falls and speeds up, it pushes into more and more air. That resistance, called drag, ends up balancing gravity, and the coin falls at a steady speed: its terminal velocity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Light, flat coins feel a lot of drag. According to physicist Louis Bloomfield, a US penny reaches terminal velocity after about 15 metres of falling and hits the ground at around 40 km/h. The worst it might do is sting a little."
+    },
+    {
+      "type": "takeaway",
+      "text": "Air resistance caps a falling coin’s speed; it might sting, but it won’t kill."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Without air, a different story"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a vacuum, a coin dropped from a skyscraper would reach about 335 km/h. Even much faster, in a MythBusters test, a penny fired at over 1,100 km/h couldn’t break into a gel skull."
+    },
+    {
+      "type": "heading",
+      "text": "It doesn’t apply to everything"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shape matters. A ballpoint pen, being more streamlined, can fall like a torpedo, at up to about 320 km/h, and cause a head injury."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "coin-drag",
+    "alt": "Diagram of a coin falling from a building: its speed grows until air resistance matches its weight, then stays steady, as the flattening curve shows.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Legend says a coin dropped from a skyscraper like the Empire State Building could kill someone, but that isn’t true.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_ripleys_com_stories_penny_drop_9569f8",
+          "excerpt": "The truth is, a falling penny won’t kill you"
+        },
+        {
+          "sourceId": "src_todayifoundout_com_index_php_2010_10_7b20a4",
+          "excerpt": "You’ve probably heard people say how if you drop a penny off the top of the Empire State Building, it will accelerate to such a speed that if it struck someone, it would kill them. This simply isn’t true at all"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "As the coin speeds up it meets more air resistance; drag and gravity balance and it falls at a constant speed, terminal velocity.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ripleys_com_stories_penny_drop_9569f8",
+          "excerpt": "As the penny speeds up, it encounters more air resistance. The drag force and downward gravitational force balance each other, preventing the coin from accelerating. As a result, the penny drops at a constant speed (terminal velocity) to the ground."
+        },
+        {
+          "sourceId": "src_altair_com_newsroom_articles_digital_debunking_0ce3de",
+          "excerpt": "The faster the penny falls, the more drag it encounters, which slows down the object’s acceleration."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Light, flat coins are very susceptible to air resistance.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ripleys_com_stories_penny_drop_9569f8",
+          "excerpt": "Their flat shape makes them particularly susceptible to air resistance."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "According to Bloomfield, the coin reaches terminal velocity after about 50 feet (about 15 m) and falls at about 40 km/h.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ripleys_com_stories_penny_drop_9569f8",
+          "excerpt": "they will reach terminal velocity at about 50 feet down, according to Bloomfield. Then they will fall to the ground at about 25 mph (40 kph)."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "The worst it can do is sting a little.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_todayifoundout_com_index_php_2010_10_7b20a4",
+          "excerpt": "The worst that would happen if you dropped a penny from this height is that it would sting a bit when it hit them."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "In a vacuum, the coin would reach about 335 km/h.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ripleys_com_stories_penny_drop_9569f8",
+          "excerpt": "In a vacuum, a penny thrown from a skyscraper would reach a speed of 208 mph (335 kph)."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "In a MythBusters test, a penny fired at over 700 mph (more than 1,100 km/h) failed to penetrate a gel skull.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_todayifoundout_com_index_php_2010_10_7b20a4",
+          "excerpt": "as demonstrated by Myth Busters when they shot a penny at over 700 mph at a gel “skull”. The penny wasn’t even able to penetrate the gel at all at that speed"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "A ballpoint pen can fall like a torpedo, travel at up to 200 mph (about 320 km/h) and cause a head injury.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ripleys_com_stories_penny_drop_9569f8",
+          "excerpt": "a pen could spin, flutter, or act as a torpedo, traveling up to 200 mph. A falling ballpoint pen could definitely chip a sidewalk and cause a head injury."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_ripleys_com_stories_penny_drop_9569f8",
+    "src_todayifoundout_com_index_php_2010_10_7b20a4",
+    "src_altair_com_newsroom_articles_digital_debunking_0ce3de"
+  ],
+  "quizIds": ["q_falling_coin_1__en", "q_falling_coin_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:01:56.047Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:09.854Z",
+  "updatedAt": "2026-11-11T12:31:09.854Z"
+}

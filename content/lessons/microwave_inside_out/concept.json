@@ -1,0 +1,97 @@
+{
+  "id": "concept_microwave_inside_out",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 1,
+  "tags": ["myths", "kitchen", "microwaves"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_mpemba_effect",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro mito de cozinha: a água quente que congela antes.",
+        "en": "Another kitchen myth: hot water that freezes first."
+      }
+    },
+    {
+      "conceptId": "concept_radioactive_foods",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Micro-ondas não deixa a comida radioativa; algumas comidas já são, um pouco.",
+        "en": "Microwaves don’t make food radioactive; some foods already are, a little."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma tigela de sopa fumegante dentro de um micro-ondas iluminado, sobre o prato giratório de vidro",
+        "en": "Illustration of a steaming bowl of soup inside a lit microwave, on the glass turntable"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "49cb5be3"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um prato de arroz com legumes soltando vapor diante de um micro-ondas",
+        "en": "Illustration of a steaming plate of rice and vegetables in front of a microwave oven"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "dd533226"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um micro-ondas de aço inox fechado sobre uma bancada de granito, com luz de fim de tarde",
+        "en": "Illustration of a closed stainless-steel microwave on a granite counter in late-afternoon light"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-06"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "36a5c0a8"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um alimento cortado ao meio: as micro-ondas aquecem as camadas de fora, o centro ainda está frio e o calor avança para dentro; ao lado, uma molécula de água girando.",
+        "en": "Food cut in half: microwaves heat the outer layers, the centre is still cool and heat moves inwards; beside it, a water molecule spinning."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "29f1a74a"
+    }
+  }
+}

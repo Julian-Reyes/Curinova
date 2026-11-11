@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_radioactive_foods_1__pt-BR",
+    "questionGroupId": "qg_radioactive_foods_1",
+    "conceptId": "concept_radioactive_foods",
+    "locale": "pt-BR",
+    "prompt": "Por que a banana é levemente radioativa?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque contém potássio-40, um isótopo natural do potássio"
+      },
+      {
+        "id": "b",
+        "text": "Porque é cultivada perto de usinas nucleares"
+      },
+      {
+        "id": "c",
+        "text": "Porque é tratada com radiação"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O potássio-40 é natural; a dose de uma banana é minúscula e não se acumula no corpo.",
+    "claimIds": ["c1", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_radioactive_foods_2__pt-BR",
+    "questionGroupId": "qg_radioactive_foods_2",
+    "conceptId": "concept_radioactive_foods",
+    "locale": "pt-BR",
+    "prompt": "De onde vem o rádio da castanha-do-pará?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Do solo, concentrado pelas raízes muito extensas da árvore"
+      },
+      {
+        "id": "b",
+        "text": "Da poluição de fábricas"
+      },
+      {
+        "id": "c",
+        "text": "De um fungo que cresce na casca"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Quando há rádio no solo, o grande sistema de raízes da árvore pode concentrá-lo nas castanhas.",
+    "claimIds": ["c4", "c5"],
+    "status": "reviewed"
+  }
+]

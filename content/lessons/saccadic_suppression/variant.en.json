@@ -1,0 +1,183 @@
+{
+  "id": "lesson_saccadic_suppression__en",
+  "conceptId": "concept_saccadic_suppression",
+  "locale": "en",
+  "slug": "why-dont-you-see-the-world-blur-when-your-eyes-jump",
+  "title": "Why don’t you see the world blur when your eyes jump?",
+  "hook": "Try watching your own eyes move in a mirror. You can’t.",
+  "summary": "With each quick jump of the eyes, the brain briefly blocks visual processing, so the blur never reaches awareness.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Look in a mirror and shift your gaze from one eye to the other: you will never see your eyes move, even though someone else can. These quick jumps of the eyes are called saccades. Because they are so fast, the image on the retina inevitably blurs during the movement."
+    },
+    {
+      "type": "paragraph",
+      "text": "Blurred images aren’t much use, and the brain selectively blocks visual processing during these jumps. This is saccadic suppression, first described in 1898. It starts even before the eye moves, so it can’t be triggered by the moving image: the brain itself switches it on."
+    },
+    {
+      "type": "takeaway",
+      "text": "With each jump of your gaze, the brain briefly turns vision off, which is why you never see the world blur."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Even in tiny jumps"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2021, researchers at the University of Rochester showed that it also happens during microsaccades, tiny jumps of the gaze. Just before and just after the movement, participants couldn’t see targets even when looking straight at them. Vision at the centre of gaze, though, recovered quickly."
+    },
+    {
+      "type": "heading",
+      "text": "Still debated"
+    },
+    {
+      "type": "paragraph",
+      "text": "The details are still argued over. Two kinds of suppression were long described, but later tests suggest those explanations may not be right, and one study showed that motion can be detected during a saccade."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "saccade-blink",
+    "alt": "Diagram of the gaze jumping from one point to another: the image would blur during the movement, and the timeline shows vision switched off just before and during the jump.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Looking in a mirror from one eye to the other, you never see your own eyes move, though another person does.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "This can easily be duplicated by looking into a mirror, and looking from one eye to another. The eyes can never be observed in motion, yet an external observer clearly sees the motion of the eyes."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Saccades are fast eye movements, and during them the image on the retina inevitably blurs.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "A saccade is a fast eye motion, and because it is a motion that is optimised for speed, there is inevitable blurring of the image on the retina"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "The brain selectively blocks visual processing during saccades: this is saccadic suppression.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Saccadic masking, also known as (visual) saccadic suppression, is the phenomenon in visual perception where the brain selectively blocks visual processing during eye movements"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "It's long been known that vision is transiently impaired during larger gaze shifts"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "The phenomenon was first described in 1898.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "omenon was first described by Erdmann and Dodge in 1898"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Suppression starts before the saccade begins, so it can’t be triggered by retinal motion: the brain activates it.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Because saccadic suppression starts before the actual onset of the saccade, it cannot be triggered by retinal motion and must be centrally activated by the brain."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "In 2021, Rochester researchers showed that just before and after microsaccades, participants couldn’t see targets even when looking at them.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "researchers at the University of Rochester"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "mmediately before and immediately after participants' gaze shifted, the participants could not see the fleas, even when they were looking directly at them."
+        }
+      ],
+      "autoVerdict": "partial",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Vision at the centre of gaze recovered rapidly.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2021_12_211202132437_b88639",
+          "excerpt": "the researchers found that vision recovered rapidly at the center of the gaze"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Later tests suggest the classic explanations may be wrong, and one study showed motion detection during a saccade.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Testing since then has revealed that these two theories may not be correct."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+          "excerpt": "Within-saccade movement detection was proven and detailed in a paper by Richard Schweitzer and Martin Rolfs"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_en_wikipedia_org_wiki_saccadic_masking_1a6d8a",
+    "src_sciencedaily_com_releases_2021_12_211202132437_b88639"
+  ],
+  "quizIds": ["q_saccadic_suppression_1__en", "q_saccadic_suppression_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:04:08.727Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:45.135Z",
+  "updatedAt": "2026-11-11T12:31:45.135Z"
+}
