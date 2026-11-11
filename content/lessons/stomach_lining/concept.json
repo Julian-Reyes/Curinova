@@ -78,6 +78,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "2e0907ce"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um estômago com ácido dentro e um trecho ampliado da parede: uma camada de muco separa o ácido das células.",
+        "en": "A stomach with acid inside and a magnified patch of its wall: a layer of mucus keeps the acid off the cells."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "140f64d2"
     }
   }
 }

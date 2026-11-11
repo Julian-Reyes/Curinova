@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Instrumentos da expedição britânica que observou o eclipse de 1919 em Sobral, no Ceará",
-        "en": "Instruments of the British expedition that observed the 1919 eclipse at Sobral, Ceará"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "C. Davidson",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eclipse_instruments_at_Sobral.jpg"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "5915c1c1"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -61,6 +43,24 @@
       "addedAt": "2026-10-30",
       "hash": "5e426ef1"
     },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Instrumentos da expedição britânica que observou o eclipse de 1919 em Sobral, no Ceará",
+        "en": "Instruments of the British expedition that observed the 1919 eclipse at Sobral, Ceará"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "C. Davidson",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eclipse_instruments_at_Sobral.jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "5915c1c1"
+    },
     "review": {
       "width": 1000,
       "height": 562,
@@ -78,6 +78,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "9efa28d0"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "O Sol, a Lua e a Terra alinhados, com a sombra da Lua caindo na Terra; a órbita inclinada da Lua mostra por que esse alinhamento é raro.",
+        "en": "The Sun, Moon and Earth in line, with the Moon’s shadow falling on Earth; the Moon’s tilted orbit shows why this line-up is rare."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "e4cd2d07"
     }
   }
 }

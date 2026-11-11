@@ -25,23 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Ilustração da mesma mesa de estudo com um caderno aberto, vista de manhã, à tarde e à noite",
-        "en": "Illustration of the same study desk with an open notebook, seen in the morning, afternoon and evening"
-      },
-      "origin": {
-        "kind": "generated",
-        "tool": "ChatGPT (Plus)",
-        "createdBy": "Founder",
-        "createdAt": "2026-11-03"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-11-03",
-      "hash": "5a1e059e"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -58,6 +41,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "59764982"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração da mesma mesa de estudo com um caderno aberto, vista de manhã, à tarde e à noite",
+        "en": "Illustration of the same study desk with an open notebook, seen in the morning, afternoon and evening"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-03",
+      "hash": "5a1e059e"
     },
     "review": {
       "width": 1000,
@@ -76,6 +76,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "656c77e7"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um calendário com sessões de estudo espaçadas e três vasos em que uma planta cresce aos poucos.",
+        "en": "A calendar with spaced study sessions and three pots where a plant grows step by step."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "2e7b8046"
     }
   }
 }

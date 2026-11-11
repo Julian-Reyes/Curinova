@@ -25,23 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Ilustração de uma mão virando um cartão em branco de uma pilha sobre uma mesa à noite",
-        "en": "Illustration of a hand turning over a blank card from a stack on a desk at night"
-      },
-      "origin": {
-        "kind": "generated",
-        "tool": "ChatGPT (Plus)",
-        "createdBy": "Founder",
-        "createdAt": "2026-11-03"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-11-03",
-      "hash": "cb66b658"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -59,6 +42,23 @@
       "addedAt": "2026-11-03",
       "hash": "e77efacc"
     },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de uma mão virando um cartão em branco de uma pilha sobre uma mesa à noite",
+        "en": "Illustration of a hand turning over a blank card from a stack on a desk at night"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-03"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-03",
+      "hash": "cb66b658"
+    },
     "review": {
       "width": 1000,
       "height": 562,
@@ -75,6 +75,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "9a9cd381"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um cartão com um ponto de interrogação sai de um livro e leva a um neurônio brilhante e a um sinal de certo.",
+        "en": "A card with a question mark comes out of a book and leads to a glowing neuron and a tick."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "e05a76c8"
     }
   }
 }

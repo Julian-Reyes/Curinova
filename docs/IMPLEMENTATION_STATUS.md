@@ -120,6 +120,6 @@ Pictures are checked for accuracy with "Images checked" on each lesson (D20, 202
 ### Deferred to later milestones
 
 - M3: trail batch 2 (D19, 31 lessons). Ready to start: the live site uses the `production` channel (D22) and `/_review` has "Images checked".
-- Batch 2 "How it works" drawings: all 31 lessons have their own SVG scene and a ChatGPT diagram picture in the new `diagram` slot, waiting for Images checked (D23). The 22 published lessons' diagram pictures are generated but held back until `/_review` can check pictures on published lessons.
+- Batch 2 "How it works" drawings: all 31 lessons have their own SVG scene and a ChatGPT diagram picture in the new `diagram` slot, waiting for Images checked (D23). 20 of the 22 published lessons have theirs too (2026-11-11, checked); `sleep_memory` and `tupi_words` wait for the founder's check, which `/_review` lists under "Published, pictures to check".
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).

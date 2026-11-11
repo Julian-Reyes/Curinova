@@ -146,6 +146,37 @@ export function QueueScreen() {
           </ul>
         )}
       </section>
+
+      {queue.imagesToCheck.length > 0 && (
+        <section className="mb-8">
+          <h2 className="mb-1 text-xl font-semibold">Published, pictures to check</h2>
+          <p className="mb-3 text-sm text-muted">
+            Live lessons with a picture added later. Open each, look at the pictures, then press
+            Images checked.
+          </p>
+          <ul className="overflow-hidden rounded-2xl border border-line bg-surface">
+            {queue.imagesToCheck.map((r) => (
+              <li
+                key={r.key}
+                className="flex flex-wrap items-center gap-3 border-b border-line px-4 py-3 last:border-0"
+              >
+                <div className="min-w-0 flex-1">
+                  <p className="font-medium">{r.titles['pt-BR'] ?? r.key}</p>
+                  <p className="text-xs text-muted">
+                    {r.key} · {r.titles.en ?? 'no en variant'}
+                  </p>
+                </div>
+                <Link
+                  to={`/_review?lesson=${r.key}`}
+                  className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-on-primary"
+                >
+                  Open
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }

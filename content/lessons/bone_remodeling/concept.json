@@ -76,6 +76,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "34c2b58c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um osso com um trecho ampliado: células roxas desfazem o osso velho de um lado e células verdes constroem osso novo do outro, ligadas por uma seta em arco.",
+        "en": "A bone with a magnified patch: purple cells break down old bone on one side and green cells build new bone on the other, joined by a curved arrow."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "a3ea9373"
     }
   }
 }

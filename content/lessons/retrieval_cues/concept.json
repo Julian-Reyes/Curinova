@@ -75,6 +75,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "26ec3761"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma etiqueta com uma maçã aponta para uma gaveta de um arquivo, que se abre com frutas dentro.",
+        "en": "A tag with an apple points to one drawer of a filing cabinet, which opens with fruit inside."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "3930ac83"
     }
   }
 }

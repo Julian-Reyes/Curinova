@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Retrato do Marquês de Pombal, de Louis-Michel van Loo e Claude Joseph Vernet",
-        "en": "Portrait of the Marquis of Pombal by Louis-Michel van Loo and Claude Joseph Vernet"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Louis-Michel van Loo and Claude Joseph Vernet",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marqu%C3%AAs_de_Pombal,_por_Claude_Joseph_Vernet_e_Louis-Michel_van_Loo,_1766_(C%C3%A2mara_Municipal_de_Oeiras).png"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "790503a2"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -61,6 +43,24 @@
       "addedAt": "2026-11-04",
       "hash": "9a45faab"
     },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Retrato do Marquês de Pombal, de Louis-Michel van Loo e Claude Joseph Vernet",
+        "en": "Portrait of the Marquis of Pombal by Louis-Michel van Loo and Claude Joseph Vernet"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Louis-Michel van Loo and Claude Joseph Vernet",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marqu%C3%AAs_de_Pombal,_por_Claude_Joseph_Vernet_e_Louis-Michel_van_Loo,_1766_(C%C3%A2mara_Municipal_de_Oeiras).png"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "790503a2"
+    },
     "review": {
       "width": 1000,
       "height": 562,
@@ -78,6 +78,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "17c37f40"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Um decreto antigo com o brasão real português e um selo de cera vermelha, sobre uma mesa com vela, tinteiro e pena.",
+        "en": "An old decree with the Portuguese royal arms and a red wax seal, on a desk with a candle, an inkwell and a quill."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "5e215f4c"
     }
   }
 }

@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Cebola roxa cortada ao meio e picada sobre uma tábua de madeira",
-        "en": "A red onion cut in half and chopped on a wooden board"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Robert Loescher",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY-SA 4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopped_red_onion.jpg"
-      },
-      "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "00612a55"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -61,6 +43,24 @@
       "addedAt": "2026-10-30",
       "hash": "e6f04355"
     },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Cebola roxa cortada ao meio e picada sobre uma tábua de madeira",
+        "en": "A red onion cut in half and chopped on a wooden board"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Robert Loescher",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chopped_red_onion.jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-10-30",
+      "hash": "00612a55"
+    },
     "review": {
       "width": 1000,
       "height": 562,
@@ -78,6 +78,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-10-30",
       "hash": "377dc0b8"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma cebola cortada numa tábua solta moléculas que flutuam até um olho, que lacrimeja.",
+        "en": "A cut onion on a board releases molecules that drift to an eye, which tears up."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "826bac09"
     }
   }
 }

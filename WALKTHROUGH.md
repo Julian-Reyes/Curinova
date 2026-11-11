@@ -308,7 +308,7 @@ Go Deeper's **How it works** box shows a drawing of the lesson's idea. The 22 or
 
 For when we want richer versions, `docs/content/HOW_IT_WORKS_PROMPTS.md` holds a ChatGPT prompt for every one of the 53 drawings.
 
-**Then the richer versions (same day).** Lessons gained a fourth picture slot, the "How it works" diagram. Claude generated all 53 in ChatGPT, checked each one for accuracy and asked for corrections where needed (arrows pointing the wrong way, a road that should curve, a map that made Brazil an island). The 31 batch 2 lessons now show theirs in Go Deeper and wait for **Images checked** in `/_review`; a lesson without one keeps its drawing. The 22 published lessons' pictures are saved but not added yet, because the review screen can't check pictures on published lessons (D23).
+**Then the richer versions (same day).** Lessons gained a fourth picture slot, the "How it works" diagram. Claude generated all 53 in ChatGPT, checked each one for accuracy and asked for corrections where needed (arrows pointing the wrong way, a road that should curve, a map that made Brazil an island). The 31 batch 2 lessons now show theirs in Go Deeper and wait for **Images checked** in `/_review`; a lesson without one keeps its drawing. The 22 published lessons got theirs the next day: the review queue gained a **Published, pictures to check** list, and the app won't build until each of those pictures is checked, so none reaches the live site unchecked (D23).
 
 ---
 

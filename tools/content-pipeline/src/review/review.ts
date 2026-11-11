@@ -333,11 +333,27 @@ export async function loadQueue(ctx: ReviewContext): Promise<Queue> {
     });
   }
 
+  // Lessons in drafts or in the list above are checked there already.
+  const listed = new Set([...lessonKeys(state.drafts), ...ready.map((r) => r.key)]);
+  const imagesToCheck: Queue['imagesToCheck'] = [];
+  for (const key of lessonKeys(state.library)) {
+    if (listed.has(key) || uncheckedSlots(conceptIn(state.library, key)).length === 0) continue;
+    const variants = LOCALES.map((l) => variantIn(state.library, key, l));
+    if (!variants.some((v) => v?.publicationStatus === 'published')) continue;
+    imagesToCheck.push({
+      key,
+      titles: Object.fromEntries(
+        variants.filter((v) => v !== undefined).map((v) => [v.locale, v.title]),
+      ),
+    });
+  }
+
   const log = await readLog(ctx.repoRoot);
   const { median, count } = medianMinutes(log);
   return {
     trails: [...trails.values()],
     ready,
+    imagesToCheck,
     medianMinutes: median,
     reviewedVariants: count,
     targetMinutes: TARGET_MINUTES,
