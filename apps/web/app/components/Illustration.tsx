@@ -2,54 +2,26 @@
  * Original lesson illustrations (license: original). Flat, geometric, drawn on a
  * 320×160 canvas with theme-aware colors: strokes use --ink, fills mix the mint/aqua
  * palette with the topic accent. Purely decorative; the lesson's alt text is set
- * on the wrapper by the caller.
+ * on the wrapper by the caller. Later trails keep their scenes in illustrations/.
  */
 
-const MINT = '#83E6CD';
-const AQUA = '#9FE3F0';
-const TEAL = '#0A8F83';
-const SUN = '#F4B860';
-const INK = 'var(--ink)';
-const SURFACE = 'var(--surface)';
-
-type Scene = (accent: string) => React.ReactNode;
-
-const stroke = {
-  stroke: INK,
-  strokeWidth: 2.5,
-  strokeLinecap: 'round' as const,
-  strokeLinejoin: 'round' as const,
-};
-
-function Earth({ x, y, r }: { x: number; y: number; r: number }) {
-  return (
-    <g>
-      <circle cx={x} cy={y} r={r} fill={AQUA} />
-      <path
-        d={`M${x - r * 0.55} ${y - r * 0.35}c${r * 0.3} -${r * 0.25} ${r * 0.6} -${r * 0.1} ${r * 0.55} ${r * 0.2}s-${r * 0.5} ${r * 0.25} -${r * 0.25} ${r * 0.55}c${r * 0.2} ${r * 0.25} ${r * 0.5} ${r * 0.15} ${r * 0.6} ${r * 0.45}`}
-        fill="none"
-        stroke={TEAL}
-        strokeWidth={r * 0.28}
-        strokeLinecap="round"
-        opacity="0.85"
-      />
-      <circle cx={x} cy={y} r={r} fill="none" {...stroke} />
-    </g>
-  );
-}
-
-function Moon({ x, y, r, face = 0 }: { x: number; y: number; r: number; face?: number }) {
-  const fx = x + Math.cos(face) * r * 0.45;
-  const fy = y + Math.sin(face) * r * 0.45;
-  return (
-    <g>
-      <circle cx={x} cy={y} r={r} fill="#E9EEF0" />
-      <circle cx={fx} cy={fy} r={r * 0.28} fill="#C9D3D6" />
-      <circle cx={x - r * 0.35} cy={y + r * 0.4} r={r * 0.14} fill="#C9D3D6" />
-      <circle cx={x} cy={y} r={r} fill="none" {...stroke} />
-    </g>
-  );
-}
+import { CAPITALS_SCENES } from './illustrations/capitals';
+import { ATTENTION_SCENES } from './illustrations/attention';
+import {
+  AQUA,
+  Earth,
+  INK,
+  MINT,
+  Moon,
+  SUN,
+  SURFACE,
+  TEAL,
+  stroke,
+  type Scene,
+} from './illustrations/kit';
+import { AMAZON_SCENES } from './illustrations/amazon';
+import { MYTHS_SCENES } from './illustrations/myths';
+import { SPACE_SCENES } from './illustrations/space';
 
 const SCENES: Record<string, Scene> = {
   'moon-face': () => (
@@ -660,6 +632,11 @@ const SCENES: Record<string, Scene> = {
       <path d="M246 68l40-6c6 0 8 8 2 12l-28 14" fill={SUN} {...stroke} strokeWidth="2" />
     </>
   ),
+  ...SPACE_SCENES,
+  ...AMAZON_SCENES,
+  ...MYTHS_SCENES,
+  ...CAPITALS_SCENES,
+  ...ATTENTION_SCENES,
   fixture: () => (
     <>
       <rect

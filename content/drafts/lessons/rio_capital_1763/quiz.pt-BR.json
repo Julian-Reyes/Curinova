@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_rio_capital_1763_1__pt-BR",
+    "questionGroupId": "qg_rio_capital_1763_1",
+    "conceptId": "concept_rio_capital_1763",
+    "locale": "pt-BR",
+    "prompt": "Qual foi o principal motivo para levar a capital para o Rio em 1763?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Controlar melhor a saída do ouro de Minas, que passava pelo porto do Rio"
+      },
+      {
+        "id": "b",
+        "text": "Fugir de uma epidemia em Salvador"
+      },
+      {
+        "id": "c",
+        "text": "Ficar mais perto da Europa"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Rio era a principal ligação entre as minas e a Europa; a mudança também ajudava a defender o sul da colônia.",
+    "claimIds": ["c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_rio_capital_1763_2__pt-BR",
+    "questionGroupId": "qg_rio_capital_1763_2",
+    "conceptId": "concept_rio_capital_1763",
+    "locale": "pt-BR",
+    "prompt": "Quem transferiu a capital de Salvador para o Rio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O Marquês de Pombal, ministro do rei D. José"
+      },
+      {
+        "id": "b",
+        "text": "Tomé de Sousa"
+      },
+      {
+        "id": "c",
+        "text": "Juscelino Kubitschek"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Em 1763, o governo do Marquês de Pombal, sob D. José, fez a transferência.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "id": "concept_equator_launch_alcantara",
+  "topicId": "space",
+  "clusterId": "cluster_brazil_in_space",
+  "clusterOrder": 1,
+  "tags": ["brazil", "rockets", "alcantara"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_vls_accident_2003",
+      "type": "next",
+      "reason": {
+        "pt-BR": "A mesma base foi palco da maior tragédia do programa espacial brasileiro.",
+        "en": "The same base saw the worst tragedy of Brazil’s space programme."
+      }
+    },
+    {
+      "conceptId": "concept_amazonia_1",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por que o primeiro satélite 100% brasileiro não saiu de Alcântara.",
+        "en": "Why Brazil’s first all-Brazilian satellite didn’t launch from Alcântara."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Foguete decolando à noite sobre o mar, com chamas laranja e nuvens de fumaça iluminando a plataforma de lançamento na costa",
+        "en": "A rocket lifting off at night over the sea, its orange flame and clouds of smoke lighting up the launch pad on the coast"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "1b94b0b4"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Vista aérea da torre de lançamento do Centro de Lançamento de Alcântara, cercada de torres de para-raios e mata, com o oceano Atlântico ao fundo",
+        "en": "Aerial view of the launch tower at the Alcântara Launch Centre, ringed by lightning towers and forest, with the Atlantic Ocean behind"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Odjair Baena / ASCOM-MCTIC",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Visita_ao_Centro_de_Lan%C3%A7amento_em_Alc%C3%A2ntara_(49974871137).jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "33ca1478"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Vista aérea dos Lençóis Maranhenses, com dunas brancas, lagoas azul-turquesa e uma faixa de mata verde",
+        "en": "Aerial view of the Lençóis Maranhenses, with white dunes, turquoise lagoons and a strip of green forest"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Leo Castro",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/forest-near-beach-on-sea-coast-19151870/"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "08b70711"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "A Terra vista do espaço com a América do Sul: setas mostram que a superfície gira mais rápido no equador do que mais ao norte, e um foguete parte de Alcântara rumo ao leste.",
+        "en": "Earth from space with South America: arrows show the surface spinning faster at the equator than further north, and a rocket leaves Alcântara heading east."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "d74c1160"
+    }
+  }
+}

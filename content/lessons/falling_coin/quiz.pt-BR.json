@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_falling_coin_1__pt-BR",
+    "questionGroupId": "qg_falling_coin_1",
+    "conceptId": "concept_falling_coin",
+    "locale": "pt-BR",
+    "prompt": "O que impede uma moeda em queda de ganhar velocidade para sempre?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A resistência do ar, que equilibra a gravidade"
+      },
+      {
+        "id": "b",
+        "text": "O peso da moeda, que diminui na queda"
+      },
+      {
+        "id": "c",
+        "text": "A rotação da Terra"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Quanto mais rápido a moeda cai, mais arrasto encontra, até que ele equilibra a gravidade: é a velocidade terminal.",
+    "claimIds": ["c2"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_falling_coin_2__pt-BR",
+    "questionGroupId": "qg_falling_coin_2",
+    "conceptId": "concept_falling_coin",
+    "locale": "pt-BR",
+    "prompt": "O que aconteceria se uma moeda jogada do Empire State Building atingisse alguém?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No máximo arderia um pouco: ela cai a uns 40 km/h"
+      },
+      {
+        "id": "b",
+        "text": "Mataria na hora"
+      },
+      {
+        "id": "c",
+        "text": "Atravessaria a calçada"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A moeda chega à velocidade terminal cedo na queda e bate devagar demais para ferir gravemente.",
+    "misconception": "Altura não basta: sem formato aerodinâmico, a resistência do ar limita a velocidade.",
+    "claimIds": ["c1", "c4", "c5"],
+    "status": "reviewed"
+  }
+]

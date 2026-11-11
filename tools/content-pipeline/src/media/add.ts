@@ -4,17 +4,19 @@
  *   pnpm media:add <folder>
  *
  * Name each file in <folder> <lesson>_<slot>.<png|jpg|jpeg|webp>, where <lesson> is the
- * folder name under content/lessons/ and <slot> is:
+ * folder name under content/lessons/ (or content/drafts/lessons/ for a lesson still in
+ * review) and <slot> is:
  *   discover  the full-screen Discover card (9:16 or taller works best)
  *   deeper    the Go Deeper hero and Explore lesson card (centre-cropped to 12:7)
  *   review    the Review question image (centre-cropped to 16:9; must not give the answer away)
+ *   diagram   the "How it works" picture in Go Deeper (centre-cropped to 2:1, D23)
  * A Discover image whose subject would sit behind the title can be shifted up by a share
  * of its height: tides_discover-up20.jpg.
  * A topic's picture (Explore tile and topic page) is named topic_<topic id>, e.g.
  * topic_space.jpg; it is centre-cropped to 3:2 and recorded in content/topics.json.
  *
  * Each image is written to apps/web/public/media/<lesson>/<slot>.webp plus a 2/3-size
- * "-sm" file, and recorded in the lesson's concept.json with an unknown origin and no alt
+ * "-sm" file, and recorded in the lesson's (or draft's) concept.json with an unknown origin and no alt
  * text: content:validate fails until both are filled in (P11). Originals move to
  * <folder>/processed/ and never enter the repository.
  */
@@ -39,6 +41,7 @@ const SIZE: Record<MediaSlot, { width: number; height: number }> = {
   discover: { width: 1024, height: 1820 },
   deeper: { width: 1200, height: 700 },
   review: { width: 1000, height: 562 },
+  diagram: { width: 1200, height: 600 },
 };
 
 const INK = '8,7,10';
@@ -225,9 +228,14 @@ async function main() {
       skipped.push(`${file}: -up only applies to _discover`);
       continue;
     }
-    const conceptPath = join(repoRoot, 'content/lessons', key, 'concept.json');
-    if (!existsSync(conceptPath)) {
-      skipped.push(`${file}: no lesson "${key}" in content/lessons/`);
+    // A published lesson takes the image; a lesson still in review keeps it in its draft,
+    // and approving it carries the image into the library.
+    const conceptPath = [
+      join(repoRoot, 'content/lessons', key, 'concept.json'),
+      join(repoRoot, 'content/drafts/lessons', key, 'concept.json'),
+    ].find((path) => existsSync(path));
+    if (!conceptPath) {
+      skipped.push(`${file}: no lesson "${key}" in content/lessons/ or content/drafts/lessons/`);
       continue;
     }
     const concept = JSON.parse(await readFile(conceptPath, 'utf8')) as {

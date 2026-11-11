@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_blue_veins_1__pt-BR",
+    "questionGroupId": "qg_blue_veins_1",
+    "conceptId": "concept_blue_veins",
+    "locale": "pt-BR",
+    "prompt": "De que cor é o sangue que corre nas veias?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vermelho-escuro"
+      },
+      {
+        "id": "b",
+        "text": "Azul"
+      },
+      {
+        "id": "c",
+        "text": "Roxo, até tocar o ar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O sangue é sempre vermelho: vivo nas artérias e escuro nas veias, depois de perder oxigênio.",
+    "misconception": "Ele não \"fica vermelho\" ao tocar o ar: o sangue colhido num tubo a vácuo, fechado, já sai vermelho-escuro.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_blue_veins_2__pt-BR",
+    "questionGroupId": "qg_blue_veins_2",
+    "conceptId": "concept_blue_veins",
+    "locale": "pt-BR",
+    "prompt": "Por que as veias parecem azuis na pele?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A luz azul e a vermelha atravessam a pele de formas diferentes"
+      },
+      {
+        "id": "b",
+        "text": "O sangue fica azul sem oxigênio"
+      },
+      {
+        "id": "c",
+        "text": "As veias têm um pigmento azul"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A luz azul penetra menos na pele que a vermelha e volta mais para os olhos, então as veias mais fundas parecem azuladas; o sangue em si é vermelho-escuro.",
+    "claimIds": ["c5", "c6", "c7"],
+    "status": "reviewed"
+  }
+]

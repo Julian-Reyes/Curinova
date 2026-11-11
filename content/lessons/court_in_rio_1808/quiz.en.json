@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_court_in_rio_1808_1__en",
+    "questionGroupId": "qg_court_in_rio_1808_1",
+    "conceptId": "concept_court_in_rio_1808",
+    "locale": "en",
+    "prompt": "Why did the Portuguese court come to Rio in 1808?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It was fleeing Napoleon’s troops, which were invading Portugal"
+      },
+      {
+        "id": "b",
+        "text": "It wanted to be near the gold mines"
+      },
+      {
+        "id": "c",
+        "text": "England had expelled it"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Threatened by the Napoleonic invasion, the royal family crossed the Atlantic and settled in Rio in March 1808.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_court_in_rio_1808_2__en",
+    "questionGroupId": "qg_court_in_rio_1808_2",
+    "conceptId": "concept_court_in_rio_1808",
+    "locale": "en",
+    "prompt": "What changed for Brazil in 1815?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It stopped being a colony and became a kingdom, united with Portugal and the Algarves"
+      },
+      {
+        "id": "b",
+        "text": "It became independent"
+      },
+      {
+        "id": "c",
+        "text": "It got a new inland capital"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The law of 16 December 1815 raised Brazil to a kingdom within the United Kingdom of Portugal, Brazil and the Algarves.",
+    "misconception": "Independence came only in 1822; in 1815 Brazil was still united with Portugal.",
+    "claimIds": ["c5"],
+    "status": "reviewed"
+  }
+]

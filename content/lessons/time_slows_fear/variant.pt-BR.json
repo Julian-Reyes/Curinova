@@ -1,0 +1,196 @@
+{
+  "id": "lesson_time_slows_fear__pt-BR",
+  "conceptId": "concept_time_slows_fear",
+  "locale": "pt-BR",
+  "slug": "o-tempo-desacelera-quando-voce-se-assusta",
+  "title": "O tempo desacelera mesmo quando você se assusta?",
+  "hook": "Num susto, tudo parece câmera lenta. Um experimento de queda livre testou isso.",
+  "summary": "Num estudo de queda livre, ninguém passou a ver em câmera lenta; a impressão de que o tempo desacelerou surge depois, na memória.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Muita gente diz que, num acidente, tudo pareceu acontecer em câmera lenta. Para testar isso, David Eagleman e colegas levaram voluntários a um brinquedo de queda livre: eles caíam de costas 31 metros, até pousar numa rede. No pulso, usavam um \"cronômetro perceptivo\", que piscava números rápido demais para serem lidos normalmente."
+    },
+    {
+      "type": "paragraph",
+      "text": "Se o tempo realmente desacelerasse, eles conseguiriam ler os números durante a queda. Não conseguiram. Ainda assim, ao estimar depois quanto a própria queda tinha durado, os voluntários calcularam 36% a mais que a queda dos outros. A câmera lenta não estava na percepção, e sim na lembrança."
+    },
+    {
+      "type": "takeaway",
+      "text": "No susto, o tempo não desacelera; a memória registra o momento com mais riqueza, e ele parece ter durado mais."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Memórias mais densas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os autores sugerem que um evento assustador é gravado de forma mais rica na memória. Ao lembrar, essa riqueza faz parecer que ele durou mais do que durou."
+    },
+    {
+      "type": "heading",
+      "text": "O tempo não é uma coisa só"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para os pesquisadores, o tempo subjetivo não é algo único que acelera ou desacelera: ele é feito de partes que podem funcionar separadamente."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fall-memory",
+    "alt": "Diagrama de uma queda livre de costas até uma rede, com um mostrador no pulso que pisca rápido demais para ler; ao lado, a lembrança da queda tem mais quadros e parece mais longa do que foi.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Muita gente relata que, num acidente de carro, o tempo pareceu passar em câmera lenta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+          "excerpt": "People commonly report that time seemed to move in slow motion during a car accident"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "No estudo de Eagleman e colegas, voluntários caíam de costas 31 metros até uma rede.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "Participants are released from the apex of the tower and fall backward for 31 m before landing safely in a net below."
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "Stetson C, Fiesta MP, Eagleman DM (2007) Does Time Really Slow Down during a Frightening Event?"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Eles usavam no pulso um \"cronômetro perceptivo\" que mostrava números rápido demais para serem lidos normalmente.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "They merely had to read two numbers that were displayed on a wrist-mounted machine called a ‘perceptual chronometer’."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+          "excerpt": "oped a special device called the perceptual chronometer that was strapped to the volunteers' wrists."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Durante a queda, os voluntários não ganharam capacidade de ver em câmera lenta.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "We found no evidence of increased temporal resolution"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+          "excerpt": "they were not able to see more events in time. Instead, the longer durat"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Depois, estimaram que a própria queda durou 36% a mais que a dos outros.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "participants retrospectively estimated their own fall to last 36% longer than other"
+        },
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "On average, the volunteers estimated that own experience took 36% longer than that of their fellows."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "A desaceleração do tempo é efeito da lembrança, não da percepção.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "Our findings suggest that time-slowing is a function of recollection, not perception"
+        },
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "Time didn’t slow down – the volunteers just remembered that it did."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Uma gravação mais rica na memória pode fazer um evento marcante parecer, em retrospecto, mais longo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "a richer encoding of memory may cause a salient event to appear, retrospectively, as though it lasted longer."
+        },
+        {
+          "sourceId": "src_nationalgeographic_com_science_article_time_doesnt_3d983b",
+          "excerpt": "Stetson and co believe that people lay down richer, denser memories when they experience shocking events."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "O tempo subjetivo não é uma entidade única que acelera ou desacelera, mas é composto de partes separáveis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_9ffe9b",
+          "excerpt": "subjective time is not a single entity that speeds or slows, but instead is composed of separable subcomponents."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_sciencedaily_com_releases_2007_12_071211233934_e1e595",
+    "src_journals_plos_org_plosone_article_9ffe9b",
+    "src_nationalgeographic_com_science_article_time_doesnt_3d983b"
+  ],
+  "quizIds": ["q_time_slows_fear_1__pt-BR", "q_time_slows_fear_2__pt-BR"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:09:26.977Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:49.287Z",
+  "updatedAt": "2026-11-11T12:31:49.287Z"
+}

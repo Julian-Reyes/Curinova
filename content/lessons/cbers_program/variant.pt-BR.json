@@ -1,0 +1,185 @@
+{
+  "id": "lesson_cbers_program__pt-BR",
+  "conceptId": "concept_cbers_program",
+  "locale": "pt-BR",
+  "slug": "o-que-e-o-cbers",
+  "title": "O que é o CBERS?",
+  "hook": "Brasil e China se juntaram para não depender das imagens de satélite dos outros.",
+  "summary": "O CBERS é um programa de satélites de observação da Terra do Brasil e da China, acordado em 1988; o primeiro subiu em 1999.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Sem satélites próprios, países em desenvolvimento dependiam das imagens feitas por equipamentos de outras nações. Para mudar isso, Brasil e China assinaram, em 6 de julho de 1988, um acordo entre o INPE e a Academia Chinesa de Tecnologia Espacial (CAST) para construir dois satélites de sensoriamento remoto. Nascia o programa CBERS, o Satélite Sino-Brasileiro de Recursos Terrestres."
+    },
+    {
+      "type": "paragraph",
+      "text": "O primeiro, o CBERS-1, foi lançado na madrugada de 14 de outubro de 1999 por um foguete chinês Longa Marcha 4B, a partir do Centro de Lançamento de Taiyuan, na China. O programa continuou: em 2002, um novo acordo previu os CBERS-3 e 4, com os custos divididos meio a meio entre os dois países."
+    },
+    {
+      "type": "takeaway",
+      "text": "O CBERS nasceu de um acordo Brasil–China em 1988; o primeiro satélite do programa subiu em 1999."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Mais que câmeras"
+    },
+    {
+      "type": "paragraph",
+      "text": "Além das câmeras, os primeiros satélites levavam um repetidor para o Sistema Brasileiro de Coleta de Dados Ambientais."
+    },
+    {
+      "type": "heading",
+      "text": "A família cresceu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2004, os dois países decidiram construir também o CBERS-2B, lançado em 2007, que funcionou até o começo de 2010. Hoje, câmeras dos CBERS-04 e CBERS-04A ajudam a gerar os avisos diários de desmatamento do INPE."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "cbers-satellite",
+    "alt": "Diagrama de um satélite CBERS em órbita, com o corpo dividido em duas cores pelos dois países que o constroem: a câmera fotografa uma faixa da Terra, e o satélite também retransmite dados de estações no solo.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sem satélites próprios, países em desenvolvimento dependiam das imagens de equipamentos de outras nações.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "tornam os países em desenvolvimento dependentes das imagens fornecidas por equipamentos de outras nações."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Em 6 de julho de 1988, Brasil e China assinaram um acordo entre o INPE e a CAST para construir dois satélites de sensoriamento remoto.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "os governos do Brasil e da China assinaram em 06 de Julho de 1988 um acordo de parceria envolvendo o INPE (Instituto Nacional de Pesquisas Espaciais) e a CAST (Academia Chinesa de Tecnologia Espacial) para o desenvolvimento de um programa de construção de dois satélites avançados"
+        },
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "O Programa CBERS contemplava o desenvolvimento e construção de dois satélites de sensoriamento remoto"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "CBERS significa Satélite Sino-Brasileiro de Recursos Terrestres.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_agencia_fapesp_br_cbers_2_e_786932",
+          "excerpt": "O satélite Sino-Brasileiro de Recursos Terrestres –2 (CBERS-2)"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "O CBERS-1 foi lançado na madrugada de 14 de outubro de 1999 por um foguete Longa Marcha 4B, a partir do Centro de Lançamento de Taiyuan, na China.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_ebea0f",
+          "excerpt": "O satélite CBERS-1 foi lançado com sucesso na madrugada do dia 14/10/1999, à 1h15 (ho"
+        },
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_ebea0f",
+          "excerpt": "pelo foguete Longa Marcha 4B, a partir do Centro de Lançamento de Taiyuan, na República Popular da China."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Em 2002, um acordo previu os CBERS-3 e 4, com os custos divididos 50% para cada país.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "Em 2002, foi assinado um acordo para a continuação do programa CBERS, com a construção de dois novos satélites - os CBERS-3 e 4, com novas cargas úteis e uma nova divisão de investimentos de recursos entre o Brasil e a C"
+        },
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "hina - 50% para cada país."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Os satélites levavam um repetidor para o Sistema Brasileiro de Coleta de Dados Ambientais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "um repetidor para o Sistema Brasileiro de"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Em 2004, os países decidiram construir o CBERS-2B, lançado em 2007, que operou até o começo de 2010.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_programas_00ab34",
+          "excerpt": "em 2004, decidiram construir o CBERS-2B e lançá-lo em 2007. O CBERS-2B operou até o começo de 2010."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Hoje, câmeras dos CBERS-04 e CBERS-04A ajudam a gerar os avisos diários do DETER.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_gov_br_inpe_pt_br_assuntos_3156e9",
+          "excerpt": "O DETER emite avisos diários de supressão, desmatamento e degradação da vegetação nativa, produzidos a partir de imagens dos sensores WFI, a bordo dos satélites CBERS-04, CBERS-04A e Amazônia-1."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_gov_br_inpe_pt_br_programas_00ab34",
+    "src_agencia_fapesp_br_cbers_2_e_786932",
+    "src_gov_br_inpe_pt_br_programas_ebea0f",
+    "src_gov_br_inpe_pt_br_assuntos_3156e9"
+  ],
+  "quizIds": ["q_cbers_program_1__pt-BR", "q_cbers_program_2__pt-BR"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_in_space"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:57:19.575Z",
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": "2026-11-11T12:30:57.098Z",
+  "updatedAt": "2026-11-11T12:30:57.098Z"
+}

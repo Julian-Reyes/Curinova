@@ -1,0 +1,30 @@
+{
+  "id": "cluster_brazil_capitals",
+  "topicId": "history",
+  "slug": {
+    "pt-BR": "as-tres-capitais-do-brasil",
+    "en": "brazils-three-capitals"
+  },
+  "title": {
+    "pt-BR": "As três capitais do Brasil",
+    "en": "Brazil’s three capitals"
+  },
+  "hook": {
+    "pt-BR": "Por que a capital mudou duas vezes e foi parar no meio do cerrado.",
+    "en": "Why the capital moved twice and ended up in the middle of the Cerrado."
+  },
+  "conceptIds": [
+    "concept_rio_capital_1763",
+    "concept_court_in_rio_1808",
+    "concept_building_brasilia"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_portuguese_in_brazil",
+      "reason": {
+        "pt-BR": "O mesmo período colonial, visto pela história da língua.",
+        "en": "The same colonial period, seen through the history of the language."
+      }
+    }
+  ]
+}

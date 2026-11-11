@@ -1,0 +1,46 @@
+{
+  "id": "concept_brasilia_plan_shape",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 6,
+  "tags": ["brazil", "brasilia", "urbanism"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_building_brasilia",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Como esse desenho virou cidade em 41 meses.",
+        "en": "How this plan became a city in 41 months."
+      }
+    },
+    {
+      "conceptId": "concept_salvador_first_capital",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Como Salvador, Brasília também é Patrimônio Mundial.",
+        "en": "Like Salvador, Brasília is a World Heritage Site too."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "O Plano Piloto visto de cima: o Eixo Monumental reto cruza o Eixo Rodoviário curvo, ladeado pelas superquadras; uma linha tracejada mostra o eixo reto que foi curvado.",
+        "en": "The Plano Piloto from above: the straight Monumental Axis crosses the curved Road Axis, lined by superblocks; a dashed line shows the straight axis that was bent."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "35a90b73"
+    }
+  }
+}

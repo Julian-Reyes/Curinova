@@ -45,8 +45,11 @@ export const QuestionGroupIdSchema = id(QUESTION_GROUP_ID_PATTERN, 'qg_moon_tida
 
 const fixtureFlag = { fixture: z.literal(true).optional() };
 
-/** Image slots a lesson can have (D15/P10): the Discover card, Go Deeper and Review. */
-export const MEDIA_SLOTS = ['discover', 'deeper', 'review'] as const;
+/**
+ * Image slots a lesson can have (D15/P10): the Discover card, Go Deeper, Review, and the
+ * "How it works" diagram in Go Deeper (D23), which replaces the lesson's SVG scene there.
+ */
+export const MEDIA_SLOTS = ['discover', 'deeper', 'review', 'diagram'] as const;
 export const MediaSlotSchema = z.enum(MEDIA_SLOTS);
 export type MediaSlot = z.infer<typeof MediaSlotSchema>;
 
@@ -100,6 +103,7 @@ export const LessonMediaSchema = z.strictObject({
   discover: LessonImageSchema.optional(),
   deeper: LessonImageSchema.optional(),
   review: LessonImageSchema.optional(),
+  diagram: LessonImageSchema.optional(),
 });
 export type LessonMedia = z.infer<typeof LessonMediaSchema>;
 

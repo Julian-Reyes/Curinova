@@ -288,6 +288,110 @@ describe('review actions', () => {
     expect(await libraryErrors(root)).toEqual([]);
   });
 
+  it('keeps the library trail order of an approved lesson still waiting in drafts when another trail is approved', async () => {
+    const { ctx, root } = await setup();
+    const reason = { 'pt-BR': 'Real ligação', en: 'Real link' };
+    const dir = 'content/drafts/lessons';
+    // Draft lessons a3 (second in the trail) and b1 (a new trail, cluster_b); a2 moves to third.
+    const copy = async (to: string, swaps: [string, string][]) => {
+      for (const name of await readdir(join(root, dir, 'a2'))) {
+        let text = await readFile(join(root, dir, 'a2', name), 'utf8');
+        for (const [a, b] of swaps) text = text.replaceAll(a, b);
+        await mkdir(join(root, dir, to), { recursive: true });
+        await writeFile(join(root, dir, to, name), text);
+      }
+    };
+    await copy('a3', [['a2', 'a3']]);
+    await copy('b1', [
+      ['a2', 'b1'],
+      ['cluster_a', 'cluster_b'],
+      ['"clusterOrder": 2', '"clusterOrder": 1'],
+    ]);
+    const a2Path = `${dir}/a2/concept.json`;
+    await writeFile(
+      join(root, a2Path),
+      JSON.stringify({
+        ...(await read(root, a2Path)),
+        clusterOrder: 3,
+        related: [{ conceptId: 'concept_a3', type: 'related', reason }],
+      }),
+    );
+    const clusterPath = 'content/drafts/clusters/cluster_a.json';
+    const cluster = await read(root, clusterPath);
+    await writeFile(
+      join(root, clusterPath),
+      JSON.stringify({ ...cluster, conceptIds: ['concept_a1', 'concept_a3', 'concept_a2'] }),
+    );
+    await writeFile(
+      join(root, 'content/drafts/clusters/cluster_b.json'),
+      JSON.stringify({
+        ...cluster,
+        id: 'cluster_b',
+        slug: { 'pt-BR': 'trilha-b', en: 'trail-b' },
+        conceptIds: ['concept_b1'],
+        links: [],
+      }),
+    );
+
+    // a2 enters the library second in its trail; its draft waits for a3.
+    expect((await approveAll(ctx, 'a2', 'pt-BR')).ok).toBe(true);
+    expect((await approveAll(ctx, 'a2', 'en')).ok).toBe(true);
+    expect(existsSync(join(root, dir, 'a2'))).toBe(true);
+    expect(await read(root, 'content/lessons/a2/concept.json')).toMatchObject({ clusterOrder: 2 });
+
+    // Approving a lesson of another trail leaves a2's library position alone.
+    expect((await approveAll(ctx, 'b1', 'pt-BR')).ok).toBe(true);
+    expect(await read(root, 'content/lessons/a2/concept.json')).toMatchObject({ clusterOrder: 2 });
+    expect(await libraryErrors(root)).toEqual([]);
+  });
+
+  it('lets a waiting lesson leave drafts while an earlier lesson of its trail is still drafted', async () => {
+    const { ctx, root } = await setup();
+    const reason = { 'pt-BR': 'Real ligação', en: 'Real link' };
+    const dir = 'content/drafts/lessons';
+    // Draft trail a1 (library), a4 (stays a draft), a2, a3; a2 and a3 link to each other.
+    for (const [to, order] of [
+      ['a4', 2],
+      ['a3', 4],
+    ] as const) {
+      for (const name of await readdir(join(root, dir, 'a2'))) {
+        const text = (await readFile(join(root, dir, 'a2', name), 'utf8'))
+          .replaceAll('a2', to)
+          .replaceAll('"clusterOrder": 2', `"clusterOrder": ${String(order)}`);
+        await mkdir(join(root, dir, to), { recursive: true });
+        await writeFile(join(root, dir, to, name), text);
+      }
+    }
+    for (const [from, to, order] of [
+      ['a2', 'a3', 3],
+      ['a3', 'a2', 4],
+    ] as const) {
+      const path = `${dir}/${from}/concept.json`;
+      const concept = await read(root, path);
+      concept.clusterOrder = order;
+      concept.related = [{ conceptId: `concept_${to}`, type: 'related', reason }];
+      await writeFile(join(root, path), JSON.stringify(concept));
+    }
+    const clusterPath = 'content/drafts/clusters/cluster_a.json';
+    const cluster = await read(root, clusterPath);
+    await writeFile(
+      join(root, clusterPath),
+      JSON.stringify({
+        ...cluster,
+        conceptIds: ['concept_a1', 'concept_a4', 'concept_a2', 'concept_a3'],
+      }),
+    );
+
+    for (const key of ['a2', 'a3'])
+      for (const locale of ['pt-BR', 'en'] as const)
+        expect((await approveAll(ctx, key, locale)).ok).toBe(true);
+    // a2 and a3 are in the library (2nd and 3rd); a4 is still a draft ahead of them.
+    expect(existsSync(join(root, dir, 'a2'))).toBe(false);
+    expect(existsSync(join(root, dir, 'a4'))).toBe(true);
+    expect(await read(root, 'content/lessons/a2/concept.json')).toMatchObject({ clusterOrder: 2 });
+    expect(await libraryErrors(root)).toEqual([]);
+  });
+
   it('writes nothing when a change would break validation', async () => {
     const { ctx, root } = await setup();
     const path = 'content/drafts/lessons/a2/variant.en.json';

@@ -1,0 +1,209 @@
+{
+  "id": "lesson_invisible_gorilla__en",
+  "conceptId": "concept_invisible_gorilla",
+  "locale": "en",
+  "slug": "how-did-half-the-viewers-miss-a-gorilla",
+  "title": "How did half the viewers miss a gorilla?",
+  "hook": "A gorilla walked right through the video. Plenty of people swore it didn’t.",
+  "summary": "Busy counting passes, about half of viewers missed a gorilla in the video: inattentional blindness (Simons and Chabris, 1999).",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In a short video, two teams, one in white shirts and one in black, pass basketballs around. The task is to count only the white team’s passes. Midway through, a person in a gorilla suit walks in, stops in the middle of the scene, thumps its chest and walks off, about nine seconds later."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Daniel Simons and Christopher Chabris’s experiment, published in 1999, about half of the people busy counting passes did not see the gorilla. When they watched again, many accused the researchers of switching the video. The effect is called inattentional blindness: someone focused on one task can fail to notice something unexpected right in front of them."
+    },
+    {
+      "type": "takeaway",
+      "text": "With attention locked on a task, even a gorilla can go unnoticed: that is inattentional blindness."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Why it surprises"
+    },
+    {
+      "type": "paragraph",
+      "text": "We have a strong intuition that anything unexpected and striking in front of us will grab our attention on its own. That is why the result is so startling: people who saw the gorilla can’t believe anyone missed it, and people who missed it can’t believe they did."
+    },
+    {
+      "type": "heading",
+      "text": "In everyday life"
+    },
+    {
+      "type": "paragraph",
+      "text": "When focused on one task, such as talking on a phone while driving, many of us become blind to events around us."
+    },
+    {
+      "type": "heading",
+      "text": "An older idea"
+    },
+    {
+      "type": "paragraph",
+      "text": "The study was a new version of earlier experiments by the psychologist Ulric Neisser in the 1970s."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "gorilla-count",
+    "alt": "Diagram of players in white and black shirts passing balls, with the white team’s passes being counted, while a gorilla crosses the middle of the scene almost unnoticed.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the video, teams in white and black shirts pass basketballs, and the task is to count the white team’s passes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "One team wears white shirts and the other black shirts, and the members move around one another in a small room tossing two basketballs. Your task is to count the number of passes made by the white team"
+        },
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "We had people watch a video in which three people were wearing white shirts and passing a basketball and the only task was to count how many times the players passed the ball."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "A person in a gorilla suit walks in, goes to the middle of the scene, thumps its chest and leaves about nine seconds later.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "About halfway through the video we had a person wearing a gorilla suit walk into the scene, walk to the middle of the scene, turn to face the camera, thump its chest and then walk off, a total of about nine seconds later."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Simons and Chabris’s study was published in 1999.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_inattentional_blindness_cd5a81",
+          "excerpt": "The paper describing the study, \"Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events\", was published in the journal Perception in 1999."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "About half of the people busy counting the passes did not see the gorilla.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "about half didn't see the gorilla at all; when we showed it to them later, they were shocked."
+        },
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "In fact, 50 percent of subjects in this remarkable experiment by Daniel J. Simons of the University of Illinois and Christopher F. Chabris of Harvard University did not see the gorilla"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "When they saw the video again, many accused the researchers of switching it.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "They accused us of rewinding the tape or switching the video that we showed them."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "The effect is called inattentional blindness.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "The effect is called inattentional blindness."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "We have a strong intuition that anything unexpected and striking in front of us will automatically get noticed.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "we have the strong intuition that if someth"
+        },
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "People who saw the gorilla couldn't believe that anyone could miss it and the people who missed it were shocked that they had missed it"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "When focused on one task, such as phoning while driving, many people become blind to events around them.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+          "excerpt": "When attending to one task — say, talking on a cell phone while driving — many of us become blind to dynamic events"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "The study revised earlier experiments by Ulric Neisser from the 1970s.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nzherald_co_nz_world_gorillas_in_14e162",
+          "excerpt": "it was based on some much earlier work by our colleague Ulric Neisser f"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_inattentional_blindness_cd5a81",
+          "excerpt": "This study, a revised version of earlier studies conducted by Ulric Neisser"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_michaelshermer_com_sciam_columns_none_so_b72b3f",
+    "src_nzherald_co_nz_world_gorillas_in_14e162",
+    "src_en_wikipedia_org_wiki_inattentional_blindness_cd5a81"
+  ],
+  "quizIds": ["q_invisible_gorilla_1__en", "q_invisible_gorilla_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_where_attention_goes"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:03:47.511Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:14.952Z",
+  "updatedAt": "2026-11-11T12:31:14.952Z"
+}

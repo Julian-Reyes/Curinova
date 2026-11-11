@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_multitasking_switching_1__pt-BR",
+    "questionGroupId": "qg_multitasking_switching_1",
+    "conceptId": "concept_multitasking_switching",
+    "locale": "pt-BR",
+    "prompt": "O que acontece quando você alterna entre duas tarefas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cada troca custa um pouco de tempo, e o custo se acumula"
+      },
+      {
+        "id": "b",
+        "text": "O cérebro faz as duas ao mesmo tempo, sem perdas"
+      },
+      {
+        "id": "c",
+        "text": "Você fica mais rápido nas duas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Nos experimentos de troca de tarefas, as pessoas perderam tempo a cada troca, e mais ainda com tarefas complexas.",
+    "misconception": "A sensação de eficiência engana: perdas de alguns décimos de segundo se somam ao longo de muitas trocas.",
+    "claimIds": ["c2", "c4"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_multitasking_switching_2__pt-BR",
+    "questionGroupId": "qg_multitasking_switching_2",
+    "conceptId": "concept_multitasking_switching",
+    "locale": "pt-BR",
+    "prompt": "Por que a multitarefa é especialmente perigosa ao volante?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Meio segundo perdido numa troca pode bastar para bater"
+      },
+      {
+        "id": "b",
+        "text": "Porque o celular atrapalha o motor"
+      },
+      {
+        "id": "c",
+        "text": "Porque dirigir não exige atenção"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Durante o tempo perdido na troca, o carro pode andar o suficiente para atingir um obstáculo.",
+    "claimIds": ["c9"],
+    "status": "reviewed"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "id": "concept_inland_capital_idea",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 4,
+  "tags": ["brazil", "republic", "brasilia"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_building_brasilia",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mais de 60 anos depois, a área demarcada recebeu a nova capital.",
+        "en": "More than 60 years later, the marked-out area got its new capital."
+      }
+    },
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A vinda da corte trouxe a ideia de volta.",
+        "en": "The court’s arrival revived the idea."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Fotografia de 1894 de Henrique Morize com os membros da Comissão Cruls posando diante de um muro de pedra",
+        "en": "Henrique Morize's 1894 photograph of the members of the Cruls Commission posing in front of a stone wall"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Henrique Morize",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morize_-_Comiss%C3%A3o_Cruls.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "c19e3ce1"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Uma pessoa sozinha num campo extenso de capim, com mata e um planalto ao fundo sob um céu azul",
+        "en": "A lone person in a wide grassy field, with woodland and a plateau behind under a blue sky"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Matheus Bertelli",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/31853371/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-09",
+      "hash": "2903bc9b"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Uma árvore retorcida do Cerrado diante de serras azuladas no Parque Nacional da Chapada dos Veadeiros",
+        "en": "A twisted Cerrado tree against bluish hills in Chapada dos Veadeiros National Park"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Eliane de Castro",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerrado_-_Parque_Nacional_Chapada_dos_veadeiros.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "f49f3ccc"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Mapa do Brasil: uma seta leva do litoral sudeste até uma área demarcada no Planalto Central, e um teodolito antigo lembra a expedição de medição.",
+        "en": "A map of Brazil: an arrow leads from the south-east coast to a marked area on the central plateau, and an old theodolite recalls the surveying expedition."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "2eddcba1"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_poison_frog_diet_1__pt-BR",
+    "questionGroupId": "qg_poison_frog_diet_1",
+    "conceptId": "concept_poison_frog_diet",
+    "locale": "pt-BR",
+    "prompt": "Por que sapos-ponta-de-flecha criados em zoológicos não são venenosos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque comem insetos sem toxinas, e o veneno vem da dieta"
+      },
+      {
+        "id": "b",
+        "text": "Porque os tratadores retiram o veneno"
+      },
+      {
+        "id": "c",
+        "text": "Porque o frio do zoológico desativa o veneno"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os sapos acumulam toxinas dos artrópodes que comem; com grilos e moscas-das-frutas, não há veneno para acumular.",
+    "misconception": "O veneno não é \"de fábrica\": sem a comida certa, o sapo não o tem.",
+    "claimIds": ["c2", "c4"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_poison_frog_diet_2__pt-BR",
+    "questionGroupId": "qg_poison_frog_diet_2",
+    "conceptId": "concept_poison_frog_diet",
+    "locale": "pt-BR",
+    "prompt": "Que tipo de dieta está ligado aos sapos mais coloridos e tóxicos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Formigas, ácaros e cupins"
+      },
+      {
+        "id": "b",
+        "text": "Frutas e sementes"
+      },
+      {
+        "id": "c",
+        "text": "Peixes pequenos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Nas espécies mais vistosas, a toxicidade vem de uma dieta especializada em formigas, ácaros e cupins.",
+    "claimIds": ["c6"],
+    "status": "reviewed"
+  }
+]

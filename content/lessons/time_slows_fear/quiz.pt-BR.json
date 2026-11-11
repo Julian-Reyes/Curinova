@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_time_slows_fear_1__pt-BR",
+    "questionGroupId": "qg_time_slows_fear_1",
+    "conceptId": "concept_time_slows_fear",
+    "locale": "pt-BR",
+    "prompt": "O que o experimento de queda livre mostrou sobre o \"tempo em câmera lenta\"?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ninguém passou a ver em câmera lenta; a impressão vem depois, da memória"
+      },
+      {
+        "id": "b",
+        "text": "O tempo realmente desacelera no susto"
+      },
+      {
+        "id": "c",
+        "text": "Só pessoas medrosas sentem o tempo mais lento"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os voluntários não conseguiram ler números rápidos durante a queda, mas depois lembravam a queda como mais longa.",
+    "misconception": "A sensação é real, mas é construída pela lembrança, não pela percepção no momento.",
+    "claimIds": ["c4", "c6"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_time_slows_fear_2__pt-BR",
+    "questionGroupId": "qg_time_slows_fear_2",
+    "conceptId": "concept_time_slows_fear",
+    "locale": "pt-BR",
+    "prompt": "Em quanto os voluntários superestimaram a duração da própria queda?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 36%"
+      },
+      {
+        "id": "b",
+        "text": "Cerca de 5%"
+      },
+      {
+        "id": "c",
+        "text": "Mais de 300%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Comparada à queda dos outros, a própria pareceu durar 36% a mais.",
+    "claimIds": ["c5"],
+    "status": "reviewed"
+  }
+]

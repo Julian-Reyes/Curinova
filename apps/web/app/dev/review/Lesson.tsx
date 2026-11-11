@@ -824,6 +824,7 @@ const SLOT_LABEL: Record<MediaSlot, string> = {
   discover: 'Discover card (9:16)',
   deeper: 'Go Deeper (12:7)',
   review: 'Quiz and Review (16:9)',
+  diagram: 'How it works (2:1)',
 };
 
 function originText(o: ImageOrigin): string {

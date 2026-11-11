@@ -1,0 +1,40 @@
+{
+  "id": "cluster_brazil_in_space",
+  "topicId": "space",
+  "slug": {
+    "pt-BR": "o-brasil-no-espaco",
+    "en": "brazil-in-space"
+  },
+  "title": {
+    "pt-BR": "O Brasil no espaço",
+    "en": "Brazil in space"
+  },
+  "hook": {
+    "pt-BR": "Satélites que vigiam a Amazônia, uma base de lançamento perto do equador e o primeiro astronauta brasileiro.",
+    "en": "Satellites watching the Amazon, a launch site near the equator, and Brazil’s first astronaut."
+  },
+  "conceptIds": [
+    "concept_equator_launch_alcantara",
+    "concept_vls_accident_2003",
+    "concept_inpe_amazon_monitoring",
+    "concept_cbers_program",
+    "concept_amazonia_1",
+    "concept_marcos_pontes"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_moon_shapes_earth",
+      "reason": {
+        "pt-BR": "Do que o Brasil manda para a órbita à Lua que gira em volta de nós.",
+        "en": "From what Brazil sends into orbit to the Moon that circles us."
+      }
+    },
+    {
+      "clusterId": "cluster_amazon_survival",
+      "reason": {
+        "pt-BR": "A floresta que os satélites do INPE vigiam, vista de perto.",
+        "en": "The forest INPE’s satellites watch, seen up close."
+      }
+    }
+  ]
+}

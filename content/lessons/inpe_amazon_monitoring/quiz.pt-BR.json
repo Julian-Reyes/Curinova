@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_inpe_amazon_monitoring_1__pt-BR",
+    "questionGroupId": "qg_inpe_amazon_monitoring_1",
+    "conceptId": "concept_inpe_amazon_monitoring",
+    "locale": "pt-BR",
+    "prompt": "Qual é a diferença entre o PRODES e o DETER?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O PRODES mede o desmatamento uma vez por ano; o DETER emite avisos diários"
+      },
+      {
+        "id": "b",
+        "text": "O PRODES vigia o Cerrado e o DETER, só o Pantanal"
+      },
+      {
+        "id": "c",
+        "text": "São dois nomes para o mesmo sistema"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O PRODES gera a taxa oficial anual, desde 1988; o DETER manda avisos diários para orientar a fiscalização.",
+    "claimIds": ["c2", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_inpe_amazon_monitoring_2__pt-BR",
+    "questionGroupId": "qg_inpe_amazon_monitoring_2",
+    "conceptId": "concept_inpe_amazon_monitoring",
+    "locale": "pt-BR",
+    "prompt": "Os avisos do DETER de um mês podem ser lidos como a taxa mensal de desmatamento?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não, eles indicam uma tendência"
+      },
+      {
+        "id": "b",
+        "text": "Sim, são a taxa oficial do mês"
+      },
+      {
+        "id": "c",
+        "text": "Sim, mas só no Cerrado"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O próprio INPE explica que os avisos não constituem taxa mensal: servem para fiscalização e mostram tendência.",
+    "claimIds": ["c4"],
+    "status": "reviewed"
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "id": "lesson_building_brasilia__pt-BR",
+  "conceptId": "concept_building_brasilia",
+  "locale": "pt-BR",
+  "slug": "como-brasilia-foi-construida-tao-rapido",
+  "title": "Como Brasília foi construída tão rápido?",
+  "hook": "Uma capital inteira, erguida no cerrado em pouco mais de três anos.",
+  "summary": "Sob Juscelino Kubitschek, milhares de candangos ergueram Brasília em cerca de 41 meses; ela foi inaugurada em 21 de abril de 1960.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Na campanha de 1955, Juscelino Kubitschek prometeu cumprir a Constituição e levar a capital para o interior. Eleito, pôs Brasília no centro do seu plano de metas, que prometia \"cinquenta anos em cinco\". A obra seria tocada por milhares de trabalhadores vindos de várias regiões do país, principalmente do Nordeste: os candangos."
+    },
+    {
+      "type": "paragraph",
+      "text": "O ritmo foi de recorde. A construção durou cerca de 41 meses, de 1956 até a inauguração, em 21 de abril de 1960, data escolhida em homenagem a Tiradentes. Muitos candangos não quiseram ir embora da cidade que ergueram do zero e acabaram ficando por lá."
+    },
+    {
+      "type": "takeaway",
+      "text": "Com milhares de candangos, Brasília foi erguida em cerca de 41 meses e inaugurada em 21 de abril de 1960."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Quanto tempo, exatamente?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depende de onde se começa a contar. Do início das obras, em 1956, até a inauguração foram uns 41 meses. Da Estaca Zero, fincada em 20 de abril de 1957, foram três anos."
+    },
+    {
+      "type": "heading",
+      "text": "Quem construiu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os candangos vieram de diversas partes do Brasil, e muitos chegaram fugindo da Grande Seca de 1958 no Nordeste. Mulheres também trabalharam na obra: o censo experimental do IBGE de 1959 contou 2.966 mulheres economicamente ativas em Brasília. Os primeiros operários dormiam em galpões; em dezembro de 1956, surgiu a Cidade Livre, hoje Núcleo Bandeirante."
+    },
+    {
+      "type": "heading",
+      "text": "A festa"
+    },
+    {
+      "type": "paragraph",
+      "text": "A inauguração aconteceu à meia-noite de 21 de abril, durante uma missa campal na Praça dos Três Poderes. A festa durou três dias, até a noite de 23 de abril."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "brasilia-build",
+    "alt": "Diagrama da construção de Brasília: caminhões trazem candangos, guindastes erguem as torres do Congresso entre andaimes, e uma barra de meses mostra a obra quase pronta.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Na campanha de 1955, Juscelino Kubitschek prometeu cumprir a Constituição e levar a capital para o interior.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+          "excerpt": "resolvera seguir a Constituição, como prometera ainda na campanha à Presidência, em 1955."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Brasília fazia parte do plano de metas de Kubitschek, que prometia \"cinquenta anos em cinco\".",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_politica_inaugurada_por_f173b8",
+          "excerpt": "Como parte do plano de metas que prometia “cinquenta anos em cinco”, Brasília foi concebida para promover a integração nacional"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Brasília foi construída em tempo recorde por trabalhadores de várias regiões, principalmente do Nordeste: os candangos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cnnbrasil_com_br_politica_inaugurada_por_f173b8",
+          "excerpt": "em tempo recorde por trabalhadores vindos de várias regiões do país, mas principalmente do Nordeste — os candangos."
+        },
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "candangos — trabalhadores de diversas parte do Brasil que contribuíram para a construção de Brasília."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "A construção durou cerca de 41 meses, de 1956 até a inauguração em 21 de abril de 1960.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_domusweb_it_en_speciali_brasilia_2020_9f2674",
+          "excerpt": "the construction of Brasilia lasted 41 months, from 1956 to the 21st April 1960, the day of its inauguration."
+        },
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "inaugurada pelo presidente Juscelino Kubitschek em 21 de abril de 1960"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "A data de 21 de abril foi escolhida em homenagem a Tiradentes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "em uma clara homenagem a Joaquim José da Silva Xavier, o Tiradentes"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Muitos candangos se recusaram a deixar a cidade que ergueram do zero.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+          "excerpt": "os candangos se recusavam em deixar a cidade que ergueram do zero."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "Da Estaca Zero, fincada em 20 de abril de 1957, até a inauguração foram três anos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Do dia que fincou a Estaca Zero, 20 de abril de 1957, – como visto ontem – até a inauguração de Brasília passou-se três anos de construção"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "Muitos trabalhadores chegaram a Brasília fugindo da Grande Seca de 1958 no Nordeste.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+          "excerpt": "Na Grande Seca de 1958, veio uma delas, quando milhares de nordestinos cruzaram os sertões para desembarcar na capital da esperança"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "O censo experimental do IBGE de 1959 contou 2.966 mulheres economicamente ativas em Brasília.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "O Censo Experimental de Brasília, realizado pelo Instituto Brasileiro de Geografia e Estatística no ano de 1959"
+        },
+        {
+          "sourceId": "src_www12_senado_leg_br_noticias_materias_088770",
+          "excerpt": "O IBGE contou 2.966 mulheres economicamente ativas em sua coleta de dados."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c10",
+      "text": "Os primeiros operários dormiam em galpões; em dezembro de 1956 surgiu a Cidade Livre, hoje Núcleo Bandeirante.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Os primeiros operários a chegarem no Planalto Central, na metade de 1956, não possuíam locais apropriados para moradia, sendo abrigados nos galpões da Novacap."
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Em 19 de dezembro de 1956, surge a Cidade Livre, conhecida hoje como Núcleo Bandeirante, autorizada por JK."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c11",
+      "text": "Brasília foi inaugurada à meia-noite de 21 de abril, durante uma missa campal na Praça dos Três Poderes, e a festa durou até a noite de 23 de abril.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "Às 00h, do dia 21 de abril, durante a cerimônia religiosa, Brasília é inaugurada."
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "se reuniram em frente ao Palácio da Justiça, na Praça dos Três Poderes, para a missa campal"
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c",
+          "excerpt": "A inauguração foi marcada por três dias de festa, tendo fim apenas na noite de 23 de abril."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_jornaldebrasilia_com_br_60anos_a_concretizacao_fe4dee",
+    "src_cnnbrasil_com_br_politica_inaugurada_por_f173b8",
+    "src_www12_senado_leg_br_noticias_materias_088770",
+    "src_domusweb_it_en_speciali_brasilia_2020_9f2674",
+    "src_jornaldebrasilia_com_br_brasilia_65_anos_5eae8c"
+  ],
+  "quizIds": ["q_building_brasilia_1__pt-BR", "q_building_brasilia_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-11T11:45:34.342Z"
+}

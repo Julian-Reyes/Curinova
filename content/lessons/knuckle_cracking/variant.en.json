@@ -1,0 +1,221 @@
+{
+  "id": "lesson_knuckle_cracking__en",
+  "conceptId": "concept_knuckle_cracking",
+  "locale": "en",
+  "slug": "does-cracking-your-knuckles-cause-arthritis",
+  "title": "Does cracking your knuckles cause arthritis?",
+  "hook": "One doctor cracked the knuckles of only one hand for over 60 years to find out.",
+  "summary": "Studies haven’t found a link; the pop most likely comes from a gas-filled cavity forming in the joint fluid.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Cracking your knuckles may annoy the people around you, but it probably won’t raise your risk of arthritis. That is the conclusion of several studies comparing hand arthritis in habitual knuckle-crackers and in people who don’t. In a 2011 study, X-rays of 215 people’s hands showed no link between the habit and arthritis."
+    },
+    {
+      "type": "paragraph",
+      "text": "And the noise? Finger joints hold a lubricating liquid, synovial fluid. When the bones are pulled apart, pressure drops and a gas-filled cavity forms in that fluid. MRI images from 2015 suggested that the crack happens as the cavity forms, not when a bubble bursts, though scientists still debate it."
+    },
+    {
+      "type": "takeaway",
+      "text": "Studies don’t link knuckle cracking to arthritis; the pop most likely comes from a gas cavity forming in the joint."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A 60-year experiment"
+    },
+    {
+      "type": "paragraph",
+      "text": "The American doctor Donald Unger cracked the knuckles of his left hand every day for more than 60 years, but never those of his right, to see whether the habit caused arthritis. He published the result in 1998 and won an Ig Nobel Prize."
+    },
+    {
+      "type": "heading",
+      "text": "Why you can’t crack again right away"
+    },
+    {
+      "type": "paragraph",
+      "text": "After a crack, it takes about 20 minutes for the gas to dissolve back into the synovial fluid and allow another crack."
+    },
+    {
+      "type": "heading",
+      "text": "The mechanism is still debated"
+    },
+    {
+      "type": "paragraph",
+      "text": "The exact cause of the sound was argued over for decades. Some still describe the pop as bubbles bursting. The 2015 images point to the cavity forming, but in 2018 a team in France used a mathematical simulation to argue that collapsing bubbles cause the sound. Because that conclusion came from theory rather than experiments, scientists remain unconvinced."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "knuckle-joint",
+    "alt": "Diagram of a finger joint: when the bones are pulled apart, pressure drops and a gas cavity forms in the synovial fluid, which most likely makes the pop.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Knuckle cracking probably doesn’t raise arthritis risk, according to several studies comparing habitual crackers and non-crackers.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_health_harvard_edu_pain_does_cracking_46293d",
+          "excerpt": "Cracking your knuckles may aggravate the people around you, but it probably won't raise your risk for arthritis. That's the conclusion of several studies that compared rates of hand arthritis among habitual knuckle-crackers and people who didn't crack their knuckles."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "The common old wives' tale that cracking one's knuckles causes arthritis is without scientific evidence."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "In a 2011 study, hand X-rays of 215 people showed no link between knuckle cracking and hand arthritis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "A study published in 2011 examined the hand radiographs of 215 people (aged 50 to 89). It compared the joints of those who regularly cracked their knuckles to those who did not."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "The study concluded that knuckle-cracking did not cause hand osteoarthritis, no matter how many years or how often a person cracked their knuckles."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Pulling the bones apart lowers pressure in the synovial fluid and a gas cavity forms.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "When the pressure inside the joint cavity is quickly reduced due to mechanical expansion, nitrogen gas is released from the solution, leading to the formation of cavitation bubbles."
+        },
+        {
+          "sourceId": "src_health_harvard_edu_pain_does_cracking_46293d",
+          "excerpt": "the synovial fluid — the fluid that helps lubricate joints."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "A 2015 MRI study suggested the crack is linked to the cavity forming, not to a bubble collapsing.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_b9a6aa",
+          "excerpt": "Here we present direct evidence from real-time magnetic resonance imaging that the mechanism of joint cracking is related to cav"
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_b9a6aa",
+          "excerpt": "ity formation rather than bubble collapse."
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_b9a6aa",
+          "excerpt": "Published: April 15, 2015"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "In 2015, research indicated that bubbles remained in the fluid after a joint cracked, suggesting that the cracking sound was produced when the bubble within the joint formed, rather than when it collapsed."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Donald Unger cracked his left hand’s knuckles, never his right, every day for over 60 years; he published in 1998 and won an Ig Nobel.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_improbable_com_ig_winners_a265d6",
+          "excerpt": "Donald L. Unger, of Thousand Oaks, California, USA, for investigating a possible cause of arthritis of the fingers, by diligently cracking the knuckles of his left hand — but never cracking the knuckles of his right hand — every day for more than sixty (60) yea"
+        },
+        {
+          "sourceId": "src_improbable_com_ig_winners_a265d6",
+          "excerpt": "Donald L. Unger, Arthritis and Rheumatism, vol. 41, no. 5, 1998"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "American doctor Donald Unger"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "It takes about 20 minutes for the gas to dissolve again and allow another crack.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "bout 20 minutes for the nitrogen to fully dissolve back into the synovial fluid, which allows the joint to produce another set of cavitation bubbles"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "The crack’s mechanism was uncertain for decades; some sources still describe it as bubbles bursting.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "For many decades, the physical mechanism underlying the cracking sound produced by bending, twisting, or compressing joints remained uncertain."
+        },
+        {
+          "sourceId": "src_health_harvard_edu_pain_does_cracking_46293d",
+          "excerpt": "The \"pop\" of a cracked knuckle is caused by bubbles bursting in"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "In 2018, a team in France used a mathematical simulation to argue that collapsing bubbles cause the sound; because it was theoretical, scientists remain unconvinced.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "In 2018, a team in France developed a mathematical simulation to investigate what occurs in a joint just before it cracks. This team concluded that the sound is caused by the collapse of bubbles, while the bubbles observed in the fluid result from a partial collapse."
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+          "excerpt": "Due to the theoretical nature of this conclusion and the absence of physical experimentation, the scientific community remains unconvinced."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_health_harvard_edu_pain_does_cracking_46293d",
+    "src_en_wikipedia_org_wiki_cracking_joints_734d2d",
+    "src_journals_plos_org_plosone_article_b9a6aa",
+    "src_improbable_com_ig_winners_a265d6"
+  ],
+  "quizIds": ["q_knuckle_cracking_1__en", "q_knuckle_cracking_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:02:38.263Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:17.112Z",
+  "updatedAt": "2026-11-11T12:31:17.112Z"
+}

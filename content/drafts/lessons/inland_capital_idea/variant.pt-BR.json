@@ -1,0 +1,235 @@
+{
+  "id": "lesson_inland_capital_idea__pt-BR",
+  "conceptId": "concept_inland_capital_idea",
+  "locale": "pt-BR",
+  "slug": "quando-surgiu-a-ideia-de-uma-capital-no-interior",
+  "title": "Quando surgiu a ideia de uma capital no interior?",
+  "hook": "Brasília foi inaugurada em 1960, mas a ideia tinha quase dois séculos.",
+  "summary": "A ideia vem do período colonial; a Constituição de 1891 reservou uma área no Planalto Central, e a Missão Cruls a demarcou.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A ideia de levar a capital para longe do litoral é bem mais velha que Brasília. Ela surgiu ainda no período colonial, com o Marquês de Pombal, voltou com a vinda da família real e ganhou força com nomes como Hipólito José da Costa e José Bonifácio, que defendia a mudança para Paracatu, em Minas Gerais."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mas só virou lei com a República. A Constituição de 1891, a primeira republicana, reservou à União uma área de 14.400 quilômetros quadrados no Planalto Central, a ser demarcada para a futura capital. Em 1892, o presidente Floriano Peixoto criou uma comissão para fazer essa demarcação, chefiada pelo astrônomo belga Luiz Cruls, diretor do Observatório do Rio de Janeiro."
+    },
+    {
+      "type": "takeaway",
+      "text": "A ideia de uma capital no interior vem da Colônia; em 1891, a Constituição reservou o lugar no Planalto Central."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A Missão Cruls"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Comissão Exploradora do Planalto Central saiu do Rio em 9 de junho de 1892, com 22 homens e cerca de 10 toneladas de bagagem. De 1892 a 1894, a equipe estudou o clima, o relevo, os rios, a fauna, a flora e o modo de vida dos moradores da região."
+    },
+    {
+      "type": "paragraph",
+      "text": "O resultado foi o Relatório Cruls, publicado em 1894. Ele descrevia um lugar de solo fértil, clima saudável e muita água potável."
+    },
+    {
+      "type": "heading",
+      "text": "Por que o interior?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma capital à beira-mar era vista como insegura e exposta às doenças que chegavam pelos portos. Levar o governo para o interior também era uma forma de integrar o país e ocupar o território."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "inland-plateau",
+    "alt": "Mapa esquemático do Brasil: a ideia de levar a capital do litoral para o interior, até a área demarcada no Planalto Central, explorada com instrumentos de medição.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A ideia de uma capital no interior surgiu no período colonial, com o Marquês de Pombal, e voltou com a vinda da família real.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+          "excerpt": "Após surgir a ideia no período colonial, com Marquês de Pombal, ressurgir com a vinda da família real e ganhar força com José Bonifácio, Hipólito José da Costa e Francisco Adolfo de Varnhagen"
+        },
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+          "excerpt": "No século 18, o governo português já cogitava a possibilidade de transferir a capital do Brasil para o interior"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A ideia ganhou força com Hipólito José da Costa e José Bonifácio; Bonifácio defendia levar a capital para Paracatu, em Minas Gerais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+          "excerpt": "ganhar força com José Bonifácio, Hipólito José da Costa e Francisco Adolfo de Varnhagen"
+        },
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+          "excerpt": "Ainda no Império, o patriarca da Independência, José Bonifácio, defendia a transferência da capital para a mineira Paracatu."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A Constituição de 1891, a primeira da República, reservou à União 14.400 km² no Planalto Central, a serem demarcados para a futura capital.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_congressoemfoco_com_br_noticia_107828_brasilia_cdc279",
+          "excerpt": "Fica pertencendo à União, no planalto central da República, uma zona de 14.400 quilômetros quadrados, que será oportunamente demarcada para nela estabelecer-se a futura Capital Federal."
+        },
+        {
+          "sourceId": "src_congressoemfoco_com_br_noticia_107828_brasilia_cdc279",
+          "excerpt": "O que poucos sabem, no entanto, é que essa transferência já estava prevista na Constituição de 1891, a primeira da República."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em 1892, o presidente Floriano Peixoto criou a Comissão Exploradora do Planalto Central.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+          "excerpt": "Em 1892, o então presidente Floriano Peixoto instituiu a Comissão Exploradora do Planalto Central, por meio da Portaria 114-A."
+        },
+        {
+          "sourceId": "src_correiobraziliense_com_br_app_noticia_cidades_268d18",
+          "excerpt": "Por meio da Portaria 114-A, Floriano Peixoto criou a Comissão Exploradora do Planalto Central."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A comissão foi chefiada pelo astrônomo belga Luiz Cruls, diretor do Observatório do Rio de Janeiro, e devia demarcar a área de 14.400 km².",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_correiobraziliense_com_br_app_noticia_cidades_268d18",
+          "excerpt": "Escolheram como chefe da comissão Louis Cruls, professor da Escola Superior Militar e diretor do Observatório Astronômico do Rio de Janeiro, atual Observatório Nacional."
+        },
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+          "excerpt": "Chefiados pelo astrônomo e geógrafo belga Louis Ferdinand Cruls"
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+          "excerpt": "A missão principal da comissão era definir no Planalto Central um quadrilátero de 14.400 quilômetros quadrados."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A comissão saiu do Rio em 9 de junho de 1892, com 22 homens e cerca de 10 toneladas de bagagem.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_correiobraziliense_com_br_app_noticia_cidades_268d18",
+          "excerpt": "Na manhã de 9 de junho de 1892, 22 homens partiram do Rio de Janeiro rumo a Goiás. Eles levavam 206 caixotes e fardos (cerca de 10 toneladas)"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "De 1892 a 1894, a equipe estudou o clima, o relevo, os rios, a fauna, a flora e o modo de vida dos moradores.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+          "excerpt": "De 1892 a 1894, eles fizeram estudos científicos até então inéditos no Centro-Oeste, mapeando aspectos climáticos e topográficos, além de estudar a fauna, a flora, os cursos de rios e modo de vida dos habitantes."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "O Relatório Cruls, publicado em 1894, descrevia solo fértil, clima saudável e muita água potável.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+          "excerpt": "Foram sete meses de estudos, que resultaram no Relatório Cruls, publicado em 1894."
+        },
+        {
+          "sourceId": "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+          "excerpt": "É exuberante a fertilidade do solo; a salubridade, proverbial; grande abundância de excelente água potável"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Uma capital perto do mar era considerada insegura e exposta às doenças que chegavam pelos portos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+          "excerpt": "já que uma capital perto do mar era considerada insegura e um centro de aglomeração de doenças"
+        },
+        {
+          "sourceId": "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+          "excerpt": "longe dos portos marítimos, por onde as enfermidades adentravam a cidade"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Levar a capital para o interior era também uma estratégia de integração nacional e ocupação do território.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_congressoemfoco_com_br_noticia_107828_brasilia_cdc279",
+          "excerpt": "levar a capital Federal do Brasil ao interior do país como estratégia de integração nacional e ocupação territorial"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_jornaldebrasilia_com_br_brasilia_65_anos_ec547c",
+    "src_blogs_correiobraziliense_com_br_candangando_missao_c52413",
+    "src_congressoemfoco_com_br_noticia_107828_brasilia_cdc279",
+    "src_correiobraziliense_com_br_app_noticia_cidades_268d18"
+  ],
+  "quizIds": ["q_inland_capital_idea_1__pt-BR", "q_inland_capital_idea_2__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-04T00:00:00Z"
+}

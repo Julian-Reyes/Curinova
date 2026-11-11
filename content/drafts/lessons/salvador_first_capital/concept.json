@@ -1,0 +1,100 @@
+{
+  "id": "concept_salvador_first_capital",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 1,
+  "tags": ["brazil", "colonial-history", "salvador"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_rio_capital_1763",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mais de dois séculos depois, o ouro levou a capital para o Rio.",
+        "en": "Two centuries later, gold pulled the capital to Rio."
+      }
+    },
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Em 1808, a corte portuguesa desembarcou primeiro em Salvador.",
+        "en": "In 1808 the Portuguese court landed first in Salvador."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "O Elevador Lacerda, em Salvador, com a Baía de Todos os Santos e barcos ao fundo",
+        "en": "The Lacerda Elevator in Salvador, with the Bay of All Saints and boats behind"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Luís Otávio",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/30567575/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "ac41585a"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Rua de pedra do Pelourinho, em Salvador, com casarões coloniais coloridos e as torres de uma igreja ao fundo",
+        "en": "A cobbled street in Salvador's Pelourinho, with colourful colonial houses and church towers at the end"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Marcelo Gonzalez",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/31792604/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-09",
+      "hash": "2c6706e8"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Vista aérea da orla de Salvador, com prédios, um morro arborizado e o mar",
+        "en": "Aerial view of Salvador's seafront, with tall buildings, a wooded hill and the sea"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "LEONARDO DOURADO",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/16842379/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-06",
+      "hash": "cd3f855b"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Salvador colonial em corte: a Cidade Baixa e o porto junto ao mar, a escarpa com um elevador de madeira e a Cidade Alta no topo; no detalhe, a península entre a baía e o oceano.",
+        "en": "Colonial Salvador in cross-section: the Lower Town and port by the sea, the escarpment with a wooden lift and the Upper Town on top; in the inset, the peninsula between the bay and the ocean."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-10",
+      "hash": "ba197bdd"
+    }
+  }
+}

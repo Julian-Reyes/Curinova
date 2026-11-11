@@ -1,0 +1,193 @@
+{
+  "id": "lesson_rio_capital_1763__en",
+  "conceptId": "concept_rio_capital_1763",
+  "locale": "en",
+  "slug": "why-did-the-capital-move-to-rio-in-1763",
+  "title": "Why did the capital move to Rio in 1763?",
+  "hook": "Gold from Minas Gerais needed a way to the sea, and the way ran through Rio.",
+  "summary": "Gold from Minas Gerais made Rio’s port the colony’s link to Europe, and in 1763 the capital moved there.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In the early 1700s, the discovery of gold and gemstones in Minas Gerais shifted the colony’s centre of gravity. The riches had to reach Europe, and Rio de Janeiro became the key outlet: the main link between the mining interior and the far side of the Atlantic."
+    },
+    {
+      "type": "paragraph",
+      "text": "That importance led to the move. In 1763, the Marquis of Pombal, King Joseph I’s minister, transferred the capital from Salvador to Rio. The main aim was tighter control over the gold leaving Brazil, but the move also helped defend Portuguese interests in the south of the colony. Rio became the seat of government and the viceroys’ residence."
+    },
+    {
+      "type": "takeaway",
+      "text": "Gold from Minas Gerais left through Rio’s port; in 1763 the capital moved there to control that flow."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The age of viceroys"
+    },
+    {
+      "type": "paragraph",
+      "text": "From 1763, every governor of Brazil was given the title of viceroy. The post ended in 1808, when the Portuguese court arrived and began ruling directly from Rio."
+    },
+    {
+      "type": "heading",
+      "text": "A growing city"
+    },
+    {
+      "type": "paragraph",
+      "text": "With the gold and its new role as capital, Rio became the colony’s main centre. It was also one of the main ports of Atlantic trade, including the trade in enslaved Africans."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "gold-route",
+    "alt": "Schematic map: gold from Minas Gerais travels down to the port of Rio de Janeiro and on by ship to Europe, and the seat of government moves from Salvador to Rio.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "In the early 1700s, gold and gemstones were discovered in Minas Gerais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_meer_com_pt_93707_rio_de_7f38c7",
+          "excerpt": "No início do século XVIII, a descoberta de ouro e pedras preciosas em Minas Gerais transformou o Rio em ponto-chave para o escoamento dessas riquezas."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Rio became the key outlet for these riches, the main link between the mining interior and Europe.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_meer_com_pt_93707_rio_de_7f38c7",
+          "excerpt": "A cidade passou a ser a principal ligação entre o interior minerador e a Europa, o que lhe conferiu uma nova importância política e econômica"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "In 1763, the Marquis of Pombal, under King Joseph I, moved the capital from Salvador to Rio de Janeiro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eumed_net_rev_cccss_2018_11_b1fcff",
+          "excerpt": "o Marquês de Pombal, sob a regência de D. José, transferiu da capital do Estado do Brasil de Salvador, na Bahia, para São Sebastião do Rio de Janeiro, no ano de 1763."
+        },
+        {
+          "sourceId": "src_meer_com_pt_93707_rio_de_7f38c7",
+          "excerpt": "Essa centralidade levou à transferência da capital do Brasil de Salvador para o Rio de Janeiro em 1763"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "The move aimed to control the gold leaving Brazil more tightly and to defend Portuguese interests in the south of the colony.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eumed_net_rev_cccss_2018_11_b1fcff",
+          "excerpt": "com o intuito de melhorar o controle da saída de ouro do Brasil e defender os interesses portugueses no sul da colônia"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "Rio became the colony’s seat of government and the viceroys’ residence.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_meer_com_pt_93707_rio_de_7f38c7",
+          "excerpt": "tornando a cidade o centro administrativo do Estado colonial português"
+        },
+        {
+          "sourceId": "src_eumed_net_rev_cccss_2018_11_b1fcff",
+          "excerpt": "a qual se tornou o principal centro da colônia, local de residência dos vice-reis"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "From 1763, every governor of Brazil was given the title of viceroy.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_viceroyalty_of_2f2e13",
+          "excerpt": "From around 1763, the title \"viceroy\" became permanent, so being granted to all governors."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "The viceroy’s post ended in 1808, when the Portuguese court arrived and began ruling from Rio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_viceroyalty_of_2f2e13",
+          "excerpt": "The position of viceroy was abolished, when the Portuguese court transferred to Brazil in 1808, with the State of Brazil becoming directly administered by the Portuguese Government seated in Rio de Janeiro."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "With the gold, Rio became the colony’s main centre.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eumed_net_rev_cccss_2018_11_b1fcff",
+          "excerpt": "o ouro das Minas Gerais, a partir de 1763 resultou numa melhora para a cidade do Rio, a qual se tornou o principal centro da colônia"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "Rio was one of the main ports of Atlantic trade, including the trade in enslaved Africans.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_meer_com_pt_93707_rio_de_7f38c7",
+          "excerpt": "um dos principais portos do comércio atlântico. Milhares de africanos foram trazidos à força para o Brasil pelo porto do Rio"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_meer_com_pt_93707_rio_de_7f38c7",
+    "src_eumed_net_rev_cccss_2018_11_b1fcff",
+    "src_en_wikipedia_org_wiki_viceroyalty_of_2f2e13"
+  ],
+  "quizIds": ["q_rio_capital_1763_1__en", "q_rio_capital_1763_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_capitals"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:44:38.031Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:42.875Z",
+  "updatedAt": "2026-11-11T12:31:42.875Z"
+}

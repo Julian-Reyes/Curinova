@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_knuckle_cracking_1__en",
+    "questionGroupId": "qg_knuckle_cracking_1",
+    "conceptId": "concept_knuckle_cracking",
+    "locale": "en",
+    "prompt": "What do studies say about knuckle cracking and arthritis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They found no link between the habit and hand arthritis"
+      },
+      {
+        "id": "b",
+        "text": "That cracking always causes arthritis"
+      },
+      {
+        "id": "c",
+        "text": "That cracking cures arthritis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Studies comparing habitual crackers and non-crackers found no link to hand arthritis.",
+    "claimIds": ["c1", "c2"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_knuckle_cracking_2__en",
+    "questionGroupId": "qg_knuckle_cracking_2",
+    "conceptId": "concept_knuckle_cracking",
+    "locale": "en",
+    "prompt": "Where does the knuckle-cracking pop come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A gas cavity forming in the joint fluid"
+      },
+      {
+        "id": "b",
+        "text": "Two bones rubbing together"
+      },
+      {
+        "id": "c",
+        "text": "A tendon slipping out of place"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pulling the bones apart drops the pressure and a gas cavity forms; MRI images suggest the pop happens at that moment.",
+    "claimIds": ["c3", "c4"],
+    "status": "reviewed"
+  }
+]

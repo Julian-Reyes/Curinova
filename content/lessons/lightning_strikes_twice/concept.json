@@ -1,0 +1,97 @@
+{
+  "id": "concept_lightning_strikes_twice",
+  "topicId": "everyday_science",
+  "clusterId": "cluster_everyday_myths",
+  "clusterOrder": 7,
+  "tags": ["myths", "lightning", "weather"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_falling_coin",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o que vem do alto.",
+        "en": "Another myth about what comes from above."
+      }
+    },
+    {
+      "conceptId": "concept_microwave_inside_out",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O primeiro mito da trilha.",
+        "en": "The trail’s first myth."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de um raio atingindo uma árvore isolada num campo escuro",
+        "en": "Illustration of a lightning bolt striking a lone tree in a dark field"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "602ad1a1"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de vários raios atingindo os prédios mais altos de uma cidade à noite",
+        "en": "Illustration of several lightning bolts striking the tallest buildings of a city at night"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "efecd274"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de nuvens escuras de tempestade sobre um campo verde",
+        "en": "Illustration of dark storm clouds over a green field"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Founder",
+        "createdAt": "2026-11-05"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-05",
+      "hash": "d8cb02e2"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Raios caem repetidas vezes na estátua no alto de um morro alto e isolado, e uma vez numa árvore solitária, enquanto as casas baixas do vale não são atingidas.",
+        "en": "Lightning strikes the statue on a tall, isolated peak again and again, and a lone tree once, while the low houses in the valley are not hit."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "b0fda30e"
+    }
+  }
+}

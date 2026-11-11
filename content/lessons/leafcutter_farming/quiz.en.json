@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_leafcutter_farming_1__en",
+    "questionGroupId": "qg_leafcutter_farming_1",
+    "conceptId": "concept_leafcutter_farming",
+    "locale": "en",
+    "prompt": "What do leafcutter ants do with the leaves they carry?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Use them to grow a fungus, which is what they eat"
+      },
+      {
+        "id": "b",
+        "text": "Eat the leaves whole"
+      },
+      {
+        "id": "c",
+        "text": "Only use them to build the nest"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The leaves feed a fungus grown in the nest; the fungus digests the plant, and the ants eat the fungus.",
+    "misconception": "The parade of leaves is misleading: the leaves are fertiliser for the garden, not dinner.",
+    "claimIds": ["c1", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_leafcutter_farming_2__en",
+    "questionGroupId": "qg_leafcutter_farming_2",
+    "conceptId": "concept_leafcutter_farming",
+    "locale": "en",
+    "prompt": "How long have ants been farming fungus?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 50 million years"
+      },
+      {
+        "id": "b",
+        "text": "About 10,000 years"
+      },
+      {
+        "id": "c",
+        "text": "Since humans domesticated them"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ants started farming fungus about 50 million years ago, long before human agriculture.",
+    "claimIds": ["c5"],
+    "status": "reviewed"
+  }
+]

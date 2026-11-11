@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_radioactive_foods_1__en",
+    "questionGroupId": "qg_radioactive_foods_1",
+    "conceptId": "concept_radioactive_foods",
+    "locale": "en",
+    "prompt": "Why are bananas slightly radioactive?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They contain potassium-40, a natural form of potassium"
+      },
+      {
+        "id": "b",
+        "text": "They are grown near nuclear plants"
+      },
+      {
+        "id": "c",
+        "text": "They are treated with radiation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Potassium-40 is natural; one banana’s dose is tiny and doesn’t build up in the body.",
+    "claimIds": ["c1", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_radioactive_foods_2__en",
+    "questionGroupId": "qg_radioactive_foods_2",
+    "conceptId": "concept_radioactive_foods",
+    "locale": "en",
+    "prompt": "Where does the radium in Brazil nuts come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The soil, concentrated by the tree’s very extensive roots"
+      },
+      {
+        "id": "b",
+        "text": "Factory pollution"
+      },
+      {
+        "id": "c",
+        "text": "A fungus that grows on the shell"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "When radium is in the soil, the tree’s large root system can concentrate it in the nuts.",
+    "claimIds": ["c4", "c5"],
+    "status": "reviewed"
+  }
+]

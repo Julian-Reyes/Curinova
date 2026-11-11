@@ -1,0 +1,158 @@
+{
+  "id": "lesson_lightning_strikes_twice__pt-BR",
+  "conceptId": "concept_lightning_strikes_twice",
+  "locale": "pt-BR",
+  "slug": "um-raio-nunca-cai-duas-vezes-no-mesmo-lugar",
+  "title": "Um raio nunca cai duas vezes no mesmo lugar?",
+  "hook": "O Cristo Redentor que o diga.",
+  "summary": "Cai, sim: raios costumam atingir várias vezes objetos altos e isolados, como o Cristo Redentor, várias vezes por ano.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "O ditado diz que um raio nunca cai duas vezes no mesmo lugar. A ciência diz o contrário: raios costumam atingir o mesmo ponto repetidas vezes, especialmente se ele for alto, pontudo e isolado. Altura, forma pontuda e isolamento são os fatores que mais decidem onde um raio vai cair."
+    },
+    {
+      "type": "paragraph",
+      "text": "A prova está no Rio de Janeiro. O Cristo Redentor, no alto do Corcovado, é atingido por raios várias vezes por ano: estimativas do INPE vão de três a cinco até cerca de seis por ano. Alguns desses raios já danificaram a estátua, como os que atingiram os dedos da mão direita."
+    },
+    {
+      "type": "takeaway",
+      "text": "Raios caem várias vezes no mesmo lugar, sobretudo em pontos altos e isolados, como o Cristo Redentor."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Recordista em Nova York"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nos Estados Unidos, o Empire State Building é atingido em média 23 vezes por ano, segundo o serviço meteorológico do país."
+    },
+    {
+      "type": "heading",
+      "text": "O metal não atrai"
+    },
+    {
+      "type": "paragraph",
+      "text": "A presença de metal não faz diferença para onde o raio cai. Árvores e montanhas, altas e isoladas, mas com pouco ou nenhum metal, também são atingidas muitas vezes por ano."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "lightning-tower",
+    "alt": "Diagrama de nuvens de tempestade sobre um morro alto e isolado com uma estátua no topo, atingida por vários raios, e uma árvore solitária também atingida, enquanto as casas baixas não são.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Raios costumam atingir o mesmo lugar repetidas vezes, especialmente objetos altos, pontudos e isolados.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "Fact: Lightning often strikes the same place repeatedly, especially if it's a tall, pointy, isolated object."
+        },
+        {
+          "sourceId": "src_olhardigital_com_br_2024_11_17_255f74",
+          "excerpt": "Em algumas áreas, podem cair não apenas dois, mas vários raios no mesmo local."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Altura, forma pontuda e isolamento são os fatores dominantes de onde um raio cai.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "Height, pointy shape, and isolation are the dominant factors controlling where a lightning bolt will strike."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "O Cristo Redentor é atingido por raios várias vezes por ano; estimativas do INPE vão de três a cinco até cerca de seis.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_olhardigital_com_br_2024_11_17_255f74",
+          "excerpt": "Segundo o Instituto Nacional de Pesquisas Espaciais (Inpe), o monumento é atingido por seis raios por ano, em média."
+        },
+        {
+          "sourceId": "src_riotimesonline_com_7886c9",
+          "excerpt": "According to The National Institute for Space Research (INPE), each year the 95 ft tall monument is subjected to by somewhere between three to five strikes of lighting, with some causing damage."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "Raios já danificaram o Cristo Redentor, como os que atingiram os dedos da mão direita.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_riotimesonline_com_7886c9",
+          "excerpt": "The third finger of the right arm of the open armed statue suffered a strike and is due to be repaired."
+        },
+        {
+          "sourceId": "src_riotimesonline_com_7886c9",
+          "excerpt": "The same hand of the statue was recently struck in the same place"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "O Empire State Building é atingido em média 23 vezes por ano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "The Empire State Building is hit an average of 23 times a year"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "A presença de metal não faz diferença; árvores e montanhas altas e isoladas também são atingidas muitas vezes por ano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_weather_gov_safety_lightning_myths_7cb444",
+          "excerpt": "The presence of metal makes absolutely no difference on where lightning strikes. Natural objects that are tall and isolated, but are made of little to no metal, like trees and mountains get struck by lightning many times a year."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_weather_gov_safety_lightning_myths_7cb444",
+    "src_olhardigital_com_br_2024_11_17_255f74",
+    "src_riotimesonline_com_7886c9"
+  ],
+  "quizIds": ["q_lightning_strikes_twice_1__pt-BR", "q_lightning_strikes_twice_2__pt-BR"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_everyday_myths"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T12:02:57.272Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:22.194Z",
+  "updatedAt": "2026-11-11T12:31:22.194Z"
+}

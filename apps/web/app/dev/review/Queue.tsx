@@ -126,6 +126,13 @@ export function QueueScreen() {
                     </ul>
                   )}
                 </div>
+                {/* Open the lesson to look at it again or check its images before publishing. */}
+                <Link
+                  to={`/_review?lesson=${r.key}`}
+                  className="rounded-full border border-line px-4 py-2 text-sm font-semibold hover:bg-sunken"
+                >
+                  Open
+                </Link>
                 <button
                   type="button"
                   disabled={r.blockers.length > 0}

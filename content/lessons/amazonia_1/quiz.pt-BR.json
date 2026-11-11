@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_amazonia_1_1__pt-BR",
+    "questionGroupId": "qg_amazonia_1_1",
+    "conceptId": "concept_amazonia_1",
+    "locale": "pt-BR",
+    "prompt": "O que fez do Amazonia-1 um marco?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foi o primeiro satélite de observação da Terra projetado, testado e operado inteiramente pelo Brasil"
+      },
+      {
+        "id": "b",
+        "text": "Foi o primeiro satélite lançado de Alcântara"
+      },
+      {
+        "id": "c",
+        "text": "Foi o primeiro satélite a fotografar a Amazônia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Antes dele, os satélites de observação brasileiros eram feitos em parceria, como os CBERS.",
+    "claimIds": ["c1"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_amazonia_1_2__pt-BR",
+    "questionGroupId": "qg_amazonia_1_2",
+    "conceptId": "concept_amazonia_1",
+    "locale": "pt-BR",
+    "prompt": "Por que o Amazonia-1 foi lançado na Índia, e não em Alcântara?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O Brasil não tinha foguete grande o bastante, e Alcântara não comportava o PSLV"
+      },
+      {
+        "id": "b",
+        "text": "Porque Alcântara fica longe do Equador"
+      },
+      {
+        "id": "c",
+        "text": "Porque a Índia construiu o satélite"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Brasil não tinha foguete do tamanho necessário, e Alcântara, feita para o VLS de 19,7 m, não tinha estrutura para o PSLV de 44,4 m.",
+    "claimIds": ["c6"],
+    "status": "reviewed"
+  }
+]

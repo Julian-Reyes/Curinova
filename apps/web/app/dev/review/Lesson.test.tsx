@@ -210,7 +210,7 @@ describe('review lesson screen', () => {
     expect(
       within(en).getByRole('link', { name: /Jane Doe, Wikimedia Commons · CC BY 4.0/ }),
     ).toBeTruthy();
-    expect(within(en).getAllByText(/No image: the app shows/)).toHaveLength(2);
+    expect(within(en).getAllByText(/No image: the app shows/)).toHaveLength(3);
     const pt = screen.getByRole('region', { name: 'pt-BR variant' });
     expect(within(pt).getByRole('img', { name: 'A Lua cheia' })).toBeTruthy();
   });

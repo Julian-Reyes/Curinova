@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_inpe_amazon_monitoring_1__en",
+    "questionGroupId": "qg_inpe_amazon_monitoring_1",
+    "conceptId": "concept_inpe_amazon_monitoring",
+    "locale": "en",
+    "prompt": "What is the difference between PRODES and DETER?",
+    "options": [
+      {
+        "id": "a",
+        "text": "PRODES measures deforestation once a year; DETER issues daily alerts"
+      },
+      {
+        "id": "b",
+        "text": "PRODES watches the Cerrado and DETER only the Pantanal"
+      },
+      {
+        "id": "c",
+        "text": "They are two names for the same system"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "PRODES produces the official yearly rate, since 1988; DETER sends daily alerts to guide enforcement.",
+    "claimIds": ["c2", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_inpe_amazon_monitoring_2__en",
+    "questionGroupId": "qg_inpe_amazon_monitoring_2",
+    "conceptId": "concept_inpe_amazon_monitoring",
+    "locale": "en",
+    "prompt": "Can a month of DETER alerts be read as that month’s deforestation rate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No, they show a trend"
+      },
+      {
+        "id": "b",
+        "text": "Yes, they are the official monthly rate"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but only in the Cerrado"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "INPE itself explains that the alerts are not a monthly rate: they support enforcement and show a trend.",
+    "claimIds": ["c4"],
+    "status": "reviewed"
+  }
+]

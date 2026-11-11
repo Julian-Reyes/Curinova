@@ -1,0 +1,53 @@
+[
+  {
+    "id": "q_stopped_clock_illusion_1__pt-BR",
+    "questionGroupId": "qg_stopped_clock_illusion_1",
+    "conceptId": "concept_stopped_clock_illusion",
+    "locale": "pt-BR",
+    "prompt": "Por que o primeiro tique do relógio parece durar mais?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O cérebro estende a imagem do ponteiro para trás, até antes do movimento dos olhos"
+      },
+      {
+        "id": "b",
+        "text": "O relógio realmente atrasa quando é observado"
+      },
+      {
+        "id": "c",
+        "text": "Os olhos ficam cansados ao focar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O cérebro preenche o salto do olhar esticando a imagem do alvo para trás no tempo.",
+    "misconception": "Não é o relógio que muda: é a percepção do tempo que se ajusta depois do movimento dos olhos.",
+    "claimIds": ["c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_stopped_clock_illusion_2__pt-BR",
+    "questionGroupId": "qg_stopped_clock_illusion_2",
+    "conceptId": "concept_stopped_clock_illusion",
+    "locale": "pt-BR",
+    "prompt": "Com que frequência o cérebro faz esse \"alongamento\"?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Toda vez que mexemos os olhos, mas só notamos com uma referência de tempo"
+      },
+      {
+        "id": "b",
+        "text": "Só quando olhamos para relógios"
+      },
+      {
+        "id": "c",
+        "text": "Só quando estamos com sono"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Acontece a cada movimento dos olhos; o ponteiro dos segundos apenas torna o efeito visível.",
+    "claimIds": ["c4"],
+    "status": "reviewed"
+  }
+]

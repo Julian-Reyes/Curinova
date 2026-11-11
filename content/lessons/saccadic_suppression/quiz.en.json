@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_saccadic_suppression_1__en",
+    "questionGroupId": "qg_saccadic_suppression_1",
+    "conceptId": "concept_saccadic_suppression",
+    "locale": "en",
+    "prompt": "Why don’t we see the world blur when our eyes jump from point to point?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The brain briefly blocks visual processing during the jump"
+      },
+      {
+        "id": "b",
+        "text": "The eyes move too slowly to blur the image"
+      },
+      {
+        "id": "c",
+        "text": "The retina takes a photo before each movement"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "During saccades the retinal image blurs, but the brain selectively blocks visual processing.",
+    "claimIds": ["c2", "c3"],
+    "status": "reviewed"
+  },
+  {
+    "id": "q_saccadic_suppression_2__en",
+    "questionGroupId": "qg_saccadic_suppression_2",
+    "conceptId": "concept_saccadic_suppression",
+    "locale": "en",
+    "prompt": "How do we know the brain itself switches the suppression on?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It starts before the eye begins to move"
+      },
+      {
+        "id": "b",
+        "text": "It only happens in the dark"
+      },
+      {
+        "id": "c",
+        "text": "It only appears in short-sighted people"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Because it starts before the saccade begins, it can’t be triggered by the moving image.",
+    "claimIds": ["c5"],
+    "status": "reviewed"
+  }
+]

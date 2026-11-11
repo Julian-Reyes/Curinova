@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_building_brasilia_1__en",
+    "questionGroupId": "qg_building_brasilia_1",
+    "conceptId": "concept_building_brasilia",
+    "locale": "en",
+    "prompt": "How long did it take to build Brasília?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 41 months, from 1956 to 1960"
+      },
+      {
+        "id": "b",
+        "text": "About ten years"
+      },
+      {
+        "id": "c",
+        "text": "Less than a year"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "From the start of work in 1956 to the inauguration on 21 April 1960 was about 41 months; counting from the 1957 stake zero, three years.",
+    "claimIds": ["c4", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_building_brasilia_2__en",
+    "questionGroupId": "qg_building_brasilia_2",
+    "conceptId": "concept_building_brasilia",
+    "locale": "en",
+    "prompt": "Who were the candangos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The laborers, mostly from the Northeast, who built Brasília"
+      },
+      {
+        "id": "b",
+        "text": "The architects who designed the city"
+      },
+      {
+        "id": "c",
+        "text": "The first congressmen to move to Brasília"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Candangos is the name for the workers from many regions, mostly the Northeast, who built the new capital.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

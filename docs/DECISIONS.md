@@ -294,6 +294,16 @@ The deploy job in `.github/workflows/ci.yml` builds with `LUMEN_PUBLIC_CONTENT_C
 - Local `pnpm dev`/`pnpm build` and the E2E job keep the default `preview` channel.
 - `apps/web/app/ci-workflow.test.ts` fails if the deploy build stops using the production channel.
 
+### D23 · "How it works" drawings for batch 2 — Founder (2026-11-10)
+
+The 31 batch 2 drafts were still showing the `fixture` placeholder in Go Deeper's **How it works** box. Each now has its own original SVG scene, in the B13 style, that shows the lesson's mechanism (for example, the boto's clicks and echoes, or the coin's speed levelling off).
+
+- The new scenes live in `apps/web/app/components/illustrations/`, one file per trail, with the shared palette and parts in `kit.tsx`; `Illustration.tsx` keeps the 22 original scenes.
+- Each variant's `heroMedia.alt` describes what the drawing explains, in both languages, because it shows as the caption under the drawing.
+- `docs/content/HOW_IT_WORKS_PROMPTS.md` has ChatGPT prompts for polished versions of all 53 scenes, with the SVG reference PNGs in `docs/content/how-it-works/`.
+- **Diagram slot (founder, 2026-11-10):** lessons gain a fourth picture slot, `diagram` (2:1, 1200×600, `pnpm media:add` file name `<lesson>_diagram`). When a lesson has one, Go Deeper's How it works box shows it with its own alt text; otherwise the SVG scene stays. `/_review` shows it as "How it works (2:1)" and **Images checked** covers it like the other slots.
+- All 53 pictures were generated the same day by Claude Code on the founder's ChatGPT account (text-only prompts: with the SVG attached, ChatGPT only traced it) and checked for accuracy, with corrections where ChatGPT got arrows, shapes or anatomy wrong. The 31 batch 2 drafts have theirs; the 22 published lessons' pictures are kept outside the repo until `/_review` can check pictures on published lessons, because an unchecked picture on a published lesson fails `content:validate` and would reach the live site.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.

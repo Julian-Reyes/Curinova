@@ -1,0 +1,205 @@
+{
+  "id": "lesson_marcos_pontes__en",
+  "conceptId": "concept_marcos_pontes",
+  "locale": "en",
+  "slug": "who-was-the-first-brazilian-in-space",
+  "title": "Who was the first Brazilian in space?",
+  "hook": "A hundred years after the 14-Bis, a Brazilian went to the space station.",
+  "summary": "Marcos Pontes was Brazil’s first astronaut: he flew to the International Space Station in 2006, on the Centenary Mission.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "On the night of 29 March 2006, Brasília time, a Russian Soyuz spacecraft lifted off from the Baikonur Cosmodrome in Kazakhstan for the International Space Station (ISS). Alongside Russian Pavel Vinogradov and American Jeffrey Williams sat Marcos Pontes, Brazil’s first astronaut."
+    },
+    {
+      "type": "paragraph",
+      "text": "The flight was named the Centenary Mission, marking a hundred years since Alberto Santos Dumont flew the 14-Bis aeroplane. It was made possible by an agreement signed in October 2005 between the Brazilian Space Agency and Russia’s Roscosmos. Pontes took about 15 kilograms of cargo with instruments for scientific experiments from Brazilian institutions."
+    },
+    {
+      "type": "takeaway",
+      "text": "Marcos Pontes became the first Brazilian in space in 2006, on the Centenary Mission to the International Space Station."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A long road"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pontes was chosen in 1998, when a space station agreement gave Brazil the right to nominate a candidate for the US space programme. By the eve of the flight, he had been training as an astronaut for eight years. After the deal with Russia, he prepared at Star City, the cosmonaut training centre."
+    },
+    {
+      "type": "heading",
+      "text": "Science without gravity"
+    },
+    {
+      "type": "paragraph",
+      "text": "The experiments used weightlessness to study its effects on enzymes, proteins, DNA and several kinds of seeds."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "soyuz-iss",
+    "alt": "Diagram of a Soyuz spacecraft rising from Earth and approaching the International Space Station to dock, as on Marcos Pontes’s 2006 flight.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "On the night of 29 March 2006 (Brasília time), the Centenary Mission lifted off from Baikonur, Kazakhstan, for the International Space Station.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "Na noite de 29 de março de 2006, as atenções estavam voltadas ao Cosmódromo de Baikonur, no Cazaquistão, para a decolagem da Missão Centenário rumo à Estação Espacial Internacional (ISS)."
+        },
+        {
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "is scheduled for liftoff at 11:30 pm tonight (Brazilian time)"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c2",
+      "text": "Marcos Pontes flew in a Soyuz with Russian Pavel Vinogradov and American Jeffrey Williams.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "Pontes viajou a bordo da espaçonave Soyuz TMA-8, ao lado do cosmonauta russo Pavel Vinogradov e do astronauta norte-americano Jeffrey Williams."
+        },
+        {
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "Besides Marcos Pontes, astronauts Jeffrey Williams (American) and Pavel Vinograd"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c3",
+      "text": "Marcos Pontes was Brazil’s first astronaut.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "with Brazil's first astronaut, Marcos Pontes, aboard."
+        },
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "era a primeira vez que um astronauta brasileiro viajaria ao espaço."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c4",
+      "text": "The Centenary Mission name honours a hundred years since Santos Dumont’s 14-Bis flight.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_agencia_fapesp_br_do_ceu_ao_73e157",
+          "excerpt": "Para completar a homenagem, o vôo foi batizado de Missão Centenário"
+        },
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "Marcos Pontes foi escolhido para representar o Brasil na missão que celebrou os 100 anos do voo de Alberto Santos Dumont com o 14-Bis"
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c5",
+      "text": "In October 2005, the Brazilian Space Agency signed an agreement with Russia’s Roscosmos for Pontes to fly on the Soyuz.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "a Agência Espacial Brasileira (AEB) firmou, em outubro de 2005, uma parceria com a agência espacial russa Roscosmos. O acordo previa um investimento de US$ 10 milhões para que Marcos Pontes viajasse a bordo da nave Soyuz."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c6",
+      "text": "Pontes took about 15 kg of cargo with instruments for experiments from Brazilian institutions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "Na bagagem, o brasileiro levou aproximadamente 15 kg de cargas da AEB, contendo instrumentos para realizar oito experimentos científicos de instituições brasileiras."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c7",
+      "text": "In 1998, a space station agreement gave Brazil the right to nominate a candidate for the US space programme, and Marcos Pontes was chosen.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "Em junho de 1998, graças ao Acordo Intergovernamental da Estação Espacial Internacional, o Brasil ganhou o direito de indicar um candidato ao programa espacial dos Estados Unidos. O selecionado foi Marcos Pontes."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c8",
+      "text": "By the eve of the flight Pontes had trained as an astronaut for eight years; after the Russian deal he prepared at Star City.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "Pontes has been in astronaut training for eight years preparing for this mission"
+        },
+        {
+          "sourceId": "src_canaltech_com_br_espaco_o_dia_326e52",
+          "excerpt": "Desta vez, a preparação aconteceu na Cidade das Estrelas, centro de treinamento dos cosmonautas na Rússia."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    },
+    {
+      "id": "c9",
+      "text": "The experiments used weightlessness to study effects on enzymes, proteins, DNA and several kinds of seeds.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+          "excerpt": "most of them taking advantage of the lack of gravity, in order to study its effects on enzymes, proteins, DNA and various types of seeds."
+        }
+      ],
+      "autoVerdict": "supported",
+      "humanVerdict": "approved"
+    }
+  ],
+  "sourceIds": [
+    "src_canaltech_com_br_espaco_o_dia_326e52",
+    "src_memoria_ebc_com_br_agenciabrasil_noticia_077306",
+    "src_agencia_fapesp_br_do_ceu_ao_73e157"
+  ],
+  "quizIds": ["q_marcos_pontes_1__en", "q_marcos_pontes_2__en"],
+  "contentLicense": "all-rights-reserved",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-04-cluster_brazil_in_space"
+  },
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-11T11:58:17.023Z",
+  "reviewAfter": null,
+  "publishedAt": "2026-11-11T12:31:24.212Z",
+  "updatedAt": "2026-11-11T12:31:24.212Z"
+}
