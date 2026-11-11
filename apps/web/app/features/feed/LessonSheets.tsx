@@ -390,10 +390,8 @@ export function DeeperSheet({
                         plateClassName="deeper-diagram-plate"
                       />
                     </div>
-                    <div className="mt-2 flex items-center gap-2">
-                      <p className="flex-1 text-[13px] leading-snug text-muted">
-                        {diagram?.alt[variant.locale] ?? variant.heroMedia.alt}
-                      </p>
+                    {/* The picture's description stays in its alt text, not on screen. */}
+                    <div className="mt-2 flex justify-end">
                       <button
                         type="button"
                         className="deeper-chipbtn pressable"
