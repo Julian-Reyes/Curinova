@@ -1,4 +1,4 @@
-import { LessonVariantSchema } from '@lumen/domain';
+import { ClusterSchema, ConceptSchema, LessonVariantSchema } from '@lumen/domain';
 import { normalizeText } from '../sources/fetch';
 import type { ContentTree } from '../validate/tree';
 import { validateContent, type Issue } from '../validate/validate';
@@ -25,11 +25,26 @@ export async function checkDrafts(
 ): Promise<DraftReport> {
   const rel = (path: string, root: string) => path.slice(root.length + 1);
   const draftRels = new Set(drafts.files.map((f) => rel(f.path, drafts.root)));
+  // A library lesson in a trail that still has drafts takes its place in the draft trail, as
+  // it will once those drafts are approved (the library trail may still skip lessons before it).
+  const draftTrails = new Map<string, string[]>();
+  for (const f of drafts.files) {
+    if (!rel(f.path, drafts.root).startsWith('clusters/')) continue;
+    const cluster = ClusterSchema.safeParse(f.data);
+    if (cluster.success) draftTrails.set(cluster.data.id, cluster.data.conceptIds);
+  }
+  const inDraftTrail = (f: ContentTree['files'][number]) => {
+    if (!/^lessons\/[^/]+\/concept\.json$/.test(rel(f.path, library.root))) return f;
+    const concept = ConceptSchema.safeParse(f.data);
+    if (!concept.success) return f; // reported by the validator
+    const position = (draftTrails.get(concept.data.clusterId)?.indexOf(concept.data.id) ?? -1) + 1;
+    return position > 0 ? { ...f, data: { ...concept.data, clusterOrder: position } } : f;
+  };
   const merged: ContentTree = {
     kind: 'real',
     root: library.root,
     files: [
-      ...library.files.filter((f) => !draftRels.has(rel(f.path, library.root))),
+      ...library.files.filter((f) => !draftRels.has(rel(f.path, library.root))).map(inDraftTrail),
       ...drafts.files.map((f) => ({ ...f, path: `${library.root}/${rel(f.path, drafts.root)}` })),
     ],
   };
