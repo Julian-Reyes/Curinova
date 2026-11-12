@@ -26,12 +26,23 @@ The custom domain lives in the repo settings. With Actions-based deploys, no `CN
 
 The deploy job builds with `LUMEN_PUBLIC_CONTENT_CHANNEL=production` (D22): the live site shows only lessons that were reviewed and published in `/_review`. Drafts stay off it until they are published. Local `pnpm dev`, `pnpm build` and the E2E job keep the default `preview` channel, which also shows drafts, labeled as such.
 
+## Public pages, previews and sitemaps (M4, D26)
+
+Every build also writes, into `apps/web/build/client`:
+
+- a static HTML page for every published lesson, topic and trail, plus Credits, in both languages (`/pt/licao/<slug>/`, `/en/lesson/<slug>/`, …). Pages serves each as `<path>/index.html`; a link without the trailing slash is redirected to it;
+- a 1200×630 link-preview JPEG for each of them under `/og/` (`pnpm content:og`; unchanged images are kept between local builds);
+- `sitemap.xml` (an index of `sitemap-pt.xml` and `sitemap-en.xml`) and `robots.txt`.
+
+The build fails if any public page is missing its title, description, canonical link, hreflang links, preview image or structured data. These addresses are public: once a lesson is live, its slug shouldn't change.
+
 ## Moving to a different domain later
 
 1. Point the new domain's DNS at GitHub Pages (a CNAME for a subdomain, or GitHub's A/AAAA records for an apex domain).
 2. Change the custom domain in Settings → Pages.
+3. Change `SITE_URL` in `packages/domain/src/brand.ts`: canonical links, sitemaps and link previews use it.
 
-No code changes are needed: the app runs at the root of whatever domain serves it.
+The app itself runs at the root of whatever domain serves it.
 
 **Important:** browsers tie on-device data to the domain. Learners' progress on `curinova.julianreyes.dev` will not appear on a new domain by itself. Before moving with real users, ship data export/import (planned for M5) and tell users how to carry their progress over.
 
