@@ -8,7 +8,7 @@ Last updated: 2026-11-03 (C1 pilot published: 22 lessons live).
 | M2 — Guest MVP slice                 | In progress                     |
 | M2.5 — Product experience overhaul   | ✅ Done (signed off 2026-11-03) |
 | M3 — Content pipeline tooling        | Pilot and batch 2 published     |
-| M4 — Public web and growth surface   | In progress (step 4 of 7)       |
+| M4 — Public web and growth surface   | In progress (step 5 of 7)       |
 | M5 — Offline, polish, beta readiness | Not started                     |
 
 ## M1 — Foundation
@@ -99,7 +99,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | 2    | Preview images (1200×630)                                                                                                                                                                                | `tools/content-pipeline/src/og/`                                                    | ✅                                               |
 | 3    | Share button and More menu (Copy link; Report a problem waits for the email)                                                                                                                             | `features/feed/share.ts`                                                            | ✅ Share; More waits for the email               |
 | 4    | Credits page; Privacy and Terms once the email exists                                                                                                                                                    | `routes/public/credits.tsx`                                                         | ✅ Credits; Privacy and Terms wait for the email |
-| 5    | Analytics adapter, allowlist, Settings toggle (nothing sent yet)                                                                                                                                         |                                                                                     |                                                  |
+| 5    | Analytics adapter, allowlist, Settings toggle (nothing sent yet)                                                                                                                                         | `platform/analytics.ts`                                                             | ✅ adapter; toggle comes with a provider         |
 | 6    | Story images for Instagram and WhatsApp Status                                                                                                                                                           |                                                                                     |                                                  |
 | 7    | Docs                                                                                                                                                                                                     |                                                                                     |                                                  |
 
