@@ -95,6 +95,11 @@
   --tl: #8c6114;
   --tbg: #f6eedd;
 }
+[data-topic='nature'] {
+  --tc: #3fcf7a;
+  --tl: #1d7343;
+  --tbg: #e3f3e8;
+}
 /* Dark surfaces: the bright accent reads well, and the tint is the accent over the card. */
 [data-theme='dark'] [data-topic='body'],
 [data-theme='dark'][data-topic='body'] {
@@ -120,6 +125,11 @@
 [data-theme='dark'][data-topic='history'] {
   --tl: #e0a440;
   --tbg: #3b3023;
+}
+[data-theme='dark'] [data-topic='nature'],
+[data-theme='dark'][data-topic='nature'] {
+  --tl: #3fcf7a;
+  --tbg: #1f3628;
 }
 
 :root {

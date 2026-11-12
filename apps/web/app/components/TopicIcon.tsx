@@ -36,6 +36,12 @@ const PATHS: Record<Topic['icon'], React.ReactNode> = {
       <path d="M8 9.5h4.5M8 13h4.5" />
     </>
   ),
+  leaf: (
+    <>
+      <path d="M5 19C5 10.5 10.5 5 19.5 4.5 19 13.5 13.5 19 5 19z" />
+      <path d="M5 19l9-9M10.5 13.5V10M10.5 13.5H14" />
+    </>
+  ),
   fixture: (
     <>
       <rect x="4.5" y="4.5" width="15" height="15" rx="3" strokeDasharray="3 2.5" />

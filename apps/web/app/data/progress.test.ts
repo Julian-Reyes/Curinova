@@ -1,4 +1,5 @@
 import 'fake-indexeddb/auto';
+import Dexie from 'dexie';
 import { afterEach, describe, expect, it } from 'vitest';
 import { LumenDB } from './db';
 import { defaultPreferences, ProgressStore } from './progress';
@@ -107,5 +108,33 @@ describe('ProgressStore (IndexedDB)', () => {
       await database.bookmarks.count(),
       await database.settings.count(),
     ]).toEqual([0, 0, 0, 0]);
+  });
+});
+
+describe('database upgrades', () => {
+  /** Stores prefs in a version 1 database, as installs before D25 have it, then opens it. */
+  async function upgradeFrom(prefs: unknown) {
+    n += 1;
+    const name = `upgrade-${n}`;
+    const v1 = new Dexie(name);
+    v1.version(1).stores({ settings: 'key' });
+    await v1.table('settings').put({ key: 'prefs', value: prefs });
+    v1.close();
+    const database = new LumenDB(name);
+    return (await database.settings.get('prefs'))?.value;
+  }
+
+  it('v2: learners who picked or muted Body get the same for Nature (D25)', async () => {
+    const prefs = { ...defaultPreferences('pt-BR'), interests: ['body', 'space'] };
+    expect(await upgradeFrom({ ...prefs, mutedTopics: ['body'] })).toMatchObject({
+      interests: ['body', 'space', 'nature'],
+      mutedTopics: ['body', 'nature'],
+    });
+  });
+
+  it('v2: leaves other preferences, and partial ones, as they were', async () => {
+    const prefs = { ...defaultPreferences('en'), interests: ['history'] };
+    expect(await upgradeFrom(prefs)).toEqual(prefs);
+    expect(await upgradeFrom({ sessionGoal: 10 })).toEqual({ sessionGoal: 10 });
   });
 });

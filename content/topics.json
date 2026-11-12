@@ -177,5 +177,23 @@
       "addedAt": "2026-10-28",
       "hash": "fa20d8e2"
     }
+  },
+  {
+    "id": "nature",
+    "slug": {
+      "pt-BR": "natureza-e-animais",
+      "en": "nature-and-animals"
+    },
+    "name": {
+      "pt-BR": "Natureza & Animais",
+      "en": "Nature & Animals"
+    },
+    "description": {
+      "pt-BR": "Bichos, plantas e os truques que a natureza inventou para sobreviver.",
+      "en": "Animals, plants and the tricks nature invented to survive."
+    },
+    "icon": "leaf",
+    "accentColor": "#2F8F5B",
+    "sortOrder": 5
   }
 ]
