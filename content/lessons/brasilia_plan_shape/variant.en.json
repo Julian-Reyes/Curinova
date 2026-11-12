@@ -1,61 +1,61 @@
 {
-  "id": "lesson_brasilia_plan_shape__pt-BR",
+  "id": "lesson_brasilia_plan_shape__en",
   "conceptId": "concept_brasilia_plan_shape",
-  "locale": "pt-BR",
-  "slug": "por-que-brasilia-tem-forma-de-aviao",
-  "title": "Por que Brasília tem forma de avião?",
-  "hook": "Lúcio Costa não desenhou um avião. Desenhou uma cruz.",
-  "summary": "O Plano Piloto de Lúcio Costa nasceu de dois eixos cruzados, um deles curvado pelo terreno; o avião é uma leitura popular.",
+  "locale": "en",
+  "slug": "why-is-brasilia-shaped-like-an-airplane",
+  "title": "Why is Brasília shaped like an airplane?",
+  "hook": "Lúcio Costa didn’t draw an airplane. He drew a cross.",
+  "summary": "Lúcio Costa’s Plano Piloto began as two crossing axes, one bent to fit the land; the airplane is a popular reading.",
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "Visto do alto, o Plano Piloto parece um avião: um corpo reto e duas asas curvas. Mas o urbanista Lúcio Costa não partiu dessa imagem. No relatório com que venceu o concurso da nova capital, em 1957, ele explicou que o traçado nasceu de \"dois eixos cruzando-se em ângulo reto, ou seja, o próprio sinal da cruz\"."
+      "text": "From above, Brasília’s Plano Piloto looks like an airplane: a straight body and two curved wings. But the planner Lúcio Costa did not start from that image. In the report that won the competition for the new capital in 1957, he wrote that the plan came from two axes crossing at a right angle, the sign of the cross itself."
     },
     {
       "type": "paragraph",
-      "text": "Para se adaptar ao relevo, um dos eixos foi arqueado. Assim surgiram o Eixo Monumental, com a Esplanada dos Ministérios, e o Eixo Rodoviário, curvo, com as Asas Norte e Sul. Daí veio a ideia do avião, que pegou. Mas é uma leitura popular: o próprio Lúcio Costa preferia comparar o desenho a uma borboleta."
+      "text": "To fit the terrain, one axis was bent into a curve. That gave the Monumental Axis, with the Esplanade of the Ministries, and the curved Road Axis, with the North and South Wings. Hence the airplane, an image that stuck. But it is a popular reading: Costa himself preferred to compare the plan to a butterfly."
     },
     {
       "type": "takeaway",
-      "text": "Brasília nasceu de uma cruz de dois eixos; o avião é uma leitura popular, não a ideia de Lúcio Costa."
+      "text": "Brasília began as a cross of two axes; the airplane is a popular reading, not Lúcio Costa’s idea."
     }
   ],
   "deepDiveBlocks": [
     {
       "type": "heading",
-      "text": "Um esboço vencedor"
+      "text": "A winning sketch"
     },
     {
       "type": "paragraph",
-      "text": "Lúcio Costa entregou apenas um esboço simples e um memorial, bem menos que os concorrentes. Mesmo assim, entre 26 trabalhos, o júri escolheu o projeto número 22, o dele."
+      "text": "Costa handed in only a simple sketch and a written report, far less than the other entrants. Even so, out of 26 entries, the jury chose his, number 22."
     },
     {
       "type": "heading",
-      "text": "Patrimônio Mundial"
+      "text": "World Heritage"
     },
     {
       "type": "paragraph",
-      "text": "Em 1987, Brasília entrou na lista do Patrimônio Mundial da UNESCO. O que se protege é o plano urbanístico de Lúcio Costa, e não os prédios de Oscar Niemeyer, que têm outras leis. O plano se organiza em quatro escalas: monumental, residencial, gregária e bucólica."
+      "text": "In 1987, Brasília was added to UNESCO’s World Heritage List. What is protected is Costa’s urban plan, not Oscar Niemeyer’s buildings, which have their own laws. The plan works on four scales: monumental, residential, social and bucolic."
     },
     {
       "type": "heading",
-      "text": "Outras leituras"
+      "text": "Other readings"
     },
     {
       "type": "paragraph",
-      "text": "O arquiteto Léon Pressouyre, relator da candidatura na UNESCO, viu no desenho \"um pássaro gigante voando em direção ao sudeste\"."
+      "text": "The architect Léon Pressouyre, who reported on Brasília’s bid for UNESCO, saw in it \"a giant bird flying towards the southeast\"."
     }
   ],
   "heroMedia": {
     "type": "illustration",
     "illustrationId": "plano-piloto",
-    "alt": "Diagrama do Plano Piloto: dois eixos que se cruzam, o Eixo Monumental reto e o Eixo Rodoviário curvo, com as superquadras ao longo das asas; a linha tracejada mostra o eixo reto que foi curvado.",
+    "alt": "Diagram of the Plano Piloto: two crossing axes, the straight Monumental Axis and the curved Road Axis, with superblocks along the wings; the dashed line shows the straight axis that was bent.",
     "license": "original"
   },
   "claims": [
     {
       "id": "c1",
-      "text": "Popularmente, o Plano Piloto é comparado a um avião, com o Eixo Monumental como corpo e o Eixo Rodoviário como asas.",
+      "text": "Popularly, the Plano Piloto is compared to an airplane, with the Monumental Axis as its body and the Road Axis as its wings.",
       "highStakes": false,
       "support": [
         {
@@ -68,11 +68,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c2",
-      "text": "Lúcio Costa venceu o concurso do Plano Piloto em 1957.",
+      "text": "Lúcio Costa won the competition for the Plano Piloto in 1957.",
       "highStakes": false,
       "support": [
         {
@@ -81,11 +81,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c3",
-      "text": "No relatório do concurso, Lúcio Costa escreveu que o traçado nasceu de dois eixos cruzando-se em ângulo reto, \"o próprio sinal da cruz\".",
+      "text": "In his competition report, Costa wrote that the plan came from two axes crossing at a right angle, \"the sign of the cross itself\".",
       "highStakes": false,
       "support": [
         {
@@ -98,11 +98,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c4",
-      "text": "Para se adaptar ao relevo, um dos eixos foi arqueado.",
+      "text": "To fit the terrain, one of the axes was bent into a curve.",
       "highStakes": false,
       "support": [
         {
@@ -111,11 +111,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c5",
-      "text": "O Eixo Monumental reúne a Esplanada dos Ministérios; ao longo do Eixo Rodoviário ficam as Asas Norte e Sul.",
+      "text": "The Monumental Axis holds the Esplanade of the Ministries; the North and South Wings run along the Road Axis.",
       "highStakes": false,
       "support": [
         {
@@ -128,11 +128,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c6",
-      "text": "A comparação com o avião é uma leitura popular; Lúcio Costa preferia comparar o desenho a uma borboleta.",
+      "text": "The airplane is a popular reading; Costa preferred to compare the plan to a butterfly.",
       "highStakes": false,
       "support": [
         {
@@ -145,11 +145,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c7",
-      "text": "Lúcio Costa entregou só um esboço simples e um memorial, bem menos que os concorrentes.",
+      "text": "Costa handed in only a simple sketch and a written report, far less than the other entrants.",
       "highStakes": false,
       "support": [
         {
@@ -158,11 +158,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c8",
-      "text": "Entre 26 trabalhos, o júri escolheu o projeto número 22, de Lúcio Costa.",
+      "text": "Out of 26 entries, the jury chose Costa’s, number 22.",
       "highStakes": false,
       "support": [
         {
@@ -175,11 +175,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c9",
-      "text": "Brasília entrou na lista do Patrimônio Mundial da UNESCO em 1987.",
+      "text": "Brasília was added to UNESCO’s World Heritage List in 1987.",
       "highStakes": false,
       "support": [
         {
@@ -188,11 +188,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c10",
-      "text": "O tombamento protege o plano urbanístico de Lúcio Costa, e não os prédios de Niemeyer, que têm outras leis.",
+      "text": "The listing protects Costa’s urban plan, not Niemeyer’s buildings, which have their own laws.",
       "highStakes": false,
       "support": [
         {
@@ -201,11 +201,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c11",
-      "text": "O plano se organiza em quatro escalas: monumental, residencial, gregária (social) e bucólica.",
+      "text": "The plan works on four scales: monumental, residential, social and bucolic.",
       "highStakes": false,
       "support": [
         {
@@ -214,11 +214,11 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c12",
-      "text": "O relator da candidatura na UNESCO, Léon Pressouyre, viu no desenho \"um pássaro gigante voando em direção ao sudeste\".",
+      "text": "UNESCO’s rapporteur for the bid, Léon Pressouyre, saw \"a giant bird flying towards the southeast\".",
       "highStakes": false,
       "support": [
         {
@@ -227,7 +227,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     }
   ],
   "sourceIds": [
@@ -236,18 +236,18 @@
     "src_jornaldebrasilia_com_br_60anos_lucio_costa_b50a1f",
     "src_blogs_correiobraziliense_com_br_candangando_e_cf6bc2"
   ],
-  "quizIds": ["q_brasilia_plan_shape_1__pt-BR", "q_brasilia_plan_shape_2__pt-BR"],
-  "contentLicense": "pending",
+  "quizIds": ["q_brasilia_plan_shape_1__en", "q_brasilia_plan_shape_2__en"],
+  "contentLicense": "all-rights-reserved",
   "generation": {
     "model": "claude-code (claude-opus-5-5)",
     "promptVersion": "write-v1",
     "runId": "2026-11-04-cluster_brazil_capitals"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-12T16:50:53.633Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-11-04T00:00:00Z"
+  "publishedAt": "2026-11-12T16:51:32.903Z",
+  "updatedAt": "2026-11-12T16:51:32.903Z"
 }

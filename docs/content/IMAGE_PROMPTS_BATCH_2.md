@@ -34,7 +34,7 @@ These lessons have their pictures; they are kept here in case one needs replacin
 
 - **Discover:** A toco toucan on a treetop above misty forest (Pexels, Matheus Bertelli; no location given).
 - **Deeper:** Amazon canopy from above in San Juan Bautista, Peru (Unsplash, David Geere). _No forest-edge or deforestation photo found yet; swap one in if it turns up._
-- **Review:** A river bend through unbroken forest in the Vale do Javari Indigenous Territory, Amazonas (Commons, CC BY 2.0, Amazônia Real). _Don't show: Calendars, alerts, charts, the words PRODES or DETER. Tom Fisk's Pexels forest (2739664) was turned down: it is Rochester, Minnesota._
+- **Review:** A river winding through the Amazon forest under small clouds, seen from a plane (Pexels, Miguel Cuenca), cropped to 16:9 from the bottom. _Replaced the Vale do Javari river bend (Commons, Amazônia Real) on 2026-11-12. Don't show: Calendars, alerts, charts, the words PRODES or DETER. Turned down: Tom Fisk's Pexels forest (2739664) is Rochester, Minnesota; Vlad Hilitanu's Unsplash forest road (pt7QzB4ZLWw) is Iași, Romania._
 
 #### cbers_program: What is CBERS?
 
@@ -60,9 +60,9 @@ Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; coloni
 
 #### brasilia_plan_shape: Why is Brasília shaped like an airplane?
 
-- **Discover:** Congress towers or Palácio do Planalto in a tall crop.
-- **Deeper:** Aerial view of the Eixo Monumental.
-- **Review:** A Brasília superquadra with pilotis and trees. _Don't show: The airplane or cross-shaped plan from above, UNESCO, Lúcio Costa._
+- **Discover:** NASA EO-1 satellite image of Brasília, 21 August 2001 (Commons, public domain), turned a quarter turn so east is up and the plan reads as an airplane, cropped to 9:16. _No aerial photo of the airplane shape on Pexels or Unsplash._
+- **Deeper:** The Palácio da Alvorada at dusk, reflected in its pool (Unsplash, Daniel Duarte), cropped to 12:7 around the columns.
+- **Review:** Palácio do Planalto in black and white (Pexels, Lucas Vinícius Pontes). _Don't show: The airplane or cross-shaped plan from above, UNESCO, Lúcio Costa._
 - **Search:** Pexels/Unsplash: "Brasília aerial", "Eixo Monumental", "superquadra". Commons: "Plano Piloto Brasília".
 
 ### Amazon survival tricks
@@ -161,7 +161,7 @@ _Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel To
 
 #### salvador_first_capital: Why was Salvador Brazil's first capital?
 
-- **Discover:** A Pelourinho street with colonial houses and church towers (Pexels, Marcelo Gonzalez).
+- **Discover:** A cobbled Pelourinho slope with colonial houses and a church's twin towers (Unsplash, Marianna Smiley), cropped to 9:16 low and tight so the houses fill the card, not the sky. _Replaced Marcelo Gonzalez's Pexels street on 2026-11-12._
 - **Deeper:** The Lacerda Elevator and the Bay of All Saints (Pexels, Luís Otávio).
 - **Review:** Aerial view of Salvador's seafront (Pexels, LEONARDO DOURADO). _Don't show: Tomé de Sousa, 1549, caravels arriving._
 - **Search:** Pexels/Unsplash: "Pelourinho", "Salvador Bahia", "Elevador Lacerda". Commons: "Salvador 17th century engraving".
@@ -181,7 +181,7 @@ _Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel To
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
 
-- **Discover:** A lone hiker in a wide grassy field below a plateau (Pexels, Matheus Bertelli; no location given).
+- **Discover:** A waterfall in Chapada dos Veadeiros (Pexels, Pablo Melo), cropped to 9:16 around the falls with a strip of sky above the ridge. _Replaced Matheus Bertelli's hiker (no location given) on 2026-11-12._
 - **Deeper:** Henrique Morize's 1894 photo of the Cruls Commission (Commons, public domain).
 - **Review:** A twisted Cerrado tree in Chapada dos Veadeiros (Commons, CC BY-SA 4.0, Eliane de Castro). _Don't show: Surveyors, markers, the 1891 Constitution._
 - **Search:** Pexels/Unsplash: "cerrado", "Chapada dos Veadeiros". Commons: "Missão Cruls", "Planalto Central 1892".

@@ -23,7 +23,7 @@
     "explanation": "A ideia surgiu na Colônia; a Constituição de 1891 foi a primeira a reservar uma área no Planalto Central para a futura capital.",
     "misconception": "JK construiu Brasília, mas a área já estava prevista na Constituição desde 1891.",
     "claimIds": ["c1", "c3"],
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "id": "q_inland_capital_idea_2__pt-BR",
@@ -48,6 +48,6 @@
     "correctOptionId": "a",
     "explanation": "Chefiada pelo astrônomo Luiz Cruls, a comissão devia definir no Planalto Central a área de 14.400 km² prevista na Constituição.",
     "claimIds": ["c4", "c5"],
-    "status": "draft"
+    "status": "reviewed"
   }
 ]

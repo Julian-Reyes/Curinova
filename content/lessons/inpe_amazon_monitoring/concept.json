@@ -39,7 +39,7 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/toco-toucan-perching-on-top-of-a-tree-17767032/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "abea6a64"
     },
@@ -57,7 +57,7 @@
         "license": "Unsplash License",
         "sourceUrl": "https://unsplash.com/photos/green-leaves-in-close-up-photography-oFxuQxE0Hm0"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "fd3e8205"
     },
@@ -65,19 +65,19 @@
       "width": 1000,
       "height": 562,
       "alt": {
-        "pt-BR": "Vista aérea de um rio barrento fazendo uma curva fechada no meio da floresta amazônica contínua, na Terra Indígena Vale do Javari, no Amazonas",
-        "en": "Aerial view of a muddy river making a tight bend through unbroken Amazon forest, in the Vale do Javari Indigenous Territory, Amazonas"
+        "pt-BR": "Um rio serpenteia pela floresta amazônica no Brasil, visto do alto de um avião, sob um tapete de pequenas nuvens que se estende até o horizonte",
+        "en": "A river winds through the Amazon forest in Brazil, seen from high up in a plane, under a carpet of small clouds stretching to the horizon"
       },
       "origin": {
         "kind": "licensed",
-        "creator": "Amazônia Real",
-        "platform": "Wikimedia Commons",
-        "license": "CC BY 2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TI_Vale_do_Javari_-_Kanamari_(45836644185).jpg"
+        "creator": "Miguel Cuenca",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-amazon-river-in-brasil-38814719/"
       },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-10",
-      "hash": "2b8903c5"
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-12",
+      "hash": "d1fda412"
     },
     "diagram": {
       "width": 1200,
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "6914cc31"
     }

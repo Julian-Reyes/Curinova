@@ -23,7 +23,7 @@
     "explanation": "Salvador was founded in 1549 by the first governor-general, Tomé de Sousa, and was the capital until 1763.",
     "misconception": "Cabral arrived in 1500 but founded no city; the seat of government came half a century later.",
     "claimIds": ["c3", "c7"],
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "id": "q_salvador_first_capital_2__en",
@@ -48,6 +48,6 @@
     "correctOptionId": "a",
     "explanation": "After the captaincies failed, the Crown created the General Government and founded Salvador to centralize rule.",
     "claimIds": ["c1", "c2", "c5"],
-    "status": "draft"
+    "status": "reviewed"
   }
 ]

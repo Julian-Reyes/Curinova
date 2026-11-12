@@ -23,7 +23,7 @@
     "explanation": "The idea began in colonial times; the 1891 Constitution was the first to set land aside on the central plateau for a future capital.",
     "misconception": "Kubitschek built Brasília, but the site had been in the Constitution since 1891.",
     "claimIds": ["c1", "c3"],
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "id": "q_inland_capital_idea_2__en",
@@ -48,6 +48,6 @@
     "correctOptionId": "a",
     "explanation": "Led by the astronomer Luiz Cruls, the commission was to mark out the 14,400 km² area named in the Constitution.",
     "claimIds": ["c4", "c5"],
-    "status": "draft"
+    "status": "reviewed"
   }
 ]

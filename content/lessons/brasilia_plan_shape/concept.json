@@ -1,0 +1,100 @@
+{
+  "id": "concept_brasilia_plan_shape",
+  "topicId": "history",
+  "clusterId": "cluster_brazil_capitals",
+  "clusterOrder": 6,
+  "tags": ["brazil", "brasilia", "urbanism"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_building_brasilia",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Como esse desenho virou cidade em 41 meses.",
+        "en": "How this plan became a city in 41 months."
+      }
+    },
+    {
+      "conceptId": "concept_salvador_first_capital",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Como Salvador, Brasília também é Patrimônio Mundial.",
+        "en": "Like Salvador, Brasília is a World Heritage Site too."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Brasília vista de satélite, girada com o leste para cima: as asas curvas e o eixo central do Plano Piloto lembram um avião junto ao Lago Paranoá",
+        "en": "Brasília seen by satellite, turned with east at the top: the Plano Piloto's curved wings and central axis look like an airplane beside Lake Paranoá"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "NASA Earth Observatory (Jesse Allen), EO-1 ALI data from NASA and USGS",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Partial_view_of_the_Federal_District,_Brazil_seen_from_space_in_2001_(3).jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-12",
+      "hash": "d417252f"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "O Palácio da Alvorada, em Brasília, ao entardecer: as colunas curvas de mármore se refletem no espelho d'água, com a capela ao lado",
+        "en": "Brasília's Palácio da Alvorada at dusk: its curved marble columns reflected in the pool, with the chapel beside it"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Daniel Duarte",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/white-and-brown-building-near-body-of-water-during-night-time-gXxCQNYBRPw"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-12",
+      "hash": "e4c03eb7"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "O Palácio do Planalto, em Brasília, em preto e branco, com suas colunas curvas e a rampa de mármore",
+        "en": "Brasília's Palácio do Planalto in black and white, with its curved columns and marble ramp"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Lucas Vinícius Pontes",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/palacio-do-planalto-in-brasilia-20758172/"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-12",
+      "hash": "894c9fa4"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "O Plano Piloto visto de cima: o Eixo Monumental reto cruza o Eixo Rodoviário curvo, ladeado pelas superquadras; uma linha tracejada mostra o eixo reto que foi curvado.",
+        "en": "The Plano Piloto from above: the straight Monumental Axis crosses the curved Road Axis, lined by superblocks; a dashed line shows the straight axis that was bent."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-10",
+      "hash": "35a90b73"
+    }
+  }
+}

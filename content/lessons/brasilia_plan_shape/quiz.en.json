@@ -23,7 +23,7 @@
     "explanation": "In his 1957 report, Costa described two axes crossing at a right angle; the airplane is a popular reading.",
     "misconception": "The airplane is how many people see the Plano Piloto, but Costa himself preferred a butterfly.",
     "claimIds": ["c3", "c6"],
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "id": "q_brasilia_plan_shape_2__en",
@@ -48,6 +48,6 @@
     "correctOptionId": "a",
     "explanation": "The listing protects Costa’s urban plan; Niemeyer’s buildings are protected by other laws.",
     "claimIds": ["c9", "c10"],
-    "status": "draft"
+    "status": "reviewed"
   }
 ]

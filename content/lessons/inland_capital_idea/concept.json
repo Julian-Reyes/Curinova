@@ -25,6 +25,24 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Uma cachoeira despenca de um paredão de pedra coberto de mata na Chapada dos Veadeiros, no Planalto Central",
+        "en": "A waterfall drops from a forested rock wall in Chapada dos Veadeiros, on Brazil's Central Plateau"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Pablo Melo",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/chapada-dos-veadeiros-national-park-in-brazil-9478881/"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-12",
+      "hash": "4854028c"
+    },
     "deeper": {
       "width": 1200,
       "height": 700,
@@ -39,27 +57,9 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morize_-_Comiss%C3%A3o_Cruls.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "c19e3ce1"
-    },
-    "discover": {
-      "width": 1024,
-      "height": 1820,
-      "alt": {
-        "pt-BR": "Uma pessoa sozinha num campo extenso de capim, com mata e um planalto ao fundo sob um céu azul",
-        "en": "A lone person in a wide grassy field, with woodland and a plateau behind under a blue sky"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Matheus Bertelli",
-        "platform": "Pexels",
-        "license": "Pexels License",
-        "sourceUrl": "https://www.pexels.com/photo/31853371/"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-09",
-      "hash": "2903bc9b"
     },
     "review": {
       "width": 1000,
@@ -75,7 +75,7 @@
         "license": "CC BY-SA 4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerrado_-_Parque_Nacional_Chapada_dos_veadeiros.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "f49f3ccc"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "2eddcba1"
     }
