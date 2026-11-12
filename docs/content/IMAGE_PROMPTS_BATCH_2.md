@@ -181,7 +181,7 @@ _Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel To
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
 
-- **Discover:** A waterfall in Chapada dos Veadeiros (Pexels, Pablo Melo), cropped to 9:16 low and tight around the falls, not the sky. _Replaced Matheus Bertelli's hiker (no location given) on 2026-11-12._
+- **Discover:** A waterfall in Chapada dos Veadeiros (Pexels, Pablo Melo), cropped to 9:16 around the falls with a strip of sky above the ridge. _Replaced Matheus Bertelli's hiker (no location given) on 2026-11-12._
 - **Deeper:** Henrique Morize's 1894 photo of the Cruls Commission (Commons, public domain).
 - **Review:** A twisted Cerrado tree in Chapada dos Veadeiros (Commons, CC BY-SA 4.0, Eliane de Castro). _Don't show: Surveyors, markers, the 1891 Constitution._
 - **Search:** Pexels/Unsplash: "cerrado", "Chapada dos Veadeiros". Commons: "Missão Cruls", "Planalto Central 1892".
