@@ -72,7 +72,7 @@ it('the accent is too light for text on light surfaces (decorative only)', () =>
  * Topic accents: --tl is used for text and marks on page surfaces, ink sits on the --tbg
  * tint (takeaways, review answers), and --tc is used on the always-dark Discover card.
  */
-const TOPICS = ['body', 'brain', 'space', 'everyday_science', 'history'];
+const TOPICS = ['body', 'brain', 'space', 'everyday_science', 'history', 'nature'];
 const DISCOVER_BG = '#000000';
 
 describe.each(TOPICS)('topic %s', (topic) => {

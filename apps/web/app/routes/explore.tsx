@@ -70,7 +70,10 @@ export default function Explore() {
               const following = prefs.interests.includes(topic.id);
               const muted = prefs.mutedTopics.includes(topic.id);
               return (
-                <li key={topic.id} className={i === 0 ? 'is-wide' : undefined}>
+                <li
+                  key={topic.id}
+                  className={isWideTile(i, library.topics.length) ? 'is-wide' : undefined}
+                >
                   <Link
                     to={`/app/topic/${topic.slug[prefs.locale]}`}
                     className="topic-tile pressable"
@@ -112,4 +115,12 @@ export default function Explore() {
       )}
     </Page>
   );
+}
+
+/**
+ * Topic tiles sit two to a row. With an odd number of topics the first tile spans both
+ * columns, so no tile is left alone at the end.
+ */
+function isWideTile(index: number, count: number): boolean {
+  return index === 0 && count % 2 === 1;
 }

@@ -1060,6 +1060,33 @@
   .deeper-more[open] summary svg {
     transform: rotate(180deg);
   }
+  /* Sources: a small muted label with a caret; the list opens on tap. */
+  .deeper-sources summary {
+    list-style: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font: 600 12px/1.2 var(--font-sans);
+    color: var(--muted);
+    cursor: pointer;
+  }
+  .deeper-sources summary::-webkit-details-marker {
+    display: none;
+  }
+  /* A finger-sized tap area around the small label. */
+  .deeper-sources summary::after {
+    content: '';
+    position: absolute;
+    inset: -14px -10px;
+  }
+  .deeper-sources summary svg {
+    flex: none;
+    transition: transform 0.3s var(--ease-out);
+  }
+  .deeper-sources[open] summary svg {
+    transform: rotate(180deg);
+  }
   .deeper-draft {
     display: inline-flex;
     align-items: center;

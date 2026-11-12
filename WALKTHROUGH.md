@@ -310,6 +310,12 @@ For when we want richer versions, `docs/content/HOW_IT_WORKS_PROMPTS.md` holds a
 
 **Then the richer versions (same day).** Lessons gained a fourth picture slot, the "How it works" diagram. Claude generated all 53 in ChatGPT, checked each one for accuracy and asked for corrections where needed (arrows pointing the wrong way, a road that should curve, a map that made Brazil an island). The 31 batch 2 lessons now show theirs in Go Deeper and wait for **Images checked** in `/_review`; a lesson without one keeps its drawing. The 22 published lessons got theirs the next day: the review queue gained a **Published, pictures to check** list, and the app won't build until each of those pictures is checked, so none reaches the live site unchecked (D23).
 
+### Step 24: Sources fold away, and a sixth topic (12 November)
+
+**Sources.** In Go Deeper, the list of sources now hides behind a small "Sources" label with a caret. One tap opens it. The photo credit stays visible, because some photo licenses require the credit next to the picture (D24).
+
+**Nature & Animals.** The app now has a sixth topic, with a jaguar as its picture, a leaf icon and a forest-green colour. It sits next to Human Body & Biology in Explore, which now shows three even rows of two topics. The Amazon survival tricks trail (the electric eel, the pirarucu, leafcutter ants, poison dart frogs, the boto and the giant water lily) moved there from Human Body & Biology, where it had been waiting since batch 2. Progress is kept because it's stored by lesson, not by topic. People who had picked Human Body & Biology as an interest get Nature & Animals picked too, so the Amazon lessons don't suddenly count as "outside your interests"; the same goes for anyone who had muted it (D25).
+
 ---
 
 ---

@@ -108,7 +108,15 @@ export const LessonMediaSchema = z.strictObject({
 export type LessonMedia = z.infer<typeof LessonMediaSchema>;
 
 /** Keys of the original SVG icons/illustrations shipped with the app. */
-export const TopicIconSchema = z.enum(['body', 'brain', 'space', 'flask', 'scroll', 'fixture']);
+export const TopicIconSchema = z.enum([
+  'body',
+  'brain',
+  'space',
+  'flask',
+  'scroll',
+  'leaf',
+  'fixture',
+]);
 
 export const TopicSchema = z.strictObject({
   id: TopicIdSchema,

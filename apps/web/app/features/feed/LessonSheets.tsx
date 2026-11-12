@@ -429,47 +429,57 @@ export function DeeperSheet({
               </section>
             )}
 
-            <section className="deeper-sec" lang={prefs.locale}>
-              <h3 className="deeper-label">{t('deeper.sources')}</h3>
-              <div className="deeper-card p-4">
-                {draft && (
-                  <>
-                    <button
-                      type="button"
-                      className="deeper-draft pressable"
-                      onClick={onOpenSources}
-                    >
-                      {t('deeper.draft')}
-                    </button>
-                    <p className="mt-2.5 text-[14px] leading-relaxed text-ink-soft">
-                      {t('sources.draftBody')}
-                    </p>
-                  </>
-                )}
-                {sources.length > 0 && (
-                  <ul className="mt-3 flex flex-col gap-2">
-                    {sources.map((src) => (
-                      <li key={src.id} className="text-[14px]">
-                        <a
-                          href={src.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="font-semibold text-tl underline-offset-2 hover:underline"
-                        >
-                          {src.title}
-                        </a>
-                        <span className="text-muted"> · {src.publisher}</span>
-                      </li>
-                    ))}
-                  </ul>
+            {(draft || sources.length > 0 || credits.length > 0) && (
+              <section className="deeper-sec" lang={prefs.locale}>
+                {/* Sources stay out of the way: a quiet label that opens the list. */}
+                {(draft || sources.length > 0) && (
+                  <details className="deeper-sources">
+                    <summary>
+                      {t('deeper.sources')}
+                      <ChevronDownIcon size={14} />
+                    </summary>
+                    <div className="deeper-card mt-2 p-4">
+                      {draft && (
+                        <>
+                          <button
+                            type="button"
+                            className="deeper-draft pressable"
+                            onClick={onOpenSources}
+                          >
+                            {t('deeper.draft')}
+                          </button>
+                          <p className="mt-2.5 text-[14px] leading-relaxed text-ink-soft">
+                            {t('sources.draftBody')}
+                          </p>
+                        </>
+                      )}
+                      {sources.length > 0 && (
+                        <ul className={`flex flex-col gap-2 ${draft ? 'mt-3' : ''}`}>
+                          {sources.map((src) => (
+                            <li key={src.id} className="text-[14px]">
+                              <a
+                                href={src.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="font-semibold text-tl underline-offset-2 hover:underline"
+                              >
+                                {src.title}
+                              </a>
+                              <span className="text-muted"> · {src.publisher}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </details>
                 )}
                 {credits.length > 0 && (
-                  <p className="mt-3 border-t border-line pt-3 text-[13px] text-muted">
+                  <p className="mt-1 text-[12px] text-muted">
                     {t('deeper.photoCredit', { credit: credits.join(' · ') })}
                   </p>
                 )}
-              </div>
-            </section>
+              </section>
+            )}
 
             {concept.related.length > 0 && (
               <section className="deeper-sec" lang={prefs.locale}>

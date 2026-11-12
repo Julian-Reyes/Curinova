@@ -36,6 +36,42 @@
     }
   },
   {
+    "id": "nature",
+    "slug": {
+      "pt-BR": "natureza-e-animais",
+      "en": "nature-and-animals"
+    },
+    "name": {
+      "pt-BR": "Natureza & Animais",
+      "en": "Nature & Animals"
+    },
+    "description": {
+      "pt-BR": "Bichos, plantas e os truques que a natureza inventou para sobreviver.",
+      "en": "Animals, plants and the tricks nature invented to survive."
+    },
+    "icon": "leaf",
+    "accentColor": "#2F8F5B",
+    "sortOrder": 1,
+    "image": {
+      "width": 1200,
+      "height": 800,
+      "alt": {
+        "pt-BR": "Uma onça-pintada de perfil, em close, caminhando pelo capim alto",
+        "en": "A jaguar in close-up profile, prowling through tall grass"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Pixabay",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/brown-leopard-on-green-grass-235674/"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-12",
+      "hash": "21ca2d16"
+    }
+  },
+  {
     "id": "brain",
     "slug": {
       "pt-BR": "cerebro-e-comportamento",
@@ -51,7 +87,7 @@
     },
     "icon": "brain",
     "accentColor": "#7B5CC4",
-    "sortOrder": 1,
+    "sortOrder": 2,
     "image": {
       "width": 1200,
       "height": 800,
@@ -86,7 +122,7 @@
     },
     "icon": "space",
     "accentColor": "#3F63C2",
-    "sortOrder": 2,
+    "sortOrder": 3,
     "image": {
       "width": 1200,
       "height": 800,
@@ -122,7 +158,7 @@
     },
     "icon": "flask",
     "accentColor": "#C98A12",
-    "sortOrder": 3,
+    "sortOrder": 4,
     "image": {
       "width": 1200,
       "height": 800,
@@ -158,7 +194,7 @@
     },
     "icon": "scroll",
     "accentColor": "#9A6B3D",
-    "sortOrder": 4,
+    "sortOrder": 5,
     "image": {
       "width": 1200,
       "height": 800,
