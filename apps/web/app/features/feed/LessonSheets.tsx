@@ -11,6 +11,7 @@ import {
   ChevronLeftIcon,
   ChevronRightIcon,
   QuizIcon,
+  ShareIcon,
   SpeakerIcon,
 } from '../../components/icons';
 import { imageCredits, LessonArt } from '../../components/LessonArt';
@@ -170,6 +171,7 @@ export function DeeperSheet({
   onContinueTrail,
   onQuiz,
   onOpenSources,
+  onShare,
 }: {
   open: boolean;
   onOpenChange: (open: boolean) => void;
@@ -185,6 +187,8 @@ export function DeeperSheet({
   onContinueTrail: () => void;
   onQuiz: () => void;
   onOpenSources: () => void;
+  /** Shares the lesson's public page; absent for drafts, which have none. */
+  onShare?: (() => void) | undefined;
 }) {
   const { t } = useTranslation();
   const { library, prefs } = useApp();
@@ -334,6 +338,16 @@ export function DeeperSheet({
               >
                 <BookmarkIcon filled={saved} size={22} />
               </button>
+              {onShare && (
+                <button
+                  type="button"
+                  className="deeper-ib"
+                  onClick={onShare}
+                  aria-label={t('card.share')}
+                >
+                  <ShareIcon size={22} />
+                </button>
+              )}
             </div>
           </div>
 

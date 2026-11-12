@@ -326,6 +326,8 @@ Each page reads like an article: the question, the photo, the explanation, the t
 
 **Link previews.** Paste a lesson link into WhatsApp or iMessage and it now shows a picture: the lesson's photo darkened at the bottom, with the topic, the question and the app name on top. Every lesson, topic and trail gets one, made when the site is built.
 
+**Share.** Lessons now have a Share button, on the card and at the top of Go Deeper. On a phone it opens the usual share sheet (WhatsApp, Messages and so on) with the lesson's page; on a computer it copies the link.
+
 ---
 
 ---

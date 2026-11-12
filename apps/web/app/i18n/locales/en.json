@@ -103,7 +103,10 @@
     "unsavedToast": "Removed from Library",
     "diveIn": "Dive in",
     "diveInLabel": "Dive in: {{title}}",
-    "trailStepShort": "{{step}}/{{total}}"
+    "trailStepShort": "{{step}}/{{total}}",
+    "share": "Share",
+    "linkCopied": "Link copied",
+    "shareFailed": "Couldn’t copy the link"
   },
   "audio": {
     "playing": "Reading aloud…",

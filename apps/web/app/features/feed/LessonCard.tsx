@@ -6,6 +6,7 @@ import {
   BookmarkIcon,
   PauseIcon,
   QuizIcon,
+  ShareIcon,
   SpeakerIcon,
   StopIcon,
 } from '../../components/icons';
@@ -15,6 +16,7 @@ import { TopicIcon } from '../../components/TopicIcon';
 import { useApp, useProgress } from '../../data/app-context';
 import { useSpeech } from '../../hooks/useSpeech';
 import { DeeperSheet, QuizSheet, SourcesSheet } from './LessonSheets';
+import { canShare, useShareLesson } from './share';
 import { useLessonTracking } from './tracking';
 
 export type CardReason = 'interest' | 'trail' | 'new';
@@ -54,6 +56,7 @@ export function LessonCard({
   const { library, prefs, reportStorageError } = useApp();
   const progress = useProgress();
   const toast = useToast();
+  const share = useShareLesson();
   const [sheet, setSheet] = useState<'quiz' | 'deeper' | 'sources' | null>(null);
   const { markCompleted } = useLessonTracking(variant, active, onOpened);
   const openDeeper = () => {
@@ -229,6 +232,13 @@ export function LessonCard({
             setSheet('quiz');
           }}
         />
+        {canShare(variant) && (
+          <RailButton
+            label={t('card.share')}
+            icon={<ShareIcon size={23} />}
+            onClick={() => void share(variant)}
+          />
+        )}
       </div>
 
       {speech.state !== 'idle' && (
@@ -273,6 +283,7 @@ export function LessonCard({
         onToggleSave={toggleSave}
         onListen={listen}
         listening={speech.state === 'speaking'}
+        onShare={canShare(variant) ? () => void share(variant) : undefined}
         onRead={markCompleted}
         nextConceptId={nextId}
         onContinueTrail={() => {

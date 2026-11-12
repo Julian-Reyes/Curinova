@@ -103,7 +103,10 @@
     "unsavedToast": "Removida da Biblioteca",
     "diveIn": "Mergulhar",
     "diveInLabel": "Mergulhar: {{title}}",
-    "trailStepShort": "{{step}}/{{total}}"
+    "trailStepShort": "{{step}}/{{total}}",
+    "share": "Compartilhar",
+    "linkCopied": "Link copiado",
+    "shareFailed": "Não foi possível copiar o link"
   },
   "audio": {
     "playing": "Lendo em voz alta…",
