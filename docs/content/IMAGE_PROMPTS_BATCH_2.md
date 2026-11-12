@@ -34,7 +34,7 @@ These lessons have their pictures; they are kept here in case one needs replacin
 
 - **Discover:** A toco toucan on a treetop above misty forest (Pexels, Matheus Bertelli; no location given).
 - **Deeper:** Amazon canopy from above in San Juan Bautista, Peru (Unsplash, David Geere). _No forest-edge or deforestation photo found yet; swap one in if it turns up._
-- **Review:** A river bend through unbroken forest in the Vale do Javari Indigenous Territory, Amazonas (Commons, CC BY 2.0, Amazônia Real). _Don't show: Calendars, alerts, charts, the words PRODES or DETER. Tom Fisk's Pexels forest (2739664) was turned down: it is Rochester, Minnesota._
+- **Review:** A river winding through the Amazon forest under small clouds, seen from a plane (Pexels, Miguel Cuenca), cropped to 16:9 from the bottom. _Replaced the Vale do Javari river bend (Commons, Amazônia Real) on 2026-11-12. Don't show: Calendars, alerts, charts, the words PRODES or DETER. Turned down: Tom Fisk's Pexels forest (2739664) is Rochester, Minnesota; Vlad Hilitanu's Unsplash forest road (pt7QzB4ZLWw) is Iași, Romania._
 
 #### cbers_program: What is CBERS?
 
