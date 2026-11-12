@@ -118,9 +118,9 @@ export default function Explore() {
 }
 
 /**
- * The first topic tile spans both columns; the last one does too when it would otherwise
- * sit alone in its row (e.g. six topics), so the grid has no gap.
+ * Topic tiles sit two to a row. With an odd number of topics the first tile spans both
+ * columns, so no tile is left alone at the end.
  */
 function isWideTile(index: number, count: number): boolean {
-  return index === 0 || (index === count - 1 && count % 2 === 0);
+  return index === 0 && count % 2 === 1;
 }

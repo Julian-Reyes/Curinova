@@ -120,7 +120,7 @@ Pictures are checked for accuracy with "Images checked" on each lesson (D20, 202
 ### Deferred to later milestones
 
 - M3: trail batch 2 (D19, 31 lessons) is reviewed and published (2026-11-12): all 53 lessons, 106 variants, are live and the review backlog is empty.
-- Sixth topic, Nature & Animals (D25, 2026-11-12), with the Amazon survival tricks trail moved into it. Waiting for a topic picture from the founder.
+- Sixth topic, Nature & Animals (D25, 2026-11-12), with the Amazon survival tricks trail moved into it and a jaguar topic picture.
 - Batch 2 "How it works" drawings: all 31 lessons have their own SVG scene and a ChatGPT diagram picture in the new `diagram` slot, waiting for Images checked (D23). All 22 published lessons have theirs too, checked (2026-11-11/12); a picture added later to a published lesson shows in `/_review` under "Published, pictures to check".
 - M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
 - M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).

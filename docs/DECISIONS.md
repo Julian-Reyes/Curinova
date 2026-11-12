@@ -312,11 +312,11 @@ Sources should be close to invisible until someone looks for them. In Go Deeper,
 
 The founder asked for a sixth topic, parked on 2026-11-04 until batch 2 was done. Agent choices inside the request, open to change: the name order (Nature first, since it also covers plants), the leaf icon and the green accent.
 
-- **Topic** `nature`: "Natureza & Animais" / "Nature & Animals", slugs `natureza-e-animais` / `nature-and-animals`, icon `leaf` (new `TopicIconSchema` value and glyph), accent `#2F8F5B`, light and dark topic tints in `tokens.css` (contrast checked in `tokens.test.ts`), `sortOrder` 5.
+- **Topic** `nature`: "Natureza & Animais" / "Nature & Animals", slugs `natureza-e-animais` / `nature-and-animals`, icon `leaf` (new `TopicIconSchema` value and glyph), accent `#2F8F5B`, light and dark topic tints in `tokens.css` (contrast checked in `tokens.test.ts`). It sorts second, next to Human Body & Biology (founder); the other topics move down one.
 - **Amazon survival tricks** moves from `body` to `nature`, as D19 planned: the cluster's and its six concepts' `topicId`. Guest progress is keyed by `conceptId`, so nothing is lost. No other lesson fits better here than where it is.
 - **Existing learners:** IndexedDB version 2 adds `nature` to stored interests and muted topics wherever `body` is there, once, so the Amazon lessons keep the same place in their feed.
-- **No topic picture yet:** the Explore tile and topic page show the leaf icon until the founder supplies one (`topics.json` → `image`, served from `/media/topics/nature.webp`).
-- **Explore grid:** with six topics the last tile sat alone, so it now spans both columns whenever the count is even (the first tile always does).
+- **Topic picture (founder):** a jaguar in profile in tall grass (Pexels, account "Pixabay"). Pexels titles it "Brown Leopard", but its description and the rosettes say jaguar, so the alt text says jaguar; no location is given, so none is claimed.
+- **Explore grid:** tiles sit two to a row; the first spans both columns only when the number of topics is odd, so six topics make three even rows.
 - The topic has one trail for now; batch 3 can add a second.
 
 ### P6 measurements (M2, 2026-10-25, before D11)
