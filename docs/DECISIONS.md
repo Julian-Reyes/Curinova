@@ -304,6 +304,10 @@ The 31 batch 2 drafts were still showing the `fixture` placeholder in Go Deeper'
 - **Diagram slot (founder, 2026-11-10):** lessons gain a fourth picture slot, `diagram` (2:1, 1200×600, `pnpm media:add` file name `<lesson>_diagram`). When a lesson has one, Go Deeper's How it works box shows it with its own alt text; otherwise the SVG scene stays. `/_review` shows it as "How it works (2:1)" and **Images checked** covers it like the other slots.
 - All 53 pictures were generated the same day by Claude Code on the founder's ChatGPT account (text-only prompts: with the SVG attached, ChatGPT only traced it) and checked for accuracy, with corrections where ChatGPT got arrows, shapes or anatomy wrong. The 31 batch 2 drafts have theirs. The 22 published lessons got theirs on 2026-11-11, once `/_review` gained a "Published, pictures to check" list (the lesson screen and Images checked already worked on library lessons); an unchecked picture on a published lesson still fails `content:validate`, so nothing reaches the live site before the founder checks it.
 
+### D24 · Sources fold away in Go Deeper — Founder (2026-11-12)
+
+Sources should be close to invisible until someone looks for them. In Go Deeper, the Sources section is now a small muted "Sources" label with a caret; tapping it opens the list (and, on drafts, the draft notice). Deviation from §3.2/§2.5's "visible sources": every lesson still lists its sources one tap away. The photo credit line stays visible under the label, because some licenses (for example CC BY) need the credit shown with the picture.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.
