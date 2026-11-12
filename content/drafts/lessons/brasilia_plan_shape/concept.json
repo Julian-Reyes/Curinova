@@ -77,6 +77,24 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-12",
       "hash": "894c9fa4"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "O Palácio da Alvorada, em Brasília, ao entardecer: as colunas curvas de mármore se refletem no espelho d'água, com a capela ao lado",
+        "en": "Brasília's Palácio da Alvorada at dusk: its curved marble columns reflected in the pool, with the chapel beside it"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Daniel Duarte",
+        "platform": "Unsplash",
+        "license": "Unsplash License",
+        "sourceUrl": "https://unsplash.com/photos/white-and-brown-building-near-body-of-water-during-night-time-gXxCQNYBRPw"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-12",
+      "hash": "e4c03eb7"
     }
   }
 }

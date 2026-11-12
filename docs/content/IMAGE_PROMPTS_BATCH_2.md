@@ -10,7 +10,7 @@ ChatGPT prompts and photo search briefs for every picture slot in the five batch
 
 ## Still to do
 
-- **brasilia_plan_shape, Deeper:** an aerial view of the Eixo Monumental (Pexels/Unsplash: "Brasília aerial", "Eixo Monumental"; Commons: "Eixo Monumental aerial"). Discover and Review were added on 2026-11-12 (see below).
+Nothing: every batch 2 lesson has its pictures.
 
 ## ********************************** Already done (pictures added 2026-11-05 to 2026-11-10) ****************************************************
 
@@ -61,7 +61,7 @@ Real places and people: no AI. Modern cities are easy on Pexels/Unsplash; coloni
 #### brasilia_plan_shape: Why is Brasília shaped like an airplane?
 
 - **Discover:** NASA EO-1 satellite image of Brasília, 21 August 2001 (Commons, public domain), turned a quarter turn so east is up and the plan reads as an airplane, cropped to 9:16. _No aerial photo of the airplane shape on Pexels or Unsplash._
-- **Deeper:** Aerial view of the Eixo Monumental. _Still to find._
+- **Deeper:** The Palácio da Alvorada at dusk, reflected in its pool (Unsplash, Daniel Duarte), cropped to 12:7 around the columns.
 - **Review:** Palácio do Planalto in black and white (Pexels, Lucas Vinícius Pontes). _Don't show: The airplane or cross-shaped plan from above, UNESCO, Lúcio Costa._
 - **Search:** Pexels/Unsplash: "Brasília aerial", "Eixo Monumental", "superquadra". Commons: "Plano Piloto Brasília".
 
