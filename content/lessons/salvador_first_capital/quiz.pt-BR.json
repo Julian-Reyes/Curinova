@@ -23,7 +23,7 @@
     "explanation": "Salvador foi fundada em 1549 pelo primeiro governador-geral, Tomé de Sousa, e foi a capital até 1763.",
     "misconception": "Cabral chegou em 1500, mas não fundou cidades; a sede do governo só veio meio século depois.",
     "claimIds": ["c3", "c7"],
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "id": "q_salvador_first_capital_2__pt-BR",
@@ -48,6 +48,6 @@
     "correctOptionId": "a",
     "explanation": "Com o fracasso das capitanias, a Coroa criou o Governo-Geral e fundou Salvador para centralizar a administração.",
     "claimIds": ["c1", "c2", "c5"],
-    "status": "draft"
+    "status": "reviewed"
   }
 ]

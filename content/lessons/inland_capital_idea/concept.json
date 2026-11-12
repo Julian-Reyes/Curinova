@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "Fotografia de 1894 de Henrique Morize com os membros da Comissão Cruls posando diante de um muro de pedra",
-        "en": "Henrique Morize's 1894 photograph of the members of the Cruls Commission posing in front of a stone wall"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Henrique Morize",
-        "platform": "Wikimedia Commons",
-        "license": "Public domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morize_-_Comiss%C3%A3o_Cruls.jpg"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-06",
-      "hash": "c19e3ce1"
-    },
     "discover": {
       "width": 1024,
       "height": 1821,
@@ -57,9 +39,27 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/chapada-dos-veadeiros-national-park-in-brazil-9478881/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-12",
       "hash": "4854028c"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Fotografia de 1894 de Henrique Morize com os membros da Comissão Cruls posando diante de um muro de pedra",
+        "en": "Henrique Morize's 1894 photograph of the members of the Cruls Commission posing in front of a stone wall"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Henrique Morize",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morize_-_Comiss%C3%A3o_Cruls.jpg"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "c19e3ce1"
     },
     "review": {
       "width": 1000,
@@ -75,7 +75,7 @@
         "license": "CC BY-SA 4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerrado_-_Parque_Nacional_Chapada_dos_veadeiros.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "f49f3ccc"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "2eddcba1"
     }

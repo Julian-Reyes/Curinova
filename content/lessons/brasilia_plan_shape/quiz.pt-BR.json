@@ -23,7 +23,7 @@
     "explanation": "No relatório de 1957, Lúcio Costa descreveu dois eixos cruzando-se em ângulo reto; o avião é uma leitura popular.",
     "misconception": "A forma de avião é como muita gente vê o Plano Piloto, mas o próprio Lúcio Costa preferia falar em borboleta.",
     "claimIds": ["c3", "c6"],
-    "status": "draft"
+    "status": "reviewed"
   },
   {
     "id": "q_brasilia_plan_shape_2__pt-BR",
@@ -48,6 +48,6 @@
     "correctOptionId": "a",
     "explanation": "O tombamento protege o projeto urbanístico de Lúcio Costa; os prédios de Niemeyer são protegidos por outras leis.",
     "claimIds": ["c9", "c10"],
-    "status": "draft"
+    "status": "reviewed"
   }
 ]

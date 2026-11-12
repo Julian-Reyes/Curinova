@@ -25,24 +25,6 @@
   ],
   "variants": ["pt-BR", "en"],
   "media": {
-    "deeper": {
-      "width": 1200,
-      "height": 700,
-      "alt": {
-        "pt-BR": "O Elevador Lacerda, em Salvador, com a Baía de Todos os Santos e barcos ao fundo",
-        "en": "The Lacerda Elevator in Salvador, with the Bay of All Saints and boats behind"
-      },
-      "origin": {
-        "kind": "licensed",
-        "creator": "Luís Otávio",
-        "platform": "Pexels",
-        "license": "Pexels License",
-        "sourceUrl": "https://www.pexels.com/photo/30567575/"
-      },
-      "accuracyReviewedBy": null,
-      "addedAt": "2026-11-06",
-      "hash": "ac41585a"
-    },
     "discover": {
       "width": 1024,
       "height": 1820,
@@ -57,9 +39,27 @@
         "license": "Unsplash License",
         "sourceUrl": "https://unsplash.com/photos/brown-and-white-concrete-buildings-under-white-clouds-during-daytime-IA0-dP_hnbI"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-12",
       "hash": "f509da22"
+    },
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "O Elevador Lacerda, em Salvador, com a Baía de Todos os Santos e barcos ao fundo",
+        "en": "The Lacerda Elevator in Salvador, with the Bay of All Saints and boats behind"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Luís Otávio",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/30567575/"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-06",
+      "hash": "ac41585a"
     },
     "review": {
       "width": 1000,
@@ -75,7 +75,7 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/16842379/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-06",
       "hash": "cd3f855b"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "ba197bdd"
     }

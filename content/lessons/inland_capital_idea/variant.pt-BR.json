@@ -64,7 +64,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c2",
@@ -81,7 +81,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c3",
@@ -98,7 +98,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c4",
@@ -115,7 +115,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c5",
@@ -136,7 +136,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c6",
@@ -149,7 +149,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c7",
@@ -162,7 +162,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c8",
@@ -179,7 +179,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c9",
@@ -196,7 +196,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     },
     {
       "id": "c10",
@@ -209,7 +209,7 @@
         }
       ],
       "autoVerdict": "supported",
-      "humanVerdict": "pending"
+      "humanVerdict": "approved"
     }
   ],
   "sourceIds": [
@@ -219,17 +219,17 @@
     "src_correiobraziliense_com_br_app_noticia_cidades_268d18"
   ],
   "quizIds": ["q_inland_capital_idea_1__pt-BR", "q_inland_capital_idea_2__pt-BR"],
-  "contentLicense": "pending",
+  "contentLicense": "all-rights-reserved",
   "generation": {
     "model": "claude-code (claude-opus-5-5)",
     "promptVersion": "write-v1",
     "runId": "2026-11-04-cluster_brazil_capitals"
   },
-  "reviewStatus": "draft",
-  "publicationStatus": "draft",
-  "reviewedBy": null,
-  "reviewedAt": null,
+  "reviewStatus": "reviewed",
+  "publicationStatus": "published",
+  "reviewedBy": "Julian",
+  "reviewedAt": "2026-11-12T16:51:27.336Z",
   "reviewAfter": null,
-  "publishedAt": null,
-  "updatedAt": "2026-11-04T00:00:00Z"
+  "publishedAt": "2026-11-12T16:51:35.345Z",
+  "updatedAt": "2026-11-12T16:51:35.345Z"
 }

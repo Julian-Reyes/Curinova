@@ -39,7 +39,7 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/toco-toucan-perching-on-top-of-a-tree-17767032/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "abea6a64"
     },
@@ -57,7 +57,7 @@
         "license": "Unsplash License",
         "sourceUrl": "https://unsplash.com/photos/green-leaves-in-close-up-photography-oFxuQxE0Hm0"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "fd3e8205"
     },
@@ -75,7 +75,7 @@
         "license": "Pexels License",
         "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-amazon-river-in-brasil-38814719/"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-12",
       "hash": "d1fda412"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "6914cc31"
     }

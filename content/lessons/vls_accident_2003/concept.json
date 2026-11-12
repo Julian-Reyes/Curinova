@@ -39,7 +39,7 @@
         "license": "Attribution",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vls_1_v03.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "4671e728"
     },
@@ -57,7 +57,7 @@
         "license": "CC BY-SA 3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vls1-mockup-test.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "c04ae0dd"
     },
@@ -75,7 +75,7 @@
         "license": "CC0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mar2024._Ilha_do_Livramento,_opposite_Alc%C3%A2ntara,_Maranh%C3%A3o,_Brazil._38.jpg"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "2a4b7d42"
     },
@@ -92,7 +92,7 @@
         "createdBy": "Claude Code, on the founder’s ChatGPT account",
         "createdAt": "2026-11-10"
       },
-      "accuracyReviewedBy": null,
+      "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-10",
       "hash": "fdd39c9f"
     }

@@ -14,9 +14,12 @@
     "en": "Why the capital moved twice and ended up in the middle of the Cerrado."
   },
   "conceptIds": [
+    "concept_salvador_first_capital",
     "concept_rio_capital_1763",
     "concept_court_in_rio_1808",
-    "concept_building_brasilia"
+    "concept_inland_capital_idea",
+    "concept_building_brasilia",
+    "concept_brasilia_plan_shape"
   ],
   "links": [
     {
