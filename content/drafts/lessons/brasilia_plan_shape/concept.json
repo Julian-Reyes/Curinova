@@ -41,6 +41,42 @@
       "accuracyReviewedBy": null,
       "addedAt": "2026-11-10",
       "hash": "35a90b73"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Brasília vista de satélite, girada com o leste para cima: as asas curvas e o eixo central do Plano Piloto lembram um avião junto ao Lago Paranoá",
+        "en": "Brasília seen by satellite, turned with east at the top: the Plano Piloto's curved wings and central axis look like an airplane beside Lake Paranoá"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "NASA Earth Observatory (Jesse Allen), EO-1 ALI data from NASA and USGS",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Partial_view_of_the_Federal_District,_Brazil_seen_from_space_in_2001_(3).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-12",
+      "hash": "d417252f"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "O Palácio do Planalto, em Brasília, em preto e branco, com suas colunas curvas e a rampa de mármore",
+        "en": "Brasília's Palácio do Planalto in black and white, with its curved columns and marble ramp"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Lucas Vinícius Pontes",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/palacio-do-planalto-in-brasilia-20758172/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-12",
+      "hash": "894c9fa4"
     }
   }
 }
