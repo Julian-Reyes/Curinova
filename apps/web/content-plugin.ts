@@ -19,12 +19,18 @@ export function lumenContent(channel: ContentChannel): Plugin {
   // Drafts, review notes and the review log never reach the bundle; the review tool (D20)
   // writes them on every action, which shouldn't rebuild content or reload the page.
   const ignored = [resolve(contentDir, 'drafts'), resolve(contentDir, 'review-log.jsonl')];
+  const tsx = resolve(repoRoot, 'node_modules/.bin/tsx');
   const build = async () => {
     const { stdout } = await run(
-      resolve(repoRoot, 'node_modules/.bin/tsx'),
+      tsx,
       ['tools/content-pipeline/src/bundle/cli.ts', `--channel=${channel}`],
       { cwd: repoRoot },
     );
+    return stdout.trim();
+  };
+  // Link-preview images for the public pages (§7.2); unchanged ones are kept.
+  const previews = async () => {
+    const { stdout } = await run(tsx, ['tools/content-pipeline/src/og/cli.ts'], { cwd: repoRoot });
     return stdout.trim();
   };
   let built = false;
@@ -35,6 +41,7 @@ export function lumenContent(channel: ContentChannel): Plugin {
       if (built) return;
       built = true;
       this.info(await build());
+      if (channel !== 'fixtures') this.info(await previews());
     },
     configureServer(server) {
       server.watcher.add(contentDir);

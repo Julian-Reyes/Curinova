@@ -103,7 +103,10 @@ export function checkPrerenderedPages(
           `hreflang ${l}`,
         );
     }
-    has(/<meta property="og:image" content="https:\/\/[^"]+"/, 'og:image');
+    const og = /<meta property="og:image" content="([^"]+)"/.exec(html)?.[1];
+    if (og === undefined) problems.push(`${page.path}: missing og:image`);
+    else if (!og.startsWith(siteUrl) || !existsSync(join(clientDir, og.slice(siteUrl.length))))
+      problems.push(`${page.path}: og:image ${og} is not in the build`);
     has(/<html lang="(pt-BR|en)"/, 'page language');
     if (page.kind === 'lesson') has(/<script type="application\/ld\+json">/, 'JSON-LD');
   }

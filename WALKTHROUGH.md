@@ -324,6 +324,8 @@ Each page reads like an article: the question, the photo, the explanation, the t
 
 **Continue in the app** opens that lesson inside its trail. Someone visiting for the first time goes through the short welcome first and then lands on the lesson they came from, in the language of the page they were reading. If any page were ever missing its tags, the build would stop.
 
+**Link previews.** Paste a lesson link into WhatsApp or iMessage and it now shows a picture: the lesson's photo darkened at the bottom, with the topic, the question and the app name on top. Every lesson, topic and trail gets one, made when the site is built.
+
 ---
 
 ---

@@ -3,6 +3,7 @@ import {
   SITE_URL,
   isPublishedVariant,
   lessonImageUrl,
+  ogImageUrl,
   topicImageUrl,
   type Concept,
   type LessonImage,
@@ -146,7 +147,7 @@ export function lessonPage(
       description: variant.summary,
       path,
       alternates,
-      image: hero ? absolute(hero.src) : undefined,
+      image: absolute(ogImageUrl(locale, 'lesson', slug)),
       type: 'article',
       jsonLd: {
         '@context': 'https://schema.org',
@@ -211,8 +212,6 @@ export function trailPage(lib: Library, locale: PublicLocale, slug: string): Tra
   for (const l of PUBLIC_LOCALES)
     if (lib.conceptsInCluster(cluster.id).some((c) => published(lib, c.id, l)))
       alternates[l] = publicPath(l, 'trail', cluster.slug[l]);
-  const first = lib.conceptsInCluster(cluster.id)[0];
-  const firstImage = first && (image(first, 'deeper', locale) ?? image(first, 'discover', locale));
   return {
     head: {
       locale,
@@ -220,7 +219,7 @@ export function trailPage(lib: Library, locale: PublicLocale, slug: string): Tra
       description: cluster.hook[locale],
       path: publicPath(locale, 'trail', slug),
       alternates,
-      image: firstImage ? absolute(firstImage.src) : undefined,
+      image: absolute(ogImageUrl(locale, 'trail', slug)),
       type: 'website',
     },
     title: cluster.title[locale],
@@ -272,7 +271,7 @@ export function topicPage(lib: Library, locale: PublicLocale, slug: string): Top
       description: topic.description[locale],
       path: publicPath(locale, 'topic', slug),
       alternates,
-      image: picture ? absolute(picture.src) : undefined,
+      image: absolute(ogImageUrl(locale, 'topic', slug)),
       type: 'website',
     },
     name: topic.name[locale],
@@ -316,6 +315,9 @@ export function headTags(head: PageHead) {
     ...(head.image
       ? [
           { property: 'og:image', content: head.image },
+          { property: 'og:image:width', content: '1200' },
+          { property: 'og:image:height', content: '630' },
+          { property: 'og:image:alt', content: head.title },
           { name: 'twitter:card', content: 'summary_large_image' },
         ]
       : [{ name: 'twitter:card', content: 'summary' }]),

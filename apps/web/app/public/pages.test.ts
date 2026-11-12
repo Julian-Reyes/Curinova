@@ -140,6 +140,10 @@ describe('public pages', () => {
       href: `${SITE_URL}/pt/licao/quantas-batidas/`,
     });
     expect(tags).toContainEqual({ property: 'og:locale', content: 'en_GB' });
+    expect(tags).toContainEqual({
+      property: 'og:image',
+      content: `${SITE_URL}/og/en/lesson/how-many-beats.jpg`,
+    });
     expect(tags.some((t) => 'script:ld+json' in t)).toBe(true);
   });
 });

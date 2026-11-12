@@ -29,3 +29,12 @@ export function topicImageUrl(topicId: string, size: 'full' | 'sm', version?: st
   const path = `/media/topics/${topicId}${size === 'sm' ? '-sm' : ''}.webp`;
   return version === undefined ? path : `${path}?v=${version}`;
 }
+
+/** Public URL of a public page's link-preview image (1200×630 JPEG, made at build time, §7.2). */
+export function ogImageUrl(
+  locale: 'pt-BR' | 'en',
+  kind: 'lesson' | 'topic' | 'trail',
+  slug: string,
+): string {
+  return `/og/${locale === 'pt-BR' ? 'pt' : 'en'}/${kind}/${slug}.jpg`;
+}

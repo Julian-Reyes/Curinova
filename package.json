@@ -18,6 +18,7 @@
     "build": "pnpm -r --if-present run build",
     "content:validate": "pnpm --filter @lumen/content-pipeline validate",
     "content:build": "pnpm --filter @lumen/content-pipeline content:build",
+    "content:og": "pnpm --filter @lumen/content-pipeline content:og",
     "content:stats": "pnpm --filter @lumen/content-pipeline content:stats",
     "content:due-review": "pnpm --filter @lumen/content-pipeline content:due-review",
     "content:sources": "pnpm --filter @lumen/content-pipeline content:sources",
