@@ -31,7 +31,7 @@ The deploy job builds with `LUMEN_PUBLIC_CONTENT_CHANNEL=production` (D22): the 
 Every build also writes, into `apps/web/build/client`:
 
 - a static HTML page for every published lesson, topic and trail, plus Credits, in both languages (`/pt/licao/<slug>/`, `/en/lesson/<slug>/`, …). Pages serves each as `<path>/index.html`; a link without the trailing slash is redirected to it;
-- a 1200×630 link-preview JPEG for each of them under `/og/` (`pnpm content:og`; unchanged images are kept between local builds);
+- a 1200×630 link-preview JPEG for each of them, and a 1080×1920 story image for each lesson, under `/og/` (`pnpm content:og`; unchanged images are kept between local builds);
 - `sitemap.xml` (an index of `sitemap-pt.xml` and `sitemap-en.xml`) and `robots.txt`.
 
 The build fails if any public page is missing its title, description, canonical link, hreflang links, preview image or structured data. These addresses are public: once a lesson is live, its slug shouldn't change.

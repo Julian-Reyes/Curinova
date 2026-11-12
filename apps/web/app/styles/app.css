@@ -1151,6 +1151,26 @@
     background: var(--ink);
     color: var(--bg);
   }
+  /* Story image preview in the Share sheet (§7.4). */
+  .share-story {
+    width: min(180px, 42vw);
+    height: auto;
+    aspect-ratio: 9 / 16;
+    border-radius: 18px;
+    object-fit: cover;
+    background: var(--surface-2);
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.18);
+  }
+  .share-story.is-missing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--muted);
+    box-shadow: none;
+  }
 }
 
 /* ───────────────────────── Motion ───────────────────────── */

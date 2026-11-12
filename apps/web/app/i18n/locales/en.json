@@ -353,5 +353,15 @@
     "topicsTitle": "Topic photos",
     "fontsTitle": "Typefaces",
     "fontsBody": "Inter and Inter Tight, by Rasmus Andersson, under the SIL Open Font License 1.1."
+  },
+  "share": {
+    "title": "Share",
+    "imageHint": "For Instagram Stories or WhatsApp Status.",
+    "asImage": "Share as image",
+    "saveImage": "Save image",
+    "link": "Share link",
+    "imageAlt": "Story image of this lesson",
+    "imageOffline": "The image needs an internet connection.",
+    "imageFailed": "Couldn’t share the image"
   }
 }

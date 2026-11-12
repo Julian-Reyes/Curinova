@@ -109,6 +109,10 @@ export function checkPrerenderedPages(
       problems.push(`${page.path}: og:image ${og} is not in the build`);
     has(/<html lang="(pt-BR|en)"/, 'page language');
     if (page.kind === 'lesson') has(/<script type="application\/ld\+json">/, 'JSON-LD');
+    // The Share sheet's story image (§7.4) sits next to the lesson's preview image.
+    const story = og?.slice(siteUrl.length).replace('/lesson/', '/story/');
+    if (page.kind === 'lesson' && story !== undefined && !existsSync(join(clientDir, story)))
+      problems.push(`${page.path}: story image ${story} is not in the build`);
   }
   return problems;
 }

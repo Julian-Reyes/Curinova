@@ -204,6 +204,19 @@ export const TrashIcon = (p: IconProps) => (
     <path d="M4.5 7h15M9.5 7V4.5h5V7M6.5 7l.8 12.1a1.5 1.5 0 0 0 1.5 1.4h6.4a1.5 1.5 0 0 0 1.5-1.4L17.5 7" />
   </Icon>
 );
+export const LinkIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1" />
+    <path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+  </Icon>
+);
+export const ImageIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <rect x="4" y="4" width="16" height="16" rx="2.5" />
+    <circle cx="9" cy="9.5" r="1.6" />
+    <path d="m20 15-4.5-4.5L6 20" />
+  </Icon>
+);
 export const ShareIcon = (p: IconProps) => (
   <Icon {...p}>
     <path d="M12 15V3.5M7.5 8 12 3.5 16.5 8" />

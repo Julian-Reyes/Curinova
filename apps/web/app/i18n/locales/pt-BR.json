@@ -353,5 +353,15 @@
     "topicsTitle": "Fotos dos temas",
     "fontsTitle": "Tipografia",
     "fontsBody": "Inter e Inter Tight, de Rasmus Andersson, sob a SIL Open Font License 1.1."
+  },
+  "share": {
+    "title": "Compartilhar",
+    "imageHint": "Para Stories do Instagram ou Status do WhatsApp.",
+    "asImage": "Compartilhar como imagem",
+    "saveImage": "Salvar imagem",
+    "link": "Compartilhar link",
+    "imageAlt": "Imagem desta lição para Stories",
+    "imageOffline": "A imagem precisa de conexão com a internet.",
+    "imageFailed": "Não foi possível compartilhar a imagem"
   }
 }

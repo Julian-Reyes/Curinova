@@ -1,8 +1,10 @@
 import { expect, test } from '@playwright/test';
+import { activeCard } from './helpers';
 
 /*
  * §16 E2E scenario 7: a prerendered lesson page is readable with JavaScript off, and with
- * JavaScript it leads into the app (through onboarding for a first-time visitor).
+ * JavaScript it leads into the app (through onboarding for a first-time visitor). Also the
+ * Share sheet with the lesson's story image (§7.4).
  */
 
 const LESSON_PT = '/pt/licao/seu-esqueleto-esta-vivo/';
@@ -38,4 +40,23 @@ test('with JavaScript, "Continue in the app" opens the lesson in its trail', asy
   await expect(
     page.getByRole('heading', { name: 'Is your skeleton alive?' }).first(),
   ).toBeVisible();
+});
+
+test('Share offers the story image and the link', async ({ page }) => {
+  await page.goto(LESSON_EN);
+  await page.getByRole('link', { name: 'Continue in the app' }).click();
+  await page.getByRole('button', { name: 'Skip' }).click();
+  await page.waitForURL(/\/app\/trail\//);
+  await activeCard(page).getByRole('button', { name: 'Share' }).click();
+  const sheet = page.getByRole('dialog', { name: 'Share' });
+  const story = sheet.getByRole('img', { name: 'Story image of this lesson' });
+  await expect(story).toHaveAttribute('src', '/og/en/story/is-your-skeleton-alive.jpg');
+  await expect.poll(() => story.evaluate((img: HTMLImageElement) => img.naturalHeight)).toBe(1920);
+  // Share as image (share sheet) or Save image (browsers that can't share files).
+  await expect(
+    sheet
+      .getByRole('button', { name: 'Share as image' })
+      .or(sheet.getByRole('link', { name: 'Save image' })),
+  ).toBeEnabled();
+  await expect(sheet.getByRole('button', { name: 'Share link' })).toBeVisible();
 });

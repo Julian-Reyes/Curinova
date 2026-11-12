@@ -8,20 +8,24 @@ import {
   mediaKey,
   ogImageUrl,
   selectContent,
+  SITE_URL,
+  storyImageUrl,
   type LessonImage,
   type Locale,
 } from '@lumen/domain';
+import { publicPath } from '../../../../apps/web/app/public/paths';
 import { libraryFromTrees } from '../bundle/build';
 import { loadTree } from '../validate/tree';
-import { renderPreview } from './render';
+import { renderPreview, renderStory, type StoryInput } from './render';
 
 /*
  * `content:og`: link-preview images for every public page (§7.2), written to
- * apps/web/public/og/<pt|en>/<lesson|topic|trail>/<slug>.jpg. Published content only, like
- * the pages themselves. Images whose inputs did not change are kept (cache in .cache/).
+ * apps/web/public/og/<pt|en>/<lesson|topic|trail>/<slug>.jpg, and a story image for every
+ * lesson (§7.4) in og/<pt|en>/story/. Published content only, like the pages themselves.
+ * Images whose inputs did not change are kept (cache in .cache/).
  */
 
-const VERSION = 3;
+const VERSION = 5;
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../../..');
 const outDir = join(repoRoot, 'apps/web/public/og');
 const cacheFile = join(repoRoot, '.cache/og.json');
@@ -54,7 +58,7 @@ function creditFor(image: LessonImage | undefined, locale: Locale): string | und
 
 interface Job {
   file: string;
-  input: Parameters<typeof renderPreview>[0];
+  input: Parameters<typeof renderPreview>[0] | StoryInput;
   photoHash: string | undefined;
 }
 
@@ -64,10 +68,11 @@ const topics = new Map(lib.topics.map((t) => [t.id, t]));
 const concepts = new Map(lib.concepts.map((c) => [c.id, c]));
 const publicDir = join(repoRoot, 'apps/web/public');
 
-/** A lesson's photo for previews: the wide Go Deeper one, else Discover. */
-function lessonPhoto(conceptId: string) {
+/** A lesson's photo: for previews the wide Go Deeper one first, for stories the tall Discover one. */
+function lessonPhoto(conceptId: string, prefer: 'deeper' | 'discover' = 'deeper') {
   const media = concepts.get(conceptId)?.media;
-  const slot = media?.deeper ? 'deeper' : media?.discover ? 'discover' : undefined;
+  const other = prefer === 'deeper' ? 'discover' : 'deeper';
+  const slot = media?.[prefer] ? prefer : media?.[other] ? other : undefined;
   if (!slot) return undefined;
   const file = join(publicDir, 'media', mediaKey(conceptId), `${slot}.webp`);
   return existsSync(file) ? { file, image: media?.[slot] } : undefined;
@@ -90,6 +95,22 @@ for (const v of lib.variants) {
       credit: creditFor(photo?.image, v.locale),
     },
     photoHash: photo?.image?.hash,
+  });
+  const tall = lessonPhoto(v.conceptId, 'discover');
+  jobs.push({
+    file: storyImageUrl(v.locale, v.slug),
+    input: {
+      title: v.title,
+      topic: topic.name[v.locale],
+      accent: lighten(topic.accentColor),
+      brand: BRAND.name,
+      photo: tall?.file,
+      credit: creditFor(tall?.image, v.locale),
+      text: v.cardText ?? v.summary,
+      site: SITE_URL.replace(/^https:\/\//, ''),
+      path: publicPath(v.locale, 'lesson', v.slug).replace(/\/$/, ''),
+    },
+    photoHash: tall?.image?.hash,
   });
 }
 for (const locale of LOCALES) {
@@ -155,7 +176,10 @@ for (const job of jobs) {
   next[job.file] = key;
   if (cache[job.file] === key && existsSync(target)) continue;
   await mkdir(dirname(target), { recursive: true });
-  await writeFile(target, await renderPreview(job.input));
+  await writeFile(
+    target,
+    await ('text' in job.input ? renderStory(job.input) : renderPreview(job.input)),
+  );
   made += 1;
 }
 
@@ -172,5 +196,5 @@ await prune(outDir);
 await mkdir(dirname(cacheFile), { recursive: true });
 await writeFile(cacheFile, JSON.stringify(next, null, 2));
 console.log(
-  `content:og → apps/web/public/og, ${String(jobs.length)} previews (${String(made)} new or changed)`,
+  `content:og → apps/web/public/og, ${String(jobs.length)} images (${String(made)} new or changed)`,
 );

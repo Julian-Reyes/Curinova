@@ -38,3 +38,8 @@ export function ogImageUrl(
 ): string {
   return `/og/${locale === 'pt-BR' ? 'pt' : 'en'}/${kind}/${slug}.jpg`;
 }
+
+/** Public URL of a lesson's story image (1080×1920 JPEG for Stories and Status, §7.4). */
+export function storyImageUrl(locale: 'pt-BR' | 'en', slug: string): string {
+  return `/og/${locale === 'pt-BR' ? 'pt' : 'en'}/story/${slug}.jpg`;
+}

@@ -5,11 +5,15 @@ import sharp from 'sharp';
 
 /*
  * Link-preview images (§7.2): 1200×630 JPEGs, the lesson's photo under a dark fade with the topic,
- * the question and the app name. Satori lays out the text as SVG; sharp puts it on the photo.
+ * the question and the app name. Story images (§7.4) are the 1080×1920 version of a lesson card
+ * for Instagram Stories and WhatsApp Status. Satori lays out the text as SVG; sharp puts it on
+ * the photo.
  */
 
 export const OG_WIDTH = 1200;
 export const OG_HEIGHT = 630;
+export const STORY_WIDTH = 1080;
+export const STORY_HEIGHT = 1920;
 
 export interface PreviewInput {
   title: string;
@@ -113,16 +117,131 @@ export async function renderPreview(input: PreviewInput): Promise<Buffer> {
       ),
     ],
   );
+  return compose(overlay, OG_WIDTH, OG_HEIGHT, input.photo);
+}
+
+export interface StoryInput extends PreviewInput {
+  /** The card's short text under the title. */
+  text: string;
+  /** The lesson's address, printed at the bottom: the site, then the page path. */
+  site: string;
+  path: string;
+}
+
+function storyTitleSize(title: string): number {
+  if (title.length <= 40) return 92;
+  if (title.length <= 60) return 80;
+  return 70;
+}
+
+/**
+ * A 1080×1920 story image of a lesson card (§7.4). The text stays clear of the top 250 px and
+ * bottom 340 px, where Instagram and WhatsApp draw their own controls over a story.
+ */
+export async function renderStory(input: StoryInput): Promise<Buffer> {
+  const overlay = el(
+    'div',
+    {
+      width: STORY_WIDTH - 2 * 80,
+      height: STORY_HEIGHT - 260 - 340,
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      padding: '260px 80px 340px',
+      fontFamily: 'Inter Tight',
+      color: '#ffffff',
+      backgroundImage:
+        'linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0.35) 36%, rgba(0,0,0,0.85) 54%, rgba(0,0,0,0.92) 100%)',
+    },
+    [
+      el(
+        'div',
+        {
+          fontSize: 48,
+          fontWeight: 800,
+          letterSpacing: -0.5,
+          textShadow: '0 2px 12px rgba(0,0,0,0.5)',
+        },
+        input.brand,
+      ),
+      el('div', { display: 'flex', flexDirection: 'column' }, [
+        el(
+          'div',
+          {
+            fontSize: 34,
+            fontWeight: 700,
+            letterSpacing: 3,
+            textTransform: 'uppercase',
+            color: input.accent,
+            marginBottom: 22,
+          },
+          input.topic,
+        ),
+        el(
+          'div',
+          {
+            fontSize: storyTitleSize(input.title),
+            fontWeight: 800,
+            lineHeight: 1.06,
+            letterSpacing: -1.5,
+          },
+          input.title,
+        ),
+        el(
+          'div',
+          {
+            fontSize: 40,
+            fontWeight: 400,
+            lineHeight: 1.35,
+            color: 'rgba(255,255,255,0.9)',
+            marginTop: 32,
+          },
+          input.text,
+        ),
+        el(
+          'div',
+          {
+            display: 'flex',
+            flexDirection: 'column',
+            alignSelf: 'flex-start',
+            marginTop: 44,
+            padding: '18px 30px',
+            borderRadius: 28,
+            backgroundColor: 'rgba(255,255,255,0.14)',
+          },
+          [
+            el('div', { fontSize: 30, fontWeight: 700 }, input.site),
+            el('div', { fontSize: 24, color: 'rgba(255,255,255,0.75)', marginTop: 4 }, input.path),
+          ],
+        ),
+        el(
+          'div',
+          { fontSize: 22, color: 'rgba(255,255,255,0.7)', marginTop: 20 },
+          input.credit ?? '',
+        ),
+      ]),
+    ],
+  );
+  return compose(overlay, STORY_WIDTH, STORY_HEIGHT, input.photo);
+}
+
+/** Draws the text layer over the photo (cropped to fill) or a plain dark background. */
+async function compose(
+  overlay: Node,
+  width: number,
+  height: number,
+  photo: string | undefined,
+): Promise<Buffer> {
   const svg = await satori(overlay as Parameters<typeof satori>[0], {
-    width: OG_WIDTH,
-    height: OG_HEIGHT,
+    width,
+    height,
     fonts: await loadFonts(),
   });
-  const base = input.photo
-    ? sharp(input.photo).resize(OG_WIDTH, OG_HEIGHT, { fit: 'cover', position: 'attention' })
+  const base = photo
+    ? sharp(photo).resize(width, height, { fit: 'cover', position: 'attention' })
     : sharp({
         // No photo: the app's dark ink, so the white text and the accent label stay readable.
-        create: { width: OG_WIDTH, height: OG_HEIGHT, channels: 3, background: '#17151a' },
+        create: { width, height, channels: 3, background: '#17151a' },
       });
   return (
     base

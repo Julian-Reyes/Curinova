@@ -16,7 +16,8 @@ import { TopicIcon } from '../../components/TopicIcon';
 import { useApp, useProgress } from '../../data/app-context';
 import { useSpeech } from '../../hooks/useSpeech';
 import { DeeperSheet, QuizSheet, SourcesSheet } from './LessonSheets';
-import { canShare, useShareLesson } from './share';
+import { canShare } from './share';
+import { ShareSheet } from './ShareSheet';
 import { useLessonTracking } from './tracking';
 
 export type CardReason = 'interest' | 'trail' | 'new';
@@ -56,8 +57,7 @@ export function LessonCard({
   const { library, prefs, reportStorageError } = useApp();
   const progress = useProgress();
   const toast = useToast();
-  const share = useShareLesson();
-  const [sheet, setSheet] = useState<'quiz' | 'deeper' | 'sources' | null>(null);
+  const [sheet, setSheet] = useState<'quiz' | 'deeper' | 'sources' | 'share' | null>(null);
   const { markCompleted } = useLessonTracking(variant, active, onOpened);
   const openDeeper = () => {
     setSheet('deeper');
@@ -236,7 +236,9 @@ export function LessonCard({
           <RailButton
             label={t('card.share')}
             icon={<ShareIcon size={23} />}
-            onClick={() => void share(variant)}
+            onClick={() => {
+              setSheet('share');
+            }}
           />
         )}
       </div>
@@ -283,7 +285,13 @@ export function LessonCard({
         onToggleSave={toggleSave}
         onListen={listen}
         listening={speech.state === 'speaking'}
-        onShare={canShare(variant) ? () => void share(variant) : undefined}
+        onShare={
+          canShare(variant)
+            ? () => {
+                setSheet('share');
+              }
+            : undefined
+        }
         onRead={markCompleted}
         nextConceptId={nextId}
         onContinueTrail={() => {
@@ -304,6 +312,15 @@ export function LessonCard({
         }}
         variant={variant}
       />
+      {canShare(variant) && (
+        <ShareSheet
+          open={sheet === 'share'}
+          onOpenChange={(o) => {
+            setSheet(o ? 'share' : null);
+          }}
+          variant={variant}
+        />
+      )}
     </article>
   );
 }
