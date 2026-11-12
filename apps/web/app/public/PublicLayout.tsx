@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import type { PageHead } from './pages';
-import { PUBLIC_LOCALES, type PublicLocale } from './paths';
+import { PUBLIC_LOCALES, publicPagePath, type PublicLocale } from './paths';
 
 /** Translations in the page's own language, whatever language the app is set to. */
 export function usePublicT(locale: PublicLocale) {
@@ -31,8 +31,9 @@ export function PublicLayout({ head, children }: { head: PageHead; children: Rea
         <p className="pub-brand-line">
           <strong>{t('app.name')}</strong> · {t('app.tagline')}
         </p>
-        <p>
+        <p className="pub-footer-links">
           <a href="/">{t('public.openApp')}</a>
+          <a href={publicPagePath(head.locale, 'credits')}>{t('public.credits')}</a>
         </p>
       </footer>
     </div>

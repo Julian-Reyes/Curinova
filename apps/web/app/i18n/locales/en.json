@@ -319,7 +319,8 @@
     "about": "About",
     "contentPreview": "This is a preview build. Lessons are demo drafts that haven't been through source checking or human review yet.",
     "contentReviewed": "Every lesson has been source-checked and human-reviewed.",
-    "replayIntro": "Replay the introduction"
+    "replayIntro": "Replay the introduction",
+    "credits": "Credits and licenses"
   },
   "reviewPrompt": {
     "title": "Time to remember",
@@ -339,6 +340,18 @@
     "inThisTrail": "In the trail “{{trail}}”",
     "lessonCount_one": "{{count}} lesson",
     "lessonCount_other": "{{count}} lessons",
-    "otherLanguage": "Ler em português"
+    "otherLanguage": "Ler em português",
+    "credits": "Credits"
+  },
+  "credits": {
+    "title": "Credits",
+    "description": "Who made the photos and typefaces in {{appName}}, and under which licenses.",
+    "textTitle": "Lesson text",
+    "textBody": "The lesson text is original, written from the sources listed on each lesson. All rights reserved.",
+    "photosTitle": "Lesson photos",
+    "photosBody": "Each photo is used under the license shown. The creator’s name links to the photo’s original page.",
+    "topicsTitle": "Topic photos",
+    "fontsTitle": "Typefaces",
+    "fontsBody": "Inter and Inter Tight, by Rasmus Andersson, under the SIL Open Font License 1.1."
   }
 }

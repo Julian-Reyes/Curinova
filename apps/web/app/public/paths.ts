@@ -34,3 +34,18 @@ export function publicLocaleOf(pathname: string): PublicLocale | undefined {
 
 /** Open Graph locale tags (og:locale). */
 export const OG_LOCALE: Record<PublicLocale, string> = { 'pt-BR': 'pt_BR', en: 'en_GB' };
+
+/** Standalone public pages, e.g. /pt/creditos/ and /en/credits/. */
+const PAGES = {
+  credits: { 'pt-BR': 'creditos', en: 'credits' },
+} as const;
+export type PublicPage = keyof typeof PAGES;
+
+export function publicPagePath(locale: PublicLocale, page: PublicPage): string {
+  return `/${SEGMENTS[locale].prefix}/${PAGES[page][locale]}/`;
+}
+
+/** Route pattern for routes.ts, e.g. "pt/creditos". */
+export function publicPagePattern(locale: PublicLocale, page: PublicPage): string {
+  return `${SEGMENTS[locale].prefix}/${PAGES[page][locale]}`;
+}

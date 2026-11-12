@@ -1,5 +1,10 @@
 import { type RouteConfig, index, layout, route } from '@react-router/dev/routes';
-import { PUBLIC_LOCALES, publicRoutePattern, type PublicKind } from './public/paths';
+import {
+  PUBLIC_LOCALES,
+  publicPagePattern,
+  publicRoutePattern,
+  type PublicKind,
+} from './public/paths';
 
 /**
  * The content review tool (D20) is a dev-server route only: production builds never contain
@@ -15,6 +20,11 @@ const publicPages = (['lesson', 'topic', 'trail'] as const satisfies readonly Pu
         id: `public-${kind}-${locale}`,
       }),
     ),
+);
+const creditsPages = PUBLIC_LOCALES.map((locale) =>
+  route(publicPagePattern(locale, 'credits'), 'routes/public/credits.tsx', {
+    id: `public-credits-${locale}`,
+  }),
 );
 
 export default [
@@ -33,6 +43,7 @@ export default [
     ]),
   ]),
   ...publicPages,
+  ...creditsPages,
   ...(includeReviewTool ? [route('_review', 'dev/review/route.tsx')] : []),
   route('*', 'routes/not-found.tsx'),
 ] satisfies RouteConfig;

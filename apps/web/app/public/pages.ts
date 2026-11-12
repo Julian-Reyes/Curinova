@@ -12,7 +12,7 @@ import {
 } from '@lumen/domain';
 import type { Library } from '../data/library';
 import { imageCredits } from '../components/LessonArt';
-import { OG_LOCALE, PUBLIC_LOCALES, publicPath, type PublicLocale } from './paths';
+import { OG_LOCALE, PUBLIC_LOCALES, publicPagePath, publicPath, type PublicLocale } from './paths';
 
 /*
  * Data for the prerendered public pages (§7.1), built from the content library. Plain,
@@ -323,4 +323,70 @@ export function headTags(head: PageHead) {
       : [{ name: 'twitter:card', content: 'summary' }]),
     ...(head.jsonLd ? [{ 'script:ld+json': head.jsonLd }] : []),
   ];
+}
+
+export interface PhotoCredit {
+  creator: string;
+  platform: string | undefined;
+  license: string;
+  sourceUrl: string;
+}
+
+export interface CreditsPageData {
+  head: PageHead;
+  lessons: { title: string; path: string; photos: PhotoCredit[] }[];
+  topics: { name: string; path: string; photo: PhotoCredit }[];
+}
+
+function photoCredit(img: LessonImage | undefined): PhotoCredit | undefined {
+  const o = img?.origin;
+  return o?.kind === 'licensed'
+    ? { creator: o.creator, platform: o.platform, license: o.license, sourceUrl: o.sourceUrl }
+    : undefined;
+}
+
+/** Every licensed photo on the public site, by lesson and topic (§14 Credits). */
+export function creditsPage(
+  lib: Library,
+  locale: PublicLocale,
+  title: string,
+  description: string,
+): CreditsPageData {
+  const lessons = lib.concepts.flatMap((c) => {
+    const v = published(lib, c.id, locale);
+    if (!v) return [];
+    const seen = new Set<string>();
+    const photos = Object.values(c.media ?? {}).flatMap((img) => {
+      const credit = photoCredit(img);
+      if (!credit || seen.has(credit.sourceUrl)) return [];
+      seen.add(credit.sourceUrl);
+      return [credit];
+    });
+    return photos.length > 0
+      ? [{ title: v.title, path: publicPath(locale, 'lesson', v.slug), photos }]
+      : [];
+  });
+  const topics = lib.topics.flatMap((t) => {
+    const photo = photoCredit(t.image);
+    return photo
+      ? [{ name: t.name[locale], path: publicPath(locale, 'topic', t.slug[locale]), photo }]
+      : [];
+  });
+  const alternates = {
+    'pt-BR': publicPagePath('pt-BR', 'credits'),
+    en: publicPagePath('en', 'credits'),
+  };
+  return {
+    head: {
+      locale,
+      title,
+      description,
+      path: alternates[locale],
+      alternates,
+      image: absolute(ogImageUrl(locale, 'page', locale === 'pt-BR' ? 'creditos' : 'credits')),
+      type: 'website',
+    },
+    lessons,
+    topics,
+  };
 }

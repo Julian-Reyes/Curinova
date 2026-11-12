@@ -1,6 +1,12 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { PUBLIC_LOCALES, publicPath, type PublicKind, type PublicLocale } from './paths.ts';
+import {
+  PUBLIC_LOCALES,
+  publicPagePath,
+  publicPath,
+  type PublicKind,
+  type PublicLocale,
+} from './paths.ts';
 
 /*
  * Lists the public pages of the built content bundle (public/content, D16) for prerendering,
@@ -29,7 +35,7 @@ interface RawIndex {
 }
 
 export interface SitePage {
-  kind: PublicKind;
+  kind: PublicKind | 'credits';
   locale: PublicLocale;
   path: string;
   /** The same page in each language it exists in (hreflang), this one included. */
@@ -103,5 +109,11 @@ export function listSitePages(contentDir: string): SitePage[] {
       if (path) pages.push({ kind: g.kind, locale: l, path, alternates });
     }
   }
+  const credits = {
+    'pt-BR': publicPagePath('pt-BR', 'credits'),
+    en: publicPagePath('en', 'credits'),
+  };
+  for (const l of PUBLIC_LOCALES)
+    pages.push({ kind: 'credits', locale: l, path: credits[l], alternates: credits });
   return pages;
 }

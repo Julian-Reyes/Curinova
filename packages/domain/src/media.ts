@@ -33,7 +33,7 @@ export function topicImageUrl(topicId: string, size: 'full' | 'sm', version?: st
 /** Public URL of a public page's link-preview image (1200×630 JPEG, made at build time, §7.2). */
 export function ogImageUrl(
   locale: 'pt-BR' | 'en',
-  kind: 'lesson' | 'topic' | 'trail',
+  kind: 'lesson' | 'topic' | 'trail' | 'page',
   slug: string,
 ): string {
   return `/og/${locale === 'pt-BR' ? 'pt' : 'en'}/${kind}/${slug}.jpg`;

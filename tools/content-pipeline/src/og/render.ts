@@ -17,7 +17,7 @@ export interface PreviewInput {
   /** Topic accent for the label, e.g. "#3fcf7a" (the bright Discover accent). */
   accent: string;
   brand: string;
-  /** The lesson photo (any size; cropped to fill), or none for a plain topic-coloured card. */
+  /** The lesson photo (any size; cropped to fill), or none for a plain dark card. */
   photo?: string | undefined;
   /** A credit some licenses require on the image (e.g. CC BY). */
   credit?: string | undefined;
@@ -121,7 +121,8 @@ export async function renderPreview(input: PreviewInput): Promise<Buffer> {
   const base = input.photo
     ? sharp(input.photo).resize(OG_WIDTH, OG_HEIGHT, { fit: 'cover', position: 'attention' })
     : sharp({
-        create: { width: OG_WIDTH, height: OG_HEIGHT, channels: 3, background: input.accent },
+        // No photo: the app's dark ink, so the white text and the accent label stay readable.
+        create: { width: OG_WIDTH, height: OG_HEIGHT, channels: 3, background: '#17151a' },
       });
   return (
     base

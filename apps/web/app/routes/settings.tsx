@@ -11,6 +11,7 @@ import { Toggle } from '../components/Toggle';
 import { TopicChip } from '../components/TopicChip';
 import { useApp } from '../data/app-context';
 import { defaultPreferences, progress } from '../data/progress';
+import { publicPagePath } from '../public/paths';
 import { useSpeech } from '../hooks/useSpeech';
 
 export default function Settings() {
@@ -189,6 +190,13 @@ export default function Settings() {
         <Card className="flex flex-col gap-3">
           <p className="text-[15px]">{t('settings.privacyBody')}</p>
           <p className="text-sm text-muted">{t('settings.exportSoon')}</p>
+          {/* A public page (§14); a full page load, so it works like any shared link. */}
+          <a
+            href={publicPagePath(prefs.locale, 'credits')}
+            className="self-start text-sm font-semibold underline underline-offset-2"
+          >
+            {t('settings.credits')}
+          </a>
           <button
             type="button"
             onClick={() => {

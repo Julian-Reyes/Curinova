@@ -319,7 +319,8 @@
     "about": "Sobre",
     "contentPreview": "Esta é uma versão de prévia. As lições são rascunhos de demonstração que ainda não passaram pela verificação de fontes nem pela revisão humana.",
     "contentReviewed": "Todas as lições passaram por checagem de fontes e revisão humana.",
-    "replayIntro": "Ver a introdução de novo"
+    "replayIntro": "Ver a introdução de novo",
+    "credits": "Créditos e licenças"
   },
   "reviewPrompt": {
     "title": "Hora de relembrar",
@@ -339,6 +340,18 @@
     "inThisTrail": "Na trilha “{{trail}}”",
     "lessonCount_one": "{{count}} lição",
     "lessonCount_other": "{{count}} lições",
-    "otherLanguage": "Read in English"
+    "otherLanguage": "Read in English",
+    "credits": "Créditos"
+  },
+  "credits": {
+    "title": "Créditos",
+    "description": "Quem fez as fotos e as fontes tipográficas do {{appName}}, e sob quais licenças.",
+    "textTitle": "Texto das lições",
+    "textBody": "O texto das lições é original, escrito a partir das fontes listadas em cada lição. Todos os direitos reservados.",
+    "photosTitle": "Fotos das lições",
+    "photosBody": "Cada foto é usada conforme a licença indicada. O nome do autor leva à página original da foto.",
+    "topicsTitle": "Fotos dos temas",
+    "fontsTitle": "Tipografia",
+    "fontsBody": "Inter e Inter Tight, de Rasmus Andersson, sob a SIL Open Font License 1.1."
   }
 }

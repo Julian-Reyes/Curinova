@@ -21,13 +21,17 @@ import { renderPreview } from './render';
  * the pages themselves. Images whose inputs did not change are kept (cache in .cache/).
  */
 
-const VERSION = 2;
+const VERSION = 3;
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../../..');
 const outDir = join(repoRoot, 'apps/web/public/og');
 const cacheFile = join(repoRoot, '.cache/og.json');
 const LOCALES: readonly Locale[] = ['pt-BR', 'en'];
 const PHOTO_WORD: Record<Locale, string> = { 'pt-BR': 'Foto', en: 'Photo' };
 const TOPIC_WORD: Record<Locale, string> = { 'pt-BR': 'Tema', en: 'Topic' };
+/** Standalone pages: their slug in each language and their title on the preview. */
+const PAGES = [
+  { slug: { 'pt-BR': 'creditos', en: 'credits' }, title: { 'pt-BR': 'Créditos', en: 'Credits' } },
+] as const;
 
 /** The topic colour mixed toward white, so the label reads on the dark fade. */
 function lighten(hex: string, amount = 0.45): string {
@@ -128,6 +132,14 @@ for (const locale of LOCALES) {
     });
   }
 }
+
+for (const locale of LOCALES)
+  for (const page of PAGES)
+    jobs.push({
+      file: ogImageUrl(locale, 'page', page.slug[locale]),
+      input: { title: page.title[locale], topic: BRAND.name, accent: '#e0d6c8', brand: BRAND.name },
+      photoHash: undefined,
+    });
 
 const cache: Record<string, string> = existsSync(cacheFile)
   ? (JSON.parse(await readFile(cacheFile, 'utf8')) as Record<string, string>)

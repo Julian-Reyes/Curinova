@@ -1482,6 +1482,32 @@
   .pub-footer p {
     margin: 0 0 6px;
   }
+  .pub-footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+  }
+  .pub-credits {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font: 400 15px/1.5 var(--font-sans);
+  }
+  .pub-credits li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .pub-credits p {
+    margin: 2px 0 0;
+    color: var(--muted);
+  }
+  .pub-credits a {
+    color: var(--tl);
+    font-weight: 600;
+  }
+  .pub-credits .pub-credits-lesson {
+    color: var(--ink);
+  }
   .pub-footer a {
     text-decoration: underline;
     text-underline-offset: 3px;

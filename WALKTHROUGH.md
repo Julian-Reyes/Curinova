@@ -328,6 +328,8 @@ Each page reads like an article: the question, the photo, the explanation, the t
 
 **Share.** Lessons now have a Share button, on the card and at the top of Go Deeper. On a phone it opens the usual share sheet (WhatsApp, Messages and so on) with the lesson's page; on a computer it copies the link.
 
+**Credits.** A Credits page names everyone whose photos appear in the app, with the license and a link to each original, plus the typefaces. It's linked at the bottom of every public page and in Settings.
+
 ---
 
 ---
