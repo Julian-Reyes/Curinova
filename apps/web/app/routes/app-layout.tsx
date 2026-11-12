@@ -1,11 +1,13 @@
 import { isLocale, type UserPreferences } from '@lumen/domain';
+import { useEffect } from 'react';
 import { Outlet } from 'react-router';
 import { Splash } from '../components/Splash';
 import { ToastProvider } from '../components/Toast';
 import { UpdatePrompt } from '../components/UpdatePrompt';
-import { AppProvider } from '../data/app-context';
+import { AppProvider, useApp } from '../data/app-context';
 import { loadLibrary } from '../data/library';
 import { defaultPreferences, progress } from '../data/progress';
+import { analyticsAllowed, analyticsSink, toAnalyticsEvent } from '../platform/analytics';
 import { readStorage, STORAGE_KEYS } from '../platform/storage-keys';
 import type { Route } from './+types/app-layout';
 
@@ -41,7 +43,22 @@ export default function AppLayout({ loaderData }: Route.ComponentProps) {
       <ToastProvider>
         <Outlet />
         <UpdatePrompt />
+        <Analytics />
       </ToastProvider>
     </AppProvider>
   );
+}
+
+/** Sends allowlisted, anonymous events to the analytics provider, if one is connected (D26). */
+function Analytics() {
+  const { library, prefs } = useApp();
+  useEffect(() => {
+    const sink = analyticsSink;
+    if (sink === null || !analyticsAllowed(prefs)) return;
+    return progress.onEvent((event) => {
+      const e = toAnalyticsEvent(event, (id) => library.concept(id)?.topicId);
+      if (e) sink.send(e);
+    });
+  }, [library, prefs]);
+  return null;
 }

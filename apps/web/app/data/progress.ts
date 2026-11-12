@@ -37,7 +37,17 @@ export function defaultPreferences(locale: Locale): UserPreferences {
 }
 
 export class ProgressStore {
+  private readonly listeners = new Set<(event: ProgressEvent) => void>();
+
   constructor(private readonly database: LumenDB = db) {}
+
+  /** Called after each recorded event (e.g. aggregate analytics, D26). Returns an unsubscribe. */
+  onEvent(listener: (event: ProgressEvent) => void): () => void {
+    this.listeners.add(listener);
+    return () => {
+      this.listeners.delete(listener);
+    };
+  }
 
   async loadPreferences(fallback: UserPreferences): Promise<UserPreferences> {
     const row = await this.database.settings.get('prefs');
@@ -77,6 +87,7 @@ export class ProgressStore {
       schemaVersion: PROGRESS_EVENT_SCHEMA_VERSION,
     });
     await this.database.events.add(event);
+    for (const listener of this.listeners) listener(event);
     return event;
   }
 

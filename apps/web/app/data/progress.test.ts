@@ -138,3 +138,15 @@ describe('database upgrades', () => {
     expect(await upgradeFrom({ sessionGoal: 10 })).toEqual({ sessionGoal: 10 });
   });
 });
+
+describe('event listeners', () => {
+  it('tells listeners about each recorded event until they unsubscribe', async () => {
+    const { progress } = store();
+    const seen: string[] = [];
+    const stop = progress.onEvent((e) => seen.push(e.type));
+    await progress.record('lesson_opened', 'concept_tides', 'pt-BR');
+    stop();
+    await progress.record('lesson_completed', 'concept_tides', 'pt-BR');
+    expect(seen).toEqual(['lesson_opened']);
+  });
+});
