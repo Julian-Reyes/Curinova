@@ -1277,3 +1277,213 @@
   transition-duration: 0.01ms !important;
   scroll-behavior: auto !important;
 }
+
+/* Public lesson, topic and trail pages (§7.1): a calm reading column, no app chrome. */
+@layer components {
+  .pub-page {
+    min-height: 100dvh;
+    color: var(--ink);
+  }
+  .pub-header,
+  .pub-main,
+  .pub-footer {
+    width: min(100% - 32px, 680px);
+    margin-inline: auto;
+  }
+  .pub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-block: 18px;
+  }
+  .pub-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font: 800 19px/1 var(--font-display);
+  }
+  .pub-lang {
+    font: 600 14px/1.2 var(--font-sans);
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .pub-main {
+    padding-bottom: 48px;
+  }
+  .pub-kicker {
+    margin: 12px 0 10px;
+    font: 700 12px/1.4 var(--font-sans);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--tl);
+  }
+  .pub-kicker a:hover,
+  .pub-article a:hover {
+    text-decoration: underline;
+  }
+  .pub-title {
+    margin: 0;
+    font: 800 clamp(30px, 6vw, 44px) / 1.08 var(--font-display);
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+  .pub-lead {
+    margin: 14px 0 0;
+    font: 500 19px/1.5 var(--font-sans);
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+  .pub-meta {
+    margin: 10px 0 0;
+    font: 500 14px/1.4 var(--font-sans);
+    color: var(--muted);
+  }
+  .pub-hero {
+    margin: 24px 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background: var(--surface-2);
+  }
+  .pub-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .pub-p {
+    margin: 0 0 14px;
+    font: 400 17px/1.7 var(--font-sans);
+    color: var(--ink-soft);
+    text-wrap: pretty;
+  }
+  .pub-take {
+    margin: 22px 0;
+    padding: 16px 18px;
+    border-radius: 18px;
+    background: var(--tbg);
+    border: 1px solid color-mix(in oklab, var(--tl) 18%, transparent);
+  }
+  .pub-take h2 {
+    margin: 0 0 6px;
+    font: 700 15px/1.3 var(--font-sans);
+  }
+  .pub-take p {
+    margin: 0;
+    font: 500 16px/1.6 var(--font-sans);
+  }
+  .pub-sec {
+    margin-top: 30px;
+  }
+  .pub-h2 {
+    margin: 0 0 10px;
+    font: 750 22px/1.25 var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  .pub-diagram {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+  }
+  .pub-cta {
+    margin-top: 34px;
+    padding: 20px;
+    border-radius: 20px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-card);
+  }
+  .pub-cta h2 {
+    margin: 0 0 6px;
+    font: 750 20px/1.25 var(--font-display);
+  }
+  .pub-cta p {
+    margin: 0 0 16px;
+    font: 400 16px/1.6 var(--font-sans);
+    color: var(--ink-soft);
+  }
+  .pub-btn {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+    padding: 0 22px;
+    border-radius: 99px;
+    background: var(--primary);
+    color: var(--on-primary);
+    font: 700 16px/1 var(--font-sans);
+  }
+  .pub-article .pub-btn:hover {
+    text-decoration: none;
+    background: var(--primary-strong);
+  }
+  .pub-trail,
+  .pub-list,
+  .pub-links,
+  .pub-sources {
+    margin: 0;
+    padding-left: 22px;
+    list-style: disc;
+    font: 500 16px/1.5 var(--font-sans);
+  }
+  .pub-trail,
+  .pub-list {
+    list-style: decimal;
+  }
+  .pub-trail li,
+  .pub-list li,
+  .pub-links li {
+    margin-bottom: 8px;
+  }
+  .pub-trail a,
+  .pub-list a,
+  .pub-links a,
+  .pub-next a,
+  .pub-sources a,
+  .pub-h2 a {
+    color: var(--tl);
+    font-weight: 650;
+  }
+  .pub-trail [aria-current='page'] {
+    font-weight: 700;
+  }
+  .pub-list p {
+    margin: 2px 0 0;
+    font: 400 15px/1.5 var(--font-sans);
+    color: var(--muted);
+  }
+  .pub-links span {
+    display: block;
+    font-size: 15px;
+    color: var(--muted);
+  }
+  .pub-next {
+    margin: 12px 0 0;
+    font: 500 16px/1.5 var(--font-sans);
+  }
+  .pub-sources {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .pub-sources span,
+  .pub-credit {
+    color: var(--muted);
+  }
+  .pub-credit {
+    margin: 6px 0 0;
+    font-size: 12px;
+  }
+  .pub-footer {
+    padding: 24px 0 40px;
+    border-top: 1px solid var(--line);
+    font: 400 14px/1.6 var(--font-sans);
+    color: var(--muted);
+  }
+  .pub-footer p {
+    margin: 0 0 6px;
+  }
+  .pub-footer a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}

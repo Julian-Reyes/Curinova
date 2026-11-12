@@ -89,8 +89,11 @@ export default defineConfig({
         // Permanent cache prefix: never derived from the display name.
         cacheId: CODENAME,
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,webmanifest}'],
+        // Public lesson, topic and trail pages (§7.1) are real HTML files, served from the
+        // network: not precached (there are hundreds) and not replaced by the app shell.
+        globIgnores: ['**/node_modules/**/*', 'pt/**', 'en/**'],
         navigateFallback: '/__spa-fallback.html',
-        navigateFallbackDenylist: [/^\/_review/, /^\/media\//, /^\/content\//],
+        navigateFallbackDenylist: [/^\/_review/, /^\/media\//, /^\/content\//, /^\/(pt|en)\//],
         cleanupOutdatedCaches: true,
         // Lesson images aren't precached (they'd add megabytes to install). Each one is
         // cached the first time it's shown, so lessons already seen keep their images

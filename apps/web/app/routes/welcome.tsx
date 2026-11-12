@@ -7,7 +7,7 @@ import {
 } from '@lumen/domain';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate } from 'react-router';
+import { useNavigate, useSearchParams } from 'react-router';
 import {
   ArrowRightIcon,
   ChevronLeftIcon,
@@ -34,6 +34,11 @@ export default function Welcome() {
   const { t } = useTranslation();
   const { library, prefs, updatePrefs, reportStorageError } = useApp();
   const navigate = useNavigate();
+  const [params] = useSearchParams();
+  // Where the visitor was headed, e.g. a trail opened from a shared lesson page.
+  const target = params.get('next');
+  const afterOnboarding =
+    target?.startsWith('/app/') && !target.startsWith('/app/welcome') ? target : '/app/discover';
   const [step, setStep] = useState(0);
   const current = STEPS[step] ?? 'welcome';
 
@@ -49,7 +54,7 @@ export default function Welcome() {
     } catch {
       reportStorageError();
     }
-    void navigate('/app/discover', { replace: true });
+    void navigate(afterOnboarding, { replace: true });
   };
 
   // Preview a real card: the first lesson of the first trail.

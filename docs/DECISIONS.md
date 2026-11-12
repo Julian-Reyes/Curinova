@@ -319,6 +319,19 @@ The founder asked for a sixth topic, parked on 2026-11-04 until batch 2 was done
 - **Explore grid:** tiles sit two to a row; the first spans both columns only when the number of topics is odd, so six topics make three even rows.
 - The topic has one trail for now; batch 3 can add a second.
 
+### D26 · M4 plan: public pages, previews, sharing, legal pages, analytics — Founder (2026-11-12)
+
+Approved plan, built in seven steps (one commit each): (1) prerendered public pages, (2) preview images, (3) Share and More, (4) Privacy, Terms and Credits, (5) the analytics adapter, (6) story images, (7) docs.
+
+- **Prerendering (§7.1, §9.1): React Router's own `prerender`** (framework mode, SPA elsewhere), no extra plugin. `react-router.config.ts` lists every published lesson, topic and trail from the content bundle; the route loaders run only at build time and read `public/content`. Only reviewed, published lessons get pages, in any channel (§7.3).
+- **URLs as in §9.6**, with a trailing slash because the static host serves `<path>/index.html`: `/pt/licao/:slug/`, `/en/lesson/:slug/`, `/pt/topico/`, `/en/topic/`, `/pt/trilha/`, `/en/trail/`. Once launched, a published slug should not change (a future check).
+- **Site address** is `SITE_URL` in `brand.ts` (it contains the name, so a rename may change it) rather than an environment variable.
+- Each page has title, description, canonical, hreflang (with `x-default` = pt-BR), Open Graph and, for lessons, `LearningResource` JSON-LD listing its sources. Sources fold away as in the app (D24). The build fails if any public page lacks these (§16 build check); `sitemap.xml` (an index of `sitemap-pt.xml` and `sitemap-en.xml`, with hreflang) and `robots.txt` (app screens and `/_review` disallowed) are written after prerendering.
+- **Into the app:** _Continue in the app_ opens the lesson in its trail. A first-time visitor goes through onboarding first, then on to that lesson (`/app/welcome?next=`). A public page shows in its URL's language, and that language becomes the app's for a visitor who never chose one.
+- The service worker leaves public pages to the network: not precached and not replaced by the app shell.
+- **Founder answers:** fonts for preview images approved (`satori` plus a static font package); preview images use the lesson's photo with title and topic. **Email waits** for the julianreyes.dev address, set up with Supabase (and maybe Kit): _Report a problem_ and the Privacy and Terms pages go live once it exists; Credits does not need it. Legal pages: accurate plain-language versions first, revised after counsel. Analytics: built with nothing sent until a provider is chosen and the LGPD question (P3) is answered.
+- **Accounts sooner (founder):** Supabase sign-in and sync move up to the milestone right after M4, ahead of the spec's P1 order. The ECA Digital age policy (§14) therefore needs the legal review soon.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.

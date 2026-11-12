@@ -324,5 +324,18 @@
     "body_other": "{{count}} questions are waiting for you. Recalling a few days later is what makes an idea stick.",
     "start": "Review now",
     "later": "Later, keep exploring"
+  },
+  "public": {
+    "readingTime": "{{minutes}} min read",
+    "trailStep": "Lesson {{step}} of {{total}}",
+    "ctaTitle": "Want to keep going?",
+    "ctaBody": "In the app you can test what you learned, review it on the right day so it sticks, and follow the trail. Free, with no ads and no account.",
+    "continueInApp": "Continue in the app",
+    "startTrail": "Start the trail in the app",
+    "openApp": "Open the app",
+    "inThisTrail": "In the trail “{{trail}}”",
+    "lessonCount_one": "{{count}} lesson",
+    "lessonCount_other": "{{count}} lessons",
+    "otherLanguage": "Ler em português"
   }
 }

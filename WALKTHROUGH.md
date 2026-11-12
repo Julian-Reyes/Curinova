@@ -316,6 +316,14 @@ For when we want richer versions, `docs/content/HOW_IT_WORKS_PROMPTS.md` holds a
 
 **Nature & Animals.** The app now has a sixth topic, with a jaguar as its picture, a leaf icon and a forest-green colour. It sits next to Human Body & Biology in Explore, which now shows three even rows of two topics. The Amazon survival tricks trail (the electric eel, the pirarucu, leafcutter ants, poison dart frogs, the boto and the giant water lily) moved there from Human Body & Biology, where it had been waiting since batch 2. Progress is kept because it's stored by lesson, not by topic. People who had picked Human Body & Biology as an interest get Nature & Animals picked too, so the Amazon lessons don't suddenly count as "outside your interests"; the same goes for anyone who had muted it (D25).
 
+### Step 25: A real web page for every lesson (M4, 12 November)
+
+Until now the app was a single page that only came alive with JavaScript, so Google and WhatsApp saw an empty shell. Now every published lesson also has its own plain web page in each language, like `/pt/licao/seu-esqueleto-esta-vivo/` and `/en/lesson/is-your-skeleton-alive/`, built when the site is built. Topics and trails get pages too.
+
+Each page reads like an article: the question, the photo, the explanation, the takeaway, the deeper sections, the other lessons in the trail and the sources (folded away, as in the app). It works with JavaScript switched off, has a link to the same lesson in the other language, and carries the hidden tags that search engines and link previews read. A sitemap lists every page for Google.
+
+**Continue in the app** opens that lesson inside its trail. Someone visiting for the first time goes through the short welcome first and then lands on the lesson they came from, in the language of the page they were reading. If any page were ever missing its tags, the build would stop.
+
 ---
 
 ---

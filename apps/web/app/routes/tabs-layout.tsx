@@ -7,13 +7,21 @@ import { db } from '../data/db';
 import { SessionProvider } from '../features/feed/session';
 import { useOnline } from '../hooks/useOnline';
 
-/** First-time visitors go through onboarding first (it is skippable). */
-export async function clientLoader() {
+/**
+ * First-time visitors go through onboarding first (it is skippable), then on to where they
+ * were headed (e.g. a trail opened from a shared lesson page).
+ */
+export async function clientLoader({ request }: { request: Request }) {
   try {
     const row = await db.settings.get('prefs');
     const onboarded =
       typeof (row?.value as { onboardedAt?: unknown } | undefined)?.onboardedAt === 'string';
-    if (!onboarded) return redirect('/app/welcome');
+    if (!onboarded) {
+      const { pathname, search } = new URL(request.url);
+      const next =
+        pathname === '/app/discover' ? '' : `?next=${encodeURIComponent(pathname + search)}`;
+      return redirect(`/app/welcome${next}`);
+    }
   } catch {
     // Storage unavailable: let the learner in; a banner explains progress won't be saved.
   }

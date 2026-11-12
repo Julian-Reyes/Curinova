@@ -32,6 +32,8 @@ export function writeStorage(key: string, value: string): void {
 
 /**
  * Runs before React hydrates (inlined in <head>) so the first paint already has the
- * right theme, language and motion setting. Keep it dependency-free ES5.
+ * right theme, language and motion setting. Keep it dependency-free ES5. A public page
+ * (/pt/…, /en/…) is shown in its own language, and becomes the app's language for a visitor
+ * who never chose one.
  */
-export const BOOT_SCRIPT = `(function(){var d=document.documentElement;try{var t=localStorage.getItem('${STORAGE_KEYS.theme}')||'system';var dark=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);d.setAttribute('data-theme',dark?'dark':'light');var l=localStorage.getItem('${STORAGE_KEYS.locale}');if(l!=='pt-BR'&&l!=='en'){var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();l=n.indexOf('pt')===0||n===''?'pt-BR':'en';}d.setAttribute('lang',l);if(localStorage.getItem('${STORAGE_KEYS.motion}')==='reduce')d.setAttribute('data-motion','reduce');}catch(e){d.setAttribute('data-theme','light');}})();`;
+export const BOOT_SCRIPT = `(function(){var d=document.documentElement;try{var t=localStorage.getItem('${STORAGE_KEYS.theme}')||'system';var dark=t==='dark'||(t==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);d.setAttribute('data-theme',dark?'dark':'light');var p=location.pathname,pl=p.indexOf('/pt/')===0?'pt-BR':p.indexOf('/en/')===0?'en':null,sl=localStorage.getItem('${STORAGE_KEYS.locale}'),l=pl||sl;if(pl&&sl!=='pt-BR'&&sl!=='en')localStorage.setItem('${STORAGE_KEYS.locale}',pl);if(l!=='pt-BR'&&l!=='en'){var n=((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase();l=n.indexOf('pt')===0||n===''?'pt-BR':'en';}d.setAttribute('lang',l);if(localStorage.getItem('${STORAGE_KEYS.motion}')==='reduce')d.setAttribute('data-motion','reduce');}catch(e){d.setAttribute('data-theme','light');}})();`;

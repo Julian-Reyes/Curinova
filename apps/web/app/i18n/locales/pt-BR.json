@@ -324,5 +324,18 @@
     "body_other": "{{count}} perguntas estão esperando por você. Lembrar alguns dias depois é o que faz a ideia ficar.",
     "start": "Revisar agora",
     "later": "Depois, continuar explorando"
+  },
+  "public": {
+    "readingTime": "{{minutes}} min de leitura",
+    "trailStep": "Lição {{step}} de {{total}}",
+    "ctaTitle": "Quer continuar?",
+    "ctaBody": "No app você testa o que aprendeu, revisa no dia certo para não esquecer e segue a trilha. De graça, sem anúncios e sem criar conta.",
+    "continueInApp": "Continuar no app",
+    "startTrail": "Começar a trilha no app",
+    "openApp": "Abrir o app",
+    "inThisTrail": "Na trilha “{{trail}}”",
+    "lessonCount_one": "{{count}} lição",
+    "lessonCount_other": "{{count}} lições",
+    "otherLanguage": "Read in English"
   }
 }

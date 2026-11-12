@@ -8,9 +8,11 @@ import {
   Scripts,
   ScrollRestoration,
   isRouteErrorResponse,
+  useLocation,
 } from 'react-router';
 import type { Route } from './+types/root';
 import { createI18n } from './i18n';
+import { publicLocaleOf } from './public/paths';
 import { BOOT_SCRIPT } from './platform/storage-keys';
 import './styles/app.css';
 
@@ -31,8 +33,10 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  // Public pages are in their URL's language; the app's language comes from the boot script.
+  const lang = publicLocaleOf(useLocation().pathname) ?? 'pt-BR';
   return (
-    <html lang="pt-BR" data-theme="light" suppressHydrationWarning>
+    <html lang={lang} data-theme="light" suppressHydrationWarning>
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />

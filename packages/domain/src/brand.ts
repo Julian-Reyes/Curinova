@@ -12,6 +12,12 @@ export const BRAND = {
 } as const;
 
 /**
+ * The live site's address (D13), used for canonical URLs, sitemaps and link previews.
+ * It contains the name, so a rename may change it too (and resets on-device progress).
+ */
+export const SITE_URL = 'https://curinova.julianreyes.dev';
+
+/**
  * Earlier working titles. Tests make sure they never reappear outside the rename
  * history (docs/DECISIONS.md) and the original spec (docs/SPEC.md).
  */
