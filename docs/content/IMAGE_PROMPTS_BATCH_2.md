@@ -161,7 +161,7 @@ _Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel To
 
 #### salvador_first_capital: Why was Salvador Brazil's first capital?
 
-- **Discover:** A cobbled Pelourinho slope with colonial houses and a church's twin towers (Unsplash, Marianna Smiley), cropped to 9:16. _Replaced Marcelo Gonzalez's Pexels street on 2026-11-12._
+- **Discover:** A cobbled Pelourinho slope with colonial houses and a church's twin towers (Unsplash, Marianna Smiley), cropped to 9:16 low and tight so the houses fill the card, not the sky. _Replaced Marcelo Gonzalez's Pexels street on 2026-11-12._
 - **Deeper:** The Lacerda Elevator and the Bay of All Saints (Pexels, Luís Otávio).
 - **Review:** Aerial view of Salvador's seafront (Pexels, LEONARDO DOURADO). _Don't show: Tomé de Sousa, 1549, caravels arriving._
 - **Search:** Pexels/Unsplash: "Pelourinho", "Salvador Bahia", "Elevador Lacerda". Commons: "Salvador 17th century engraving".
@@ -181,7 +181,7 @@ _Used Pexels photos instead of these prompts: Kindel Media (Discover), Israel To
 
 #### inland_capital_idea: When did the idea of an inland capital begin?
 
-- **Discover:** A waterfall in Chapada dos Veadeiros (Pexels, Pablo Melo), cropped to 9:16. _Replaced Matheus Bertelli's hiker (no location given) on 2026-11-12._
+- **Discover:** A waterfall in Chapada dos Veadeiros (Pexels, Pablo Melo), cropped to 9:16 low and tight around the falls, not the sky. _Replaced Matheus Bertelli's hiker (no location given) on 2026-11-12._
 - **Deeper:** Henrique Morize's 1894 photo of the Cruls Commission (Commons, public domain).
 - **Review:** A twisted Cerrado tree in Chapada dos Veadeiros (Commons, CC BY-SA 4.0, Eliane de Castro). _Don't show: Surveyors, markers, the 1891 Constitution._
 - **Search:** Pexels/Unsplash: "cerrado", "Chapada dos Veadeiros". Commons: "Missão Cruls", "Planalto Central 1892".
