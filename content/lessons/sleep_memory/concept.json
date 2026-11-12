@@ -48,8 +48,8 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sleeping_Student_(Constantin_Verhout)_-_Nationalmuseum_-_17680.tif"
       },
       "accuracyReviewedBy": "Julian",
-      "addedAt": "2026-10-30",
-      "hash": "f95c2614"
+      "addedAt": "2026-11-11",
+      "hash": "bf34dc27"
     },
     "deeper": {
       "width": 1200,
@@ -84,6 +84,23 @@
       "accuracyReviewedBy": "Julian",
       "addedAt": "2026-11-03",
       "hash": "7447d92c"
+    },
+    "diagram": {
+      "width": 1200,
+      "height": 600,
+      "alt": {
+        "pt-BR": "Uma pessoa dormindo à noite, ao lado de um caderno, enquanto uma rede de neurônios brilha e fortalece ligações.",
+        "en": "A person asleep at night beside a notebook, while a network of neurons glows and strengthens its links."
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-10"
+      },
+      "accuracyReviewedBy": "Julian",
+      "addedAt": "2026-11-11",
+      "hash": "782f2ecf"
     }
   }
 }

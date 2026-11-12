@@ -5,7 +5,7 @@ ChatGPT prompts for the pictures in Go Deeper's **How it works** box. All 53 wer
 **Where the pictures are**
 
 - **Batch 2 (31 drafts):** on the site in the new `diagram` slot (D23), waiting for **Images checked** in `/_review`. A lesson with a diagram picture shows it in How it works; the others keep their SVG scene.
-- **Published lessons (22):** 20 added and checked on 2026-11-11. `sleep_memory` and `tupi_words` wait for the founder's check; added pictures show in `/_review` under "Published, pictures to check", and `content:validate` fails until each is checked, so none reaches the live site unchecked. The originals are in `~/Downloads/lumen-diagrams/final/`, named `<lesson>_diagram.png`.
+- **Published lessons (22):** all added and checked (20 on 2026-11-11, `sleep_memory` and `tupi_words` on 2026-11-12). A picture added later to a published lesson shows in `/_review` under "Published, pictures to check", and `content:validate` fails until it is checked, so none reaches the live site unchecked. The originals are in `~/Downloads/lumen-diagrams/final/`, named `<lesson>_diagram.png`.
 
 ## How to use
 
