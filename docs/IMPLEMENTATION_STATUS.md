@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-11-03 (C1 pilot published: 22 lessons live).
+Last updated: 2026-11-13 (M4 closed; M5 planning).
 
 | Milestone                            | Status                          |
 | ------------------------------------ | ------------------------------- |
@@ -8,8 +8,8 @@ Last updated: 2026-11-03 (C1 pilot published: 22 lessons live).
 | M2 — Guest MVP slice                 | In progress                     |
 | M2.5 — Product experience overhaul   | ✅ Done (signed off 2026-11-03) |
 | M3 — Content pipeline tooling        | Pilot and batch 2 published     |
-| M4 — Public web and growth surface   | In progress (step 5 of 7)       |
-| M5 — Offline, polish, beta readiness | Not started                     |
+| M4 — Public web and growth surface   | ✅ Done (2026-11-13)            |
+| M5 — Offline, polish, beta readiness | Planning                        |
 
 ## M1 — Foundation
 
@@ -91,7 +91,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | Plan step 8: Library, You, Settings, Welcome, desktop                     | `routes/`                          | ✅                                     |
 | Plan step 9: review pass (fit, tap targets, contrast, image weight)       | `docs/M2_5_INTEGRATION_PLAN.md` §7 | ✅ founder signed off on phone (11-03) |
 
-## M4 — Public web and growth surface (in progress, D26)
+## M4 — Public web and growth surface (done 2026-11-13, D26)
 
 | Step | Item                                                                                                                                                                                                     | Where                                                                               | Status                                           |
 | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------ |
@@ -101,7 +101,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | 4    | Credits page; Privacy and Terms once the email exists                                                                                                                                                    | `routes/public/credits.tsx`                                                         | ✅ Credits; Privacy and Terms wait for the email |
 | 5    | Analytics adapter, allowlist, Settings toggle (nothing sent yet)                                                                                                                                         | `platform/analytics.ts`                                                             | ✅ adapter; toggle comes with a provider         |
 | 6    | Story images for Instagram and WhatsApp Status                                                                                                                                                           | `tools/content-pipeline/src/og/`, `features/feed/ShareSheet.tsx`                    | ✅                                               |
-| 7    | Docs                                                                                                                                                                                                     |                                                                                     |                                                  |
+| 7    | Docs                                                                                                                                                                                                     | `docs/`, `WALKTHROUGH.md`                                                           | ✅                                               |
 
 ## M3 — Content pipeline (pilot and batch 2 published)
 
@@ -134,5 +134,6 @@ Pictures are checked for accuracy with "Images checked" on each lesson (D20, 202
 - M3: trail batch 2 (D19, 31 lessons) is reviewed and published (2026-11-12): all 53 lessons, 106 variants, are live and the review backlog is empty.
 - Sixth topic, Nature & Animals (D25, 2026-11-12), with the Amazon survival tricks trail moved into it and a jaguar topic picture.
 - Batch 2 "How it works" drawings: all 31 lessons have their own SVG scene and a ChatGPT diagram picture in the new `diagram` slot, waiting for Images checked (D23). All 22 published lessons have theirs too, checked (2026-11-11/12); a picture added later to a published lesson shows in `/_review` under "Published, pictures to check".
-- M4: prerendered lesson/topic/trail pages, OG images, sharing, legal pages, analytics.
-- M5: starter-pack offline caching, export/import (needed before any domain move, D13), axe checks, performance budgets. Basic deployment is already live (D13).
+- M4 (done): public pages, preview and story images, Share, Credits, analytics adapter. Waiting for the julianreyes.dev email (accounts milestone): Privacy and Terms pages, _Report a problem_ and the More menu. Waiting for an analytics provider (after the LGPD question): the Settings toggle.
+- M5: starter-pack offline caching, offline states, axe checks, performance budgets. Basic deployment is already live (D13). Export moved to the accounts milestone and import is deferred (D27).
+- Accounts milestone (after M5, D27): Supabase sign-in and sync, the julianreyes.dev email (maybe Kit), Privacy, Terms, _Report a problem_, _Download my data_.
