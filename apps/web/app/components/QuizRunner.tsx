@@ -1,5 +1,5 @@
 import { hashString, seededShuffle, type QuizQuestion } from '@lumen/domain';
-import { useMemo, useRef, useState } from 'react';
+import { useId, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { CheckIcon, CloseIcon } from './icons';
 
@@ -51,6 +51,7 @@ export function QuizRunner({
   const [results, setResults] = useState<AnswerResult[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
   const nextButton = useRef<HTMLButtonElement>(null);
+  const feedbackId = useId();
   const question = questions[index];
   const options = useMemo(
     () => (question ? seededShuffle(question.options, hashString(question.id) ^ seed) : []),
@@ -171,28 +172,30 @@ export function QuizRunner({
         })}
       </ul>
 
-      <div aria-live="assertive" className="contents">
-        {answered && (
-          <div
-            className={`fade-up rounded-[18px] p-4 ${review ? 'bg-tbg' : correct ? 'bg-success-soft' : 'bg-danger-soft'}`}
-          >
-            <p className={`font-semibold ${correct ? 'text-success' : 'text-danger'}`}>
-              {correct ? t('quiz.correct') : t('quiz.incorrect', { answer: correctText })}
+      {/* Focus moves to the next button, which carries the feedback as its description:
+          screen readers read it there, where a live region would be cut off by the move. */}
+      {answered && (
+        <div
+          id={feedbackId}
+          className={`fade-up rounded-[18px] p-4 ${review ? 'bg-tbg' : correct ? 'bg-success-soft' : 'bg-danger-soft'}`}
+        >
+          <p className={`font-semibold ${correct ? 'text-success' : 'text-danger'}`}>
+            {correct ? t('quiz.correct') : t('quiz.incorrect', { answer: correctText })}
+          </p>
+          <p className="mt-1.5 text-[15px] leading-relaxed">{question.explanation}</p>
+          {!correct && question.misconception !== undefined && (
+            <p className="mt-2 text-[15px] leading-relaxed text-muted">
+              <span className="font-semibold text-ink">{t('quiz.misconception')} </span>
+              {question.misconception}
             </p>
-            <p className="mt-1.5 text-[15px] leading-relaxed">{question.explanation}</p>
-            {!correct && question.misconception !== undefined && (
-              <p className="mt-2 text-[15px] leading-relaxed text-muted">
-                <span className="font-semibold text-ink">{t('quiz.misconception')} </span>
-                {question.misconception}
-              </p>
-            )}
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      )}
 
       {answered && (
         <button
           ref={nextButton}
+          aria-describedby={feedbackId}
           type="button"
           onClick={next}
           className={`pressable min-h-12 rounded-full bg-primary px-6 font-semibold text-on-primary ${review ? 'min-h-14 self-end text-[17px]' : ''}`}

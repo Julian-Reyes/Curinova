@@ -65,4 +65,16 @@ describe('QuizRunner (§3.3)', () => {
     expect(screen.getByText("That's right!")).toBeTruthy();
     expect(screen.queryByText('It does spin.')).toBeNull();
   });
+
+  it('reads the feedback with the next button, which takes focus (§8)', async () => {
+    setup();
+    await userEvent.click(screen.getByRole('button', { name: 'About 24 hours' }));
+    const next = screen.getByRole('button', {
+      name: 'See result',
+      description: /Not quite\. The right answer is: About 27 days.*One spin per orbit\./,
+    });
+    await vi.waitFor(() => {
+      expect(document.activeElement).toBe(next);
+    });
+  });
 });
