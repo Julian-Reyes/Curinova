@@ -326,7 +326,7 @@ Each page reads like an article: the question, the photo, the explanation, the t
 
 **Link previews.** Paste a lesson link into WhatsApp or iMessage and it now shows a picture: the lesson's photo darkened at the bottom, with the topic, the question and the app name on top. Every lesson, topic and trail gets one, made when the site is built.
 
-**Share.** Lessons now have a Share button, on the card and at the top of Go Deeper. It offers two choices. **Share as image** sends a tall, phone-shaped picture of the card (photo, question, short text and the lesson's address), made for Instagram Stories and WhatsApp Status. **Share link** opens the usual share sheet (WhatsApp, Messages and so on) with the lesson's page, or copies the link on a computer. Computers that can't share pictures get **Save image** instead.
+**Share.** Lessons now have a Share button, on the card and at the top of Go Deeper. It offers two choices. **Share as image** sends a tall, phone-shaped picture laid out like the Discover card (photo, topic, question, short text and the site's address), made for Instagram Stories and WhatsApp Status. **Share link** opens the usual share sheet (WhatsApp, Messages and so on) with the lesson's page, or copies the link on a computer. Computers that can't share pictures get **Save image** instead.
 
 **Credits.** A Credits page names everyone whose photos appear in the app, with the license and a link to each original, plus the typefaces. It's linked at the bottom of every public page and in Settings.
 

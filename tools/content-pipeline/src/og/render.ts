@@ -123,35 +123,41 @@ export async function renderPreview(input: PreviewInput): Promise<Buffer> {
 export interface StoryInput extends PreviewInput {
   /** The card's short text under the title. */
   text: string;
-  /** The lesson's address, printed at the bottom: the site, then the page path. */
+  /** The topic's own colour, for the chip's icon square. */
+  tint: string;
+  /** The topic glyph as an image URL (white on transparent). */
+  icon: string;
+  /** The site's address, printed in the pill where the card has "Dive in". */
   site: string;
-  path: string;
-}
-
-function storyTitleSize(title: string): number {
-  if (title.length <= 40) return 92;
-  if (title.length <= 60) return 80;
-  return 70;
 }
 
 /**
- * A 1080×1920 story image of a lesson card (§7.4). The text stays clear of the top 250 px and
- * bottom 340 px, where Instagram and WhatsApp draw their own controls over a story.
+ * Discover card sizes (app.css, .stage-*) scaled from a 390 px wide phone to 1080 px; the text
+ * column keeps the card's width beside the action rail.
+ */
+const S = 2.75;
+const px = (n: number) => Math.round(n * S);
+
+/**
+ * A 1080×1920 story image of a lesson card (§7.4), laid out like the Discover card: the photo
+ * with the same fades, then the topic chip, question, card text and a pill at the bottom. The
+ * text stays above the bottom 170 px, where Stories and Status draw the reply bar.
  */
 export async function renderStory(input: StoryInput): Promise<Buffer> {
   const overlay = el(
     'div',
     {
-      width: STORY_WIDTH - 2 * 80,
-      height: STORY_HEIGHT - 260 - 340,
+      width: STORY_WIDTH - 2 * px(24),
+      height: STORY_HEIGHT - 230 - 170,
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'space-between',
-      padding: '260px 80px 340px',
+      padding: `230px ${String(px(24))}px 170px`,
       fontFamily: 'Inter Tight',
       color: '#ffffff',
+      // The card's two fades (dark top edge, dark lower half) as one gradient.
       backgroundImage:
-        'linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 18%, rgba(0,0,0,0.35) 36%, rgba(0,0,0,0.85) 54%, rgba(0,0,0,0.92) 100%)',
+        'linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 36%, rgba(0,0,0,0.4) 52%, rgba(0,0,0,0.82) 72%, rgba(0,0,0,0.94) 100%)',
     },
     [
       el(
@@ -164,37 +170,58 @@ export async function renderStory(input: StoryInput): Promise<Buffer> {
         },
         input.brand,
       ),
-      el('div', { display: 'flex', flexDirection: 'column' }, [
+      el('div', { display: 'flex', flexDirection: 'column', maxWidth: px(300) }, [
         el(
           'div',
           {
-            fontSize: 34,
+            display: 'flex',
+            alignItems: 'center',
+            gap: px(7),
+            fontSize: px(12),
             fontWeight: 700,
-            letterSpacing: 3,
-            textTransform: 'uppercase',
-            color: input.accent,
-            marginBottom: 22,
+            color: 'rgba(255,255,255,0.92)',
           },
-          input.topic,
+          [
+            el(
+              'div',
+              {
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: px(20),
+                height: px(20),
+                borderRadius: px(6),
+                backgroundColor: input.tint,
+                boxShadow: `0 0 ${String(px(16))}px ${input.tint}99`,
+              },
+              { type: 'img', props: { src: input.icon, width: px(13), height: px(13) } },
+            ),
+            el('div', {}, input.topic),
+          ],
         ),
         el(
           'div',
           {
-            fontSize: storyTitleSize(input.title),
-            fontWeight: 800,
-            lineHeight: 1.06,
-            letterSpacing: -1.5,
+            marginTop: px(10),
+            fontSize: px(30),
+            fontWeight: 700,
+            lineHeight: 1.1,
+            letterSpacing: -0.022 * px(30),
+            textShadow: '0 2px 20px rgba(0,0,0,0.35)',
+            textWrap: 'balance',
           },
           input.title,
         ),
         el(
           'div',
           {
-            fontSize: 40,
+            marginTop: px(10),
+            fontSize: px(15.5),
             fontWeight: 400,
-            lineHeight: 1.35,
-            color: 'rgba(255,255,255,0.9)',
-            marginTop: 32,
+            lineHeight: 1.45,
+            // The card's body font is Inter; Inter Tight opened up a little comes close.
+            letterSpacing: 0.02 * px(15.5),
+            color: 'rgba(255,255,255,0.86)',
           },
           input.text,
         ),
@@ -202,21 +229,22 @@ export async function renderStory(input: StoryInput): Promise<Buffer> {
           'div',
           {
             display: 'flex',
-            flexDirection: 'column',
             alignSelf: 'flex-start',
-            marginTop: 44,
-            padding: '18px 30px',
-            borderRadius: 28,
-            backgroundColor: 'rgba(255,255,255,0.14)',
+            alignItems: 'center',
+            marginTop: px(18),
+            height: px(46),
+            padding: `0 ${String(px(22))}px`,
+            borderRadius: 999,
+            backgroundColor: '#ffffff',
+            color: '#111111',
+            fontSize: px(14),
+            fontWeight: 700,
           },
-          [
-            el('div', { fontSize: 30, fontWeight: 700 }, input.site),
-            el('div', { fontSize: 24, color: 'rgba(255,255,255,0.75)', marginTop: 4 }, input.path),
-          ],
+          input.site,
         ),
         el(
           'div',
-          { fontSize: 22, color: 'rgba(255,255,255,0.7)', marginTop: 20 },
+          { fontSize: 22, color: 'rgba(255,255,255,0.7)', marginTop: 18 },
           input.credit ?? '',
         ),
       ]),

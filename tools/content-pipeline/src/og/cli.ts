@@ -13,10 +13,10 @@ import {
   type LessonImage,
   type Locale,
 } from '@lumen/domain';
-import { publicPath } from '../../../../apps/web/app/public/paths';
 import { libraryFromTrees } from '../bundle/build';
 import { loadTree } from '../validate/tree';
 import { renderPreview, renderStory, type StoryInput } from './render';
+import { topicIconDataUrl } from './topic-icons';
 
 /*
  * `content:og`: link-preview images for every public page (§7.2), written to
@@ -25,7 +25,7 @@ import { renderPreview, renderStory, type StoryInput } from './render';
  * Images whose inputs did not change are kept (cache in .cache/).
  */
 
-const VERSION = 5;
+const VERSION = 8;
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../../..');
 const outDir = join(repoRoot, 'apps/web/public/og');
 const cacheFile = join(repoRoot, '.cache/og.json');
@@ -107,8 +107,9 @@ for (const v of lib.variants) {
       photo: tall?.file,
       credit: creditFor(tall?.image, v.locale),
       text: v.cardText ?? v.summary,
+      tint: topic.accentColor,
+      icon: topicIconDataUrl(topic.icon),
       site: SITE_URL.replace(/^https:\/\//, ''),
-      path: publicPath(v.locale, 'lesson', v.slug).replace(/\/$/, ''),
     },
     photoHash: tall?.image?.hash,
   });
