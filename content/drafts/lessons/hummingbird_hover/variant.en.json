@@ -1,0 +1,303 @@
+{
+  "id": "lesson_hummingbird_hover__en",
+  "conceptId": "concept_hummingbird_hover",
+  "locale": "en",
+  "slug": "how-does-a-hummingbird-hover-in-mid-air",
+  "title": "How does a hummingbird hover in mid-air?",
+  "hook": "It beats its wings dozens of times a second and gets lift even on the way back up.",
+  "summary": "A hummingbird beats its wings dozens of times a second and makes lift on both the down-stroke and the up-stroke; at night it can drop into torpor to save energy.",
+  "cardText": "Beating its wings dozens of times a second, a hummingbird makes lift as each wing sweeps down and again as it comes back up. No other bird can hold still in the air for so long.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A helicopter can hold still in the air because its rotor never stops pushing air downwards. A hummingbird solves the same problem with its wings, beating them extremely fast: 70 to 80 times a second in the smallest species. It is the only bird that can hover like this for long, and it can fly backwards too."
+    },
+    {
+      "type": "paragraph",
+      "text": "The secret is making the return stroke count. Measurements of rufous hummingbirds in 2005 showed that the down-stroke provides 75% of the lift and the up-stroke 25%: on the way up the wing flips over and keeps working, in a style of flight that resembles an insect’s. All that effort comes at a price. To avoid starving overnight, a hummingbird can slip into torpor, a very deep sleep-like state in which its metabolism drops to a minimum and its body cools down."
+    },
+    {
+      "type": "takeaway",
+      "text": "Hummingbirds hover by beating their wings very fast and making lift on both strokes; at night they save energy in torpor."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Same beat for hovering and cruising"
+    },
+    {
+      "type": "paragraph",
+      "text": "A hummingbird beats its wings at the same rate whether it is hovering or flying forwards. The rate differs between species and even between the sexes: in Calliphlox amethystina, one of the smallest species, the male beats its wings about 80 times a second and the larger female about 60."
+    },
+    {
+      "type": "heading",
+      "text": "Lift with hardly a break"
+    },
+    {
+      "type": "paragraph",
+      "text": "A later study tracked the air around the wings of hovering hummingbirds. Lift does not vanish when the wing changes direction: the wing’s rotation between down-stroke and up-stroke keeps the airflow attached, so lift is produced almost continuously through the wingbeat, something not previously known in any vertebrate."
+    },
+    {
+      "type": "heading",
+      "text": "An engine that never idles"
+    },
+    {
+      "type": "paragraph",
+      "text": "A ruby-throated hummingbird’s heart beats about 225 times a minute at rest and more than 1,200 times a minute in flight. That is why torpor matters so much: it can cut the resting metabolic rate to a tenth. It is not hibernation, which lasts a long time; a hummingbird can go into torpor on any night of the year when cold and lack of food demand it."
+    },
+    {
+      "type": "heading",
+      "text": "A continent of hummingbirds"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hummingbirds live only in the Americas, and Brazil and Ecuador together hold about half of all known species. According to WikiAves, 90 species of the family live in Brazil."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The smallest hummingbird species beat their wings 70 to 80 times a second.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "O batimento das asas é muito rápido e as espécies menores podem bater as asas 70 a 80 vezes por segundo."
+        },
+        {
+          "sourceId": "src_britannica_com_animal_hummingbird_652119",
+          "excerpt": "In Calliphlox amethystina, one of the tiniest species, the male has a wing-beat rate of about 80 per second"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The hummingbird is the only bird that can hover for long periods, and it can also fly backwards.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "In fact, hummingbirds are the only vertebrates capable of sustained hovering (staying in one place during flight), and they can fly backward and upside-down as well."
+        },
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "São as únicas aves capazes de voar para trás e permanecerem imóveis no ar."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Measurements of rufous hummingbirds in 2005 showed that the down-stroke provides 75% of the lift and the up-stroke 25%.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "Published: 23 June 2005"
+        },
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "hummingbirds produce 75% of their weight support during the downstroke and only 25% during the upstroke."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "On the up-stroke, the hummingbird’s wing flips over.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "Some of this asymmetry is probably due to inversion of their cambered wings during upstroke."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Hummingbird hovering resembles that of insects.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "Hummingbird hovering approaches that of insects, yet remains distinct because of effects resulting from an inherently dissimilar—avian—body plan."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "To avoid starving overnight, a hummingbird can enter torpor, a very deep sleep-like state with minimal metabolism and low body temperature.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_birdlife_org_birds_hummingbird_4ffee6",
+          "excerpt": "They face the risk of starvation during sleep or when food is scarce, so enter a hibernation-like state called torpor at night to conserve energy."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "Torpor is a very deep, sleep-like state in which metabolic functions are slowed to a minimum and a very low body temperature is maintained."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A hummingbird beats its wings at the same rate when hovering and when flying forwards.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_hummingbird_652119",
+          "excerpt": "The rate at which a hummingbird beats its wings is the same during directional and hovering flight."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "In Calliphlox amethystina, the male beats its wings about 80 times a second and the larger female about 60.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_hummingbird_652119",
+          "excerpt": "In Calliphlox amethystina, one of the tiniest species, the male has a wing-beat rate of about 80 per second; the female, which is larger, beats her wings at a rate of about 60 times per second."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "The wing’s rotation between down-stroke and up-stroke keeps lift almost continuous, something previously unknown in vertebrates.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_5bc076",
+          "excerpt": "the bound circulation is not shed as a vortex at the end of translation, but instead remains attached and persists after translation has ceased, augmented by the rotation (pronation, supination) of the wing that occurs between the wing-translation half-cycles"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_5bc076",
+          "excerpt": "The result is a near-continuous lift production through wing turn-around, previously unknown in vertebrates"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A ruby-throated hummingbird’s heart beats about 225 times a minute at rest and more than 1,200 in flight.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "A ruby-throated hummingbird's heart beats from 225 times per minute when the bird is at rest to more than 1,200 times per minute when it is flying."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "In torpor, a hummingbird’s resting metabolic rate can drop tenfold.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3df1fb",
+          "excerpt": "In addition, hummingbirds can quickly enter torpor and reduce resting metabolic rates by 10-fold."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Torpor is not hibernation: a hummingbird can enter it on any night of the year, depending on cold and food.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "If torpor lasted for long periods, we would call it hibernation, but hummingbirds can go into torpor any night of the year when temperature and food conditions demand it."
+        },
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "Entram em estado de semitorpor em dias excessivamente frios e durante a noite."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Hummingbirds live only in the Americas, and Brazil and Ecuador hold about half of all known species.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "A maior biodiversidade da família encontra-se no Brasil e Equador, que contêm cerca de metade das espécies conhecidas de beija-flores."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "The almost 340 species of hummingbirds are entirely restricted to the New World"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "According to WikiAves, 90 hummingbird species live in Brazil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "No Brasil, existem 90 espécies de troquilídeos, sendo um dos países com maior riqueza biológica para a família."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_wikiaves_com_br_trochilidae_b115c9",
+    "src_britannica_com_animal_hummingbird_652119",
+    "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+    "src_nature_com_articles_nature03647_29b5c2",
+    "src_birdlife_org_birds_hummingbird_4ffee6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_5bc076",
+    "src_pmc_ncbi_nlm_nih_gov_articles_3df1fb"
+  ],
+  "quizIds": [
+    "q_hummingbird_hover_1__en",
+    "q_hummingbird_hover_2__en",
+    "q_hummingbird_hover_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_gecko_feet_1__en",
+    "questionGroupId": "qg_gecko_feet_1",
+    "conceptId": "concept_gecko_feet",
+    "locale": "en",
+    "prompt": "What keeps a gecko stuck to the ceiling?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A weak attraction between molecules, added up over billions of microscopic tips"
+      },
+      {
+        "id": "b",
+        "text": "Glue made by glands in its toes"
+      },
+      {
+        "id": "c",
+        "text": "Suction cups that create a vacuum"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The spatulae get so close to the surface that van der Waals forces, added together, hold the animal up.",
+    "misconception": "Suction seems the obvious answer, but it would be far too weak, and geckos stick even in a vacuum.",
+    "claimIds": ["c4", "c5", "c6", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gecko_feet_2__en",
+    "questionGroupId": "qg_gecko_feet_2",
+    "conceptId": "concept_gecko_feet",
+    "locale": "en",
+    "prompt": "How does a gecko release its foot so quickly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It dissolves the glue with saliva"
+      },
+      {
+        "id": "b",
+        "text": "It peels its toes off like tape, changing the angle of the hairs"
+      },
+      {
+        "id": "c",
+        "text": "It waits for the hairs to fall out and regrow"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Tilted to about 30 degrees, a seta lets go of the surface; the gecko does this by peeling its toes away.",
+    "claimIds": ["c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gecko_feet_3__en",
+    "questionGroupId": "qg_gecko_feet_3",
+    "conceptId": "concept_gecko_feet",
+    "locale": "en",
+    "prompt": "Which of these surfaces can a gecko not stick to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Smooth glass"
+      },
+      {
+        "id": "b",
+        "text": "Teflon"
+      },
+      {
+        "id": "c",
+        "text": "A smooth ceiling"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Studies found that geckos fail to stick to Teflon (polytetrafluoroethylene).",
+    "claimIds": ["c16"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_octopus_colour_1__en",
+    "questionGroupId": "qg_octopus_colour_1",
+    "conceptId": "concept_octopus_colour",
+    "locale": "en",
+    "prompt": "What opens and closes an octopus’s chromatophores?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hormones that take hours to act"
+      },
+      {
+        "id": "b",
+        "text": "Muscles controlled by nerves"
+      },
+      {
+        "id": "c",
+        "text": "The temperature of the surrounding water"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Each pigment sac is ringed by muscle fibres wired to nerves; when they contract, the sac opens up.",
+    "misconception": "The change is almost instant precisely because nerves and muscles drive it, not a slow process.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_octopus_colour_2__en",
+    "questionGroupId": "qg_octopus_colour_2",
+    "conceptId": "concept_octopus_colour",
+    "locale": "en",
+    "prompt": "What puzzles scientists about octopus camouflage?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It only changes colour at night"
+      },
+      {
+        "id": "b",
+        "text": "It copies the colour of other octopuses, not the seabed"
+      },
+      {
+        "id": "c",
+        "text": "It matches background colours but appears to be colour-blind"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "An octopus eye has a single visual pigment and most studies find it colour-blind; how it matches colours is still a mystery.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_octopus_colour_3__en",
+    "questionGroupId": "qg_octopus_colour_3",
+    "conceptId": "concept_octopus_colour",
+    "locale": "en",
+    "prompt": "According to a 2024 study, how much energy does an octopus’s fully activated colour system use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nearly as much as the whole octopus at rest"
+      },
+      {
+        "id": "b",
+        "text": "Practically none"
+      },
+      {
+        "id": "c",
+        "text": "Ten times more than the whole octopus at rest"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "By measuring the oxygen used by the skin, researchers estimated a cost close to that of the whole animal at rest.",
+    "claimIds": ["c13"],
+    "status": "draft"
+  }
+]

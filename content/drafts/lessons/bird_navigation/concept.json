@@ -1,0 +1,35 @@
+{
+  "id": "concept_bird_navigation",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 5,
+  "tags": ["birds", "migration", "navigation", "magnetism", "brazil"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_immortal_jellyfish",
+      "type": "next",
+      "reason": {
+        "pt-BR": "De um superpoder de orientação a um de sobrevivência: a água-viva que rejuvenesce.",
+        "en": "From a superpower of finding the way to one of survival: the jellyfish that turns young again."
+      }
+    },
+    {
+      "conceptId": "concept_boto_echolocation",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro sentido que nós não temos: o sonar do boto.",
+        "en": "Another sense we lack: the boto’s sonar."
+      }
+    },
+    {
+      "conceptId": "concept_hummingbird_hover",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra ave com um superpoder: ficar parada no ar.",
+        "en": "Another bird with a superpower: holding still in mid-air."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

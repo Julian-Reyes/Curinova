@@ -1,0 +1,41 @@
+{
+  "id": "cluster_animal_superpowers",
+  "topicId": "nature",
+  "slug": {
+    "pt-BR": "superpoderes-dos-animais",
+    "en": "animal-superpowers"
+  },
+  "title": {
+    "pt-BR": "Superpoderes dos animais",
+    "en": "Animal superpowers"
+  },
+  "hook": {
+    "pt-BR": "Andar no teto, mudar de cor num piscar de olhos, sobreviver no espaço.",
+    "en": "Walking on ceilings, changing colour in a blink, surviving open space."
+  },
+  "conceptIds": [
+    "concept_gecko_feet",
+    "concept_octopus_colour",
+    "concept_hummingbird_hover",
+    "concept_sloth_slow_life",
+    "concept_bird_navigation",
+    "concept_immortal_jellyfish",
+    "concept_tardigrades_space"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_amazon_survival",
+      "reason": {
+        "pt-BR": "Mais truques de bichos, agora da Amazônia: choques, veneno e sonar.",
+        "en": "More animal tricks, this time from the Amazon: shocks, poison and sonar."
+      }
+    },
+    {
+      "clusterId": "cluster_brazil_in_space",
+      "reason": {
+        "pt-BR": "Os tardígrados foram ao espaço; veja como o Brasil chegou lá.",
+        "en": "Tardigrades went to space; see how Brazil got there."
+      }
+    }
+  ]
+}

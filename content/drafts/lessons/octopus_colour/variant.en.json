@@ -1,0 +1,289 @@
+{
+  "id": "lesson_octopus_colour__en",
+  "conceptId": "concept_octopus_colour",
+  "locale": "en",
+  "slug": "how-does-an-octopus-change-colour-in-a-blink",
+  "title": "How does an octopus change colour in a blink?",
+  "hook": "It matches the colour of the seabed, yet it most likely can’t see colour.",
+  "summary": "Octopus skin is packed with pigment sacs called chromatophores, opened and closed by nerve-controlled muscles; the puzzle is that octopuses appear to be colour-blind.",
+  "cardText": "Thousands of pigment sacs in its skin, stretched open by nerve-controlled muscles, let an octopus change colour almost instantly. The mystery: most studies suggest it can’t see colour at all.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a screen where every pixel is a tiny balloon of ink. Octopus skin works a bit like that, with about 230 chromatophores per square millimetre. Each one is an elastic sac of pigment ringed by 15 to 25 muscle fibres, wired to nerves that run straight from the brain. When the muscles contract, the sac flattens from about 10 to about 300 micrometres (thousandths of a millimetre) across and colours that patch of skin."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because nerves and muscles do the work, the change is almost instantaneous, and no other animals match octopuses, squid and cuttlefish for speed of colour change. Yet an octopus eye has only one visual pigment, and most studies conclude that it cannot tell colours apart. How it matches the colour of its background is still an open question."
+    },
+    {
+      "type": "takeaway",
+      "text": "Octopuses change colour with pigment sacs pulled open by muscles and nerves, apparently without being able to see colour."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Idea 1: the pupil"
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2016 proposal looks at the shape of the pupil. Each colour comes into focus at a slightly different distance behind the lens, an effect called chromatic aberration. With an off-centre pupil, like those of most shallow-water cephalopods, an animal could work out colour from focus, even with a single type of photoreceptor. Other researchers have questioned the idea."
+    },
+    {
+      "type": "heading",
+      "text": "Idea 2: the skin"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2015, scientists found that pieces of octopus skin, cut away from the body, open their chromatophores when light hits them, fastest under blue light. The skin makes the same light-sensitive protein (opsin) used in the eyes, and the authors suggest this may play a part in camouflage. Supporters of the pupil idea point out that, with the same opsin as the eye, the skin responds to light almost exactly like the retina, so it would not solve the colour puzzle."
+    },
+    {
+      "type": "heading",
+      "text": "An expensive disguise"
+    },
+    {
+      "type": "paragraph",
+      "text": "Changing colour costs energy. A 2024 study measured the oxygen used by octopus skin and estimated that the fully activated chromatophore system burns nearly as much as the whole animal at rest. The authors suggest this cost may have favoured night-time habits and the use of dens."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Octopus skin has about 230 chromatophores per square millimetre.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "With approximately 230 chromatophores per square millimeter of skin in octopuses"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Each chromatophore is an elastic pigment sac ringed by 15 to 25 muscle fibres, controlled by nerves that run straight from the brain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_205a9e",
+          "excerpt": "Cephalopod chromatophores consist of an elastic sac filled with pigment granules and surrounded by radial muscles, which are innervated by nerves that extend directly from the brain"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "the chromatophore organs in the skin-pigment sacs each with 15 to 25 radial muscle fibers innervated by neurons"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "When the muscles contract, the sac flattens from about 10 to about 300 micrometres across and colours a small patch of skin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "When these muscles contract, the pigment sac expands from a spherical shape approximately 10 μm in diameter to a flattened disk approximately 300 μm in diameter, thereby providing coloration to a small portion of the skin"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "An octopus can match the colours around it almost instantly, using pigment cells and muscles in its skin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_animals_invertebrates_facts_common_4ff41c",
+          "excerpt": "Using a network of pigment cells and specialized muscles in its skin, this invertebrate can almost instantaneously match the colors, patterns, and even textures of its surroundings."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "For speed of colour change, cephalopods (octopuses, squid and cuttlefish) are unmatched among animals.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "Cephalopod color change, in regard to speed of change and diversity of patterns, is unparalleled among other animals"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "An octopus eye has a single visual pigment, and most studies conclude that it cannot tell colours apart.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_52d962",
+          "excerpt": "In line with the presence of only one visual pigment, most studies have concluded that Octopus vulgaris is color-blind"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
+          "excerpt": "cephalopods dramatically change color for both producing chromatically matched camouflage and signaling to conspecifics, despite having a single photoreceptor channel."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "How an octopus matches background colours without seeing colour has not yet been explained.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_52d962",
+          "excerpt": "some enduring mysteries (in particular, color-blind camouflage) persist to the present day"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
+          "excerpt": "Neither of these explanations resolves the puzzle of “color-blind camouflage,” and researchers remain in search of a mechanism that allows for this ability"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A 2016 hypothesis proposes that an off-axis pupil and chromatic aberration (each colour focusing at a different distance) could allow colour discrimination with a single photoreceptor type.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
+          "excerpt": "An off-axis pupil and the principle of chromatic aberration (where different wavelengths come to focus at different distances behind a lens) can combine to provide “color-blind” animals with a way to distinguish colors."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
+          "excerpt": "primates have not evolved the off-axis pupil shape found in nearly all shallow water cephalopods that enhances this effect"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "The pupil hypothesis has been questioned by other researchers.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_52d962",
+          "excerpt": "Although this mechanisms has been questioned"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Pieces of octopus skin cut from the body open their chromatophores in light, fastest under blue light.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_205a9e",
+          "excerpt": "we found that light causes chromatophores to expand in excised pieces of Octopus bimaculoides skin"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_205a9e",
+          "excerpt": "By creating an action spectrum for the latency to LACE, we found that LACE occurred most quickly in response to blue light."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Octopus skin makes the same opsin used in the eyes, and the authors suggest it may play a role in camouflage.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_205a9e",
+          "excerpt": "Octopus skin senses light independent of the eyes, causing chromatophores in the skin to expand, probably via the same r-opsin phototransduction genes used for vision."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_205a9e",
+          "excerpt": "we hypothesize that LACE may play a role in modulating body patterning for camouflage"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "The authors of the pupil hypothesis argue that the skin’s opsin is identical to the eye’s and responds to light almost like the retina.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
+          "excerpt": "all cephalopod studies to date have found rhodopsin transcripts in the skin identical to those in the eye"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "A 2024 study, measuring oxygen used by the skin, estimated that the fully activated chromatophore system uses nearly as much energy as the whole octopus at rest.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "We examined the metabolic cost of color change in octopuses by measuring oxygen consumption in samples of excised octopus skin during periods of chromatophore expansion and contraction"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "The metabolic demand of the fully activated chromatophore system is nearly as great as an octopus’s resting metabolic rate."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "The authors suggest this cost may have favoured night-time habits and the use of dens.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+          "excerpt": "selective pressures in octopuses that may influence the adoption of nocturnal lifestyles, the use of dens"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_77f1b5",
+    "src_pmc_ncbi_nlm_nih_gov_articles_205a9e",
+    "src_nationalgeographic_com_animals_invertebrates_facts_common_4ff41c",
+    "src_pmc_ncbi_nlm_nih_gov_articles_52d962",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5"
+  ],
+  "quizIds": ["q_octopus_colour_1__en", "q_octopus_colour_2__en", "q_octopus_colour_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

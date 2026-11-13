@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_hummingbird_hover_1__en",
+    "questionGroupId": "qg_hummingbird_hover_1",
+    "conceptId": "concept_hummingbird_hover",
+    "locale": "en",
+    "prompt": "When does a hummingbird make lift during a wingbeat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only on the down-stroke"
+      },
+      {
+        "id": "b",
+        "text": "On the down-stroke and on the up-stroke"
+      },
+      {
+        "id": "c",
+        "text": "Only when gliding with its wings still"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The down-stroke provides about 75% of the lift and the up-stroke about 25%, because the wing flips over on the way back.",
+    "misconception": "It is easy to assume only the down-stroke counts, but in hummingbirds the up-stroke supplies about a quarter of the lift.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hummingbird_hover_2__en",
+    "questionGroupId": "qg_hummingbird_hover_2",
+    "conceptId": "concept_hummingbird_hover",
+    "locale": "en",
+    "prompt": "How does a hummingbird get through the night without eating?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It goes into torpor, with very low metabolism and body temperature"
+      },
+      {
+        "id": "b",
+        "text": "It wakes every hour to look for nectar"
+      },
+      {
+        "id": "c",
+        "text": "It stores nectar in its bill to drink before dawn"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In torpor its metabolism drops sharply and its body cools, saving the energy it would otherwise run out of overnight.",
+    "claimIds": ["c6", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hummingbird_hover_3__en",
+    "questionGroupId": "qg_hummingbird_hover_3",
+    "conceptId": "concept_hummingbird_hover",
+    "locale": "en",
+    "prompt": "According to WikiAves, how many hummingbird species live in Brazil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 9"
+      },
+      {
+        "id": "b",
+        "text": "About 90"
+      },
+      {
+        "id": "c",
+        "text": "About 900"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "WikiAves lists 90 species in Brazil, which, together with Ecuador, holds about half of all known species.",
+    "claimIds": ["c13", "c14"],
+    "status": "draft"
+  }
+]

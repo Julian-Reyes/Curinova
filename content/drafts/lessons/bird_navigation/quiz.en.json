@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_bird_navigation_1__en",
+    "questionGroupId": "qg_bird_navigation_1",
+    "conceptId": "concept_bird_navigation",
+    "locale": "en",
+    "prompt": "Which cues do migrating birds use to find their way?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only the smell of the sea"
+      },
+      {
+        "id": "b",
+        "text": "The sun, the stars and Earth’s magnetic field"
+      },
+      {
+        "id": "c",
+        "text": "Only the shapes of rivers and mountains"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Experiments have revealed compasses based on the sun, the stars and the magnetic field.",
+    "claimIds": ["c1", "c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_bird_navigation_2__en",
+    "questionGroupId": "qg_bird_navigation_2",
+    "conceptId": "concept_bird_navigation",
+    "locale": "en",
+    "prompt": "What did planetarium experiments reveal about the stars?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Birds are born with a ready-made star map"
+      },
+      {
+        "id": "b",
+        "text": "Birds steer by the stars but have to learn to recognise them"
+      },
+      {
+        "id": "c",
+        "text": "Birds cannot see the stars"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Under an artificial sky, birds oriented by the stars, and this compass is learned, not inborn.",
+    "misconception": "It seems natural to assume birds hatch knowing how to read the sky, but the star compass has to be learned.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_bird_navigation_3__en",
+    "questionGroupId": "qg_bird_navigation_3",
+    "conceptId": "concept_bird_navigation",
+    "locale": "en",
+    "prompt": "According to the leading explanation, where is the sensor of a bird’s magnetic compass?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the eyes"
+      },
+      {
+        "id": "b",
+        "text": "In the tail feathers"
+      },
+      {
+        "id": "c",
+        "text": "In the feet"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The leading hypothesis is that a light-dependent reaction involving cryptochrome in the eyes picks up the direction of the magnetic field.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

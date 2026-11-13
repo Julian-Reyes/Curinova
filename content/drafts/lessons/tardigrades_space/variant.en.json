@@ -1,0 +1,290 @@
+{
+  "id": "lesson_tardigrades_space__en",
+  "conceptId": "concept_tardigrades_space",
+  "locale": "en",
+  "slug": "can-a-tardigrade-survive-in-space",
+  "title": "Can a tardigrade survive in space?",
+  "hook": "In 2007, dried-out water bears spent 12 days in orbit, exposed to open space.",
+  "summary": "Yes: in 2007, dehydrated tardigrades were exposed to open space in orbit on the FOTON-M3 mission and survived the vacuum, although the Sun’s ultraviolet radiation sharply cut their survival.",
+  "cardText": "In 2007, about 3,000 dried-out tardigrades spent 12 days in orbit, exposed to open space. The vacuum did not bother them; the Sun’s radiation, though, sharply cut how many survived.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture an animal that, when the water runs out, curls up and waits. That is the tardigrade, or water bear, a segmented animal so small that the largest species is only just over a millimetre long. Dried out, it enters anhydrobiosis: its body folds up, its metabolism nearly stops, and it can handle temperatures from -272 °C to 150 °C, ten years without water and plenty of radiation."
+    },
+    {
+      "type": "paragraph",
+      "text": "In September 2007, some 3,000 tardigrades spent 12 days in orbit on the European Space Agency’s FOTON-M3 mission, in an experiment called TARDIS, exposed to open space. The result: the vacuum, which dries things out to the extreme, was no problem. When the Sun’s ultraviolet radiation was added, survival dropped sharply. Even so, they became the first animals known to survive exposure to space."
+    },
+    {
+      "type": "takeaway",
+      "text": "Dried-out tardigrades survived the vacuum of space in 2007; what hurt them most was the Sun’s ultraviolet radiation."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Drying out to stay alive"
+    },
+    {
+      "type": "paragraph",
+      "text": "As it dries, a tardigrade shrinks into folds that cut its surface area and slow water loss. It also makes several proteins that protect its cells, although the exact role of some of them during drying is still uncertain."
+    },
+    {
+      "type": "heading",
+      "text": "Three experiments on one mission"
+    },
+    {
+      "type": "paragraph",
+      "text": "TARDIS, which tested two tardigrade species in open space, was not alone: FOTON-M3 carried three tardigrade projects in 2007. Another, TARSE, studied resistance to space effects, and RoTaRad examined how radiation, mainly cosmic radiation, affected survival and reproduction."
+    },
+    {
+      "type": "heading",
+      "text": "Could life travel?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before the tardigrades, ESA experiments had shown that lettuce seeds and lichens can survive space conditions, and that bacterial spores shaded from the Sun survive for years. That feeds an old question: could life travel between planets inside meteorites? Other ESA tests showed that in the outer layer of a rock, down to 2 cm, nothing survives entry through the atmosphere. The idea remains a hypothesis."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Tardigrades, or water bears, are very small segmented animals; the largest species is just over a millimetre long.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "Water bears, also known as tardigrades, are very small, segmented animals. The largest species is just over one millimetre in length."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "In anhydrobiosis, a tardigrade’s body shrinks and folds, and its metabolism drops to a very low level.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "In the anhydrobiotic state, the metabolic activity of tardigrades drops to a very low level"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The changes are easiest to observe as a shrinkage of the body (forming numerous folds which reduce the body’s surface area), namely the adoption of the tun formation"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Tardigrades withstand temperatures from -272 °C to about 150 °C, up to ten years without water and high radiation.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "they can withstand temperatures ranging from -272 deg C to +150 deg C, they can be without water for a period of 10 years, and they are extremely resistant to radiation."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "Water bears are also very resistant to extreme temperatures, and they can survive from −272.8 °C (Becquerel 1950) to about 150 °C"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In September 2007, some 3,000 tardigrades spent 12 days in orbit on ESA’s FOTON-M3 mission, in the TARDIS experiment.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "For 12 days in September 2007, some 3000 water bears hitched a ride into space on ESA’s orbital Foton-M3 mission."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The next project involved in the mission of FOTON-M3 was TARDIS (Tardigrada In Space)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "TARDIS tested whether two tardigrade species could survive open-space conditions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The main goal of this project was to check whether tardigrades from two species"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The vacuum of space was no problem for the tardigrades, but the Sun’s ultraviolet radiation sharply reduced survival.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "Our principle finding is that the space vacuum, which entails extreme dehydration and cosmic radiation, were not a problem for water bears"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The experiments showed that tardigrades can survive exposure to the space vacuum, but the addition of factors such as ultraviolet solar radiation, ionising solar radiation and galactic cosmic radiation significantly reduced their survival rate"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Tardigrades were the first animals known to survive exposure to space.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "Scientists recently revealed that tiny creatures called water bears are the first animals to survive exposure to space."
+        },
+        {
+          "sourceId": "src_nature_com_articles_news_2008_1087_b7497b",
+          "excerpt": "Tiny invertebrates are the first animals to withstand the vacuum and radiation of space."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The shrunken shape reduces the body’s surface area and slows water loss.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The tun form reduces the surface for evaporation and thus slows down the loss of liquid water"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Tardigrades make several proteins that protect their cells, but the role of some during drying is still uncertain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The other molecules involved in tardigrade cell protection during anhydrobiosis are LEA (late embryogenesis abundant), HSP (heat shock proteins)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "but their role during desiccation is still uncertain"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "FOTON-M3 carried three tardigrade projects in 2007: TARSE, TARDIS and RoTaRad, the last on how radiation, mainly cosmic, affected survival and reproduction.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "In 2007, three projects were conducted during the FOTON-M3 mission studies."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "The Tardigrade Resistance to Space Effects (TARSE) Project was the first one involved in the mission of FOTON-M3."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+          "excerpt": "scientists examined effects on initial survival, long-term survival and fecundity of selected species of limno-terrestrial tardigrades in extreme stress conditions (mainly cosmic radiation)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Earlier ESA experiments showed that lettuce seeds and lichens survive space, and bacterial spores shaded from the Sun survive for years.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "Over the past 10 years, other ESA experiments have shown that lettuce seeds and lichen were also able to survive exposure to space."
+        },
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "If shaded from direct sunlight, bacterial spores are also known to survive for many years under space conditions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "These results relate to the open question of whether life could travel between planets inside meteorites.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "Could life as we know it have started elsewhere, to be carried later for instance on a meteorite and delivered here on Earth?"
+        },
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "Only an organism that could live inside deeper cracks or pores in the rock could perhaps survive."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "ESA tests showed that in the outer layer of a meteorite, down to 2 cm, nothing survives atmospheric entry.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_esa_int_science_exploration_human_and_cd1e85",
+          "excerpt": "show that in the upper layer of the meteorite, up to 2 cm depth, nothing could survive the atmospheric entry because of the high temperature and pressure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_esa_int_science_exploration_human_and_cd1e85",
+    "src_pmc_ncbi_nlm_nih_gov_articles_b7d5e2",
+    "src_nature_com_articles_news_2008_1087_b7497b"
+  ],
+  "quizIds": [
+    "q_tardigrades_space_1__en",
+    "q_tardigrades_space_2__en",
+    "q_tardigrades_space_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

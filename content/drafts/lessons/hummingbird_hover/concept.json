@@ -1,0 +1,27 @@
+{
+  "id": "concept_hummingbird_hover",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 3,
+  "tags": ["hummingbird", "birds", "flight", "brazil"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_sloth_slow_life",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do bicho que gasta energia sem parar ao campeão da economia: a preguiça.",
+        "en": "From an animal that burns energy nonstop to the champion of saving it: the sloth."
+      }
+    },
+    {
+      "conceptId": "concept_bird_navigation",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outras aves, outro superpoder: achar o caminho em viagens enormes.",
+        "en": "Other birds, another superpower: finding the way on huge journeys."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

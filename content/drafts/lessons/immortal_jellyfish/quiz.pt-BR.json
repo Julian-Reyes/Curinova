@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_immortal_jellyfish_1__pt-BR",
+    "questionGroupId": "qg_immortal_jellyfish_1",
+    "conceptId": "concept_immortal_jellyfish",
+    "locale": "pt-BR",
+    "prompt": "O que a Turritopsis dohrnii faz quando se fere ou envelhece?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Divide-se em duas medusas adultas"
+      },
+      {
+        "id": "b",
+        "text": "Volta a ser pólipo, uma fase jovem, e recomeça a vida"
+      },
+      {
+        "id": "c",
+        "text": "Hiberna no fundo do mar até sarar"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A medusa vira um cisto, uma bolinha de células, que forma pólipos de novo; deles saem medusas novas.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_immortal_jellyfish_2__pt-BR",
+    "questionGroupId": "qg_immortal_jellyfish_2",
+    "conceptId": "concept_immortal_jellyfish",
+    "locale": "pt-BR",
+    "prompt": "Por que \"imortal\" precisa de aspas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque ela ainda pode ser comida ou adoecer"
+      },
+      {
+        "id": "b",
+        "text": "Porque ela vive no máximo um dia"
+      },
+      {
+        "id": "c",
+        "text": "Porque ela só consegue rejuvenescer uma vez"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Rejuvenescer a livra do envelhecimento, mas não de predadores nem de doenças; no mar, a maioria provavelmente morre assim.",
+    "misconception": "Escapar do envelhecimento não é o mesmo que não morrer: a água-viva continua vulnerável a predadores e doenças.",
+    "claimIds": ["c6", "c12"],
+    "status": "draft"
+  },
+  {
+    "id": "q_immortal_jellyfish_3__pt-BR",
+    "questionGroupId": "qg_immortal_jellyfish_3",
+    "conceptId": "concept_immortal_jellyfish",
+    "locale": "pt-BR",
+    "prompt": "Como a capacidade de rejuvenescer foi descoberta?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mergulhadores filmaram a reversão no mar"
+      },
+      {
+        "id": "b",
+        "text": "Um cientista esqueceu de alimentar as águas-vivas e achou pólipos novos"
+      },
+      {
+        "id": "c",
+        "text": "Fósseis mostraram águas-vivas em várias fases"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Em 1992, águas-vivas deixadas sem comida num fim de semana viraram pólipos novos em vez de morrer.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

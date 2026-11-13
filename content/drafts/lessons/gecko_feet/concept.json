@@ -1,0 +1,27 @@
+{
+  "id": "concept_gecko_feet",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 1,
+  "tags": ["gecko", "reptile", "adhesion", "biomimicry"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_octopus_colour",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro superpoder que parece mágica: trocar de cor num instante.",
+        "en": "Another superpower that looks like magic: changing colour in an instant."
+      }
+    },
+    {
+      "conceptId": "concept_giant_water_lily",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra estrutura da natureza que deu ideias a engenheiros.",
+        "en": "Another natural structure that gave engineers ideas."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

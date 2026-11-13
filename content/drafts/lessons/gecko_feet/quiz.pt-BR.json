@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_gecko_feet_1__pt-BR",
+    "questionGroupId": "qg_gecko_feet_1",
+    "conceptId": "concept_gecko_feet",
+    "locale": "pt-BR",
+    "prompt": "O que faz a lagartixa grudar no teto?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Uma atração fraca entre moléculas, somada em bilhões de pontas microscópicas"
+      },
+      {
+        "id": "b",
+        "text": "Uma cola produzida por glândulas nos dedos"
+      },
+      {
+        "id": "c",
+        "text": "Ventosas que fazem vácuo na superfície"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As espátulas chegam tão perto da superfície que as forças de van der Waals, somadas, seguram o animal.",
+    "misconception": "A ventosa parece a resposta óbvia, mas seria fraca demais, e a lagartixa gruda até no vácuo.",
+    "claimIds": ["c4", "c5", "c6", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gecko_feet_2__pt-BR",
+    "questionGroupId": "qg_gecko_feet_2",
+    "conceptId": "concept_gecko_feet",
+    "locale": "pt-BR",
+    "prompt": "Como a lagartixa solta o pé tão depressa?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dissolve a cola com saliva"
+      },
+      {
+        "id": "b",
+        "text": "Descola os dedos como uma fita adesiva, mudando o ângulo dos pelos"
+      },
+      {
+        "id": "c",
+        "text": "Espera os pelos caírem e nascerem de novo"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Levantada a uns 30 graus, a cerda solta as espátulas; a lagartixa faz isso descolando os dedos.",
+    "claimIds": ["c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gecko_feet_3__pt-BR",
+    "questionGroupId": "qg_gecko_feet_3",
+    "conceptId": "concept_gecko_feet",
+    "locale": "pt-BR",
+    "prompt": "Em qual destas superfícies a lagartixa não consegue grudar?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vidro liso"
+      },
+      {
+        "id": "b",
+        "text": "Teflon"
+      },
+      {
+        "id": "c",
+        "text": "Teto liso"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Estudos mostraram que a lagartixa não adere ao teflon (politetrafluoretileno).",
+    "claimIds": ["c16"],
+    "status": "draft"
+  }
+]

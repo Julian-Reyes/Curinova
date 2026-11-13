@@ -1,0 +1,35 @@
+{
+  "id": "concept_sloth_slow_life",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 4,
+  "tags": ["sloth", "mammals", "metabolism", "atlantic-forest", "brazil"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_bird_navigation",
+      "type": "next",
+      "reason": {
+        "pt-BR": "De quem quase não sai do lugar a quem cruza continentes: as aves migratórias.",
+        "en": "From an animal that barely moves to birds that cross continents."
+      }
+    },
+    {
+      "conceptId": "concept_hummingbird_hover",
+      "type": "contrast",
+      "reason": {
+        "pt-BR": "O oposto em gasto de energia, mas os dois sabem baixar o metabolismo.",
+        "en": "The opposite in energy use, yet both know how to turn their metabolism down."
+      }
+    },
+    {
+      "conceptId": "concept_leafcutter_farming",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra parceria entre bicho e outro ser vivo: formigas que cultivam fungo.",
+        "en": "Another partnership between an animal and another organism: ants that farm fungus."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

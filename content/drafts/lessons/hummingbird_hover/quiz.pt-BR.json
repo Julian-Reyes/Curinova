@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_hummingbird_hover_1__pt-BR",
+    "questionGroupId": "qg_hummingbird_hover_1",
+    "conceptId": "concept_hummingbird_hover",
+    "locale": "pt-BR",
+    "prompt": "Em que parte da batida o beija-flor gera sustentação?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Só quando a asa desce"
+      },
+      {
+        "id": "b",
+        "text": "Quando a asa desce e também quando sobe"
+      },
+      {
+        "id": "c",
+        "text": "Só quando plana com as asas paradas"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A descida gera cerca de 75% da sustentação e a subida, cerca de 25%, porque a asa se inverte na volta.",
+    "misconception": "É fácil pensar que só a descida conta, mas no beija-flor a subida responde por cerca de um quarto da sustentação.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hummingbird_hover_2__pt-BR",
+    "questionGroupId": "qg_hummingbird_hover_2",
+    "conceptId": "concept_hummingbird_hover",
+    "locale": "pt-BR",
+    "prompt": "Como o beija-flor atravessa a noite sem comer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Entra em torpor, com metabolismo e temperatura bem baixos"
+      },
+      {
+        "id": "b",
+        "text": "Acorda de hora em hora para buscar néctar"
+      },
+      {
+        "id": "c",
+        "text": "Guarda néctar no bico para beber de madrugada"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "No torpor, o metabolismo cai muito e o corpo esfria, o que poupa a energia que faltaria durante a noite.",
+    "claimIds": ["c6", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hummingbird_hover_3__pt-BR",
+    "questionGroupId": "qg_hummingbird_hover_3",
+    "conceptId": "concept_hummingbird_hover",
+    "locale": "pt-BR",
+    "prompt": "Quantas espécies de beija-flor vivem no Brasil, segundo o WikiAves?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 9"
+      },
+      {
+        "id": "b",
+        "text": "Cerca de 90"
+      },
+      {
+        "id": "c",
+        "text": "Cerca de 900"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O WikiAves lista 90 espécies no Brasil, que, com o Equador, reúne cerca de metade das espécies conhecidas.",
+    "claimIds": ["c13", "c14"],
+    "status": "draft"
+  }
+]

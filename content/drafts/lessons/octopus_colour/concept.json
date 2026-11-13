@@ -1,0 +1,35 @@
+{
+  "id": "concept_octopus_colour",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 2,
+  "tags": ["octopus", "camouflage", "colour", "vision"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_hummingbird_hover",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do disfarce instantâneo ao voo parado: o beija-flor.",
+        "en": "From instant disguise to standing still in mid-air: the hummingbird."
+      }
+    },
+    {
+      "conceptId": "concept_gecko_feet",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro truque que depende de estruturas microscópicas na pele.",
+        "en": "Another trick that depends on microscopic structures in the skin."
+      }
+    },
+    {
+      "conceptId": "concept_boto_echolocation",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro animal que percebe o ambiente de um jeito bem diferente do nosso.",
+        "en": "Another animal that senses its surroundings very differently from us."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

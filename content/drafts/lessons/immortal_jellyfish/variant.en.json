@@ -1,0 +1,287 @@
+{
+  "id": "lesson_immortal_jellyfish__en",
+  "conceptId": "concept_immortal_jellyfish",
+  "locale": "en",
+  "slug": "is-there-an-animal-that-never-dies-of-old-age",
+  "title": "Is there an animal that never dies of old age?",
+  "hook": "A jellyfish smaller than a fingernail turns young again when life gets tough.",
+  "summary": "The jellyfish Turritopsis dohrnii can turn back into its young polyp stage again and again, escaping ageing; it can still be eaten or get sick.",
+  "cardText": "Turritopsis dohrnii, a jellyfish a few millimetres across, can turn back into its young polyp stage and start life over, again and again. That does not protect it from predators or disease.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine a butterfly that, once old or injured, could turn back into a caterpillar. That is roughly what Turritopsis dohrnii does. This jellyfish is about 4.5 millimetres across. Like other jellyfish, it starts as a larva, grows into a colony of polyps fixed to the seabed, and the polyps release medusae, the swimming form. When a medusa is injured, starved or ageing, it shrinks into a ball of cells called a cyst, which within a few days forms polyps again."
+    },
+    {
+      "type": "paragraph",
+      "text": "It is the only species known to rejuvenate repeatedly after reproducing, hence its nickname, \"the immortal jellyfish\". The nickname is misleading, though: in the sea, most are probably eaten or killed by disease before they ever get the chance to revert."
+    },
+    {
+      "type": "takeaway",
+      "text": "Turritopsis dohrnii can turn back into a polyp and escape ageing, but not predators or disease."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Found by accident"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ability was first reported in 1992, after an Italian scientist forgot to feed the jellyfish he kept in his lab over a weekend. He expected to find them dead; instead he found new polyps."
+    },
+    {
+      "type": "heading",
+      "text": "Cells that switch jobs"
+    },
+    {
+      "type": "paragraph",
+      "text": "During the reversal, specialised cells turn into different kinds of cells, a rare process called transdifferentiation. That is why the species interests people who study tissue repair. The researchers themselves stress that turning people young again is science fiction; the aim is to understand the process in cells and tissues."
+    },
+    {
+      "type": "heading",
+      "text": "Clues in the genome"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2022, scientists compared the genome of Turritopsis dohrnii with that of a relative that does not rejuvenate, Turritopsis rubra. They found variants and extra copies of genes linked to DNA repair and to maintaining telomeres, the protective ends of chromosomes."
+    },
+    {
+      "type": "heading",
+      "text": "Immortal, in quotation marks"
+    },
+    {
+      "type": "paragraph",
+      "text": "The chance that an adult medusa rejuvenates reaches 100%, with no apparent limit to the number of cycles for one individual. Even so, the reversal has never been seen in the wild, partly because it happens fast, and scientists cannot rule out that the jellyfish eventually dies of natural causes."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "An adult Turritopsis dohrnii is about 4.5 millimetres across.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "Fully grown, Turritopsis dohrnii is only about 4.5 mm (0.18 inches) across, smaller than a pinky nail."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "It starts life as a larva, which settles on the seabed and grows into a colony of polyps; the polyps release swimming medusae.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "Like all jellyfish, Turritopsis dohrnii begins life as a larva, called a planula, which develops from a fertilized egg."
+        },
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "A planula swims at first, then settles on the sea floor and grows into a cylindrical colony of polyps. These ultimately spawn free-swimming, genetically identical medusae"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "When a medusa is injured, starved or ageing, it reverses its development.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_6d5f43",
+          "excerpt": "Medusae of Turritopsis dohrnii undergo reverse development in response to physical damage, adverse environmental conditions, or aging."
+        },
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "In response to physical damage or even starvation, they take a leap back in their development process, transforming back into a polyp."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The medusa turns into a ball of cells, the cyst, which forms polyps again within a few days.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_6d5f43",
+          "excerpt": "Senescent, weakened or damaged medusae transform into a cluster of poorly differentiated cells (known as the cyst stage), which metamorphose back into a preceding life cycle stage, the polyp."
+        },
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "Within one to three days, a structure called a polyp – an early jellyfish life stage – buds off from this ball of cells"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "It is the only species known to rejuvenate repeatedly after reproducing.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f85cfe",
+          "excerpt": "Turritopsis dohrnii is the only metazoan able to rejuvenate repeatedly after its medusae reproduce, hinting at biological immortality and challenging our understanding of aging."
+        },
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "Only one animal is known to have this remarkable ability: a species of jellyfish, Turritopsis dohrnii"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "In nature, most probably die from predators or disease before they can revert.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
+          "excerpt": "In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form."
+        },
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "though scientists can't rule out that it doesn't eventually die naturally"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The ability was reported in 1992, when an Italian scientist forgot to feed the jellyfish over a weekend and found new polyps.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "Turritopsis dohrnii's regenerative talents were first reported in 1992 by an Italian scientist who was keeping the animals in the lab and forgot to feed them over a weekend."
+        },
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "instead he found new polyps in the container"
+        },
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
+          "excerpt": "It was first discovered in 1992 that the jellyfish is immortal, after an Italian scientist accidentally left them to starve over a weekend."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "During the reversal, specialised cells turn into other cell types, a rare process called transdifferentiation.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "The cellular mechanism behind it—a rare process known as transdifferentiation—is of particular interest to scientists for its potential applications in medicine."
+        },
+        {
+          "sourceId": "src_amnh_org_explore_news_blogs_on_b139e6",
+          "excerpt": "By undergoing transdifferentiation, an adult cell, one that is specialized for a particular tissue, can become an entirely different type of specialized cell."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Researchers say turning people young again is science fiction; the aim is to coax cells and tissues into younger states.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "The goal is not to turn elderly people back into babies, Benjamin Button-style – an idea that's firmly in the realms of science fiction – but to coax cells and tissues into more youthful states"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "In 2022, scientists compared the genome of T. dohrnii with that of the non-rejuvenating T. rubra and found variants and extra copies of genes for DNA repair and telomere maintenance.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
+          "excerpt": "In 2022, a study reported the key molecular mechanisms of rejuvenation they found in a comparison of the newly presented genomes of this biologically immortal jellyfish and a similar but non-rejuvenating jellyfish"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f85cfe",
+          "excerpt": "dohrnii and the nonimmortal Turritopsis rubra using automatic and manual annotations"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f85cfe",
+          "excerpt": "We have identified variants and expansions of genes associated with replication, DNA repair, telomere maintenance, redox environment, stem cell population, and intercellular communication."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The chance that an adult medusa rejuvenates reaches 100%, with no apparent limit to the number of cycles for one individual.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f85cfe",
+          "excerpt": "the probability of sexually mature medusae to rejuvenate goes up to 100%, with no apparent limit in the number of ontogeny reversal cycles for a given individual"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "The reversal has never been observed in the wild, partly because it is fast.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
+          "excerpt": "The process has not been observed in their natural habitat, in part because the process is quite rapid and because field observations at the right moment are unlikely."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_amnh_org_explore_news_blogs_on_b139e6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_6d5f43",
+    "src_bbc_com_future_article_20261016_the_1ddfa3",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f85cfe",
+    "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc"
+  ],
+  "quizIds": [
+    "q_immortal_jellyfish_1__en",
+    "q_immortal_jellyfish_2__en",
+    "q_immortal_jellyfish_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

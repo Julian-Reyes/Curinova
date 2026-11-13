@@ -1,0 +1,303 @@
+{
+  "id": "lesson_hummingbird_hover__pt-BR",
+  "conceptId": "concept_hummingbird_hover",
+  "locale": "pt-BR",
+  "slug": "como-o-beija-flor-fica-parado-no-ar",
+  "title": "Como o beija-flor fica parado no ar?",
+  "hook": "Ele bate as asas dezenas de vezes por segundo e tira sustentação até na volta.",
+  "summary": "O beija-flor bate as asas dezenas de vezes por segundo e gera sustentação tanto na descida quanto na subida da asa; à noite, pode entrar em torpor para economizar energia.",
+  "cardText": "Batendo as asas dezenas de vezes por segundo, o beija-flor gera sustentação quando a asa desce e também quando ela sobe. Nenhuma outra ave consegue ficar parada no ar por tanto tempo.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Um helicóptero se mantém parado no ar porque o rotor nunca para de empurrar o ar para baixo. O beija-flor resolve o mesmo problema com as asas, batendo-as muito depressa: nas espécies menores, de 70 a 80 vezes por segundo. É a única ave capaz de pairar assim por bastante tempo, e ainda voa para trás."
+    },
+    {
+      "type": "paragraph",
+      "text": "O segredo está em aproveitar a volta. Medições de 2005 com o beija-flor-ruivo mostraram que a descida da asa gera 75% da sustentação e a subida, 25%: na subida, a asa se inverte e continua trabalhando, num voo que lembra o dos insetos. Tanto esforço tem preço. Para não passar fome durante a noite, o beija-flor pode entrar em torpor, um estado parecido com um sono muito profundo, em que o metabolismo cai ao mínimo e o corpo esfria."
+    },
+    {
+      "type": "takeaway",
+      "text": "O beija-flor paira porque bate as asas muito rápido e gera sustentação na descida e na subida; à noite, economiza energia em torpor."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O mesmo ritmo para pairar e avançar"
+    },
+    {
+      "type": "paragraph",
+      "text": "O beija-flor bate as asas no mesmo ritmo quando paira e quando voa para a frente. O ritmo muda entre espécies e até entre machos e fêmeas: na Calliphlox amethystina, uma das menores espécies, o macho bate as asas cerca de 80 vezes por segundo, e a fêmea, que é maior, cerca de 60."
+    },
+    {
+      "type": "heading",
+      "text": "Sustentação quase sem pausa"
+    },
+    {
+      "type": "paragraph",
+      "text": "Um estudo posterior acompanhou o ar em volta das asas de beija-flores pairando. A sustentação não some quando a asa muda de direção: a rotação da asa entre a descida e a subida mantém o fluxo de ar preso a ela, e a sustentação fica quase contínua ao longo da batida, algo que não se conhecia em vertebrados."
+    },
+    {
+      "type": "heading",
+      "text": "Um motor que não para"
+    },
+    {
+      "type": "paragraph",
+      "text": "O coração de um beija-flor-de-garganta-rubi bate cerca de 225 vezes por minuto em repouso e mais de 1.200 em voo. Por isso o torpor é tão útil: nele, o metabolismo de repouso pode cair a um décimo. Não é hibernação, que dura muito tempo; o beija-flor pode entrar em torpor em qualquer noite do ano em que o frio e a falta de comida apertarem."
+    },
+    {
+      "type": "heading",
+      "text": "Um país de beija-flores"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os beija-flores só existem nas Américas, e o Brasil e o Equador reúnem cerca de metade das espécies conhecidas. Segundo o WikiAves, vivem no Brasil 90 espécies da família."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "As espécies menores de beija-flor batem as asas de 70 a 80 vezes por segundo.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "O batimento das asas é muito rápido e as espécies menores podem bater as asas 70 a 80 vezes por segundo."
+        },
+        {
+          "sourceId": "src_britannica_com_animal_hummingbird_652119",
+          "excerpt": "In Calliphlox amethystina, one of the tiniest species, the male has a wing-beat rate of about 80 per second"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O beija-flor é a única ave capaz de pairar no ar de forma prolongada, e também voa para trás.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "In fact, hummingbirds are the only vertebrates capable of sustained hovering (staying in one place during flight), and they can fly backward and upside-down as well."
+        },
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "São as únicas aves capazes de voar para trás e permanecerem imóveis no ar."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Medições de 2005 com o beija-flor-ruivo mostraram que a descida da asa gera 75% da sustentação e a subida, 25%.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "Published: 23 June 2005"
+        },
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "hummingbirds produce 75% of their weight support during the downstroke and only 25% during the upstroke."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Na subida, a asa do beija-flor se inverte.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "Some of this asymmetry is probably due to inversion of their cambered wings during upstroke."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O voo pairado do beija-flor lembra o dos insetos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_nature03647_29b5c2",
+          "excerpt": "Hummingbird hovering approaches that of insects, yet remains distinct because of effects resulting from an inherently dissimilar—avian—body plan."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Para não passar fome durante a noite, o beija-flor pode entrar em torpor, estado parecido com um sono muito profundo, com metabolismo mínimo e temperatura corporal baixa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_birdlife_org_birds_hummingbird_4ffee6",
+          "excerpt": "They face the risk of starvation during sleep or when food is scarce, so enter a hibernation-like state called torpor at night to conserve energy."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "Torpor is a very deep, sleep-like state in which metabolic functions are slowed to a minimum and a very low body temperature is maintained."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O beija-flor bate as asas no mesmo ritmo quando paira e quando voa para a frente.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_hummingbird_652119",
+          "excerpt": "The rate at which a hummingbird beats its wings is the same during directional and hovering flight."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Na Calliphlox amethystina, o macho bate as asas cerca de 80 vezes por segundo e a fêmea, maior, cerca de 60.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_hummingbird_652119",
+          "excerpt": "In Calliphlox amethystina, one of the tiniest species, the male has a wing-beat rate of about 80 per second; the female, which is larger, beats her wings at a rate of about 60 times per second."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A rotação da asa entre a descida e a subida mantém a sustentação quase contínua, algo antes desconhecido em vertebrados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_5bc076",
+          "excerpt": "the bound circulation is not shed as a vortex at the end of translation, but instead remains attached and persists after translation has ceased, augmented by the rotation (pronation, supination) of the wing that occurs between the wing-translation half-cycles"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_5bc076",
+          "excerpt": "The result is a near-continuous lift production through wing turn-around, previously unknown in vertebrates"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "O coração do beija-flor-de-garganta-rubi bate cerca de 225 vezes por minuto em repouso e mais de 1.200 em voo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "A ruby-throated hummingbird's heart beats from 225 times per minute when the bird is at rest to more than 1,200 times per minute when it is flying."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "No torpor, o metabolismo de repouso do beija-flor pode cair a um décimo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3df1fb",
+          "excerpt": "In addition, hummingbirds can quickly enter torpor and reduce resting metabolic rates by 10-fold."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "O torpor não é hibernação: o beija-flor pode entrar nele em qualquer noite do ano, conforme o frio e a comida.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "If torpor lasted for long periods, we would call it hibernation, but hummingbirds can go into torpor any night of the year when temperature and food conditions demand it."
+        },
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "Entram em estado de semitorpor em dias excessivamente frios e durante a noite."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Os beija-flores só existem nas Américas, e Brasil e Equador reúnem cerca de metade das espécies conhecidas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "A maior biodiversidade da família encontra-se no Brasil e Equador, que contêm cerca de metade das espécies conhecidas de beija-flores."
+        },
+        {
+          "sourceId": "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+          "excerpt": "The almost 340 species of hummingbirds are entirely restricted to the New World"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Segundo o WikiAves, vivem no Brasil 90 espécies de beija-flores.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wikiaves_com_br_trochilidae_b115c9",
+          "excerpt": "No Brasil, existem 90 espécies de troquilídeos, sendo um dos países com maior riqueza biológica para a família."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_wikiaves_com_br_trochilidae_b115c9",
+    "src_britannica_com_animal_hummingbird_652119",
+    "src_nationalzoo_si_edu_migratory_birds_hummingbirds_ee5dba",
+    "src_nature_com_articles_nature03647_29b5c2",
+    "src_birdlife_org_birds_hummingbird_4ffee6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_5bc076",
+    "src_pmc_ncbi_nlm_nih_gov_articles_3df1fb"
+  ],
+  "quizIds": [
+    "q_hummingbird_hover_1__pt-BR",
+    "q_hummingbird_hover_2__pt-BR",
+    "q_hummingbird_hover_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

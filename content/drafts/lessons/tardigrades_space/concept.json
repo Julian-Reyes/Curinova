@@ -1,0 +1,27 @@
+{
+  "id": "concept_tardigrades_space",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 7,
+  "tags": ["tardigrade", "space", "extremophiles", "astrobiology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_immortal_jellyfish",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro animal que desafia os limites da sobrevivência.",
+        "en": "Another animal that pushes the limits of survival."
+      }
+    },
+    {
+      "conceptId": "concept_marcos_pontes",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro viajante da órbita: o primeiro astronauta brasileiro, que foi ao espaço em 2006.",
+        "en": "Another orbital traveller: Brazil’s first astronaut, who flew in 2006."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

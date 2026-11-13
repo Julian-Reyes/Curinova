@@ -1,0 +1,27 @@
+{
+  "id": "concept_immortal_jellyfish",
+  "topicId": "nature",
+  "clusterId": "cluster_animal_superpowers",
+  "clusterOrder": 6,
+  "tags": ["jellyfish", "ageing", "ocean", "regeneration"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_tardigrades_space",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro campeão de sobrevivência: o tardígrado que encarou o espaço.",
+        "en": "Another survival champion: the tardigrade that faced open space."
+      }
+    },
+    {
+      "conceptId": "concept_octopus_colour",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro invertebrado marinho com um truque que intriga os cientistas.",
+        "en": "Another sea invertebrate with a trick that puzzles scientists."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

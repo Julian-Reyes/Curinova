@@ -1,0 +1,330 @@
+{
+  "id": "lesson_gecko_feet__pt-BR",
+  "conceptId": "concept_gecko_feet",
+  "locale": "pt-BR",
+  "slug": "como-a-lagartixa-anda-no-teto",
+  "title": "Como a lagartixa anda no teto?",
+  "hook": "Nem cola, nem ventosa: o segredo está em pelos finíssimos.",
+  "summary": "Os dedos da lagartixa têm milhões de pelos microscópicos que se dividem em pontas ainda menores e grudam por uma atração fraca entre moléculas, as forças de van der Waals.",
+  "cardText": "Milhões de pelos microscópicos nos dedos, cada um aberto em centenas de pontinhas, encostam tão perto da parede que uma atração fraca entre moléculas basta para segurar a lagartixa. Sem cola e sem ventosa.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Passe o dedo num vidro liso e ele escorrega. O dedo de uma lagartixa, não. Embaixo dos dedos há milhões de pelos microscópicos, as cerdas, e cada cerda se abre na ponta em centenas de estruturas ainda menores, as espátulas, que vistas ao microscópio lembram um brócolis."
+    },
+    {
+      "type": "paragraph",
+      "text": "Essas pontas chegam tão perto da superfície que passa a contar uma atração fraquinha entre as moléculas do pé e as da parede, a força de van der Waals. Sozinha, ela é desprezível; somada em bilhões de espátulas, segura o bicho até de cabeça para baixo. Os pesquisadores descartaram as outras explicações: o pé não tem glândulas de cola, a ventosa seria fraca demais e a lagartixa gruda até no vácuo."
+    },
+    {
+      "type": "takeaway",
+      "text": "A lagartixa gruda porque bilhões de pontas microscópicas encostam tão perto da parede que a atração entre moléculas vira força de sobra."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Grudar é fácil; soltar é o difícil"
+    },
+    {
+      "type": "paragraph",
+      "text": "Correndo, uma lagartixa precisa prender e soltar cada pé 15 vezes por segundo. O truque está no ângulo: quando a cerda é levantada a uns 30 graus, as espátulas se soltam sem esforço. Por isso ela descola os dedos da superfície como quem tira uma fita adesiva."
+    },
+    {
+      "type": "heading",
+      "text": "Força de sobra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2000, pesquisadores mediram pela primeira vez a força de uma única cerda, num estudo publicado na revista Nature com a lagartixa tokay, nativa do Sudeste Asiático. Pelas contas da equipe, um só pelo levantaria uma formiga, e um milhão deles, numa área do tamanho de uma moeda pequena, levantaria uma criança de uns 20 quilos. No vidro, em laboratório, a lagartixa talvez não precise de mais de 10% das cerdas para ficar presa."
+    },
+    {
+      "type": "heading",
+      "text": "Van der Waals ou água?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2000, os autores ainda não podiam descartar que uma fina camada de água ajudasse na aderência. Em 2002, novos testes mostraram que os dedos grudam igualmente bem em superfícies que repelem e que atraem água, o que reforçou as forças de van der Waals. A consequência é curiosa: o que importa é o tamanho e a forma das pontas, e não tanto a química da parede."
+    },
+    {
+      "type": "heading",
+      "text": "Inspiração para fitas"
+    },
+    {
+      "type": "paragraph",
+      "text": "A ideia inspirou fitas adesivas secas feitas de nanotubos de carbono que imitam cerdas e espátulas. Mas nem tudo serve de apoio: a lagartixa não consegue grudar no teflon."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Os dedos da lagartixa têm milhões de pelos microscópicos, as cerdas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "The mechanism of dry adhesion in the millions of setae on the toes of geckos has been the focus of scientific study for over a century."
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Geckos are able to scurry up walls and across ceilings thanks to two million microscopic hairs on their toes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Cada cerda se divide na ponta em centenas de estruturas menores, as espátulas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "consisting of microscopic hairs called setae, which further split into hundreds of smaller structures called spatulas"
+        },
+        {
+          "sourceId": "src_nature_com_articles_35015073_34d71e",
+          "excerpt": "contains hundreds of projections terminating in 0.2–0.5 μm spatula-shaped structures"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "As espátulas, nas pontas dos pelos, lembram brócolis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "which look like broccoli on the tips of the hairs"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "As espátulas chegam tão perto da superfície que uma atração fraca entre moléculas, a força de van der Waals, passa a contar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Yet, they get so close to the surface that weak interactions between molecules in the pad and molecules in the surface become significant."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "We provide the first direct experimental evidence for dry adhesion of gecko setae by van der Waals forces"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Fraca sozinha, essa atração somada em bilhões de espátulas é suficiente para segurar o animal.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "The combined attraction of a billion pads is a thousand times more than the gecko needs to hang on the wall."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "the spatulas deform, enabling molecular contact over large areas, thus translating weak van der Waals interactions into enormous attractive forces"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O pé da lagartixa não tem glândulas de cola.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Also, there is no evidence that geckos use glue: there are no glue glands on the foot, nor is glue residue left on the surface."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "Unlike many insects, geckos lack glands on the surfaces of their feet"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A ventosa seria fraca demais, e a lagartixa gruda até no vácuo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "They calculated that suction is much less effective than the measured sticking force of geckos. Plus, geckos can stick to the wall in a vacuum."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Correndo, a lagartixa prende e solta cada pé 15 vezes por segundo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "When a gecko runs it has to attach and detach its feet 15 times a second."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Levantada a cerca de 30 graus, a cerda solta as espátulas facilmente; a lagartixa descola os dedos como uma fita adesiva.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "If the hair is levered upward at a 30 degree angle, however, the spatulae at the end of the hair easily detach. The gecko does this simply by peeling its toes off the surface."
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Geckos have developed an amazing way of walking that rolls these hairs onto the surface, and then peels them off again, just like tape."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Em 2000, um estudo na Nature com a lagartixa tokay, do Sudeste Asiático, mediu pela primeira vez a força de uma única cerda.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_35015073_34d71e",
+          "excerpt": "here we report the first direct measurements of single setal force"
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "a Tokay gecko (Gekko gecko) native to Southeast Asia"
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "In a paper in this week's issue of Nature"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Um pelo levantaria uma formiga; um milhão deles, numa área do tamanho de uma moeda pequena, levantaria uma criança de cerca de 20 kg.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "a single hair could lift an ant, while a million hairs covering an area the size of a dime could lift a small child of about 45 pounds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "No vidro, em laboratório, a lagartixa talvez não precise de mais de 10% das cerdas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "while in the laboratory geckos may not need more than 10 percent of their setae to stick to glass"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Em 2000 não se descartava a ajuda de água; em 2002, os dedos grudaram igualmente bem em superfícies que repelem e que atraem água, o que apontou para as forças de van der Waals.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Our calculations show that van der Waals forces could explain the adhesion, though we can't rule out water adsorption or some other types of water interaction."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "The toes of live Tokay geckos were highly hydrophobic, and adhered equally well to strongly hydrophobic and strongly hydrophilic, polarizable surfaces."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Pela explicação de van der Waals, o que importa é o tamanho e a forma das pontas, e não tanto a química da superfície.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "A van der Waals mechanism implies that the remarkable adhesive properties of gecko setae are merely a result of the size and shape of the tips, and are not strongly affected by surface chemistry."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "A ideia inspirou fitas adesivas secas de nanotubos de carbono que imitam cerdas e espátulas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "we have replicated the multiscale structure of setae and spatulas using microfabricated multiwalled carbon nanotubes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "A lagartixa não consegue grudar no teflon (politetrafluoretileno).",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "Previous studies found that geckos fail to adhere to hydrophobic, weakly polarizable surfaces [polytetrafluoroethylene"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+    "src_berkeley_edu_news_media_releases_2000_6e975b",
+    "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+    "src_nature_com_articles_35015073_34d71e"
+  ],
+  "quizIds": ["q_gecko_feet_1__pt-BR", "q_gecko_feet_2__pt-BR", "q_gecko_feet_3__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

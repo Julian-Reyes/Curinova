@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_octopus_colour_1__pt-BR",
+    "questionGroupId": "qg_octopus_colour_1",
+    "conceptId": "concept_octopus_colour",
+    "locale": "pt-BR",
+    "prompt": "O que abre e fecha os cromatóforos do polvo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hormônios que levam horas para agir"
+      },
+      {
+        "id": "b",
+        "text": "Músculos comandados por nervos"
+      },
+      {
+        "id": "c",
+        "text": "A temperatura da água ao redor"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Cada bolsinha de pigmento é rodeada por fibras musculares ligadas a nervos; quando elas se contraem, a bolsinha se abre.",
+    "misconception": "A troca é quase instantânea justamente porque depende de nervos e músculos, e não de um processo lento.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_octopus_colour_2__pt-BR",
+    "questionGroupId": "qg_octopus_colour_2",
+    "conceptId": "concept_octopus_colour",
+    "locale": "pt-BR",
+    "prompt": "O que intriga os cientistas na camuflagem do polvo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ele só muda de cor à noite"
+      },
+      {
+        "id": "b",
+        "text": "Ele copia a cor de outros polvos, e não do fundo"
+      },
+      {
+        "id": "c",
+        "text": "Ele acerta as cores do fundo, mas parece não enxergar cores"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O olho do polvo tem um único pigmento visual e a maioria dos estudos o considera daltônico; como ele combina as cores ainda é um mistério.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_octopus_colour_3__pt-BR",
+    "questionGroupId": "qg_octopus_colour_3",
+    "conceptId": "concept_octopus_colour",
+    "locale": "pt-BR",
+    "prompt": "Segundo um estudo de 2024, quanto gasta o sistema de cores do polvo todo ativado?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quase o mesmo que o polvo inteiro em repouso"
+      },
+      {
+        "id": "b",
+        "text": "Praticamente nada"
+      },
+      {
+        "id": "c",
+        "text": "Dez vezes mais que o polvo inteiro em repouso"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Medindo o oxigênio consumido pela pele, os pesquisadores estimaram um gasto quase igual ao do animal inteiro em repouso.",
+    "claimIds": ["c13"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,290 @@
+{
+  "id": "lesson_bird_navigation__pt-BR",
+  "conceptId": "concept_bird_navigation",
+  "locale": "pt-BR",
+  "slug": "como-as-aves-migratorias-acham-o-caminho",
+  "title": "Como as aves migratórias acham o caminho?",
+  "hook": "Sol, estrelas e um sentido magnético que a ciência ainda tenta decifrar.",
+  "summary": "Aves migratórias usam várias bússolas: o Sol, as estrelas, que aprendem a ler, e o campo magnético da Terra, percebido por um mecanismo que ainda está sendo estudado.",
+  "cardText": "Elas têm mais de uma bússola: o Sol, as estrelas, que aprendem a reconhecer, e o campo magnético da Terra, que sentem de um jeito que os cientistas ainda tentam entender.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Os navegadores antigos se guiavam pelo Sol, pelas estrelas e pela bússola. As aves migratórias usam as três coisas. Na década de 1950, pesquisadores mostraram que aves se orientam pelo Sol e, à noite, pelas estrelas. Em 1967, Emlen viu pássaros da espécie Passerina cyanea se orientarem sob o céu artificial de um planetário, e se descobriu que essa bússola das estrelas não é inata: é aprendida."
+    },
+    {
+      "type": "paragraph",
+      "text": "A terceira bússola é magnética. Em 1966, piscos-de-peito-ruivo presos numa gaiola mudaram de rumo quando cientistas desviaram o norte magnético com bobinas. Hoje, a principal explicação é que, nos olhos, uma molécula chamada criptocromo reage à luz de um jeito que depende da direção do campo magnético. Mas muitos detalhes, como a forma com que isso vira um sinal para o cérebro, ainda não estão claros."
+    },
+    {
+      "type": "takeaway",
+      "text": "Aves migratórias combinam Sol, estrelas aprendidas e um sentido magnético cujo funcionamento ainda está sendo estudado."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Mapa e bússola"
+    },
+    {
+      "type": "paragraph",
+      "text": "Saber a direção não basta. Nos anos 1950, o pesquisador Gustav Kramer propôs que um animal que viaja para além do que conhece precisa de duas coisas: um mapa, para saber onde está em relação ao destino, e uma bússola, para escolher e manter o rumo."
+    },
+    {
+      "type": "heading",
+      "text": "Estrelas que se aprendem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Montar uma bússola das estrelas completa pode levar de duas a três semanas. Ela é especialmente útil perto do equador magnético, onde a bússola magnética das aves fica ambígua e falha."
+    },
+    {
+      "type": "heading",
+      "text": "Um viajante que passa pelo Brasil"
+    },
+    {
+      "type": "paragraph",
+      "text": "O maçarico-de-papo-vermelho (Calidris canutus rufa) se reproduz no Ártico canadense e passa o inverno no hemisfério sul. Parte das aves fica no litoral do Maranhão; outra parte segue até a Terra do Fogo e, no caminho, para no Rio Grande do Sul, como na Lagoa do Peixe, para comer e descansar. Do Brasil até a próxima parada, a baía de Delaware, nos Estados Unidos, são cerca de 8 mil quilômetros. Em 2019, uma fêmea com rastreador fez esse trecho sem parar: 8.289 km em 14 dias, saindo da Lagoa do Peixe."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Na década de 1950, descobriu-se que as aves se orientam pelo Sol (Kramer, 1952) e, à noite, pelas estrelas (Sauer, 1957).",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_1dbb33",
+          "excerpt": "after the discovery of the sun compass (Kramer 1952) and the nocturnal orientation by stars (Sauer 1957)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Em 1967, Emlen observou pássaros Passerina cyanea se orientando sob o céu de um planetário.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_1dbb33",
+          "excerpt": "Emlen, who had observed oriented behavior of Indigo Buntings, Passerina cyanea (Emberizidae), under a planetarium sky in a funnel-shaped cage (Emlen 1967)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A bússola das estrelas das aves não é inata: é aprendida.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+          "excerpt": "Despite the fact that the star compass is not innate (Emlen, 1967a; Emlen, 1967b)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+          "excerpt": "They could learn and adapt their star compass to specific migration conditions"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em 1966, piscos-de-peito-ruivo numa gaiola de teste mudaram de rumo quando o norte magnético foi desviado com bobinas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_1dbb33",
+          "excerpt": "Wiltschko and Merkel 1966): a nocturnally migrating songbird species, the European Robins, Erithacus rubecula (Turdidae), oriented its migratory activity in a test cage in its normal migratory direction, and when magnetic North was deflected by Helmholtz coils, it shifted its headings accordingly"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A explicação principal é que a direção do campo magnético é percebida nos olhos, por reações que envolvem a molécula criptocromo e dependem da luz.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_96a437",
+          "excerpt": "The direction of the magnetic field appears to be sensed via radical pair processes in the eyes, with the crucial radical pairs formed by cryptochrome."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_1dbb33",
+          "excerpt": "As site for sensing magnetic directions, the authors proposed the eyes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Muitos detalhes ainda não estão claros, como a forma com que essas reações viram um sinal nervoso.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_96a437",
+          "excerpt": "Yet in spite of considerable progress in recent years, many details are still unclear, among them details of the radical pair processes and their transformation into a nervous signal"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Gustav Kramer propôs que um animal que viaja além do que conhece precisa de um mapa e de uma bússola.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+          "excerpt": "More than 60 years ago, Gustav Kramer suggested the map and compass concept"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+          "excerpt": "a traveling animal (e.g., a migrating bird) needs (i) a positioning system (map), i.e., a mental representation of space at the scale it intends to travel, and (ii) a compass system that allows it to select and maintain a certain compass direction of travel (Kramer, 1953)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Montar uma bússola das estrelas completa pode levar de duas a três semanas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+          "excerpt": "Forming a fully operational star compass may require 2–3 weeks"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A bússola das estrelas é crucial perto do equador magnético, onde a bússola magnética das aves fica ambígua e falha.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+          "excerpt": "The formation and calibration of the star compass are particularly crucial for crossing the magnetic equator, where the inclination magnetic compass malfunctions and becomes ambiguous."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "O maçarico-de-papo-vermelho (Calidris canutus rufa) se reproduz no Ártico canadense e passa o inverno no hemisfério sul.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "The Western Atlantic subpopulation of Red Knot (Calidris canutus rufa) breeds in the Canadian Arctic Archipelago and migrates to the southern hemisphere to overwinter"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Parte das aves fica no litoral do Maranhão; outra parte vai até a Terra do Fogo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "Short-distance migrants migrate to the Gulf of Mexico and the northern coast of South America (Maranhão, Brazil), while the long-distance group flies all the way to Tierra del Fuego"
+        },
+        {
+          "sourceId": "src_periodicoseletronicos_ufma_br_index_php_blabohidro_4ebd32",
+          "excerpt": "This study investigated the seasonal abundance of the subspecies Calidris canutus rufa and the use of Panaquatira Beach, located on the northern coast of Maranhão, Brazil, as a migratory stopover site."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "No caminho, as aves param no Rio Grande do Sul, como na Lagoa do Peixe, para comer e descansar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "During long-distance migrations, Red Knots stop along the mid coast of Rio Grande do Sul and at the Lagoa do Peixe National Park, Brazil to forage, rest, and perform post-reproductive feather moult"
+        },
+        {
+          "sourceId": "src_ufrgs_br_ceclimar_biologo_do_ceclimar_8c74c7",
+          "excerpt": "faz importantes paradas no litoral do Rio Grande do Sul para estocar energia, através da alimentação em nossas praias"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Do Brasil até a baía de Delaware, nos EUA, são cerca de 8 mil km; em 2019, uma fêmea rastreada fez o trecho sem parar, 8.289 km em 14 dias, a partir da Lagoa do Peixe.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_news_mongabay_com_2026_07_rising_cb91b9",
+          "excerpt": "After leaving Brazil, it will cover roughly 8,000 kilometers (5,000 miles) to its next stop: Delaware Bay, on the northeastern coast of the U.S."
+        },
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "The bird made a non-stop, 8,289 km long flight from Lagoa do Peixe to Delaware Bay (north-east coast of the USA)."
+        },
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "It left Lagoa do Peixe on 30 April and took 14 days to reach Delaware Bay"
+        },
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "Red Knots were captured at the beach section of the park on 24 April 2019 using a cannon net"
+        },
+        {
+          "sourceId": "src_cambridge_org_core_journals_bird_conservation_3627a2",
+          "excerpt": "All birds were females"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_1dbb33",
+    "src_pmc_ncbi_nlm_nih_gov_articles_33a64f",
+    "src_pmc_ncbi_nlm_nih_gov_articles_96a437",
+    "src_cambridge_org_core_journals_bird_conservation_3627a2",
+    "src_periodicoseletronicos_ufma_br_index_php_blabohidro_4ebd32",
+    "src_ufrgs_br_ceclimar_biologo_do_ceclimar_8c74c7",
+    "src_news_mongabay_com_2026_07_rising_cb91b9"
+  ],
+  "quizIds": [
+    "q_bird_navigation_1__pt-BR",
+    "q_bird_navigation_2__pt-BR",
+    "q_bird_navigation_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

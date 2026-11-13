@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_sloth_slow_life_1__pt-BR",
+    "questionGroupId": "qg_sloth_slow_life_1",
+    "conceptId": "concept_sloth_slow_life",
+    "locale": "pt-BR",
+    "prompt": "Por que a preguiça vive em ritmo tão lento?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Come folhas que rendem pouca energia e tem metabolismo baixo"
+      },
+      {
+        "id": "b",
+        "text": "Passa o dia dormindo e por isso quase não come"
+      },
+      {
+        "id": "c",
+        "text": "Tem medo de cair das árvores"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Folhas têm muita fibra e poucos nutrientes, e a digestão é lentíssima; com pouca energia entrando, a preguiça gasta pouco.",
+    "misconception": "A lentidão não é falta de vontade: ela acompanha uma dieta que rende pouquíssima energia.",
+    "claimIds": ["c2", "c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_sloth_slow_life_2__pt-BR",
+    "questionGroupId": "qg_sloth_slow_life_2",
+    "conceptId": "concept_sloth_slow_life",
+    "locale": "pt-BR",
+    "prompt": "Com que frequência a preguiça desce da árvore para fazer as necessidades?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Várias vezes por dia"
+      },
+      {
+        "id": "b",
+        "text": "Cerca de uma vez por semana"
+      },
+      {
+        "id": "c",
+        "text": "Uma vez por ano"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Ela desce mais ou menos a cada seis ou sete dias para urinar e defecar no chão.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_sloth_slow_life_3__pt-BR",
+    "questionGroupId": "qg_sloth_slow_life_3",
+    "conceptId": "concept_sloth_slow_life",
+    "locale": "pt-BR",
+    "prompt": "O que deixa o pelo da preguiça esverdeado?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tinta das folhas que ela come"
+      },
+      {
+        "id": "b",
+        "text": "Algas que crescem no pelo"
+      },
+      {
+        "id": "c",
+        "text": "Mofo causado pela chuva"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Algas crescem no pelo, ajudam na camuflagem e ainda servem de alimento para a preguiça.",
+    "claimIds": ["c5", "c6"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_sloth_slow_life_1__en",
+    "questionGroupId": "qg_sloth_slow_life_1",
+    "conceptId": "concept_sloth_slow_life",
+    "locale": "en",
+    "prompt": "Why do sloths live at such a slow pace?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They eat leaves that yield little energy and have a low metabolism"
+      },
+      {
+        "id": "b",
+        "text": "They sleep all day, so they hardly eat"
+      },
+      {
+        "id": "c",
+        "text": "They are afraid of falling out of trees"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Leaves are high in fibre and low in nutrients, and digestion is extremely slow; with little energy coming in, sloths spend little.",
+    "misconception": "Slowness is not laziness: it matches a diet that yields very little energy.",
+    "claimIds": ["c2", "c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_sloth_slow_life_2__en",
+    "questionGroupId": "qg_sloth_slow_life_2",
+    "conceptId": "concept_sloth_slow_life",
+    "locale": "en",
+    "prompt": "How often does a sloth climb down to relieve itself?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Several times a day"
+      },
+      {
+        "id": "b",
+        "text": "About once a week"
+      },
+      {
+        "id": "c",
+        "text": "Once a year"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "It comes down roughly every six or seven days to urinate and defecate on the ground.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_sloth_slow_life_3__en",
+    "questionGroupId": "qg_sloth_slow_life_3",
+    "conceptId": "concept_sloth_slow_life",
+    "locale": "en",
+    "prompt": "What makes a sloth’s fur look green?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dye from the leaves it eats"
+      },
+      {
+        "id": "b",
+        "text": "Algae growing in the fur"
+      },
+      {
+        "id": "c",
+        "text": "Mould caused by rain"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Algae grow in the fur, help camouflage the sloth and even serve as food for it.",
+    "claimIds": ["c5", "c6"],
+    "status": "draft"
+  }
+]

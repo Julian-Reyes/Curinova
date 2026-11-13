@@ -1,0 +1,296 @@
+{
+  "id": "lesson_sloth_slow_life__pt-BR",
+  "conceptId": "concept_sloth_slow_life",
+  "locale": "pt-BR",
+  "slug": "como-a-preguica-consegue-viver-tao-devagar",
+  "title": "Como a preguiça consegue viver tão devagar?",
+  "hook": "Uma única refeição pode levar até uma semana para ser digerida.",
+  "summary": "A preguiça tem metabolismo baixo e come folhas que rendem pouca energia e são digeridas devagar; algas no pelo a camuflam, e ela desce da árvore cerca de uma vez por semana para fazer as necessidades.",
+  "cardText": "Folhas rendem pouca energia, e a preguiça gasta pouco: metabolismo baixo, digestão lentíssima e algas no pelo que a camuflam. Ela só desce da árvore cerca de uma vez por semana, para fazer as necessidades.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine viver só de salada, e de uma salada difícil de digerir. É a vida da preguiça. Ela passa quase todo o tempo no alto das árvores comendo folhas, que têm muita fibra e poucos nutrientes. As preguiças-de-três-dedos têm a digestão mais lenta entre os mamíferos: uma refeição pode passar até uma semana fermentando. Com tão pouca energia entrando, o jeito é gastar pouco: metabolismo baixo e longos períodos imóvel."
+    },
+    {
+      "type": "paragraph",
+      "text": "O pelo também ajuda. Nele crescem algas que deixam o bicho esverdeado e o camuflam, e um estudo de 2014 descobriu que a preguiça come essas algas, fáceis de digerir e ricas em gordura. E o banheiro? Mais ou menos uma vez por semana, ela desce até o chão para urinar e defecar, uma viagem arriscada."
+    },
+    {
+      "type": "takeaway",
+      "text": "A preguiça vive devagar porque come folhas que rendem pouca energia e economiza em tudo, até nas idas ao banheiro."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Uma temperatura que oscila"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao contrário da maioria dos mamíferos, a preguiça controla mal a temperatura do corpo. Ela costuma ficar entre 25 e 35 °C e pode cair a 20 °C; nesse ponto, o animal entra em torpor, um estado de atividade mínima."
+    },
+    {
+      "type": "heading",
+      "text": "Por que descer da árvore?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Descer gasta energia e expõe a preguiça a predadores. Por que, então, não fazer as necessidades lá de cima? Uma hipótese, de 2014, envolve mariposas que vivem no pelo das preguiças-de-três-dedos. Elas põem ovos nas fezes da preguiça, no chão, e a descida ajuda novas mariposas a colonizar o pelo. As mariposas aumentam o nitrogênio no pelo, o que alimenta as algas, que a preguiça come para complementar a dieta. É uma explicação proposta pelos autores, não um fato fechado."
+    },
+    {
+      "type": "heading",
+      "text": "A preguiça-de-coleira"
+    },
+    {
+      "type": "paragraph",
+      "text": "No Brasil, a preguiça-de-coleira, de três dedos e com uma juba preta na nuca, vive só na Mata Atlântica. Ela foi recentemente dividida em duas espécies, uma do norte e uma do sul, e um estudo genético confirmou que as duas linhagens seguiram caminhos evolutivos independentes. Ambas enfrentam o desmatamento da floresta."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "As preguiças passam o tempo no alto das árvores, onde descansam e comem folhas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "where they can be found high in the forest canopy sunning, resting, or feeding on leaves."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Folhas têm muita fibra e poucos nutrientes digeríveis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "especially for processing plant matter, which is rich in fibre but low in digestible nutrients."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "As preguiças-de-três-dedos têm a digestão mais lenta entre os mamíferos; uma refeição pode levar até uma semana fermentando.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "Because of their nutritionally poor and toxic diet, three-toed sloths possess the slowest rate of digestion for any mammal"
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "The leafy food is digested slowly; a fermenting meal may take up to a week to process."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Com pouca energia disponível, as preguiças têm metabolismo baixo, gastam pouco e ficam imóveis por longos períodos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "Like other sloths, they are strictly arboreal and have low metabolic rates due to their diet composed of leaves and shoots, causing them to remain immobile in trees for extended periods"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+          "excerpt": "With little energy at their disposal, sloths are presumed to exist within a narrow and finely tuned energy budget, in which minimal expenditure is linked to minimal energy intake."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Algas que crescem no pelo deixam a preguiça esverdeada e ajudam a camuflá-la.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "The algae give the animals a greenish tinge, especially during the rainy season."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_56cae7",
+          "excerpt": "Trichophilus welckeri, a green algal species first described more than a century ago, is widely believed to discolor the animals fur and provide the sloth with effective camouflage."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Um estudo de 2014 descobriu que as preguiças comem as algas do próprio pelo, fáceis de digerir e ricas em gordura.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "We discovered that sloths consumed algae from their fur, which was highly digestible and lipid-rich."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Cerca de uma vez por semana, a preguiça desce até o chão para urinar e defecar, uma viagem arriscada.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "Sloths descend to the ground at approximately six-day intervals to urinate and defecate"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "A three-toed sloth will, however, descend its tree weekly to defecate, which is risky, energetically costly and, until now, inexplicable."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+          "excerpt": "Sloths defecate only once a week, storing faeces in an anal pouch."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A preguiça controla mal a temperatura do corpo, que costuma ficar entre 25 e 35 °C e pode cair a 20 °C, quando o animal entra em torpor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "Physiologically, sloths are heterothermic—that is, they have imperfect control over their body temperature."
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "Normally ranging between 25 and 35 °C (77 and 95 °F), their body temperature may drop to as low as 20 °C (68 °F)."
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "At this temperature the animals become torpid."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+          "excerpt": "Sloths are limited by the rate at which they can acquire energy and are unable to regulate core body temperature (Tb) to the extent seen in most mammals."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Uma hipótese de 2014 propõe que, ao descer para defecar, a preguiça leva mariposas do seu pelo até as fezes, onde elas põem ovos, o que ajuda novas mariposas a colonizar o pelo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "By descending a tree to defecate, sloths transport moths to their oviposition sites in sloth dung, which facilitates moth colonization of sloth fur."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "As mariposas aumentam o nitrogênio no pelo, o que alimenta as algas que a preguiça come para complementar a dieta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "Moths are portals for nutrients, increasing nitrogen levels in sloth fur, which fuels algal growth."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "Sloths consume these algae-gardens, presumably to augment their limited diet."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "A preguiça-de-coleira, de três dedos e com juba preta na nuca, vive só na Mata Atlântica brasileira.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "the only xenarthrans endemic to Brazil's Atlantic Forest, are characterised by a black mane on the hindneck of the adults"
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "torquatus) is restricted to the small Atlantic forest of southeastern Brazil"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A preguiça-de-coleira foi recentemente dividida em duas espécies, do norte e do sul, e um estudo genético confirmou linhagens com caminhos evolutivos independentes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "were recently reclassified into two distinct species: the Northern and Southern Maned Sloths."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "Together, our findings confirm the independent evolutionary paths of these two lineages"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "As duas espécies enfrentam o desmatamento da Mata Atlântica.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "underscore the unique conservation challenges posed by both historical climatic changes and ongoing deforestation of the Atlantic Forest."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_animal_sloth_28f107",
+    "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+    "src_pmc_ncbi_nlm_nih_gov_articles_56cae7"
+  ],
+  "quizIds": [
+    "q_sloth_slow_life_1__pt-BR",
+    "q_sloth_slow_life_2__pt-BR",
+    "q_sloth_slow_life_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

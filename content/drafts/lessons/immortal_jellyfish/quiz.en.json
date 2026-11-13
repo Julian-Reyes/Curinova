@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_immortal_jellyfish_1__en",
+    "questionGroupId": "qg_immortal_jellyfish_1",
+    "conceptId": "concept_immortal_jellyfish",
+    "locale": "en",
+    "prompt": "What does Turritopsis dohrnii do when it is injured or ageing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It splits into two adult medusae"
+      },
+      {
+        "id": "b",
+        "text": "It turns back into a polyp, a young stage, and starts over"
+      },
+      {
+        "id": "c",
+        "text": "It hibernates on the seabed until it heals"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The medusa becomes a cyst, a ball of cells, which forms polyps again; new medusae bud from them.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_immortal_jellyfish_2__en",
+    "questionGroupId": "qg_immortal_jellyfish_2",
+    "conceptId": "concept_immortal_jellyfish",
+    "locale": "en",
+    "prompt": "Why does \"immortal\" need quotation marks?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because it can still be eaten or get sick"
+      },
+      {
+        "id": "b",
+        "text": "Because it lives for a day at most"
+      },
+      {
+        "id": "c",
+        "text": "Because it can only rejuvenate once"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Rejuvenating spares it from ageing, not from predators or disease; in the sea, most probably die that way.",
+    "misconception": "Escaping ageing is not the same as never dying: the jellyfish is still vulnerable to predators and disease.",
+    "claimIds": ["c6", "c12"],
+    "status": "draft"
+  },
+  {
+    "id": "q_immortal_jellyfish_3__en",
+    "questionGroupId": "qg_immortal_jellyfish_3",
+    "conceptId": "concept_immortal_jellyfish",
+    "locale": "en",
+    "prompt": "How was the ability to rejuvenate discovered?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Divers filmed the reversal in the sea"
+      },
+      {
+        "id": "b",
+        "text": "A scientist forgot to feed his jellyfish and found new polyps"
+      },
+      {
+        "id": "c",
+        "text": "Fossils showed jellyfish at several stages"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "In 1992, jellyfish left without food over a weekend turned into new polyps instead of dying.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

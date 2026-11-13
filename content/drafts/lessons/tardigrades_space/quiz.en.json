@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_tardigrades_space_1__en",
+    "questionGroupId": "qg_tardigrades_space_1",
+    "conceptId": "concept_tardigrades_space",
+    "locale": "en",
+    "prompt": "What happened to the tardigrades exposed to space in 2007?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They all died as soon as they reached orbit"
+      },
+      {
+        "id": "b",
+        "text": "They survived the vacuum, but the Sun’s radiation sharply cut survival"
+      },
+      {
+        "id": "c",
+        "text": "Nothing affected them, not even radiation"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The vacuum was no problem; adding the Sun’s ultraviolet radiation sharply cut survival.",
+    "misconception": "Tardigrades are tough, not invincible: the Sun’s ultraviolet radiation did them real harm.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tardigrades_space_2__en",
+    "questionGroupId": "qg_tardigrades_space_2",
+    "conceptId": "concept_tardigrades_space",
+    "locale": "en",
+    "prompt": "In what state do tardigrades face extreme conditions?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Swimming inside a bubble of water"
+      },
+      {
+        "id": "b",
+        "text": "Dried out and shrunken, with their metabolism nearly stopped"
+      },
+      {
+        "id": "c",
+        "text": "Hidden inside other animals"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "In anhydrobiosis, a tardigrade dries out, folds up and slows its metabolism almost to nothing.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tardigrades_space_3__en",
+    "questionGroupId": "qg_tardigrades_space_3",
+    "conceptId": "concept_tardigrades_space",
+    "locale": "en",
+    "prompt": "Why did the 2007 experiment become famous?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tardigrades became the first animals known to survive exposure to space"
+      },
+      {
+        "id": "b",
+        "text": "It was the first time any living thing was taken to space"
+      },
+      {
+        "id": "c",
+        "text": "It proved there is life on other planets"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "According to ESA, water bears were the first animals to survive being exposed to space.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_bird_navigation_1__pt-BR",
+    "questionGroupId": "qg_bird_navigation_1",
+    "conceptId": "concept_bird_navigation",
+    "locale": "pt-BR",
+    "prompt": "Quais pistas as aves migratórias usam para se orientar?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Só o cheiro do mar"
+      },
+      {
+        "id": "b",
+        "text": "O Sol, as estrelas e o campo magnético da Terra"
+      },
+      {
+        "id": "c",
+        "text": "Apenas o formato dos rios e montanhas"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Experimentos mostraram bússolas baseadas no Sol, nas estrelas e no campo magnético.",
+    "claimIds": ["c1", "c2", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_bird_navigation_2__pt-BR",
+    "questionGroupId": "qg_bird_navigation_2",
+    "conceptId": "concept_bird_navigation",
+    "locale": "pt-BR",
+    "prompt": "O que os experimentos em planetário revelaram sobre as estrelas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As aves nascem com um mapa das estrelas pronto"
+      },
+      {
+        "id": "b",
+        "text": "As aves se orientam pelas estrelas, mas precisam aprender a reconhecê-las"
+      },
+      {
+        "id": "c",
+        "text": "As aves não conseguem ver estrelas"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sob um céu artificial, as aves se orientaram pelas estrelas, e essa bússola é aprendida, não inata.",
+    "misconception": "Parece natural supor que a ave já nasce sabendo ler o céu, mas a bússola das estrelas precisa ser aprendida.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_bird_navigation_3__pt-BR",
+    "questionGroupId": "qg_bird_navigation_3",
+    "conceptId": "concept_bird_navigation",
+    "locale": "pt-BR",
+    "prompt": "Segundo a explicação principal, onde fica o sensor da bússola magnética das aves?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nos olhos"
+      },
+      {
+        "id": "b",
+        "text": "Nas penas da cauda"
+      },
+      {
+        "id": "c",
+        "text": "Nos pés"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A hipótese mais aceita é que uma reação dependente de luz, envolvendo o criptocromo nos olhos, capta a direção do campo magnético.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

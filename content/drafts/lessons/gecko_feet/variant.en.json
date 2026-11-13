@@ -1,0 +1,330 @@
+{
+  "id": "lesson_gecko_feet__en",
+  "conceptId": "concept_gecko_feet",
+  "locale": "en",
+  "slug": "how-do-geckos-walk-on-ceilings",
+  "title": "How do geckos walk on ceilings?",
+  "hook": "No glue, no suction cups: the secret is in impossibly fine hairs.",
+  "summary": "A gecko’s toes carry millions of microscopic hairs that split into even tinier tips and cling through a weak attraction between molecules, the van der Waals force.",
+  "cardText": "Millions of microscopic hairs on its toes, each splitting into hundreds of tiny tips, get so close to the surface that a weak pull between molecules holds the gecko up. No glue, no suction.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Slide your finger across clean glass and it skids. A gecko’s toe doesn’t. Under its toes sit millions of microscopic hairs called setae, and each seta branches at its tip into hundreds of even smaller pads called spatulae, which look like broccoli under a microscope."
+    },
+    {
+      "type": "paragraph",
+      "text": "Those tips get so close to a surface that a feeble attraction between the molecules of the foot and those of the wall starts to matter: the van der Waals force. On its own it is negligible; added up over billions of spatulae, it holds the animal upside down. Researchers ruled out the alternatives: the feet have no glue glands, suction would be far too weak, and geckos stick even in a vacuum."
+    },
+    {
+      "type": "takeaway",
+      "text": "Geckos cling because billions of microscopic tips touch the wall so closely that the pull between molecules adds up to plenty of grip."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Sticking is easy; letting go is the hard part"
+    },
+    {
+      "type": "paragraph",
+      "text": "A running gecko has to attach and release each foot 15 times a second. The trick is the angle: tilt a seta up to about 30 degrees and its spatulae let go easily. So the gecko simply peels its toes off the surface, the way you would peel off tape."
+    },
+    {
+      "type": "heading",
+      "text": "Grip to spare"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2000, researchers measured the force of a single seta for the first time, in a study in Nature on the tokay gecko, a species from Southeast Asia. By the team’s estimate, one hair could lift an ant, and a million of them, covering an area the size of a dime, could lift a child of about 20 kilograms. On glass in the lab, a gecko may need no more than 10% of its setae to hold on."
+    },
+    {
+      "type": "heading",
+      "text": "Van der Waals or water?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2000 the authors still could not rule out that a thin film of water helped. In 2002, new tests showed that gecko toes stick equally well to surfaces that repel water and to surfaces that attract it, which pointed to van der Waals forces. A neat consequence: what matters is the size and shape of the tips, more than the chemistry of the wall."
+    },
+    {
+      "type": "heading",
+      "text": "Inspiration for tape"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea has inspired dry adhesive tapes made of carbon nanotubes that mimic setae and spatulae. Not every surface works, though: geckos cannot stick to Teflon."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A gecko’s toes carry millions of microscopic hairs called setae.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "The mechanism of dry adhesion in the millions of setae on the toes of geckos has been the focus of scientific study for over a century."
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Geckos are able to scurry up walls and across ceilings thanks to two million microscopic hairs on their toes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Each seta splits at its tip into hundreds of smaller structures called spatulae.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "consisting of microscopic hairs called setae, which further split into hundreds of smaller structures called spatulas"
+        },
+        {
+          "sourceId": "src_nature_com_articles_35015073_34d71e",
+          "excerpt": "contains hundreds of projections terminating in 0.2–0.5 μm spatula-shaped structures"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The spatulae on the tips of the hairs look like broccoli.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "which look like broccoli on the tips of the hairs"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The spatulae get so close to a surface that a weak attraction between molecules, the van der Waals force, starts to matter.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Yet, they get so close to the surface that weak interactions between molecules in the pad and molecules in the surface become significant."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "We provide the first direct experimental evidence for dry adhesion of gecko setae by van der Waals forces"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Weak on its own, this attraction adds up over billions of spatulae to hold the animal.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "The combined attraction of a billion pads is a thousand times more than the gecko needs to hang on the wall."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "the spatulas deform, enabling molecular contact over large areas, thus translating weak van der Waals interactions into enormous attractive forces"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Gecko feet have no glue glands.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Also, there is no evidence that geckos use glue: there are no glue glands on the foot, nor is glue residue left on the surface."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "Unlike many insects, geckos lack glands on the surfaces of their feet"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Suction would be far too weak, and geckos stick even in a vacuum.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "They calculated that suction is much less effective than the measured sticking force of geckos. Plus, geckos can stick to the wall in a vacuum."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A running gecko attaches and releases each foot 15 times a second.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "When a gecko runs it has to attach and detach its feet 15 times a second."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Tilted up to about 30 degrees, a seta releases its spatulae easily; the gecko peels its toes off like tape.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "If the hair is levered upward at a 30 degree angle, however, the spatulae at the end of the hair easily detach. The gecko does this simply by peeling its toes off the surface."
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Geckos have developed an amazing way of walking that rolls these hairs onto the surface, and then peels them off again, just like tape."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "In 2000, a study in Nature on the tokay gecko from Southeast Asia measured the force of a single seta for the first time.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_35015073_34d71e",
+          "excerpt": "here we report the first direct measurements of single setal force"
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "a Tokay gecko (Gekko gecko) native to Southeast Asia"
+        },
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "In a paper in this week's issue of Nature"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "One hair could lift an ant; a million of them, over an area the size of a dime, could lift a child of about 20 kg.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "a single hair could lift an ant, while a million hairs covering an area the size of a dime could lift a small child of about 45 pounds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "On glass in the lab, a gecko may need no more than 10% of its setae.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "while in the laboratory geckos may not need more than 10 percent of their setae to stick to glass"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "In 2000 a role for water could not be ruled out; in 2002, toes stuck equally well to water-repelling and water-attracting surfaces, pointing to van der Waals forces.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_berkeley_edu_news_media_releases_2000_6e975b",
+          "excerpt": "Our calculations show that van der Waals forces could explain the adhesion, though we can't rule out water adsorption or some other types of water interaction."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "The toes of live Tokay geckos were highly hydrophobic, and adhered equally well to strongly hydrophobic and strongly hydrophilic, polarizable surfaces."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Under the van der Waals explanation, what matters is the size and shape of the tips, more than the chemistry of the surface.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "A van der Waals mechanism implies that the remarkable adhesive properties of gecko setae are merely a result of the size and shape of the tips, and are not strongly affected by surface chemistry."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "The idea inspired dry adhesive tapes made of carbon nanotubes that mimic setae and spatulae.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "we have replicated the multiscale structure of setae and spatulas using microfabricated multiwalled carbon nanotubes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Geckos cannot stick to Teflon (polytetrafluoroethylene).",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+          "excerpt": "Previous studies found that geckos fail to adhere to hydrophobic, weakly polarizable surfaces [polytetrafluoroethylene"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_fcf517",
+    "src_berkeley_edu_news_media_releases_2000_6e975b",
+    "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+    "src_nature_com_articles_35015073_34d71e"
+  ],
+  "quizIds": ["q_gecko_feet_1__en", "q_gecko_feet_2__en", "q_gecko_feet_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

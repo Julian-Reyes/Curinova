@@ -1,0 +1,292 @@
+{
+  "id": "lesson_sloth_slow_life__en",
+  "conceptId": "concept_sloth_slow_life",
+  "locale": "en",
+  "slug": "how-do-sloths-live-so-slowly",
+  "title": "How do sloths live so slowly?",
+  "hook": "A single meal can take up to a week to digest.",
+  "summary": "Sloths have a low metabolism and a diet of leaves that yields little energy and digests slowly; algae in their fur camouflage them, and they climb down about once a week to relieve themselves.",
+  "cardText": "Leaves yield little energy, so sloths spend very little: a low metabolism, ultra-slow digestion and camouflaging algae in their fur. They come down from the trees only about once a week, to relieve themselves.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine living on salad alone, and a tough salad at that. That is a sloth’s life. It spends almost all its time high in the trees eating leaves, which are full of fibre and short on nutrients. Three-toed sloths digest food more slowly than any other mammal: a meal can sit fermenting for up to a week. With so little energy coming in, the answer is to spend very little: a low metabolism and long stretches without moving."
+    },
+    {
+      "type": "paragraph",
+      "text": "Its fur helps too. Algae grow in it, giving the animal a greenish tint that camouflages it, and a 2014 study found that sloths eat these algae, which are easy to digest and rich in fat. And the bathroom? About once a week, a sloth climbs down to the ground to urinate and defecate, a risky trip."
+    },
+    {
+      "type": "takeaway",
+      "text": "Sloths live slowly because leaves give them little energy, so they economise on everything, even trips to the bathroom."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A body temperature that drifts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike most mammals, sloths control their body temperature poorly. It usually stays between 25 and 35 °C and can fall to 20 °C, at which point the animal becomes torpid, barely active at all."
+    },
+    {
+      "type": "heading",
+      "text": "Why climb down?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Climbing down costs energy and exposes a sloth to predators. So why not go from up in the tree? A 2014 hypothesis involves moths that live in the fur of three-toed sloths. They lay their eggs in sloth dung on the ground, so the trip down helps new moths colonise the fur. The moths raise nitrogen levels in the fur, which feeds the algae, which the sloth eats to top up its diet. It is an explanation proposed by the authors, not a settled fact."
+    },
+    {
+      "type": "heading",
+      "text": "Brazil’s maned sloths"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Brazil, the maned sloth, a three-toed sloth with a black mane on the back of its neck, lives only in the Atlantic Forest. It was recently split into two species, a northern and a southern one, and a genetic study confirmed that the two lineages followed independent evolutionary paths. Both face ongoing deforestation."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sloths spend their time high in the trees, resting and eating leaves.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "where they can be found high in the forest canopy sunning, resting, or feeding on leaves."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Leaves are rich in fibre but low in digestible nutrients.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "especially for processing plant matter, which is rich in fibre but low in digestible nutrients."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Three-toed sloths have the slowest digestion of any mammal; a meal can take up to a week to ferment.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "Because of their nutritionally poor and toxic diet, three-toed sloths possess the slowest rate of digestion for any mammal"
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "The leafy food is digested slowly; a fermenting meal may take up to a week to process."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "With little energy available, sloths have a low metabolism, spend little and stay still for long periods.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "Like other sloths, they are strictly arboreal and have low metabolic rates due to their diet composed of leaves and shoots, causing them to remain immobile in trees for extended periods"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+          "excerpt": "With little energy at their disposal, sloths are presumed to exist within a narrow and finely tuned energy budget, in which minimal expenditure is linked to minimal energy intake."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Algae growing in the fur give sloths a greenish tint and help camouflage them.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "The algae give the animals a greenish tinge, especially during the rainy season."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_56cae7",
+          "excerpt": "Trichophilus welckeri, a green algal species first described more than a century ago, is widely believed to discolor the animals fur and provide the sloth with effective camouflage."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A 2014 study found that sloths eat the algae in their own fur, which are easy to digest and rich in fat.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "We discovered that sloths consumed algae from their fur, which was highly digestible and lipid-rich."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "About once a week, a sloth climbs down to the ground to urinate and defecate, a risky trip.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "Sloths descend to the ground at approximately six-day intervals to urinate and defecate"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "A three-toed sloth will, however, descend its tree weekly to defecate, which is risky, energetically costly and, until now, inexplicable."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+          "excerpt": "Sloths defecate only once a week, storing faeces in an anal pouch."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Sloths control their body temperature poorly; it usually ranges from 25 to 35 °C and can fall to 20 °C, when the animal becomes torpid.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "Physiologically, sloths are heterothermic—that is, they have imperfect control over their body temperature."
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "Normally ranging between 25 and 35 °C (77 and 95 °F), their body temperature may drop to as low as 20 °C (68 °F)."
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "At this temperature the animals become torpid."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+          "excerpt": "Sloths are limited by the rate at which they can acquire energy and are unable to regulate core body temperature (Tb) to the extent seen in most mammals."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A 2014 hypothesis proposes that by climbing down to defecate, sloths carry moths from their fur to the dung where they lay eggs, helping new moths colonise the fur.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "By descending a tree to defecate, sloths transport moths to their oviposition sites in sloth dung, which facilitates moth colonization of sloth fur."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The moths raise nitrogen in the fur, feeding the algae that the sloth eats to supplement its diet.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "Moths are portals for nutrients, increasing nitrogen levels in sloth fur, which fuels algal growth."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "Sloths consume these algae-gardens, presumably to augment their limited diet."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The maned sloth, a three-toed sloth with a black mane on its neck, lives only in Brazil’s Atlantic Forest.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "the only xenarthrans endemic to Brazil's Atlantic Forest, are characterised by a black mane on the hindneck of the adults"
+        },
+        {
+          "sourceId": "src_britannica_com_animal_sloth_28f107",
+          "excerpt": "torquatus) is restricted to the small Atlantic forest of southeastern Brazil"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "The maned sloth was recently split into northern and southern species, and a genetic study confirmed lineages with independent evolutionary paths.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "were recently reclassified into two distinct species: the Northern and Southern Maned Sloths."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "Together, our findings confirm the independent evolutionary paths of these two lineages"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Both species face ongoing deforestation of the Atlantic Forest.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+          "excerpt": "underscore the unique conservation challenges posed by both historical climatic changes and ongoing deforestation of the Atlantic Forest."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_animal_sloth_28f107",
+    "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f415f6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_3e4749",
+    "src_pmc_ncbi_nlm_nih_gov_articles_56cae7"
+  ],
+  "quizIds": ["q_sloth_slow_life_1__en", "q_sloth_slow_life_2__en", "q_sloth_slow_life_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_animal_superpowers"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

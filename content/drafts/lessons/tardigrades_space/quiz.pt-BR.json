@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_tardigrades_space_1__pt-BR",
+    "questionGroupId": "qg_tardigrades_space_1",
+    "conceptId": "concept_tardigrades_space",
+    "locale": "pt-BR",
+    "prompt": "O que aconteceu com os tardígrados expostos ao espaço em 2007?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Todos morreram assim que chegaram à órbita"
+      },
+      {
+        "id": "b",
+        "text": "Sobreviveram ao vácuo, mas a radiação do Sol reduziu bastante a sobrevivência"
+      },
+      {
+        "id": "c",
+        "text": "Nada os afetou, nem mesmo a radiação"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O vácuo não foi problema; somada a ele, a radiação ultravioleta do Sol derrubou a sobrevivência.",
+    "misconception": "Os tardígrados são resistentes, mas não invencíveis: a radiação ultravioleta do Sol os prejudicou bastante.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tardigrades_space_2__pt-BR",
+    "questionGroupId": "qg_tardigrades_space_2",
+    "conceptId": "concept_tardigrades_space",
+    "locale": "pt-BR",
+    "prompt": "Em que estado os tardígrados enfrentam condições extremas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nadando dentro de uma bolha de água"
+      },
+      {
+        "id": "b",
+        "text": "Secos e encolhidos, com o metabolismo quase parado"
+      },
+      {
+        "id": "c",
+        "text": "Escondidos dentro de outros animais"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Na anidrobiose, o tardígrado seca, se dobra e reduz o metabolismo a quase nada.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_tardigrades_space_3__pt-BR",
+    "questionGroupId": "qg_tardigrades_space_3",
+    "conceptId": "concept_tardigrades_space",
+    "locale": "pt-BR",
+    "prompt": "Por que o experimento de 2007 ficou famoso?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Os tardígrados foram os primeiros animais conhecidos a sobreviver à exposição ao espaço"
+      },
+      {
+        "id": "b",
+        "text": "Foi a primeira vez que um ser vivo foi levado ao espaço"
+      },
+      {
+        "id": "c",
+        "text": "Provou que existe vida em outros planetas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Segundo a ESA, os ursos-d’água foram os primeiros animais a sobreviver expostos ao espaço.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]
