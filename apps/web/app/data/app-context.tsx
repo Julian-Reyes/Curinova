@@ -55,15 +55,20 @@ export function AppProvider({
   useEffect(() => {
     if (library.locale === prefs.locale) return;
     let current = true;
-    loadLibrary(prefs.locale)
-      .then((next) => {
-        if (current) setLibrary(next);
-      })
-      .catch(() => {
-        // Offline and never loaded: keep showing the loaded language.
-      });
+    const load = () => {
+      loadLibrary(prefs.locale)
+        .then((next) => {
+          if (current) setLibrary(next);
+        })
+        .catch(() => {
+          // Offline and never loaded: keep showing the loaded language until back online.
+        });
+    };
+    load();
+    window.addEventListener('online', load);
     return () => {
       current = false;
+      window.removeEventListener('online', load);
     };
   }, [prefs.locale, library.locale]);
   const [storageOk, setStorageOk] = useState(initialStorageOk);

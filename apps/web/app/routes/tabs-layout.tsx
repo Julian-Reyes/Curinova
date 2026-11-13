@@ -30,7 +30,7 @@ export async function clientLoader({ request }: { request: Request }) {
 
 export default function TabsLayout() {
   const { t } = useTranslation();
-  const { storageOk } = useApp();
+  const { storageOk, library, prefs } = useApp();
   const due = useDueReviews();
   const online = useOnline();
   const { pathname } = useLocation();
@@ -56,7 +56,16 @@ export default function TabsLayout() {
         </aside>
         <main id="main" className="min-w-0 pb-[calc(var(--nav-height)+var(--safe-bottom))] lg:pb-0">
           {(!online || !storageOk) && (
-            <StatusBanner message={!storageOk ? t('banner.storage') : t('banner.offline')} />
+            <StatusBanner
+              message={
+                !storageOk
+                  ? t('banner.storage')
+                  : // Switched language offline: lessons stay in the loaded one for now.
+                    library.locale !== prefs.locale
+                    ? t('banner.offlineLanguage')
+                    : t('banner.offline')
+              }
+            />
           )}
           <Outlet />
         </main>

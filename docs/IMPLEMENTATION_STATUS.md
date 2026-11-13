@@ -69,7 +69,7 @@ Last updated: 2026-11-13 (M5 in progress, D28).
 - Local E2E uses Chrome emulating iPhones (A9); real WebKit runs in CI.
 - Deployment: the live site (domain and setup in docs/DEPLOYMENT.md) goes live once GitHub Pages and DNS are configured.
 - The live site builds with the `production` content channel (D22): only reviewed, published lessons. Local builds use `preview`, which also shows drafts.
-- §16 E2E 6 (offline), 7 (prerendered pages), 10 (axe) belong to M4/M5.
+- §16 E2E 6 (offline) and 7 (prerendered pages) are covered; 10 (axe) comes in M5 step 4.
 
 ## M2.5 — Product experience overhaul (done)
 
@@ -96,7 +96,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | Step | Item                                                                                                    | Where                                                                      | Status |
 | ---- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ |
 | 1    | Starter pack: 3 MB of Discover photos after onboarding, Settings switch, content saved on a first visit | `domain/src/starter-pack.ts`, `app/data/offline.ts`, `e2e/offline.spec.ts` | ✅     |
-| 2    | Offline states for every screen; E2E scenario 6                                                         |                                                                            |        |
+| 2    | Offline states for every screen; E2E scenario 6                                                         | `routes/app-layout.tsx`, `public/offline-page.ts`, `e2e/offline.spec.ts`   | ✅     |
 | 3    | Public pages without the app's JavaScript                                                               |                                                                            |        |
 | 4    | Accessibility: axe checks in both languages and themes; manual §8 pass                                  |                                                                            |        |
 | 5    | Speed: size budgets in the build; timing report on a throttled phone                                    |                                                                            |        |

@@ -1,5 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
-import { feedReady, onboard } from './helpers';
+import { activeCard, feedReady, onboard } from './helpers';
 
 /*
  * Offline use (§12, D28). Service-worker behaviour is the same on every viewport, so these
@@ -73,8 +73,91 @@ test('with the switch off, no starter pack photos are saved', async ({ page }) =
   await feedReady(page);
   await page.waitForTimeout(5000);
   // Only the photos of cards actually shown (the first one or two) are cached.
-  const discover = (await cachedUrls(page, 'lumen-media')).filter((u) =>
-    u.includes('/discover'),
-  );
+  const discover = (await cachedUrls(page, 'lumen-media')).filter((u) => u.includes('/discover'));
   expect(discover.length).toBeLessThanOrEqual(3);
+});
+
+/** Onboards, then waits until the service worker controls the page and has saved the content. */
+async function onboardAndSave(page: Page) {
+  await onboard(page, 'en', { skip: true });
+  await expect
+    .poll(async () => (await cachedUrls(page, 'lumen-content')).length, { timeout: 20_000 })
+    .toBeGreaterThan(2);
+}
+
+test('offline, a saved lesson and its quiz work, and the progress stays (§16 E2E 6)', async ({
+  page,
+  context,
+}) => {
+  await onboardAndSave(page);
+  await context.setOffline(true);
+  await page.reload();
+  await feedReady(page);
+  await expect(page.getByRole('status').filter({ hasText: "You're offline" })).toBeVisible();
+
+  const title = await activeCard(page).locator('h2').innerText();
+  await activeCard(page).getByRole('button', { name: 'Save' }).click();
+  await expect(page.getByRole('status').getByText('Saved to Library')).toBeVisible();
+  await activeCard(page).getByRole('button', { name: 'Quiz', exact: true }).click();
+  const dialog = page.getByRole('dialog');
+  await expect(dialog.getByText('Question 1 of 2')).toBeVisible();
+  for (let i = 0; i < 2; i += 1) {
+    await dialog.locator('ul button').first().click();
+    await dialog.getByRole('button', { name: i === 0 ? 'Next question' : 'See result' }).click();
+  }
+  await expect(dialog.getByText(/You got \d of 2/)).toBeVisible();
+  await dialog.getByRole('button', { name: 'Done' }).click();
+
+  await context.setOffline(false);
+  await page.reload();
+  await page.getByRole('navigation').getByRole('link', { name: 'Library' }).click();
+  await expect(page.locator('main ul li').filter({ hasText: title })).toHaveCount(1);
+  await page.getByRole('navigation').getByRole('link', { name: 'You' }).click();
+  await expect(page.getByText(/of 2 answers/)).toBeVisible();
+});
+
+test('offline, a public page says so and links to the app', async ({ page, context }) => {
+  await onboardAndSave(page);
+  await context.setOffline(true);
+  await page.goto('/en/credits/');
+  await expect(page.getByRole('heading', { name: 'You’re offline' })).toBeVisible();
+  await page.getByRole('link', { name: 'Open the app' }).click();
+  await feedReady(page);
+  await context.setOffline(false);
+});
+
+test('offline with no saved lessons, the app explains and retries when back online', async ({
+  page,
+  context,
+}) => {
+  await onboardAndSave(page);
+  // As if the browser had cleared the saved lessons.
+  await page.evaluate(async () => {
+    await caches.delete('lumen-content');
+    await caches.delete('lumen-content-manifest');
+  });
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'You’re offline' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Try again' })).toBeVisible();
+  await context.setOffline(false);
+  await feedReady(page);
+});
+
+test('switching language offline keeps the loaded lessons until back online', async ({
+  page,
+  context,
+}) => {
+  await onboardAndSave(page);
+  await page.getByRole('navigation').getByRole('link', { name: 'You' }).click();
+  await page.getByRole('link', { name: 'Settings' }).click();
+  await context.setOffline(true);
+  await page.getByText('Português', { exact: true }).click();
+  const banner = page.getByRole('status').filter({ hasText: 'As lições mudam de idioma' });
+  await expect(banner).toBeVisible();
+  await context.setOffline(false);
+  await expect(banner).toBeHidden();
+  await page.getByRole('navigation').getByRole('link', { name: 'Descobrir' }).click();
+  await feedReady(page);
+  await expect(activeCard(page).getByRole('button', { name: 'Salvar' })).toBeVisible();
 });

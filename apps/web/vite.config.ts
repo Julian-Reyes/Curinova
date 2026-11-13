@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { BRAND, CODENAME } from '../../packages/domain/src/brand.ts';
 import { defineConfig, type Plugin } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { OFFLINE_PAGE } from './app/public/offline-page.ts';
 import { lumenContent, type ContentChannel } from './content-plugin.ts';
 import { lumenReview } from './review-plugin.ts';
 
@@ -103,6 +104,13 @@ export default defineConfig({
         // cached the first time it's shown, so lessons already seen keep their images
         // offline; anything else falls back to the lesson's diagram (D15/P15).
         runtimeCaching: [
+          // Public pages come from the network; offline, a page that says so (D28).
+          {
+            urlPattern: ({ request, url }) =>
+              request.mode === 'navigate' && /^\/(pt|en)\//.test(url.pathname),
+            handler: 'NetworkOnly',
+            options: { precacheFallback: { fallbackURL: `/${OFFLINE_PAGE}` } },
+          },
           // Content (D16): the manifest is checked online first (offline: last copy);
           // every other content file has a hashed name, so a cached copy is never stale.
           {

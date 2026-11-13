@@ -2,6 +2,7 @@ import type { Config } from '@react-router/dev/config';
 import { join } from 'node:path';
 // Relative imports with extensions: this file is loaded by Node (see vite.config.ts).
 import { SITE_URL } from '../../packages/domain/src/brand.ts';
+import { writeOfflinePage } from './app/public/offline-page.ts';
 import { checkPrerenderedPages, writeSiteFiles } from './app/public/site-files.ts';
 import { listSitePages } from './app/public/site-pages.ts';
 
@@ -35,6 +36,8 @@ export default {
     const problems = checkPrerenderedPages(clientDir, pages, SITE_URL);
     if (problems.length > 0)
       throw new Error(`Prerendered pages are incomplete:\n${problems.slice(0, 20).join('\n')}`);
+    // What the service worker shows for a public page while offline (D28).
+    writeOfflinePage(clientDir);
 
     // vite-plugin-pwa builds the service worker before React Router prerenders HTML,
     // so the first precache list misses index.html and the SPA fallback. Regenerate it

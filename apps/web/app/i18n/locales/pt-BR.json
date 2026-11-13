@@ -27,6 +27,7 @@
   },
   "banner": {
     "offline": "Você está offline. As lições já carregadas, salvas e revisões continuam funcionando.",
+    "offlineLanguage": "Você está offline. As lições mudam de idioma quando a internet voltar.",
     "storage": "Este navegador está bloqueando o armazenamento. Você pode explorar, mas seu progresso não será salvo."
   },
   "pwa": {
@@ -366,5 +367,17 @@
     "imageAlt": "Imagem desta lição para Stories",
     "imageOffline": "A imagem precisa de conexão com a internet.",
     "imageFailed": "Não foi possível compartilhar a imagem"
+  },
+  "offlinePage": {
+    "title": "Você está offline",
+    "body": "Esta página precisa de internet. No app, as lições já guardadas continuam funcionando.",
+    "openApp": "Abrir o app"
+  },
+  "unavailable": {
+    "offlineTitle": "Você está offline",
+    "offlineBody": "As lições ainda não foram guardadas neste aparelho. Conecte-se à internet uma vez e depois elas funcionam offline também.",
+    "title": "Não foi possível carregar as lições",
+    "body": "Verifique sua conexão e tente de novo. Seu progresso continua salvo neste aparelho.",
+    "retry": "Tentar de novo"
   }
 }

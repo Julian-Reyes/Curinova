@@ -27,6 +27,7 @@
   },
   "banner": {
     "offline": "You're offline. Loaded lessons, saves and reviews still work.",
+    "offlineLanguage": "You’re offline. Lessons will switch language when you’re back online.",
     "storage": "This browser is blocking storage. You can explore, but your progress won't be saved."
   },
   "pwa": {
@@ -366,5 +367,17 @@
     "imageAlt": "Story image of this lesson",
     "imageOffline": "The image needs an internet connection.",
     "imageFailed": "Couldn’t share the image"
+  },
+  "offlinePage": {
+    "title": "You’re offline",
+    "body": "This page needs an internet connection. In the app, lessons already saved keep working.",
+    "openApp": "Open the app"
+  },
+  "unavailable": {
+    "offlineTitle": "You’re offline",
+    "offlineBody": "The lessons haven’t been saved on this device yet. Connect to the internet once, and after that they work offline too.",
+    "title": "Couldn’t load the lessons",
+    "body": "Check your connection and try again. Your progress is still saved on this device.",
+    "retry": "Try again"
   }
 }
