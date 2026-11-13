@@ -25,7 +25,7 @@ import { topicIconDataUrl } from './topic-icons';
  * Images whose inputs did not change are kept (cache in .cache/).
  */
 
-const VERSION = 8;
+const VERSION = 9;
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../../..');
 const outDir = join(repoRoot, 'apps/web/public/og');
 const cacheFile = join(repoRoot, '.cache/og.json');

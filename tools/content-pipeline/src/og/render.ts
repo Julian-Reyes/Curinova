@@ -148,11 +148,11 @@ export async function renderStory(input: StoryInput): Promise<Buffer> {
     'div',
     {
       width: STORY_WIDTH - 2 * px(24),
-      height: STORY_HEIGHT - 230 - 170,
+      height: STORY_HEIGHT - 110 - 170,
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'space-between',
-      padding: `230px ${String(px(24))}px 170px`,
+      padding: `110px ${String(px(24))}px 170px`,
       fontFamily: 'Inter Tight',
       color: '#ffffff',
       // The card's two fades (dark top edge, dark lower half) as one gradient.
