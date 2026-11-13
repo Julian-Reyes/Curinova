@@ -68,7 +68,7 @@
           "excerpt": "compression of a body part (such as sitting with legs crossed)"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -85,7 +85,7 @@
           "excerpt": "Other times, nerve pathways can become blocked, preventing normal transmission of electrochemical impulses to the brain."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -98,7 +98,7 @@
           "excerpt": "which travels around the side of the knee and often gets pinched when people sit with their legs crossed for a prolonged period."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -115,7 +115,7 @@
           "excerpt": "The tingling or 'pins and needles' feeling that people experience happens as the nerves are regaining function."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -132,7 +132,7 @@
           "excerpt": "As nutrient-rich blood flows back into the area and nerve cells start firing more regularly, the “pins and needles” feeling often intensifies until the neurons re-establish their normal transmission of electrochemical impulses."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -149,7 +149,7 @@
           "excerpt": "The discomfort, which is sometimes painful, generally causes you to change your position."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -162,7 +162,7 @@
           "excerpt": "It happens when the blood supply to the nerves is cut off. This is usually when you sit or sleep on part of your body."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -183,7 +183,7 @@
           "excerpt": "In some cases, arteries can become compressed, making them unable to supply local tissues and nerve cells with the nutrients (mainly oxygen and glucose) they need to function properly."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -196,7 +196,7 @@
           "excerpt": "That can cause the affected body part to “fall asleep” (the technical term for this is “obdormition”)."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -209,7 +209,7 @@
           "excerpt": "Transient paresthesia can also happen if you hit certain body parts against solid objects. For example, bumping something with your elbow can cause a sharp, shock-like feeling of tingling or pain in your ulnar nerve."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -226,7 +226,7 @@
           "excerpt": "It only lasts a few minutes."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -247,7 +247,7 @@
           "excerpt": "But if \"someone is not able to move or sedated they can have permanent nerve injury from this type of compression,\" says Traub."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
