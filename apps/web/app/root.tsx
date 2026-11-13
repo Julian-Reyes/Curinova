@@ -6,7 +6,7 @@ import type { Route } from './+types/root';
 import { CrashScreen } from './components/CrashScreen';
 import { createI18n } from './i18n';
 import { publicLocaleOf } from './public/paths';
-import { BOOT_SCRIPT } from './platform/storage-keys';
+import { BOOT_SCRIPT, BOOT_SCRIPT_ID } from './platform/storage-keys';
 import './styles/app.css';
 
 export const meta: Route.MetaFunction = () => [
@@ -38,7 +38,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content={BRAND.shortName} />
-        <script dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
+        {/* The id keeps it on public pages when the build removes the app's code (D28). */}
+        <script id={BOOT_SCRIPT_ID} dangerouslySetInnerHTML={{ __html: BOOT_SCRIPT }} />
         <Meta />
         <Links />
       </head>

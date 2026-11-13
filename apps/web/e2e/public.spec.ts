@@ -3,8 +3,9 @@ import { activeCard } from './helpers';
 
 /*
  * §16 E2E scenario 7: a prerendered lesson page is readable with JavaScript off, and with
- * JavaScript it leads into the app (through onboarding for a first-time visitor). Also the
- * Share sheet with the lesson's story image (§7.4).
+ * JavaScript it leads into the app (through onboarding for a first-time visitor). The page
+ * itself loads none of the app's code (D28). Also the Share sheet with the lesson's story
+ * image (§7.4).
  */
 
 const LESSON_PT = '/pt/licao/seu-esqueleto-esta-vivo/';
@@ -30,7 +31,13 @@ test('a prerendered lesson page is readable without JavaScript', async ({ browse
 });
 
 test('with JavaScript, "Continue in the app" opens the lesson in its trail', async ({ page }) => {
+  const scripts: string[] = [];
+  page.on('request', (request) => {
+    if (request.resourceType() === 'script') scripts.push(request.url());
+  });
   await page.goto(LESSON_EN);
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Is your skeleton alive?');
+  expect(scripts).toEqual([]);
   await page.getByRole('link', { name: 'Continue in the app' }).click();
   // A first-time visitor goes through the (skippable) welcome, in the page's language,
   // then on to the lesson.

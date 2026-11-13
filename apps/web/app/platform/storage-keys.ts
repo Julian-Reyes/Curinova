@@ -30,6 +30,9 @@ export function writeStorage(key: string, value: string): void {
   }
 }
 
+/** The boot script's element id (permanent codename, like the storage keys). */
+export const BOOT_SCRIPT_ID = 'lumen-boot';
+
 /**
  * Runs before React hydrates (inlined in <head>) so the first paint already has the
  * right theme, language and motion setting. Keep it dependency-free ES5. A public page

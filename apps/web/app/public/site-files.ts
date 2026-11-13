@@ -74,6 +74,46 @@ export function writeSiteFiles(clientDir: string, pages: SitePage[], siteUrl: st
   );
 }
 
+/**
+ * The app's JavaScript removed from a prerendered public page (D28). The page is plain HTML
+ * that works without it, and "Continue in the app" is a link. Kept: the boot script (theme,
+ * and the visitor's language for the app; its id is BOOT_SCRIPT_ID in storage-keys.ts, which
+ * this Node-loaded file can't import) and the JSON-LD. React's hidden streaming segments only
+ * hold the router's data scripts; if one ever holds content, this throws rather than leave it
+ * hidden.
+ */
+export function withoutAppCode(html: string): string {
+  let out = html
+    .replace(/<link rel="modulepreload"[^>]*>/g, '')
+    .replace(
+      /<script(?![^>]*\b(?:id="lumen-boot"|type="application\/ld\+json"))[^>]*>[\s\S]*?<\/script>/g,
+      '',
+    )
+    .replace(/<!--\$\?--><template id="B:\d+"><\/template><!--\/\$-->/g, '');
+  // The segments are empty now; nested ones go first, so repeat until none are left.
+  for (let before = ''; before !== out;) {
+    before = out;
+    out = out.replace(/<div hidden id="S:\d+"><\/div>/g, '');
+  }
+  if (out.includes('<div hidden id="S:'))
+    throw new Error('a public page has streamed content that would stay hidden without JavaScript');
+  return out;
+}
+
+/** Removes the app's JavaScript from every public page (D28). */
+export function removeAppCode(clientDir: string, pages: SitePage[]): void {
+  for (const page of pages) {
+    const file = join(clientDir, page.path, 'index.html');
+    if (existsSync(file)) {
+      try {
+        writeFileSync(file, withoutAppCode(readFileSync(file, 'utf8')));
+      } catch (error) {
+        throw new Error(`${page.path}: ${(error as Error).message}`);
+      }
+    }
+  }
+}
+
 /** Problems with the prerendered pages, e.g. a missing canonical link. Empty means all good. */
 export function checkPrerenderedPages(
   clientDir: string,
@@ -108,6 +148,8 @@ export function checkPrerenderedPages(
     else if (!og.startsWith(siteUrl) || !existsSync(join(clientDir, og.slice(siteUrl.length))))
       problems.push(`${page.path}: og:image ${og} is not in the build`);
     has(/<html lang="(pt-BR|en)"/, 'page language');
+    if (/<script type="module"|rel="modulepreload"/.test(html))
+      problems.push(`${page.path}: loads the app's JavaScript`);
     if (page.kind === 'lesson') has(/<script type="application\/ld\+json">/, 'JSON-LD');
     // The Share sheet's story image (§7.4) sits next to the lesson's preview image.
     const story = og?.slice(siteUrl.length).replace('/lesson/', '/story/');
