@@ -6,6 +6,13 @@ import { ToastProvider } from '../components/Toast';
 import { UpdatePrompt } from '../components/UpdatePrompt';
 import { AppProvider, useApp } from '../data/app-context';
 import { loadLibrary } from '../data/library';
+import {
+  controlledAtLoad,
+  currentConnection,
+  photosAllowed,
+  saveForOffline,
+  whenControlled,
+} from '../data/offline';
 import { defaultPreferences, progress } from '../data/progress';
 import { analyticsAllowed, analyticsSink, toAnalyticsEvent } from '../platform/analytics';
 import { readStorage, STORAGE_KEYS } from '../platform/storage-keys';
@@ -44,6 +51,7 @@ export default function AppLayout({ loaderData }: Route.ComponentProps) {
         <Outlet />
         <UpdatePrompt />
         <Analytics />
+        <OfflineSaver />
       </ToastProvider>
     </AppProvider>
   );
@@ -60,5 +68,28 @@ function Analytics() {
       if (e) sink.send(e);
     });
   }, [library, prefs]);
+  return null;
+}
+
+/** Saves the content and, after onboarding, the starter pack's photos for offline use (D28). */
+function OfflineSaver() {
+  const { library, prefs } = useApp();
+  const photos =
+    prefs.onboardedAt !== null && photosAllowed(prefs.offlineDownload, currentConnection());
+  useEffect(() => {
+    const controller = new AbortController();
+    const { signal } = controller;
+    // A few seconds in, so the first cards get the network to themselves.
+    const timer = setTimeout(() => {
+      void whenControlled(navigator.serviceWorker, signal).then((controlled) => {
+        if (!controlled || !navigator.onLine) return;
+        return saveForOffline(library, { content: !controlledAtLoad, photos, signal });
+      });
+    }, 3000);
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
+  }, [library, photos]);
   return null;
 }

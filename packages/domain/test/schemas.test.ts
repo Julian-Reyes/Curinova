@@ -82,6 +82,7 @@ describe('UserPreferences', () => {
       remindersOptIn: false,
       reviewOptIn: true,
       analyticsOptOut: false,
+      offlineDownload: true,
       onboardedAt: null,
     };
     expect(UserPreferencesSchema.safeParse(prefs).success).toBe(true);

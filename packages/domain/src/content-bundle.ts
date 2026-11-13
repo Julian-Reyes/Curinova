@@ -20,6 +20,7 @@ import {
  * - index: topics, clusters and concepts, with image versions blanked;
  * - one file per topic and locale: its variants, quizzes and sources;
  * - media: each image's file hash, so swapping a picture changes only this file.
+ * The manifest also lists each language's starter pack (D28).
  */
 export const CONTENT_DIR = '/content';
 export const MANIFEST_FILE = 'manifest.json';
@@ -32,6 +33,8 @@ export const ContentManifestSchema = z.object({
   index: fileName,
   media: fileName,
   topics: z.record(z.string(), z.partialRecord(z.enum(LOCALES), fileName)),
+  /** Lessons whose Discover photos are saved for offline use, per language (D28). */
+  starterPack: z.partialRecord(z.enum(LOCALES), z.array(z.string())).optional(),
 });
 export type ContentManifest = z.infer<typeof ContentManifestSchema>;
 

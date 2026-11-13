@@ -32,6 +32,7 @@ export function defaultPreferences(locale: Locale): UserPreferences {
     remindersOptIn: false,
     reviewOptIn: true,
     analyticsOptOut: false,
+    offlineDownload: true,
     onboardedAt: null,
   };
 }

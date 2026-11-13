@@ -1,6 +1,7 @@
+import { statSync } from 'node:fs';
 import { mkdir, readdir, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import type { ContentChannel } from '@lumen/domain';
+import { mediaKey, type ContentChannel } from '@lumen/domain';
 import { loadTree } from '../validate/tree';
 import { validateContent } from '../validate/validate';
 import { buildContent, libraryFromTrees, type BuildResult } from './build';
@@ -27,7 +28,15 @@ export async function writeContentBuild(
     throw new Error(
       `content has ${String(errors.length)} error(s); run pnpm content:validate. First: ${errors[0]?.file ?? ''} ${errors[0]?.message ?? ''}`,
     );
-  const result = buildContent(libraryFromTrees([tree]), channel);
+  const mediaDir = join(repoRoot, 'apps/web/public/media');
+  const photoBytes = (conceptId: string) => {
+    try {
+      return statSync(join(mediaDir, mediaKey(conceptId), 'discover.webp')).size;
+    } catch {
+      return undefined;
+    }
+  };
+  const result = buildContent(libraryFromTrees([tree]), channel, photoBytes);
   for (const [locale, bytes] of Object.entries(result.firstVisitGzip))
     if (bytes > FIRST_VISIT_BUDGET_BYTES)
       throw new Error(

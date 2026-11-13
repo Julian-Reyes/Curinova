@@ -18,6 +18,25 @@ const SIZES: Record<MediaSlot | 'thumb', string> = {
 };
 
 /**
+ * The file URLs and sizes for a lesson image in one slot. The offline saver (D28) loads
+ * the same ones, so the browser picks, and saves, the file the card will show.
+ */
+export function lessonImageSources(
+  conceptId: string,
+  slot: MediaSlot | 'thumb',
+  image: { width: number; hash: string },
+): { src: string; srcSet: string; sizes: string } {
+  const source = slot === 'thumb' ? 'deeper' : slot;
+  const full = lessonImageUrl(conceptId, source, 'full', image.hash);
+  const sm = lessonImageUrl(conceptId, source, 'sm', image.hash);
+  return {
+    src: full,
+    srcSet: `${sm} ${smallWidth(image.width)}w, ${full} ${image.width}w`,
+    sizes: SIZES[slot],
+  };
+}
+
+/**
  * A lesson's image for one slot (D15/P10): the processed photo or artwork when the lesson
  * has one, otherwise the lesson's original diagram on a topic-tinted panel. "thumb" uses
  * the Go Deeper image. If the image can't load (e.g. offline and not cached, P15), the
@@ -49,9 +68,7 @@ export function LessonArt({
     const alt = image.alt[variant.locale] ?? image.alt.en ?? image.alt['pt-BR'] ?? '';
     return (
       <img
-        src={lessonImageUrl(concept.id, source, 'full', image.hash)}
-        srcSet={`${lessonImageUrl(concept.id, source, 'sm', image.hash)} ${smallWidth(image.width)}w, ${lessonImageUrl(concept.id, source, 'full', image.hash)} ${image.width}w`}
-        sizes={SIZES[slot]}
+        {...lessonImageSources(concept.id, slot, image)}
         width={image.width}
         height={image.height}
         alt={alt}

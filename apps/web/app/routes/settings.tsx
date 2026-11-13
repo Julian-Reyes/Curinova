@@ -186,6 +186,19 @@ export default function Settings() {
         </Card>
       </Section>
 
+      <Section title={t('settings.offline')}>
+        <Card>
+          <Toggle
+            label={t('settings.offlineDownload')}
+            description={t('settings.offlineDownloadHint')}
+            checked={prefs.offlineDownload}
+            onChange={(offlineDownload) => {
+              updatePrefs({ offlineDownload });
+            }}
+          />
+        </Card>
+      </Section>
+
       <Section title={t('settings.privacy')}>
         <Card className="flex flex-col gap-3">
           <p className="text-[15px]">{t('settings.privacyBody')}</p>

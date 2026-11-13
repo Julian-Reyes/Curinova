@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-11-13 (M4 closed; M5 planning).
+Last updated: 2026-11-13 (M5 in progress, D28).
 
 | Milestone                            | Status                          |
 | ------------------------------------ | ------------------------------- |
@@ -9,7 +9,7 @@ Last updated: 2026-11-13 (M4 closed; M5 planning).
 | M2.5 — Product experience overhaul   | ✅ Done (signed off 2026-11-03) |
 | M3 — Content pipeline tooling        | Pilot and batch 2 published     |
 | M4 — Public web and growth surface   | ✅ Done (2026-11-13)            |
-| M5 — Offline, polish, beta readiness | Planning                        |
+| M5 — Offline, polish, beta readiness | In progress (D28)               |
 
 ## M1 — Foundation
 
@@ -90,6 +90,18 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | Plan step 7: Explore tiles, topic pages, trails, lesson rows              | `routes/explore.tsx`, `topic.tsx`  | ✅ 4 topics with pictures              |
 | Plan step 8: Library, You, Settings, Welcome, desktop                     | `routes/`                          | ✅                                     |
 | Plan step 9: review pass (fit, tap targets, contrast, image weight)       | `docs/M2_5_INTEGRATION_PLAN.md` §7 | ✅ founder signed off on phone (11-03) |
+
+## M5 — Offline, polish, beta readiness (in progress, D28)
+
+| Step | Item                                                                                                    | Where                                                                      | Status |
+| ---- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ |
+| 1    | Starter pack: 3 MB of Discover photos after onboarding, Settings switch, content saved on a first visit | `domain/src/starter-pack.ts`, `app/data/offline.ts`, `e2e/offline.spec.ts` | ✅     |
+| 2    | Offline states for every screen; E2E scenario 6                                                         |                                                                            |        |
+| 3    | Public pages without the app's JavaScript                                                               |                                                                            |        |
+| 4    | Accessibility: axe checks in both languages and themes; manual §8 pass                                  |                                                                            |        |
+| 5    | Speed: size budgets in the build; timing report on a throttled phone                                    |                                                                            |        |
+| 6    | README and `docs/RELEASE_CHECKLIST.md`                                                                  |                                                                            |        |
+| 7    | Docs                                                                                                    |                                                                            |        |
 
 ## M4 — Public web and growth surface (done 2026-11-13, D26)
 

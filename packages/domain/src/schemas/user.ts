@@ -54,6 +54,8 @@ export const UserPreferencesSchema = z.strictObject({
   remindersOptIn: z.boolean(),
   reviewOptIn: z.boolean(),
   analyticsOptOut: z.boolean(),
+  /** Save the starter pack's photos for offline use after onboarding (D28). */
+  offlineDownload: z.boolean(),
   purpose: PurposeSchema.optional(),
   /** When onboarding was finished or skipped; null until then. */
   onboardedAt: isoDateTime.nullable(),

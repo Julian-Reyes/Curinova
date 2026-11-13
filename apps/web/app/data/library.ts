@@ -45,6 +45,10 @@ export interface Library {
   conceptsInTopic(topicId: string): Concept[];
   readingSeconds(variant: LessonVariant): number;
   search(query: string, locale: Locale): Concept[];
+  /** Lessons whose Discover photos are saved for offline use (D28). */
+  starterPack: string[];
+  /** The content files this library was loaded from (saved for offline use, D28). */
+  files: string[];
 }
 
 /** Lowercase, accent-insensitive form used for search ("coração" matches "coracao"). */
@@ -59,6 +63,7 @@ export function buildLibrary(
   raw: ContentLibrary,
   channel: ContentChannel,
   locale: Locale = 'pt-BR',
+  bundle: { starterPack?: string[]; files?: string[] } = {},
 ): Library {
   const lib = selectContent(raw, channel);
   const topics = [...lib.topics].sort((a, b) => a.sortOrder - b.sortOrder);
@@ -144,6 +149,8 @@ export function buildLibrary(
         return terms.every((t) => text.includes(t));
       });
     },
+    starterPack: (bundle.starterPack ?? []).filter((id) => conceptsById.has(id)),
+    files: bundle.files ?? [],
   };
 }
 
@@ -170,10 +177,9 @@ export function loadLibrary(locale: Locale): Promise<Library> {
         fetchJson(manifest.media).then((d) => MediaFileSchema.parse(d)),
       ]);
       const index = restoreMediaHashes(rawIndex, media);
+      const topicFiles = topicFilesFor(manifest, index, locale);
       const files = await Promise.all(
-        topicFilesFor(manifest, index, locale).map((name) =>
-          fetchJson(name).then((d) => TopicFileSchema.parse(d)),
-        ),
+        topicFiles.map((name) => fetchJson(name).then((d) => TopicFileSchema.parse(d))),
       );
       const sources = new Map(files.flatMap((f) => f.sources).map((src) => [src.id, src]));
       const raw: ContentLibrary = {
@@ -182,7 +188,10 @@ export function loadLibrary(locale: Locale): Promise<Library> {
         questions: files.flatMap((f) => f.questions),
         sources: [...sources.values()],
       };
-      return buildLibrary(raw, manifest.channel, locale);
+      return buildLibrary(raw, manifest.channel, locale, {
+        starterPack: manifest.starterPack?.[locale] ?? [],
+        files: [MANIFEST_FILE, manifest.index, manifest.media, ...topicFiles],
+      });
     })();
     // A failed load (e.g. offline before anything was cached) can be retried later.
     pending.catch(() => cache.delete(locale));

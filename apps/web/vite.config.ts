@@ -88,6 +88,10 @@ export default defineConfig({
       workbox: {
         // Permanent cache prefix: never derived from the display name.
         cacheId: CODENAME,
+        // The first install takes over the open page straight away, so the content and the
+        // starter pack (D28) fetched on a first visit are kept for offline use. Updates still
+        // wait for the learner's go-ahead (UpdatePrompt).
+        clientsClaim: true,
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,webmanifest}'],
         // Public lesson, topic and trail pages (§7.1) are real HTML files, served from the
         // network: not precached (there are hundreds) and not replaced by the app shell.

@@ -1,6 +1,6 @@
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { ContentChannel } from '@lumen/domain';
+import { LOCALES, STARTER_PACK_BUDGET_BYTES, type ContentChannel } from '@lumen/domain';
 import { FIRST_VISIT_BUDGET_BYTES, writeContentBuild } from './write';
 
 const repoRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../../../..');
@@ -21,6 +21,11 @@ try {
   for (const [locale, bytes] of Object.entries(result.firstVisitGzip))
     console.log(
       `  first visit ${locale}: ${kb(bytes)} compressed (budget ${kb(FIRST_VISIT_BUDGET_BYTES)})`,
+    );
+  const mb = (n: number) => `${(n / 1e6).toFixed(2)} MB`;
+  for (const locale of LOCALES)
+    console.log(
+      `  starter pack ${locale}: ${String(result.manifest.starterPack?.[locale]?.length ?? 0)} lessons, ${mb(result.starterPackBytes[locale])} of photos (budget ${mb(STARTER_PACK_BUDGET_BYTES)})`,
     );
 } catch (error) {
   console.error(`content:build failed: ${(error as Error).message}`);

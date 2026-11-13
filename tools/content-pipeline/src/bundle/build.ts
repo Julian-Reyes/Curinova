@@ -10,6 +10,7 @@ import {
   SourceSchema,
   TopicsFileSchema,
   selectContent,
+  starterPack,
   splitMediaHashes,
   type ContentChannel,
   type ContentLibrary,
@@ -26,6 +27,8 @@ export interface BuildResult {
   files: Map<string, string>;
   /** Compressed bytes a first visit downloads per locale: manifest, index, media, topics. */
   firstVisitGzip: Record<Locale, number>;
+  /** Photo bytes of each locale's starter pack (D28), at full size. */
+  starterPackBytes: Record<Locale, number>;
 }
 
 const hash8 = (text: string) => createHash('sha256').update(text).digest('hex').slice(0, 8);
@@ -51,9 +54,14 @@ export function libraryFromTrees(trees: ContentTree[]): ContentLibrary {
 
 /**
  * The versioned static content bundle (§5.7 content:build, D16): file names carry a hash
- * of their contents, so unchanged files keep their names and stay cached.
+ * of their contents, so unchanged files keep their names and stay cached. `photoBytes`
+ * gives a lesson's full Discover file size, for the starter pack (D28).
  */
-export function buildContent(raw: ContentLibrary, channel: ContentChannel): BuildResult {
+export function buildContent(
+  raw: ContentLibrary,
+  channel: ContentChannel,
+  photoBytes: (conceptId: string) => number | undefined = () => undefined,
+): BuildResult {
   const lib = selectContent(raw, channel);
   const files = new Map<string, string>();
   const add = (base: string, value: unknown) => {
@@ -95,12 +103,16 @@ export function buildContent(raw: ContentLibrary, channel: ContentChannel): Buil
     }
   }
 
+  const packs = Object.fromEntries(
+    LOCALES.map((locale) => [locale, starterPack(lib, locale, photoBytes)]),
+  ) as Record<Locale, ReturnType<typeof starterPack>>;
   const manifest: ContentManifest = {
     version: 1,
     channel,
     index: indexName,
     media: mediaName,
     topics,
+    starterPack: Object.fromEntries(LOCALES.map((l) => [l, packs[l].conceptIds])),
   };
   const manifestText = JSON.stringify(manifest);
   files.set(MANIFEST_FILE, manifestText);
@@ -116,5 +128,9 @@ export function buildContent(raw: ContentLibrary, channel: ContentChannel): Buil
     ]),
   ) as Record<Locale, number>;
 
-  return { manifest, files, firstVisitGzip };
+  const starterPackBytes = Object.fromEntries(LOCALES.map((l) => [l, packs[l].bytes])) as Record<
+    Locale,
+    number
+  >;
+  return { manifest, files, firstVisitGzip, starterPackBytes };
 }

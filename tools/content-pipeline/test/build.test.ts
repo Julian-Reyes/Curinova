@@ -76,6 +76,18 @@ describe('content:build (D16)', () => {
     expect(JSON.stringify(index)).not.toContain('cafe0123');
   });
 
+  it('lists each language’s starter pack: lessons with a Discover photo (D28)', () => {
+    const docs = docsWithImage();
+    const media = get<Json>(docs, CONCEPT).media as Json;
+    media.discover = { ...(media.deeper as Json), width: 1080, height: 1920 };
+    const id = get<Json>(docs, CONCEPT).id as string;
+    const result = buildContent(libraryFromTrees([tree(docs, 'real')]), 'preview', () => 150_000);
+    expect(result.manifest.starterPack).toEqual({ 'pt-BR': [id], en: [id] });
+    expect(result.starterPackBytes).toEqual({ 'pt-BR': 150_000, en: 150_000 });
+    // Without a Discover photo there's nothing to save.
+    expect(build(docsWithImage()).manifest.starterPack).toEqual({ 'pt-BR': [], en: [] });
+  });
+
   it('production leaves out drafts', () => {
     const docs = docsWithImage();
     for (const path of [PT, 'lessons/a1/variant.en.json'])
