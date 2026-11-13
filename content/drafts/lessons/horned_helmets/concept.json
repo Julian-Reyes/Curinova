@@ -1,0 +1,27 @@
+{
+  "id": "concept_horned_helmets",
+  "topicId": "history",
+  "clusterId": "cluster_middle_ages_myths",
+  "clusterOrder": 2,
+  "tags": ["middle-ages", "myths", "vikings", "archaeology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_flat_earth_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito sobre o passado que ganhou força no século XIX.",
+        "en": "Another myth about the past that took hold in the 19th century."
+      }
+    },
+    {
+      "conceptId": "concept_armour_weight",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Dos capacetes para a armadura inteira: será que pesava tanto?",
+        "en": "From helmets to full armour: was it really that heavy?"
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

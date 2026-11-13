@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_black_death_wages_1__en",
+    "questionGroupId": "qg_black_death_wages_1",
+    "conceptId": "concept_black_death_wages",
+    "locale": "en",
+    "prompt": "Why did wages rise after the Black Death?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because so many deaths left too few workers"
+      },
+      {
+        "id": "b",
+        "text": "Because the king ordered higher wages"
+      },
+      {
+        "id": "c",
+        "text": "Because the plague spared the peasants"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The deaths caused a severe labour shortage, and workers demanded and received more.",
+    "claimIds": ["c2", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_black_death_wages_2__en",
+    "questionGroupId": "qg_black_death_wages_2",
+    "conceptId": "concept_black_death_wages",
+    "locale": "en",
+    "prompt": "What did England’s 1351 Statute of Labourers try to do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Freeze wages at pre-plague levels"
+      },
+      {
+        "id": "b",
+        "text": "Double everyone’s wages"
+      },
+      {
+        "id": "c",
+        "text": "Free all serfs"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Statute backed up the 1349 Ordinance, which required pay to stay at pre-plague levels.",
+    "misconception": "The law opposed the rise: wages went up despite it, not because of it.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_black_death_wages_3__en",
+    "questionGroupId": "qg_black_death_wages_3",
+    "conceptId": "concept_black_death_wages",
+    "locale": "en",
+    "prompt": "What share of Europe’s population did the Black Death kill, by most estimates?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30% to 60%, with big differences between regions"
+      },
+      {
+        "id": "b",
+        "text": "Less than 5%"
+      },
+      {
+        "id": "c",
+        "text": "More than 90%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Historians estimate 30% to 60%, and a pollen study showed some regions were barely affected.",
+    "claimIds": ["c1", "c16"],
+    "status": "draft"
+  }
+]

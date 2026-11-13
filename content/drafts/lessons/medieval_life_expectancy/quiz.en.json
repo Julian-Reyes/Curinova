@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_medieval_life_expectancy_1__en",
+    "questionGroupId": "qg_medieval_life_expectancy_1",
+    "conceptId": "concept_medieval_life_expectancy",
+    "locale": "en",
+    "prompt": "Why was life expectancy at birth so low in the Middle Ages?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because many children died young"
+      },
+      {
+        "id": "b",
+        "text": "Because adults died of old age at 30"
+      },
+      {
+        "id": "c",
+        "text": "Because births were hardly ever recorded"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "About half of all children died, and those deaths dragged the average down.",
+    "misconception": "An average of 30 doesn’t mean people grew old and died at 30.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_life_expectancy_2__en",
+    "questionGroupId": "qg_medieval_life_expectancy_2",
+    "conceptId": "concept_medieval_life_expectancy",
+    "locale": "en",
+    "prompt": "According to landholder records, to about what age did a medieval English 25-year-old live, on average?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 50"
+      },
+      {
+        "id": "b",
+        "text": "About 30"
+      },
+      {
+        "id": "c",
+        "text": "About 90"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "He had, on average, another 23 to 26 years to live, reaching about 50.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_life_expectancy_3__en",
+    "questionGroupId": "qg_medieval_life_expectancy_3",
+    "conceptId": "concept_medieval_life_expectancy",
+    "locale": "en",
+    "prompt": "What share of medieval English noblemen lived past 70?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 11%"
+      },
+      {
+        "id": "b",
+        "text": "Almost all of them"
+      },
+      {
+        "id": "c",
+        "text": "None"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Half died before 50 and only 11% passed 70: old age was possible, but less common than today.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

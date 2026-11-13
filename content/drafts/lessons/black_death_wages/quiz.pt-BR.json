@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_black_death_wages_1__pt-BR",
+    "questionGroupId": "qg_black_death_wages_1",
+    "conceptId": "concept_black_death_wages",
+    "locale": "pt-BR",
+    "prompt": "Por que os salários subiram depois da Peste Negra?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque, com tantas mortes, faltavam trabalhadores"
+      },
+      {
+        "id": "b",
+        "text": "Porque o rei mandou aumentar os salários"
+      },
+      {
+        "id": "c",
+        "text": "Porque a peste não atingiu os camponeses"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A mortalidade criou uma grave falta de trabalhadores, que passaram a pedir e receber mais.",
+    "claimIds": ["c2", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_black_death_wages_2__pt-BR",
+    "questionGroupId": "qg_black_death_wages_2",
+    "conceptId": "concept_black_death_wages",
+    "locale": "pt-BR",
+    "prompt": "O que o Estatuto dos Trabalhadores, de 1351, tentou fazer na Inglaterra?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Congelar os salários nos níveis de antes da peste"
+      },
+      {
+        "id": "b",
+        "text": "Dobrar os salários de todos"
+      },
+      {
+        "id": "c",
+        "text": "Libertar todos os servos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Estatuto reforçou a Ordenança de 1349, que mandava pagar o mesmo que antes da peste.",
+    "misconception": "A lei foi contra o aumento: os salários subiram apesar dela, não por causa dela.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_black_death_wages_3__pt-BR",
+    "questionGroupId": "qg_black_death_wages_3",
+    "conceptId": "concept_black_death_wages",
+    "locale": "pt-BR",
+    "prompt": "Que parte da população europeia a Peste Negra matou, segundo as estimativas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "De 30% a 60%, com grandes diferenças entre regiões"
+      },
+      {
+        "id": "b",
+        "text": "Menos de 5%"
+      },
+      {
+        "id": "c",
+        "text": "Mais de 90%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Historiadores estimam de 30% a 60%, e um estudo com pólen mostrou que algumas regiões quase não foram atingidas.",
+    "claimIds": ["c1", "c16"],
+    "status": "draft"
+  }
+]

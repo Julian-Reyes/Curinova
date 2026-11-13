@@ -1,0 +1,346 @@
+{
+  "id": "lesson_horned_helmets__pt-BR",
+  "conceptId": "concept_horned_helmets",
+  "locale": "pt-BR",
+  "slug": "os-vikings-usavam-capacetes-com-chifres",
+  "title": "Os vikings usavam capacetes com chifres?",
+  "hook": "O capacete viking mais famoso não tem chifre nenhum. A culpa é de uma ópera.",
+  "summary": "Não há prova disso: nenhum capacete viking com chifres foi achado; a imagem veio da arte e da ópera do século XIX.",
+  "cardText": "Não há nenhuma prova. O capacete viking mais famoso, achado na Noruega, não tem chifres. A imagem pegou no século XIX, com pinturas e os figurinos de uma ópera de Wagner.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Pense num viking e ele provavelmente aparece de capacete com chifres. Só que os arqueólogos nunca encontraram um capacete da Era Viking assim. O mais famoso, achado em Gjermundbu, na Noruega, em 1943, tem uma espécie de óculos para proteger o rosto, e nenhum chifre."
+    },
+    {
+      "type": "paragraph",
+      "text": "Capacetes com chifres existiram, mas muito antes: os dois de Viksø, na Dinamarca, são da Idade do Bronze, de por volta de 900 a.C., e provavelmente serviam em cerimônias religiosas. O viking chifrudo pegou no século XIX, em especial depois que o figurinista Carl Emil Doepler pôs chifres nos capacetes da estreia de O Anel do Nibelungo, ópera de Wagner, em 1876."
+    },
+    {
+      "type": "takeaway",
+      "text": "Nenhum capacete viking com chifres foi encontrado; os chifres vieram de uma ópera de 1876 e da arte da época."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Um capacete raríssimo"
+    },
+    {
+      "type": "paragraph",
+      "text": "O capacete de Gjermundbu saiu de um túmulo muito rico do fim do século X. Foi achado por acaso, quando um agricultor resolveu remover um monte de terra da sua propriedade, em plena ocupação nazista da Noruega. Por muito tempo foi chamado de único capacete viking do mundo; depois, um capacete encontrado no Reino Unido nos anos 1950 também foi datado da Era Viking e virou o segundo quase completo."
+    },
+    {
+      "type": "heading",
+      "text": "Chifres de outra época"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os dois capacetes de Viksø, de bronze, foram achados em 1942 num pântano da ilha dinamarquesa da Zelândia, onde tinham sido deixados como oferenda. Além dos chifres, têm olhos e bico. Uma datação por radiocarbono, feita em material orgânico escondido dentro de um dos chifres, confirmou que eles são cerca de 2.000 anos mais antigos que a Era Viking."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na mesma época, imagens muito parecidas de guerreiros com chifres aparecem na Sardenha e no sudoeste da Espanha. Gravuras em rochas da Idade do Bronze, no oeste da Suécia e no sul da Noruega, também mostram figuras humanas com chifres na cabeça."
+    },
+    {
+      "type": "heading",
+      "text": "Da ópera para os quadrinhos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Doepler não estava sozinho: no século XIX, o pintor sueco Johan August Malmström também desenhou vikings com chifres para ilustrar sagas nórdicas. Esses artistas podem ter se inspirado nos capacetes antigos com chifres que vinham sendo descobertos, mais tarde datados de antes dos vikings. Depois da ópera, os chifres se espalharam por peças, filmes, quadrinhos e livros infantis. Já nas imagens feitas na própria Era Viking, os guerreiros aparecem sem capacete ou com capacetes simples."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Nunca foi encontrado um capacete da Era Viking com chifres.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "“No, helmets from the Viking Age with horns on them have never been found,” Ingrid Ystgaard tells sciencenorway.no."
+        },
+        {
+          "sourceId": "src_blog_oup_com_2016_10_ten_b2163b",
+          "excerpt": "Mysteriously, Viking-Age helmets are almost as rare as hen’s teeth: one was found in Ringerike in Norway, looking rather like a Batman mask but without the pointy ears."
+        },
+        {
+          "sourceId": "src_blog_oup_com_2016_10_ten_b2163b",
+          "excerpt": "But, crucially, no horns."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O capacete de Gjermundbu, na Noruega, foi encontrado em 1943, não tem chifres e tem uma peça que lembra óculos para proteger o rosto.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "The Gjermundbu helmet was found in 1943 broken in fragments."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "The Gjermundbu helmet does not have horns but is still frightening."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "What looks to be a kind of spectacle protects the face."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Os capacetes com chifres de Viksø, na Dinamarca, são da Idade do Bronze, por volta de 900 a.C.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "The helmets from Viksø are from the Bronze Age and were made in the early part of the first millennium BC."
+        },
+        {
+          "sourceId": "src_amp_cnn_com_cnn_2022_01_bf7bf0",
+          "excerpt": "“But our research confirms that the helmets were deposited in the bog in about 900 B.C., almost 3,000 years ago and many centuries before the Vikings or Norse dominated the region.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Os capacetes de Viksø provavelmente eram usados em cerimônias religiosas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "They were probably used at religious ceremonies."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "They have most likely been used during religious ceremonies."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Carl Emil Doepler, figurinista da estreia de O Anel do Nibelungo, de Wagner, em Bayreuth em 1876, colocou chifres nos capacetes, o que ajudou a popularizar a imagem.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "One originating source for the horned helmets has been pegged: they were used by Carl Emil Doepler, the costume designer for the premiere of Wagner’s opera Ring of the Nibelung at the Bayreuth Festival in 1876."
+        },
+        {
+          "sourceId": "src_blog_oup_com_2016_10_ten_b2163b",
+          "excerpt": "But in terms of enduring popularity we can probably blame Wagner, or at least his costume designer Carl Emil Doepler, who was responsible for the outfits of the first performance of the Ring cycle at the Bayreuth Festival in 1876 and decided to stick a few jaunty horns onto the helmets."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O capacete de Gjermundbu veio de um túmulo muito rico do fim do século X.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "“What is certain, is that we are dealing with a very rich grave from the end of the 10th century, with few if any parallels outside the milieu of the large ship graves,” the archaeologists state in the scientific article."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O achado foi feito por acaso numa fazenda, durante a ocupação nazista da Noruega.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "The discovery itself happened by chance, when farmer Lars Gjermundbo decided to remove a mound from his land."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "excavating a Viking grave during wartime – Norway was under Nazi occupation from 1940 until the end of the second world war in 1945 – was no easy feat."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Um capacete encontrado no Reino Unido nos anos 1950 foi datado da Era Viking e é o segundo quase completo do mundo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "The museum is however aware that a helmet found in the UK in the 1950s was recently established to have been from the Viking age, making it the second nearly complete Viking helmet in the world."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Os capacetes de Viksø foram encontrados em 1942 num pântano da ilha da Zelândia, onde tinham sido deixados como oferenda.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "The Viksø helmets were found in a bog on the island of Zealand in 1942."
+        },
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "Later on they were deposited in the bog as offerings."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Os capacetes de Viksø são de bronze e decorados com olhos e bicos, além dos chifres.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "He had chanced upon two almost identical horned helmets of bronze. These were decorated with bosses and adorned with eyes and beaks."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Uma datação por radiocarbono de material orgânico escondido num dos chifres confirmou que os capacetes são da Idade do Bronze, cerca de 2.000 anos antes da Era Viking.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cas_au_dk_en_archaeology_and_5a40ee",
+          "excerpt": "The new C14 date - made on organic material hidden deep in one of the horns - proves without doubt the helmets to be Bronze Age, some 2000 thousand years before the Viking era."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Na mesma época, imagens muito parecidas de guerreiros com chifres aparecem na Sardenha e no sudoeste da Espanha.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cas_au_dk_en_archaeology_and_5a40ee",
+          "excerpt": "Our study shows that Scandinavian depictions of horned warriors occur at the same time as very similar images in Sardinia and southwest Spain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Gravuras rupestres da Idade do Bronze no oeste da Suécia e no sul da Noruega mostram figuras humanas com chifres na cabeça.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "On petroglyphs from the Bronze Age in western Sweden and southern Norway, such horns often appear on the heads of human figures carved into stone."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O pintor sueco Johan August Malmström também usou capacetes com chifres em ilustrações de sagas nórdicas no século XIX.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "Another 19th-century propagator was Swedish painter Johan August Malmström, who used them in his illustrations for the Nordic sagas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Esses artistas podem ter se inspirado em descobertas de capacetes antigos com chifres que, mais tarde, foram datados de antes da Era Viking.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "Doepler, Malmström, and others may have been inspired by the contemporary discoveries of ancient helmets with horns, which—as it later turned out—were dated earlier than the Viking age."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Depois da ópera, os chifres passaram a aparecer em peças, filmes, quadrinhos e livros infantis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "This continued in films, plays, comics and children's books"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "Nas representações da própria Era Viking, os guerreiros aparecem sem capacete ou com capacetes simples.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "In Viking-era representations, warriors appear either bareheaded or dressed in simple helmets possibly made of iron or leather."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+    "src_blog_oup_com_2016_10_ten_b2163b",
+    "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+    "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+    "src_amp_cnn_com_cnn_2022_01_bf7bf0",
+    "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+    "src_cas_au_dk_en_archaeology_and_5a40ee"
+  ],
+  "quizIds": [
+    "q_horned_helmets_1__pt-BR",
+    "q_horned_helmets_2__pt-BR",
+    "q_horned_helmets_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

@@ -1,0 +1,342 @@
+{
+  "id": "lesson_horned_helmets__en",
+  "conceptId": "concept_horned_helmets",
+  "locale": "en",
+  "slug": "did-vikings-wear-horned-helmets",
+  "title": "Did Vikings wear horned helmets?",
+  "hook": "The most famous Viking helmet has no horns at all. Blame an opera.",
+  "summary": "There’s no evidence they did: no horned Viking helmet has been found; the image came from 19th-century art and opera.",
+  "cardText": "There’s no evidence they did. The best-known Viking helmet, found in Norway, has no horns. The image caught on in the 19th century, through paintings and the costumes for a Wagner opera.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a Viking and he’s probably wearing a horned helmet. Yet archaeologists have never found a Viking Age helmet like that. The best-known one, dug up at Gjermundbu in Norway in 1943, has a guard like a pair of spectacles to protect the face, and no horns."
+    },
+    {
+      "type": "paragraph",
+      "text": "Horned helmets did exist, but much earlier: the two from Viksø in Denmark date from the Bronze Age, around 900 BC, and were probably worn in religious ceremonies. The horned Viking took off in the 19th century, especially after costume designer Carl Emil Doepler put horns on the helmets for the 1876 premiere of Wagner’s opera The Ring of the Nibelung."
+    },
+    {
+      "type": "takeaway",
+      "text": "No horned Viking helmet has ever been found; the horns came from an 1876 opera and the art of the time."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A very rare helmet"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Gjermundbu helmet came from a very rich grave from the end of the 10th century. It was found by chance, when a farmer decided to remove a mound from his land in the middle of the Nazi occupation of Norway. For years it was called the world’s only Viking helmet; then a helmet found in the UK in the 1950s was also dated to the Viking Age, making it the second nearly complete one."
+    },
+    {
+      "type": "heading",
+      "text": "Horns from another age"
+    },
+    {
+      "type": "paragraph",
+      "text": "The two bronze Viksø helmets were found in 1942 in a bog on the Danish island of Zealand, where they had been left as offerings. Besides horns, they have eyes and beaks. Radiocarbon dating of organic material hidden inside one of the horns confirmed that they are about 2,000 years older than the Viking Age."
+    },
+    {
+      "type": "paragraph",
+      "text": "At around the same time, very similar images of horned warriors appear in Sardinia and southwest Spain. Bronze Age rock carvings in western Sweden and southern Norway also show human figures with horns on their heads."
+    },
+    {
+      "type": "heading",
+      "text": "From the opera stage to comics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Doepler wasn’t alone: in the 19th century, the Swedish painter Johan August Malmström also drew horned Vikings to illustrate the Norse sagas. These artists may have been inspired by ancient horned helmets being dug up at the time, later dated to well before the Vikings. After the opera, horns spread to plays, films, comics and children’s books. In images made during the Viking Age itself, warriors appear bareheaded or in simple helmets."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "No Viking Age helmet with horns has ever been found.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "“No, helmets from the Viking Age with horns on them have never been found,” Ingrid Ystgaard tells sciencenorway.no."
+        },
+        {
+          "sourceId": "src_blog_oup_com_2016_10_ten_b2163b",
+          "excerpt": "Mysteriously, Viking-Age helmets are almost as rare as hen’s teeth: one was found in Ringerike in Norway, looking rather like a Batman mask but without the pointy ears."
+        },
+        {
+          "sourceId": "src_blog_oup_com_2016_10_ten_b2163b",
+          "excerpt": "But, crucially, no horns."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The Gjermundbu helmet from Norway was found in 1943; it has no horns and a spectacle-like guard that protects the face.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "The Gjermundbu helmet was found in 1943 broken in fragments."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "The Gjermundbu helmet does not have horns but is still frightening."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "What looks to be a kind of spectacle protects the face."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The horned helmets from Viksø in Denmark date from the Bronze Age, around 900 BC.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "The helmets from Viksø are from the Bronze Age and were made in the early part of the first millennium BC."
+        },
+        {
+          "sourceId": "src_amp_cnn_com_cnn_2022_01_bf7bf0",
+          "excerpt": "“But our research confirms that the helmets were deposited in the bog in about 900 B.C., almost 3,000 years ago and many centuries before the Vikings or Norse dominated the region.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The Viksø helmets were probably used in religious ceremonies.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "They were probably used at religious ceremonies."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "They have most likely been used during religious ceremonies."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Carl Emil Doepler, costume designer for the 1876 Bayreuth premiere of Wagner’s Ring of the Nibelung, put horns on the helmets, which helped popularise the image.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "One originating source for the horned helmets has been pegged: they were used by Carl Emil Doepler, the costume designer for the premiere of Wagner’s opera Ring of the Nibelung at the Bayreuth Festival in 1876."
+        },
+        {
+          "sourceId": "src_blog_oup_com_2016_10_ten_b2163b",
+          "excerpt": "But in terms of enduring popularity we can probably blame Wagner, or at least his costume designer Carl Emil Doepler, who was responsible for the outfits of the first performance of the Ring cycle at the Bayreuth Festival in 1876 and decided to stick a few jaunty horns onto the helmets."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The Gjermundbu helmet came from a very rich grave from the end of the 10th century.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "“What is certain, is that we are dealing with a very rich grave from the end of the 10th century, with few if any parallels outside the milieu of the large ship graves,” the archaeologists state in the scientific article."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The find was made by chance on a farm during the Nazi occupation of Norway.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "The discovery itself happened by chance, when farmer Lars Gjermundbo decided to remove a mound from his land."
+        },
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "excavating a Viking grave during wartime – Norway was under Nazi occupation from 1940 until the end of the second world war in 1945 – was no easy feat."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A helmet found in the UK in the 1950s was dated to the Viking Age, making it the world’s second nearly complete Viking helmet.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+          "excerpt": "The museum is however aware that a helmet found in the UK in the 1950s was recently established to have been from the Viking age, making it the second nearly complete Viking helmet in the world."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "The Viksø helmets were found in 1942 in a bog on the island of Zealand, where they had been left as offerings.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "The Viksø helmets were found in a bog on the island of Zealand in 1942."
+        },
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "Later on they were deposited in the bog as offerings."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The Viksø helmets are made of bronze and decorated with eyes and beaks as well as horns.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+          "excerpt": "He had chanced upon two almost identical horned helmets of bronze. These were decorated with bosses and adorned with eyes and beaks."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Radiocarbon dating of organic material hidden inside one of the horns confirmed that the helmets are Bronze Age, about 2,000 years before the Viking era.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cas_au_dk_en_archaeology_and_5a40ee",
+          "excerpt": "The new C14 date - made on organic material hidden deep in one of the horns - proves without doubt the helmets to be Bronze Age, some 2000 thousand years before the Viking era."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "At the same time, very similar images of horned warriors appear in Sardinia and southwest Spain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_cas_au_dk_en_archaeology_and_5a40ee",
+          "excerpt": "Our study shows that Scandinavian depictions of horned warriors occur at the same time as very similar images in Sardinia and southwest Spain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Bronze Age rock carvings in western Sweden and southern Norway show human figures with horns on their heads.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "On petroglyphs from the Bronze Age in western Sweden and southern Norway, such horns often appear on the heads of human figures carved into stone."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "In the 19th century, the Swedish painter Johan August Malmström also used horned helmets in his illustrations of the Norse sagas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "Another 19th-century propagator was Swedish painter Johan August Malmström, who used them in his illustrations for the Nordic sagas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "These artists may have been inspired by finds of ancient horned helmets that were later dated to before the Viking Age.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "Doepler, Malmström, and others may have been inspired by the contemporary discoveries of ancient helmets with horns, which—as it later turned out—were dated earlier than the Viking age."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "After the opera, horns spread to plays, films, comics and children’s books.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+          "excerpt": "This continued in films, plays, comics and children's books"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "In Viking-era depictions, warriors appear bareheaded or in simple helmets.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+          "excerpt": "In Viking-era representations, warriors appear either bareheaded or dressed in simple helmets possibly made of iron or leather."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_sciencenorway_no_bronze_age_viking_age_ef25cb",
+    "src_blog_oup_com_2016_10_ten_b2163b",
+    "src_nationalgeographic_com_history_article_facts_vs_dcd67e",
+    "src_en_natmus_dk_historical_knowledge_denmark_c7bab2",
+    "src_amp_cnn_com_cnn_2022_01_bf7bf0",
+    "src_sciencenorway_no_archaeology_viking_age_vikings_e7fd8f",
+    "src_cas_au_dk_en_archaeology_and_5a40ee"
+  ],
+  "quizIds": ["q_horned_helmets_1__en", "q_horned_helmets_2__en", "q_horned_helmets_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

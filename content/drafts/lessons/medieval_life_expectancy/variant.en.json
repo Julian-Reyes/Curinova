@@ -1,0 +1,244 @@
+{
+  "id": "lesson_medieval_life_expectancy__en",
+  "conceptId": "concept_medieval_life_expectancy",
+  "locale": "en",
+  "slug": "did-people-in-the-middle-ages-die-at-30",
+  "title": "Did people in the Middle Ages die at 30?",
+  "hook": "The average was low, but hardly anyone died of old age at 30.",
+  "summary": "No: life expectancy at birth was low mainly because so many children died; a 25-year-old adult lived, on average, to about 50.",
+  "cardText": "No. The average was low because so many children died young. Adults usually lived much longer: an English 25-year-old reached, on average, about 50.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "If medieval life expectancy was about 30, was a 32-year-old already old? That’s not how the maths works. Life expectancy at birth is an average, and in the Middle Ages it was dragged down by child deaths: in medieval England, as in other past societies, about half of all children died. Estimates for the period range from about 23 to 40 years at birth."
+    },
+    {
+      "type": "paragraph",
+      "text": "People who made it through childhood lived much longer. Records of English landholders suggest that a 25-year-old man reached, on average, about 50. Living past 70 happened, but it was far less common than today."
+    },
+    {
+      "type": "takeaway",
+      "text": "The medieval average was low because of child deaths; a 25-year-old adult lived, on average, to about 50."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "An average, not an age of death"
+    },
+    {
+      "type": "paragraph",
+      "text": "Life expectancy is the average age at which members of a group die, and few people die at exactly that age. When many babies die, the average plunges, even if plenty of people reach old age. So to see how long adults lived, researchers look at life expectancy from adulthood, which takes infant deaths out of the calculation."
+    },
+    {
+      "type": "heading",
+      "text": "How long adults lived"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even without childhood deaths, medieval lives were shorter than ours. Tuberculosis, fevers, and lung and gut infections killed many adults before old age. Among English noblemen, half died before 50 and only 11% lived past 70."
+    },
+    {
+      "type": "paragraph",
+      "text": "Still, there were old people. By analysing tooth wear in Anglo-Saxon cemeteries about 1,500 years old, researchers identified people aged 75 or more."
+    },
+    {
+      "type": "heading",
+      "text": "Why the myth sticks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bones add to the confusion. In adults, age is estimated from wear on the skeleton, and beyond about 40 or 50 that estimate becomes imprecise. Many people end up recorded only as “40+” or “50+”, which helps keep the calculated average age low for ancient populations."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Low life expectancy at birth in the Middle Ages was mainly due to the deaths of babies and children.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "Despite his reference to the plague, Yfantopoulos notes later that in the late Middle Ages, “30 percent of infants died within their first year”, and this is indeed the main cause of a lower life expectancy."
+        },
+        {
+          "sourceId": "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+          "excerpt": "In societies with high infant mortality rates many people die in the first few years of life; but once they survive childhood, people often live much longer."
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "High infant mortality brings down the average at one end of the age spectrum, and open-ended categories such as “40+” or “50+” years keep it low at the other."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "In past societies, including medieval England, about half of all children died.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ourworldindata_org_child_mortality_in_the_6602bb",
+          "excerpt": "Whether in Ancient Rome, in hunter-gatherer societies, in the pre-Columbian Americas, in Medieval Japan or Medieval England, in the European Renaissance, or in Imperial China, every second child died."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Estimates of life expectancy at birth in the Middle Ages range from about 23 to 40 years.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "According to Robb et al (2021) in the International Journal of Paleopathology, “life expectancy at birth for females is 25.0 years, for males, 22.8 years” in the Middle Ages"
+        },
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "Life expectancy fluctuated around 30 to 40 years."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Records of medieval English landholders suggest a 25-year-old man lived, on average, another 23 to 26 years, dying at around 50.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "Records of English male landholders from the Middle Ages are used by MA Jonker in the Journal of the Royal Statistical Society to suggest a life expectancy at 25 of a further 23.3 to 25.7 years – so an average age of death around 50."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Among medieval English noblemen, half died before 50 and only 11% lived past 70.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "A review of the ages at death of (male) members of the medieval English nobility finds that 50% were dead before 50, with only 11% making it past the age of 70."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Life expectancy is an average age at death, and few people die at exactly that age.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+          "excerpt": "By definition, life expectancy is based on an estimate of the average age that members of a particular population group will be when they die."
+        },
+        {
+          "sourceId": "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+          "excerpt": "very few people will die at precisely the age indicated by life expectancy, even if mortality patterns stay constant."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Looking at life expectancy from adulthood takes infant deaths out of the calculation.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "A better method of estimating lifespan is to look at life expectancy only at adulthood, which takes infant mortality out of the equation"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Tuberculosis, fevers, lung infections and gut infections were among the major causes of death before old age.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "their model suggests other very significant causes of death for people in that period, with tuberculosis, fever, viral pulmonary infections, and diarrhoeal and GI infections all following in significant numbers in the second tier, and all likely to have been a major cause of mortality before old age."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "By analysing tooth wear in Anglo-Saxon cemeteries about 1,500 years old, researchers identified people aged 75 or more.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "One such cemetery is Worthy Park near Kingsworthy, Hampshire, where Anglo-Saxons buried their loved ones some 1,500 years ago."
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "We measured the wear on the teeth of these people"
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "Not only were we able to see how many people lived to a grand old age but also which ones were 75 years or older and which were a few years past 50."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Beyond about 40 or 50, age estimates from skeletons become imprecise, and many adults are recorded only as “40+” or “50+”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "once a person reaches the age of about 40 or 50, the differences are too great to allow any one-size-fits-all accuracy in the determination of the calendar age"
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "The result of this is that those older than middle age are frequently given an open-ended age estimation, like 40+ or 50+ years"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_skeptic_org_uk_2025_07_what_ab8012",
+    "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+    "src_sapiens_org_body_human_lifespan_history_d47737",
+    "src_ourworldindata_org_child_mortality_in_the_6602bb"
+  ],
+  "quizIds": [
+    "q_medieval_life_expectancy_1__en",
+    "q_medieval_life_expectancy_2__en",
+    "q_medieval_life_expectancy_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

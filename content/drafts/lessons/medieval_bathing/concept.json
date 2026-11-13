@@ -1,0 +1,35 @@
+{
+  "id": "concept_medieval_bathing",
+  "topicId": "history",
+  "clusterId": "cluster_middle_ages_myths",
+  "clusterOrder": 4,
+  "tags": ["middle-ages", "myths", "hygiene", "daily-life"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_armour_weight",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito que faz os medievais parecerem mais desajeitados do que eram.",
+        "en": "Another myth that makes medieval people seem clumsier than they were."
+      }
+    },
+    {
+      "conceptId": "concept_medieval_life_expectancy",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Limpos, sim. Mas morriam todos aos 30?",
+        "en": "Clean, yes. But did they all die at 30?"
+      }
+    },
+    {
+      "conceptId": "concept_black_death_wages",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A Peste Negra aparece entre as possíveis razões do fim dos banhos.",
+        "en": "The Black Death is among the possible reasons the baths closed."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

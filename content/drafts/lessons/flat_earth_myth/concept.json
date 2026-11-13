@@ -1,0 +1,35 @@
+{
+  "id": "concept_flat_earth_myth",
+  "topicId": "history",
+  "clusterId": "cluster_middle_ages_myths",
+  "clusterOrder": 1,
+  "tags": ["middle-ages", "myths", "astronomy", "columbus"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_horned_helmets",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro mito sobre o passado que nasceu no século XIX.",
+        "en": "Another myth about the past born in the 19th century."
+      }
+    },
+    {
+      "conceptId": "concept_tordesillas",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Logo depois da viagem de Colombo, Portugal e Espanha dividiram as terras do outro lado do Atlântico.",
+        "en": "Soon after Columbus’s voyage, Portugal and Spain divided the lands across the Atlantic."
+      }
+    },
+    {
+      "conceptId": "concept_lightning_strikes_twice",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Mais um “fato” que todo mundo repete e que não se sustenta.",
+        "en": "One more “fact” everyone repeats that doesn’t hold up."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

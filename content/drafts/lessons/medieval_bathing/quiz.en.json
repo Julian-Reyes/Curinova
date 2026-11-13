@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_medieval_bathing_1__en",
+    "questionGroupId": "qg_medieval_bathing_1",
+    "conceptId": "concept_medieval_bathing",
+    "locale": "en",
+    "prompt": "Why did so many medieval people use public bathhouses?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because fetching and heating water for a tub at home was hard work"
+      },
+      {
+        "id": "b",
+        "text": "Because bathing at home was forbidden"
+      },
+      {
+        "id": "c",
+        "text": "Because only nobles were allowed to wash"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "With no plumbing, filling a tub was laborious; bathhouses did that work, and most towns had at least one.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_bathing_2__en",
+    "questionGroupId": "qg_medieval_bathing_2",
+    "conceptId": "concept_medieval_bathing",
+    "locale": "en",
+    "prompt": "How many bathhouses did Paris have in the late 13th century?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dozens"
+      },
+      {
+        "id": "b",
+        "text": "None"
+      },
+      {
+        "id": "c",
+        "text": "Just one, the king’s"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sources give 26 bathhouses in 1292, or more than 32 in the 13th century.",
+    "misconception": "The “thousand years without a bath” idea doesn’t match the records of medieval towns.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_bathing_3__en",
+    "questionGroupId": "qg_medieval_bathing_3",
+    "conceptId": "concept_medieval_bathing",
+    "locale": "en",
+    "prompt": "When did Europe’s public baths go into decline?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the 16th century"
+      },
+      {
+        "id": "b",
+        "text": "At the very start of the Middle Ages"
+      },
+      {
+        "id": "c",
+        "text": "In the 20th century"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The decline was rapid in the 16th century; by 1526, Erasmus said the baths of Brabant were gone.",
+    "claimIds": ["c6", "c15"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "concept_armour_weight",
+  "topicId": "history",
+  "clusterId": "cluster_middle_ages_myths",
+  "clusterOrder": 3,
+  "tags": ["middle-ages", "myths", "knights", "armour"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_horned_helmets",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Mais uma imagem de filme sobre os guerreiros medievais.",
+        "en": "Another movie image of medieval warriors."
+      }
+    },
+    {
+      "conceptId": "concept_medieval_bathing",
+      "type": "next",
+      "reason": {
+        "pt-BR": "E depois da batalha? Será que ninguém tomava banho?",
+        "en": "And after the battle? Did nobody really bathe?"
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

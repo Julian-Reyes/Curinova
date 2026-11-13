@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_medieval_life_expectancy_1__pt-BR",
+    "questionGroupId": "qg_medieval_life_expectancy_1",
+    "conceptId": "concept_medieval_life_expectancy",
+    "locale": "pt-BR",
+    "prompt": "Por que a expectativa de vida ao nascer era tão baixa na Idade Média?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque muitas crianças morriam cedo"
+      },
+      {
+        "id": "b",
+        "text": "Porque os adultos morriam de velhice aos 30"
+      },
+      {
+        "id": "c",
+        "text": "Porque quase não se registravam os nascimentos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Cerca de metade das crianças morria, e essas mortes puxavam a média para baixo.",
+    "misconception": "Uma média de 30 anos não quer dizer que as pessoas envelheciam e morriam aos 30.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_life_expectancy_2__pt-BR",
+    "questionGroupId": "qg_medieval_life_expectancy_2",
+    "conceptId": "concept_medieval_life_expectancy",
+    "locale": "pt-BR",
+    "prompt": "Segundo registros de proprietários de terra, até que idade um inglês medieval de 25 anos vivia, em média?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Até perto dos 50"
+      },
+      {
+        "id": "b",
+        "text": "Até uns 30"
+      },
+      {
+        "id": "c",
+        "text": "Até uns 90"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ele tinha, em média, mais uns 23 a 26 anos de vida, chegando perto dos 50.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_life_expectancy_3__pt-BR",
+    "questionGroupId": "qg_medieval_life_expectancy_3",
+    "conceptId": "concept_medieval_life_expectancy",
+    "locale": "pt-BR",
+    "prompt": "Que parte dos nobres ingleses medievais passava dos 70 anos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 11%"
+      },
+      {
+        "id": "b",
+        "text": "Quase todos"
+      },
+      {
+        "id": "c",
+        "text": "Nenhum"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Metade morria antes dos 50, e só 11% passavam dos 70: chegar à velhice era possível, mas menos comum que hoje.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

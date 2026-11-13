@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_armour_weight_1__en",
+    "questionGroupId": "qg_armour_weight_1",
+    "conceptId": "concept_armour_weight",
+    "locale": "en",
+    "prompt": "Roughly how much did a complete suit of field armour weigh?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A few tens of kilos, such as 20 to 25 kg"
+      },
+      {
+        "id": "b",
+        "text": "More than 100 kg"
+      },
+      {
+        "id": "c",
+        "text": "Less than 5 kg"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Metropolitan Museum gives 20 to 25 kg; the 2011 study cites 30 to 50 kg for 15th-century armour.",
+    "claimIds": ["c2", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_armour_weight_2__en",
+    "questionGroupId": "qg_armour_weight_2",
+    "conceptId": "concept_armour_weight",
+    "locale": "en",
+    "prompt": "How did a knight in armour get onto his horse?",
+    "options": [
+      {
+        "id": "a",
+        "text": "With a foot in the stirrup, sometimes helped by a stool or a squire"
+      },
+      {
+        "id": "b",
+        "text": "Lifted by a crane"
+      },
+      {
+        "id": "c",
+        "text": "He didn’t: knights always fought on foot"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Period illustrations show knights mounting unaided; a stool or a squire just made it quicker.",
+    "misconception": "There’s no evidence for the crane: it comes from films and books, not the Middle Ages.",
+    "claimIds": ["c1", "c10", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_armour_weight_3__en",
+    "questionGroupId": "qg_armour_weight_3",
+    "conceptId": "concept_armour_weight",
+    "locale": "en",
+    "prompt": "What did the 2011 study find about walking in armour?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It took more than twice the energy"
+      },
+      {
+        "id": "b",
+        "text": "It made no difference at all"
+      },
+      {
+        "id": "c",
+        "text": "It was impossible to walk more than a few steps"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Walking in armour cost 2.1 to 2.3 times as much energy, partly because of the weight on the arms and legs.",
+    "claimIds": ["c5", "c13", "c14"],
+    "status": "draft"
+  }
+]

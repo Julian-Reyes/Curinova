@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_horned_helmets_1__pt-BR",
+    "questionGroupId": "qg_horned_helmets_1",
+    "conceptId": "concept_horned_helmets",
+    "locale": "pt-BR",
+    "prompt": "Os arqueólogos já encontraram capacetes vikings com chifres?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não; o mais famoso, o de Gjermundbu, não tem chifres"
+      },
+      {
+        "id": "b",
+        "text": "Sim, em muitos túmulos vikings"
+      },
+      {
+        "id": "c",
+        "text": "Sim, mas só nos túmulos de reis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Nenhum capacete da Era Viking com chifres foi encontrado, e o de Gjermundbu, achado em 1943, não tem chifres.",
+    "misconception": "Os capacetes com chifres de Viksø, na Dinamarca, são da Idade do Bronze, muito mais antigos que os vikings.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_horned_helmets_2__pt-BR",
+    "questionGroupId": "qg_horned_helmets_2",
+    "conceptId": "concept_horned_helmets",
+    "locale": "pt-BR",
+    "prompt": "De quando são os capacetes com chifres de Viksø, na Dinamarca?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Da Idade do Bronze, por volta de 900 a.C."
+      },
+      {
+        "id": "b",
+        "text": "Da Era Viking"
+      },
+      {
+        "id": "c",
+        "text": "Do século XIX"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A datação por radiocarbono mostrou que são da Idade do Bronze, cerca de 2.000 anos antes dos vikings.",
+    "claimIds": ["c3", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_horned_helmets_3__pt-BR",
+    "questionGroupId": "qg_horned_helmets_3",
+    "conceptId": "concept_horned_helmets",
+    "locale": "pt-BR",
+    "prompt": "O que ajudou a popularizar a imagem do viking com chifres?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Os figurinos da estreia de uma ópera de Wagner, em 1876"
+      },
+      {
+        "id": "b",
+        "text": "Capacetes encontrados em túmulos vikings"
+      },
+      {
+        "id": "c",
+        "text": "Relatos de monges que viram os vikings"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O figurinista Carl Emil Doepler pôs chifres nos capacetes da estreia de O Anel do Nibelungo, em Bayreuth.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,292 @@
+{
+  "id": "lesson_flat_earth_myth__pt-BR",
+  "conceptId": "concept_flat_earth_myth",
+  "locale": "pt-BR",
+  "slug": "na-idade-media-achavam-que-a-terra-era-plana",
+  "title": "Na Idade Média, as pessoas achavam que a Terra era plana?",
+  "hook": "Colombo não precisou provar que a Terra era redonda: isso se ensinava havia séculos.",
+  "summary": "Não: estudiosos medievais ensinavam que a Terra é uma esfera; o mito da Terra plana medieval nasceu no século XIX.",
+  "cardText": "Não. Monges e professores medievais ensinavam que a Terra é uma esfera. A história de que acreditavam numa Terra plana surgiu bem depois, no século XIX.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine Colombo diante de sábios assustados, certos de que os navios cairiam da borda do mundo. A cena é famosa, mas é inventada. Por volta do ano 700, o monge inglês Beda já descrevia a Terra como uma bola, e não como um disco. No século XIII, o Tratado da Esfera, de Sacrobosco, virou o livro de astronomia mais usado nas universidades, e defendia que a Terra é esférica."
+    },
+    {
+      "type": "paragraph",
+      "text": "Quem criticava Colombo não discutia o formato do planeta: a preocupação era a distância e a dificuldade de voltar. A versão da Terra plana só se espalhou no século XIX, com autores como Washington Irving, que publicou uma biografia de Colombo em 1828."
+    },
+    {
+      "type": "takeaway",
+      "text": "Os estudiosos medievais sabiam que a Terra é redonda; o mito de que pensavam o contrário foi criado no século XIX."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O que diziam os livros medievais"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em A contagem do tempo, Beda chamou a Terra de orbe e escreveu que ela lembra mais uma bola do que um escudo ou uma roda. Ele também usou esse formato para explicar por que a duração do dia muda ao longo das estações."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cerca de cinco séculos depois, Johannes de Sacrobosco, professor na Universidade de Paris, escreveu o Tratado da Esfera. O livro circulou em manuscritos por uns 240 anos e foi impresso de novo e de novo, de 1476 até o início do século XVII. Para a circunferência da Terra, Sacrobosco usava o valor calculado pelo grego Eratóstenes, bem próximo do que se mede hoje."
+    },
+    {
+      "type": "heading",
+      "text": "A discussão com Colombo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Colombo partiu acreditando que a Terra era bem menor do que é. Os conselheiros da corte espanhola que duvidavam do plano estavam preocupados com a distância e com a volta. Ironicamente, usavam o próprio formato esférico da Terra como argumento contra a viagem."
+    },
+    {
+      "type": "heading",
+      "text": "Como o mito nasceu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Na biografia de Irving, Colombo enfrenta teólogos que, segundo o autor, achavam que a Terra era chata como um prato; historiadores consideram a cena pura ficção. Mais tarde, John William Draper e Andrew Dickson White usaram a suposta Terra plana medieval como prova de uma guerra permanente entre ciência e religião, tese que os historiadores da ciência hoje rejeitam."
+    },
+    {
+      "type": "paragraph",
+      "text": "Houve, sim, quem defendesse uma Terra plana, como Lactâncio e Cosmas. Mas eram poucos, e os autores do século XIX exageraram muito a influência deles."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O monge inglês Beda, que viveu por volta do ano 700, descrevia a Terra como uma bola, e não como um disco.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_publicmedievalist_com_flat_earth_821fb4",
+          "excerpt": "In The Reckoning of Time, Bede (who lived circa CE 673-735) refers to the Earth as an “orb” and says that “it is not merely circular like a shield or spread out like a wheel, but resembles more a ball.”"
+        },
+        {
+          "sourceId": "src_theologie_naturwissenschaften_de_startseite_leitartikelarchiv_flat_31c438",
+          "excerpt": "already with the monk Bede (673-735) in the North of England we find a robust defense of the sphericity of the earth."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O Tratado da Esfera, de Sacrobosco, começou a circular por volta de 1230 e se tornou o texto de astronomia mais popular das universidades.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lindahall_org_about_news_scientist_of_6698de",
+          "excerpt": "First circulated about 1230 C.E., Sacrobosco’s Sphere became the single most popular university text on astronomy, circulating in manuscript for 240 years, and then being printed again and again from 1476 all the way up to the beginning of the 17th century."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Sacrobosco defendia, com vários argumentos, que a Terra é uma esfera.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lindahall_org_about_news_scientist_of_6698de",
+          "excerpt": "since Sacrobosco argued every which way from Sunday that the Earth is a sphere"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Nos debates na corte espanhola, os críticos de Colombo se preocupavam com a distância e a dificuldade de voltar, e não defendiam uma Terra plana.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theologie_naturwissenschaften_de_startseite_leitartikelarchiv_flat_31c438",
+          "excerpt": "In the debates at the Spanish court leading to his famous first Atlantic crossing, he was not opposed by fanatic, flat-earther clerics. They were instead concerned by the distance, the difficulty of return, and speculations regarding the antipodeans, etc."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A ideia de que os medievais acreditavam numa Terra plana surgiu no século XIX; Washington Irving, autor de uma biografia de Colombo de 1828, foi um dos primeiros a promovê-la.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_asa3_org_asa_topics_history_1997russell_d0fcf6",
+          "excerpt": "No one before the 1830s believed that medieval people thought that the earth was flat."
+        },
+        {
+          "sourceId": "src_asa3_org_asa_topics_history_1997russell_d0fcf6",
+          "excerpt": "His misrepresentations of the history of early New York City and of the life of Washington were topped by his history of Christopher Columbus (1828)."
+        },
+        {
+          "sourceId": "src_publicmedievalist_com_flat_earth_821fb4",
+          "excerpt": "American writer and historian Washington Irving was one of the first to promote this myth. He wrote A History of the Life and Voyages of Christopher Columbus in 1828—a book which freely mixed fact and fiction"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Beda mostrou que a mudança na duração do dia ao longo das estações se deve ao formato esférico da Terra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_publicmedievalist_com_flat_earth_821fb4",
+          "excerpt": "Bede, for example, demonstrated that the changing length of daylight in different seasons was due to the sphericity of the Earth."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Sacrobosco ensinou na Universidade de Paris.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lindahall_org_about_news_scientist_of_6698de",
+          "excerpt": "We know little about him, except that he taught at the Universiry of Paris, and he wrote three books"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "O Tratado da Esfera circulou em manuscritos por cerca de 240 anos e foi impresso repetidamente de 1476 até o início do século XVII.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lindahall_org_about_news_scientist_of_6698de",
+          "excerpt": "circulating in manuscript for 240 years, and then being printed again and again from 1476 all the way up to the beginning of the 17th century."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Sacrobosco usou para a circunferência da Terra o valor calculado por Eratóstenes, próximo do valor moderno.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lindahall_org_about_news_scientist_of_6698de",
+          "excerpt": "it is intriguing that Sacrobosco used the figure of 252,000 stadia, calculated in Hellenistic Greece by Eratosthenes, for the Earth’s circumference, which (using a typical value for a stadium) comes to 25,000 miles, close to the modern figure"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Colombo navegou acreditando que a circunferência da Terra era bem menor do que é.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_lindahall_org_about_news_scientist_of_6698de",
+          "excerpt": "Columbus later sailed under the misapprehension that the circumference of the Earth is about 19,000 miles"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Nos debates com Colombo, os críticos usaram o próprio formato esférico da Terra como argumento contra o plano da viagem.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theologie_naturwissenschaften_de_startseite_leitartikelarchiv_flat_31c438",
+          "excerpt": "Ironically, in debating with Columbus, they used the sphericity of the earth against his sailing plans!"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A biografia de Irving mostrava Colombo diante de teólogos que, segundo ele, acreditavam numa Terra plana; historiadores consideram a cena fictícia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_asa3_org_asa_topics_history_1997russell_d0fcf6",
+          "excerpt": "It was he who invented the indelible picture of the young Columbus, a \"simple mariner,\" appearing before a dark crowd of benighted inquisitors and hooded theologians at a council of Salamanca, all of whom believed, according to Irving, that the earth was flat like a plate."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "John William Draper e Andrew Dickson White usaram a suposta crença medieval na Terra plana como prova de uma guerra entre ciência e religião, tese que historiadores da ciência rejeitam.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theologie_naturwissenschaften_de_startseite_leitartikelarchiv_flat_31c438",
+          "excerpt": "Historians of science, particularly those specialising in the history of science and religion, have refuted the ‘conflict thesis’, demonstrating it to be an invention of the late 19th century, cooked up amidst the heated debates over Darwin and the increasing secularization of science. John W. Draper and Andrew D. White are often implicated in this artificial construction of warfare between science and faith, and a grand proof of this conflict is the supposed medieval belief in a flat earth."
+        },
+        {
+          "sourceId": "src_asa3_org_asa_topics_history_1997russell_d0fcf6",
+          "excerpt": "This vast web of falsehood was invented and propagated by the influential historian John Draper (1811-1882) and many prestigious followers, such as Andrew Dickson White (1832-1918)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Poucos autores, como Lactâncio e Cosmas, defenderam uma Terra plana, e sua influência foi exagerada no século XIX.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_publicmedievalist_com_flat_earth_821fb4",
+          "excerpt": "They insisted that people like Cosmas (who wrote in CE 500s, at the very beginning of the Middle Ages) and Lactantius (who wrote around CE 250-375, well before the Middle Ages), who did argue for a flat Earth model were much more influential than they actually were."
+        },
+        {
+          "sourceId": "src_theologie_naturwissenschaften_de_startseite_leitartikelarchiv_flat_31c438",
+          "excerpt": "Second, the number of Christian flat-earthers was quite small."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_publicmedievalist_com_flat_earth_821fb4",
+    "src_theologie_naturwissenschaften_de_startseite_leitartikelarchiv_flat_31c438",
+    "src_lindahall_org_about_news_scientist_of_6698de",
+    "src_asa3_org_asa_topics_history_1997russell_d0fcf6"
+  ],
+  "quizIds": [
+    "q_flat_earth_myth_1__pt-BR",
+    "q_flat_earth_myth_2__pt-BR",
+    "q_flat_earth_myth_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

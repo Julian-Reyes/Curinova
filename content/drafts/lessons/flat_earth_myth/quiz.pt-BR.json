@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_flat_earth_myth_1__pt-BR",
+    "questionGroupId": "qg_flat_earth_myth_1",
+    "conceptId": "concept_flat_earth_myth",
+    "locale": "pt-BR",
+    "prompt": "O que os estudiosos medievais ensinavam sobre o formato da Terra?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que ela é uma esfera"
+      },
+      {
+        "id": "b",
+        "text": "Que é um disco plano cercado de água"
+      },
+      {
+        "id": "c",
+        "text": "Que tem uma borda de onde os navios podem cair"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Beda, por volta do ano 700, e o Tratado da Esfera, no século XIII, descreviam a Terra como esférica.",
+    "misconception": "A imagem de medievais com medo da borda do mundo vem de livros do século XIX, não da Idade Média.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_flat_earth_myth_2__pt-BR",
+    "questionGroupId": "qg_flat_earth_myth_2",
+    "conceptId": "concept_flat_earth_myth",
+    "locale": "pt-BR",
+    "prompt": "O que preocupava os críticos do plano de Colombo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A distância da viagem e a volta"
+      },
+      {
+        "id": "b",
+        "text": "Se a Terra era mesmo redonda"
+      },
+      {
+        "id": "c",
+        "text": "Se os navios cairiam da borda do mundo"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os críticos se preocupavam com a distância e com a dificuldade de voltar; Colombo, aliás, achava que a Terra era menor do que é.",
+    "claimIds": ["c4", "c10", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_flat_earth_myth_3__pt-BR",
+    "questionGroupId": "qg_flat_earth_myth_3",
+    "conceptId": "concept_flat_earth_myth",
+    "locale": "pt-BR",
+    "prompt": "Quando se espalhou a ideia de que os medievais acreditavam numa Terra plana?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No século XIX"
+      },
+      {
+        "id": "b",
+        "text": "Na própria Idade Média"
+      },
+      {
+        "id": "c",
+        "text": "Na Grécia Antiga"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Autores do século XIX, como Washington Irving, Draper e White, popularizaram a história.",
+    "claimIds": ["c5", "c12", "c13"],
+    "status": "draft"
+  }
+]

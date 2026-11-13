@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_armour_weight_1__pt-BR",
+    "questionGroupId": "qg_armour_weight_1",
+    "conceptId": "concept_armour_weight",
+    "locale": "pt-BR",
+    "prompt": "Quanto pesava, em geral, uma armadura completa de batalha?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Algumas dezenas de quilos, como 20 a 25 kg"
+      },
+      {
+        "id": "b",
+        "text": "Mais de 100 kg"
+      },
+      {
+        "id": "c",
+        "text": "Menos de 5 kg"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O Metropolitan Museum fala em 20 a 25 kg; o estudo de 2011 cita de 30 a 50 kg para armaduras do século XV.",
+    "claimIds": ["c2", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_armour_weight_2__pt-BR",
+    "questionGroupId": "qg_armour_weight_2",
+    "conceptId": "concept_armour_weight",
+    "locale": "pt-BR",
+    "prompt": "Como um cavaleiro de armadura subia no cavalo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pondo o pé no estribo, às vezes com um banquinho ou um escudeiro"
+      },
+      {
+        "id": "b",
+        "text": "Erguido por um guindaste"
+      },
+      {
+        "id": "c",
+        "text": "Não subia: lutava sempre a pé"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ilustrações da época mostram cavaleiros montando sem ajuda; um banquinho ou um escudeiro só agilizava.",
+    "misconception": "Não há evidência do guindaste: a cena é dos filmes e livros, não da Idade Média.",
+    "claimIds": ["c1", "c10", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_armour_weight_3__pt-BR",
+    "questionGroupId": "qg_armour_weight_3",
+    "conceptId": "concept_armour_weight",
+    "locale": "pt-BR",
+    "prompt": "O que o estudo de 2011 descobriu sobre andar de armadura?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gastava mais que o dobro da energia"
+      },
+      {
+        "id": "b",
+        "text": "Não fazia diferença nenhuma"
+      },
+      {
+        "id": "c",
+        "text": "Era impossível andar mais que alguns passos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Andar de armadura custou de 2,1 a 2,3 vezes mais energia, em parte por causa do peso nas pernas e nos braços.",
+    "claimIds": ["c5", "c13", "c14"],
+    "status": "draft"
+  }
+]

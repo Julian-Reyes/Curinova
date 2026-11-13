@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_medieval_bathing_1__pt-BR",
+    "questionGroupId": "qg_medieval_bathing_1",
+    "conceptId": "concept_medieval_bathing",
+    "locale": "pt-BR",
+    "prompt": "Por que tanta gente na Idade Média usava casas de banho públicas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque buscar e esquentar água para uma tina em casa dava muito trabalho"
+      },
+      {
+        "id": "b",
+        "text": "Porque era proibido tomar banho em casa"
+      },
+      {
+        "id": "c",
+        "text": "Porque só os nobres podiam se lavar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sem encanamento, encher uma tina era trabalhoso; as casas de banho faziam esse serviço, e a maioria das cidades tinha ao menos uma.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_bathing_2__pt-BR",
+    "questionGroupId": "qg_medieval_bathing_2",
+    "conceptId": "concept_medieval_bathing",
+    "locale": "pt-BR",
+    "prompt": "Quantas casas de banho Paris tinha no fim do século XIII?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dezenas"
+      },
+      {
+        "id": "b",
+        "text": "Nenhuma"
+      },
+      {
+        "id": "c",
+        "text": "Só uma, a do rei"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As fontes falam em 26 casas de banho em 1292, ou em mais de 32 no século XIII.",
+    "misconception": "A ideia de “mil anos sem banho” não bate com os registros das cidades medievais.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_bathing_3__pt-BR",
+    "questionGroupId": "qg_medieval_bathing_3",
+    "conceptId": "concept_medieval_bathing",
+    "locale": "pt-BR",
+    "prompt": "Quando os banhos públicos da Europa entraram em declínio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No século XVI"
+      },
+      {
+        "id": "b",
+        "text": "Logo no começo da Idade Média"
+      },
+      {
+        "id": "c",
+        "text": "No século XX"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O declínio foi rápido no século XVI; em 1526, Erasmo já dizia que os banhos de Brabante tinham acabado.",
+    "claimIds": ["c6", "c15"],
+    "status": "draft"
+  }
+]

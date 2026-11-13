@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_horned_helmets_1__en",
+    "questionGroupId": "qg_horned_helmets_1",
+    "conceptId": "concept_horned_helmets",
+    "locale": "en",
+    "prompt": "Have archaeologists ever found horned Viking helmets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No; the best-known one, from Gjermundbu, has no horns"
+      },
+      {
+        "id": "b",
+        "text": "Yes, in many Viking graves"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but only in royal graves"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "No horned Viking Age helmet has been found, and the Gjermundbu helmet, found in 1943, has no horns.",
+    "misconception": "The horned helmets from Viksø in Denmark are from the Bronze Age, far older than the Vikings.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_horned_helmets_2__en",
+    "questionGroupId": "qg_horned_helmets_2",
+    "conceptId": "concept_horned_helmets",
+    "locale": "en",
+    "prompt": "How old are the horned helmets from Viksø in Denmark?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bronze Age, around 900 BC"
+      },
+      {
+        "id": "b",
+        "text": "Viking Age"
+      },
+      {
+        "id": "c",
+        "text": "19th century"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Radiocarbon dating showed they are Bronze Age, about 2,000 years before the Vikings.",
+    "claimIds": ["c3", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_horned_helmets_3__en",
+    "questionGroupId": "qg_horned_helmets_3",
+    "conceptId": "concept_horned_helmets",
+    "locale": "en",
+    "prompt": "What helped popularise the image of the horned Viking?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The costumes for the 1876 premiere of a Wagner opera"
+      },
+      {
+        "id": "b",
+        "text": "Helmets found in Viking graves"
+      },
+      {
+        "id": "c",
+        "text": "Accounts by monks who saw the Vikings"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Costume designer Carl Emil Doepler put horns on the helmets for the premiere of The Ring of the Nibelung at Bayreuth.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

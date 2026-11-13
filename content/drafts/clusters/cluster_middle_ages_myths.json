@@ -1,0 +1,33 @@
+{
+  "id": "cluster_middle_ages_myths",
+  "topicId": "history",
+  "slug": {
+    "pt-BR": "mitos-sobre-a-idade-media",
+    "en": "myths-about-the-middle-ages"
+  },
+  "title": {
+    "pt-BR": "Mitos sobre a Idade Média",
+    "en": "Myths about the Middle Ages"
+  },
+  "hook": {
+    "pt-BR": "Terra plana, capacetes com chifres e ninguém tomando banho: quase nada disso aconteceu.",
+    "en": "A flat Earth, horned helmets and nobody bathing: almost none of it happened."
+  },
+  "conceptIds": [
+    "concept_flat_earth_myth",
+    "concept_horned_helmets",
+    "concept_armour_weight",
+    "concept_medieval_bathing",
+    "concept_medieval_life_expectancy",
+    "concept_black_death_wages"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_everyday_myths",
+      "reason": {
+        "pt-BR": "Mais mitos que todo mundo repete, agora sobre a ciência do dia a dia.",
+        "en": "More myths everyone repeats, this time about everyday science."
+      }
+    }
+  ]
+}

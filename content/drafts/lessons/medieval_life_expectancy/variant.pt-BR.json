@@ -1,0 +1,244 @@
+{
+  "id": "lesson_medieval_life_expectancy__pt-BR",
+  "conceptId": "concept_medieval_life_expectancy",
+  "locale": "pt-BR",
+  "slug": "na-idade-media-as-pessoas-morriam-aos-30",
+  "title": "Na Idade Média, as pessoas morriam aos 30?",
+  "hook": "A média era baixa, mas quase ninguém morria de velhice aos 30.",
+  "summary": "Não: a expectativa de vida ao nascer era baixa sobretudo por causa das mortes de crianças; um adulto de 25 anos vivia, em média, até perto dos 50.",
+  "cardText": "Não. A média era baixa porque muitas crianças morriam cedo. Quem chegava à idade adulta costumava viver bem mais: um inglês de 25 anos chegava, em média, perto dos 50.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Se a expectativa de vida medieval era de uns 30 anos, alguém de 32 já seria velho? A conta não funciona assim. A expectativa de vida ao nascer é uma média, e na Idade Média ela era puxada para baixo pelas mortes de crianças: na Inglaterra medieval, como em outras sociedades do passado, cerca de metade delas morria. As estimativas para o período vão de uns 23 a 40 anos ao nascer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Quem passava da infância vivia bem mais. Registros de proprietários de terra ingleses indicam que um homem de 25 anos chegava, em média, perto dos 50. Passar dos 70 acontecia, mas era bem menos comum que hoje."
+    },
+    {
+      "type": "takeaway",
+      "text": "A média medieval era baixa por causa das mortes de crianças; um adulto de 25 anos vivia, em média, até uns 50."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Média não é idade de morte"
+    },
+    {
+      "type": "paragraph",
+      "text": "A expectativa de vida é a média das idades em que as pessoas de um grupo morrem, e pouca gente morre exatamente nessa idade. Quando muitos bebês morrem, a média despenca, mesmo que bastante gente chegue à velhice. Por isso, para saber quanto viviam os adultos, os pesquisadores olham a expectativa de vida a partir da idade adulta, o que tira as mortes de bebês da conta."
+    },
+    {
+      "type": "heading",
+      "text": "Quanto viviam os adultos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mesmo sem as mortes na infância, a vida medieval era mais curta que a nossa. Tuberculose, febres, infecções pulmonares e intestinais matavam muitos adultos antes da velhice. Entre os nobres ingleses, metade morria antes dos 50, e só 11% passavam dos 70."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ainda assim, havia idosos. Analisando o desgaste dos dentes em cemitérios anglo-saxões de cerca de 1.500 anos atrás, pesquisadores conseguiram identificar pessoas com 75 anos ou mais."
+    },
+    {
+      "type": "heading",
+      "text": "Por que o mito pega"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os ossos também confundem. Em adultos, a idade é estimada pelo desgaste do esqueleto, e depois dos 40 ou 50 anos essa estimativa fica imprecisa. Muitos acabam registrados só como “40+” ou “50+”, o que ajuda a manter baixa a idade média calculada para populações antigas."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A baixa expectativa de vida ao nascer na Idade Média se devia principalmente às mortes de bebês e crianças.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "Despite his reference to the plague, Yfantopoulos notes later that in the late Middle Ages, “30 percent of infants died within their first year”, and this is indeed the main cause of a lower life expectancy."
+        },
+        {
+          "sourceId": "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+          "excerpt": "In societies with high infant mortality rates many people die in the first few years of life; but once they survive childhood, people often live much longer."
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "High infant mortality brings down the average at one end of the age spectrum, and open-ended categories such as “40+” or “50+” years keep it low at the other."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Em sociedades do passado, incluindo a Inglaterra medieval, cerca de metade das crianças morria.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ourworldindata_org_child_mortality_in_the_6602bb",
+          "excerpt": "Whether in Ancient Rome, in hunter-gatherer societies, in the pre-Columbian Americas, in Medieval Japan or Medieval England, in the European Renaissance, or in Imperial China, every second child died."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Estimativas da expectativa de vida ao nascer na Idade Média vão de cerca de 23 a 40 anos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "According to Robb et al (2021) in the International Journal of Paleopathology, “life expectancy at birth for females is 25.0 years, for males, 22.8 years” in the Middle Ages"
+        },
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "Life expectancy fluctuated around 30 to 40 years."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Registros de proprietários de terra ingleses medievais indicam que um homem de 25 anos vivia, em média, mais uns 23 a 26 anos, morrendo perto dos 50.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "Records of English male landholders from the Middle Ages are used by MA Jonker in the Journal of the Royal Statistical Society to suggest a life expectancy at 25 of a further 23.3 to 25.7 years – so an average age of death around 50."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Entre os nobres ingleses medievais, metade morria antes dos 50 anos, e só 11% passavam dos 70.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "A review of the ages at death of (male) members of the medieval English nobility finds that 50% were dead before 50, with only 11% making it past the age of 70."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A expectativa de vida é uma média das idades de morte, e pouca gente morre exatamente nessa idade.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+          "excerpt": "By definition, life expectancy is based on an estimate of the average age that members of a particular population group will be when they die."
+        },
+        {
+          "sourceId": "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+          "excerpt": "very few people will die at precisely the age indicated by life expectancy, even if mortality patterns stay constant."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Olhar a expectativa de vida a partir da idade adulta tira as mortes de bebês da conta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "A better method of estimating lifespan is to look at life expectancy only at adulthood, which takes infant mortality out of the equation"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Tuberculose, febres, infecções pulmonares e infecções intestinais estavam entre as causas importantes de morte antes da velhice.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_skeptic_org_uk_2025_07_what_ab8012",
+          "excerpt": "their model suggests other very significant causes of death for people in that period, with tuberculosis, fever, viral pulmonary infections, and diarrhoeal and GI infections all following in significant numbers in the second tier, and all likely to have been a major cause of mortality before old age."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Analisando o desgaste dos dentes em cemitérios anglo-saxões de cerca de 1.500 anos atrás, pesquisadores identificaram pessoas com 75 anos ou mais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "One such cemetery is Worthy Park near Kingsworthy, Hampshire, where Anglo-Saxons buried their loved ones some 1,500 years ago."
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "We measured the wear on the teeth of these people"
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "Not only were we able to see how many people lived to a grand old age but also which ones were 75 years or older and which were a few years past 50."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Depois dos 40 ou 50 anos, a idade estimada pelo esqueleto fica imprecisa, e muitos adultos são registrados só como “40+” ou “50+”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "once a person reaches the age of about 40 or 50, the differences are too great to allow any one-size-fits-all accuracy in the determination of the calendar age"
+        },
+        {
+          "sourceId": "src_sapiens_org_body_human_lifespan_history_d47737",
+          "excerpt": "The result of this is that those older than middle age are frequently given an open-ended age estimation, like 40+ or 50+ years"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_skeptic_org_uk_2025_07_what_ab8012",
+    "src_ourworldindata_org_life_expectancy_how_is_b7b73c",
+    "src_sapiens_org_body_human_lifespan_history_d47737",
+    "src_ourworldindata_org_child_mortality_in_the_6602bb"
+  ],
+  "quizIds": [
+    "q_medieval_life_expectancy_1__pt-BR",
+    "q_medieval_life_expectancy_2__pt-BR",
+    "q_medieval_life_expectancy_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

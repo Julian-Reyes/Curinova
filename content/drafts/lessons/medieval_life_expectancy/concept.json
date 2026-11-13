@@ -1,0 +1,27 @@
+{
+  "id": "concept_medieval_life_expectancy",
+  "topicId": "history",
+  "clusterId": "cluster_middle_ages_myths",
+  "clusterOrder": 5,
+  "tags": ["middle-ages", "myths", "demography", "health"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_medieval_bathing",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito que pinta a vida medieval pior do que os registros mostram.",
+        "en": "Another myth that paints medieval life worse than the records show."
+      }
+    },
+    {
+      "conceptId": "concept_black_death_wages",
+      "type": "next",
+      "reason": {
+        "pt-BR": "A Peste Negra foi um dos grandes golpes na população medieval.",
+        "en": "The Black Death was one of the great blows to the medieval population."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

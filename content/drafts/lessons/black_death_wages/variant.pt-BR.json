@@ -1,0 +1,348 @@
+{
+  "id": "lesson_black_death_wages__pt-BR",
+  "conceptId": "concept_black_death_wages",
+  "locale": "pt-BR",
+  "slug": "por-que-os-salarios-dispararam-depois-da-peste-negra",
+  "title": "Por que os salários dispararam depois da Peste Negra?",
+  "hook": "Com milhões de mortos, faltou gente para trabalhar, e nem uma lei do rei segurou os salários.",
+  "summary": "A Peste Negra matou uma parte enorme da população, e a falta de trabalhadores fez os salários subirem, apesar de leis que tentaram congelá-los.",
+  "cardText": "A peste matou de 30% a 60% dos europeus, segundo estimativas. Com menos braços para trabalhar, os salários subiram, mesmo com leis que tentavam congelá-los.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Entre 1347 e 1352, a Peste Negra varreu a Europa. Historiadores estimam que ela matou de 30% a 60% da população, embora o número exato ainda seja discutido. Com tanta gente a menos, faltou quem trabalhasse nos campos, e os sobreviventes passaram a cobrar mais. Um cronista inglês reclamou que os humildes só aceitavam servir por salário triplicado."
+    },
+    {
+      "type": "paragraph",
+      "text": "Os senhores reagiram. Na Inglaterra, a Ordenança de 1349 e o Estatuto dos Trabalhadores de 1351 tentaram congelar os salários nos níveis de antes da peste. Mas muitos trabalhadores desobedeceram, foram atrás de pagamento melhor, e os salários subiram."
+    },
+    {
+      "type": "takeaway",
+      "text": "Depois da Peste Negra faltaram trabalhadores; eles cobraram mais, e os salários subiram apesar das leis."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Uma lei contra o aumento"
+    },
+    {
+      "type": "paragraph",
+      "text": "O texto do Estatuto de 1351 reclama que os empregados só aceitavam servir pelo dobro ou pelo triplo do que ganhavam antes. A lei tabelava as diárias de ofícios como carpinteiro e pedreiro, e quem se recusasse a cumpri-la podia ir para o tronco ou para a cadeia. Mesmo assim, registros de tribunais mostram trabalhadores que largavam o emprego ou saíam da vila atrás de salários maiores. O Estatuto foi, provavelmente, a principal queixa dos trabalhadores na Revolta Camponesa de 1381."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nem tudo durou. Segundo as historiadoras Ada Palmer e Eleanor Janega, os ganhos de camponeses e artesãos nas décadas após a peste não sobreviveram aos séculos seguintes."
+    },
+    {
+      "type": "heading",
+      "text": "O enfraquecimento da servidão"
+    },
+    {
+      "type": "paragraph",
+      "text": "O servo era um camponês preso ao senhor: não podia deixar de vez sua terra ou sua aldeia sem permissão. Na Europa Ocidental, a falta de trabalhadores e as revoltas camponesas dos séculos XIV e XV favoreceram a troca de servos por camponeses livres. Em outros lugares, a servidão durou muito mais: na Rússia, os servos só ganharam liberdade pessoal em 1861."
+    },
+    {
+      "type": "heading",
+      "text": "Quantos morreram?"
+    },
+    {
+      "type": "paragraph",
+      "text": "As estimativas variam muito. Em 1969, o historiador Philip Ziegler calculou que cerca de um em cada três europeus morreu; John Aberth fala em metade, e Ole Benedictow, em 65%. Um estudo com pólen de 261 lagos e áreas úmidas mostrou que a mortalidade foi bem desigual: algumas regiões foram devastadas, enquanto outras, como boa parte da Europa Central e Oriental, quase não mudaram."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Peste Negra atingiu a Europa entre 1347 e 1352; historiadores estimam que matou de 30% a 60% da população, e o número exato ainda é discutido.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_scienceinpoland_pl_en_news_news_91252_e6e868",
+          "excerpt": "Historians have so far estimated that it killed 30 to 60 percent of the European population"
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_how_many_8520ff",
+          "excerpt": "We can say that tens of millions of people died when the Black Death struck in the years 1347 to 1352, but did it kill a third, half, or even two-thirds of the population? We do not know yet."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A mortalidade causou uma grave falta de trabalhadores, e os registros mostram que eles passaram a pedir e receber salários maiores.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "But the staggering mortality of the Black Death reduced this previously sufficient peasant population sharply enough to create a severe labor shortage."
+        },
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "Curiously, the documentary record, which provides ample evidence that workers did demand and receive higher wages"
+        },
+        {
+          "sourceId": "src_britannica_com_topic_serfdom_a6701c",
+          "excerpt": "The drastic population decline in Europe after 1350 as a result of the Black Death left much arable land uncultivated and also created an acute labour shortage, both economically favourable events for the peasantry."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Um cronista de Rochester, na Inglaterra, reclamou que os humildes mal aceitavam servir, a não ser por salário triplicado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "such a shortage of workers ensued that the humble turned up their noses at employment, and could scarcely be persuaded to serve the eminent unless for triple wages."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Na Inglaterra, a Ordenança de 1349 e o Estatuto dos Trabalhadores de 1351 tentaram congelar os salários nos níveis de antes da peste.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "In England they created first the Ordinance (1349) and then the Statute (1351) of Labourers, which froze wages at pre-plague levels"
+        },
+        {
+          "sourceId": "src_sourcebooks_fordham_edu_seth_statute_labourers_c13c14",
+          "excerpt": "the Statute of Laborers was a vain attempt to enforce the Ordinance of Laborers, which had in theory frozen wages at their pre-plague levels."
+        },
+        {
+          "sourceId": "src_britannica_com_event_peasants_revolt_8b24f1",
+          "excerpt": "Probably the main grievance of the agricultural laborers and urban working classes was the Statute of Labourers (1351), which attempted to fix maximum wages during the labor shortage following the Black Death."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Os trabalhadores pressionaram por salários maiores e mais liberdade de movimento, e os salários subiram.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "In the face of official intransigence, workers pushed for higher wages and greater mobility, which they received because “churchmen, knights, and other worthies” were willing to make these concessions"
+        },
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "As a result, wages rose, inequality lessened"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O texto do Estatuto reclama que os empregados só aceitavam servir pelo dobro ou o triplo do que ganhavam antes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sourcebooks_fordham_edu_seth_statute_labourers_c13c14",
+          "excerpt": "do withdraw themselves to serve great men and other, unless they have livery and wages to the double or treble of that they were wont to take the said twentieth year, and before"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O Estatuto tabelava diárias de ofícios como carpinteiro e pedreiro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sourcebooks_fordham_edu_seth_statute_labourers_c13c14",
+          "excerpt": "Item, that carpenters, masons, and tilers, and other workmen of houses, shall not take by teh dayu for their work, but in manner as they were wont"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Quem se recusasse a cumprir o Estatuto podia ir para o tronco ou para a cadeia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sourcebooks_fordham_edu_seth_statute_labourers_c13c14",
+          "excerpt": "shall be put in the stocks by the said lords, stewards, bailiffs, and constables of the towns by three days or more, or sent to the next gaol"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Registros de tribunais mostram trabalhadores que largaram o emprego ou deixaram a vila em busca de salários maiores, contra o Estatuto.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "left his employment before the feast of St Nicholas [6 December] without permission or reasonable cause, contrary to statute,”"
+        },
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "and on the same day they left the town to get higher wages elsewhere, in contempt of the king and contrary to statute."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "O Estatuto foi provavelmente a principal queixa dos trabalhadores na Revolta Camponesa de 1381.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_event_peasants_revolt_8b24f1",
+          "excerpt": "Probably the main grievance of the agricultural laborers and urban working classes was the Statute of Labourers (1351), which attempted to fix maximum wages during the labor shortage following the Black Death."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Segundo as historiadoras Ada Palmer e Eleanor Janega, os ganhos dos trabalhadores nas décadas após a peste não sobreviveram aos séculos seguintes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_humanities_washu_edu_news_how_black_3089f7",
+          "excerpt": "As historians Ada Palmer and Eleanor Janega have argued, whatever gains peasants and artisans obtained in the decades after the Black Death did not survive the following centuries."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "O servo não podia deixar de vez sua terra ou sua aldeia sem permissão do senhor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_serfdom_a6701c",
+          "excerpt": "Chief among these was the serf’s lack of freedom of movement; he could not permanently leave his holding or his village without his lord’s permission."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Na Europa Ocidental, as condições do século XIV e as revoltas camponesas dos séculos XIV e XV favoreceram a troca de servos por camponeses livres.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_serfdom_a6701c",
+          "excerpt": "By the 14th century, economic conditions in western Europe were favourable to the replacement of serfs by a free peasantry."
+        },
+        {
+          "sourceId": "src_britannica_com_topic_serfdom_a6701c",
+          "excerpt": "And finally, the endemic peasant uprisings in western Europe during the 14th and 15th centuries also forced more favourable terms of peasant tenure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Na Rússia, os servos só receberam liberdade pessoal em 1861.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_serfdom_a6701c",
+          "excerpt": "The serfs of Russia were not given their personal freedom and their own allotments of land until Alexander II’s Edict of Emancipation of 1861."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Philip Ziegler estimou, em 1969, que cerca de um em cada três europeus morreu; John Aberth fala em metade, e Ole Benedictow, em 65%.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_how_many_8520ff",
+          "excerpt": "Philip Ziegler’s 1969 work The Black Death was one of the first attempts to assess the number of deaths that took place during the pandemic."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_how_many_8520ff",
+          "excerpt": "To maintain that one European in three died during the period of the Black Death can never be proved but, equally, cannot be wildly far from the truth."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_how_many_8520ff",
+          "excerpt": "In John Aberth’s book, The Black Death: The Great Mortality of 1348–1350, he believes that half the population died."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_how_many_8520ff",
+          "excerpt": "A mortality rate of 65% indicates that roughly 52 million died by or in connection with the Black Death and that there were 28 million survivors."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Um estudo com pólen de 261 lagos e áreas úmidas mostrou que a mortalidade variou muito: algumas regiões foram devastadas, e outras, como boa parte da Europa Central e Oriental, quase não mudaram.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scienceinpoland_pl_en_news_news_91252_e6e868",
+          "excerpt": "The researchers analysed pollen data on landscape change from 261 lakes and wetlands located across 19 modern-day European countries."
+        },
+        {
+          "sourceId": "src_scienceinpoland_pl_en_news_news_91252_e6e868",
+          "excerpt": "The analysis confirms that the Black Death had a devastating impact in some regions, while it had negligible or no impact in others, the authors of the study report."
+        },
+        {
+          "sourceId": "src_scienceinpoland_pl_en_news_news_91252_e6e868",
+          "excerpt": "Meanwhile, many regions, including most Central and Eastern Europe and parts of Western Europe, including Ireland and the Iberian Peninsula, show evidence of continuity or uninterrupted increase in cultivation."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_scienceinpoland_pl_en_news_news_91252_e6e868",
+    "src_medievalists_net_2023_11_how_many_8520ff",
+    "src_humanities_washu_edu_news_how_black_3089f7",
+    "src_britannica_com_topic_serfdom_a6701c",
+    "src_sourcebooks_fordham_edu_seth_statute_labourers_c13c14",
+    "src_britannica_com_event_peasants_revolt_8b24f1"
+  ],
+  "quizIds": [
+    "q_black_death_wages_1__pt-BR",
+    "q_black_death_wages_2__pt-BR",
+    "q_black_death_wages_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

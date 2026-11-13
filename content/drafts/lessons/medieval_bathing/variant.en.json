@@ -1,0 +1,325 @@
+{
+  "id": "lesson_medieval_bathing__en",
+  "conceptId": "concept_medieval_bathing",
+  "locale": "en",
+  "slug": "did-people-in-the-middle-ages-never-bathe",
+  "title": "Did people in the Middle Ages never bathe?",
+  "hook": "Medieval Paris had dozens of bathhouses, with criers shouting that the water was hot.",
+  "summary": "They did: public bathhouses were common in medieval towns and only declined in the 16th century.",
+  "cardText": "They did. Public bathhouses were common in medieval towns, and Paris had dozens of them. They only went into decline in the 16th century.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "The Middle Ages are sometimes called “a thousand years without a bath”. The records say otherwise. With no plumbing, filling a tub at home was hard work: the water had to be fetched, heated and poured. So most towns had at least one bathhouse, and bigger cities had several. Paris had dozens by the late 13th century; sources give 26 or more than 32. Southwark, just across the river from London, had 18."
+    },
+    {
+      "type": "paragraph",
+      "text": "These public baths declined rapidly in the 16th century. Why is still debated: the explanations include fear of disease, such as syphilis, and moral pressure from stricter churchmen."
+    },
+    {
+      "type": "takeaway",
+      "text": "Medieval towns had public bathhouses; the habit only faded in the 16th century."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The everyday wash"
+    },
+    {
+      "type": "paragraph",
+      "text": "The daily wash usually meant heating water in a jug and pouring it into a large basin to scrub with. Health manuals of the time advised keeping the whole body clean. The 14th-century Italian physician Maino de Maineri wrote that a bath removes the dirt left behind by exercise. In warm weather you could use a pond or a lake; in winter, the bathhouse was the answer."
+    },
+    {
+      "type": "heading",
+      "text": "A town business"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Paris, a guild of bathhouse keepers set the rules of the trade, and a steam bath cost less than a full bath. Criers walked the streets in the morning announcing that the baths were hot. In smaller towns, the bathhouse was often attached to the bakery and used the heat from its ovens to warm the water."
+    },
+    {
+      "type": "heading",
+      "text": "Why the baths closed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bathhouses also had a reputation as places for sex and prostitution. In the 16th century they disappeared quickly, and historians still argue about why. One idea is pressure from stricter religious figures; another is fear of the diseases that had struck Europe since the Black Death. Syphilis, which spread faster in the late 15th century, may also have kept customers away."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1526 the Dutch philosopher Erasmus wrote that 25 years earlier nothing had been more fashionable in Brabant than public baths, and that the “new plague” had taught people to avoid them. In Paris, only two bathhouses were left by the end of the 16th century."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The idea that people didn’t bathe in the Middle Ages is a myth; bathing was common.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "It was said that the Middle Ages was ‘one thousand years without a bath.’ However, a closer look shows that baths and bathing were actually quite common in the Middle Ages, but in a different way than one might expect."
+        },
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "A longstanding myth holds that people in medieval Christian Europe didn’t bathe."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Without plumbing, a tub bath at home was hard work: water had to be fetched, heated and poured.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "Baths in a wooden tub would happen less often, given it was a world without plumbing. Water is heavy, and collecting it, heating it, and then getting it from the kettle into the bathtub was difficult."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Most towns had at least one bathhouse, and bigger cities had several.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "Most towns boasted at least one professional bathhouse, while cities played host to a number of competing establishments."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "That does not mean they went without bathing, for public baths were very common throughout Europe."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Paris had dozens of bathhouses in the late 13th century; sources give 26 in 1292 and more than 32 in the 13th century.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_parisvoice_com_paris_bains_douches_044101",
+          "excerpt": "By 1292, as many as 26 hot-bath establishments, called éstuves, were again in common use across the city."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "By the thirteenth century one could find over 32 bathhouses in Paris"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Southwark, across the Thames from London, had 18 hot baths.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "In Southwark, the town on the opposite side of the Thames River from London, a person could choose from 18 hot baths."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Public baths declined rapidly in the 16th century, and the causes are still debated.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "The prominence of the public bathhouse went into rapid decline in the sixteenth century."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "Several suggestions have been made as to why – were more puritanical religious people able to impose their moral values on the community, or were the diseases that struck Europe since the Black Death convincing people to avoid them?"
+        },
+        {
+          "sourceId": "src_parisvoice_com_paris_bains_douches_044101",
+          "excerpt": "By the end of the 16th century, all but two had been closed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The daily wash usually used water heated in a jug and poured into a large basin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "The daily wash usually involved collecting water in a ewer, heating it, then pouring it into a large basin to be used for scrubbing."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Medieval health manuals advised keeping the body clean; the 14th-century physician Maino de Maineri wrote that bathing removes the dirt left by exercise.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "They also explained that it was important to keep the entire body clean."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "For example, the fourteenth-century Italian physician Maino De Maineri stated in his work Regimen sanitatis that “the bath cleans the external body parts of dirt left behind from exercise on the outside of the body.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "In warm months people could bathe in ponds and lakes; in winter, bathhouses solved the problem.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "In warmer months, you could simply find a pond or a lake, and you were good to go. But in January this could be a problem, and that was where bathhouses came in."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "In Paris, a guild of bathhouse keepers set rules, and a steam bath cost less than a full bath.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "In Paris, a guild for bathhouse keepers set rules that bathkeepers had to abide by."
+        },
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "Much like modern spas, they offered customers a cheaper “steam bath [for] two pennies; and if he bathes, [he] should pay four pennies.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Paris bathhouses used criers who announced in the streets that the baths were hot.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_historynewsnetwork_org_article_184808_48ff31",
+          "excerpt": "To stand out in a crowded field, Parisian bathhouses employed criers to drum up business"
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "says that he would be awakened in the mornings by people crying in the streets that ‘the baths are hot!”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "In smaller towns, the bathhouse was often attached to the bakery and used the heat from its ovens.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "Even smaller towns would have bathhouses, often connected with the local bakery – the baths could make use of the heat coming from their ovens to help heat their water."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Bathhouses were also seen as places for sex and prostitution.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "Medieval people, in fact, seem to have accepted that the bathhouse was not only a place to get clean and healthy, but was also a place where sex and prostitution could occur."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Syphilis spread faster through Europe in the late 15th century, which may have kept people away from bathhouses.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "The disease of syphilis, which spread more rapidly in Europe in the late fifteenth century, would have also motivated people to stop their sexual promiscuity, thus reducing the other reasons for having a bathhouse."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "In 1526 Erasmus wrote that 25 years earlier nothing had been more fashionable in Brabant than public baths, and that the new plague had taught people to avoid them.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "The Dutch philosopher Erasmus, writing in 1526, notes the fall of the public bathhouse."
+        },
+        {
+          "sourceId": "src_medievalists_net_2023_11_people_middle_15b66f",
+          "excerpt": "“Twenty-five years ago, nothing was more fashionable in Brabant than the public baths,” he remarked. “Today there are none, the new plague has taught us to avoid them.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "In Paris, only two bathhouses were still open by the end of the 16th century.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_parisvoice_com_paris_bains_douches_044101",
+          "excerpt": "By the end of the 16th century, all but two had been closed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_medievalists_net_2023_11_people_middle_15b66f",
+    "src_historynewsnetwork_org_article_184808_48ff31",
+    "src_parisvoice_com_paris_bains_douches_044101"
+  ],
+  "quizIds": ["q_medieval_bathing_1__en", "q_medieval_bathing_2__en", "q_medieval_bathing_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

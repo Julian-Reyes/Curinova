@@ -1,0 +1,326 @@
+{
+  "id": "lesson_armour_weight__en",
+  "conceptId": "concept_armour_weight",
+  "locale": "en",
+  "slug": "could-knights-in-armour-barely-move",
+  "title": "Could knights in armour barely move?",
+  "hook": "Forget the crane to lift them onto their horses: in well-made armour, they could even run.",
+  "summary": "No: a suit of field armour weighed a few tens of kilos spread over the body, and its wearer could mount, run and get back up.",
+  "cardText": "They moved just fine. A suit of field armour weighed a few tens of kilos, spread over the body, and let its wearer mount, run and get up unaided. It was tiring, though.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In films, the armoured knight can barely walk and has to be winched onto his horse. There’s no evidence that ever happened. According to an essay from the Metropolitan Museum in New York, a complete suit of field armour usually weighed 20 to 25 kg, and that weight was spread over the whole body instead of hanging from the shoulders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tests with original armour and accurate copies have shown that even an untrained person can mount a horse, lie on the ground, get up and run in it. That doesn’t mean it was easy: a 2011 study found that walking in armour took more than twice the energy."
+    },
+    {
+      "type": "takeaway",
+      "text": "Armour was heavy, but its weight was spread over the body: knights could mount, run and get up unaided."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "So how heavy was it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estimates vary. The Metropolitan essay gives 20 to 25 kg for a complete suit of field armour, with 2 to 4 kg for the helmet. The authors of the 2011 study cite higher figures, 30 to 50 kg, for 15th-century field armour; their replicas, together with the padded doublet worn underneath, averaged 35 kg. Only in the 17th century did armour get much heavier, to stop ever more accurate firearms."
+    },
+    {
+      "type": "heading",
+      "text": "Getting into the saddle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medieval and Renaissance illustrations show men in full armour mounting horses with no help, ladders or cranes. Usually a foot in the stirrup was enough; a stool or a squire’s hand just made it quicker."
+    },
+    {
+      "type": "heading",
+      "text": "Agile, but tiring"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 2011 study, led from the University of Leeds, fight interpreters from the Royal Armouries museum wore replica armour and walked and ran while masks measured how much oxygen they used. In armour, walking cost 2.1 to 2.3 times as much energy, and running 1.9 times as much. Part of the extra effort came from swinging weighted arms and legs with every stride, and their breathing became faster and shallower."
+    },
+    {
+      "type": "paragraph",
+      "text": "Still, armour didn’t trap anyone. In tests by medievalist Daniel Jaquet, a volunteer in armour ran, chopped wood, climbed along the underside of a ladder like monkey bars, and even did somersaults and cartwheels."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The idea that knights needed a crane to get onto their horses is a myth with no historical evidence.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "Perhaps the most infamous example is the notion that “knights had to be hoisted into their saddles with a crane,” which is as absurd as it is persistent even among many historians."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_study_shows_cd6ffa",
+          "excerpt": "Movies and books often show knights in armor being hoisted onto their horses by a special crane for jousting tournaments, though there is little to no evidence for the practice."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "According to a Metropolitan Museum essay, a complete suit of field armour usually weighed 20 to 25 kg.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "An entire suit of field armor (that is, armor for battle) usually weighs between 45 and 55 lbs. (20 to 25 kg)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The weight of a well-fitted armour is spread over the whole body rather than hanging from the shoulders or waist.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "Moreover, while most modern equipment is chiefly suspended from the shoulders or waist, the weight of a well-fitted armor is distributed all over the body."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Tests with original armour and accurate copies showed that even an untrained person can mount a horse, lie down, get up and run in it.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "Modern experiments with genuine fifteenth- and sixteenth-century armor as well as with accurate copies have shown that even an untrained man in a properly fitted armor can mount and dismount a horse, sit or lie on the ground, get up again, run, and generally move his limbs freely and without discomfort."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_study_shows_cd6ffa",
+          "excerpt": "What they found is that while the armor did add weight and increased energy use, the wearer retained most of his range of motion."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A 2011 study showed that walking in armour took more than twice the energy of walking without it.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "A study published July 19 in Proceedings of the Royal Society B shows that soldiers carrying armour in Medieval times would have been using more than twice the amount of energy had they not been wearing it."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_45db4b",
+          "excerpt": "Cmet for locomotion in armour was 2.1–2.3 times higher for walking, and 1.9 times higher for running when compared with Cmet for unloaded locomotion at the same speed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The same essay gives 2 to 4 kg for the helmet.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "(20 to 25 kg), with the helmet weighing between 4 and 8 lbs. (2 to 4 kg)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The authors of the 2011 study say a typical 15th-century suit of field armour weighed 30 to 50 kg.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_45db4b",
+          "excerpt": "By the fifteenth century, a typical suit of field armour weighed between 30 and 50 kg and was distributed over the entire body."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "During warfare in the 15th century, soldiers wore steel plate armour, typically weighing 30-50kg."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The replicas used in the study, including the padded doublet worn underneath, weighed 35 kg on average.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_45db4b",
+          "excerpt": "The mass of the armour (including arming doublet—a padded garment to which parts of the armour are attached with protective mail gussets) averaged 35 ± 5 kg, representing 44 ± 3% of the individual's body mass."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Only in the 17th century did field armour become much heavier, to stop increasingly accurate firearms.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "It was not until the seventeenth century that the weight of field armor was greatly increased in order to render it bulletproof against ever more accurate firearms."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Medieval and Renaissance illustrations show men in full armour mounting horses unaided, without ladders or cranes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "Furthermore, there are several illustrations from the Middle Ages and the Renaissance depicting men-at-arms, squires, or knights, all in full armor, mounting horses without help or instruments such as ladders or cranes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Most could mount by putting a foot in the stirrup; a stool or a squire made it quicker.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "Most men-at-arms would have been able to simply put one foot in a stirrup and mount their horse without assistance."
+        },
+        {
+          "sourceId": "src_brewminate_com_common_misconceptions_about_medieval_367129",
+          "excerpt": "A stool or perhaps the help of a squire would have made the process even speedier; a crane, however, was absolutely unnecessary."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "In the 2011 study, led from the University of Leeds, fight interpreters from the Royal Armouries museum wore replica armour and walked and ran while masks measured their oxygen use.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "says lead researcher, Dr Graham Askew from the University of Leeds Faculty of Biological Sciences."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "Researchers worked with highly skilled fight interpreters from the Royal Armouries Museum, who wore exact replicas of four different types of European armour."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "They undertook a range of walking and running exercises, during which their oxygen usage was measured through respirometry masks"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "In armour, walking cost 2.1 to 2.3 times as much energy, and running 1.9 times as much.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_45db4b",
+          "excerpt": "Cmet for locomotion in armour was 2.1–2.3 times higher for walking, and 1.9 times higher for running when compared with Cmet for unloaded locomotion at the same speed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Part of the extra effort came from swinging weighted limbs with every stride.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "This is because, in a suit of armour, the limbs are loaded with weight, which means it takes more effort to swing them with each stride."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "In armour, the participants took more frequent, shallower breaths.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+          "excerpt": "Rather than taking deep breaths when they were exerting themselves -- as they would have done had they not been wearing armour -- the interpreters took a greater number of shallower breaths."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "In tests by medievalist Daniel Jaquet, a volunteer in armour ran, chopped wood, climbed the underside of a ladder and did somersaults and cartwheels.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_study_shows_cd6ffa",
+          "excerpt": "To test the suit of armor, Jacquet’s subject followed Boucicaut’s routine, running and walking along trails and through the city in the armor and jumping onto a pommel horse to simulate jumping on a horse."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_study_shows_cd6ffa",
+          "excerpt": "He also chopped a pile of wood with an axe and climbed the underside of a ladder monkey bar-style."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_study_shows_cd6ffa",
+          "excerpt": "He also performs somersaults and cartwheels and danced a little."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_brewminate_com_common_misconceptions_about_medieval_367129",
+    "src_smithsonianmag_com_smart_news_study_shows_cd6ffa",
+    "src_sciencedaily_com_releases_2011_07_110719194352_943fe9",
+    "src_pmc_ncbi_nlm_nih_gov_articles_45db4b"
+  ],
+  "quizIds": ["q_armour_weight_1__en", "q_armour_weight_2__en", "q_armour_weight_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_middle_ages_myths"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

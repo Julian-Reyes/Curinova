@@ -1,0 +1,27 @@
+{
+  "id": "concept_black_death_wages",
+  "topicId": "history",
+  "clusterId": "cluster_middle_ages_myths",
+  "clusterOrder": 6,
+  "tags": ["middle-ages", "black-death", "economy", "plague"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_medieval_life_expectancy",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Como a morte de crianças e as doenças pesavam na vida medieval.",
+        "en": "How child deaths and disease weighed on medieval life."
+      }
+    },
+    {
+      "conceptId": "concept_medieval_bathing",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O medo de doenças também ajudou a fechar as casas de banho.",
+        "en": "Fear of disease also helped close the bathhouses."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

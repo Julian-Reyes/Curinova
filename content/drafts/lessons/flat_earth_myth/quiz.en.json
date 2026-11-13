@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_flat_earth_myth_1__en",
+    "questionGroupId": "qg_flat_earth_myth_1",
+    "conceptId": "concept_flat_earth_myth",
+    "locale": "en",
+    "prompt": "What did medieval scholars teach about the Earth’s shape?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That it is a sphere"
+      },
+      {
+        "id": "b",
+        "text": "That it is a flat disc surrounded by water"
+      },
+      {
+        "id": "c",
+        "text": "That it has an edge ships can fall off"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Bede, around AD 700, and the Treatise on the Sphere, in the 13th century, both described the Earth as round.",
+    "misconception": "The picture of medieval people fearing the world’s edge comes from 19th-century books, not from the Middle Ages.",
+    "claimIds": ["c1", "c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_flat_earth_myth_2__en",
+    "questionGroupId": "qg_flat_earth_myth_2",
+    "conceptId": "concept_flat_earth_myth",
+    "locale": "en",
+    "prompt": "What worried the critics of Columbus’s plan?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The length of the voyage and the trip back"
+      },
+      {
+        "id": "b",
+        "text": "Whether the Earth was really round"
+      },
+      {
+        "id": "c",
+        "text": "Whether the ships would fall off the edge of the world"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The critics were concerned about the distance and the difficulty of returning; Columbus, for his part, thought the Earth was smaller than it is.",
+    "claimIds": ["c4", "c10", "c11"],
+    "status": "draft"
+  },
+  {
+    "id": "q_flat_earth_myth_3__en",
+    "questionGroupId": "qg_flat_earth_myth_3",
+    "conceptId": "concept_flat_earth_myth",
+    "locale": "en",
+    "prompt": "When did the idea that medieval people believed in a flat Earth spread?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the 19th century"
+      },
+      {
+        "id": "b",
+        "text": "During the Middle Ages themselves"
+      },
+      {
+        "id": "c",
+        "text": "In ancient Greece"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "19th-century writers such as Washington Irving, Draper and White popularised the story.",
+    "claimIds": ["c5", "c12", "c13"],
+    "status": "draft"
+  }
+]
