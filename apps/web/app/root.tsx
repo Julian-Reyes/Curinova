@@ -1,5 +1,5 @@
 import { BRAND, isLocale } from '@lumen/domain';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { I18nextProvider } from 'react-i18next';
 import {
   Links,
@@ -14,6 +14,7 @@ import type { Route } from './+types/root';
 import { createI18n } from './i18n';
 import { publicLocaleOf } from './public/paths';
 import { BOOT_SCRIPT } from './platform/storage-keys';
+import { applyPendingUpdate } from './platform/sw-update';
 import './styles/app.css';
 
 export const meta: Route.MetaFunction = () => [
@@ -73,6 +74,15 @@ export default function App() {
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   // Rendered outside the i18n provider, so it is bilingual by design.
   const status = isRouteErrorResponse(error) ? error.status : 500;
+  const [updating, setUpdating] = useState(false);
+  useEffect(() => {
+    if (status === 404) return;
+    console.error(error);
+    // An outdated app may have failed on newer content: take the new version if there is one.
+    applyPendingUpdate()
+      .then(setUpdating)
+      .catch(() => undefined);
+  }, [error, status]);
   return (
     <main className="glow-bg flex min-h-dvh flex-col items-center justify-center gap-3 p-6 text-center">
       {/* eslint-disable i18next/no-literal-string -- bilingual fallback shown when the app itself failed */}
@@ -82,7 +92,9 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
           : 'Algo deu errado · Something went wrong'}
       </h1>
       <p className="text-muted">
-        Seu progresso continua salvo neste aparelho. · Your progress is still saved on this device.
+        {updating
+          ? 'Atualizando o app… · Updating the app…'
+          : 'Seu progresso continua salvo neste aparelho. · Your progress is still saved on this device.'}
       </p>
       <a
         className="pressable mt-2 rounded-full bg-primary px-5 py-3 font-semibold text-on-primary"
