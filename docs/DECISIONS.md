@@ -354,6 +354,15 @@ Approved plan, built in seven steps (one commit each): (1) starter pack, (2) off
 - **Speed (§15):** size budgets (app code, public pages, starter pack) fail the build; the timing check (LCP, CLS, next card, on a throttled mid-range phone) only reports in CI, because shared CI machines' timings vary.
 - **Not included:** a guard against old cached app code meeting new content. The recovery from D26 already reloads into the new version.
 
+### D29 · Trail batch 3 — Founder (2026-11-13)
+
+The founder approved six trails in chat, 36 lessons (37 if Pompeii's optional Brazil lesson holds up): Myths about the Middle Ages, Medieval inventions we still use, Rome: what lasted, Pompeii: a city frozen in time, Animal superpowers, Why your body does weird things. Outlines, lesson keys, order and source requirements: [`docs/content/TRAILS_BATCH_3.md`](content/TRAILS_BATCH_3.md). Writer sessions skip WRITER.md §1 for these trails.
+
+- **Why these:** History felt too Brazil-heavy (founder, 2026-11-04), and Nature & Animals and Human Body & Biology each had one trail.
+- **Founder edits to the outlines:** the vomitorium lesson is dropped (Rome has five lessons); the Black Death lesson is titled "Why did wages soar after the Black Death?"; Animal superpowers swaps the cat-righting lesson for hummingbird hovering and the "immortal" jellyfish (seven lessons). Agent choices inside the approval, open to change: "Did medieval people die at 30?" replaces the "Dark Ages" lesson, which would repeat the inventions trail's point, and Pompeii's Brazil lesson is kept only if the sources hold up.
+- **Discover card text is written with the lessons**, unlike batch 2 (D19). Pictures come later.
+- **Branch `content/batch-3`** from `main`, replacing the retired shared branch `content/c1-moon`. Writer and verifier are separate sessions per trail, as in D18.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.
