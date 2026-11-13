@@ -1,0 +1,320 @@
+{
+  "id": "lesson_brain_freeze__pt-BR",
+  "conceptId": "concept_brain_freeze",
+  "locale": "pt-BR",
+  "slug": "o-que-e-o-cerebro-congelado",
+  "title": "O que é o “cérebro congelado” do sorvete?",
+  "hook": "Uma colherada apressada de açaí bem gelado e pronto: a testa lateja por alguns segundos.",
+  "summary": "É uma dor de cabeça curta disparada pelo frio no céu da boca; ela aparece na testa, e a explicação mais aceita envolve nervos e mudanças rápidas nos vasos sanguíneos.",
+  "cardText": "É uma dor de cabeça curta disparada pelo frio no céu da boca. Ela aparece na testa, e a causa provável envolve nervos e vasos sanguíneos reagindo ao gelado.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Uma colherada grande de açaí bem gelado, um picolé mordido com pressa, e de repente a testa lateja. Os médicos chamam isso de cefaleia por estímulo frio: uma dor de cabeça que surge logo depois que algo gelado toca o céu da boca ou o fundo da garganta. Ela costuma começar em 20 a 30 segundos e passa rápido; num estudo com estudantes, a maioria das crises durou menos de 10 segundos."
+    },
+    {
+      "type": "paragraph",
+      "text": "O curioso é o endereço da dor. O frio toca o céu da boca, inervado pelo nervo trigêmeo, mas a dor aparece no meio da testa, dos dois lados. O mecanismo ainda não está totalmente explicado. A ideia mais aceita combina receptores de frio estimulados com vasos sanguíneos que se contraem e se dilatam depressa."
+    },
+    {
+      "type": "takeaway",
+      "text": "O frio no céu da boca dispara uma dor de cabeça curta na testa, ligada a nervos e vasos sanguíneos."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Um experimento com sorvete"
+    },
+    {
+      "type": "paragraph",
+      "text": "Entre dezembro de 2001 e janeiro de 2002, 145 alunos de uma escola em Hamilton, no Canadá, foram sorteados em dois grupos: metade comeu 100 ml de sorvete em menos de 5 segundos, a outra metade em mais de 30. Entre os apressados, 27% tiveram dor de cabeça; entre os cuidadosos, 13%. Como foi feito no inverno, o estudo também sugeriu que a dor aparece mesmo no frio e mesmo em quem come devagar."
+    },
+    {
+      "type": "heading",
+      "text": "Uma artéria que se abre"
+    },
+    {
+      "type": "paragraph",
+      "text": "Num estudo pequeno, apresentado num congresso em 2012, 13 adultos tomaram água gelada com o canudo encostado no céu da boca enquanto um aparelho media o fluxo de sangue no cérebro. A dor coincidiu com a dilatação rápida de uma artéria, a cerebral anterior, e passou quando ela voltou a se contrair. Os autores especulam que o sangue extra ajudaria a manter o cérebro aquecido e que, como o crânio é fechado, a pressão subiria e causaria a dor. É uma hipótese, não uma conclusão."
+    },
+    {
+      "type": "heading",
+      "text": "Quem sente mais"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crianças relatam a dor com mais frequência: numa pesquisa, 62% dos estudantes já a tinham sentido, contra 31% dos adultos. Ela também é mais comum em quem já tem outras dores de cabeça, sobretudo enxaqueca."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A cefaleia por estímulo frio, a “dor de cabeça do sorvete”, surge logo depois que algo gelado toca o céu da boca ou o fundo da garganta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "Headache occurring immediately after a cold stimulus to the palate and/or posterior pharyngeal wall from ingestion of cold food, drink, or inhalation of cold air, previously known as “ice-cream headache” and “brain-freeze headache”."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Cold stimulus headache, also known as ice cream headache, is a common problem"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A dor costuma começar 20 a 30 segundos depois do estímulo frio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "The onset of the pain is documented as an early onset [8], typically within 20–30 s after the cold stimulus"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Num estudo com estudantes, 17 das 29 crises (59%) duraram menos de 10 segundos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Of the 29 headaches reported, 17 (59%) lasted for less than 10 seconds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O céu da boca é inervado pelo nervo trigêmeo, ligado à dor típica na frente da cabeça.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "direct stimulation to the palate (innervated by the trigeminal nerve)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "the typical anterior pain due to the trigeminal nerve"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "A dor costuma aparecer dos dois lados, no meio da testa, embora também possa surgir nas têmporas ou atrás dos olhos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "According to the IHS classification, the localization of CSH is typically bilateral and mid-frontal, although the pain can be temporal, frontal, or retro-orbital"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O mecanismo ainda não está totalmente explicado; a ideia mais aceita combina receptores de frio estimulados com mudanças nos vasos sanguíneos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "The pathogenetic mechanism of CSH is still not fully understood and different hypotheses have been put forward, but it is generally believed that local and cerebral vascular changes combined with direct stimulation of cold receptors are involved"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "However, scientists are still at a loss to explain this phenomenon."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O gelado pode fazer os vasos se contraírem e se dilatarem depressa, ativando sensores de dor na parede deles.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "this substance may trigger rapid constriction and dilation of vessels with activation of nociceptors of the vessel wall"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Entre dezembro de 2001 e janeiro de 2002, 145 alunos de uma escola no Canadá foram sorteados para comer 100 ml de sorvete em menos de 5 segundos ou em mais de 30.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "All 145 students at Dalewood Middle School in Hamilton (Canada)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "were given 100 ml of ice cream and were told to eat it in >30 seconds"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Participants who received red dot questionnaires were given 100 ml of ice cream but were instructed to eat it in <5 seconds."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "There were six eating sessions between December 2001 and January 2002"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Entre os apressados, 27% tiveram dor de cabeça; entre os cuidadosos, 13%.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Twenty (27%) of 73 students in the accelerated eating group reported ice cream headache compared with 9 (13%) of 72 students in the cautious eating group"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Feito no inverno, o estudo sugeriu que a dor aparece mesmo no frio e mesmo em quem come devagar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "The study was carried out during the winter to test whether this phenomenon was restricted to hot weather only."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "our results suggest that ice cream headache can be induced in cold weather even in subjects who eat their ice cream at a slow pace."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Num estudo pequeno apresentado em 2012, 13 adultos tomaram água gelada com o canudo encostado no céu da boca enquanto se media o fluxo de sangue no cérebro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "In this study, Serrador and his colleague recruited 13 healthy adults."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "sipped ice water with the straw pressed against their upper palate"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "will be discussed at the meeting Experimental Biology 2012"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A dor coincidiu com a dilatação rápida da artéria cerebral anterior e passou quando ela voltou a se contrair.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "Findings showed that one particular artery, called the anterior cerebral artery, dilated rapidly and flooded the brain with blood in conjunction to when the volunteers felt pain. Soon after this dilation occurred, the same vessel constricted as the volunteers' pain receded."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Os autores especulam que o sangue extra ajudaria a manter o cérebro aquecido e que, como o crânio é fechado, a pressão subiria e causaria a dor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "Serrador and his colleagues speculate that the dilation, then quick constriction, may be a type of self-defense for the brain."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "so vasodilation might be moving warm blood inside tissue to make sure the brain stays warm."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "But because the skull is a closed structure, Serrador adds, the sudden influx of blood could raise pressure and induce pain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Numa pesquisa, 62% dos estudantes já tinham sentido a dor, contra 31% dos adultos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "found prevalence levels of 62% in the student population and 31% in the adult population"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "A dor do sorvete é mais comum em quem já tem outras dores de cabeça, sobretudo enxaqueca.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "The prevalence of CSH in children and adolescents, as in the adult population, is higher in patients with a previous history of headaches, in particular migraine"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "Since migraine sufferers are more likely to experience brain freeze than people who don't have this often-debilitating condition"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+    "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+    "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5"
+  ],
+  "quizIds": ["q_brain_freeze_1__pt-BR", "q_brain_freeze_2__pt-BR", "q_brain_freeze_3__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

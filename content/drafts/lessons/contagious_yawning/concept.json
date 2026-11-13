@@ -1,0 +1,27 @@
+{
+  "id": "concept_contagious_yawning",
+  "topicId": "body",
+  "clusterId": "cluster_body_weird_things",
+  "clusterOrder": 3,
+  "tags": ["body", "brain", "behavior", "empathy"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_goosebumps",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Outro gesto automático que também aparece com emoção: o arrepio.",
+        "en": "Another automatic response that also shows up with emotion: goosebumps."
+      }
+    },
+    {
+      "conceptId": "concept_brain_freeze",
+      "type": "next",
+      "reason": {
+        "pt-BR": "A seguir, uma dor de cabeça que dura segundos.",
+        "en": "Next, a headache that lasts seconds."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

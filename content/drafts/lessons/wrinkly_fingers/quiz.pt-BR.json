@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_wrinkly_fingers_1__pt-BR",
+    "questionGroupId": "qg_wrinkly_fingers_1",
+    "conceptId": "concept_wrinkly_fingers",
+    "locale": "pt-BR",
+    "prompt": "O que faz a ponta dos dedos enrugar na água?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A pele absorve água e incha"
+      },
+      {
+        "id": "b",
+        "text": "Os nervos contraem os vasos e a polpa do dedo perde volume"
+      },
+      {
+        "id": "c",
+        "text": "O sabão resseca a pele"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "É um processo ativo: os vasos se contraem por ordem do sistema nervoso autônomo.",
+    "misconception": "A pele inchando de água era a explicação antiga; hoje se sabe que são os nervos e os vasos.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_wrinkly_fingers_2__pt-BR",
+    "questionGroupId": "qg_wrinkly_fingers_2",
+    "conceptId": "concept_wrinkly_fingers",
+    "locale": "pt-BR",
+    "prompt": "Por que o enrugamento dos dedos serve como teste médico?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porque mostra se os nervos estão funcionando"
+      },
+      {
+        "id": "b",
+        "text": "Porque mede quanta água a pele tem"
+      },
+      {
+        "id": "c",
+        "text": "Porque revela alergias de pele"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Dedos com o nervo lesionado não enrugam, então o teste indica a função dos nervos.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_wrinkly_fingers_3__pt-BR",
+    "questionGroupId": "qg_wrinkly_fingers_3",
+    "conceptId": "concept_wrinkly_fingers",
+    "locale": "pt-BR",
+    "prompt": "As rugas melhoram a pegada em objetos molhados?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sim, todos os estudos confirmam"
+      },
+      {
+        "id": "b",
+        "text": "Não, nenhum estudo testou isso"
+      },
+      {
+        "id": "c",
+        "text": "Os estudos discordam: dois acharam vantagem, outro não"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Num teste, dedos enrugados foram mais rápidos com objetos submersos; num estudo com 40 voluntários, não houve melhora.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

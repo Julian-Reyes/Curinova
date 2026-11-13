@@ -1,0 +1,313 @@
+{
+  "id": "lesson_goosebumps__pt-BR",
+  "conceptId": "concept_goosebumps",
+  "locale": "pt-BR",
+  "slug": "por-que-a-gente-fica-arrepiado",
+  "title": "Por que a gente fica arrepiado?",
+  "hook": "Num gato assustado, o pelo eriçado faz figura. Em nós, que quase não temos pelo, sobrou o arrepio.",
+  "summary": "Músculos minúsculos presos a cada pelo se contraem e o levantam; em bichos peludos isso segura calor, e um estudo de 2020 em camundongos mostrou que esses músculos e nervos também ajudam o pelo a crescer.",
+  "cardText": "Cada pelo tem um músculo minúsculo que, ao se contrair, o deixa em pé e forma o calombinho. Em bichos peludos isso segura calor; em nós, a utilidade ainda é debatida.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine um gato encurralado por um cachorro: pelo eriçado, costas arqueadas, corpo de lado. Tudo isso o faz parecer maior. O arrepio humano é o mesmo mecanismo, numa pele quase sem pelo. Cada pelo tem preso a ele um músculo minúsculo, o eretor do pelo. No frio, nervos do sistema simpático mandam um sinal, o músculo se contrai, o pelo fica em pé e a pele forma o calombinho."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em bichos de pelagem grossa, o pelo levantado aumenta a camada de ar que isola o corpo. Como não temos pelagem, o arrepio humano foi muito tempo visto como uma sobra inútil da evolução. Mas um estudo de 2020 em camundongos mostrou que o mesmo nervo e o mesmo músculo também ativam as células-tronco que fazem o pelo crescer."
+    },
+    {
+      "type": "takeaway",
+      "text": "O arrepio é a contração de músculos minúsculos que levantam os pelos; em camundongos, esses músculos e nervos também fazem o pelo crescer."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nervo, músculo e célula-tronco"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao microscópio eletrônico, pesquisadores de Harvard viram que as fibras do nervo simpático não se ligam só ao músculo: elas se enrolam nas células-tronco do folículo, a estrutura de onde nasce o pelo, como uma fita. Com frio prolongado, o nervo ficou muito mais ativo, as células-tronco despertaram e um pelo novo cresceu. Quando os cientistas retiraram o músculo, o nervo recuou e perdeu a ligação com elas. Ou seja, o músculo do arrepio serve de ponte. Os resultados, publicados na revista Cell, vêm de camundongos."
+    },
+    {
+      "type": "heading",
+      "text": "Arrepio de emoção"
+    },
+    {
+      "type": "paragraph",
+      "text": "Também nos arrepiamos ao ouvir o hino num pódio, numa cerimônia de casamento ou diante de um filme de terror. Nessas horas, entra em cena a adrenalina, um hormônio do estresse que, entre muitos outros efeitos, faz os músculos da pele se contraírem."
+    },
+    {
+      "type": "heading",
+      "text": "Inútil mesmo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A ideia de que o arrepio humano não serve para nada vem sendo questionada. Um estudo registrou 1.198 arrepios em oito voluntários e viu que eles respondiam a quedas na temperatura da pele e vinham acompanhados de um leve aquecimento dela. A conclusão é que o arrepio humano não é puramente vestigial, ou seja, não é só um resto sem função. Mas a amostra é pequena e, em humanos, a função do arrepio ainda não é certa."
+    },
+    {
+      "type": "heading",
+      "text": "Uma dúvida antiga"
+    },
+    {
+      "type": "paragraph",
+      "text": "A pele arrepiada lembra a de uma ave depenada. Charles Darwin já escrevia sobre o arrepio em seus textos sobre evolução."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Diante de um cachorro, o pelo eriçado, as costas arqueadas e a posição de lado fazem o gato parecer maior.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "The elevated hair, together with the arched back and the sideward position the animal often assumes, makes the cat appear bigger in an attempt to make the dog back off."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O arrepio vem da contração de músculos minúsculos presos a cada pelo, os eretores do pelo, que deixam o pelo em pé e formam calombos na pele.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "These bumps are caused by a contraction of miniature muscles that are attached to each hair."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "the contraction of the arrector pili muscle, causing the hair to stand erect and forming visible bumps on the skin."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Com frio, neurônios do sistema nervoso simpático mandam um sinal e o músculo se contrai, deixando o pelo em pé.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "the cold triggers sympathetic neurons to send a nerve signal, and the muscle reacts by contracting and causing the hair to stand on end."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em animais de pelagem grossa, o pelo levantado aumenta a camada de ar que isola o corpo e segura o calor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "In animals with a thick hair coat this rising of hair expands the layer of air that serves as insulation."
+        },
+        {
+          "sourceId": "src_nyscf_org_resources_why_do_we_c92b62",
+          "excerpt": "standing hair on end traps air to create a layer of insulation, keeping them warm in chilly conditions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Como não temos pelagem, o arrepio humano foi muito tempo visto como uma sobra inútil da evolução.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "In people this reaction is useless because we do not have a hair coat, but goosebumps persist nevertheless."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "Despite prevailing notions of piloerection as a vestigial response in humans"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Um estudo de 2020 em camundongos mostrou que o mesmo nervo e o mesmo músculo do arrepio também ativam as células-tronco que fazem o pelo crescer.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "The sympathetic nerve reacts to cold by contracting the muscle and causing goosebumps in the short term, and by driving hair follicle stem cell activation and new hair growth over the long term."
+        },
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "Shwartz, Y., Gonzalez-Celeiro, M., Chen, C.-L., et al. (2020)."
+        },
+        {
+          "sourceId": "src_nyscf_org_resources_why_do_we_c92b62",
+          "excerpt": "Goosebumps activate a stem cell population in the hair follicle that stimulates hair regeneration, finds a new study in mice"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Ao microscópio eletrônico, as fibras do nervo simpático apareceram enroladas nas células-tronco do folículo, como uma fita.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "when examining the skin under extremely high resolution using electron microscopy, the researchers found that the sympathetic nerve not only associated with the muscle, but also formed a direct connection to the hair follicle stem cells. In fact, the nerve fibers wrapped around the hair follicle stem cells like a ribbon."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Com frio prolongado, o nervo ficou muito mais ativo, as células-tronco despertaram e um pelo novo cresceu.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "Under prolonged cold, the nerve was activated at a much higher level and more neurotransmitters were released, causing the stem cells to activate quickly, regenerate the hair follicle, and grow new hair."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Quando os pesquisadores retiraram o músculo, o nervo recuou e perdeu a ligação com as células-tronco.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "When they removed the muscle connected to the hair follicle, the sympathetic nerve retracted and the nerve connection to the hair follicle stem cells was lost"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Os resultados, publicados na revista Cell, vêm de camundongos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "Published in the journal Cell, these findings in mice"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Também nos arrepiamos em momentos de emoção, como ouvir o hino num pódio ou ver um filme de terror.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "People also tend to experience goosebumps during emotional situations, such as walking down the aisle during their wedding, standing on a podium and listening to a national anthem after winning in sports, or even just watching horror movies on television."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A adrenalina, um hormônio do estresse, faz os músculos da pele se contraírem.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "Adrenaline, which in humans is produced in two small beanlike glands that sit atop the kidneys, not only causes the contraction of skin muscles but also influences many other body reactions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Um estudo registrou 1.198 arrepios em oito voluntários; eles responderam a quedas na temperatura da pele e vieram com um aquecimento dela.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "I observed 1198 piloerection episodes from eight participants"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "it does respond to decreases in skin temperature and is associated with a rise in skin temperature during episodes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O estudo conclui que o arrepio humano não é puramente vestigial, mas sua função em nós ainda não é certa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "This research underscores that piloerection in humans is not purely vestigial"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "While piloerection serves clear functions in non-human animals, the same cannot be said with certainty when it comes to humans."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "A pele arrepiada lembra a de uma ave depenada, e Charles Darwin já escrevia sobre o arrepio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "Goosebumps are tiny elevations of the skin that resemble the skin of poultry after the feathers have been plucked."
+        },
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "so did Charles Darwin, who mused about them in his writings on evolution."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_scientificamerican_com_article_why_do_humans_39b6af",
+    "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+    "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+    "src_nyscf_org_resources_why_do_we_c92b62"
+  ],
+  "quizIds": ["q_goosebumps_1__pt-BR", "q_goosebumps_2__pt-BR", "q_goosebumps_3__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

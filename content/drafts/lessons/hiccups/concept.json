@@ -1,0 +1,27 @@
+{
+  "id": "concept_hiccups",
+  "topicId": "body",
+  "clusterId": "cluster_body_weird_things",
+  "clusterOrder": 1,
+  "tags": ["body", "reflexes", "breathing", "evolution"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_goosebumps",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outro reflexo que o corpo faz sozinho: o arrepio.",
+        "en": "Another reflex your body runs on its own: goosebumps."
+      }
+    },
+    {
+      "conceptId": "concept_knuckle_cracking",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro barulho estranho do corpo, com uma explicação que também já foi debatida.",
+        "en": "Another odd body noise whose explanation was also long debated."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

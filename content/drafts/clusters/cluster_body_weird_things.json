@@ -1,0 +1,40 @@
+{
+  "id": "cluster_body_weird_things",
+  "topicId": "body",
+  "slug": {
+    "pt-BR": "por-que-o-corpo-faz-coisas-estranhas",
+    "en": "why-your-body-does-weird-things"
+  },
+  "title": {
+    "pt-BR": "Por que o corpo faz coisas estranhas",
+    "en": "Why your body does weird things"
+  },
+  "hook": {
+    "pt-BR": "Soluço, arrepio, bocejo contagioso: o que está por trás das esquisitices do corpo.",
+    "en": "Hiccups, goosebumps, contagious yawns: what’s behind your body’s odd habits."
+  },
+  "conceptIds": [
+    "concept_hiccups",
+    "concept_goosebumps",
+    "concept_contagious_yawning",
+    "concept_brain_freeze",
+    "concept_wrinkly_fingers",
+    "concept_foot_falling_asleep"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_body_renews",
+      "reason": {
+        "pt-BR": "Das esquisitices do corpo a como ele se reconstrói, célula por célula.",
+        "en": "From the body’s quirks to how it rebuilds itself, cell by cell."
+      }
+    },
+    {
+      "clusterId": "cluster_everyday_myths",
+      "reason": {
+        "pt-BR": "Mais curiosidades do corpo, como estalar os dedos, numa trilha de mitos do dia a dia.",
+        "en": "More body curiosities, like cracking your knuckles, in a trail of everyday myths."
+      }
+    }
+  ]
+}

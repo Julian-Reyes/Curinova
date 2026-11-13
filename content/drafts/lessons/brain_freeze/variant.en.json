@@ -1,0 +1,320 @@
+{
+  "id": "lesson_brain_freeze__en",
+  "conceptId": "concept_brain_freeze",
+  "locale": "en",
+  "slug": "what-is-brain-freeze",
+  "title": "What is brain freeze?",
+  "hook": "One hurried spoonful of ice cream and your forehead throbs for a few seconds.",
+  "summary": "It is a short headache set off by cold on the roof of the mouth; it is felt in the forehead, and the leading explanation involves nerves and rapid changes in blood vessels.",
+  "cardText": "It’s a short headache set off by cold on the roof of your mouth. You feel it in your forehead, and nerves and blood vessels reacting to the cold are the likely cause.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "A big spoonful of ice cream, a slushie gulped too fast, and suddenly your forehead throbs. Doctors call it cold-stimulus headache: a headache that comes on right after something cold touches the roof of the mouth or the back of the throat. It typically starts within 20 to 30 seconds and fades quickly; in one study of schoolchildren, most episodes lasted less than 10 seconds."
+    },
+    {
+      "type": "paragraph",
+      "text": "The odd part is where it hurts. The cold touches the palate, which is supplied by the trigeminal nerve, yet the pain shows up in the middle of the forehead, on both sides. The mechanism is not fully understood. The leading idea combines stimulated cold receptors with blood vessels that rapidly narrow and widen."
+    },
+    {
+      "type": "takeaway",
+      "text": "Cold on the roof of the mouth triggers a brief forehead headache, linked to nerves and blood vessels."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "An ice cream trial"
+    },
+    {
+      "type": "paragraph",
+      "text": "Between December 2001 and January 2002, 145 pupils at a school in Hamilton, Canada, were randomly split into two groups: half ate 100 ml of ice cream in under 5 seconds, the other half took more than 30. Among the fast eaters, 27% got a headache; among the careful ones, 13%. Because it ran in winter, the study also suggested the headache happens even in cold weather and even in slow eaters."
+    },
+    {
+      "type": "heading",
+      "text": "An artery that opens up"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a small study presented at a 2012 conference, 13 adults sipped ice water with the straw pressed against the roof of the mouth while a device measured blood flow in the brain. The pain coincided with one artery, the anterior cerebral artery, rapidly widening, and faded as it narrowed again. The authors speculate that the extra blood helps keep the brain warm and that, because the skull is closed, pressure rises and causes the pain. That is a hypothesis, not a conclusion."
+    },
+    {
+      "type": "heading",
+      "text": "Who feels it most"
+    },
+    {
+      "type": "paragraph",
+      "text": "Children report it more often: in one survey, 62% of schoolchildren had felt it, against 31% of adults. It is also more common in people who already get other headaches, especially migraine."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cold-stimulus headache, the “ice cream headache”, comes on right after something cold touches the roof of the mouth or the back of the throat.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "Headache occurring immediately after a cold stimulus to the palate and/or posterior pharyngeal wall from ingestion of cold food, drink, or inhalation of cold air, previously known as “ice-cream headache” and “brain-freeze headache”."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Cold stimulus headache, also known as ice cream headache, is a common problem"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The pain typically starts 20 to 30 seconds after the cold stimulus.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "The onset of the pain is documented as an early onset [8], typically within 20–30 s after the cold stimulus"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "In a study of schoolchildren, 17 of 29 headaches (59%) lasted under 10 seconds.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Of the 29 headaches reported, 17 (59%) lasted for less than 10 seconds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The roof of the mouth is supplied by the trigeminal nerve, which is tied to the typical pain at the front of the head.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "direct stimulation to the palate (innervated by the trigeminal nerve)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "the typical anterior pain due to the trigeminal nerve"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The pain is usually on both sides in the middle of the forehead, though it can also be at the temples or behind the eyes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "According to the IHS classification, the localization of CSH is typically bilateral and mid-frontal, although the pain can be temporal, frontal, or retro-orbital"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The mechanism is not fully understood; the most accepted idea combines stimulated cold receptors with changes in blood vessels.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "The pathogenetic mechanism of CSH is still not fully understood and different hypotheses have been put forward, but it is generally believed that local and cerebral vascular changes combined with direct stimulation of cold receptors are involved"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "However, scientists are still at a loss to explain this phenomenon."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The cold may make vessels rapidly narrow and widen, activating pain sensors in their walls.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "this substance may trigger rapid constriction and dilation of vessels with activation of nociceptors of the vessel wall"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Between December 2001 and January 2002, 145 pupils at a school in Canada were randomly assigned to eat 100 ml of ice cream in under 5 seconds or over 30.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "All 145 students at Dalewood Middle School in Hamilton (Canada)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "were given 100 ml of ice cream and were told to eat it in >30 seconds"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Participants who received red dot questionnaires were given 100 ml of ice cream but were instructed to eat it in <5 seconds."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "There were six eating sessions between December 2001 and January 2002"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Among the fast eaters, 27% got a headache; among the careful ones, 13%.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "Twenty (27%) of 73 students in the accelerated eating group reported ice cream headache compared with 9 (13%) of 72 students in the cautious eating group"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Run in winter, the study suggested the headache happens even in cold weather and even in slow eaters.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "The study was carried out during the winter to test whether this phenomenon was restricted to hot weather only."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+          "excerpt": "our results suggest that ice cream headache can be induced in cold weather even in subjects who eat their ice cream at a slow pace."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "In a small study presented in 2012, 13 adults sipped ice water with the straw against the roof of the mouth while blood flow in the brain was measured.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "In this study, Serrador and his colleague recruited 13 healthy adults."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "sipped ice water with the straw pressed against their upper palate"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "will be discussed at the meeting Experimental Biology 2012"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "The pain coincided with the anterior cerebral artery rapidly widening and faded as it narrowed again.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "Findings showed that one particular artery, called the anterior cerebral artery, dilated rapidly and flooded the brain with blood in conjunction to when the volunteers felt pain. Soon after this dilation occurred, the same vessel constricted as the volunteers' pain receded."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "The authors speculate that the extra blood helps keep the brain warm and that, because the skull is closed, pressure rises and causes the pain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "Serrador and his colleagues speculate that the dilation, then quick constriction, may be a type of self-defense for the brain."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "so vasodilation might be moving warm blood inside tissue to make sure the brain stays warm."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "But because the skull is a closed structure, Serrador adds, the sudden influx of blood could raise pressure and induce pain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "In one survey, 62% of schoolchildren had felt it, compared with 31% of adults.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "found prevalence levels of 62% in the student population and 31% in the adult population"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Ice cream headache is more common in people who already get other headaches, especially migraine.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+          "excerpt": "The prevalence of CSH in children and adolescents, as in the adult population, is higher in patients with a previous history of headaches, in particular migraine"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5",
+          "excerpt": "Since migraine sufferers are more likely to experience brain freeze than people who don't have this often-debilitating condition"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_f35efc",
+    "src_pmc_ncbi_nlm_nih_gov_articles_74973b",
+    "src_sciencedaily_com_releases_2012_04_120422231742_4e31e5"
+  ],
+  "quizIds": ["q_brain_freeze_1__en", "q_brain_freeze_2__en", "q_brain_freeze_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

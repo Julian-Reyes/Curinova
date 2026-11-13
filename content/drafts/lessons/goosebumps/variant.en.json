@@ -1,0 +1,313 @@
+{
+  "id": "lesson_goosebumps__en",
+  "conceptId": "concept_goosebumps",
+  "locale": "en",
+  "slug": "why-do-we-get-goosebumps",
+  "title": "Why do we get goosebumps?",
+  "hook": "On a frightened cat, bristling fur puts on a show. On us, with hardly any fur, all that’s left is goosebumps.",
+  "summary": "Tiny muscles attached to each hair contract and lift it; in furry animals this holds in warmth, and a 2020 study in mice found the same muscles and nerves help hair grow.",
+  "cardText": "Each hair has a tiny muscle that stands it up when it contracts, raising a little bump. In furry animals this traps warmth; what it does for us is still debated.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a cat cornered by a dog: fur on end, back arched, body turned sideways. All of it makes the cat look bigger. Human goosebumps run on the same machinery, in skin with almost no fur. Every hair has a tiny muscle attached, the arrector pili. In the cold, nerves of the sympathetic system send a signal, the muscle contracts, the hair stands up and the skin around it bumps out."
+    },
+    {
+      "type": "paragraph",
+      "text": "In animals with thick fur, raised hair enlarges the layer of air that insulates the body. Without a coat, human goosebumps were long seen as a useless leftover of evolution. But a 2020 study in mice found that the same nerve and muscle also switch on the stem cells that grow hair."
+    },
+    {
+      "type": "takeaway",
+      "text": "Goosebumps are tiny muscles pulling hairs upright; in mice, those muscles and nerves also make hair grow."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nerve, muscle and stem cell"
+    },
+    {
+      "type": "paragraph",
+      "text": "Using an electron microscope, Harvard researchers saw that the sympathetic nerve’s fibres don’t just reach the muscle: they wrap around the stem cells of the hair follicle, the structure a hair grows from, like a ribbon. Under prolonged cold, the nerve became far more active, the stem cells woke up and new hair grew. When the scientists removed the muscle, the nerve pulled back and lost its link to the stem cells. In other words, the goosebump muscle acts as a bridge. The findings, published in the journal Cell, come from mice."
+    },
+    {
+      "type": "heading",
+      "text": "Emotional goosebumps"
+    },
+    {
+      "type": "paragraph",
+      "text": "We also get goosebumps hearing an anthem on a podium, walking down the aisle or watching a horror film. In those moments adrenaline steps in, a stress hormone that, among many other effects, makes the skin’s muscles contract."
+    },
+    {
+      "type": "heading",
+      "text": "Useless after all?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The idea that human goosebumps do nothing is being questioned. One study recorded 1,198 episodes in eight volunteers and found that they followed drops in skin temperature and came with a slight warming of the skin. It concludes that human goosebumps are not purely vestigial, meaning not just a leftover with no job. But the sample is small, and in humans their role is still uncertain."
+    },
+    {
+      "type": "heading",
+      "text": "An old puzzle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Goosebumped skin looks like the skin of a plucked bird. Charles Darwin was already writing about goosebumps in his work on evolution."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Facing a dog, raised fur, an arched back and a sideways stance make a cat look bigger.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "The elevated hair, together with the arched back and the sideward position the animal often assumes, makes the cat appear bigger in an attempt to make the dog back off."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Goosebumps come from tiny muscles attached to each hair, the arrector pili, contracting, which stands the hair up and raises bumps on the skin.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "These bumps are caused by a contraction of miniature muscles that are attached to each hair."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "the contraction of the arrector pili muscle, causing the hair to stand erect and forming visible bumps on the skin."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "In the cold, neurons of the sympathetic nervous system send a signal and the muscle contracts, standing the hair on end.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "the cold triggers sympathetic neurons to send a nerve signal, and the muscle reacts by contracting and causing the hair to stand on end."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In animals with thick fur, raised hair enlarges the insulating layer of air that keeps them warm.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "In animals with a thick hair coat this rising of hair expands the layer of air that serves as insulation."
+        },
+        {
+          "sourceId": "src_nyscf_org_resources_why_do_we_c92b62",
+          "excerpt": "standing hair on end traps air to create a layer of insulation, keeping them warm in chilly conditions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Because we lack a fur coat, human goosebumps have long been seen as a useless evolutionary leftover.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "In people this reaction is useless because we do not have a hair coat, but goosebumps persist nevertheless."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "Despite prevailing notions of piloerection as a vestigial response in humans"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A 2020 study in mice showed that the same nerve and muscle behind goosebumps also activate the stem cells that grow hair.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "The sympathetic nerve reacts to cold by contracting the muscle and causing goosebumps in the short term, and by driving hair follicle stem cell activation and new hair growth over the long term."
+        },
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "Shwartz, Y., Gonzalez-Celeiro, M., Chen, C.-L., et al. (2020)."
+        },
+        {
+          "sourceId": "src_nyscf_org_resources_why_do_we_c92b62",
+          "excerpt": "Goosebumps activate a stem cell population in the hair follicle that stimulates hair regeneration, finds a new study in mice"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Under the electron microscope, the sympathetic nerve’s fibres were seen wrapped around the follicle’s stem cells like a ribbon.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "when examining the skin under extremely high resolution using electron microscopy, the researchers found that the sympathetic nerve not only associated with the muscle, but also formed a direct connection to the hair follicle stem cells. In fact, the nerve fibers wrapped around the hair follicle stem cells like a ribbon."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Under prolonged cold, the nerve became far more active, the stem cells woke up and new hair grew.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "Under prolonged cold, the nerve was activated at a much higher level and more neurotransmitters were released, causing the stem cells to activate quickly, regenerate the hair follicle, and grow new hair."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "When the researchers removed the muscle, the nerve pulled back and lost its link to the stem cells.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "When they removed the muscle connected to the hair follicle, the sympathetic nerve retracted and the nerve connection to the hair follicle stem cells was lost"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The findings, published in the journal Cell, come from mice.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "Published in the journal Cell, these findings in mice"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "We also get goosebumps in emotional moments, like hearing an anthem on a podium or watching a horror film.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "People also tend to experience goosebumps during emotional situations, such as walking down the aisle during their wedding, standing on a podium and listening to a national anthem after winning in sports, or even just watching horror movies on television."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Adrenaline, a stress hormone, makes the skin’s muscles contract.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "Adrenaline, which in humans is produced in two small beanlike glands that sit atop the kidneys, not only causes the contraction of skin muscles but also influences many other body reactions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "A study recorded 1,198 episodes of goosebumps in eight volunteers; they followed drops in skin temperature and came with the skin warming.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "I observed 1198 piloerection episodes from eight participants"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "it does respond to decreases in skin temperature and is associated with a rise in skin temperature during episodes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "The study concludes that human goosebumps are not purely vestigial, but their role in us is still uncertain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "This research underscores that piloerection in humans is not purely vestigial"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+          "excerpt": "While piloerection serves clear functions in non-human animals, the same cannot be said with certainty when it comes to humans."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Goosebumped skin looks like a plucked bird’s, and Charles Darwin wrote about goosebumps.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scientificamerican_com_article_why_do_humans_39b6af",
+          "excerpt": "Goosebumps are tiny elevations of the skin that resemble the skin of poultry after the feathers have been plucked."
+        },
+        {
+          "sourceId": "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+          "excerpt": "so did Charles Darwin, who mused about them in his writings on evolution."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_scientificamerican_com_article_why_do_humans_39b6af",
+    "src_pmc_ncbi_nlm_nih_gov_articles_8b81ef",
+    "src_hsci_harvard_edu_goosebumps_hair_follicle_fb2989",
+    "src_nyscf_org_resources_why_do_we_c92b62"
+  ],
+  "quizIds": ["q_goosebumps_1__en", "q_goosebumps_2__en", "q_goosebumps_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

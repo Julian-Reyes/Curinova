@@ -1,0 +1,27 @@
+{
+  "id": "concept_brain_freeze",
+  "topicId": "body",
+  "clusterId": "cluster_body_weird_things",
+  "clusterOrder": 4,
+  "tags": ["body", "headache", "nerves", "cold"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_contagious_yawning",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Mais um mistério do corpo que a ciência ainda tenta explicar.",
+        "en": "Another body mystery science is still working out."
+      }
+    },
+    {
+      "conceptId": "concept_wrinkly_fingers",
+      "type": "next",
+      "reason": {
+        "pt-BR": "A seguir, outro reflexo comandado por nervos e vasos: os dedos enrugados na água.",
+        "en": "Next, another reflex run by nerves and blood vessels: fingers wrinkling in water."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

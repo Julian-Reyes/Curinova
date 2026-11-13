@@ -1,0 +1,369 @@
+{
+  "id": "lesson_contagious_yawning__en",
+  "conceptId": "concept_contagious_yawning",
+  "locale": "en",
+  "slug": "why-is-yawning-contagious",
+  "title": "Why is yawning contagious?",
+  "hook": "Just reading about yawns can make you yawn. Science still isn’t sure why.",
+  "summary": "There is no settled answer: contagion is strongest between people who are close, which hints at a link with empathy, but a large study found no such link.",
+  "cardText": "Nobody knows for sure. Yawns spread most between relatives and friends, which hints at empathy, but a study of 328 people found no link with empathy at all.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Seeing, hearing, reading or even thinking about a yawn can be enough to set your own jaw dropping. That is contagious yawning, different from the spontaneous kind that comes with boredom or tiredness. It isn’t only human: chimpanzees catch yawns too. In people, contagion is strongest between relatives, then friends, then acquaintances, and weakest between strangers. That is why it has been linked to empathy, the ability to share what others feel."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the story doesn’t quite add up. In a Duke University study of 328 people, empathy didn’t predict who yawned; only age mattered, and even age explained just 8% of the differences. Another hypothesis says we simply pay more attention to familiar faces. For now, what contagious yawning is for remains unclear."
+    },
+    {
+      "type": "takeaway",
+      "text": "Yawns spread most between people who are close, but whether that comes from empathy is still debated."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A childhood milestone"
+    },
+    {
+      "type": "paragraph",
+      "text": "We yawn spontaneously from the womb on, but contagious yawning only appears in childhood, around age 4 or 5. Something similar happens in chimpanzees: in a study of 33 orphaned chimps, juveniles caught human yawns, while infants were immune."
+    },
+    {
+      "type": "heading",
+      "text": "Chimps and dogs"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a video experiment, two of six adult female chimpanzees yawned much more when they watched other chimps yawn. In another study, 21 of 29 dogs yawned after watching a person yawn, and none responded to mouth movements that weren’t yawns. The authors say human yawns are possibly contagious to dogs."
+    },
+    {
+      "type": "heading",
+      "text": "Emotion or attention?"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are two main explanations for why contagion is stronger between people who are close. In the emotional hypothesis, it is a basic form of empathy, strongest with the people we love. In the attention hypothesis, we simply look more at familiar faces. One study looked only at yawns that could be heard but not seen, and contagion was still highest between friends and family, which supports the emotional hypothesis."
+    },
+    {
+      "type": "heading",
+      "text": "What Duke found"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the Duke study, volunteers watched a three-minute video of people yawning, and 222 of the 328 yawned at least once. Each person’s tendency was very stable from one test to the next. And most of those who didn’t yawn said they didn’t even feel the urge, so they weren’t holding back."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Contagious yawning can be set off by hearing, seeing, reading or thinking about yawns.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "contagious yawning, which can be triggered in response to hearing, seeing, reading, or thinking about yawning"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "in response to hearing, seeing or thinking about yawning"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Spontaneous yawning happens more often when we are bored or tired.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "Spontaneous yawning, which occurs more frequently when one is bored or tired"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Chimpanzees catch yawns too.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+          "excerpt": "Two out of the six females showed significantly higher frequencies of yawning in response to yawn videos"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Yawn contagion has also been reported in chimpanzees"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In humans, contagion is strongest between relatives, then friends, then acquaintances, and weakest between strangers.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+          "excerpt": "As with other measures of empathy, the rate of contagion was greatest in response to kin, then friends, then acquaintances, and lastly strangers."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "The social bond significantly predicted the occurrence of auditory yawn contagion, which was highest between friends and family members."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "That is why contagious yawning has been linked to empathy.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+          "excerpt": "Clinical, psychological, and neurobiological clues suggest a link between yawn contagion and empathy in humans"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "associated with empathy in humans and other primates"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "In a Duke University study of 328 people, empathy did not predict contagion; only age mattered, and it explained just 8% of the differences.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "We administered 328 participants a 3-minute yawning video stimulus"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "In contrast to previous studies indicating that empathy, time of day, or intelligence may influence contagious yawning susceptibility, we found no influence of these variables once accounting for the age of the participant."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "However, age was only able to explain 8% of the variability in the contagious yawn response."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "new research from the Duke Center for Human Genome Variation finds that contagious yawning may decrease with age and is not strongly related to variables like empathy, tiredness and energy levels."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Another hypothesis says we simply pay more attention to familiar faces.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "is linked to a top-down, selective visual attention bias (with selective attention being preferentially directed toward familiar faces) as predicted by the Attentional Bias Hypothesis (ABH)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "What contagious yawning is for, and how it works, remains unclear.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Still, the function, development and underlying mechanisms of contagious yawning remain unclear."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "Up to date, it is still unclear whether this social asymmetry underlies emotional contagion"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Spontaneous yawning begins in the womb; the contagious kind only appears in childhood, around age 4 or 5.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "Spontaneous yawning is first observed in the womb, while contagious yawning does not begin until early childhood."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+          "excerpt": "Contagious yawning starts occurring at 4–5 years of age"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Among 33 orphaned chimpanzees, juveniles caught human yawns, but infants were immune.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Thirty-three orphaned chimpanzees observed an unfamiliar and familiar human (their surrogate human mother) yawn, gape and nose-wipe."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Yawning, but not nose-wiping, was contagious for juvenile chimpanzees, while infants were immune to contagion."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "In a video experiment, two of six adult female chimpanzees yawned much more when watching other chimps yawn.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+          "excerpt": "Six adult female chimpanzees were shown video scenes of chimpanzees repeatedly yawning"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+          "excerpt": "Two out of the six females showed significantly higher frequencies of yawning in response to yawn videos"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "In another study, 21 of 29 dogs yawned after watching a person yawn, and none responded to other mouth movements; the authors say human yawns are possibly contagious to dogs.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_10d73a",
+          "excerpt": "Twenty-nine dogs observed a human yawning or making control mouth movements."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_10d73a",
+          "excerpt": "Twenty-one dogs yawned when they observed a human yawning, but control mouth movements did not elicit yawning from any of them."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_10d73a",
+          "excerpt": "This study is the first to demonstrate that human yawns are possibly contagious to domestic dogs"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "In the emotional hypothesis, contagion is a basic form of empathy; in the attention hypothesis, we look more at familiar faces.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "Up to date, it is still unclear whether this social asymmetry underlies emotional contagion (a basic form of empathy preferentially involving familiar individuals) as predicted by the Emotional Bias Hypothesis (EBH) or is linked to a top-down, selective visual attention bias (with selective attention being preferentially directed toward familiar faces) as predicted by the Attentional Bias Hypothesis (ABH)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "A study of yawns that were heard but not seen found contagion was highest between friends and family, supporting the emotional hypothesis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "we considered only yawns that could be heard but not seen by potential responders (auditory yawns)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "The social bond significantly predicted the occurrence of auditory yawn contagion, which was highest between friends and family members."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "in support of the EBH of yawn contagion"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "In the Duke study, volunteers watched a three-minute video of people yawning, and 222 of the 328 yawned at least once.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "The participants then watched a three-minute video of people yawning"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "Of the 328 people studied, 222 contagiously yawned at least once."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Each person’s tendency to yawn was very stable from one test to the next, and most who didn’t yawn said they didn’t even feel the urge.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "Individual contagious yawning measurements were found to be highly stable across testing sessions"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "most individuals who failed to contagiously yawn in our study were not simply suppressing their reaction, as they reported not even feeling like yawning in response to the stimulus."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+    "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+    "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+    "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+    "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+    "src_pmc_ncbi_nlm_nih_gov_articles_10d73a"
+  ],
+  "quizIds": [
+    "q_contagious_yawning_1__en",
+    "q_contagious_yawning_2__en",
+    "q_contagious_yawning_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

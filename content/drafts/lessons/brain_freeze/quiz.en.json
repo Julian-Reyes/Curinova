@@ -1,0 +1,77 @@
+[
+  {
+    "id": "q_brain_freeze_1__en",
+    "questionGroupId": "qg_brain_freeze_1",
+    "conceptId": "concept_brain_freeze",
+    "locale": "en",
+    "prompt": "Where does the cold have to touch to cause brain freeze?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The front teeth"
+      },
+      {
+        "id": "b",
+        "text": "The roof of the mouth or the back of the throat"
+      },
+      {
+        "id": "c",
+        "text": "The fingertips"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The headache comes on right after something cold touches the roof of the mouth or the back of the throat.",
+    "claimIds": ["c1"],
+    "status": "draft"
+  },
+  {
+    "id": "q_brain_freeze_2__en",
+    "questionGroupId": "qg_brain_freeze_2",
+    "conceptId": "concept_brain_freeze",
+    "locale": "en",
+    "prompt": "In the trial with 145 pupils, what happened to those who ate their ice cream in under 5 seconds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They got headaches about twice as often as slow eaters"
+      },
+      {
+        "id": "b",
+        "text": "None of them got a headache"
+      },
+      {
+        "id": "c",
+        "text": "They got headaches at the same rate as slow eaters"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Among the fast eaters, 27% got a headache; among the careful ones, 13%.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_brain_freeze_3__en",
+    "questionGroupId": "qg_brain_freeze_3",
+    "conceptId": "concept_brain_freeze",
+    "locale": "en",
+    "prompt": "What is known about the cause of brain freeze?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has been fully explained for decades"
+      },
+      {
+        "id": "b",
+        "text": "It is an allergy to cold"
+      },
+      {
+        "id": "c",
+        "text": "It isn’t fully understood, but cold receptors and blood vessels are involved"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The leading idea combines stimulated cold receptors with rapid changes in blood vessels.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

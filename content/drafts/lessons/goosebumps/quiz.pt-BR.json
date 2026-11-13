@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_goosebumps_1__pt-BR",
+    "questionGroupId": "qg_goosebumps_1",
+    "conceptId": "concept_goosebumps",
+    "locale": "pt-BR",
+    "prompt": "O que levanta os pelos no arrepio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A pele que encolhe com o frio"
+      },
+      {
+        "id": "b",
+        "text": "Um músculo minúsculo preso a cada pelo"
+      },
+      {
+        "id": "c",
+        "text": "O sangue que corre para a pele"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Cada pelo tem um músculo, o eretor do pelo; quando ele se contrai, o pelo fica em pé e a pele forma o calombinho.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_goosebumps_2__pt-BR",
+    "questionGroupId": "qg_goosebumps_2",
+    "conceptId": "concept_goosebumps",
+    "locale": "pt-BR",
+    "prompt": "Como o pelo eriçado ajuda um animal peludo no frio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aumenta a camada de ar que isola o corpo"
+      },
+      {
+        "id": "b",
+        "text": "Produz calor ao se mexer"
+      },
+      {
+        "id": "c",
+        "text": "Afasta a chuva da pele"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O pelo levantado engrossa a camada de ar presa entre os fios, que funciona como isolante.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_goosebumps_3__pt-BR",
+    "questionGroupId": "qg_goosebumps_3",
+    "conceptId": "concept_goosebumps",
+    "locale": "pt-BR",
+    "prompt": "O que o estudo de 2020 em camundongos descobriu sobre o músculo do arrepio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que ele não tem função nenhuma"
+      },
+      {
+        "id": "b",
+        "text": "Que ele só funciona em animais filhotes"
+      },
+      {
+        "id": "c",
+        "text": "Que ele faz a ponte entre um nervo e as células-tronco que fazem o pelo crescer"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O nervo do arrepio também ativa as células-tronco do pelo; sem o músculo, o nervo perde essa ligação.",
+    "misconception": "O arrepio foi muito tempo tratado como inútil, mas em camundongos o mesmo sistema ajuda o pelo a crescer.",
+    "claimIds": ["c6", "c9"],
+    "status": "draft"
+  }
+]

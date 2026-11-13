@@ -1,0 +1,35 @@
+{
+  "id": "concept_goosebumps",
+  "topicId": "body",
+  "clusterId": "cluster_body_weird_things",
+  "clusterOrder": 2,
+  "tags": ["body", "skin", "hair", "evolution"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_hiccups",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Outro reflexo sem utilidade óbvia: o soluço.",
+        "en": "Another reflex with no obvious use: hiccups."
+      }
+    },
+    {
+      "conceptId": "concept_contagious_yawning",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Agora, um reflexo que passa de uma pessoa para outra.",
+        "en": "Next, a reflex that spreads from person to person."
+      }
+    },
+    {
+      "conceptId": "concept_skin_renewal",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A mesma pele, vista por outro ângulo: como ela se renova.",
+        "en": "The same skin from another angle: how it renews itself."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

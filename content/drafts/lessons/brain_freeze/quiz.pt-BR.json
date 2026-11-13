@@ -1,0 +1,77 @@
+[
+  {
+    "id": "q_brain_freeze_1__pt-BR",
+    "questionGroupId": "qg_brain_freeze_1",
+    "conceptId": "concept_brain_freeze",
+    "locale": "pt-BR",
+    "prompt": "Onde o gelado precisa tocar para causar o “cérebro congelado”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nos dentes da frente"
+      },
+      {
+        "id": "b",
+        "text": "No céu da boca ou no fundo da garganta"
+      },
+      {
+        "id": "c",
+        "text": "Na ponta dos dedos"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A dor surge logo depois que algo gelado toca o céu da boca ou o fundo da garganta.",
+    "claimIds": ["c1"],
+    "status": "draft"
+  },
+  {
+    "id": "q_brain_freeze_2__pt-BR",
+    "questionGroupId": "qg_brain_freeze_2",
+    "conceptId": "concept_brain_freeze",
+    "locale": "pt-BR",
+    "prompt": "No experimento com 145 estudantes, o que aconteceu com quem comeu o sorvete em menos de 5 segundos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Teve dor de cabeça cerca de duas vezes mais que quem comeu devagar"
+      },
+      {
+        "id": "b",
+        "text": "Ninguém teve dor de cabeça"
+      },
+      {
+        "id": "c",
+        "text": "Teve a mesma taxa de dor que quem comeu devagar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Entre os apressados, 27% tiveram dor; entre os cuidadosos, 13%.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_brain_freeze_3__pt-BR",
+    "questionGroupId": "qg_brain_freeze_3",
+    "conceptId": "concept_brain_freeze",
+    "locale": "pt-BR",
+    "prompt": "O que se sabe sobre a causa do “cérebro congelado”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Está totalmente explicada há décadas"
+      },
+      {
+        "id": "b",
+        "text": "É uma alergia ao frio"
+      },
+      {
+        "id": "c",
+        "text": "Não está totalmente explicada, mas envolve receptores de frio e vasos sanguíneos"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A ideia mais aceita combina receptores de frio estimulados com mudanças rápidas nos vasos sanguíneos.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

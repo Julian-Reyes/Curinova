@@ -1,0 +1,27 @@
+{
+  "id": "concept_foot_falling_asleep",
+  "topicId": "body",
+  "clusterId": "cluster_body_weird_things",
+  "clusterOrder": 6,
+  "tags": ["body", "nerves", "circulation"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_wrinkly_fingers",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Outro caso em que nervos e vasos mudam o que sentimos: os dedos enrugados.",
+        "en": "Another case of nerves and blood vessels changing what we feel: wrinkly fingers."
+      }
+    },
+    {
+      "conceptId": "concept_knuckle_cracking",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Mais uma sensação estranha do corpo que costuma ser inofensiva: o estalo dos dedos.",
+        "en": "Another odd body sensation that is usually harmless: cracking knuckles."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

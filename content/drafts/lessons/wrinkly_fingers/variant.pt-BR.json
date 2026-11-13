@@ -1,0 +1,298 @@
+{
+  "id": "lesson_wrinkly_fingers__pt-BR",
+  "conceptId": "concept_wrinkly_fingers",
+  "locale": "pt-BR",
+  "slug": "por-que-os-dedos-enrugam-na-agua",
+  "title": "Por que os dedos enrugam na água?",
+  "hook": "Não é a pele inchando de água. Quem faz as rugas é o sistema nervoso.",
+  "summary": "Os nervos fazem os vasos da ponta dos dedos se contraírem e a pele afunda em sulcos; as rugas podem melhorar a pegada em objetos molhados, mas os estudos discordam.",
+  "cardText": "Não é a pele encharcada: os nervos contraem os vasos da ponta dos dedos e a pele afunda em sulcos. Se isso ajuda a segurar coisas molhadas, os estudos discordam.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Por muito tempo, achou-se que os dedos enrugavam porque a camada mais externa da pele inchava de água. Hoje se sabe que é um processo ativo. Depois de um tempo na água, os vasos minúsculos da ponta dos dedos se contraem, a polpa do dedo perde volume e a pele se dobra em sulcos. Quem dá a ordem é o sistema nervoso autônomo, a parte que funciona sem a gente pensar."
+    },
+    {
+      "type": "paragraph",
+      "text": "A pista veio de pacientes: dedos com o nervo lesionado não enrugam. Por isso, mergulhar a mão na água virou um teste da função dos nervos. E para que servem as rugas? Uma hipótese diz que funcionam como os sulcos de um pneu e melhoram a pegada no molhado. Dois experimentos acharam essa vantagem; outro não achou nenhuma."
+    },
+    {
+      "type": "takeaway",
+      "text": "Os dedos enrugam por ordem dos nervos, que contraem os vasos; se isso melhora a pegada no molhado ainda é debatido."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O teste do nervo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nos anos 1930, Lewis e Pickering notaram que pacientes com paralisia do nervo mediano não tinham rugas nos dedos afetados. Mais tarde, viu-se que dedos reimplantados também deixavam de enrugar na água. Como o enrugamento depende do sistema nervoso, ele passou a servir de teste à beira do leito."
+    },
+    {
+      "type": "heading",
+      "text": "Água morna, rugas mais rápidas"
+    },
+    {
+      "type": "paragraph",
+      "text": "A contração dos vasos acontece com mais facilidade por volta dos 40 °C, a temperatura de um banho morno. O gatilho seria a água que entra pelos poros de suor."
+    },
+    {
+      "type": "heading",
+      "text": "Os experimentos a favor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Num teste, 20 voluntários passaram bolinhas de gude e outros objetos de um recipiente para outro. Com dedos enrugados, eles foram mais rápidos com os objetos submersos; com objetos secos, as rugas não fizeram diferença. Outro estudo mediu a força da pinça e viu que dedos enrugados precisam apertar menos um objeto molhado, quase como se ele estivesse seco."
+    },
+    {
+      "type": "heading",
+      "text": "E o experimento contra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Um estudo com 40 voluntários não encontrou melhora nenhuma na destreza com objetos molhados, nem mudança no tato. Com resultados opostos, a função das rugas continua em discussão."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Antes se pensava que as rugas vinham do inchaço da camada mais externa da pele com a água.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "This wrinkling was previously thought to be the result of osmotic swelling of the stratum corneum, the outermost layer of skin"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "As rugas são um processo ativo: os vasos se contraem, a polpa do dedo perde volume, e quem comanda é o sistema nervoso autônomo.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "However, more recent evidence has shown that it is in fact due to a reduction in the volume of the fingertip pulp, caused by vasoconstriction, which in turn is controlled by the autonomic nervous system"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "Wrinkling is a sympathetic nervous system-dependent process"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "There is overwhelming evidence that finger-wrinkling is an active process."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Os vasos minúsculos da ponta do dedo se contraem e criam sulcos na superfície da pele.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The small blood vessels of the fingertip constrict, which creates valleys in the skin surface, triggered by water entering sweat pores"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Dedos de pacientes com o nervo lesionado não enrugam, o que mostrou o papel central dos nervos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "In the 1930s, Lewis and Pickering first described the absence of wrinkling in patients with median nerve palsy which suggested that the nervous system plays a central role in wrinkling"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Por isso, o enrugamento na água passou a ser usado como teste da função dos nervos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "These discoveries led to the implementation of the wrinkling test as a bedside test of sympathetic nerve function"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "The dependence of finger wrinkling on the autonomic nervous system has led to the use of finger wrinkles as a clinical indicator of autonomic function"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Uma hipótese diz que as rugas funcionam como os sulcos de um pneu e melhoram a pegada em objetos molhados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "the suggestion that the wrinkles act in the same way as the treads on a car tyre, which help to channel water and to provide ridges of drier contact surfaces on the road"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "One recent hypothesis, therefore, suggests that wrinkles may function to improve the manipulation of very wet or submerged objects"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Os estudos discordam: dois acharam vantagem com objetos molhados, outro não achou nenhuma.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "In this study, we show that submerged objects are handled more quickly with wrinkled fingers than with unwrinkled fingers, whereas wrinkles make no difference to manipulating dry objects."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The results showed that wrinkly fingers reduce the grip force needed to grip a wet object, bringing that force in line with what is needed for handling a dry object."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "We found that skin wrinkling did not improve dexterity in handling wet objects nor did it affect any aspect of touch sensitivity measured."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Nos anos 1930, Lewis e Pickering descreveram a falta de rugas em pacientes com paralisia do nervo mediano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "In the 1930s, Lewis and Pickering first described the absence of wrinkling in patients with median nerve palsy"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Dedos reimplantados também não enrugaram na água.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "They observed that upon water immersion the skin of replanted fingers failed to wrinkle"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A contração dos vasos acontece com mais facilidade por volta dos 40 °C e seria disparada pela água que entra pelos poros de suor.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "This vasoconstriction appears to occur most readily at a temperature of around 40° Celsius, or the temperature of a warm bath"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The small blood vessels of the fingertip constrict, which creates valleys in the skin surface, triggered by water entering sweat pores"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Num teste com 20 voluntários que passavam bolinhas de gude de um recipiente a outro, dedos enrugados foram mais rápidos com objetos submersos; com objetos secos, não houve diferença.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "Twenty participants (age range 21–34 years old; 13 females) manipulated submerged and dry objects"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "39 glass marbles of different diameters"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "In this study, we show that submerged objects are handled more quickly with wrinkled fingers than with unwrinkled fingers, whereas wrinkles make no difference to manipulating dry objects."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Outro estudo viu que dedos enrugados precisam apertar menos um objeto molhado, quase como se ele estivesse seco.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The results showed that wrinkly fingers reduce the grip force needed to grip a wet object, bringing that force in line with what is needed for handling a dry object."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Um estudo com 40 voluntários não achou melhora na destreza com objetos molhados nem mudança no tato.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "by measuring the performance of a large cohort of human subjects (n = 40) in a manual dexterity task"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "We found that skin wrinkling did not improve dexterity in handling wet objects nor did it affect any aspect of touch sensitivity measured."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+    "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+    "src_pmc_ncbi_nlm_nih_gov_articles_d30585"
+  ],
+  "quizIds": [
+    "q_wrinkly_fingers_1__pt-BR",
+    "q_wrinkly_fingers_2__pt-BR",
+    "q_wrinkly_fingers_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

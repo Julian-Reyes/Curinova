@@ -1,0 +1,35 @@
+{
+  "id": "concept_wrinkly_fingers",
+  "topicId": "body",
+  "clusterId": "cluster_body_weird_things",
+  "clusterOrder": 5,
+  "tags": ["body", "skin", "nerves", "water"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_brain_freeze",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Outra reação em que vasos sanguíneos se contraem: o “cérebro congelado”.",
+        "en": "Another reaction where blood vessels narrow: brain freeze."
+      }
+    },
+    {
+      "conceptId": "concept_foot_falling_asleep",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Mais uma esquisitice comandada por nervos: o pé que “dorme”.",
+        "en": "One more oddity run by nerves: a foot that “falls asleep”."
+      }
+    },
+    {
+      "conceptId": "concept_skin_renewal",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A pele dos dedos também se renova o tempo todo.",
+        "en": "The skin on your fingers is also renewing itself all the time."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_foot_falling_asleep_1__pt-BR",
+    "questionGroupId": "qg_foot_falling_asleep_1",
+    "conceptId": "concept_foot_falling_asleep",
+    "locale": "pt-BR",
+    "prompt": "O que deixa o pé dormente depois de muito tempo de pernas cruzadas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O sangue que esfria no pé"
+      },
+      {
+        "id": "b",
+        "text": "A pressão sobre um nervo e os vasos que o alimentam"
+      },
+      {
+        "id": "c",
+        "text": "Um músculo que adormece de cansaço"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A pressão aperta o nervo e pode reduzir o sangue que chega a ele; pinçado, ele não leva os sinais direito.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_foot_falling_asleep_2__pt-BR",
+    "questionGroupId": "qg_foot_falling_asleep_2",
+    "conceptId": "concept_foot_falling_asleep",
+    "locale": "pt-BR",
+    "prompt": "Quando aparece o formigamento mais forte?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quando a pressão sai e o nervo volta a funcionar"
+      },
+      {
+        "id": "b",
+        "text": "Só depois de várias horas parado"
+      },
+      {
+        "id": "c",
+        "text": "Quando o pé esquenta demais"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ao mudar de posição, a pressão sai; enquanto o nervo se recupera, o formigamento costuma piorar antes de passar.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_foot_falling_asleep_3__pt-BR",
+    "questionGroupId": "qg_foot_falling_asleep_3",
+    "conceptId": "concept_foot_falling_asleep",
+    "locale": "pt-BR",
+    "prompt": "Qual nervo costuma ser pinçado quando cruzamos as pernas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O nervo ulnar"
+      },
+      {
+        "id": "b",
+        "text": "O nervo óptico"
+      },
+      {
+        "id": "c",
+        "text": "O nervo fibular"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "O nervo fibular contorna a lateral do joelho e é apertado nas pernas cruzadas.",
+    "misconception": "O nervo ulnar é o do choque no cotovelo, não o da perna.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

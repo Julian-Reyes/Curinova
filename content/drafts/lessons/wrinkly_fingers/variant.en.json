@@ -1,0 +1,294 @@
+{
+  "id": "lesson_wrinkly_fingers__en",
+  "conceptId": "concept_wrinkly_fingers",
+  "locale": "en",
+  "slug": "why-do-fingers-wrinkle-in-water",
+  "title": "Why do fingers wrinkle in water?",
+  "hook": "It isn’t your skin soaking up water. Your nervous system makes the wrinkles.",
+  "summary": "Nerves make the blood vessels in your fingertips narrow so the skin sinks into grooves; the wrinkles may improve grip on wet things, but studies disagree.",
+  "cardText": "It’s not soggy skin: nerves narrow the blood vessels in your fingertips and the skin sinks into grooves. Whether that helps you hold wet things, studies disagree.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "For a long time, people thought fingers wrinkled because the outer layer of skin swelled with water. We now know it is an active process. After a while in water, the tiny blood vessels in the fingertips narrow, the fingertip pulp loses volume and the skin folds into grooves. The order comes from the autonomic nervous system, the part that runs without you thinking about it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The clue came from patients: fingers with a damaged nerve don’t wrinkle. That is why dipping a hand in water became a test of nerve function. So what are the wrinkles for? One hypothesis says they work like the treads on a tyre, improving grip in the wet. Two experiments found that advantage; another found none."
+    },
+    {
+      "type": "takeaway",
+      "text": "Fingers wrinkle on orders from nerves that narrow blood vessels; whether it improves wet grip is still debated."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The nerve test"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 1930s, Lewis and Pickering noticed that patients with median nerve palsy had no wrinkles on the affected fingers. Later, replanted fingers were also found not to wrinkle in water. Because wrinkling depends on the nervous system, it became a bedside test."
+    },
+    {
+      "type": "heading",
+      "text": "Warm water, faster wrinkles"
+    },
+    {
+      "type": "paragraph",
+      "text": "The vessels narrow most readily at around 40 °C, the temperature of a warm bath. The trigger is thought to be water entering the sweat pores."
+    },
+    {
+      "type": "heading",
+      "text": "The evidence for"
+    },
+    {
+      "type": "paragraph",
+      "text": "In one test, 20 volunteers moved marbles and other objects from one container to another. With wrinkled fingers they were faster with submerged objects; with dry objects, the wrinkles made no difference. Another study measured pinch force and found that wrinkled fingers need to squeeze a wet object less, close to what a dry one needs."
+    },
+    {
+      "type": "heading",
+      "text": "And the evidence against"
+    },
+    {
+      "type": "paragraph",
+      "text": "A study of 40 volunteers found no improvement at all in dexterity with wet objects, and no change in touch. With opposite results, what the wrinkles are for is still being argued."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The wrinkles were once thought to come from the outermost layer of skin swelling with water.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "This wrinkling was previously thought to be the result of osmotic swelling of the stratum corneum, the outermost layer of skin"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Wrinkling is an active process: blood vessels narrow, the fingertip pulp loses volume, and the autonomic nervous system is in charge.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "However, more recent evidence has shown that it is in fact due to a reduction in the volume of the fingertip pulp, caused by vasoconstriction, which in turn is controlled by the autonomic nervous system"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "Wrinkling is a sympathetic nervous system-dependent process"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "There is overwhelming evidence that finger-wrinkling is an active process."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The fingertip’s tiny blood vessels narrow, creating valleys in the skin surface.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The small blood vessels of the fingertip constrict, which creates valleys in the skin surface, triggered by water entering sweat pores"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Fingers of patients with a damaged nerve don’t wrinkle, which showed the central role of nerves.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "In the 1930s, Lewis and Pickering first described the absence of wrinkling in patients with median nerve palsy which suggested that the nervous system plays a central role in wrinkling"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "That is why wrinkling in water came to be used as a test of nerve function.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "These discoveries led to the implementation of the wrinkling test as a bedside test of sympathetic nerve function"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "The dependence of finger wrinkling on the autonomic nervous system has led to the use of finger wrinkles as a clinical indicator of autonomic function"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "One hypothesis says the wrinkles work like the treads on a tyre and improve grip on wet objects.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "the suggestion that the wrinkles act in the same way as the treads on a car tyre, which help to channel water and to provide ridges of drier contact surfaces on the road"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "One recent hypothesis, therefore, suggests that wrinkles may function to improve the manipulation of very wet or submerged objects"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Studies disagree: two found an advantage with wet objects, another found none.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "In this study, we show that submerged objects are handled more quickly with wrinkled fingers than with unwrinkled fingers, whereas wrinkles make no difference to manipulating dry objects."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The results showed that wrinkly fingers reduce the grip force needed to grip a wet object, bringing that force in line with what is needed for handling a dry object."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "We found that skin wrinkling did not improve dexterity in handling wet objects nor did it affect any aspect of touch sensitivity measured."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "In the 1930s, Lewis and Pickering described the absence of wrinkling in patients with median nerve palsy.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "In the 1930s, Lewis and Pickering first described the absence of wrinkling in patients with median nerve palsy"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Replanted fingers also failed to wrinkle in water.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "They observed that upon water immersion the skin of replanted fingers failed to wrinkle"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The vessels narrow most readily at around 40 °C and the response is thought to be triggered by water entering sweat pores.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "This vasoconstriction appears to occur most readily at a temperature of around 40° Celsius, or the temperature of a warm bath"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The small blood vessels of the fingertip constrict, which creates valleys in the skin surface, triggered by water entering sweat pores"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "In a test with 20 volunteers moving marbles from one container to another, wrinkled fingers were faster with submerged objects; with dry objects, there was no difference.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "Twenty participants (age range 21–34 years old; 13 females) manipulated submerged and dry objects"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "39 glass marbles of different diameters"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+          "excerpt": "In this study, we show that submerged objects are handled more quickly with wrinkled fingers than with unwrinkled fingers, whereas wrinkles make no difference to manipulating dry objects."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Another study found that wrinkled fingers need less force to hold a wet object, close to what a dry one needs.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_d30585",
+          "excerpt": "The results showed that wrinkly fingers reduce the grip force needed to grip a wet object, bringing that force in line with what is needed for handling a dry object."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "A study of 40 volunteers found no gain in dexterity with wet objects and no change in touch.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "by measuring the performance of a large cohort of human subjects (n = 40) in a manual dexterity task"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+          "excerpt": "We found that skin wrinkling did not improve dexterity in handling wet objects nor did it affect any aspect of touch sensitivity measured."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_f8d71d",
+    "src_pmc_ncbi_nlm_nih_gov_articles_303c2f",
+    "src_pmc_ncbi_nlm_nih_gov_articles_d30585"
+  ],
+  "quizIds": ["q_wrinkly_fingers_1__en", "q_wrinkly_fingers_2__en", "q_wrinkly_fingers_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

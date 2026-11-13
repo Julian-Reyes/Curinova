@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_hiccups_1__pt-BR",
+    "questionGroupId": "qg_hiccups_1",
+    "conceptId": "concept_hiccups",
+    "locale": "pt-BR",
+    "prompt": "O que produz o “hic” do soluço?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O ar saindo do estômago"
+      },
+      {
+        "id": "b",
+        "text": "O fechamento rápido das cordas vocais"
+      },
+      {
+        "id": "c",
+        "text": "O diafragma batendo nas costelas"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O diafragma se contrai e, cerca de 35 milésimos de segundo depois, as cordas vocais se fecham num golpe: esse fechamento faz o som.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hiccups_2__pt-BR",
+    "questionGroupId": "qg_hiccups_2",
+    "conceptId": "concept_hiccups",
+    "locale": "pt-BR",
+    "prompt": "O que a ciência sabe sobre a função do soluço?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ele limpa as vias respiratórias, como a tosse"
+      },
+      {
+        "id": "b",
+        "text": "Ele fortalece os músculos da respiração dos adultos"
+      },
+      {
+        "id": "c",
+        "text": "Ainda não há função comprovada, só hipóteses"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Muitas funções já foram propostas, mas nenhuma se firmou.",
+    "misconception": "Tosse e espirro limpam as vias respiratórias; o soluço não tem vantagem conhecida.",
+    "claimIds": ["c4", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hiccups_3__pt-BR",
+    "questionGroupId": "qg_hiccups_3",
+    "conceptId": "concept_hiccups",
+    "locale": "pt-BR",
+    "prompt": "Qual destas ideias é uma hipótese sobre a origem do soluço?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Uma sobra dos sinais que controlam as guelras de anfíbios"
+      },
+      {
+        "id": "b",
+        "text": "Um defeito que só existe em humanos"
+      },
+      {
+        "id": "c",
+        "text": "Um efeito colateral de falar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pela hipótese evolutiva, o tronco cerebral ainda dispara sinais parecidos com os que movem as guelras; ela não está comprovada.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

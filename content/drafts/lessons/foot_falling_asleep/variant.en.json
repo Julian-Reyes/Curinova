@@ -1,0 +1,279 @@
+{
+  "id": "lesson_foot_falling_asleep__en",
+  "conceptId": "concept_foot_falling_asleep",
+  "locale": "en",
+  "slug": "why-does-your-foot-fall-asleep",
+  "title": "Why does your foot “fall asleep”?",
+  "hook": "Cross your legs too long and your foot goes numb. The tingling comes later, as it wakes up.",
+  "summary": "Pressure on a nerve and the vessels that feed it disrupts its signals; the pins and needles arrive when the pressure lifts and the nerve starts working again.",
+  "cardText": "Pressure on a nerve and the vessels feeding it scrambles its signals, so your foot goes numb. Pins and needles arrive when the pressure lifts and the nerve recovers.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Think of a kinked garden hose: the water stops flowing. Something similar happens when you sit on your leg or keep your legs crossed for a long time. The pressure squeezes a nerve and can also limit the blood reaching it. Once pinched, the nerve stops carrying signals properly to the spinal cord and brain, and your foot goes numb. In the leg, a common victim is the fibular nerve, which wraps around the side of the knee."
+    },
+    {
+      "type": "paragraph",
+      "text": "The tingling, called paresthesia, comes from scrambled signals: some fibres in the nerve stop firing while others fire too much, and the brain reads the mix as pins and needles. When you shift position and the pressure lifts, it often gets stronger until the nerve is back to normal. The discomfort has a purpose: it makes you move before the pressure does harm."
+    },
+    {
+      "type": "takeaway",
+      "text": "Pressure on a nerve and its blood supply numbs your foot; the tingling is the nerve coming back online."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nerve or blood?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Experts don’t fully agree on how much each factor matters. The NHS, the UK’s public health service, puts pins and needles down to the blood supply to the nerves being cut off. Neurologist Rebecca Traub of the University of North Carolina, on the other hand, says blaming a lack of blood is a common misconception: in her view, the numbness comes from the nerve itself being compressed. Others describe both, sometimes together."
+    },
+    {
+      "type": "heading",
+      "text": "It even has a name"
+    },
+    {
+      "type": "paragraph",
+      "text": "The technical term for a limb “falling asleep” is obdormition. And the jolt you get when you bump your elbow is another kind of passing paresthesia: the blow hits the ulnar nerve."
+    },
+    {
+      "type": "heading",
+      "text": "Almost always harmless"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passing paresthesia is very common, usually harmless and lasts a few minutes. Trouble comes when compression goes on for many hours in someone who can’t move, such as a person who passes out or sleeps too deeply in an awkward position to notice the body’s warning. Then nerves can be permanently injured, a condition known as “Saturday night palsy”."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sitting on a leg or crossing your legs for a long time can press on a nerve or limit blood flow, like a kinked hose.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "It commonly happens because of body positioning that puts pressure on a nerve or limits blood flow (like folding a kink into a hose to keep liquid from flowing through)."
+        },
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003206_htm_1db917",
+          "excerpt": "compression of a body part (such as sitting with legs crossed)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A pinched nerve stops carrying signals properly to the spinal cord and brain.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "When the nerve is pinched, it doesn't communicate signals to the spine and brain correctly."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "Other times, nerve pathways can become blocked, preventing normal transmission of electrochemical impulses to the brain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The fibular nerve, which wraps around the side of the knee, often gets pinched when people sit with crossed legs for a long time.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "which travels around the side of the knee and often gets pinched when people sit with their legs crossed for a prolonged period."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The tingling, called paresthesia, comes when you change position and the pressure lifts, as the nerve starts working again.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "Paresthesia is the feeling of pins and needles that happens when you change position and release the pressure on the nerve or blood vessels in that body part."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "The tingling or 'pins and needles' feeling that people experience happens as the nerves are regaining function."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Some fibres stop firing while others fire too much; the brain reads the mix as tingling, which grows as blood returns and fades once the nerves are back to normal.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "Some of the nerves, starved or pinched or both, stop firing while others fire hyperactively. This leads to mixed signals being sent to the brain, where they are interpreted as burning, prickling or tingling feelings."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "As nutrient-rich blood flows back into the area and nerve cells start firing more regularly, the “pins and needles” feeling often intensifies until the neurons re-establish their normal transmission of electrochemical impulses."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The discomfort makes you shift position, which prevents harm.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "If we didn’t feel discomfort, we wouldn’t adjust our position — and harm could result."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "The discomfort, which is sometimes painful, generally causes you to change your position."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The UK’s NHS attributes pins and needles to the blood supply to the nerves being cut off.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nhs_uk_symptoms_pins_and_needles_18fe74",
+          "excerpt": "It happens when the blood supply to the nerves is cut off. This is usually when you sit or sleep on part of your body."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Neurologist Rebecca Traub says blaming a lack of blood is a misconception and that the numbness comes from compressed nerves; other experts describe both.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "It's a common misconception that the numb sensation is caused by a lack of blood supply, says Traub."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "That loss of feeling, also common in the legs and arms, is caused by the \"temporary compression of nerves\", says Rebecca Traub, an assistant professor of neurology at UNC School of Medicine."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "In some cases, arteries can become compressed, making them unable to supply local tissues and nerve cells with the nutrients (mainly oxygen and glucose) they need to function properly."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "The technical term for a limb “falling asleep” is obdormition.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "That can cause the affected body part to “fall asleep” (the technical term for this is “obdormition”)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Bumping your elbow and feeling a jolt is another kind of passing paresthesia: the blow hits the ulnar nerve.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "Transient paresthesia can also happen if you hit certain body parts against solid objects. For example, bumping something with your elbow can cause a sharp, shock-like feeling of tingling or pain in your ulnar nerve."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Passing paresthesia is very common, usually harmless and lasts a few minutes.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "Transient paresthesia is very common, and it’s usually harmless."
+        },
+        {
+          "sourceId": "src_nhs_uk_symptoms_pins_and_needles_18fe74",
+          "excerpt": "It only lasts a few minutes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Compression lasting many hours, in someone who can’t move, can injure nerves permanently; one example is “Saturday night palsy”.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "“Permanent damage can occur if blood flow is restricted and nerves are compressed for many hours,” according to Daroff."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "“Saturday night palsy” is a name given to a condition that results from permanent injuries incurred when someone has passed out in an awkward position and is sleeping too deeply to respond to the body’s signals to move."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "But if \"someone is not able to move or sedated they can have permanent nerve injury from this type of compression,\" says Traub."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+    "src_medlineplus_gov_ency_article_003206_htm_1db917",
+    "src_sciencealert_com_here_s_what_happens_1963f1",
+    "src_nbcnews_com_id_wbna3076701_5b9b41",
+    "src_nhs_uk_symptoms_pins_and_needles_18fe74"
+  ],
+  "quizIds": [
+    "q_foot_falling_asleep_1__en",
+    "q_foot_falling_asleep_2__en",
+    "q_foot_falling_asleep_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

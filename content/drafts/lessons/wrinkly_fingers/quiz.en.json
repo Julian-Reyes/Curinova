@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_wrinkly_fingers_1__en",
+    "questionGroupId": "qg_wrinkly_fingers_1",
+    "conceptId": "concept_wrinkly_fingers",
+    "locale": "en",
+    "prompt": "What makes fingertips wrinkle in water?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The skin soaks up water and swells"
+      },
+      {
+        "id": "b",
+        "text": "Nerves narrow the blood vessels and the fingertip pulp loses volume"
+      },
+      {
+        "id": "c",
+        "text": "Soap dries out the skin"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "It is an active process: the vessels narrow on orders from the autonomic nervous system.",
+    "misconception": "Skin swelling with water was the old explanation; we now know nerves and blood vessels do it.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_wrinkly_fingers_2__en",
+    "questionGroupId": "qg_wrinkly_fingers_2",
+    "conceptId": "concept_wrinkly_fingers",
+    "locale": "en",
+    "prompt": "Why can finger wrinkling be used as a medical test?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It shows whether the nerves are working"
+      },
+      {
+        "id": "b",
+        "text": "It measures how much water the skin holds"
+      },
+      {
+        "id": "c",
+        "text": "It reveals skin allergies"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fingers with a damaged nerve don’t wrinkle, so the test reflects nerve function.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_wrinkly_fingers_3__en",
+    "questionGroupId": "qg_wrinkly_fingers_3",
+    "conceptId": "concept_wrinkly_fingers",
+    "locale": "en",
+    "prompt": "Do the wrinkles improve grip on wet objects?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, every study confirms it"
+      },
+      {
+        "id": "b",
+        "text": "No, nobody has tested it"
+      },
+      {
+        "id": "c",
+        "text": "Studies disagree: two found an advantage, another didn’t"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "In one test, wrinkled fingers were faster with submerged objects; in a study of 40 volunteers, there was no improvement.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

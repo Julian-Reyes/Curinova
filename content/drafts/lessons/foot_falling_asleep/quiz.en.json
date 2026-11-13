@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_foot_falling_asleep_1__en",
+    "questionGroupId": "qg_foot_falling_asleep_1",
+    "conceptId": "concept_foot_falling_asleep",
+    "locale": "en",
+    "prompt": "What makes your foot go numb after sitting cross-legged for a long time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Blood cooling down in the foot"
+      },
+      {
+        "id": "b",
+        "text": "Pressure on a nerve and the vessels that feed it"
+      },
+      {
+        "id": "c",
+        "text": "A muscle dozing off from tiredness"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The pressure squeezes the nerve and can limit the blood reaching it; pinched, it can’t carry signals properly.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_foot_falling_asleep_2__en",
+    "questionGroupId": "qg_foot_falling_asleep_2",
+    "conceptId": "concept_foot_falling_asleep",
+    "locale": "en",
+    "prompt": "When do the pins and needles kick in hardest?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the pressure lifts and the nerve starts working again"
+      },
+      {
+        "id": "b",
+        "text": "Only after several hours without moving"
+      },
+      {
+        "id": "c",
+        "text": "When the foot gets too warm"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "When you shift position the pressure lifts; as the nerve recovers, the tingling often gets stronger before it fades.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_foot_falling_asleep_3__en",
+    "questionGroupId": "qg_foot_falling_asleep_3",
+    "conceptId": "concept_foot_falling_asleep",
+    "locale": "en",
+    "prompt": "Which nerve often gets pinched when you cross your legs?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The ulnar nerve"
+      },
+      {
+        "id": "b",
+        "text": "The optic nerve"
+      },
+      {
+        "id": "c",
+        "text": "The fibular nerve"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The fibular nerve wraps around the side of the knee and gets squeezed when the legs are crossed.",
+    "misconception": "The ulnar nerve is the one behind the elbow jolt, not the leg.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  }
+]

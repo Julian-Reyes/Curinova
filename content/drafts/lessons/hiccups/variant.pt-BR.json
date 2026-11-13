@@ -1,0 +1,304 @@
+{
+  "id": "lesson_hiccups__pt-BR",
+  "conceptId": "concept_hiccups",
+  "locale": "pt-BR",
+  "slug": "por-que-a-gente-soluca",
+  "title": "Por que a gente soluça?",
+  "hook": "O diafragma dá um tranco, a garganta se fecha num estalo e ninguém sabe ao certo para quê.",
+  "summary": "O soluço é um espasmo do diafragma seguido do fechamento rápido das cordas vocais, que faz o “hic”; para que ele serve ainda é uma pergunta em aberto.",
+  "cardText": "Um soluço é um espasmo do diafragma seguido do fechamento súbito das cordas vocais, que faz o “hic”. Por que esse reflexo existe ninguém sabe; há só hipóteses.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Pense numa porta que bate com o vento. No soluço, o diafragma, o músculo que fica na base dos pulmões, se contrai de repente e tenta puxar o ar para dentro. Cerca de 35 milésimos de segundo depois, as cordas vocais se fecham num golpe: é esse fechamento que faz o “hic”. Tudo acontece por reflexo, quando algo irrita os nervos que comandam o diafragma, como o vago e o frênico."
+    },
+    {
+      "type": "paragraph",
+      "text": "E para que serve? Ao contrário da tosse e do espirro, que limpam as vias respiratórias, o soluço não tem utilidade conhecida. Uma hipótese diz que ele é uma sobra da evolução, parente dos sinais que movem as guelras de anfíbios. Outra propõe que, nos bebês, ele ajude a tirar o ar engolido do estômago. Nenhuma explicação se firmou até agora."
+    },
+    {
+      "type": "takeaway",
+      "text": "O soluço é um espasmo do diafragma seguido do fechamento das cordas vocais; por que ele existe ainda é um mistério."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Começa antes de nascer"
+    },
+    {
+      "type": "paragraph",
+      "text": "O soluço aparece cedo: dá para vê-lo no ultrassom do feto, antes mesmo dos reflexos de engolir e de respirar. Os recém-nascidos são os campeões e passam até 2,5% do tempo soluçando. Depois o reflexo fica mais raro e só volta de vez em quando ao longo da vida."
+    },
+    {
+      "type": "heading",
+      "text": "Coisa de mamífero"
+    },
+    {
+      "type": "paragraph",
+      "text": "O soluço parece existir na maioria dos mamíferos e já foi estudado em gatos, ratos e coelhos. Em répteis, anfíbios e aves, não há registros documentados."
+    },
+    {
+      "type": "heading",
+      "text": "Guelras ou arroto?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A ideia das guelras foi proposta por um grupo de pesquisadores e ficou famosa com o anatomista Neil Shubin, da Universidade de Chicago, no livro Your Inner Fish. Segundo ela, o tronco cerebral ainda dispara sinais parecidos com os que controlam as guelras. Um artigo científico mais recente sugeriu outra saída: o soluço funcionaria como um arroto para bebês que mamam, tirando ar do estômago. O próprio autor reconhece que falta prova."
+    },
+    {
+      "type": "heading",
+      "text": "Um ritmo próprio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quando começa, o soluço costuma vir de 4 a 60 vezes por minuto, num ritmo que se mantém bem constante em cada pessoa. Comer demais ou rápido demais, bebidas com gás e comidas apimentadas, muito quentes ou muito frias estão entre os gatilhos possíveis. Na maioria das vezes, ele some em poucos minutos."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O soluço é um espasmo do diafragma, o músculo na base dos pulmões, seguido do fechamento rápido das cordas vocais, que produz o som.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+          "excerpt": "A hiccup is an unintentional movement (spasm) of the diaphragm, the muscle at the base of the lungs. The spasm is followed by quick closing of the vocal cords. This closing of vocal cords produces a distinctive sound."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The hiccup (or hiccough) is an onomatopoeic name that comes from the sound made by the abrupt closure of the vocal cords approximately 35 milliseconds after the forceful contraction of the respiratory muscles."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "As cordas vocais se fecham cerca de 35 milésimos de segundo depois da contração forte dos músculos da respiração, que tentam puxar o ar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The hiccup (or hiccough) is an onomatopoeic name that comes from the sound made by the abrupt closure of the vocal cords approximately 35 milliseconds after the forceful contraction of the respiratory muscles."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "This forceful inhalation effort against the closed glottis leads to a sharp reduction in intra-thoracic pressure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O soluço é um reflexo disparado quando algo irrita os nervos que fazem o diafragma se contrair, como o nervo vago e o nervo frênico.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Hiccups happen when something irritates the nerves that cause your diaphragm to contract. These nerves, including your vagus nerve and phrenic nerve, make up a pathway that experts call a reflex arc."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Ao contrário do espirro e da tosse, que limpam as vias respiratórias, o soluço não tem vantagem conhecida para o corpo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "unlike the other common reflexes like sneezing (clearing material from the nasal passages) and coughing (clearing material from the airways) there is no known physiologic advantage for the common hiccup"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Uma hipótese diz que o soluço é uma sobra evolutiva: sinais do tronco cerebral parecidos com os que controlam as guelras de anfíbios.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Straus et al. 1 proposed a phylogenic hypothesis that the hiccup is an evolutionary remnant that originated with gill ventilation."
+        },
+        {
+          "sourceId": "src_wired_com_2008_02_evolution_expla_71cb3a",
+          "excerpt": "Hiccups are triggered by electric signals generated in the brain stem. Amphibian brain stems emit similar signals, which control the regular motion of their gills."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Outra hipótese propõe que o soluço tira o ar engolido do estômago de bebês que mamam; ainda não há prova.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "I propose that hiccups are triggered by the presence of air in the stomach."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "There is, as yet, no proof for this hypothesis"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Muitas funções já foram propostas para o soluço, mas nenhuma explicação se firmou até agora.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Many purposes have been proposed for the hiccup, but to date none has met all four of the criteria above."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "O soluço aparece no ultrassom do feto, antes dos reflexos de engolir e de respirar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The rhythmic movement of hiccups can be felt by pregnant mothers and seen on ultrasound occurring in the fetus in utero, before swallowing or respiratory reflexes appear."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Recém-nascidos passam até 2,5% do tempo soluçando; depois o reflexo diminui e volta só de vez em quando.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The reflex is most prevalent in newborns and they spend as much as 2.5% of their time hiccupping"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "it then diminishes in infancy with occasional brief recurrences through life"
+        },
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+          "excerpt": "Hiccups are common and normal in newborns and infants."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "O soluço parece existir na maioria dos mamíferos e foi estudado em gatos, ratos e coelhos; não há registros em répteis, anfíbios ou aves.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Hiccups seem to occur in most mammals. They have been studied in cats, rats, and rabbits"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "There do not appear to be documented observations of hiccups in reptiles, amphibians, or birds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O anatomista Neil Shubin, da Universidade de Chicago, divulgou a ideia das guelras no livro Your Inner Fish.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wired_com_2008_02_evolution_expla_71cb3a",
+          "excerpt": "University of Chicago anatomist, Neil Shubin, has provided the world with an explanation in his book Your Inner Fish."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Uma vez iniciado, o soluço costuma vir de 4 a 60 vezes por minuto, num ritmo bem constante em cada pessoa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Once initiated, hiccups usually occur at a rate of 4–60 per minute. The frequency remains fairly constant in the individual"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Comer demais ou rápido demais, bebidas com gás e comidas apimentadas, muito quentes ou muito frias estão entre os gatilhos possíveis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Eating too much or too fast."
+        },
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Eating spicy foods or foods that are very hot or cold."
+        },
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Drinking carbonated beverages."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Na maioria das vezes, o soluço some em poucos minutos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+          "excerpt": "They most often disappear after a few minutes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+    "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+    "src_wired_com_2008_02_evolution_expla_71cb3a"
+  ],
+  "quizIds": ["q_hiccups_1__pt-BR", "q_hiccups_2__pt-BR", "q_hiccups_3__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

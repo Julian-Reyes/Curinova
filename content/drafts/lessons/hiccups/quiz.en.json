@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_hiccups_1__en",
+    "questionGroupId": "qg_hiccups_1",
+    "conceptId": "concept_hiccups",
+    "locale": "en",
+    "prompt": "What makes the “hic” sound of a hiccup?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Air escaping from the stomach"
+      },
+      {
+        "id": "b",
+        "text": "The vocal cords snapping shut"
+      },
+      {
+        "id": "c",
+        "text": "The diaphragm hitting the ribs"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The diaphragm contracts and, about 35 milliseconds later, the vocal cords slam shut; that closing makes the sound.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hiccups_2__en",
+    "questionGroupId": "qg_hiccups_2",
+    "conceptId": "concept_hiccups",
+    "locale": "en",
+    "prompt": "What does science know about what hiccups are for?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They clear the airways, like coughing"
+      },
+      {
+        "id": "b",
+        "text": "They strengthen adults’ breathing muscles"
+      },
+      {
+        "id": "c",
+        "text": "No purpose is proven yet; there are only hypotheses"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Many purposes have been proposed, but none has held up.",
+    "misconception": "Coughing and sneezing clear the airways; hiccups have no known benefit.",
+    "claimIds": ["c4", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_hiccups_3__en",
+    "questionGroupId": "qg_hiccups_3",
+    "conceptId": "concept_hiccups",
+    "locale": "en",
+    "prompt": "Which of these is a hypothesis about where hiccups come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A leftover of the signals that drive amphibians’ gills"
+      },
+      {
+        "id": "b",
+        "text": "A defect found only in humans"
+      },
+      {
+        "id": "c",
+        "text": "A side effect of speaking"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In the evolutionary hypothesis, the brain stem still fires signals similar to those that drive gills; it is not proven.",
+    "claimIds": ["c5"],
+    "status": "draft"
+  }
+]

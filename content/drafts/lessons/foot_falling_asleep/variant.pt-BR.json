@@ -1,0 +1,279 @@
+{
+  "id": "lesson_foot_falling_asleep__pt-BR",
+  "conceptId": "concept_foot_falling_asleep",
+  "locale": "pt-BR",
+  "slug": "por-que-o-pe-dorme",
+  "title": "Por que o pé “dorme”?",
+  "hook": "Cruzar as pernas por tempo demais deixa o pé dormente. O formigamento vem depois, quando ele acorda.",
+  "summary": "A pressão sobre um nervo e os vasos que o alimentam atrapalha os sinais dele; o formigamento aparece quando a pressão sai e o nervo volta a funcionar.",
+  "cardText": "A pressão num nervo e nos vasos que o alimentam atrapalha seus sinais, e o pé fica dormente. O formigamento vem quando a pressão sai e o nervo volta a funcionar.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Pense numa mangueira dobrada: a água para de passar. Algo parecido acontece quando você senta sobre a perna ou fica muito tempo de pernas cruzadas. A pressão aperta um nervo e pode também reduzir o sangue que chega até ele. Pinçado, o nervo deixa de levar os sinais direito até a medula e o cérebro, e o pé fica dormente. Na perna, um nervo que costuma sofrer é o fibular, que contorna a lateral do joelho."
+    },
+    {
+      "type": "paragraph",
+      "text": "O formigamento, chamado parestesia, vem de sinais desencontrados: algumas fibras do nervo param de disparar e outras disparam demais, e o cérebro lê a mistura como agulhadas. Quando você muda de posição e a pressão sai, ele costuma até piorar, até o nervo voltar ao normal. O incômodo tem uma utilidade: faz você se mexer antes que a pressão cause dano."
+    },
+    {
+      "type": "takeaway",
+      "text": "Pressão no nervo e nos vasos deixa o pé dormente; o formigamento é o nervo voltando a funcionar."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Nervo ou sangue?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os especialistas não concordam totalmente sobre o peso de cada fator. O NHS, o sistema público de saúde do Reino Unido, atribui o formigamento ao corte do sangue que chega aos nervos. Já a neurologista Rebecca Traub, da Universidade da Carolina do Norte, diz que culpar a falta de sangue é um equívoco comum: para ela, a dormência vem da compressão do próprio nervo. Outros descrevem as duas coisas, às vezes juntas."
+    },
+    {
+      "type": "heading",
+      "text": "Tem até nome"
+    },
+    {
+      "type": "paragraph",
+      "text": "O termo técnico para um membro “dormir” é obdormição. E aquele choque de quando a gente bate o cotovelo é outro tipo de parestesia passageira: o golpe atinge o nervo ulnar."
+    },
+    {
+      "type": "heading",
+      "text": "Quase sempre inofensivo"
+    },
+    {
+      "type": "paragraph",
+      "text": "A parestesia passageira é muito comum, costuma ser inofensiva e dura poucos minutos. O problema aparece quando a compressão dura muitas horas, em alguém que não consegue se mexer, como quem desmaia ou dorme pesado numa posição torta e não sente o aviso do corpo. Aí os nervos podem sofrer lesões permanentes, um quadro conhecido como “paralisia de sábado à noite”."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Sentar sobre a perna ou cruzar as pernas por muito tempo pode apertar um nervo ou reduzir o fluxo de sangue, como uma mangueira dobrada.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "It commonly happens because of body positioning that puts pressure on a nerve or limits blood flow (like folding a kink into a hose to keep liquid from flowing through)."
+        },
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003206_htm_1db917",
+          "excerpt": "compression of a body part (such as sitting with legs crossed)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Pinçado, o nervo deixa de levar os sinais direito até a medula e o cérebro.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "When the nerve is pinched, it doesn't communicate signals to the spine and brain correctly."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "Other times, nerve pathways can become blocked, preventing normal transmission of electrochemical impulses to the brain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O nervo fibular, que contorna a lateral do joelho, costuma ser pinçado quando a pessoa fica muito tempo de pernas cruzadas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "which travels around the side of the knee and often gets pinched when people sit with their legs crossed for a prolonged period."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O formigamento, chamado parestesia, vem quando a pessoa muda de posição e a pressão sai, enquanto o nervo volta a funcionar.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "Paresthesia is the feeling of pins and needles that happens when you change position and release the pressure on the nerve or blood vessels in that body part."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "The tingling or 'pins and needles' feeling that people experience happens as the nerves are regaining function."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Algumas fibras param de disparar e outras disparam demais; o cérebro lê essa mistura como formigamento, que piora quando o sangue volta e passa quando os nervos se normalizam.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "Some of the nerves, starved or pinched or both, stop firing while others fire hyperactively. This leads to mixed signals being sent to the brain, where they are interpreted as burning, prickling or tingling feelings."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "As nutrient-rich blood flows back into the area and nerve cells start firing more regularly, the “pins and needles” feeling often intensifies until the neurons re-establish their normal transmission of electrochemical impulses."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O incômodo faz a pessoa mudar de posição, o que evita danos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "If we didn’t feel discomfort, we wouldn’t adjust our position — and harm could result."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "The discomfort, which is sometimes painful, generally causes you to change your position."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O NHS, do Reino Unido, atribui o formigamento ao corte do sangue que chega aos nervos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nhs_uk_symptoms_pins_and_needles_18fe74",
+          "excerpt": "It happens when the blood supply to the nerves is cut off. This is usually when you sit or sleep on part of your body."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A neurologista Rebecca Traub diz que culpar a falta de sangue é um equívoco e que a dormência vem da compressão do nervo; outros especialistas descrevem as duas coisas.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "It's a common misconception that the numb sensation is caused by a lack of blood supply, says Traub."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "That loss of feeling, also common in the legs and arms, is caused by the \"temporary compression of nerves\", says Rebecca Traub, an assistant professor of neurology at UNC School of Medicine."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "In some cases, arteries can become compressed, making them unable to supply local tissues and nerve cells with the nutrients (mainly oxygen and glucose) they need to function properly."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "O termo técnico para um membro “dormir” é obdormição.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "That can cause the affected body part to “fall asleep” (the technical term for this is “obdormition”)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Bater o cotovelo e sentir um choque é outro tipo de parestesia passageira: o golpe atinge o nervo ulnar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "Transient paresthesia can also happen if you hit certain body parts against solid objects. For example, bumping something with your elbow can cause a sharp, shock-like feeling of tingling or pain in your ulnar nerve."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "A parestesia passageira é muito comum, costuma ser inofensiva e dura poucos minutos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+          "excerpt": "Transient paresthesia is very common, and it’s usually harmless."
+        },
+        {
+          "sourceId": "src_nhs_uk_symptoms_pins_and_needles_18fe74",
+          "excerpt": "It only lasts a few minutes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Compressões que duram muitas horas, em quem não consegue se mexer, podem lesar os nervos de forma permanente; um exemplo é a “paralisia de sábado à noite”.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "“Permanent damage can occur if blood flow is restricted and nerves are compressed for many hours,” according to Daroff."
+        },
+        {
+          "sourceId": "src_nbcnews_com_id_wbna3076701_5b9b41",
+          "excerpt": "“Saturday night palsy” is a name given to a condition that results from permanent injuries incurred when someone has passed out in an awkward position and is sleeping too deeply to respond to the body’s signals to move."
+        },
+        {
+          "sourceId": "src_sciencealert_com_here_s_what_happens_1963f1",
+          "excerpt": "But if \"someone is not able to move or sedated they can have permanent nerve injury from this type of compression,\" says Traub."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_my_clevelandclinic_org_health_symptoms_24932_766d26",
+    "src_medlineplus_gov_ency_article_003206_htm_1db917",
+    "src_sciencealert_com_here_s_what_happens_1963f1",
+    "src_nbcnews_com_id_wbna3076701_5b9b41",
+    "src_nhs_uk_symptoms_pins_and_needles_18fe74"
+  ],
+  "quizIds": [
+    "q_foot_falling_asleep_1__pt-BR",
+    "q_foot_falling_asleep_2__pt-BR",
+    "q_foot_falling_asleep_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

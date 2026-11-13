@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_contagious_yawning_1__pt-BR",
+    "questionGroupId": "qg_contagious_yawning_1",
+    "conceptId": "concept_contagious_yawning",
+    "locale": "pt-BR",
+    "prompt": "Entre quem o bocejo contagioso é mais forte?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Entre estranhos"
+      },
+      {
+        "id": "b",
+        "text": "Entre parentes e amigos"
+      },
+      {
+        "id": "c",
+        "text": "É igual entre quaisquer pessoas"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "O contágio é maior entre parentes, depois amigos, conhecidos e, por último, estranhos.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_contagious_yawning_2__pt-BR",
+    "questionGroupId": "qg_contagious_yawning_2",
+    "conceptId": "concept_contagious_yawning",
+    "locale": "pt-BR",
+    "prompt": "O que o estudo da Universidade Duke com 328 pessoas encontrou?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quem tem mais empatia boceja mais"
+      },
+      {
+        "id": "b",
+        "text": "Só pessoas cansadas pegam bocejos"
+      },
+      {
+        "id": "c",
+        "text": "A empatia não previu o contágio; só a idade pesou, e pouco"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A idade foi o único fator com efeito e explicou apenas 8% das diferenças entre as pessoas.",
+    "misconception": "A ligação com a empatia é uma hipótese; esse estudo grande não a confirmou.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_contagious_yawning_3__pt-BR",
+    "questionGroupId": "qg_contagious_yawning_3",
+    "conceptId": "concept_contagious_yawning",
+    "locale": "pt-BR",
+    "prompt": "Os humanos são os únicos que pegam bocejos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não: chimpanzés também pegam"
+      },
+      {
+        "id": "b",
+        "text": "Sim: é exclusivo dos humanos"
+      },
+      {
+        "id": "c",
+        "text": "Só bebês humanos pegam"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Experimentos com vídeos mostraram chimpanzés bocejando mais ao ver outros chimpanzés bocejarem.",
+    "claimIds": ["c3", "c11"],
+    "status": "draft"
+  }
+]

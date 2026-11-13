@@ -1,0 +1,304 @@
+{
+  "id": "lesson_hiccups__en",
+  "conceptId": "concept_hiccups",
+  "locale": "en",
+  "slug": "why-do-we-get-hiccups",
+  "title": "Why do we get hiccups?",
+  "hook": "Your diaphragm jerks, your throat snaps shut, and nobody is quite sure what it’s for.",
+  "summary": "A hiccup is a spasm of the diaphragm followed by a quick closing of the vocal cords, which makes the “hic”; what it’s for is still an open question.",
+  "cardText": "A hiccup is a diaphragm spasm followed by your vocal cords snapping shut, which makes the “hic”. Why the reflex exists is unknown; there are only hypotheses.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Think of a door slamming in a draft. In a hiccup, the diaphragm, the muscle at the base of the lungs, suddenly contracts and tries to pull air in. About 35 milliseconds later, the vocal cords slam shut, and that closing is the “hic”. It all happens by reflex, when something irritates the nerves that run the diaphragm, such as the vagus and phrenic nerves."
+    },
+    {
+      "type": "paragraph",
+      "text": "So what is it for? Unlike coughing and sneezing, which clear the airways, hiccups have no known benefit. One hypothesis says they are an evolutionary leftover, related to the signals that drive amphibians’ gills. Another proposes that in babies they help push swallowed air out of the stomach. No explanation has held up so far."
+    },
+    {
+      "type": "takeaway",
+      "text": "A hiccup is a diaphragm spasm followed by the vocal cords closing; why we have it is still a mystery."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "It starts before birth"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiccups begin early: they can be seen on ultrasound in the fetus, even before the swallowing and breathing reflexes. Newborns are the champions, spending up to 2.5% of their time hiccupping. After that the reflex becomes rarer and only returns now and then through life."
+    },
+    {
+      "type": "heading",
+      "text": "A mammal thing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiccups seem to occur in most mammals and have been studied in cats, rats and rabbits. There are no documented cases in reptiles, amphibians or birds."
+    },
+    {
+      "type": "heading",
+      "text": "Gills or burps?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The gill idea was proposed by a team of researchers and made famous by University of Chicago anatomist Neil Shubin in his book Your Inner Fish. In this view, the brain stem still fires signals similar to those that control gills. A more recent paper suggested another answer: hiccups might work like a burp for suckling babies, moving air out of the stomach. Its author admits there is no proof yet."
+    },
+    {
+      "type": "heading",
+      "text": "A rhythm of its own"
+    },
+    {
+      "type": "paragraph",
+      "text": "Once started, hiccups usually come 4 to 60 times a minute, at a rate that stays fairly steady for each person. Eating too much or too fast, fizzy drinks, and spicy, very hot or very cold foods are among possible triggers. Most of the time they go away within a few minutes."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A hiccup is a spasm of the diaphragm, the muscle at the base of the lungs, followed by a quick closing of the vocal cords that makes the sound.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+          "excerpt": "A hiccup is an unintentional movement (spasm) of the diaphragm, the muscle at the base of the lungs. The spasm is followed by quick closing of the vocal cords. This closing of vocal cords produces a distinctive sound."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The hiccup (or hiccough) is an onomatopoeic name that comes from the sound made by the abrupt closure of the vocal cords approximately 35 milliseconds after the forceful contraction of the respiratory muscles."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The vocal cords shut about 35 milliseconds after the respiratory muscles contract hard in an effort to breathe in.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The hiccup (or hiccough) is an onomatopoeic name that comes from the sound made by the abrupt closure of the vocal cords approximately 35 milliseconds after the forceful contraction of the respiratory muscles."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "This forceful inhalation effort against the closed glottis leads to a sharp reduction in intra-thoracic pressure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Hiccups are a reflex set off when something irritates the nerves that make the diaphragm contract, such as the vagus and phrenic nerves.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Hiccups happen when something irritates the nerves that cause your diaphragm to contract. These nerves, including your vagus nerve and phrenic nerve, make up a pathway that experts call a reflex arc."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Unlike sneezing and coughing, which clear the airways, hiccups have no known benefit for the body.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "unlike the other common reflexes like sneezing (clearing material from the nasal passages) and coughing (clearing material from the airways) there is no known physiologic advantage for the common hiccup"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "One hypothesis holds that hiccups are an evolutionary leftover: brain-stem signals similar to those that drive amphibians’ gills.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Straus et al. 1 proposed a phylogenic hypothesis that the hiccup is an evolutionary remnant that originated with gill ventilation."
+        },
+        {
+          "sourceId": "src_wired_com_2008_02_evolution_expla_71cb3a",
+          "excerpt": "Hiccups are triggered by electric signals generated in the brain stem. Amphibian brain stems emit similar signals, which control the regular motion of their gills."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Another hypothesis proposes that hiccups push swallowed air out of suckling babies’ stomachs; there is no proof yet.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "I propose that hiccups are triggered by the presence of air in the stomach."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "There is, as yet, no proof for this hypothesis"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Many purposes have been proposed for hiccups, but none has held up so far.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Many purposes have been proposed for the hiccup, but to date none has met all four of the criteria above."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Hiccups show up on ultrasound in the fetus, before the swallowing and breathing reflexes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The rhythmic movement of hiccups can be felt by pregnant mothers and seen on ultrasound occurring in the fetus in utero, before swallowing or respiratory reflexes appear."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Newborns spend up to 2.5% of their time hiccupping; the reflex then fades and only returns now and then.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "The reflex is most prevalent in newborns and they spend as much as 2.5% of their time hiccupping"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "it then diminishes in infancy with occasional brief recurrences through life"
+        },
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+          "excerpt": "Hiccups are common and normal in newborns and infants."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Hiccups seem to occur in most mammals and have been studied in cats, rats and rabbits; none are documented in reptiles, amphibians or birds.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Hiccups seem to occur in most mammals. They have been studied in cats, rats, and rabbits"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "There do not appear to be documented observations of hiccups in reptiles, amphibians, or birds."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "University of Chicago anatomist Neil Shubin popularized the gill idea in his book Your Inner Fish.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_wired_com_2008_02_evolution_expla_71cb3a",
+          "excerpt": "University of Chicago anatomist, Neil Shubin, has provided the world with an explanation in his book Your Inner Fish."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Once started, hiccups usually come 4 to 60 times a minute, at a fairly steady rate for each person.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+          "excerpt": "Once initiated, hiccups usually occur at a rate of 4–60 per minute. The frequency remains fairly constant in the individual"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Eating too much or too fast, fizzy drinks, and spicy, very hot or very cold foods are among possible triggers.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Eating too much or too fast."
+        },
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Eating spicy foods or foods that are very hot or cold."
+        },
+        {
+          "sourceId": "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+          "excerpt": "Drinking carbonated beverages."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Most often, hiccups go away after a few minutes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+          "excerpt": "They most often disappear after a few minutes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_medlineplus_gov_ency_article_003068_htm_3e83b6",
+    "src_pmc_ncbi_nlm_nih_gov_articles_18b2db",
+    "src_my_clevelandclinic_org_health_diseases_17672_6a6b5a",
+    "src_wired_com_2008_02_evolution_expla_71cb3a"
+  ],
+  "quizIds": ["q_hiccups_1__en", "q_hiccups_2__en", "q_hiccups_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

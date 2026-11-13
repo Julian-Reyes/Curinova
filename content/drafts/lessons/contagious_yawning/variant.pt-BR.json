@@ -1,0 +1,369 @@
+{
+  "id": "lesson_contagious_yawning__pt-BR",
+  "conceptId": "concept_contagious_yawning",
+  "locale": "pt-BR",
+  "slug": "por-que-o-bocejo-e-contagioso",
+  "title": "Por que o bocejo é contagioso?",
+  "hook": "Ler sobre bocejo já pode dar vontade de bocejar. A ciência ainda não sabe bem por quê.",
+  "summary": "Não há resposta definitiva: o contágio é mais forte entre pessoas próximas, o que sugere um elo com a empatia, mas um estudo grande não encontrou essa ligação.",
+  "cardText": "Ninguém sabe ao certo. O bocejo pega mais entre parentes e amigos, o que sugere um elo com a empatia, mas um estudo com 328 pessoas não achou essa ligação.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Basta ver, ouvir, ler ou até pensar em alguém bocejando para a boca começar a abrir. Esse é o bocejo contagioso, diferente do bocejo espontâneo, que vem com tédio ou cansaço. Não é exclusividade nossa: chimpanzés também pegam bocejos. Em humanos, o contágio é maior entre parentes, depois amigos, conhecidos e, por último, estranhos. Por isso, ele é associado à empatia, a capacidade de sentir o que o outro sente."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mas a explicação não fecha. Num estudo da Universidade Duke com 328 pessoas, a empatia não previu quem bocejava; só a idade pesou, e mesmo ela explicou apenas 8% das diferenças. Outra hipótese diz que só prestamos mais atenção ao rosto de quem conhecemos. Por enquanto, a função do bocejo contagioso continua sem explicação clara."
+    },
+    {
+      "type": "takeaway",
+      "text": "O bocejo pega mais entre pessoas próximas, mas se isso vem da empatia ainda está em debate."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Coisa de criança grande"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bocejamos espontaneamente desde o útero, mas o bocejo contagioso só aparece na infância, por volta dos 4 ou 5 anos. Algo parecido acontece com chimpanzés: num estudo com 33 chimpanzés órfãos, os jovens pegaram bocejos de humanos, enquanto os filhotes pequenos ficaram imunes."
+    },
+    {
+      "type": "heading",
+      "text": "Chimpanzés e cães"
+    },
+    {
+      "type": "paragraph",
+      "text": "Num experimento com vídeos, duas de seis chimpanzés adultas bocejaram bem mais ao ver outros chimpanzés bocejando. Em outro, 21 de 29 cães bocejaram depois de ver uma pessoa bocejar, e nenhum reagiu a movimentos de boca que não eram bocejos. Os autores dizem que o bocejo humano possivelmente contagia os cães."
+    },
+    {
+      "type": "heading",
+      "text": "Emoção ou atenção?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Há duas explicações principais para o contágio ser maior entre pessoas próximas. Pela hipótese emocional, ele seria uma forma básica de empatia, mais forte com quem amamos. Pela hipótese da atenção, simplesmente olhamos mais para rostos conhecidos. Um estudo analisou só bocejos que podiam ser ouvidos, mas não vistos, e o contágio continuou maior entre amigos e família, o que apoia a hipótese emocional."
+    },
+    {
+      "type": "heading",
+      "text": "O que Duke encontrou"
+    },
+    {
+      "type": "paragraph",
+      "text": "No estudo de Duke, os voluntários assistiram a um vídeo de três minutos de pessoas bocejando, e 222 dos 328 bocejaram pelo menos uma vez. A tendência de cada um foi muito estável de um teste para outro. E a maioria dos que não bocejaram disse que nem sentiu vontade, ou seja, não estava se segurando."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O bocejo contagioso pode ser disparado ao ouvir, ver, ler ou pensar em bocejos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "contagious yawning, which can be triggered in response to hearing, seeing, reading, or thinking about yawning"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "in response to hearing, seeing or thinking about yawning"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O bocejo espontâneo é mais frequente quando estamos entediados ou cansados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "Spontaneous yawning, which occurs more frequently when one is bored or tired"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Chimpanzés também pegam bocejos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+          "excerpt": "Two out of the six females showed significantly higher frequencies of yawning in response to yawn videos"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Yawn contagion has also been reported in chimpanzees"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em humanos, o contágio é maior entre parentes, depois amigos, conhecidos e, por último, estranhos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+          "excerpt": "As with other measures of empathy, the rate of contagion was greatest in response to kin, then friends, then acquaintances, and lastly strangers."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "The social bond significantly predicted the occurrence of auditory yawn contagion, which was highest between friends and family members."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Por isso, o bocejo contagioso é associado à empatia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+          "excerpt": "Clinical, psychological, and neurobiological clues suggest a link between yawn contagion and empathy in humans"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "associated with empathy in humans and other primates"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Num estudo da Universidade Duke com 328 pessoas, a empatia não previu o contágio; só a idade pesou, e explicou apenas 8% das diferenças.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "We administered 328 participants a 3-minute yawning video stimulus"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "In contrast to previous studies indicating that empathy, time of day, or intelligence may influence contagious yawning susceptibility, we found no influence of these variables once accounting for the age of the participant."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "However, age was only able to explain 8% of the variability in the contagious yawn response."
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "new research from the Duke Center for Human Genome Variation finds that contagious yawning may decrease with age and is not strongly related to variables like empathy, tiredness and energy levels."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Outra hipótese diz que prestamos mais atenção ao rosto de quem conhecemos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "is linked to a top-down, selective visual attention bias (with selective attention being preferentially directed toward familiar faces) as predicted by the Attentional Bias Hypothesis (ABH)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A função e os mecanismos do bocejo contagioso continuam sem explicação clara.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Still, the function, development and underlying mechanisms of contagious yawning remain unclear."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "Up to date, it is still unclear whether this social asymmetry underlies emotional contagion"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "O bocejo espontâneo começa no útero; o contagioso só aparece na infância, por volta dos 4 ou 5 anos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "Spontaneous yawning is first observed in the womb, while contagious yawning does not begin until early childhood."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+          "excerpt": "Contagious yawning starts occurring at 4–5 years of age"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Em 33 chimpanzés órfãos, os jovens pegaram bocejos de humanos, mas os filhotes pequenos ficaram imunes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Thirty-three orphaned chimpanzees observed an unfamiliar and familiar human (their surrogate human mother) yawn, gape and nose-wipe."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+          "excerpt": "Yawning, but not nose-wiping, was contagious for juvenile chimpanzees, while infants were immune to contagion."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Num experimento com vídeos, duas de seis chimpanzés adultas bocejaram bem mais ao ver outros chimpanzés bocejando.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+          "excerpt": "Six adult female chimpanzees were shown video scenes of chimpanzees repeatedly yawning"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+          "excerpt": "Two out of the six females showed significantly higher frequencies of yawning in response to yawn videos"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Em outro estudo, 21 de 29 cães bocejaram ao ver uma pessoa bocejar, e nenhum reagiu a outros movimentos de boca; os autores dizem que o bocejo humano possivelmente contagia cães.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_10d73a",
+          "excerpt": "Twenty-nine dogs observed a human yawning or making control mouth movements."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_10d73a",
+          "excerpt": "Twenty-one dogs yawned when they observed a human yawning, but control mouth movements did not elicit yawning from any of them."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_10d73a",
+          "excerpt": "This study is the first to demonstrate that human yawns are possibly contagious to domestic dogs"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Pela hipótese emocional, o contágio seria uma forma básica de empatia; pela hipótese da atenção, olhamos mais para rostos conhecidos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "Up to date, it is still unclear whether this social asymmetry underlies emotional contagion (a basic form of empathy preferentially involving familiar individuals) as predicted by the Emotional Bias Hypothesis (EBH) or is linked to a top-down, selective visual attention bias (with selective attention being preferentially directed toward familiar faces) as predicted by the Attentional Bias Hypothesis (ABH)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Um estudo só com bocejos ouvidos, sem ver o rosto, achou contágio maior entre amigos e família, o que apoia a hipótese emocional.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "we considered only yawns that could be heard but not seen by potential responders (auditory yawns)"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "The social bond significantly predicted the occurrence of auditory yawn contagion, which was highest between friends and family members."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+          "excerpt": "in support of the EBH of yawn contagion"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "No estudo de Duke, os voluntários viram um vídeo de três minutos de pessoas bocejando, e 222 dos 328 bocejaram pelo menos uma vez.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "The participants then watched a three-minute video of people yawning"
+        },
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+          "excerpt": "Of the 328 people studied, 222 contagiously yawned at least once."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "A tendência a bocejar foi muito estável de um teste para outro, e a maioria dos que não bocejaram disse que nem sentiu vontade.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "Individual contagious yawning measurements were found to be highly stable across testing sessions"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+          "excerpt": "most individuals who failed to contagiously yawn in our study were not simply suppressing their reaction, as they reported not even feeling like yawning in response to the stimulus."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pmc_ncbi_nlm_nih_gov_articles_22062a",
+    "src_sciencedaily_com_releases_2014_03_140314211843_e1b5d9",
+    "src_pmc_ncbi_nlm_nih_gov_articles_abaf90",
+    "src_pmc_ncbi_nlm_nih_gov_articles_436b7b",
+    "src_pmc_ncbi_nlm_nih_gov_articles_f1526a",
+    "src_pmc_ncbi_nlm_nih_gov_articles_314e0f",
+    "src_pmc_ncbi_nlm_nih_gov_articles_10d73a"
+  ],
+  "quizIds": [
+    "q_contagious_yawning_1__pt-BR",
+    "q_contagious_yawning_2__pt-BR",
+    "q_contagious_yawning_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-13-cluster_body_weird_things"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-13T00:00:00Z"
+}

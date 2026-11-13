@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_goosebumps_1__en",
+    "questionGroupId": "qg_goosebumps_1",
+    "conceptId": "concept_goosebumps",
+    "locale": "en",
+    "prompt": "What lifts the hairs when you get goosebumps?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skin shrinking in the cold"
+      },
+      {
+        "id": "b",
+        "text": "A tiny muscle attached to each hair"
+      },
+      {
+        "id": "c",
+        "text": "Blood rushing to the skin"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Each hair has a muscle, the arrector pili; when it contracts, the hair stands up and the skin bumps out.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_goosebumps_2__en",
+    "questionGroupId": "qg_goosebumps_2",
+    "conceptId": "concept_goosebumps",
+    "locale": "en",
+    "prompt": "How does raised fur help a furry animal in the cold?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It enlarges the layer of air that insulates the body"
+      },
+      {
+        "id": "b",
+        "text": "It makes heat by moving"
+      },
+      {
+        "id": "c",
+        "text": "It keeps rain off the skin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Raised fur thickens the layer of air trapped between the hairs, which acts as insulation.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_goosebumps_3__en",
+    "questionGroupId": "qg_goosebumps_3",
+    "conceptId": "concept_goosebumps",
+    "locale": "en",
+    "prompt": "What did the 2020 mouse study find about the goosebump muscle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "That it has no function at all"
+      },
+      {
+        "id": "b",
+        "text": "That it only works in young animals"
+      },
+      {
+        "id": "c",
+        "text": "That it bridges a nerve to the stem cells that grow hair"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The goosebump nerve also switches on hair stem cells; without the muscle, the nerve loses that link.",
+    "misconception": "Goosebumps were long treated as useless, but in mice the same system helps hair grow.",
+    "claimIds": ["c6", "c9"],
+    "status": "draft"
+  }
+]

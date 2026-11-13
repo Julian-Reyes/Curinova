@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_contagious_yawning_1__en",
+    "questionGroupId": "qg_contagious_yawning_1",
+    "conceptId": "concept_contagious_yawning",
+    "locale": "en",
+    "prompt": "Between whom is contagious yawning strongest?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Strangers"
+      },
+      {
+        "id": "b",
+        "text": "Relatives and friends"
+      },
+      {
+        "id": "c",
+        "text": "It’s the same between any two people"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Contagion is strongest between relatives, then friends, then acquaintances, and weakest between strangers.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_contagious_yawning_2__en",
+    "questionGroupId": "qg_contagious_yawning_2",
+    "conceptId": "concept_contagious_yawning",
+    "locale": "en",
+    "prompt": "What did the Duke University study of 328 people find?",
+    "options": [
+      {
+        "id": "a",
+        "text": "People with more empathy yawn more"
+      },
+      {
+        "id": "b",
+        "text": "Only tired people catch yawns"
+      },
+      {
+        "id": "c",
+        "text": "Empathy didn’t predict contagion; only age mattered, and only a little"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Age was the only factor with an effect, and it explained just 8% of the differences between people.",
+    "misconception": "The empathy link is a hypothesis; this large study did not confirm it.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_contagious_yawning_3__en",
+    "questionGroupId": "qg_contagious_yawning_3",
+    "conceptId": "concept_contagious_yawning",
+    "locale": "en",
+    "prompt": "Are humans the only ones who catch yawns?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No: chimpanzees catch them too"
+      },
+      {
+        "id": "b",
+        "text": "Yes: it’s uniquely human"
+      },
+      {
+        "id": "c",
+        "text": "Only human babies catch them"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Video experiments showed chimpanzees yawning more when they watched other chimps yawn.",
+    "claimIds": ["c3", "c11"],
+    "status": "draft"
+  }
+]
