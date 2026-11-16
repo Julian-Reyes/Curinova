@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_mechanical_clocks_1__en",
+    "questionGroupId": "qg_mechanical_clocks_1",
+    "conceptId": "concept_mechanical_clocks",
+    "locale": "en",
+    "prompt": "Why was a summer hour longer than a winter hour in medieval Europe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Daylight was always split into twelve hours, however long it lasted"
+      },
+      {
+        "id": "b",
+        "text": "Clocks ran slower in the heat"
+      },
+      {
+        "id": "c",
+        "text": "The Church added extra hours in summer"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Daylight and night were each divided into twelve parts, so daytime hours stretched in summer and shrank in winter.",
+    "claimIds": ["c1"],
+    "status": "draft"
+  },
+  {
+    "id": "q_mechanical_clocks_2__en",
+    "questionGroupId": "qg_mechanical_clocks_2",
+    "conceptId": "concept_mechanical_clocks",
+    "locale": "en",
+    "prompt": "Why did mechanical clocks count equal hours?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Their mechanism was hard to readjust every day"
+      },
+      {
+        "id": "b",
+        "text": "A law required equal hours"
+      },
+      {
+        "id": "c",
+        "text": "They were copies of Roman clocks"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The verge and foliot was hard to speed up or slow down daily, so clocks kept the astronomers’ twenty-four equal hours, which became the standard.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_mechanical_clocks_3__en",
+    "questionGroupId": "qg_mechanical_clocks_3",
+    "conceptId": "concept_mechanical_clocks",
+    "locale": "en",
+    "prompt": "What did the first public mechanical clocks lack?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hands and a dial"
+      },
+      {
+        "id": "b",
+        "text": "A bell"
+      },
+      {
+        "id": "c",
+        "text": "A falling weight"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Early tower clocks only struck the hours on a bell; the English word clock even comes from the German for bell.",
+    "misconception": "A clock face with hands came later; the first clocks were heard, not read.",
+    "claimIds": ["c7", "c9"],
+    "status": "draft"
+  }
+]

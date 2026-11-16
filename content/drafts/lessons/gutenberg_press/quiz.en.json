@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_gutenberg_press_1__en",
+    "questionGroupId": "qg_gutenberg_press_1",
+    "conceptId": "concept_gutenberg_press",
+    "locale": "en",
+    "prompt": "What made Gutenberg’s printing method so productive?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Reusable metal type, a sticky ink and a press"
+      },
+      {
+        "id": "b",
+        "text": "Carving each page into a single wooden block"
+      },
+      {
+        "id": "c",
+        "text": "A steam engine driving the press"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Gutenberg combined durable, reusable metal type with an oil-based ink and a press, so the same page could be printed many times.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gutenberg_press_2__en",
+    "questionGroupId": "qg_gutenberg_press_2",
+    "conceptId": "concept_gutenberg_press",
+    "locale": "en",
+    "prompt": "Was Gutenberg the first person to print with movable type?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No: movable type existed earlier in China and Korea"
+      },
+      {
+        "id": "b",
+        "text": "Yes: nobody had tried it before"
+      },
+      {
+        "id": "c",
+        "text": "No: the Romans invented it"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Bi Sheng invented movable type in China in the 11th century, and Korea printed the Jikji with metal type in 1377.",
+    "misconception": "Gutenberg created Europe’s printing system, but movable type itself was older.",
+    "claimIds": ["c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gutenberg_press_3__en",
+    "questionGroupId": "qg_gutenberg_press_3",
+    "conceptId": "concept_gutenberg_press",
+    "locale": "en",
+    "prompt": "When did Brazil get its first official printing press?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In 1808, with the Portuguese court"
+      },
+      {
+        "id": "b",
+        "text": "In 1500, with Cabral"
+      },
+      {
+        "id": "c",
+        "text": "In 1889, with the Republic"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Portuguese Crown blocked printing in the colony; the Impressão Régia was created in Rio on 13 May 1808, after the royal family arrived.",
+    "claimIds": ["c13", "c14"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,371 @@
+{
+  "id": "lesson_gutenberg_press__en",
+  "conceptId": "concept_gutenberg_press",
+  "locale": "en",
+  "slug": "how-did-gutenbergs-press-spread-books-so-fast",
+  "title": "How did Gutenberg’s press spread books so fast?",
+  "hook": "In fifty years, Europe went from hand-copied books to millions of printed ones.",
+  "summary": "By printing from reusable metal type: from Mainz in the 1450s, presses spread across Europe and put millions of copies on the market by 1500.",
+  "cardText": "Gutenberg combined reusable metal type, a sticky oil-based ink and a press, in Mainz in the mid-1400s. A page could be printed again and again, and by 1500 millions of copies were on sale.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "More and more readers wanted books, and many were still copied by hand. In Mainz, the craftsman Johannes Gutenberg brought three things together: metal letters that could be cast and reused, an oil-based ink thick enough to stick to metal, and a press probably adapted from those used for wine or oil. Once a page was set, it could be printed over and over."
+    },
+    {
+      "type": "paragraph",
+      "text": "His Bible, finished around 1455, proved the method worked. Then printing took off: by 1500 there were presses in some 60 German towns and at least 150 in Venice alone. One estimate puts about 20 million printed copies on the European market by the end of the century. In Brazil, the story only began in 1808."
+    },
+    {
+      "type": "takeaway",
+      "text": "Reusable metal type let printers make the same page many times; within fifty years, Europe’s presses had produced millions of copies."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Not the first movable type"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gutenberg was not the first to print with movable letters. In China, an artisan named Bi Sheng had invented movable type in the 11th century, and in 1377 Korea printed the Jikji, the oldest surviving book made with movable metal type. Gutenberg’s contribution was a whole system for Europe: type, ink and press working together."
+    },
+    {
+      "type": "heading",
+      "text": "A risky business"
+    },
+    {
+      "type": "paragraph",
+      "text": "Printing was expensive. Gutenberg borrowed large sums from a financier, Johann Fust, who later took him to court; in 1455 Gutenberg was ordered to repay the loans with interest. His Bible came out of that workshop in the mid-1450s, in more than 150 copies. About 40 survive, only some 20 of them complete."
+    },
+    {
+      "type": "heading",
+      "text": "Europe fills with books"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fifteenth-century presses produced roughly 27,000 to 30,000 editions. In the German lands, printed books overtook handwritten ones from 1469. With more readers came another change: more people needed spectacles."
+    },
+    {
+      "type": "heading",
+      "text": "Brazil had to wait"
+    },
+    {
+      "type": "paragraph",
+      "text": "In colonial Brazil, printing books was forbidden. Because of the Portuguese Crown’s obstacles, there was no official press until 1808, even though there had been several attempts to set up printing shops. When the royal family fled Napoleon, the first printing machines came with its fleet. On 13 May 1808, Prince Regent João created the Impressão Régia, the royal press, in Rio de Janeiro. On 10 September it began printing the Gazeta do Rio de Janeiro, the first newspaper printed in Brazil. Censorship of printers ended only in 1821."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Johannes Gutenberg, a craftsman from Mainz, originated a method of printing from movable type.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_johannes_gutenberg_538bf7",
+          "excerpt": "was a German craftsman and inventor who originated a method of printing from movable type."
+        },
+        {
+          "sourceId": "src_britannica_com_topic_publishing_the_age_b3ea0b",
+          "excerpt": "After its invention (about 1440–50) by a goldsmith of Mainz, Johannes Gutenberg"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Gutenberg’s invention is thought to have combined a metal alloy for durable, reusable type, an oil-based ink thick enough to stick to metal, and a press probably adapted from wine, oil or paper presses.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_johannes_gutenberg_538bf7",
+          "excerpt": "Elements of his invention are thought to have included a metal alloy that could melt readily and cool quickly to form durable reusable type, an oil-based ink that could be made sufficiently thick to adhere well to metal type and transfer well to vellum or paper, and a new press, likely adapted from those used in producing wine, oil, or paper, for applying firm even pressure to printing surfaces."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Printed books appeared at a time when more and more readers wanted books, some of which were still copied by hand.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_incunabula_bd8615",
+          "excerpt": "Such works were completed at a time when books—some of which were still being hand-copied—were sought by an increasingly large number of readers."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Gutenberg completed his Bible in Mainz in the mid-1450s, about 1455; more than 150 copies were printed.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_gutenberg_bible_2e7be8",
+          "excerpt": "who completed it about 1455 working at Mainz, Germany."
+        },
+        {
+          "sourceId": "src_hrc_utexas_edu_gutenberg_bible_1b9d10",
+          "excerpt": "In Mainz, Germany, in the mid-1450s, Johann Gutenberg and his partner Johann Fust published more than 150 large-format copies of the Bible in Latin."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The Gutenberg Bible showed that a press using individual pieces of metal type could mass-produce books.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_hrc_utexas_edu_gutenberg_bible_1b9d10",
+          "excerpt": "completion of the Bible demonstrated the viability of a press that used individual pieces of metal type to mass-produce books."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "By 1500 there were presses in some 60 German towns, and Venice alone had at least 150.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_publishing_the_age_b3ea0b",
+          "excerpt": "By 1500 there were presses in some 60 German towns"
+        },
+        {
+          "sourceId": "src_britannica_com_topic_publishing_the_age_b3ea0b",
+          "excerpt": "By 1500, Venice had no fewer than 150 presses"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "15th-century presses produced tens of thousands of editions, roughly 27,000 to 30,000.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_incunabula_bd8615",
+          "excerpt": "The sum total of the editions produced by the 15th-century presses is generally put at about 30,000 or upward"
+        },
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2017_05_15455e",
+          "excerpt": "the roughly 27'000 printed incunabula."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Using an average of 500 copies per edition, about 20 million printed copies reached the European market in the second half of the 15th century.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_incunabula_bd8615",
+          "excerpt": "Using an average of 500 copies as a guide, it is possible to arrive at a total of 20 million copies of incunabula put on the European market during the latter half of the 15th century."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "In the German lands, printed books outnumbered handwritten ones from 1469 onwards.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2017_05_15455e",
+          "excerpt": "The volume of books printed mechanically surpassed that of handwritten works from 1469 onward."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Movable type had been invented earlier in China by the artisan Bi Sheng, in the 11th century, and Korea printed a book with movable metal type, the Jikji, in 1377.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_aaas_org_shen_kuo_first_renaissance_31322f",
+          "excerpt": "Dream Pool Essays contains a description of moveable type, invented by an artisan named Bi-Sheng during the reign of Emperor Renzong (1022-1063), four hundred years before Gutenberg."
+        },
+        {
+          "sourceId": "src_britannica_com_topic_gutenberg_bible_2e7be8",
+          "excerpt": "The Anthology of Great Buddhist Priests’ Zen Teachings (1377), also known as Jikji, was printed in Korea 78 years before the Gutenberg Bible and is recognized as the world’s oldest extant movable metal type book."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Gutenberg borrowed heavily from the financier Johann Fust, who later sued him; the 1455 settlement ordered Gutenberg to repay the loans with interest.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_johannes_gutenberg_538bf7",
+          "excerpt": "he was able to persuade Johann Fust, a wealthy financier, to lend him 800 guilders—a very substantial capital investment"
+        },
+        {
+          "sourceId": "src_britannica_com_biography_johannes_gutenberg_538bf7",
+          "excerpt": "Fust won a suit against him"
+        },
+        {
+          "sourceId": "src_britannica_com_biography_johannes_gutenberg_538bf7",
+          "excerpt": "Gutenberg was ordered to pay Fust the total sum of the two loans and compound interest"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "About 40 copies of the Gutenberg Bible survive, only some 20 of them complete.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_gutenberg_bible_2e7be8",
+          "excerpt": "The original number of copies of this work is unknown; some 40 are still in existence."
+        },
+        {
+          "sourceId": "src_hrc_utexas_edu_gutenberg_bible_1b9d10",
+          "excerpt": "one of only 20 complete copies in the world that survive intact."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Until 1808, printing books was forbidden in Brazil; because of obstacles imposed by the Portuguese Crown, the official press in Rio was only created in 1808, although there had been several earlier attempts to set up printing shops.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_publishnews_com_br_materias_2021_08_9edf75",
+          "excerpt": "Até 1808 era proibida a impressão de livros no Brasil."
+        },
+        {
+          "sourceId": "src_revistas_ufg_br_revistaufg_article_view_969e3f",
+          "excerpt": "Em decorrência dos obstáculos impostos pela Coroa portuguesa, a criação da imprensa régia no Rio de Janeiro somente ocorreu em 1808"
+        },
+        {
+          "sourceId": "src_revistas_ufg_br_revistaufg_article_view_969e3f",
+          "excerpt": "há indícios claros de que houve várias tentativas de implantação de tipografias no solo brasileiro durante o período colonial."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Prince Regent João reached Brazil in 1808 fleeing Napoleon’s troops; on 13 May 1808, in Rio de Janeiro, he decreed the creation of the Impressão Régia, the royal press; its first printing equipment came from Europe with the royal fleet.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_www2_camara_leg_br_a_camara_6e8aa4",
+          "excerpt": "13.05.1808 - No Rio de Janeiro, o Príncipe Regente D. João expede decreto que \"cria a Impressão Régia\"."
+        },
+        {
+          "sourceId": "src_congressoemfoco_com_br_noticias_imprensa_nacional_4d98ba",
+          "excerpt": "Foi fugindo do avanço das tropas francesas de Napoleão Bonaparte que o príncipe regente de Portugal, D. João, desembarcou no Brasil em 1808"
+        },
+        {
+          "sourceId": "src_congressoemfoco_com_br_noticias_imprensa_nacional_4d98ba",
+          "excerpt": "As primeiras máquinas tipográficas, inclusive, vieram da Europa na mesma frota da Família Real portuguesa."
+        },
+        {
+          "sourceId": "src_publishnews_com_br_materias_2021_08_9edf75",
+          "excerpt": "Em 13 de maio de 1808 é decretada a abertura da Imprensa Régia no Rio de Janeiro"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "The Gazeta do Rio de Janeiro, the first newspaper printed in Brazil, began circulating on 10 September 1808.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_www2_camara_leg_br_a_camara_6e8aa4",
+          "excerpt": "10.09.1808 - No Rio de Janeiro, começa a circular o primeiro jornal impresso no Brasil, a Gazeta do Rio de Janeiro."
+        },
+        {
+          "sourceId": "src_congressoemfoco_com_br_noticias_imprensa_nacional_4d98ba",
+          "excerpt": "A Gazeta do Rio de Janeiro, fundada em setembro de 1808, foi o primeiro jornal impresso no Brasil"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Censorship of Brazil’s printers was lifted on 28 August 1821.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_publishnews_com_br_materias_2021_08_9edf75",
+          "excerpt": "em 28 de agosto de 1821 é suspensa a censura as tipografias"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "The spread of printing increased the number of readers and so the market for spectacles.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "The rapid spread of printing increased the supply of books and increased the number of readers, enlarging the market for spectacles"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_biography_johannes_gutenberg_538bf7",
+    "src_britannica_com_topic_publishing_the_age_b3ea0b",
+    "src_britannica_com_topic_incunabula_bd8615",
+    "src_britannica_com_topic_gutenberg_bible_2e7be8",
+    "src_hrc_utexas_edu_gutenberg_bible_1b9d10",
+    "src_blog_nationalmuseum_ch_en_2017_05_15455e",
+    "src_aaas_org_shen_kuo_first_renaissance_31322f",
+    "src_publishnews_com_br_materias_2021_08_9edf75",
+    "src_revistas_ufg_br_revistaufg_article_view_969e3f",
+    "src_www2_camara_leg_br_a_camara_6e8aa4",
+    "src_congressoemfoco_com_br_noticias_imprensa_nacional_4d98ba",
+    "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41"
+  ],
+  "quizIds": ["q_gutenberg_press_1__en", "q_gutenberg_press_2__en", "q_gutenberg_press_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_medieval_inventions"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

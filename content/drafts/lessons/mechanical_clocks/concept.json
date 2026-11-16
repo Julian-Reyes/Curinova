@@ -1,0 +1,35 @@
+{
+  "id": "concept_mechanical_clocks",
+  "topicId": "history",
+  "clusterId": "cluster_medieval_inventions",
+  "clusterOrder": 3,
+  "tags": ["middle-ages", "inventions", "clocks", "time"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_arabic_numerals",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outra mudança que veio para ficar: os algarismos que usamos para contar.",
+        "en": "Another change that stuck: the digits we count with."
+      }
+    },
+    {
+      "conceptId": "concept_day_lengthening",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Até os relógios atômicos, a rotação da Terra era o melhor relógio que havia, e ela está ficando mais lenta.",
+        "en": "Until atomic clocks, the Earth’s spin was the best clock around, and it is slowing down."
+      }
+    },
+    {
+      "conceptId": "concept_stopped_clock_illusion",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Os relógios dividem o tempo em partes iguais, mas o seu cérebro nem sempre sente assim.",
+        "en": "Clocks split time into equal parts, but your brain doesn’t always feel it that way."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_arabic_numerals_1__pt-BR",
+    "questionGroupId": "qg_arabic_numerals_1",
+    "conceptId": "concept_arabic_numerals",
+    "locale": "pt-BR",
+    "prompt": "De onde vêm originalmente os algarismos que usamos hoje?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Da Índia"
+      },
+      {
+        "id": "b",
+        "text": "Da Roma antiga"
+      },
+      {
+        "id": "c",
+        "text": "Da Itália medieval"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O sistema posicional com dez símbolos surgiu na Índia e chegou à Europa pelo mundo árabe, entrando pela Espanha.",
+    "misconception": "Eles se chamam arábicos porque a Europa os recebeu do mundo árabe, e não porque foram inventados lá.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_arabic_numerals_2__pt-BR",
+    "questionGroupId": "qg_arabic_numerals_2",
+    "conceptId": "concept_arabic_numerals",
+    "locale": "pt-BR",
+    "prompt": "Para quem o Liber abaci (1202), de Fibonacci, era especialmente útil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para os mercadores"
+      },
+      {
+        "id": "b",
+        "text": "Para os monges que copiavam a Bíblia"
+      },
+      {
+        "id": "c",
+        "text": "Para os soldados"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fibonacci, filho de um representante de mercadores, encheu o livro de problemas sobre preços, lucros e conversão de moedas.",
+    "claimIds": ["c5", "c6", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_arabic_numerals_3__pt-BR",
+    "questionGroupId": "qg_arabic_numerals_3",
+    "conceptId": "concept_arabic_numerals",
+    "locale": "pt-BR",
+    "prompt": "O que aconteceu depois que o Liber abaci saiu?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Os algarismos romanos continuaram em uso por muito tempo"
+      },
+      {
+        "id": "b",
+        "text": "A Europa largou os algarismos romanos em poucos anos"
+      },
+      {
+        "id": "c",
+        "text": "Os novos algarismos foram usados só por monges"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A aceitação foi lenta: por volta de 1300, as contas do dia a dia ainda eram feitas em algarismos romanos, e a resistência durou até o século XV.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  }
+]

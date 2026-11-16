@@ -1,0 +1,79 @@
+[
+  {
+    "id": "q_eyeglasses_invention_1__en",
+    "questionGroupId": "qg_eyeglasses_invention_1",
+    "conceptId": "concept_eyeglasses_invention",
+    "locale": "en",
+    "prompt": "When and where did eyeglasses first appear in Europe?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In Italy, around the 1280s"
+      },
+      {
+        "id": "b",
+        "text": "In ancient Rome, around AD 100"
+      },
+      {
+        "id": "c",
+        "text": "In Germany, after the printing press of the 1450s"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A friar’s sermon of 1305 or 1306 said spectacles had been invented less than 20 years earlier, which points to the 1280s in Italy.",
+    "misconception": "Magnifying lenses are ancient, but lenses worn in front of the eyes are a medieval invention.",
+    "claimIds": ["c1", "c2", "c13"],
+    "status": "draft"
+  },
+  {
+    "id": "q_eyeglasses_invention_2__en",
+    "questionGroupId": "qg_eyeglasses_invention_2",
+    "conceptId": "concept_eyeglasses_invention",
+    "locale": "en",
+    "prompt": "Why don’t we know who invented eyeglasses?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The friar who met the inventor never gave his name"
+      },
+      {
+        "id": "b",
+        "text": "The inventor’s patent was lost in a fire"
+      },
+      {
+        "id": "c",
+        "text": "The Church banned any mention of the invention"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Giordano of Pisa said he had talked with the inventor but did not name him; later, Italian cities competed for the credit, and some even forged evidence.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_eyeglasses_invention_3__en",
+    "questionGroupId": "qg_eyeglasses_invention_3",
+    "conceptId": "concept_eyeglasses_invention",
+    "locale": "en",
+    "prompt": "What did the first eyeglasses help with?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Seeing things up close"
+      },
+      {
+        "id": "b",
+        "text": "Seeing things far away"
+      },
+      {
+        "id": "c",
+        "text": "Telling colours apart"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The first glasses had convex lenses, which help farsighted people with close work such as reading.",
+    "misconception": "Lenses for nearsighted people, which help you see far, only appear in the 15th century.",
+    "claimIds": ["c4", "c9"],
+    "status": "draft"
+  }
+]

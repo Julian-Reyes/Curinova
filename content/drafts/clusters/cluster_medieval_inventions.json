@@ -1,0 +1,46 @@
+{
+  "id": "cluster_medieval_inventions",
+  "topicId": "history",
+  "slug": {
+    "pt-BR": "invencoes-medievais-que-usamos-ate-hoje",
+    "en": "medieval-inventions-we-still-use"
+  },
+  "title": {
+    "pt-BR": "Invenções medievais que usamos até hoje",
+    "en": "Medieval inventions we still use"
+  },
+  "hook": {
+    "pt-BR": "Óculos, relógios, universidades: a “Idade das Trevas” inventou mais do que parece.",
+    "en": "Glasses, clocks, universities: the “Dark Ages” invented more than you think."
+  },
+  "conceptIds": [
+    "concept_eyeglasses_invention",
+    "concept_medieval_universities",
+    "concept_mechanical_clocks",
+    "concept_arabic_numerals",
+    "concept_gutenberg_press"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_middle_ages_myths",
+      "reason": {
+        "pt-BR": "Mais sobre a Idade Média de verdade, longe dos mitos que todo mundo repete.",
+        "en": "More about the real Middle Ages, far from the myths everyone repeats."
+      }
+    },
+    {
+      "clusterId": "cluster_brazil_capitals",
+      "reason": {
+        "pt-BR": "A imprensa só chegou ao Brasil em 1808, com a corte que fez do Rio uma capital.",
+        "en": "Printing only reached Brazil in 1808, with the court that made Rio a capital."
+      }
+    },
+    {
+      "clusterId": "cluster_portuguese_in_brazil",
+      "reason": {
+        "pt-BR": "A elite do Brasil colônia estudava em Coimbra; veja como o português virou a língua do país.",
+        "en": "Colonial Brazil’s elite studied at Coimbra; see how Portuguese became the country’s language."
+      }
+    }
+  ]
+}

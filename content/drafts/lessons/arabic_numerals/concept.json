@@ -1,0 +1,27 @@
+{
+  "id": "concept_arabic_numerals",
+  "topicId": "history",
+  "clusterId": "cluster_medieval_inventions",
+  "clusterOrder": 4,
+  "tags": ["middle-ages", "inventions", "mathematics", "numerals", "fibonacci"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_gutenberg_press",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Foi a imprensa que deu aos algarismos o formato que eles têm hoje.",
+        "en": "Printing gave our digits the shapes they have today."
+      }
+    },
+    {
+      "conceptId": "concept_eyeglasses_invention",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra novidade que se espalhou pelas cidades italianas por volta de 1300.",
+        "en": "Another novelty that spread through Italian cities around 1300."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

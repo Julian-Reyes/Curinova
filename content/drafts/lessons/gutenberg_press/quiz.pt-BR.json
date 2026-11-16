@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_gutenberg_press_1__pt-BR",
+    "questionGroupId": "qg_gutenberg_press_1",
+    "conceptId": "concept_gutenberg_press",
+    "locale": "pt-BR",
+    "prompt": "O que tornava o método de Gutenberg tão produtivo?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tipos de metal reutilizáveis, uma tinta que gruda e uma prensa"
+      },
+      {
+        "id": "b",
+        "text": "Entalhar cada página num único bloco de madeira"
+      },
+      {
+        "id": "c",
+        "text": "Um motor a vapor movendo a prensa"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Gutenberg juntou tipos de metal duráveis e reutilizáveis, uma tinta à base de óleo e uma prensa, e assim a mesma página podia ser impressa muitas vezes.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gutenberg_press_2__pt-BR",
+    "questionGroupId": "qg_gutenberg_press_2",
+    "conceptId": "concept_gutenberg_press",
+    "locale": "pt-BR",
+    "prompt": "Gutenberg foi o primeiro a imprimir com tipos móveis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não: os tipos móveis já existiam na China e na Coreia"
+      },
+      {
+        "id": "b",
+        "text": "Sim: ninguém tinha tentado antes"
+      },
+      {
+        "id": "c",
+        "text": "Não: os romanos os inventaram"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Bi Sheng inventou os tipos móveis na China no século XI, e a Coreia imprimiu o Jikji com tipos de metal em 1377.",
+    "misconception": "Gutenberg criou o sistema de impressão da Europa, mas os tipos móveis em si eram mais antigos.",
+    "claimIds": ["c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gutenberg_press_3__pt-BR",
+    "questionGroupId": "qg_gutenberg_press_3",
+    "conceptId": "concept_gutenberg_press",
+    "locale": "pt-BR",
+    "prompt": "Quando o Brasil ganhou sua primeira gráfica oficial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Em 1808, com a corte portuguesa"
+      },
+      {
+        "id": "b",
+        "text": "Em 1500, com Cabral"
+      },
+      {
+        "id": "c",
+        "text": "Em 1889, com a República"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A Coroa portuguesa barrava a impressão na colônia; a Impressão Régia foi criada no Rio em 13 de maio de 1808, depois da chegada da família real.",
+    "claimIds": ["c13", "c14"],
+    "status": "draft"
+  }
+]

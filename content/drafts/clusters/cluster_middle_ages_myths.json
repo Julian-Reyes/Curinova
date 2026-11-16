@@ -28,6 +28,13 @@
         "pt-BR": "Mais mitos que todo mundo repete, agora sobre a ciência do dia a dia.",
         "en": "More myths everyone repeats, this time about everyday science."
       }
+    },
+    {
+      "clusterId": "cluster_medieval_inventions",
+      "reason": {
+        "pt-BR": "Do mito à realidade: óculos, relógios e universidades que a Idade Média nos deixou.",
+        "en": "From myth to reality: the glasses, clocks and universities the Middle Ages left us."
+      }
     }
   ]
 }

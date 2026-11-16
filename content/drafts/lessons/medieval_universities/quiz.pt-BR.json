@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_medieval_universities_1__pt-BR",
+    "questionGroupId": "qg_medieval_universities_1",
+    "conceptId": "concept_medieval_universities",
+    "locale": "pt-BR",
+    "prompt": "Quem comandava a antiga universidade de Bolonha?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Associações de estudantes, que contratavam e pagavam os professores"
+      },
+      {
+        "id": "b",
+        "text": "O papa, que nomeava todos os professores"
+      },
+      {
+        "id": "c",
+        "text": "Um rei, que a fundou por lei"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A universidade de Bolonha nasceu de associações de estudantes que tinham regras próprias, elegiam um reitor e pagavam os professores.",
+    "misconception": "Muitas das primeiras universidades não foram fundadas por um governante: nasceram de grupos de estudantes ou de professores.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_universities_2__pt-BR",
+    "questionGroupId": "qg_medieval_universities_2",
+    "conceptId": "concept_medieval_universities",
+    "locale": "pt-BR",
+    "prompt": "O que significava a palavra medieval universitas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Uma associação, como uma corporação de ofício"
+      },
+      {
+        "id": "b",
+        "text": "Um lugar que ensina todas as matérias"
+      },
+      {
+        "id": "c",
+        "text": "Um prédio com biblioteca"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Universitas era um termo jurídico para uma associação vista como um todo: o conjunto de professores e estudantes.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_universities_3__pt-BR",
+    "questionGroupId": "qg_medieval_universities_3",
+    "conceptId": "concept_medieval_universities",
+    "locale": "pt-BR",
+    "prompt": "Onde os filhos da elite do Brasil colonial costumavam fazer faculdade?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Na Europa, principalmente em Coimbra"
+      },
+      {
+        "id": "b",
+        "text": "Na Universidade do Rio de Janeiro"
+      },
+      {
+        "id": "c",
+        "text": "Em Bolonha"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Universidades eram proibidas por lei no Brasil colonial; a primeira universidade do governo federal só foi criada em 1920.",
+    "claimIds": ["c10", "c12"],
+    "status": "draft"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_arabic_numerals_1__en",
+    "questionGroupId": "qg_arabic_numerals_1",
+    "conceptId": "concept_arabic_numerals",
+    "locale": "en",
+    "prompt": "Where did the digits we use today originally come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "India"
+      },
+      {
+        "id": "b",
+        "text": "Ancient Rome"
+      },
+      {
+        "id": "c",
+        "text": "Medieval Italy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The place-value system with ten symbols emerged in India and reached Europe through the Arab world, entering by way of Spain.",
+    "misconception": "They are called Arabic because Europe got them from the Arab world, not because they were invented there.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_arabic_numerals_2__en",
+    "questionGroupId": "qg_arabic_numerals_2",
+    "conceptId": "concept_arabic_numerals",
+    "locale": "en",
+    "prompt": "Who was Fibonacci’s book Liber abaci (1202) especially useful for?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Merchants"
+      },
+      {
+        "id": "b",
+        "text": "Monks copying the Bible"
+      },
+      {
+        "id": "c",
+        "text": "Soldiers"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fibonacci, whose father represented Pisa’s merchants, filled the book with problems on prices, profits and converting currencies.",
+    "claimIds": ["c5", "c6", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_arabic_numerals_3__en",
+    "questionGroupId": "qg_arabic_numerals_3",
+    "conceptId": "concept_arabic_numerals",
+    "locale": "en",
+    "prompt": "What happened after Liber abaci came out?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Roman numerals stayed in use for a long time"
+      },
+      {
+        "id": "b",
+        "text": "Europe dropped Roman numerals within a few years"
+      },
+      {
+        "id": "c",
+        "text": "The new digits were used only by monks"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Acceptance was slow: around 1300 routine accounts were still kept in Roman numerals, and resistance lasted into the 15th century.",
+    "claimIds": ["c8", "c9"],
+    "status": "draft"
+  }
+]

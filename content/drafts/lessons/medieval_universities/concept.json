@@ -1,0 +1,35 @@
+{
+  "id": "concept_medieval_universities",
+  "topicId": "history",
+  "clusterId": "cluster_medieval_inventions",
+  "clusterOrder": 2,
+  "tags": ["middle-ages", "inventions", "universities", "coimbra", "brazil"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_mechanical_clocks",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Da sala de aula para a torre: como os relógios mecânicos mudaram as horas.",
+        "en": "From the lecture hall to the tower: how mechanical clocks changed the hours."
+      }
+    },
+    {
+      "conceptId": "concept_flat_earth_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O livro de astronomia mais usado nas universidades medievais ensinava que a Terra é redonda.",
+        "en": "The most popular astronomy textbook in medieval universities taught that the Earth is round."
+      }
+    },
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "related",
+      "reason": {
+        "pt-BR": "As primeiras escolas superiores do Rio surgiram depois que a corte chegou, em 1808.",
+        "en": "Rio’s first higher schools appeared after the court arrived in 1808."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

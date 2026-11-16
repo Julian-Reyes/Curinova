@@ -1,0 +1,27 @@
+{
+  "id": "concept_eyeglasses_invention",
+  "topicId": "history",
+  "clusterId": "cluster_medieval_inventions",
+  "clusterOrder": 1,
+  "tags": ["middle-ages", "inventions", "eyeglasses", "italy"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_medieval_universities",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Outra invenção medieval que continua no seu dia a dia: a universidade.",
+        "en": "Another medieval invention still part of daily life: the university."
+      }
+    },
+    {
+      "conceptId": "concept_gutenberg_press",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Quando a imprensa multiplicou os livros, mais gente passou a precisar de óculos.",
+        "en": "Once printing multiplied books, more people needed glasses."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

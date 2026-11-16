@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_medieval_universities_1__en",
+    "questionGroupId": "qg_medieval_universities_1",
+    "conceptId": "concept_medieval_universities",
+    "locale": "en",
+    "prompt": "Who ran the early University of Bologna?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Associations of students, who hired and paid the teachers"
+      },
+      {
+        "id": "b",
+        "text": "The Pope, who appointed every teacher"
+      },
+      {
+        "id": "c",
+        "text": "A king, who founded it by law"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Bologna’s university grew from student associations that set their own rules, elected a rector and paid the teachers.",
+    "misconception": "Many early universities were not founded by a ruler: they grew out of groups of students or teachers.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_universities_2__en",
+    "questionGroupId": "qg_medieval_universities_2",
+    "conceptId": "concept_medieval_universities",
+    "locale": "en",
+    "prompt": "What did the medieval word universitas mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An association, like a guild or corporation"
+      },
+      {
+        "id": "b",
+        "text": "A place that teaches every subject"
+      },
+      {
+        "id": "c",
+        "text": "A building with a library"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Universitas was a legal term for an association taken as a whole: the body of teachers and students.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_medieval_universities_3__en",
+    "questionGroupId": "qg_medieval_universities_3",
+    "conceptId": "concept_medieval_universities",
+    "locale": "en",
+    "prompt": "Where did the sons of colonial Brazil’s elite usually go for a university education?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To Europe, mainly to Coimbra"
+      },
+      {
+        "id": "b",
+        "text": "To the University of Rio de Janeiro"
+      },
+      {
+        "id": "c",
+        "text": "To Bologna"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Universities were forbidden by law in colonial Brazil; the federal government’s first university was created only in 1920.",
+    "claimIds": ["c10", "c12"],
+    "status": "draft"
+  }
+]

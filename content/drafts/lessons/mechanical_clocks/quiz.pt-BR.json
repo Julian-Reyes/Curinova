@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_mechanical_clocks_1__pt-BR",
+    "questionGroupId": "qg_mechanical_clocks_1",
+    "conceptId": "concept_mechanical_clocks",
+    "locale": "pt-BR",
+    "prompt": "Por que uma hora de verão era mais longa que uma de inverno na Europa medieval?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O dia claro sempre era dividido em doze horas, durasse o quanto durasse"
+      },
+      {
+        "id": "b",
+        "text": "Os relógios andavam mais devagar no calor"
+      },
+      {
+        "id": "c",
+        "text": "A Igreja acrescentava horas extras no verão"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O dia claro e a noite eram divididos cada um em doze partes, então as horas do dia esticavam no verão e encolhiam no inverno.",
+    "claimIds": ["c1"],
+    "status": "draft"
+  },
+  {
+    "id": "q_mechanical_clocks_2__pt-BR",
+    "questionGroupId": "qg_mechanical_clocks_2",
+    "conceptId": "concept_mechanical_clocks",
+    "locale": "pt-BR",
+    "prompt": "Por que os relógios mecânicos contavam horas iguais?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Era difícil reajustar o mecanismo todo dia"
+      },
+      {
+        "id": "b",
+        "text": "Uma lei exigia horas iguais"
+      },
+      {
+        "id": "c",
+        "text": "Eram cópias de relógios romanos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O escape de verga e foliot era difícil de acelerar ou frear todo dia, então os relógios seguiam as vinte e quatro horas iguais dos astrônomos, que viraram o padrão.",
+    "claimIds": ["c3", "c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_mechanical_clocks_3__pt-BR",
+    "questionGroupId": "qg_mechanical_clocks_3",
+    "conceptId": "concept_mechanical_clocks",
+    "locale": "pt-BR",
+    "prompt": "O que faltava aos primeiros relógios mecânicos públicos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ponteiros e mostrador"
+      },
+      {
+        "id": "b",
+        "text": "Um sino"
+      },
+      {
+        "id": "c",
+        "text": "Um peso que desce"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os primeiros relógios de torre só batiam as horas num sino; a palavra inglesa clock vem até do alemão para sino.",
+    "misconception": "O mostrador com ponteiros veio depois; os primeiros relógios eram ouvidos, não lidos.",
+    "claimIds": ["c7", "c9"],
+    "status": "draft"
+  }
+]

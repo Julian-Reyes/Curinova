@@ -1,0 +1,307 @@
+{
+  "id": "lesson_medieval_universities__en",
+  "conceptId": "concept_medieval_universities",
+  "locale": "en",
+  "slug": "why-are-universities-a-medieval-idea",
+  "title": "Why are universities a medieval idea?",
+  "hook": "Your degree, your rector and even the word “university” come from the Middle Ages.",
+  "summary": "Because the university was invented in medieval Europe, when students and teachers in Bologna, Paris and Oxford organized themselves like guilds.",
+  "cardText": "Because the university itself was invented in the Middle Ages. In Bologna, Paris and Oxford, students and teachers organized themselves like guilds, with their own rules, rectors and degrees.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a student arriving in Bologna from another city to study law, far from home. Students like him banded together for support and protection, copying the guilds of travelling merchants: they wrote their own rules, elected a rector and hired the teachers, paying them out of their own pockets. Bologna dates its university to 1088 by tradition."
+    },
+    {
+      "type": "paragraph",
+      "text": "These groups were called universitates, a legal word for a corporation, not a place holding all knowledge. In Paris it was the teachers who joined forces, and Oxford grew on the Paris model. The degrees of bachelor and doctor already existed there, and so, later, did the phrase alma mater."
+    },
+    {
+      "type": "takeaway",
+      "text": "The university was born in medieval Europe as an association of students and teachers; Bologna, Paris and Oxford set the model."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Students in charge"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Bologna the students hired teachers under contract and made them follow rules that the student associations wrote. The teachers kept control of exams and degrees. The word universitas meant the whole group of teachers and students, much like a guild or a company today."
+    },
+    {
+      "type": "heading",
+      "text": "Paris and Oxford"
+    },
+    {
+      "type": "paragraph",
+      "text": "In Paris, the University was founded when teachers united in a single body in the last quarter of the 12th century. Oxford already had schools in the early 1100s, and by the end of the century it was a university modelled on Paris. Its growth may owe something to King Henry II, who around 1167 stopped English students from going to Paris."
+    },
+    {
+      "type": "heading",
+      "text": "Coimbra and Brazil"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portugal’s university was founded by King Dinis in 1290 and moved between Lisbon and Coimbra until it settled in Coimbra in 1537. For colonial Brazil, Coimbra was the main door to higher education, because universities and higher courses were forbidden by law in the colony. The sons of the elite crossed the Atlantic to study law and medicine. After a reform in 1772, about 430 Brazilians graduated in the sciences at Coimbra in twenty years; José Bonifácio, later a leader of independence, was the best known."
+    },
+    {
+      "type": "heading",
+      "text": "Brazil’s first federal university"
+    },
+    {
+      "type": "paragraph",
+      "text": "Only on 7 September 1920 did the federal government create its first university, the University of Rio de Janeiro. It joined three schools that already existed: engineering, medicine and law. Today it is the Federal University of Rio de Janeiro, UFRJ."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The University of Bologna dates its founding to 1088 by convention.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unibo_it_en_university_who_we_928e6d",
+          "excerpt": "from as far back as 1088, conventionally referred to as the year in which the Studium of Bologna was founded"
+        },
+        {
+          "sourceId": "src_unibo_it_en_university_who_we_fe6299",
+          "excerpt": "its Studium, established around 1088, which is the date that has been traditionally celebrated for 150 years."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Bologna’s university arose from students who formed associations, set the teaching goals and paid the teachers themselves.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_unibo_it_en_university_who_we_fe6299",
+          "excerpt": "the University of Bologna arose spontaneously as a result of the initiative of several students, who got together in primitive forms of association, setting the teaching goals and overseeing their proper implementation."
+        },
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "The doctors were employed, under contract, and paid by the scholars, and were subject, in many respects, to the statutes framed by the student-bodies."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "In Bologna, students from other cities formed associations for mutual support and protection, organized like the guilds of travelling tradesmen, with their own statutes and an elected rector.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "voluntary associations were established by the foreign, i.e., non-Bolognese, students for purposes of mutual support and protection."
+        },
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "In their organization they copied the guilds of travelling tradesmen; each association comprised a number of Nations, enacted its own statutes, and elected a rector who was assisted by a body of consiliarii."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In the Middle Ages, universitas was a legal word for an association or corporation, not a place covering all knowledge.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "These student-guilds were known as universitates, i.e. corporations in the accepted legal sense, not teaching bodies."
+        },
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "Employed with reference to a school, universitas did not mean a collection of all the sciences, but rather the entire group of persons engaged at a given institution in scientific pursuits, i.e. the whole body of teachers and students: universitas magistorum et scholarium."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The University of Paris was founded when its teachers united in one teaching body in the last quarter of the 12th century.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "When these professors, in the last quarter of the twelfth century, united in one teaching body, the University of Paris was founded"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Oxford had schools by the early 12th century and a well-established university by its end, perhaps helped by Henry II’s decision around 1167 to bar English students from Paris; it was modelled on Paris.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_university_of_oxford_531f4f",
+          "excerpt": "Sketchy evidence indicates that by the early 12th century, schools existed at Oxford. By the end of that century a university was well established, perhaps resulting from Henry II’s decision about 1167 to bar English students from attending the University of Paris. Oxford was modeled on that university"
+        },
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "The growth of Oxford followed, in the main, that of Paris."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Medieval universities generally recognized three degrees: bachelor, licentiate and doctorate or mastership.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "Three degrees, however, were generally recognized: baccalaureate, licentiate, and doctorate or mastership."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The expression alma mater was applied to universities from the late 14th century, for example to Paris in 1389.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "Later, the expression alma mater was applied, e.g. to Paris in 1389; Cologne, 1392; Oxford, 1411."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "King Dinis founded the University of Coimbra in 1290; it moved between Lisbon and Coimbra until it settled in Coimbra for good in 1537.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_visit_uc_pt_en_space_list_373d07",
+          "excerpt": "Founded in 1290 by King D. Dinis, the University of Coimbra is the oldest Portuguese-speaking university and one of the oldest in the world."
+        },
+        {
+          "sourceId": "src_visit_uc_pt_en_space_list_373d07",
+          "excerpt": "with its installations traveling between Lisbon and Coimbra for three centuries. This is definitely established in Coimbra in 1537, during the reign of D. João III"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "In colonial Brazil, universities and higher courses were forbidden by law, so the sons of the elite studied in Europe, mainly at Coimbra.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufrj_br_acesso_a_informacao_institucional_b49746",
+          "excerpt": "diferentemente de outras áreas coloniais, no Brasil, universidades e cursos superiores eram proibidos por lei e os filhos das elites colonial e imperial se dirigiam às universidades europeias, principalmente a de Coimbra, para concluir os estudos em Direito e Medicina."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "In the 20 years after Coimbra’s 1772 reform, about 430 Brazilians graduated there in the sciences, José Bonifácio, later known as the “Patriarch of Independence”, was the best known.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_onde_tudo_comecou_2ebaef",
+          "excerpt": "Nos 20 anos posteriores à reforma, cerca de 430 brasileiros se formaram em ciências em Coimbra"
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_onde_tudo_comecou_2ebaef",
+          "excerpt": "seguiu a trajetória que o tornaria conhecido, no futuro, mais como o “Patriarca da Independência” do que como cientista."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_onde_tudo_comecou_2ebaef",
+          "excerpt": "José Bonifácio de Andrada e Silva, cientista de calibre internacional, membro das principais sociedades científicas da Europa, certamente o maior expoente dentre a geração de brasileiros que freqüentou Coimbra."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "On 7 September 1920, Decree 14,343 created the federal government’s first university, the University of Rio de Janeiro, by joining three existing schools; it is today’s UFRJ.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ufrj_br_acesso_a_informacao_institucional_b49746",
+          "excerpt": "Em 7 de setembro de 1920, por meio do Decreto n.o 14.343, o governo federal criou sua primeira universidade: a Universidade do Rio de Janeiro (URJ)."
+        },
+        {
+          "sourceId": "src_www2_camara_leg_br_legin_fed_c1e8c5",
+          "excerpt": "Ficam reunidas, em «Universidade do Rio de Janeiro», a Escola Polytechica do Rio de Janeiro, a Faculdade de Medicina do Rio de Janeiro e a Faculdade de Direito do Rio de Janeiro"
+        },
+        {
+          "sourceId": "src_ufrj_br_acesso_a_informacao_institucional_b49746",
+          "excerpt": "Assim, a UB foi reorganizada e transformada em Universidade Federal do Rio de Janeiro (UFRJ)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "In Bologna, the teachers kept control of academic matters, including exams and the right to grant degrees.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "the professors retained control of strictly academic affairs; they were the rectores scholarum, while the heads of the universities were rectores scholarium; in particular, the right of promotion, i.e. conferring degrees, was reserved to the doctors."
+        },
+        {
+          "sourceId": "src_newadvent_org_cathen_15188a_htm_c86636",
+          "excerpt": "At first the doctors had full charge of examinations and in their own name granted the licence to teach."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_unibo_it_en_university_who_we_928e6d",
+    "src_unibo_it_en_university_who_we_fe6299",
+    "src_newadvent_org_cathen_15188a_htm_c86636",
+    "src_britannica_com_topic_university_of_oxford_531f4f",
+    "src_visit_uc_pt_en_space_list_373d07",
+    "src_ufrj_br_acesso_a_informacao_institucional_b49746",
+    "src_revistapesquisa_fapesp_br_onde_tudo_comecou_2ebaef",
+    "src_www2_camara_leg_br_legin_fed_c1e8c5"
+  ],
+  "quizIds": [
+    "q_medieval_universities_1__en",
+    "q_medieval_universities_2__en",
+    "q_medieval_universities_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_medieval_inventions"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

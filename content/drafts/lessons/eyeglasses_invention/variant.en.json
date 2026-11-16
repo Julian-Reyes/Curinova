@@ -1,0 +1,306 @@
+{
+  "id": "lesson_eyeglasses_invention__en",
+  "conceptId": "concept_eyeglasses_invention",
+  "locale": "en",
+  "slug": "who-invented-eyeglasses",
+  "title": "Who invented eyeglasses?",
+  "hook": "A friar met the inventor in person, and still nobody knows his name.",
+  "summary": "An unknown craftsman in Italy, around the 1280s; a friar who preached in 1305 or 1306 met him but never named him.",
+  "cardText": "Nobody knows. Eyeglasses appeared in Italy around the 1280s, made by a craftsman whose name was lost; a friar who met him preached about it two decades later.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In 1305 or 1306, a friar named Giordano of Pisa told a congregation in Florence about a recent marvel. Less than twenty years earlier, he said, someone had discovered the art of making spectacles, and he had met and talked with the man. He never mentioned his name. That sermon is a key reason historians date the first eyeglasses to the 1280s, in Italy."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first pairs had no arms: two convex lenses riveted together in the middle, held up by hand or pinched onto the nose. They helped people who struggled to see things up close, so readers and craftspeople could keep working much later in life."
+    },
+    {
+      "type": "takeaway",
+      "text": "Eyeglasses appeared in Italy around the 1280s. Their inventor is unknown, and the first pairs only helped with close-up vision."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Before glasses"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lenses that magnify are much older than eyeglasses. Medieval monks may have read with “reading stones”, pieces of glass held against the letters, and in the 1260s the English scholar Roger Bacon wrote about using convex lenses to help old people see. The new idea was to make lenses you could wear."
+    },
+    {
+      "type": "heading",
+      "text": "Pisa or Florence?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because Giordano kept the inventor’s name to himself, the question stayed open, and Italian cities fought over the honour. Historians still disagree on whether the invention happened in Pisa or in Florence. Over the centuries, some local historians even altered manuscripts and made up evidence to win the credit for their city."
+    },
+    {
+      "type": "heading",
+      "text": "A growing trade"
+    },
+    {
+      "type": "paragraph",
+      "text": "Venice, famous for its glass, quickly turned spectacles into an industry. In 1301 its glassworkers’ guild set rules for making “glass discs for the eyes”, and by about 1320 there was a guild of spectacle makers. Lenses for nearsighted people, which are concave (thinner in the middle), came later: by 1451 Florence was producing them. Florentine makers also sold convex lenses in different strengths for each five-year age group from 30 onwards, though these were not yet prescriptions in the modern sense."
+    },
+    {
+      "type": "heading",
+      "text": "A painter’s slip"
+    },
+    {
+      "type": "paragraph",
+      "text": "The earliest known picture of eyeglasses is a 14th-century fresco by Tommaso da Modena in Treviso. It shows a cardinal wearing them, although he lived before glasses existed. Arms that rest over the ears took even longer: they are usually credited to Edward Scarlatt of London, in the 1720s."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Historians date the first European eyeglasses to around the 1280s, in Italy.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "Historians have estimated that the first European glasses were invented around the 1280s CE in Italy, based partly on this sermon by Fra Giordano of Pisa in 1306"
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "Convex spectacles seem to have been invented around 1285."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "In a sermon given in Florence in 1305 or 1306, the friar Giordano of Pisa said spectacles had been invented less than 20 years before and that he had met the inventor, whom he did not name.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "The Dominican Friar Giordano da Rivalto of Pisa, in a sermon delivered in Florence in 1305 or 1306, claimed that spectacles had been invented nearly 20 years earlier, and that he had met the unnamed inventor."
+        },
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "It is not twenty years since there was discovered the art of making spectacles which help one to see well, an art which is one of the best and most necessary in the world... I myself saw the man who discovered and practised it and I talked with him."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Who invented eyeglasses is unknown; historians disagree on whether it happened in Pisa or Florence, and some Italian historians even forged evidence to claim the invention for their city.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "Historians differ over whether Florence or Pisa was the site of this invention, though it has been considered so important that for centuries patriotic historians of Italian cities have altered manuscripts and invented evidence to claim the prestige of the invention for their city."
+        },
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "making it impossible to pin down who the first inventor was"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The first eyeglasses had convex lenses, which help farsighted people see things up close.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "These early glasses featured convex lenses to help the farsighted focus on items up close."
+        },
+        {
+          "sourceId": "src_britannica_com_science_eyeglasses_16a102",
+          "excerpt": "The earliest glasses had convex lenses to aid farsightedness."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Medieval glasses had no arms: two lenses were riveted together in the middle, and wearers held them or pinched them onto the nose.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "Medieval glasses didn’t have arms to go over the ears at first; they were of the pince-nez variety with two lenses riveted together in the centre. This meant that wearers would either have to hold them while using them, or pinch them tightly onto their noses to keep them in place."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "Medieval spectacles were riveted at the center and had leather grips to hold on to the bridge of the nose."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Glasses let people keep reading, writing and working much later in life.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "glasses made it possible for people of all walks of life to continue to read, to write, and to work at both their hobbies and professions much later in life."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Before eyeglasses, monks may have used “reading stones”, pieces of glass held against the page, and in the 1260s Roger Bacon wrote about using convex lenses to help old people see.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "They may have developed from \"reading stones,\" segments of glass spheres used by presbyopic monks to read manuscripts by holding the glass against the letters."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "In 1267 the English monk and scientist Roger Bacon (c. 1214-1294) wrote about his experiments in using convex lenses to correct vision, advocating their use to help old people."
+        },
+        {
+          "sourceId": "src_britannica_com_science_eyeglasses_16a102",
+          "excerpt": "In 1268 Roger Bacon made the earliest recorded comment on the use of lenses for optical purposes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Venice, known for its glass, became an early centre of lens making: in 1301 its glassworkers’ guild set rules for making “glass discs for the eyes”, and by about 1320 Venice had a guild of spectacle makers.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "glassmaking and Italy went hand-in-hand in the Middle Ages: some of the most impressive and sought-after medieval glassware was known to be made by Venetians."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "Venice became an early center of the mass production of lenses."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "The Venetian crystalworkers' guild laid down regulations for producing \"glass discs for the eyes\" in 1301, and by c. 1320 a guild of spectacle-makers existed there."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Concave lenses for nearsighted people came later: by 1451, Florence was making them.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "Certainly by 1451 Florence had overtaken Venice as the manufacturing center for high-quality spectacles, including concave lenses for myopes, which are first mentioned in a letter of August 25 that year."
+        },
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "Concave glasses were invented in the Early Modern period."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Florentine spectacle makers made convex lenses in different strengths for five-year age groups starting at age 30.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "the Florentines understood that vision declines with age and made convex lenses in different strengths for five-year age groups from 30 years old, and concave in two strengths."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The earliest known picture of eyeglasses is a 14th-century fresco by Tommaso da Modena in Treviso, which puts them on a cardinal who lived before glasses were invented.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "The earliest recorded image of glasses is a fourteenth-century fresco painted by Tommaso da Modena in Treviso, Italy, which features a portrait of a bespectacled cardinal who actually lived before eyeglasses were invented."
+        },
+        {
+          "sourceId": "src_britannica_com_science_eyeglasses_16a102",
+          "excerpt": "The first portrait to show eyeglasses is that of Hugh of Provence by Tommaso da Modena, painted in 1352."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Side arms that rest over the ears are usually credited to Edward Scarlatt of London, in the 1720s.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "These earliest spectacles had no sidepieces, or temples, the invention of which in 1725-1730 is attributed to Edward Scarlatt of London."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Magnifying lenses are ancient, but spectacles made to sit on the face seem to be an invention of medieval Europe.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+          "excerpt": "However, spectacles in some way shaped to sit on the face, (as opposed to eyeglasses, which are held to the eye but are not on the face for long periods), seem to have been an invention of medieval Europe."
+        },
+        {
+          "sourceId": "src_medievalists_net_8b3990",
+          "excerpt": "The concepts of magnification and optics in general are ancient, but it wasn’t until the medieval period that lenses became wearable"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_medievalists_net_8b3990",
+    "src_encyclopedia_com_science_encyclopedias_almanacs_transcripts_4e2d41",
+    "src_britannica_com_science_eyeglasses_16a102"
+  ],
+  "quizIds": [
+    "q_eyeglasses_invention_1__en",
+    "q_eyeglasses_invention_2__en",
+    "q_eyeglasses_invention_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_medieval_inventions"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

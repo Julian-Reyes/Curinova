@@ -1,0 +1,79 @@
+[
+  {
+    "id": "q_eyeglasses_invention_1__pt-BR",
+    "questionGroupId": "qg_eyeglasses_invention_1",
+    "conceptId": "concept_eyeglasses_invention",
+    "locale": "pt-BR",
+    "prompt": "Quando e onde os óculos apareceram na Europa?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Na Itália, por volta de 1280"
+      },
+      {
+        "id": "b",
+        "text": "Na Roma antiga, por volta do ano 100"
+      },
+      {
+        "id": "c",
+        "text": "Na Alemanha, depois da imprensa dos anos 1450"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Um sermão de 1305 ou 1306 dizia que os óculos tinham sido inventados havia menos de 20 anos, o que aponta para a década de 1280, na Itália.",
+    "misconception": "Lentes de aumento são antigas, mas lentes usadas na frente dos olhos são uma invenção medieval.",
+    "claimIds": ["c1", "c2", "c13"],
+    "status": "draft"
+  },
+  {
+    "id": "q_eyeglasses_invention_2__pt-BR",
+    "questionGroupId": "qg_eyeglasses_invention_2",
+    "conceptId": "concept_eyeglasses_invention",
+    "locale": "pt-BR",
+    "prompt": "Por que não sabemos quem inventou os óculos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O frade que conheceu o inventor nunca disse o nome dele"
+      },
+      {
+        "id": "b",
+        "text": "A patente do inventor se perdeu num incêndio"
+      },
+      {
+        "id": "c",
+        "text": "A Igreja proibiu que se falasse da invenção"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Giordano de Pisa disse ter conversado com o inventor, mas não o nomeou; depois, cidades italianas disputaram o crédito, e algumas chegaram a forjar provas.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_eyeglasses_invention_3__pt-BR",
+    "questionGroupId": "qg_eyeglasses_invention_3",
+    "conceptId": "concept_eyeglasses_invention",
+    "locale": "pt-BR",
+    "prompt": "Para que serviam os primeiros óculos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para enxergar de perto"
+      },
+      {
+        "id": "b",
+        "text": "Para enxergar de longe"
+      },
+      {
+        "id": "c",
+        "text": "Para distinguir cores"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os primeiros óculos tinham lentes convexas, que ajudam quem tem dificuldade com tarefas de perto, como ler.",
+    "misconception": "As lentes para míopes, que ajudam a ver de longe, só aparecem no século XV.",
+    "claimIds": ["c4", "c9"],
+    "status": "draft"
+  }
+]

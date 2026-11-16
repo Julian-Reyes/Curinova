@@ -1,0 +1,35 @@
+{
+  "id": "concept_gutenberg_press",
+  "topicId": "history",
+  "clusterId": "cluster_medieval_inventions",
+  "clusterOrder": 5,
+  "tags": ["middle-ages", "inventions", "printing", "books", "brazil"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A primeira gráfica oficial do Brasil chegou junto com a corte portuguesa, em 1808.",
+        "en": "Brazil’s first official press arrived with the Portuguese court in 1808."
+      }
+    },
+    {
+      "conceptId": "concept_eyeglasses_invention",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Mais livros, mais leitores: a imprensa aumentou a procura por óculos.",
+        "en": "More books, more readers: printing raised the demand for glasses."
+      }
+    },
+    {
+      "conceptId": "concept_arabic_numerals",
+      "type": "background",
+      "reason": {
+        "pt-BR": "A imprensa ajudou a fixar o formato dos algarismos que usamos.",
+        "en": "Printing helped fix the shapes of the digits we use."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

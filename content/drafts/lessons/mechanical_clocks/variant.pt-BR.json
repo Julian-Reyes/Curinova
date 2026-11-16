@@ -1,0 +1,290 @@
+{
+  "id": "lesson_mechanical_clocks__pt-BR",
+  "conceptId": "concept_mechanical_clocks",
+  "locale": "pt-BR",
+  "slug": "como-o-relogio-mecanico-mudou-o-dia",
+  "title": "Como o relógio mecânico mudou o dia?",
+  "hook": "Na Idade Média, uma hora de verão durava mais que uma de inverno.",
+  "summary": "Ele trocou horas que esticavam e encolhiam com as estações por vinte e quatro horas iguais, tocadas nas torres das cidades a partir de cerca de 1300.",
+  "cardText": "Antes dele, a hora era um doze avos do dia claro, então durava mais no verão que no inverno. Os relógios de torre, por volta de 1300, passaram a tocar horas iguais, como as de hoje.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine um dia de verão em Londres, na Idade Média. O período de luz era dividido em doze horas, e a noite também; por isso, uma hora do dia em junho durava bem mais que uma em dezembro. Relógios de sol e de água acompanhavam esse ritmo sem problema."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por volta de 1300, uma máquina nova mudou as regras: um peso que desce, freado aos poucos por uma peça que balança, o escape de verga e foliot. Era difícil ajustá-la todo dia, então ela simplesmente contava vinte e quatro horas iguais. Em menos de um século, relógios nas torres de igrejas e cidades tocavam essas horas por toda a Europa."
+    },
+    {
+      "type": "takeaway",
+      "text": "O relógio mecânico, por volta de 1300, trocou horas que mudavam com as estações por vinte e quatro horas iguais, as que usamos até hoje."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Horas que esticavam"
+    },
+    {
+      "type": "paragraph",
+      "text": "Durante quase toda a Idade Média, a hora não tinha duração fixa. O dia claro era dividido em doze partes, e a noite em outras doze, fosse qual fosse a estação. O marcador de tempo mais comum era o relógio de água, que deixava a água pingar num ritmo constante dentro de um recipiente e era fácil de ajustar quando os dias ficavam mais longos ou mais curtos."
+    },
+    {
+      "type": "heading",
+      "text": "Como a máquina funcionava"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os primeiros relógios mecânicos talvez fossem alarmes que tocavam um sino para acordar os monges para as orações da noite. A palavra inglesa clock vem do alemão Glocke, “sino”. Um peso preso a uma corda girava um eixo ao descer, e o escape, uma barra que oscila, só o deixava girar em passos pequenos e regulares. Os primeiros relógios não tinham ponteiros nem mostrador: só batiam as horas, e podiam atrasar ou adiantar meia hora por dia."
+    },
+    {
+      "type": "heading",
+      "text": "O tempo do relógio vence"
+    },
+    {
+      "type": "paragraph",
+      "text": "Como era difícil mudar o mecanismo todo dia, os relógios contavam as vinte e quatro horas iguais dos astrônomos, e esse virou o padrão de todos. Eles ficavam no alto das torres, onde o peso tinha espaço para descer e o sino alcançava a cidade inteira. O relógio mais antigo que sobrevive na Inglaterra, na Catedral de Salisbury, é de 1386. As ampulhetas parecem ter se espalhado junto: virava-se a ampulheta quando o sino batia. As horas variáveis resistiram por séculos, e alguns relógios de torre mostravam os dois tipos, mas as horas iguais, mais simples, venceram."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Na Idade Média, o dia claro e a noite eram divididos cada um em doze horas, então a duração de uma hora mudava ao longo do ano.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2025_11_medieval_time_566e0d",
+          "excerpt": "The liturgical hours were not twenty-four fixed and equal periods of time like modern clock-hours, but dependent on the division of the daily periods of daylight and darkness each into twelve parts – measurements that, therefore, changed throughout the year."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "If one uses a “variable hour” system, marking off twelve hours of light and twelve hours of darkness, a daylight hour in June in London is a great deal longer than a daylight hour in December in the same city."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A maioria dos relógios de sol dividia o dia claro em doze partes, qualquer que fosse sua duração, e os relógios de água, os mais comuns, eram fáceis de ajustar a essas horas variáveis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "for most of the period those in use since antiquity divided daylight hours, regardless of their length, into twelve parts."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "The most common form of timekeeper in antiquity and the early Middle Ages was a water clock, or clepsydra, which allows water to drip at a regular rate into a collection vessel."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "Water clocks could easily be adjusted to allow for variable hours as the seasons changed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O relógio mecânico surgiu por volta de 1300, movido por um peso que desce e regulado por um mecanismo chamado escape de verga e foliot.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2025_11_medieval_time_566e0d",
+          "excerpt": "This shift began around 1300 with the invention of the verge and foliot, a mechanism that regulated the falling of a weight, pulled by gravity, that in turn drove the mechanism of a clock."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "The first clocks that dispensed with water or another dripping fluid and used a mechanism made of gears and levers to mark the passage of timeappeared in the early fourteenth century."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Os relógios mecânicos contavam 24 horas iguais em qualquer estação, porque era difícil reajustar o mecanismo todo dia; assim, o jeito dos astrônomos de contar o tempo virou o padrão de todo mundo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "the counting of the hours was done according to the astronomers’ system of twenty-four equal hours per day-night, regardless of the season."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "it was quite difficult to readjust the foliot on a daily basis to make the clock speed up or slow down as the days grew shorter or longer. The clock, in other words, failed to keep time the way most people had kept time for centuries, and instead made the astronomers’ method of telling time the standard for everyone."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Em menos de um século, os relógios de peso se espalharam por todas as cidades e pela maioria das vilas importantes da Europa, muitas vezes no alto das torres de igrejas e prefeituras.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "In less than a century, weight-driven clocks spread to all the cities and most of the important towns of Europe."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "clocks, conspicuously mounted on church and urban towers (where public sundials had been mounted) as a sign of pride, more and more frequently chimed out the equal hours."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Os relógios ficavam no alto das torres porque, quanto mais o peso podia descer, menos vezes era preciso dar corda, e de lá os sinos eram ouvidos pela cidade inteira.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2025_11_medieval_time_566e0d",
+          "excerpt": "Because the further the weight had to fall, the less frequent the winding, verge-and-foliot clocks tended to be placed high up in towers – where their ringing could be heard by, and regulate, a whole city."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Os primeiros relógios mecânicos só batiam as horas num sino e não tinham ponteiros nem mostrador; podiam errar até meia hora por dia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_technology_clock_3e7f1c",
+          "excerpt": "These early devices struck only the hours and did not have hands or a dial."
+        },
+        {
+          "sourceId": "src_britannica_com_technology_clock_3e7f1c",
+          "excerpt": "Their errors probably were as large as a half hour per day."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Os primeiros relógios mecânicos talvez tenham sido feitos em mosteiros, como alarmes que tocavam um sino para chamar os monges às orações da noite.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_technology_clock_3e7f1c",
+          "excerpt": "the first such devices may have been invented and used in monasteries to toll a bell that called the monks to prayers."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "the first mechanical clocks seem to have been developed as alarms to awaken the brethren for prayers in the night."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A palavra inglesa clock vem do alemão Glocke, “sino”, e a expressão o’clock lembra a época em que se sabia a hora pelo sino.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "The name clock derives from the German word Glocke (bell)"
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "late medieval Europeans told time by the bell (the meaning of “o’clock” in English)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "As horas variáveis continuaram em uso por séculos, e alguns relógios de torre as mostravam ao lado das horas iguais, que acabaram vencendo por serem mais simples.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2025_11_medieval_time_566e0d",
+          "excerpt": "The seasonal hours continued to be used for centuries, and tower clocks used faces with eccentric gearing to show them along with the equal hours – though the latter, being simpler, eventually triumphed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O relógio mais antigo que sobrevive na Inglaterra, na Catedral de Salisbury, é de 1386.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_technology_clock_3e7f1c",
+          "excerpt": "The oldest surviving clock in England is that at Salisbury Cathedral, which dates from 1386."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Nenhuma ampulheta anterior ao relógio mecânico foi encontrada; as pessoas a viravam quando o sino batia a hora.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "Sandglasses could have been invented at any time, but none have been found that date before advent the mechanical clock in the fourteenth century. People turned their glasses when the bell sounded the start of an hour"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Num relógio mecânico simples, um peso preso a uma corda gira um eixo ao descer, e o escape de verga e foliot só deixa as rodas girarem em passos pequenos e regulares.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "A simple mechanical clock consists of a weight on a cord that is wrapped around an axle. As the weight is pulled downward by gravity, it turns the axle."
+        },
+        {
+          "sourceId": "src_encyclopedia_com_history_news_wires_white_c01510",
+          "excerpt": "the verge allows the crown wheel to rotate only in small, even, methodical steps."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_medievalists_net_2025_11_medieval_time_566e0d",
+    "src_encyclopedia_com_history_news_wires_white_c01510",
+    "src_britannica_com_technology_clock_3e7f1c"
+  ],
+  "quizIds": [
+    "q_mechanical_clocks_1__pt-BR",
+    "q_mechanical_clocks_2__pt-BR",
+    "q_mechanical_clocks_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_medieval_inventions"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

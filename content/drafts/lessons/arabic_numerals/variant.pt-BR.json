@@ -1,0 +1,297 @@
+{
+  "id": "lesson_arabic_numerals__pt-BR",
+  "conceptId": "concept_arabic_numerals",
+  "locale": "pt-BR",
+  "slug": "por-que-escrevemos-algarismos-arabicos",
+  "title": "Por que escrevemos algarismos “arábicos”?",
+  "hook": "Os números do seu celular vieram da Índia, passando pelo mundo árabe e pela Espanha.",
+  "summary": "Porque a Europa os aprendeu com o mundo árabe; os algarismos e o valor posicional nasceram na Índia, e o livro de Fibonacci, de 1202, os espalhou entre os mercadores italianos.",
+  "cardText": "Porque a Europa os aprendeu com o mundo árabe. Os algarismos e o valor posicional nasceram na Índia, e um livro de Fibonacci, de 1202, os levou aos mercadores italianos.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Tente somar MMDCLXXXVIII com MMDCCLXXXVI. Com os nossos algarismos, a conta fica 2688 + 2786 = 5474, coisa de segundos no papel. O segredo é o valor posicional: dez símbolos, contando o zero, que valem mais ou menos conforme o lugar onde estão. Esse sistema nasceu na Índia."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ele chegou à Europa pelo mundo árabe, entrando pela Espanha, e por isso os europeus chamaram esses algarismos de arábicos. Em 1202, Fibonacci, que aprendeu aritmética no norte da África, publicou o Liber abaci, cheio de problemas sobre preços, lucros e câmbio. Mesmo assim, a Europa levou séculos para largar os algarismos romanos."
+    },
+    {
+      "type": "takeaway",
+      "text": "Nossos algarismos nasceram na Índia, chegaram à Europa pelo mundo árabe e se espalharam com os mercadores, ajudados pelo livro de Fibonacci."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Da Índia ao mundo árabe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Já em 662, Severo Sebokht, bispo que vivia às margens do Eufrates, elogiava o jeito indiano de calcular com nove sinais. Estudiosos árabes adotaram os algarismos indianos, e a tradução latina de um livro do matemático al-Khwarizmi sobre eles nos deu a palavra algoritmo, a partir do nome dele. O documento europeu mais antigo com esses algarismos foi copiado por um monge na Espanha, em 976."
+    },
+    {
+      "type": "heading",
+      "text": "Filho de mercador"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leonardo de Pisa, o Fibonacci, cresceu em parte em Bugia, hoje Béjaïa, na Argélia, onde o pai representava os mercadores de Pisa. Ali aprendeu os “nove símbolos dos indianos”. O Liber abaci (1202) foi muito copiado e imitado. Boa parte do livro era prática: quanto custam as mercadorias, como calcular o lucro e como converter moedas."
+    },
+    {
+      "type": "heading",
+      "text": "Uma vitória lenta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os novos algarismos não venceram de uma hora para outra. Um estudo defende que, por volta de 1300, banqueiros os usavam para montar tabelas de câmbio, enquanto os escriturários das contas do dia a dia ainda calculavam no ábaco e escreviam em algarismos romanos. Em Florença, havia quem dissesse que os novos números eram mais fáceis de falsificar. A aceitação ainda era lenta no século XV, quando a imprensa finalmente ajudou a fixar o formato dos algarismos que escrevemos hoje."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "O sistema de escrever qualquer número com dez símbolos, cada um com valor de posição, surgiu na Índia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_a78cb3",
+          "excerpt": "The ingenious method of expressing every possible number using a set of ten symbols (each symbol having a place value and an absolute value) emerged in India."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "The Indian numerals discussed in our article on Indian numerals at THIS LINK form the basis of the European number systems which are now widely used."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Os algarismos indianos não foram direto da Índia para a Europa: passaram antes pelo mundo árabe e entraram na Europa pela Espanha.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "However they were not transmitted directly from India to Europe but rather came first to the Arabic/Islamic peoples and from them to Europe."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "certainly from this time the Arabs had a translation into Arabic of a text written in the Indian number system."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "Transmission to Europe came through this western Arabic route, coming into Europe first through Spain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O sistema indiano de valor posicional usa os algarismos de 1 a 9 e o 0.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "The Latin text certainly describes the Indian place-value system of numerals based on 1, 2, 3, 4, 5, 6, 7, 8, 9, and 0."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em algarismos romanos, 2688 + 2786 = 5474 se escreve MMDCLXXXVIII + MMDCCLXXXVI = MMMMMCDLXXIV.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "For example, the sum 2688 + 2786 = 5474 would have looked like this: MMDCLXXXVIII + MMDCCLXXXVI = MMMMMCDLXXIV."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Fibonacci estudou em Bugia, hoje Béjaïa, na Argélia, onde o pai representava os mercadores de Pisa, e ali aprendeu os nove símbolos dos indianos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "His father's job was to represent the merchants of the Republic of Pisa who were trading in Bugia, later called Bougie and now called Bejaia. Bejaia is a Mediterranean port in northeastern Algeria."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "There, when I had been introduced to the art of the Indians' nine symbols through remarkable teaching"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O Liber abaci, de Fibonacci, publicado em 1202, apresentou à Europa o sistema decimal posicional indo-arábico e foi muito copiado.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "Liber abaci T, published in 1202 after Fibonacci's return to Italy, was dedicated to Scotus."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "The book, which went on to be widely copied and imitated, introduced the Hindu-Arabic place-valued decimal system and the use of Arabic numerals into Europe."
+        },
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "this mathematician brought Hindu-Arabic numerals to Europe in the 13th century."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O Liber abaci trazia muitos problemas para mercadores: preço de mercadorias, lucro nos negócios e conversão entre as moedas do Mediterrâneo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "The second section of Liber abaci T contains a large collection of problems aimed at merchants. They relate to the price of goods, how to calculate profit on transactions, how to convert between the various currencies in use in Mediterranean countries"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A Europa demorou a aceitar os novos algarismos, ainda no século XV.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "Acceptance was slow, even as late as the fifteenth century when European mathematics began its rapid development which continues today."
+        },
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "Despite the advantages in terms of keeping accounting records, it took a long time for the system that Fibonacci brought to Italy to become established."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Um estudo de 2009 defende que, por volta de 1300, banqueiros usavam métodos indo-arábicos para tabelas de câmbio, enquanto os escriturários que cuidavam das contas do dia a dia usavam ábaco e escreviam em algarismos romanos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_researchonline_lse_ac_uk_id_eprint_70e1f9",
+          "excerpt": "It is argued that algorithmic methods based on the Hindu-Arabic numerals were used at the higher levels of banking, in order to prepare tables of foreign exchange such as those collected by the Florentine banker, Francesco Pegolotti. On the other hand, the clerks who were responsible for routine book-keeping would have used a simple abacus and counters, and recorded their transactions in Roman numerals."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Em Florença, havia quem dissesse que os algarismos arábicos eram mais fáceis de falsificar que os romanos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "In Florence, for example, people argued that Arabic numerals were easier to falsify than Roman ones."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O documento europeu mais antigo que se conhece com esses algarismos é o Códice Vigilano, copiado por um monge na Espanha em 976.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "The first surviving example of the Indian numerals in a document in Europe was, however, long before the time of al-Banna. The numerals appear in the Codex Vigilanus copied by a monk in Spain in 976."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A palavra algoritmo vem do nome de al-Khwarizmi, pelo título de uma tradução latina do século XII do livro dele sobre os algarismos indianos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "a twelfth century Latin translation, Algoritmi de numero Indorum T gave rise to the word algorithm deriving from his name in the title."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Os algarismos ganharam formas próximas das atuais na Europa do século XV, quando a imprensa ajudou a padronizá-los.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_a78cb3",
+          "excerpt": "we certainly know that today's symbols took on forms close to that which they presently have in Europe in the 15th century. It was the advent of printing which motivated the standardisation of the symbols."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Em 662, Severo Sebokht, bispo que vivia às margens do Eufrates, elogiou o jeito indiano de calcular com nove sinais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "In 662 AD Severus Sebokht, a Nestorian bishop who lived in Keneshra on the Euphrates river, wrote:-"
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "I wish only to say that this computation is done by means of nine signs."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_mathshistory_st_andrews_ac_uk_histtopics_a78cb3",
+    "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+    "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+    "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+    "src_researchonline_lse_ac_uk_id_eprint_70e1f9"
+  ],
+  "quizIds": [
+    "q_arabic_numerals_1__pt-BR",
+    "q_arabic_numerals_2__pt-BR",
+    "q_arabic_numerals_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_medieval_inventions"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

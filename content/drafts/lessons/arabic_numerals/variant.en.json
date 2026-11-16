@@ -1,0 +1,293 @@
+{
+  "id": "lesson_arabic_numerals__en",
+  "conceptId": "concept_arabic_numerals",
+  "locale": "en",
+  "slug": "why-do-we-write-arabic-numerals",
+  "title": "Why do we write “Arabic” numerals?",
+  "hook": "The digits on your phone came from India, by way of the Arab world and Spain.",
+  "summary": "Because Europe learned them from the Arab world; the digits and place value began in India, and Fibonacci’s 1202 book spread them among Italian merchants.",
+  "cardText": "Because Europe learned them from the Arab world. The digits and place value were born in India, and Fibonacci’s 1202 book made them known to Italian merchants.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Try adding MMDCLXXXVIII and MMDCCLXXXVI. In our digits, that is 2688 + 2786 = 5474, a sum you can work out on paper in seconds. The trick is place value: ten symbols, zero included, whose worth depends on where they sit. That system was born in India."
+    },
+    {
+      "type": "paragraph",
+      "text": "It reached Europe through the Arab world, entering by way of Spain, which is why Europeans called the digits Arabic. In 1202 Fibonacci, who had learned arithmetic in North Africa, published Liber abaci, full of problems on prices, profits and exchange rates. Even so, Europe took centuries to let go of Roman numerals."
+    },
+    {
+      "type": "takeaway",
+      "text": "Our digits began in India, reached Europe through the Arab world and spread with merchants, helped by Fibonacci’s 1202 book."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "From India to the Arab world"
+    },
+    {
+      "type": "paragraph",
+      "text": "As early as 662, Severus Sebokht, a bishop living by the Euphrates, praised the Indian way of calculating with nine signs. Arab scholars adopted the Indian numerals, and the Latin translation of a book by the mathematician al-Khwarizmi on them gave us the word algorithm, from his name. The oldest surviving European document with these numerals was copied by a monk in Spain in 976."
+    },
+    {
+      "type": "heading",
+      "text": "A merchant’s son"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leonardo of Pisa, known as Fibonacci, grew up partly in Bugia, today Béjaïa in Algeria, where his father represented Pisa’s merchants. There he learned the “nine symbols of the Indians”. His Liber abaci (1202) was widely copied and imitated. Much of it was practical: what goods cost, how to work out profit and how to convert currencies."
+    },
+    {
+      "type": "heading",
+      "text": "A slow victory"
+    },
+    {
+      "type": "paragraph",
+      "text": "The new numerals did not win overnight. One study argues that around 1300 bankers used them to prepare exchange tables, while the clerks who kept day-to-day accounts still counted on an abacus and wrote in Roman numerals. In Florence, some people argued that the new digits were easier to falsify. Acceptance was still slow in the 15th century, when printing finally helped fix the shapes of the digits we write today."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The system of writing any number with ten symbols, each with a place value, emerged in India.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_a78cb3",
+          "excerpt": "The ingenious method of expressing every possible number using a set of ten symbols (each symbol having a place value and an absolute value) emerged in India."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "The Indian numerals discussed in our article on Indian numerals at THIS LINK form the basis of the European number systems which are now widely used."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The Indian numerals did not go straight from India to Europe: they passed first to the Arab world and reached Europe through Spain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "However they were not transmitted directly from India to Europe but rather came first to the Arabic/Islamic peoples and from them to Europe."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "certainly from this time the Arabs had a translation into Arabic of a text written in the Indian number system."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "Transmission to Europe came through this western Arabic route, coming into Europe first through Spain."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The Indian place-value system uses the numerals 1 to 9 and 0.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "The Latin text certainly describes the Indian place-value system of numerals based on 1, 2, 3, 4, 5, 6, 7, 8, 9, and 0."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In Roman numerals, 2688 + 2786 = 5474 is written MMDCLXXXVIII + MMDCCLXXXVI = MMMMMCDLXXIV.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "For example, the sum 2688 + 2786 = 5474 would have looked like this: MMDCLXXXVIII + MMDCCLXXXVI = MMMMMCDLXXIV."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Fibonacci was educated in Bugia, today Béjaïa in Algeria, where his father represented the merchants of Pisa, and there he learned the Indians’ nine symbols.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "His father's job was to represent the merchants of the Republic of Pisa who were trading in Bugia, later called Bougie and now called Bejaia. Bejaia is a Mediterranean port in northeastern Algeria."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "There, when I had been introduced to the art of the Indians' nine symbols through remarkable teaching"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Fibonacci’s Liber abaci, published in 1202, introduced the Hindu-Arabic place-value decimal system to Europe and was widely copied.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "Liber abaci T, published in 1202 after Fibonacci's return to Italy, was dedicated to Scotus."
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "The book, which went on to be widely copied and imitated, introduced the Hindu-Arabic place-valued decimal system and the use of Arabic numerals into Europe."
+        },
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "this mathematician brought Hindu-Arabic numerals to Europe in the 13th century."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Liber abaci included many problems for merchants: prices of goods, profit on deals and converting between Mediterranean currencies.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+          "excerpt": "The second section of Liber abaci T contains a large collection of problems aimed at merchants. They relate to the price of goods, how to calculate profit on transactions, how to convert between the various currencies in use in Mediterranean countries"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Europe was slow to accept the new numerals, even into the 15th century.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "Acceptance was slow, even as late as the fifteenth century when European mathematics began its rapid development which continues today."
+        },
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "Despite the advantages in terms of keeping accounting records, it took a long time for the system that Fibonacci brought to Italy to become established."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A 2009 study argues that, around 1300, bankers used Hindu-Arabic methods for foreign-exchange tables, while the clerks who kept routine accounts used an abacus and wrote in Roman numerals.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_researchonline_lse_ac_uk_id_eprint_70e1f9",
+          "excerpt": "It is argued that algorithmic methods based on the Hindu-Arabic numerals were used at the higher levels of banking, in order to prepare tables of foreign exchange such as those collected by the Florentine banker, Francesco Pegolotti. On the other hand, the clerks who were responsible for routine book-keeping would have used a simple abacus and counters, and recorded their transactions in Roman numerals."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "In Florence, some people argued that Arabic numerals were easier to falsify than Roman ones.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+          "excerpt": "In Florence, for example, people argued that Arabic numerals were easier to falsify than Roman ones."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The oldest surviving European document with these numerals is the Codex Vigilanus, copied by a monk in Spain in 976.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "The first surviving example of the Indian numerals in a document in Europe was, however, long before the time of al-Banna. The numerals appear in the Codex Vigilanus copied by a monk in Spain in 976."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "The word algorithm comes from the name of al-Khwarizmi, through the title of a 12th-century Latin translation of his book on Indian numerals.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "a twelfth century Latin translation, Algoritmi de numero Indorum T gave rise to the word algorithm deriving from his name in the title."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Today’s digits took shapes close to their modern ones in 15th-century Europe, when printing pushed them towards a standard form.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_a78cb3",
+          "excerpt": "we certainly know that today's symbols took on forms close to that which they presently have in Europe in the 15th century. It was the advent of printing which motivated the standardisation of the symbols."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "In 662, Severus Sebokht, a bishop living by the Euphrates, praised the Indian way of calculating with nine signs.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "In 662 AD Severus Sebokht, a Nestorian bishop who lived in Keneshra on the Euphrates river, wrote:-"
+        },
+        {
+          "sourceId": "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+          "excerpt": "I wish only to say that this computation is done by means of nine signs."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_mathshistory_st_andrews_ac_uk_histtopics_a78cb3",
+    "src_mathshistory_st_andrews_ac_uk_histtopics_e34ad2",
+    "src_blog_nationalmuseum_ch_en_2020_03_19e0dc",
+    "src_mathshistory_st_andrews_ac_uk_biographies_831b99",
+    "src_researchonline_lse_ac_uk_id_eprint_70e1f9"
+  ],
+  "quizIds": ["q_arabic_numerals_1__en", "q_arabic_numerals_2__en", "q_arabic_numerals_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_medieval_inventions"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}
