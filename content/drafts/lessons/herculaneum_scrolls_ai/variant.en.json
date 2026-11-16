@@ -76,7 +76,7 @@
           "excerpt": "But when 18th-century scholars tried to unroll the charred papyrus, the scrolls crumbled to pieces."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -89,7 +89,7 @@
           "excerpt": "\"They are as black as burnt newspaper,\" says Dirk Obbink"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -106,7 +106,7 @@
           "excerpt": "For almost 2,000 years, this lone surviving library from antiquity was buried underground under 20 meters of volcanic mud."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -119,7 +119,7 @@
           "excerpt": "Our story starts in 2019, when professor Brent Seales at the University of Kentucky’s EduceLab imaged Herculaneum scrolls in a particle accelerator, generating 3D CT-scans at resolutions as high as 4 μm."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -136,7 +136,7 @@
           "excerpt": "We released these high-resolution CT scans of the scrolls, and we offered more than $1M in prizes, put forward by many generous donors."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -161,7 +161,7 @@
           "excerpt": "In late 2023, a computer science student revealed the first word on an unopened scroll: “porphyras,” an ancient Greek term for “purple.”"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -174,7 +174,7 @@
           "excerpt": "At that point, the carbon-based ink usually isn’t visible in the scans, so machine-learning models are necessary to identify the inked sections."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -187,7 +187,7 @@
           "excerpt": "When excavators and treasure hunters set about exploring the villa in the 18th Century, they mistook the scrolls for lumps of charcoal and burnt logs. Some were used as torches or thrown on to the fire."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -200,7 +200,7 @@
           "excerpt": "Later a conservator from the Vatican, Father Antonio Piaggio (1713-1796), devised a machine to delicately open the scrolls. But it was slow work - the first one took around four years to unroll."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -213,7 +213,7 @@
           "excerpt": "But the machine could not distinguish \"the chemistry of the ink from the chemistry of the paper,\" he says. It is unfortunate that ancient ink contains no metal."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -226,7 +226,7 @@
           "excerpt": "After the rolled-up scrolls are scanned, their many layers need to be separated out and flattened into two-dimensional segments."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -243,7 +243,7 @@
           "excerpt": "Casey was the first person in 2,000 years to find ink — and a letter — inside an unopened scroll."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -260,7 +260,7 @@
           "excerpt": "With each new crackle found, the model improved, revealing more crackle in the scroll — a cycle of discovery and refinement."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -277,7 +277,7 @@
           "excerpt": "We released these high-resolution CT scans of the scrolls, and we offered more than $1M in prizes, put forward by many generous donors."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -306,7 +306,7 @@
           "excerpt": "unveiling a previously unknown philosophical work that discusses the senses and pleasure."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -319,7 +319,7 @@
           "excerpt": "Roughly 95% of the scroll remains to be read."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -336,7 +336,7 @@
           "excerpt": "“This is the first time the title of a still-rolled Herculaneum scroll has ever been recovered noninvasively.”"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -349,7 +349,7 @@
           "excerpt": "As the author whose works make up the majority of the library in the Villa of Papyri at Herculaneum, it is unsurprising that he was the author of this work too."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -362,7 +362,7 @@
           "excerpt": "The book number in the title image is plausibly read as an alpha, indicating that this scroll is Book 1. However, the reading is still uncertain, and other possibilities (e.g. delta, Book 4), while less likely, cannot be completely ruled out."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -375,7 +375,7 @@
           "excerpt": "They aren’t sure why this scroll is so much more legible, though they hypothesize it’s because the ink contains a denser contaminant such as lead, according to the University of Oxford’s Bodleian Libraries, which houses the scroll."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
