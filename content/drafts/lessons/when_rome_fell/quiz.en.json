@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_when_rome_fell_1__en",
+    "questionGroupId": "qg_when_rome_fell_1",
+    "conceptId": "concept_when_rome_fell",
+    "locale": "en",
+    "prompt": "What happened in 476?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Odoacer deposed Romulus Augustulus, the last Western emperor"
+      },
+      {
+        "id": "b",
+        "text": "The Ottomans took Constantinople"
+      },
+      {
+        "id": "c",
+        "text": "Constantinople became the empire’s capital"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Odoacer was proclaimed king in Italy and deposed the boy emperor; by tradition the date marks the end of the Western Empire.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_when_rome_fell_2__en",
+    "questionGroupId": "qg_when_rome_fell_2",
+    "conceptId": "concept_when_rome_fell",
+    "locale": "en",
+    "prompt": "What did the people of the so-called Byzantine Empire call themselves?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Romans"
+      },
+      {
+        "id": "b",
+        "text": "Byzantines"
+      },
+      {
+        "id": "c",
+        "text": "Ottomans"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "They called themselves Romans to the very end in 1453; “Byzantine” is a name Western historians popularised later.",
+    "misconception": "“Byzantine” sounds like a name from the time, but European historians spread it centuries later.",
+    "claimIds": ["c6", "c13", "c14"],
+    "status": "draft"
+  },
+  {
+    "id": "q_when_rome_fell_3__en",
+    "questionGroupId": "qg_when_rome_fell_3",
+    "conceptId": "concept_when_rome_fell",
+    "locale": "en",
+    "prompt": "How long did the Eastern Roman Empire last?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Until 1453"
+      },
+      {
+        "id": "b",
+        "text": "Until 476"
+      },
+      {
+        "id": "c",
+        "text": "Until the year 1000"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The empire ruled from Constantinople lasted until the Ottoman conquest of the city in 1453.",
+    "claimIds": ["c5", "c12"],
+    "status": "draft"
+  }
+]

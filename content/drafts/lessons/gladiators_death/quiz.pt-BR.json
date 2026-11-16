@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_gladiators_death_1__pt-BR",
+    "questionGroupId": "qg_gladiators_death_1",
+    "conceptId": "concept_gladiators_death",
+    "locale": "pt-BR",
+    "prompt": "Por que matar um gladiador na arena saía caro para o organizador?",
+    "options": [
+      {
+        "id": "a",
+        "text": "O dono da trupe podia cobrar até cem vezes o preço de um gladiador que sobrevivesse"
+      },
+      {
+        "id": "b",
+        "text": "Era proibido por lei e dava multa"
+      },
+      {
+        "id": "c",
+        "text": "A arena precisava ficar fechada por um mês"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Gladiadores eram treinados, alimentados e tratados por médicos; perder um deles era um prejuízo que o dono da trupe cobrava caro.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gladiators_death_2__pt-BR",
+    "questionGroupId": "qg_gladiators_death_2",
+    "conceptId": "concept_gladiators_death",
+    "locale": "pt-BR",
+    "prompt": "O que os esqueletos do cemitério de gladiadores de Éfeso mostram?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ferimentos curados de lutas anteriores e também golpes fatais"
+      },
+      {
+        "id": "b",
+        "text": "Nenhum ferimento: as lutas eram encenadas"
+      },
+      {
+        "id": "c",
+        "text": "Que todos morreram de velhice"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Vários gladiadores sobreviveram a ferimentos na cabeça antes de morrer; outros morreram de golpes sofridos no combate ou logo depois.",
+    "claimIds": ["c4", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gladiators_death_3__pt-BR",
+    "questionGroupId": "qg_gladiators_death_3",
+    "conceptId": "concept_gladiators_death",
+    "locale": "pt-BR",
+    "prompt": "O que se sabe sobre o gesto do “polegar para baixo” na arena?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não se sabe como era o gesto, nem em que direção ia o polegar"
+      },
+      {
+        "id": "b",
+        "text": "Era o sinal oficial de morte"
+      },
+      {
+        "id": "c",
+        "text": "Era o sinal de que o vencedor ganharia a liberdade"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pollice verso quer dizer só “polegar virado”, e nenhum registro histórico confirma o polegar para baixo como sinal de morte.",
+    "misconception": "A cena ficou famosa por causa de um quadro de 1872 e do filme Gladiador, não por fontes romanas.",
+    "claimIds": ["c6", "c13"],
+    "status": "draft"
+  }
+]

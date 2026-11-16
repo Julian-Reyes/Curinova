@@ -1,0 +1,326 @@
+{
+  "id": "lesson_roman_concrete__pt-BR",
+  "conceptId": "concept_roman_concrete",
+  "locale": "pt-BR",
+  "slug": "por-que-o-concreto-romano-continua-de-pe",
+  "title": "Por que o concreto romano continua de pé?",
+  "hook": "Quebra-mares romanos passaram 2.000 anos no mar sem se desfazer. O segredo estava na receita.",
+  "summary": "Os romanos misturavam cal com cinza vulcânica; na água do mar, essa mistura forma minerais novos, e grãos de cal podem fechar rachaduras.",
+  "cardText": "Porque a receita era outra: cal misturada com cinza vulcânica. Na água do mar, esse concreto cria minerais que o reforçam, e grãos de cal podem ajudar a fechar rachaduras.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Muitas obras de concreto modernas começam a se desfazer depois de algumas décadas. Já a cúpula do Panteão, em Roma, concluída por volta do ano 128, continua inteira, e ainda é a maior cúpula de concreto sem armadura do mundo. A diferença começa na receita: os romanos misturavam cal com cinza vulcânica, como a da região de Pozzuoli, perto de Nápoles."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em quebra-mares romanos, a água do mar reagiu com a cinza e fez crescer cristais que reforçam o material, em vez de corroê-lo. E os grãozinhos brancos de cal no meio do concreto, que pareciam sinal de mistura malfeita, podem ter dado a ele a capacidade de fechar as próprias rachaduras."
+    },
+    {
+      "type": "takeaway",
+      "text": "Cal e cinza vulcânica fizeram um concreto que se fortalece no mar e pode selar as próprias rachaduras."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A receita romana"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os construtores queimavam calcário para obter cal viva, juntavam água para formar uma pasta e acrescentavam cinza vulcânica: em geral, três partes de cinza para uma de cal, segundo Vitrúvio, arquiteto romano do século I a.C. Essa argamassa era misturada a pedaços de tijolo ou de tufo, uma rocha vulcânica, e socada no lugar para formar paredes e abóbadas."
+    },
+    {
+      "type": "paragraph",
+      "text": "A cinza certa era tão valorizada que chegava a ser transportada por todo o império."
+    },
+    {
+      "type": "heading",
+      "text": "O que o mar faz"
+    },
+    {
+      "type": "paragraph",
+      "text": "Testes com amostras de portos romanos já tinham revelado um mineral raro no concreto, a tobermorita aluminosa. Num estudo divulgado em 2017, uma equipe liderada pela geóloga Marie Jackson encontrou esse mineral crescendo por todo o material, ao lado de outro, a phillipsita. Com o contato prolongado com a água do mar, os cristais continuaram crescendo, reforçando o concreto e evitando rachaduras. É o oposto do concreto moderno, que a água salgada costuma danificar."
+    },
+    {
+      "type": "heading",
+      "text": "Rachaduras que se fecham"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pesquisadores do MIT propuseram que os romanos usavam também a cal viva diretamente, numa mistura quente, e que isso explica os grãos de cal. Quando uma rachadura chega a um desses grãos, a água dissolve o cálcio, que volta a cristalizar como carbonato de cálcio e preenche a fenda."
+    },
+    {
+      "type": "paragraph",
+      "text": "Para testar a ideia, a equipe fez concreto com essa técnica, rachou as amostras e passou água por elas. Em duas semanas, as fendas tinham se fechado. Uma amostra igual, mas sem cal viva, nunca se recuperou."
+    },
+    {
+      "type": "heading",
+      "text": "Por que não voltamos a usá-lo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "O concreto romano é cerca de dez vezes mais fraco que o moderno, segundo um engenheiro da Universidade de Rochester; sua vantagem é durar. Copiá-lo também esbarra na falta de rochas vulcânicas adequadas em muitos lugares e no fato de a receita exata não ser conhecida."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Muitas estruturas de concreto modernas se desfazem depois de algumas décadas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Meanwhile, many modern concrete structures have crumbled after a few decades."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O Panteão, em Roma, concluído por volta do ano 128, continua inteiro e tem a maior cúpula de concreto sem armadura do mundo.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Rome’s famed Pantheon, which has the world’s largest unreinforced concrete dome and was dedicated in 128 C.E., is still intact"
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "The Pantheon, a temple to the gods, was completed in A.D. 128. The temple's dome is still the largest unreinforced concrete dome in the world."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O concreto romano era feito de cal misturada com cinza vulcânica, como a da região de Pozzuoli, perto de Nápoles.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "Ancient sea walls built by the Romans used a concrete made from lime and volcanic ash to bind with rocks."
+        },
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "pozzolanic material such as volcanic ash from the area of Pozzuoli, on the Bay of Naples"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em quebra-mares romanos, a água do mar reagiu com o material vulcânico e fez crescer cristais que reforçam o concreto.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "Now scientists have discovered that elements within the volcanic material reacted with sea water to strengthen the construction."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "The researchers say that the long-term exposure to sea water helped these crystals to keep on growing over time, reinforcing the concrete and preventing cracks from developing."
+        },
+        {
+          "sourceId": "src_newscenter_lbl_gov_2013_06_04_a9d3e3",
+          "excerpt": "Lime reacting with aluminum-rich pozzolan ash and seawater formed highly stable C‐A-S-H and Al-tobermorite, insuring strength and longevity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Os grãos brancos de cal no concreto romano, antes vistos como sinal de mistura malfeita, podem ter dado a ele a capacidade de fechar rachaduras.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Previously disregarded as merely evidence of sloppy mixing practices, or poor-quality raw materials, the new study suggests that these tiny lime clasts gave the concrete a previously unrecognized self-healing capability."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_c69fe7",
+          "excerpt": "we propose that these macroscopic inclusions might serve as critical sources of reactive calcium for long-term pore and crack-filling or post-pozzolanic reactivity within the cementitious constructs."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Os romanos queimavam calcário para obter cal viva, acrescentavam água e misturavam cinza vulcânica, em geral três partes para uma de cal, segundo Vitrúvio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "The formula for Roman concrete also starts with limestone: builders burned it to produce quicklime and then added water to create a paste. Next they mixed in volcanic ash—usually three parts volcanic ash to one part lime, according to the writings of Vitruvius, a first-century B.C. architect and engineer."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A argamassa era combinada com pedaços de tijolo ou de tufo e socada no lugar para formar paredes e abóbadas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "The volcanic ash reacted with the lime paste to create a durable mortar that was combined with fist-size chunks of bricks or volcanic rocks called tuff, and then packed into place to form structures like walls or vaults."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A cinza vulcânica de Pozzuoli era transportada por todo o Império Romano para ser usada em construções.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "This specific kind of ash was even shipped all across the vast Roman empire to be used in construction"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Um estudo de 2017 encontrou tobermorita aluminosa, um mineral raro, crescendo pelo concreto de portos romanos, junto com a phillipsita.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "In previous tests with samples from ancient Roman sea walls and harbours, researchers learned that the concrete contained a rare mineral called aluminium tobermorite."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "This new study says the scientists found significant amounts of tobermorite growing through the fabric of the concrete, with a related, porous mineral called phillipsite."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A água do mar danifica muito o concreto moderno.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "Seawater is very damaging to modern concrete."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Pesquisadores do MIT concluíram que os romanos usavam cal viva diretamente, numa mistura quente, e que isso explica a durabilidade do concreto.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Was it possible that the Romans might have actually directly used lime in its more reactive form, known as quicklime?"
+        },
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Hot mixing, the team has now concluded, was actually the key to the super-durable nature."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Num grão de cal atingido por uma rachadura, a água dissolve o cálcio, que pode cristalizar como carbonato de cálcio e preencher a fenda.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "This material can then react with water, creating a calcium-saturated solution, which can recrystallize as calcium carbonate and quickly fill the crack"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Amostras de concreto feitas com mistura quente e rachadas de propósito se fecharam em duas semanas; uma amostra sem cal viva nunca se recuperou.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "the team produced samples of hot-mixed concrete that incorporated both ancient and modern formulations, deliberately cracked them, and then ran water through the cracks. Sure enough: Within two weeks the cracks had completely healed and the water could no longer flow. An identical chunk of concrete made without quicklime never healed"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O concreto romano é cerca de dez vezes mais fraco que o moderno.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "“Roman concrete is . . . considerably weaker than modern concretes. It’s approximately ten times weaker,” says Renato Perucchio, a mechanical engineer at the University of Rochester in New York."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Reproduzir o concreto romano esbarra na falta de rochas vulcânicas adequadas e no desconhecimento da receita exata.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "One is the lack of suitable volcanic rocks."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "Another drawback is the lack of the precise mixture that the Romans followed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_news_mit_edu_2023_roman_concrete_270a55",
+    "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+    "src_bbc_com_news_science_environment_40494248_22f160",
+    "src_newscenter_lbl_gov_2013_06_04_a9d3e3",
+    "src_pmc_ncbi_nlm_nih_gov_articles_c69fe7"
+  ],
+  "quizIds": [
+    "q_roman_concrete_1__pt-BR",
+    "q_roman_concrete_2__pt-BR",
+    "q_roman_concrete_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

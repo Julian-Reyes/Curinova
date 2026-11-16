@@ -35,6 +35,13 @@
         "pt-BR": "Do mito à realidade: óculos, relógios e universidades que a Idade Média nos deixou.",
         "en": "From myth to reality: the glasses, clocks and universities the Middle Ages left us."
       }
+    },
+    {
+      "clusterId": "cluster_rome_what_lasted",
+      "reason": {
+        "pt-BR": "Antes da Idade Média, o que ficou de Roma: concreto, estradas e a nossa língua.",
+        "en": "Before the Middle Ages, what Rome left behind: concrete, roads and Portuguese itself."
+      }
     }
   ]
 }

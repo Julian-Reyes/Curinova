@@ -1,0 +1,39 @@
+{
+  "id": "cluster_rome_what_lasted",
+  "topicId": "history",
+  "slug": {
+    "pt-BR": "roma-o-que-ficou",
+    "en": "rome-what-lasted"
+  },
+  "title": {
+    "pt-BR": "Roma: o que ficou",
+    "en": "Rome: what lasted"
+  },
+  "hook": {
+    "pt-BR": "Um concreto que dura 2.000 anos, estradas que ainda usamos e a língua que você fala.",
+    "en": "Concrete that lasts 2,000 years, roads still in use, and the language Brazil speaks."
+  },
+  "conceptIds": [
+    "concept_roman_concrete",
+    "concept_roman_roads",
+    "concept_gladiators_death",
+    "concept_when_rome_fell",
+    "concept_latin_to_portuguese"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_portuguese_in_brazil",
+      "reason": {
+        "pt-BR": "Do latim ao português, e do português que chegou ao Brasil à língua que se falava aqui.",
+        "en": "From Latin to Portuguese, and from the Portuguese that reached Brazil to the language people spoke here."
+      }
+    },
+    {
+      "clusterId": "cluster_middle_ages_myths",
+      "reason": {
+        "pt-BR": "Com o fim do império no Ocidente começa a Idade Média, e seus mitos.",
+        "en": "The end of the empire in the West opens the Middle Ages, and their myths."
+      }
+    }
+  ]
+}

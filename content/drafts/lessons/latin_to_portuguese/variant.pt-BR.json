@@ -1,0 +1,331 @@
+{
+  "id": "lesson_latin_to_portuguese__pt-BR",
+  "conceptId": "concept_latin_to_portuguese",
+  "locale": "pt-BR",
+  "slug": "como-o-latim-virou-portugues",
+  "title": "Como o latim virou português?",
+  "hook": "Ninguém acordou um dia falando português: a língua foi mudando aos poucos, por séculos.",
+  "summary": "O latim falado que os romanos levaram à Península Ibérica foi se transformando; no noroeste, virou o galego-português, a raiz da nossa língua.",
+  "cardText": "Devagar. O latim falado que os romanos levaram à Península Ibérica foi mudando por séculos. No noroeste da península, virou o galego-português, a raiz da nossa língua.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Os exércitos romanos chegaram à Península Ibérica na guerra contra Cartago, iniciada em 218 a.C., e no fim dela a região passou para as mãos de Roma. Com eles veio o latim, mas não o dos livros: o latim falado pelo povo, por soldados e camponeses. Foi esse latim popular que, ao longo dos séculos, se transformou no português."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por volta do ano 600, o latim vulgar já tinha dado lugar a línguas novas, os romances. No noroeste da península surgiu o galego-português, e as palavras foram mudando: manu virou mão, clamare virou chamar. Por isso o português é uma língua românica, irmã do espanhol, do italiano e do francês."
+    },
+    {
+      "type": "takeaway",
+      "text": "O português é o latim falado dos romanos, transformado aos poucos, por séculos, no noroeste da Península Ibérica."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Que latim?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os romanos não falavam um latim só. Havia o sermo urbanus, das camadas mais cultas, e o sermo plebeius, da massa popular: camponeses, militares e estrangeiros. O português continua esse latim do povo, com todas as suas variedades."
+    },
+    {
+      "type": "heading",
+      "text": "A língua que desceu do norte"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depois da ocupação muçulmana, no sul da península se falava o moçárabe, um latim muito mudado e cheio de influências árabes. O linguista português Fernando Venâncio defende que, durante a Reconquista cristã, foi o galego do noroeste que desceu para o sul com a corte, os soldados e a administração, e acabou substituindo esses falares."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma das pistas está nos sons. No noroeste, o l e o n entre vogais caíram, coisa que o espanhol não fez: do latim colore, o espanhol tem color, e nós, cor. O mesmo vale para dolor e dor, corona e coroa."
+    },
+    {
+      "type": "heading",
+      "text": "Quando a língua ganhou nome"
+    },
+    {
+      "type": "paragraph",
+      "text": "Textos contínuos nessa língua aparecem por volta de 1192. Mas o nome “português”, até onde se sabe, só surge por escrito em 1430, quando o infante D. Pedro, ao traduzir um livro de Cícero, contou que lia capítulos dele “em portugues” para outras pessoas."
+    },
+    {
+      "type": "heading",
+      "text": "A última flor do Lácio"
+    },
+    {
+      "type": "paragraph",
+      "text": "O Lácio era a região antiga da Itália central cuja história se confunde com a de Roma. O poeta Olavo Bilac, um dos fundadores da Academia Brasileira de Letras, abriu o soneto “Língua Portuguesa”, publicado no livro Tarde (1919), com o verso “Última flor do Lácio, inculta e bela”. A imagem costuma ser lida como o português sendo a última das línguas nascidas do latim vulgar."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Na Segunda Guerra Púnica (218–201 a.C.), entre Roma e Cartago, forças romanas lutaram na Península Ibérica, que ao fim da guerra passou para o domínio de Roma.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_event_second_punic_war_b68987",
+          "excerpt": "Second Punic War, second (218–201 bce) in a series of wars between the Roman Republic and the Carthaginian (Punic) empire that resulted in Roman hegemony over the western Mediterranean."
+        },
+        {
+          "sourceId": "src_britannica_com_event_second_punic_war_b68987",
+          "excerpt": "Meanwhile, in Spain, Roman forces maintained pressure on Carthaginian strongholds."
+        },
+        {
+          "sourceId": "src_britannica_com_event_second_punic_war_b68987",
+          "excerpt": "Spain and the Mediterranean islands were ceded to Rome."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O português continua o latim popular falado pelo povo, como camponeses e soldados, e não o latim culto; as línguas românicas derivam do latim vulgar.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_periodicos_ufpb_br_index_php_dclv_a5100a",
+          "excerpt": "busca-se, neste texto, enfatizar que a língua portuguesa é uma continuação do latim popular, com suas diversas variedades sociais"
+        },
+        {
+          "sourceId": "src_periodicos_ufpb_br_index_php_dclv_a5100a",
+          "excerpt": "sermo plebeius – linguagem da massa popular inculta: rusticus (camponeses), castrenses (militares) e peregrinus (estrangeiros)"
+        },
+        {
+          "sourceId": "src_britannica_com_topic_romance_languages_ee8746",
+          "excerpt": "Romance languages, group of related languages all derived from Vulgar Latin within historical times"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Por volta do ano 600, o latim vulgar já não era falado em nenhuma região do antigo império; em seu lugar havia novas línguas, os romances.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20080703070609_http_f7be2f",
+          "excerpt": "Pensa-se que por volta do ano 600 o latim vulgar não fosse falado em nenhuma região do Império. Por essa época falar-se-iam novas línguas na Gália, na Ibéria, na Récia, na Itália, na Dalmácia e na Dácia: eram os romances."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "O galego-português surgiu a partir do século VII no noroeste da Península Ibérica, e português e galego formaram uma só língua até o século XV.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20080703070609_http_f7be2f",
+          "excerpt": "A autonomização de um romance galego-português a partir do séc. VII na antiga província Gallaecia et Asturica (Galiza, norte de Portugal, ocidente de Astúrias)"
+        },
+        {
+          "sourceId": "src_britannica_com_topic_portuguese_language_1f877e",
+          "excerpt": "Until the 15th century, Portuguese and Galician formed one single linguistic unit, Gallego-Portuguese."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Do latim ao português, manu virou mão e clamare virou chamar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20080703070609_http_f7be2f",
+          "excerpt": "clamare tšamar chamar"
+        },
+        {
+          "sourceId": "src_web_archive_org_web_20080703070609_http_f7be2f",
+          "excerpt": "manu mão-o mão"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "O português é uma língua românica, como o espanhol, o italiano e o francês.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_romance_languages_ee8746",
+          "excerpt": "The major languages of the family include French, Italian, Spanish, Portuguese, and Romanian, all national languages."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O latim tinha variedades, como o sermo urbanus, das camadas cultas, e o sermo plebeius, da massa popular.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_periodicos_ufpb_br_index_php_dclv_a5100a",
+          "excerpt": "sermo urbanus – linguagem do estrato social mais culto e o sermo plebeius – linguagem da massa popular inculta"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Segundo Fernando Venâncio, durante a Reconquista o galego do norte se espalhou para o sul e substituiu os falares moçárabes, um latim muito mudado e influenciado pelo árabe.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_jornal_usp_br_a2ab54",
+          "excerpt": "Venâncio propõe que foi o galego que se espalhou para o Sul da futura região portuguesa durante a Reconquista cristã (e não um suposto “português primitivo”), substituindo os falares moçárabes, que predominavam desde a ocupação muçulmana."
+        },
+        {
+          "sourceId": "src_ciberduvidas_iscte_iul_pt_artigos_rubricas_a02c2c",
+          "excerpt": "No Sul, falava-se ainda latim hispânico já muito mudado e com muitas influências árabes − a língua a que chamamos hoje moçárabe. A língua do Norte era a língua da corte e dos soldados, da administração."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "O português perdeu o l e o n entre vogais que o espanhol manteve: colore deu color em espanhol e cor em português; dolor e dor, corona e coroa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_jornal_usp_br_a2ab54",
+          "excerpt": "o fonema “l” do latino “colore” se manteve em “color”, mas não no nosso termo “cor”."
+        },
+        {
+          "sourceId": "src_jornal_usp_br_a2ab54",
+          "excerpt": "“corona” e “coroa”, “solo” e “só”, “dolor” e “dor”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Documentos contínuos na língua datam de cerca de 1192.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_portuguese_language_1f877e",
+          "excerpt": "continuous documents date from approximately 1192"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O nome “português” para a língua aparece por escrito, até onde se sabe, em 1430, na tradução de um livro de Cícero feita pelo infante D. Pedro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ciberduvidas_iscte_iul_pt_artigos_rubricas_a02c2c",
+          "excerpt": "«Português», assim sem mais, como nome de língua, que se saiba, apareceu apenas já bem entrado o século XV. Foi D. Pedro, um ilustre tradutor, infante nas horas vagas, que assim escreveu na introdução à sua tradução do Livro dos Ofícios, de Cícero, dedicada ao seu irmão, D. Duarte, em 1430"
+        },
+        {
+          "sourceId": "src_ciberduvidas_iscte_iul_pt_artigos_rubricas_a02c2c",
+          "excerpt": "a que eu liia em portugues"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "O Lácio era uma região antiga da Itália central, cuja história é inseparável da de Roma.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_place_latium_37ed9e",
+          "excerpt": "Latium, ancient area in west-central Italy"
+        },
+        {
+          "sourceId": "src_britannica_com_place_latium_37ed9e",
+          "excerpt": "The history of Latium is inseparable from the destiny of ancient Rome."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Olavo Bilac, um dos fundadores da Academia Brasileira de Letras, abriu o soneto “Língua Portuguesa”, do livro Tarde (1919), com o verso “Última flor do Lácio, inculta e bela”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_academia_org_br_academicos_olavo_bilac_533f08",
+          "excerpt": "Um dos fundadores da Academia Brasileira de Letras"
+        },
+        {
+          "sourceId": "src_academia_org_br_academicos_olavo_bilac_6fe1d8",
+          "excerpt": "LÍNGUA PORTUGUESA Última flor do Lácio, inculta e bela"
+        },
+        {
+          "sourceId": "src_academia_org_br_academicos_olavo_bilac_6fe1d8",
+          "excerpt": "O gênio sem ventura e o amor sem brilho! (Tarde, 1919.)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O verso de Bilac costuma ser lido como referência ao português ser a última língua neolatina formada a partir do latim vulgar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_infoescola_com_literatura_analise_do_poema_6b89e2",
+          "excerpt": "com a metáfora “Última flor do Lácio, inculta e bela”, refere-se ao fato de que a língua portuguesa ter sido a última língua neolatina formada a partir do latim vulgar"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_event_second_punic_war_b68987",
+    "src_periodicos_ufpb_br_index_php_dclv_a5100a",
+    "src_britannica_com_topic_romance_languages_ee8746",
+    "src_web_archive_org_web_20080703070609_http_f7be2f",
+    "src_britannica_com_topic_portuguese_language_1f877e",
+    "src_jornal_usp_br_a2ab54",
+    "src_ciberduvidas_iscte_iul_pt_artigos_rubricas_a02c2c",
+    "src_britannica_com_place_latium_37ed9e",
+    "src_academia_org_br_academicos_olavo_bilac_533f08",
+    "src_academia_org_br_academicos_olavo_bilac_6fe1d8",
+    "src_infoescola_com_literatura_analise_do_poema_6b89e2"
+  ],
+  "quizIds": [
+    "q_latin_to_portuguese_1__pt-BR",
+    "q_latin_to_portuguese_2__pt-BR",
+    "q_latin_to_portuguese_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

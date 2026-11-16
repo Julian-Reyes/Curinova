@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_roman_roads_1__pt-BR",
+    "questionGroupId": "qg_roman_roads_1",
+    "conceptId": "concept_roman_roads",
+    "locale": "pt-BR",
+    "prompt": "Por que o centro da pista das estradas romanas era um pouco mais alto que as bordas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para a chuva escorrer"
+      },
+      {
+        "id": "b",
+        "text": "Para separar os sentidos do tráfego"
+      },
+      {
+        "id": "c",
+        "text": "Para os carros andarem mais rápido"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A superfície levemente abaulada fazia a água escorrer para os lados, o que ajudava a estrada a durar.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_roads_2__pt-BR",
+    "questionGroupId": "qg_roman_roads_2",
+    "conceptId": "concept_roman_roads",
+    "locale": "pt-BR",
+    "prompt": "Que estrada romana foi iniciada em 312 a.C.?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A Via Ápia"
+      },
+      {
+        "id": "b",
+        "text": "A Via Egnácia"
+      },
+      {
+        "id": "c",
+        "text": "A Via Flamínia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A Via Ápia, começada pelo censor Ápio Cláudio, foi a primeira das grandes estradas romanas.",
+    "claimIds": ["c1"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_roads_3__pt-BR",
+    "questionGroupId": "qg_roman_roads_3",
+    "conceptId": "concept_roman_roads",
+    "locale": "pt-BR",
+    "prompt": "Todas as estradas romanas eram calçadas com pedra?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não: muitas tinham cascalho sobre uma base firme"
+      },
+      {
+        "id": "b",
+        "text": "Sim, todas tinham blocos de pedra"
+      },
+      {
+        "id": "c",
+        "text": "Não: eram todas de terra batida"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Na Britânia, por exemplo, trechos calçados são raríssimos; a estrada típica tinha cascalho ou seixos sobre uma base de terra ou pedra.",
+    "misconception": "A imagem das estradas de grandes blocos vem de vias como a Ápia, perto de Roma, que não eram a regra em todo o império.",
+    "claimIds": ["c10"],
+    "status": "draft"
+  }
+]

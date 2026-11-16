@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_when_rome_fell_1__pt-BR",
+    "questionGroupId": "qg_when_rome_fell_1",
+    "conceptId": "concept_when_rome_fell",
+    "locale": "pt-BR",
+    "prompt": "O que aconteceu em 476?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Odoacro depôs Rômulo Augústulo, o último imperador do Ocidente"
+      },
+      {
+        "id": "b",
+        "text": "Os otomanos tomaram Constantinopla"
+      },
+      {
+        "id": "c",
+        "text": "Constantinopla virou capital do império"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Odoacro foi aclamado rei na Itália e depôs o menino imperador; a data marca, por tradição, o fim do Império do Ocidente.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_when_rome_fell_2__pt-BR",
+    "questionGroupId": "qg_when_rome_fell_2",
+    "conceptId": "concept_when_rome_fell",
+    "locale": "pt-BR",
+    "prompt": "Como se chamavam os habitantes do chamado Império Bizantino?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Romanos"
+      },
+      {
+        "id": "b",
+        "text": "Bizantinos"
+      },
+      {
+        "id": "c",
+        "text": "Otomanos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Eles se diziam romanos até o fim, em 1453; “Bizantino” é um nome que historiadores ocidentais popularizaram depois.",
+    "misconception": "“Bizantino” parece um nome da época, mas foi espalhado por historiadores europeus séculos depois.",
+    "claimIds": ["c6", "c13", "c14"],
+    "status": "draft"
+  },
+  {
+    "id": "q_when_rome_fell_3__pt-BR",
+    "questionGroupId": "qg_when_rome_fell_3",
+    "conceptId": "concept_when_rome_fell",
+    "locale": "pt-BR",
+    "prompt": "Até quando durou o Império Romano do Oriente?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Até 1453"
+      },
+      {
+        "id": "b",
+        "text": "Até 476"
+      },
+      {
+        "id": "c",
+        "text": "Até o ano 1000"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O império governado de Constantinopla durou até a conquista otomana da cidade, em 1453.",
+    "claimIds": ["c5", "c12"],
+    "status": "draft"
+  }
+]

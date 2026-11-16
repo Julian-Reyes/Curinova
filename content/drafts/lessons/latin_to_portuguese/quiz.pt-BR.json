@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_latin_to_portuguese_1__pt-BR",
+    "questionGroupId": "qg_latin_to_portuguese_1",
+    "conceptId": "concept_latin_to_portuguese",
+    "locale": "pt-BR",
+    "prompt": "De que latim veio o português?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Do latim falado pelo povo, como soldados e camponeses"
+      },
+      {
+        "id": "b",
+        "text": "Do latim culto dos livros e discursos"
+      },
+      {
+        "id": "c",
+        "text": "Do latim usado só nas igrejas"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O português continua o latim popular, ou vulgar, que os romanos levaram à Península Ibérica.",
+    "misconception": "O latim que aprendemos nos livros é o culto; as línguas românicas nasceram do latim do dia a dia.",
+    "claimIds": ["c2", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_latin_to_portuguese_2__pt-BR",
+    "questionGroupId": "qg_latin_to_portuguese_2",
+    "conceptId": "concept_latin_to_portuguese",
+    "locale": "pt-BR",
+    "prompt": "Em que parte da Península Ibérica surgiu o galego-português?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No noroeste"
+      },
+      {
+        "id": "b",
+        "text": "No sul, no Algarve"
+      },
+      {
+        "id": "c",
+        "text": "No centro, perto de Madri"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O galego-português surgiu no noroeste, na antiga Galécia; durante a Reconquista, a língua desceu para o sul.",
+    "claimIds": ["c4", "c8"],
+    "status": "draft"
+  },
+  {
+    "id": "q_latin_to_portuguese_3__pt-BR",
+    "questionGroupId": "qg_latin_to_portuguese_3",
+    "conceptId": "concept_latin_to_portuguese",
+    "locale": "pt-BR",
+    "prompt": "O que Olavo Bilac chamou de “última flor do Lácio”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A língua portuguesa"
+      },
+      {
+        "id": "b",
+        "text": "A cidade de Roma"
+      },
+      {
+        "id": "c",
+        "text": "O latim clássico"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O verso abre o soneto “Língua Portuguesa”; o Lácio era a região da Itália central ligada à história de Roma.",
+    "claimIds": ["c12", "c13"],
+    "status": "draft"
+  }
+]

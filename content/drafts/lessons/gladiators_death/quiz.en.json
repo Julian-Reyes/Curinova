@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_gladiators_death_1__en",
+    "questionGroupId": "qg_gladiators_death_1",
+    "conceptId": "concept_gladiators_death",
+    "locale": "en",
+    "prompt": "Why was it costly for a sponsor to let a gladiator die?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The owner could charge up to a hundred times the price of a gladiator who survived"
+      },
+      {
+        "id": "b",
+        "text": "It was illegal and carried a fine"
+      },
+      {
+        "id": "c",
+        "text": "The arena had to close for a month"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Gladiators were trained, fed and treated by doctors; losing one was a loss their owner charged heavily for.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gladiators_death_2__en",
+    "questionGroupId": "qg_gladiators_death_2",
+    "conceptId": "concept_gladiators_death",
+    "locale": "en",
+    "prompt": "What do the skeletons from the Ephesus gladiator cemetery show?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wounds healed from earlier fights, and also fatal blows"
+      },
+      {
+        "id": "b",
+        "text": "No wounds at all: the fights were staged"
+      },
+      {
+        "id": "c",
+        "text": "That they all died of old age"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Several gladiators had survived head wounds before they died; others died of blows in the fight or just after it.",
+    "claimIds": ["c4", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_gladiators_death_3__en",
+    "questionGroupId": "qg_gladiators_death_3",
+    "conceptId": "concept_gladiators_death",
+    "locale": "en",
+    "prompt": "What do we know about the “thumbs down” in the arena?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nobody knows what the gesture looked like or which way the thumb pointed"
+      },
+      {
+        "id": "b",
+        "text": "It was the official death signal"
+      },
+      {
+        "id": "c",
+        "text": "It meant the winner would be freed"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pollice verso only means “with a turned thumb”, and no historical record confirms thumbs-down as a death signal.",
+    "misconception": "The scene became famous through an 1872 painting and the film Gladiator, not through Roman sources.",
+    "claimIds": ["c6", "c13"],
+    "status": "draft"
+  }
+]

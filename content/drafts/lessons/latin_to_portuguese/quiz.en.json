@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_latin_to_portuguese_1__en",
+    "questionGroupId": "qg_latin_to_portuguese_1",
+    "conceptId": "concept_latin_to_portuguese",
+    "locale": "en",
+    "prompt": "Which Latin did Portuguese grow out of?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Latin spoken by ordinary people, like soldiers and farmers"
+      },
+      {
+        "id": "b",
+        "text": "The educated Latin of books and speeches"
+      },
+      {
+        "id": "c",
+        "text": "Latin used only in church"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Portuguese continues the popular, or Vulgar, Latin the Romans brought to the Iberian Peninsula.",
+    "misconception": "The Latin we read in books is the educated kind; the Romance languages grew from everyday Latin.",
+    "claimIds": ["c2", "c7"],
+    "status": "draft"
+  },
+  {
+    "id": "q_latin_to_portuguese_2__en",
+    "questionGroupId": "qg_latin_to_portuguese_2",
+    "conceptId": "concept_latin_to_portuguese",
+    "locale": "en",
+    "prompt": "Where in the Iberian Peninsula did Galician-Portuguese emerge?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the northwest"
+      },
+      {
+        "id": "b",
+        "text": "In the south, in the Algarve"
+      },
+      {
+        "id": "c",
+        "text": "In the centre, near Madrid"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Galician-Portuguese emerged in the northwest, in old Gallaecia; during the Reconquista the language spread south.",
+    "claimIds": ["c4", "c8"],
+    "status": "draft"
+  },
+  {
+    "id": "q_latin_to_portuguese_3__en",
+    "questionGroupId": "qg_latin_to_portuguese_3",
+    "conceptId": "concept_latin_to_portuguese",
+    "locale": "en",
+    "prompt": "What did Olavo Bilac call the “last flower of Latium”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Portuguese language"
+      },
+      {
+        "id": "b",
+        "text": "The city of Rome"
+      },
+      {
+        "id": "c",
+        "text": "Classical Latin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The line opens his sonnet “Língua Portuguesa”; Latium was the region of central Italy bound up with Rome’s history.",
+    "claimIds": ["c12", "c13"],
+    "status": "draft"
+  }
+]

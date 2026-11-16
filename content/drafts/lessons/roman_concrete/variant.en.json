@@ -1,0 +1,322 @@
+{
+  "id": "lesson_roman_concrete__en",
+  "conceptId": "concept_roman_concrete",
+  "locale": "en",
+  "slug": "why-is-roman-concrete-still-standing",
+  "title": "Why is Roman concrete still standing?",
+  "hook": "Roman sea walls have sat in the sea for 2,000 years without falling apart. The secret was the recipe.",
+  "summary": "The Romans mixed lime with volcanic ash; in seawater the mix grows new minerals, and lumps of lime may seal cracks.",
+  "cardText": "Because the recipe was different: lime mixed with volcanic ash. In seawater this concrete grows minerals that strengthen it, and small lumps of lime may help close cracks.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Plenty of modern concrete starts to crumble after a few decades. Rome’s Pantheon, finished around AD 128, is still intact, and its dome is still the largest unreinforced concrete dome in the world. The difference starts with the recipe: the Romans mixed lime with volcanic ash, such as the ash from around Pozzuoli, near Naples."
+    },
+    {
+      "type": "paragraph",
+      "text": "In Roman sea walls, seawater reacted with the ash and grew crystals that strengthen the material instead of eating it away. And the little white lumps of lime scattered through the concrete, long taken as a sign of sloppy mixing, may have given it the ability to seal its own cracks."
+    },
+    {
+      "type": "takeaway",
+      "text": "Lime and volcanic ash made a concrete that grows stronger in the sea and may seal its own cracks."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The Roman recipe"
+    },
+    {
+      "type": "paragraph",
+      "text": "Builders burned limestone to make quicklime, added water to make a paste and stirred in volcanic ash: usually three parts ash to one part lime, according to Vitruvius, a Roman architect of the first century BC. The mortar was mixed with chunks of brick or tuff, a volcanic rock, and packed into place to build walls and vaults."
+    },
+    {
+      "type": "paragraph",
+      "text": "The right ash was prized enough to be shipped across the whole empire."
+    },
+    {
+      "type": "heading",
+      "text": "What the sea does"
+    },
+    {
+      "type": "paragraph",
+      "text": "Earlier tests on samples from Roman harbours had found a rare mineral in the concrete, aluminium tobermorite. In a study reported in 2017, a team led by geologist Marie Jackson found it growing all through the material, alongside another mineral, phillipsite. Long exposure to seawater kept the crystals growing, reinforcing the concrete and stopping cracks. That is the opposite of modern concrete, which seawater badly damages."
+    },
+    {
+      "type": "heading",
+      "text": "Cracks that close"
+    },
+    {
+      "type": "paragraph",
+      "text": "Researchers at MIT proposed that the Romans also used quicklime directly, in a hot mix, which would explain the lime lumps. When a crack reaches one of them, water dissolves the calcium, which recrystallises as calcium carbonate and fills the gap."
+    },
+    {
+      "type": "paragraph",
+      "text": "To test the idea, the team made concrete this way, cracked the samples on purpose and ran water through them. Within two weeks the cracks had sealed. An identical sample made without quicklime never healed."
+    },
+    {
+      "type": "heading",
+      "text": "Why don’t we build with it again?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roman concrete is about ten times weaker than modern concrete, according to an engineer at the University of Rochester; its strength is that it lasts. Copying it is also hard because suitable volcanic rock is missing in many places and nobody knows the exact recipe."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Many modern concrete structures crumble after a few decades.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Meanwhile, many modern concrete structures have crumbled after a few decades."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Rome’s Pantheon, finished around AD 128, is still intact and has the world’s largest unreinforced concrete dome.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Rome’s famed Pantheon, which has the world’s largest unreinforced concrete dome and was dedicated in 128 C.E., is still intact"
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "The Pantheon, a temple to the gods, was completed in A.D. 128. The temple's dome is still the largest unreinforced concrete dome in the world."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Roman concrete was made from lime mixed with volcanic ash, such as the ash from around Pozzuoli, near Naples.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "Ancient sea walls built by the Romans used a concrete made from lime and volcanic ash to bind with rocks."
+        },
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "pozzolanic material such as volcanic ash from the area of Pozzuoli, on the Bay of Naples"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In Roman sea walls, seawater reacted with the volcanic material and grew crystals that strengthen the concrete.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "Now scientists have discovered that elements within the volcanic material reacted with sea water to strengthen the construction."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "The researchers say that the long-term exposure to sea water helped these crystals to keep on growing over time, reinforcing the concrete and preventing cracks from developing."
+        },
+        {
+          "sourceId": "src_newscenter_lbl_gov_2013_06_04_a9d3e3",
+          "excerpt": "Lime reacting with aluminum-rich pozzolan ash and seawater formed highly stable C‐A-S-H and Al-tobermorite, insuring strength and longevity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The white lime lumps in Roman concrete, once seen as a sign of sloppy mixing, may have given it the ability to seal cracks.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Previously disregarded as merely evidence of sloppy mixing practices, or poor-quality raw materials, the new study suggests that these tiny lime clasts gave the concrete a previously unrecognized self-healing capability."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_c69fe7",
+          "excerpt": "we propose that these macroscopic inclusions might serve as critical sources of reactive calcium for long-term pore and crack-filling or post-pozzolanic reactivity within the cementitious constructs."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The Romans burned limestone to make quicklime, added water and mixed in volcanic ash, usually three parts to one part lime, according to Vitruvius.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "The formula for Roman concrete also starts with limestone: builders burned it to produce quicklime and then added water to create a paste. Next they mixed in volcanic ash—usually three parts volcanic ash to one part lime, according to the writings of Vitruvius, a first-century B.C. architect and engineer."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The mortar was combined with chunks of brick or tuff and packed into place to form walls and vaults.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "The volcanic ash reacted with the lime paste to create a durable mortar that was combined with fist-size chunks of bricks or volcanic rocks called tuff, and then packed into place to form structures like walls or vaults."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Volcanic ash from Pozzuoli was shipped across the Roman Empire for construction.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "This specific kind of ash was even shipped all across the vast Roman empire to be used in construction"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A 2017 study found aluminium tobermorite, a rare mineral, growing through the concrete of Roman harbours, along with phillipsite.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "In previous tests with samples from ancient Roman sea walls and harbours, researchers learned that the concrete contained a rare mineral called aluminium tobermorite."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "This new study says the scientists found significant amounts of tobermorite growing through the fabric of the concrete, with a related, porous mineral called phillipsite."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Seawater badly damages modern concrete.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "Seawater is very damaging to modern concrete."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "MIT researchers concluded that the Romans used quicklime directly, in a hot mix, and that this explains the concrete’s durability.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Was it possible that the Romans might have actually directly used lime in its more reactive form, known as quicklime?"
+        },
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "Hot mixing, the team has now concluded, was actually the key to the super-durable nature."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "When a crack reaches a lime lump, water dissolves the calcium, which can recrystallise as calcium carbonate and fill the crack.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "This material can then react with water, creating a calcium-saturated solution, which can recrystallize as calcium carbonate and quickly fill the crack"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Hot-mixed concrete samples cracked on purpose sealed within two weeks; a sample without quicklime never healed.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_news_mit_edu_2023_roman_concrete_270a55",
+          "excerpt": "the team produced samples of hot-mixed concrete that incorporated both ancient and modern formulations, deliberately cracked them, and then ran water through the cracks. Sure enough: Within two weeks the cracks had completely healed and the water could no longer flow. An identical chunk of concrete made without quicklime never healed"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Roman concrete is about ten times weaker than modern concrete.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "“Roman concrete is . . . considerably weaker than modern concretes. It’s approximately ten times weaker,” says Renato Perucchio, a mechanical engineer at the University of Rochester in New York."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Copying Roman concrete is hampered by a lack of suitable volcanic rock and of the exact recipe.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "One is the lack of suitable volcanic rocks."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "Another drawback is the lack of the precise mixture that the Romans followed."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_news_mit_edu_2023_roman_concrete_270a55",
+    "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+    "src_bbc_com_news_science_environment_40494248_22f160",
+    "src_newscenter_lbl_gov_2013_06_04_a9d3e3",
+    "src_pmc_ncbi_nlm_nih_gov_articles_c69fe7"
+  ],
+  "quizIds": ["q_roman_concrete_1__en", "q_roman_concrete_2__en", "q_roman_concrete_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

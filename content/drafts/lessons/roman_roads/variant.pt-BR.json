@@ -1,0 +1,302 @@
+{
+  "id": "lesson_roman_roads__pt-BR",
+  "conceptId": "concept_roman_roads",
+  "locale": "pt-BR",
+  "slug": "como-as-estradas-romanas-duraram-2000-anos",
+  "title": "Como as estradas romanas duraram 2.000 anos?",
+  "hook": "Ainda dá para caminhar pela Via Ápia, e pedaços da rede romana sobrevivem até hoje.",
+  "summary": "Eram feitas sobre uma base firme de pedra e com a superfície abaulada para a chuva escorrer; muitos trechos dessa rede sobrevivem até hoje.",
+  "cardText": "Porque foram bem construídas: pedra sobre uma base firme e uma pista levemente abaulada para a água escorrer. E pedaços delas sobrevivem até hoje.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Em 312 a.C., o censor Ápio Cláudio começou uma estrada ao sul de Roma: a Via Ápia, que poetas romanos chamaram de rainha das estradas longas. A base era de blocos pesados de pedra unidos com argamassa de cal. Por cima, blocos de lava bem encaixados formavam a pista, que se mostrou extraordinariamente durável."
+    },
+    {
+      "type": "paragraph",
+      "text": "O centro da pista era um pouco mais alto que as bordas, para a chuva escorrer, e muitas estradas corriam sobre um aterro bem drenado. A rede romana ia da Britânia ao norte da África, e em muitos trechos o traçado provável de uma estrada romana coincide com o de uma estrada atual."
+    },
+    {
+      "type": "takeaway",
+      "text": "Base firme e boa drenagem fizeram as estradas romanas durar; pedaços delas sobrevivem até hoje."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "As camadas, segundo os livros"
+    },
+    {
+      "type": "paragraph",
+      "text": "Um dicionário de antiguidades de 1875 descreve as estradas em camadas, a partir das instruções que o arquiteto Vitrúvio deixou para pisos, já que ele não falou de estradas. Embaixo ia o statumen, de pedras do tamanho de uma mão fechada; depois, o rudus, de pedra quebrada com cal; em seguida, o nucleus, de cacos de tijolo e cerâmica com cal. No topo, o pavimentum: grandes blocos de pedra dura, perto de Roma geralmente lava basáltica."
+    },
+    {
+      "type": "heading",
+      "text": "Nem toda estrada tinha pedra"
+    },
+    {
+      "type": "paragraph",
+      "text": "Existe um mito de que todas as estradas romanas eram calçadas. Na Britânia, por exemplo, trechos de pedra são raríssimos: a estrada típica tinha uma camada de cascalho ou seixos sobre uma base firme de terra ou pedra. A base costumava ser o agger, um aterro feito com a terra tirada de valas dos lados, que mantinha a pista seca."
+    },
+    {
+      "type": "heading",
+      "text": "Quanto media a rede?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os números variam conforme o que se conta. A Britannica fala em 80 mil quilômetros de estradas de superfície dura, construídas sobretudo para o exército. O Itiner-e, um mapa digital das estradas do império, soma cerca de 299 mil quilômetros, quase o dobro de levantamentos anteriores; mas só 2,7% desse traçado tem localização conhecida com certeza."
+    },
+    {
+      "type": "heading",
+      "text": "Todos os caminhos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estradas secundárias se espalhavam pelas províncias, e daí veio o ditado “todos os caminhos levam a Roma”. A rede continuou servindo a Europa durante a Idade Média. A Via Ápia entrou na lista de Patrimônio Mundial da UNESCO e hoje é um parque arqueológico onde se pedala, se caminha e se visitam monumentos."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A Via Ápia foi iniciada em 312 a.C. pelo censor Ápio Cláudio Cego.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "The Appian Way was begun in 312 bce by the censor Appius Claudius Caecus."
+        },
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "the oldest and most important of the great roads built by the Ancient Romans from 312 B.C."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Poetas romanos chamaram a Via Ápia de “rainha das estradas longas”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "The Appian Way was celebrated by Horace and Statius, who called it longarum regina viarum, or “queen of long-distance roads.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A base da Via Ápia era de blocos pesados de pedra unidos com argamassa de cal, cobertos por blocos de lava bem encaixados, que se mostraram extraordinariamente duráveis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "The road’s foundation was of heavy stone blocks cemented together with lime mortar; over these were laid polygonal blocks of lava that were smoothly and expertly fitted together. The lava blocks formed a good traveling surface, and one that proved to have extraordinary durability over the centuries."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "A pista das estradas romanas era levemente mais alta no centro para a água escorrer.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "was slightly convex in surface in order to facilitate good drainage."
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "The centre of the way was a little elevated so as to permit the water to run off easily"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Muitas estradas romanas corriam sobre um aterro bem drenado, o agger, feito com terra tirada de valas laterais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20141006212211_http_970213",
+          "excerpt": "The Agger is a well-drained base in the form of a bank of earth or other layered material dug out from lateral ditches or quarry pits."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A rede de estradas romanas ia da Britânia ao norte da África.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "Roman road system, outstanding transportation network of the ancient Mediterranean world, extending from Britain to the Tigris-Euphrates river system and from the Danube River to Spain and northern Africa."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Em muitos trechos, o traçado provável de uma estrada romana coincide com o de uma estrada atual; a rede serviu a Europa durante a Idade Média, e muitos fragmentos sobrevivem.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_s41597_025_06140_3cad34",
+          "excerpt": "In many of these cases then, the conjectured line of a Roman road follows the line of a modern road, which is often corroborated by additional archaeological and historical evidence."
+        },
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "Despite deterioration from neglect, it continued to serve Europe throughout the Middle Ages, and many fragments of the system survive today."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Vitrúvio não descreveu como fazer estradas, mas deixou instruções detalhadas para pisos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "Vitruvius enters into no details with regard to road-making, but he gives most minute directions for pavements"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Segundo um dicionário de 1875, as estradas tinham camadas: statumen de pedras do tamanho de uma mão, rudus de pedra quebrada com cal, nucleus de cacos de tijolo e cerâmica com cal e, no topo, blocos de pedra dura, perto de Roma geralmente lava basáltica.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "The lowest course was the statumen, consisting of stones not smaller than the hand could just grasp; above the statumen was the rudus, a mass of broken stones cemented with lime"
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "above the rudus came the nucleus, composed of fragments of bricks and pottery, the pieces being smaller than in the rudus, cemented with lime"
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "Uppermost was the pavimentum, large polygonal blocks of the hardest stone (silex), usually, at least in the vicinity of Rome, basaltic lava"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "É um mito que todas as estradas romanas fossem calçadas: na Britânia, trechos calçados são raríssimos, e a estrada típica tinha cascalho ou seixos sobre uma base firme.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20141006212211_http_970213",
+          "excerpt": "There is an enduring myth that all Roman roads were paved but examples of paved roads in Britain (eg. Blackstone Edge, the Dean Road) are highly exceptional"
+        },
+        {
+          "sourceId": "src_web_archive_org_web_20141006212211_http_970213",
+          "excerpt": "A standard Roman road consists of a metalled surface (eg. gravel or pebbles) on a solid foundation of earth or stone."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Segundo a Britannica, os romanos construíram 80 mil quilômetros de estradas de superfície dura, sobretudo por razões militares.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "In all, the Romans built 50,000 miles (80,000 km) of hard-surfaced highway, primarily for military reasons."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "O mapa Itiner-e soma cerca de 299 mil quilômetros de estradas romanas, quase o dobro de levantamentos anteriores, mas só 2,7% têm localização conhecida com certeza.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_s41597_025_06140_3cad34",
+          "excerpt": "The resulting map includes, in total, 299,171.31 km of roads in an area of nearly 4,000,000 km2, which is nearly double the length of other resources"
+        },
+        {
+          "sourceId": "src_nature_com_articles_s41597_025_06140_3cad34",
+          "excerpt": "reveals that the location of only 2.737% are known with certainty."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "A Via Ápia entrou na lista de Patrimônio Mundial da UNESCO e hoje é uma área verde onde as pessoas pedalam, caminham e visitam monumentos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "Italy’s ancient Roman Appian Way was admitted to the UNESCO World Heritage List on Saturday"
+        },
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "Nowadays, the ancient Appian Way is not only a big open-air museum started in the 1800s, but also an immense green area, a place where Romans and tourists go for leisure time, biking, hiking and visiting monuments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "As estradas secundárias que se espalhavam pelas províncias deram origem ao ditado “todos os caminhos levam a Roma”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "Their numerous feeder roads extending far into the Roman provinces led to the proverb “All roads lead to Rome.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_topic_appian_way_046d8b",
+    "src_apnews_com_article_italy_rome_appian_742551",
+    "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+    "src_web_archive_org_web_20141006212211_http_970213",
+    "src_web_archive_org_web_20260301155901_https_ac2c06",
+    "src_nature_com_articles_s41597_025_06140_3cad34"
+  ],
+  "quizIds": ["q_roman_roads_1__pt-BR", "q_roman_roads_2__pt-BR", "q_roman_roads_3__pt-BR"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

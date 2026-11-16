@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_roman_roads_1__en",
+    "questionGroupId": "qg_roman_roads_1",
+    "conceptId": "concept_roman_roads",
+    "locale": "en",
+    "prompt": "Why was the middle of a Roman road slightly higher than its edges?",
+    "options": [
+      {
+        "id": "a",
+        "text": "So rain would run off"
+      },
+      {
+        "id": "b",
+        "text": "To separate traffic going each way"
+      },
+      {
+        "id": "c",
+        "text": "So carts could go faster"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The slightly curved surface sent water off to the sides, which helped the road last.",
+    "claimIds": ["c4"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_roads_2__en",
+    "questionGroupId": "qg_roman_roads_2",
+    "conceptId": "concept_roman_roads",
+    "locale": "en",
+    "prompt": "Which Roman road was begun in 312 BC?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Appian Way"
+      },
+      {
+        "id": "b",
+        "text": "The Via Egnatia"
+      },
+      {
+        "id": "c",
+        "text": "The Via Flaminia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Appian Way, begun by the censor Appius Claudius, was the first of the great Roman roads.",
+    "claimIds": ["c1"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_roads_3__en",
+    "questionGroupId": "qg_roman_roads_3",
+    "conceptId": "concept_roman_roads",
+    "locale": "en",
+    "prompt": "Were all Roman roads paved with stone?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No: many had gravel on a firm base"
+      },
+      {
+        "id": "b",
+        "text": "Yes, all had stone blocks"
+      },
+      {
+        "id": "c",
+        "text": "No: they were all bare earth"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In Britain, for example, paved stretches are highly exceptional; the standard road had gravel or pebbles on a base of earth or stone.",
+    "misconception": "The picture of big paving stones comes from roads like the Appian Way near Rome, which weren’t the rule across the empire.",
+    "claimIds": ["c10"],
+    "status": "draft"
+  }
+]

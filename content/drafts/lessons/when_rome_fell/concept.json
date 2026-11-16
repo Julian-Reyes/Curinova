@@ -1,0 +1,35 @@
+{
+  "id": "concept_when_rome_fell",
+  "topicId": "history",
+  "clusterId": "cluster_rome_what_lasted",
+  "clusterOrder": 4,
+  "tags": ["ancient-rome", "byzantium", "middle-ages", "constantinople"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_latin_to_portuguese",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Com o império dividido, o latim falado também foi se partindo em línguas novas.",
+        "en": "As the empire broke up, spoken Latin also split into new languages."
+      }
+    },
+    {
+      "conceptId": "concept_flat_earth_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro rótulo sobre o passado que nasceu séculos depois dos fatos.",
+        "en": "Another label for the past that was coined centuries later."
+      }
+    },
+    {
+      "conceptId": "concept_roman_concrete",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O Panteão, de concreto romano, segue de pé muito depois da queda.",
+        "en": "The Pantheon, made of Roman concrete, still stands long after the fall."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

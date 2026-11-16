@@ -1,0 +1,324 @@
+{
+  "id": "lesson_when_rome_fell__pt-BR",
+  "conceptId": "concept_when_rome_fell",
+  "locale": "pt-BR",
+  "slug": "quando-o-imperio-romano-caiu",
+  "title": "Quando o Império Romano caiu?",
+  "hook": "A resposta da escola é 476. Mas metade do império continuou de pé por quase mil anos.",
+  "summary": "No Ocidente, em 476, quando Odoacro depôs o último imperador; no Oriente, o império durou até 1453, e seus habitantes se chamavam de romanos.",
+  "cardText": "Depende da metade. O Império do Ocidente terminou em 476. O do Oriente, governado de Constantinopla, durou até 1453, e seu povo se chamava de romano.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Em 476, o guerreiro germânico Odoacro foi aclamado rei por suas tropas na Itália e depôs Rômulo Augústulo, um menino que reinava em nome do pai. Essa data costuma marcar o fim do Império Romano do Ocidente. Mas a metade oriental, governada de Constantinopla, seguiu em frente sem interrupção, com suas leis, seu exército e seus impostos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Esse império durou quase mil anos mais, até os otomanos tomarem Constantinopla em 1453. Hoje o chamamos de Bizantino, mas seus habitantes não usavam esse nome: eles se chamavam de romanos."
+    },
+    {
+      "type": "takeaway",
+      "text": "Roma caiu no Ocidente em 476, mas o Império Romano do Oriente durou até 1453."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O último imperador do Ocidente"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rômulo era filho de Orestes, um general que, em 475, expulsou o imperador Júlio Nepos da Itália e pôs o filho no trono. O nome Augusto virou o diminutivo Augústulo porque ele ainda era criança. O imperador do Oriente nunca o reconheceu: para Constantinopla, era um usurpador."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odoacro poupou o menino por causa da idade, deu-lhe uma pensão e o mandou viver com parentes na Campânia, no sul da Itália. Ninguém sabe o que aconteceu com ele depois. Odoacro, por sua vez, reconheceu a autoridade do imperador do Oriente, Zenão, e mudou pouco a administração da Itália. A queda foi menos um estrondo do que uma troca de comando."
+    },
+    {
+      "type": "heading",
+      "text": "O império que continuou"
+    },
+    {
+      "type": "paragraph",
+      "text": "No século VI, o imperador Justiniano reuniu o direito romano no Corpus Juris Civilis e lançou campanhas para retomar a Itália e o norte da África, vistas como reconquistas de terras romanas. O latim continuou sendo a língua oficial do governo até o século VII, quando o grego foi tomando seu lugar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 1453, o sultão otomano Mehmed II cercou Constantinopla por 55 dias até romper suas antigas muralhas. Mesmo então, os moradores se diziam romanos, e as fontes otomanas os chamavam de Rum, palavra que vem de “romano”."
+    },
+    {
+      "type": "heading",
+      "text": "De onde veio o nome Bizantino"
+    },
+    {
+      "type": "paragraph",
+      "text": "O nome vem de Bizâncio, a antiga cidade grega que deu lugar a Constantinopla. Foi popularizado por historiadores da Europa Ocidental, a partir do século XVI, que queriam separar a Roma clássica que admiravam do império cristão de língua grega que viam com desconfiança. Costuma-se atribuir o termo ao humanista alemão Hieronymus Wolf, em 1557, mas um estudo recente defende que “Bizâncio” já aparecia em fontes medievais, às vezes como nome do próprio império."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Em 476, Odoacro foi aclamado rei por suas tropas na Itália e depôs o imperador Rômulo Augústulo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_odoacer_e3aeb0",
+          "excerpt": "On Aug. 23, 476, Odoacer was proclaimed king by his troops"
+        },
+        {
+          "sourceId": "src_britannica_com_biography_odoacer_e3aeb0",
+          "excerpt": "Odoacer then deposed and exiled Orestes’ young son, the emperor Romulus Augustulus."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "O ano de 476 é tradicionalmente considerado o fim do Império Romano do Ocidente.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_odoacer_e3aeb0",
+          "excerpt": "The date on which he assumed power, 476, is traditionally considered the end of the Western Roman Empire."
+        },
+        {
+          "sourceId": "src_web_archive_org_web_20080703070609_http_f7be2f",
+          "excerpt": "sendo o ano de 476 o marco que assinala a queda do Império Romano do Ocidente"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Rômulo Augústulo era uma criança posta no trono pelo pai, Orestes, que governou a Itália em nome dele.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_romulus_augustulus_2ac041",
+          "excerpt": "it was changed to the diminutive because he was still a child when his father, after driving the Western emperor Julius Nepos from Italy, elevated him to the throne on October 31, 475. For about 12 months Orestes ruled Italy in his son’s name"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Quando o Ocidente se fragmentou no século V, a metade oriental do império seguiu com suas instituições, leis, exército e impostos sem interrupção.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "When the Western Roman Empire fragmented in the fifth century, the eastern half remained politically intact. Its institutions, laws, army, taxation system, and imperial ideology continued without interruption."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O Império Romano do Oriente durou até 1453, quando os otomanos de Mehmed II tomaram Constantinopla.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_place_byzantine_empire_7a9277",
+          "excerpt": "Byzantine Empire, the eastern half of the Roman Empire, which survived for a thousand years after the western half had crumbled into various feudal kingdoms and which finally fell to Ottoman Turkish onslaughts in 1453."
+        },
+        {
+          "sourceId": "src_britannica_com_event_fall_of_constantinople_046dc7",
+          "excerpt": "Fall of Constantinople, (May 29, 1453), conquest of Constantinople by Sultan Mehmed II of the Ottoman Empire."
+        },
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "Even on the eve of Constantinople’s fall in 1453, inhabitants called themselves Romans."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Os habitantes do chamado Império Bizantino não se chamavam de bizantinos, e sim de romanos.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_place_byzantine_empire_7a9277",
+          "excerpt": "they called themselves Romaioi, or Romans."
+        },
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "They did not call themselves Byzantines."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O imperador do Oriente não reconhecia Rômulo Augústulo como governante legítimo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_romulus_augustulus_2ac041",
+          "excerpt": "In fact, he was a usurper and puppet not recognized as a legitimate ruler by the Eastern emperor."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Odoacro poupou Rômulo Augústulo por causa da idade, deu-lhe uma pensão e o mandou viver com parentes na Campânia; seu destino depois disso é desconhecido.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_romulus_augustulus_2ac041",
+          "excerpt": "Romulus, however, was spared because of his youth; Odoacer gave him a pension and sent him to live with his relatives in Campania, a region of southern Italy. His subsequent fate is unknown."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Odoacro reconheceu a autoridade do imperador do Oriente, Zenão, e fez poucas mudanças importantes na administração da Itália.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_biography_odoacer_e3aeb0",
+          "excerpt": "Odoacer’s aim was to keep the administration of Italy in his own hands while recognizing the overlordship of the Eastern emperor, Zeno."
+        },
+        {
+          "sourceId": "src_britannica_com_biography_odoacer_e3aeb0",
+          "excerpt": "Odoacer introduced few important changes into the administrative system of Italy."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "No século VI, Justiniano reuniu o direito romano no Corpus Juris Civilis e lançou campanhas para retomar a Itália e o norte da África, tratadas como reconquistas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "In the sixth century, Emperor Justinian undertook one of the most ambitious legal projects in history: the codification of Roman law in the Corpus Juris Civilis."
+        },
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "Justinian’s military campaigns to reclaim Italy and North Africa were similarly framed not as conquests, but as reconquests"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "O latim foi a língua oficial do governo do Império do Oriente até o século VII, quando o grego o substituiu aos poucos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "Latin remained the official language of government until the seventh century, when Greek gradually replaced it for practical reasons."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Os otomanos romperam as antigas muralhas de Constantinopla depois de um cerco de 55 dias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_event_fall_of_constantinople_046dc7",
+          "excerpt": "The dwindling Byzantine Empire came to an end when the Ottomans breached Constantinople’s ancient land wall after besieging the city for 55 days."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Às vésperas da queda de 1453, os habitantes de Constantinopla se chamavam de romanos, e as fontes otomanas os chamavam de Rum.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "Even on the eve of Constantinople’s fall in 1453, inhabitants called themselves Romans. Ottoman sources referred to them as Rum, a term derived from Roman identity"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O nome “Bizantino” vem de Bizâncio, antigo nome grego de Constantinopla, e foi popularizado por historiadores da Europa Ocidental no início da Idade Moderna.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+          "excerpt": "It derives from Byzantion, the ancient Greek name of Constantinople before it became the imperial capital. The label was popularized by early modern historians, particularly in Western Europe, who wished to separate the classical Roman past they admired from the Greek-speaking Christian empire they viewed with suspicion or disdain."
+        },
+        {
+          "sourceId": "src_britannica_com_place_byzantine_empire_7a9277",
+          "excerpt": "The latter term is derived from the name Byzantium, borne by a colony of ancient Greek foundation on the European side of the Bosporus"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "O termo costuma ser atribuído a Hieronymus Wolf, em 1557, mas um estudo de 2024 defende que fontes medievais já usavam “Bizâncio”, às vezes como nome do império.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ceeol_com_search_article_detail_6b81d4",
+          "excerpt": "It is widely acknowledged that this designation, along with “Byzantine Empire”, was first introduced by the German historian and humanist Hieronymus Wolf in his “Corpus Historiae Byzantinae” in 1557."
+        },
+        {
+          "sourceId": "src_ceeol_com_search_article_detail_6b81d4",
+          "excerpt": "However, the author of this study challenges this established view, contending that historical sources from both the Early and High Middle Ages, centuries prior to the Modern Age, contain references to “Byzantium”, sometimes even as name for the Eastern Roman Empire."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_biography_odoacer_e3aeb0",
+    "src_web_archive_org_web_20080703070609_http_f7be2f",
+    "src_britannica_com_biography_romulus_augustulus_2ac041",
+    "src_medievalists_net_2026_04_byzantines_romans_02f3cd",
+    "src_britannica_com_place_byzantine_empire_7a9277",
+    "src_britannica_com_event_fall_of_constantinople_046dc7",
+    "src_ceeol_com_search_article_detail_6b81d4"
+  ],
+  "quizIds": [
+    "q_when_rome_fell_1__pt-BR",
+    "q_when_rome_fell_2__pt-BR",
+    "q_when_rome_fell_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

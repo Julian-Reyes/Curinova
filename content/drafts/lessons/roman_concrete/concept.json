@@ -1,0 +1,27 @@
+{
+  "id": "concept_roman_concrete",
+  "topicId": "history",
+  "clusterId": "cluster_rome_what_lasted",
+  "clusterOrder": 1,
+  "tags": ["ancient-rome", "engineering", "concrete", "chemistry"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_roman_roads",
+      "type": "next",
+      "reason": {
+        "pt-BR": "As estradas romanas também usavam concreto de cal e cinza vulcânica.",
+        "en": "Roman roads used the same lime and volcanic-ash concrete."
+      }
+    },
+    {
+      "conceptId": "concept_when_rome_fell",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Grandes obras de concreto quase sumiram junto com o império no Ocidente.",
+        "en": "Large concrete buildings almost disappeared along with the empire in the West."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

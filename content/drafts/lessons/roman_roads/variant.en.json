@@ -1,0 +1,302 @@
+{
+  "id": "lesson_roman_roads__en",
+  "conceptId": "concept_roman_roads",
+  "locale": "en",
+  "slug": "how-did-roman-roads-last-2000-years",
+  "title": "How did Roman roads last 2,000 years?",
+  "hook": "You can still walk the Appian Way, and pieces of the Roman network survive today.",
+  "summary": "They were built on solid stone foundations with a cambered surface that shed rain; many stretches of the network survive today.",
+  "cardText": "Because they were built well: stone on a firm foundation and a slightly curved surface that let water run off. And pieces of them survive today.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In 312 BC the censor Appius Claudius began a road south from Rome: the Appian Way, which Roman poets called the queen of long-distance roads. Its foundation was heavy stone blocks set in lime mortar. On top, tightly fitted blocks of lava made a surface that proved extraordinarily durable."
+    },
+    {
+      "type": "paragraph",
+      "text": "The middle of the road sat slightly higher than the edges so rain would run off, and many roads ran on a well-drained bank of earth. The Roman network stretched from Britain to northern Africa, and in many places the likely line of a Roman road matches that of a modern one."
+    },
+    {
+      "type": "takeaway",
+      "text": "A firm base and good drainage made Roman roads last; pieces of them survive today."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "The layers, according to the books"
+    },
+    {
+      "type": "paragraph",
+      "text": "An 1875 dictionary of antiquities describes the roads in layers, working from the instructions the architect Vitruvius left for floors, since he wrote nothing about roads. At the bottom was the statumen, stones about the size of a fist; then the rudus, broken stone set in lime; then the nucleus, broken brick and pottery set in lime. On top was the pavimentum: large blocks of hard stone, near Rome usually basalt lava."
+    },
+    {
+      "type": "heading",
+      "text": "Not every road was paved"
+    },
+    {
+      "type": "paragraph",
+      "text": "There is a lasting myth that all Roman roads were paved. In Britain, paved stretches are highly exceptional: the standard road had a layer of gravel or pebbles on a solid base of earth or stone. That base was often the agger, a bank built from earth dug out of ditches on either side, which kept the road dry."
+    },
+    {
+      "type": "heading",
+      "text": "How long was the network?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The figures depend on what is counted. Britannica gives 80,000 km of hard-surfaced highway, built mainly for the army. Itiner-e, a digital map of the empire’s roads, adds up to about 299,000 km, nearly double earlier counts; but only 2.7% of it has a location known for certain."
+    },
+    {
+      "type": "heading",
+      "text": "All roads"
+    },
+    {
+      "type": "paragraph",
+      "text": "Feeder roads spread far into the provinces, which gave rise to the saying “all roads lead to Rome”. The network went on serving Europe through the Middle Ages. The Appian Way is now on UNESCO’s World Heritage List and is an archaeological park where people cycle, hike and visit monuments."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Appian Way was begun in 312 BC by the censor Appius Claudius Caecus.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "The Appian Way was begun in 312 bce by the censor Appius Claudius Caecus."
+        },
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "the oldest and most important of the great roads built by the Ancient Romans from 312 B.C."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Roman poets called the Appian Way the “queen of long-distance roads”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "The Appian Way was celebrated by Horace and Statius, who called it longarum regina viarum, or “queen of long-distance roads.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The Appian Way’s foundation was heavy stone blocks set in lime mortar, topped by closely fitted lava blocks that proved extraordinarily durable.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "The road’s foundation was of heavy stone blocks cemented together with lime mortar; over these were laid polygonal blocks of lava that were smoothly and expertly fitted together. The lava blocks formed a good traveling surface, and one that proved to have extraordinary durability over the centuries."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The surface of Roman roads was slightly higher in the middle so that water ran off.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_britannica_com_topic_appian_way_046d8b",
+          "excerpt": "was slightly convex in surface in order to facilitate good drainage."
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "The centre of the way was a little elevated so as to permit the water to run off easily"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Many Roman roads ran on a well-drained bank, the agger, built from earth dug out of side ditches.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20141006212211_http_970213",
+          "excerpt": "The Agger is a well-drained base in the form of a bank of earth or other layered material dug out from lateral ditches or quarry pits."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The Roman road network stretched from Britain to northern Africa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "Roman road system, outstanding transportation network of the ancient Mediterranean world, extending from Britain to the Tigris-Euphrates river system and from the Danube River to Spain and northern Africa."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "In many places, the likely line of a Roman road matches that of a modern road; the network served Europe through the Middle Ages, and many fragments survive.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_s41597_025_06140_3cad34",
+          "excerpt": "In many of these cases then, the conjectured line of a Roman road follows the line of a modern road, which is often corroborated by additional archaeological and historical evidence."
+        },
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "Despite deterioration from neglect, it continued to serve Europe throughout the Middle Ages, and many fragments of the system survive today."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Vitruvius did not describe road-making but gave detailed directions for floors.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "Vitruvius enters into no details with regard to road-making, but he gives most minute directions for pavements"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "According to an 1875 dictionary, roads had layers: a statumen of hand-sized stones, a rudus of broken stone with lime, a nucleus of broken brick and pottery with lime, and on top blocks of hard stone, near Rome usually basalt lava.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "The lowest course was the statumen, consisting of stones not smaller than the hand could just grasp; above the statumen was the rudus, a mass of broken stones cemented with lime"
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "above the rudus came the nucleus, composed of fragments of bricks and pottery, the pieces being smaller than in the rudus, cemented with lime"
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+          "excerpt": "Uppermost was the pavimentum, large polygonal blocks of the hardest stone (silex), usually, at least in the vicinity of Rome, basaltic lava"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "It is a myth that all Roman roads were paved: in Britain paved stretches are highly exceptional, and the standard road had gravel or pebbles on a solid base.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20141006212211_http_970213",
+          "excerpt": "There is an enduring myth that all Roman roads were paved but examples of paved roads in Britain (eg. Blackstone Edge, the Dean Road) are highly exceptional"
+        },
+        {
+          "sourceId": "src_web_archive_org_web_20141006212211_http_970213",
+          "excerpt": "A standard Roman road consists of a metalled surface (eg. gravel or pebbles) on a solid foundation of earth or stone."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "According to Britannica, the Romans built 80,000 km of hard-surfaced highway, mainly for military reasons.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "In all, the Romans built 50,000 miles (80,000 km) of hard-surfaced highway, primarily for military reasons."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "The Itiner-e map counts about 299,000 km of Roman roads, nearly double earlier counts, but only 2.7% have a location known for certain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_s41597_025_06140_3cad34",
+          "excerpt": "The resulting map includes, in total, 299,171.31 km of roads in an area of nearly 4,000,000 km2, which is nearly double the length of other resources"
+        },
+        {
+          "sourceId": "src_nature_com_articles_s41597_025_06140_3cad34",
+          "excerpt": "reveals that the location of only 2.737% are known with certainty."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "The Appian Way is on UNESCO’s World Heritage List and is now a green area where people cycle, hike and visit monuments.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "Italy’s ancient Roman Appian Way was admitted to the UNESCO World Heritage List on Saturday"
+        },
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "Nowadays, the ancient Appian Way is not only a big open-air museum started in the 1800s, but also an immense green area, a place where Romans and tourists go for leisure time, biking, hiking and visiting monuments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Feeder roads spreading into the provinces gave rise to the saying “all roads lead to Rome”.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_web_archive_org_web_20260301155901_https_ac2c06",
+          "excerpt": "Their numerous feeder roads extending far into the Roman provinces led to the proverb “All roads lead to Rome.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_britannica_com_topic_appian_way_046d8b",
+    "src_apnews_com_article_italy_rome_appian_742551",
+    "src_penelope_uchicago_edu_thayer_e_roman_d4897f",
+    "src_web_archive_org_web_20141006212211_http_970213",
+    "src_web_archive_org_web_20260301155901_https_ac2c06",
+    "src_nature_com_articles_s41597_025_06140_3cad34"
+  ],
+  "quizIds": ["q_roman_roads_1__en", "q_roman_roads_2__en", "q_roman_roads_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

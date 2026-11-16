@@ -1,0 +1,35 @@
+{
+  "id": "concept_latin_to_portuguese",
+  "topicId": "history",
+  "clusterId": "cluster_rome_what_lasted",
+  "clusterOrder": 5,
+  "tags": ["ancient-rome", "portuguese-language", "latin", "linguistics", "brazil"],
+  "difficulty": "intermediate",
+  "related": [
+    {
+      "conceptId": "concept_when_rome_fell",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Com o fim do império no Ocidente, o latim falado se partiu de vez em línguas novas.",
+        "en": "With the end of the empire in the West, spoken Latin split for good into new languages."
+      }
+    },
+    {
+      "conceptId": "concept_tupi_words",
+      "type": "related",
+      "reason": {
+        "pt-BR": "No Brasil, o português que veio do latim ganhou palavras do tupi.",
+        "en": "In Brazil, the Portuguese that grew out of Latin picked up words from Tupi."
+      }
+    },
+    {
+      "conceptId": "concept_lingua_geral",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Por muito tempo, o português não foi a língua do dia a dia em boa parte do Brasil.",
+        "en": "For a long time Portuguese wasn’t the everyday language in much of Brazil."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

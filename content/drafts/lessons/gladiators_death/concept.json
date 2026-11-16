@@ -1,0 +1,35 @@
+{
+  "id": "concept_gladiators_death",
+  "topicId": "history",
+  "clusterId": "cluster_rome_what_lasted",
+  "clusterOrder": 3,
+  "tags": ["ancient-rome", "gladiators", "myths", "archaeology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_when_rome_fell",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Depois das arenas, a pergunta maior: quando o império acabou?",
+        "en": "After the arenas, the bigger question: when did the empire end?"
+      }
+    },
+    {
+      "conceptId": "concept_armour_weight",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro mito de cinema sobre como lutavam os guerreiros do passado.",
+        "en": "Another film myth about how fighters of the past really fought."
+      }
+    },
+    {
+      "conceptId": "concept_roman_concrete",
+      "type": "related",
+      "reason": {
+        "pt-BR": "O Coliseu, onde havia combates de gladiadores, também é de concreto romano.",
+        "en": "The Colosseum, which hosted gladiator fights, is also built of Roman concrete."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

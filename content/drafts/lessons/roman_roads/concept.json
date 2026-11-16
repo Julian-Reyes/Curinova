@@ -1,0 +1,27 @@
+{
+  "id": "concept_roman_roads",
+  "topicId": "history",
+  "clusterId": "cluster_rome_what_lasted",
+  "clusterOrder": 2,
+  "tags": ["ancient-rome", "engineering", "roads", "via-appia"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_roman_concrete",
+      "type": "background",
+      "reason": {
+        "pt-BR": "As estradas usavam o mesmo concreto de cal e cinza vulcânica.",
+        "en": "The roads used the same lime and volcanic-ash concrete."
+      }
+    },
+    {
+      "conceptId": "concept_gladiators_death",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Das obras que duraram aos espetáculos que lotavam as arenas.",
+        "en": "From the works that lasted to the shows that filled the arenas."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

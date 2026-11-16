@@ -1,0 +1,79 @@
+[
+  {
+    "id": "q_roman_concrete_1__en",
+    "questionGroupId": "qg_roman_concrete_1",
+    "conceptId": "concept_roman_concrete",
+    "locale": "en",
+    "prompt": "What were the key ingredients of Roman concrete?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lime and volcanic ash"
+      },
+      {
+        "id": "b",
+        "text": "Cement and steel bars"
+      },
+      {
+        "id": "c",
+        "text": "Clay and straw"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Romans mixed lime with volcanic ash, such as the ash from Pozzuoli, and added chunks of brick or rock.",
+    "claimIds": ["c3", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_concrete_2__en",
+    "questionGroupId": "qg_roman_concrete_2",
+    "conceptId": "concept_roman_concrete",
+    "locale": "en",
+    "prompt": "What did seawater do to Roman sea walls?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It grew minerals that strengthen the concrete"
+      },
+      {
+        "id": "b",
+        "text": "It dissolved the concrete within a few decades"
+      },
+      {
+        "id": "c",
+        "text": "It had no effect"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Seawater reacted with the volcanic ash, and crystals such as tobermorite kept growing, reinforcing the material.",
+    "misconception": "Salt water damages modern concrete, but in Roman concrete it helped new minerals form.",
+    "claimIds": ["c4", "c9", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_concrete_3__en",
+    "questionGroupId": "qg_roman_concrete_3",
+    "conceptId": "concept_roman_concrete",
+    "locale": "en",
+    "prompt": "What role may the white lumps of lime in Roman concrete have played?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They helped seal cracks"
+      },
+      {
+        "id": "b",
+        "text": "None: they were just a sign of sloppy mixing"
+      },
+      {
+        "id": "c",
+        "text": "They made the concrete lighter in colour"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "When a crack reaches a lime lump, dissolved calcium can recrystallise and fill it; in tests, cracks sealed within two weeks.",
+    "misconception": "The lumps were long seen as a manufacturing flaw; the MIT study suggests the opposite.",
+    "claimIds": ["c5", "c12", "c13"],
+    "status": "draft"
+  }
+]

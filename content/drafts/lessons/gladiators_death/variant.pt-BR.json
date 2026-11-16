@@ -1,0 +1,320 @@
+{
+  "id": "lesson_gladiators_death__pt-BR",
+  "conceptId": "concept_gladiators_death",
+  "locale": "pt-BR",
+  "slug": "os-gladiadores-lutavam-ate-a-morte",
+  "title": "Os gladiadores lutavam até a morte?",
+  "hook": "Nos filmes, quase todo combate termina com um morto. Na arena de verdade, a conta era outra.",
+  "summary": "Nem sempre: gladiadores eram caros, e o derrotado podia ser poupado; ainda assim, ossos de um cemitério de gladiadores mostram que a morte na arena era um risco real.",
+  "cardText": "Nem sempre. Gladiadores custavam caro, e o derrotado podia ser poupado. Mesmo assim, a morte era um risco real, e o famoso polegar para baixo pode nunca ter existido.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "No cinema, dois entram na arena e só um sai. Mas a maioria dos gladiadores era de escravizados que passavam por treino rigoroso, comiam bem e tinham cuidados médicos de especialistas: um investimento caro. Se um deles morria, o dono da trupe podia cobrar do organizador até cem vezes o preço de um gladiador que sobrevivesse. E cabia ao organizador, ouvindo o público, poupar ou não o derrotado."
+    },
+    {
+      "type": "paragraph",
+      "text": "Isso não fazia da arena um lugar sem sangue. Em Éfeso, na atual Turquia, esqueletos de um cemitério de gladiadores mostram ferimentos curados de lutas anteriores, mas também golpes fatais. Historiadores ainda discutem com que frequência as lutas acabavam em morte."
+    },
+    {
+      "type": "takeaway",
+      "text": "Matar um gladiador saía caro e muitos derrotados eram poupados, mas a morte na arena era um risco real."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Regras e árbitros"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os detalhes das regras se perderam, mas mosaicos mostram um árbitro, às vezes com um assistente, segurando o braço do vencedor. A presença deles sugere regras complexas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Desenhos com legendas riscados em paredes contam a estreia de um certo Marco Atílio. Ainda novato, ele venceu Hilaro, da trupe do imperador Nero, que tinha 13 coroas de vitória, e depois Lúcio Récio Félix, com 12. Os dois derrotados foram poupados."
+    },
+    {
+      "type": "heading",
+      "text": "O que os ossos de Éfeso contam"
+    },
+    {
+      "type": "paragraph",
+      "text": "O cemitério de Éfeso, descoberto em 1993 e datado do século II, foi estudado por pesquisadores da Áustria, que examinaram 67 gladiadores. Dez tinham morrido de um golpe na lateral da cabeça, como o de um martelo. Os pesquisadores acham que eram lutadores condenados pelo público que ainda estavam vivos ao sair da arena e foram mortos fora dela."
+    },
+    {
+      "type": "paragraph",
+      "text": "Os ossos revelaram também a dieta: quase vegetariana, com muitos grãos. Textos da época chamavam os gladiadores de “comedores de cevada”."
+    },
+    {
+      "type": "heading",
+      "text": "E o polegar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A expressão latina pollice verso quer dizer só “com o polegar virado”; ninguém sabe em que direção. O poeta Marcial conta que o público pedia clemência agitando lenços ou gritando. A ideia do polegar para baixo ganhou força com o quadro Pollice Verso, que o francês Jean-Léon Gérôme terminou em 1872 e que inspirou o filme Gladiador, de 2000."
+    },
+    {
+      "type": "heading",
+      "text": "Quantos morriam?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aqui os especialistas discordam. Um consultor de filmes históricos diz que mortes eram raras ou acidentais; já os autores do estudo de Éfeso afirmam que seus achados descartam a ideia de um show em que quase ninguém morria. Um pesquisador da Universidade da Califórnia em Berkeley lembra que a taxa de mortes variou bastante ao longo do tempo."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A maioria dos gladiadores era de escravizados que recebiam treino rigoroso, dieta reforçada e cuidados médicos especializados, o que os tornava um investimento caro.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "Most gladiators were slaves. They were subjected to a rigorous training, fed on a high-energy diet, and given expert medical attention. Hence they were an expensive investment, not to be despatched lightly."
+        },
+        {
+          "sourceId": "src_bigthink_com_the_past_3_myths_d393fd",
+          "excerpt": "Second, gladiators were expensive."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Por um gladiador morto em combate, o dono da trupe podia cobrar do organizador até cem vezes o preço de um que sobrevivesse.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "For a gladiator who died in combat the trainer (lanista) might charge the sponsor of the fatal spectacle up to a hundred times the cost of a gladiator who survived."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Cabia ao organizador do espetáculo, atendendo ao público, decidir se o gladiador derrotado seria poupado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "It was the prerogative of the sponsor, acting upon the wishes of the spectators, to decide whether to reprieve the defeated gladiator or consign him to the victor to be polished off."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Esqueletos do cemitério de gladiadores de Éfeso mostram ferimentos na cabeça já curados e também ferimentos sofridos na hora da morte.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_acdee1",
+          "excerpt": "The best example is the gladiator cemetery at Ephesus, in which a minimum of 68 individuals were excavated. Eleven of these bodies showed evidence of well-healed antemortem cranial trauma, while ten had cranial injuries incurring around the time of death [3]."
+        },
+        {
+          "sourceId": "src_archive_archaeology_org_0811_abstracts_gladiator_416f62",
+          "excerpt": "Many of the men Grossschmidt's team studied died only after surviving multiple blows to the head."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Especialistas discordam sobre a frequência com que as lutas terminavam em morte, e a taxa de mortes variou ao longo do tempo.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_bigthink_com_the_past_3_myths_d393fd",
+          "excerpt": "Gladiator fights were only rarely, or accidentally, to the death."
+        },
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "the findings also dismiss any theory that gladiatorial combat was a kind of martial-arts show in which death was rare."
+        },
+        {
+          "sourceId": "src_livescience_com_archaeology_romans_did_roman_34e934",
+          "excerpt": "evidence indicates that the mortality rate of gladiators varied considerably over time."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Não se sabe como era o gesto do polegar que decidia o destino do gladiador; nenhum registro histórico confirma o polegar para baixo como sinal de morte.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_penelope_uchicago_edu_encyclopaedia_romana_gladiators_79d50f",
+          "excerpt": "Pollice verso translates simply as \"turned thumb,\" but the manner or direction is not known."
+        },
+        {
+          "sourceId": "src_phxart_org_blog_pollice_verso_124b96",
+          "excerpt": "While a modern read on this gesture suggests that a “thumbs down” was a signal that a defeated gladiator should be condemned to death (likely influenced by Ridley Scott’s feature film Gladiator), there are no historical records that confirm this."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "As regras detalhadas se perderam, mas mosaicos mostram árbitros, às vezes com assistente, contendo o vencedor, e a presença deles sugere regras complexas.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "The minutiae of the rules governing gladiatorial combat are lost to modern historians, but the presence of these arbiters suggests that the regulations were complex"
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "his hand stayed (at least temporarily) by the umpire. The figure of the umpire is frequently depicted in the background of an engagement, sometimes accompanied by an assistant."
+        },
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "This suggests that gladiators were well matched in their capabilities, and followed sets of rules enforced by two referees."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Segundo grafites riscados em paredes, o novato Marco Atílio venceu Hilaro, da trupe de Nero, dono de 13 coroas, e depois Lúcio Récio Félix; os dois derrotados foram poupados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "As a mere rookie (tiro) he defeated an old hand, Hilarus, from the troupe owned by the emperor Nero, even though Hilarus had won the special distinction of a wreath no fewer than 13 times."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "Both Hilarus and Raecius must have fought admirably against Attilius, since each of them was granted a reprieve (missio)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "O cemitério de gladiadores de Éfeso foi descoberto em 1993, data do século II, e pesquisadores estudaram a causa da morte de 67 gladiadores enterrados ali.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "used forensic techniques to determine the causes of death of 67 gladiators discovered at Ephesus"
+        },
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "The cemetery, identified by tomb reliefs of gladiators, was uncovered by archaeologists in 1993 and is thought to date from the second century AD."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Dez gladiadores de Éfeso morreram de um golpe na lateral da cabeça semelhante ao de um martelo, provavelmente dado fora da arena em lutadores condenados pelo público.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "However, despite the fact that most gladiators wore helmets, 10 had died of a hammer-like injury to the side of the head."
+        },
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "believing that these tend to have been gladiators whom the crowd condemned to death but who were still alive when dragged from the arena, and were killed by a final hammer blow to the head from a backstage executioner"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Os gladiadores tinham uma dieta quase vegetariana, e textos da época os chamavam de “comedores de cevada”.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_sciencedaily_com_releases_2014_10_141020090006_cc3420",
+          "excerpt": "The result shows that gladiators mostly ate a vegetarian diet."
+        },
+        {
+          "sourceId": "src_archive_archaeology_org_0811_abstracts_gladiator_416f62",
+          "excerpt": "Contemporary accounts of gladiator life sometimes refer to the warriors as hordearii--literally, \"barley men.\""
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Segundo o poeta Marcial, o público pedia clemência agitando lenços ou gritando.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_penelope_uchicago_edu_encyclopaedia_romana_gladiators_79d50f",
+          "excerpt": "Martial does say that the crowd appealed for mercy by waving their handkerchiefs (XII) or by shouting (Spectacles, X)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "O quadro Pollice Verso, de Jean-Léon Gérôme, terminado em 1872, espalhou a ideia do polegar para baixo e inspirou o filme Gladiador (2000).",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_phxart_org_blog_pollice_verso_124b96",
+          "excerpt": "He would go on to finish the work in 1872."
+        },
+        {
+          "sourceId": "src_penelope_uchicago_edu_encyclopaedia_romana_gladiators_79d50f",
+          "excerpt": "Translated as \"Thumbs Down,\" the picture perpetuated that mistaken notion. It also inspired Gladiator (2000)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+    "src_bigthink_com_the_past_3_myths_d393fd",
+    "src_journals_plos_org_plosone_article_acdee1",
+    "src_archive_archaeology_org_0811_abstracts_gladiator_416f62",
+    "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+    "src_livescience_com_archaeology_romans_did_roman_34e934",
+    "src_penelope_uchicago_edu_encyclopaedia_romana_gladiators_79d50f",
+    "src_phxart_org_blog_pollice_verso_124b96",
+    "src_sciencedaily_com_releases_2014_10_141020090006_cc3420"
+  ],
+  "quizIds": [
+    "q_gladiators_death_1__pt-BR",
+    "q_gladiators_death_2__pt-BR",
+    "q_gladiators_death_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_rome_what_lasted"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

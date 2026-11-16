@@ -1,0 +1,79 @@
+[
+  {
+    "id": "q_roman_concrete_1__pt-BR",
+    "questionGroupId": "qg_roman_concrete_1",
+    "conceptId": "concept_roman_concrete",
+    "locale": "pt-BR",
+    "prompt": "Quais eram os ingredientes principais do concreto romano?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cal e cinza vulcânica"
+      },
+      {
+        "id": "b",
+        "text": "Cimento e barras de aço"
+      },
+      {
+        "id": "c",
+        "text": "Argila e palha"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os romanos misturavam cal com cinza vulcânica, como a de Pozzuoli, e juntavam pedaços de tijolo ou de rocha.",
+    "claimIds": ["c3", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_concrete_2__pt-BR",
+    "questionGroupId": "qg_roman_concrete_2",
+    "conceptId": "concept_roman_concrete",
+    "locale": "pt-BR",
+    "prompt": "O que a água do mar fez com os quebra-mares romanos?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fez crescer minerais que reforçam o concreto"
+      },
+      {
+        "id": "b",
+        "text": "Dissolveu o concreto em poucas décadas"
+      },
+      {
+        "id": "c",
+        "text": "Não teve nenhum efeito"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A água do mar reagiu com a cinza vulcânica, e cristais como a tobermorita continuaram crescendo, reforçando o material.",
+    "misconception": "A água salgada estraga o concreto moderno, mas no concreto romano ela ajudou a formar minerais novos.",
+    "claimIds": ["c4", "c9", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_roman_concrete_3__pt-BR",
+    "questionGroupId": "qg_roman_concrete_3",
+    "conceptId": "concept_roman_concrete",
+    "locale": "pt-BR",
+    "prompt": "Que papel podem ter tido os grãos brancos de cal no concreto romano?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ajudar a fechar rachaduras"
+      },
+      {
+        "id": "b",
+        "text": "Nenhum: eram só sinal de mistura malfeita"
+      },
+      {
+        "id": "c",
+        "text": "Deixar o concreto mais claro"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Quando uma rachadura atinge um grão de cal, o cálcio dissolvido pode cristalizar e preencher a fenda; em testes, fendas se fecharam em duas semanas.",
+    "misconception": "Durante muito tempo os grãos foram vistos como defeito de fabricação; o estudo do MIT sugere o contrário.",
+    "claimIds": ["c5", "c12", "c13"],
+    "status": "draft"
+  }
+]
