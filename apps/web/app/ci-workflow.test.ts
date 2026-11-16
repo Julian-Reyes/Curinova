@@ -29,11 +29,21 @@ describe('CI workflow', () => {
     );
   });
 
+  it('runs the timing check as a report that never blocks a deploy', () => {
+    const perf = workflow.slice(
+      workflow.indexOf('\n  perf-report:'),
+      workflow.indexOf('\n  deploy:'),
+    );
+    expect(perf).toContain('continue-on-error: true');
+    expect(perf).toContain(`mcr.microsoft.com/playwright:v${installed}-`);
+    expect(perf).toContain('run: pnpm perf');
+  });
+
   it('puts a time limit on every job', () => {
     const jobsSection = workflow.slice(workflow.indexOf('\njobs:'));
     const jobs = jobsSection.match(/^ {2}[a-z0-9-]+:\n/gm) ?? [];
     const limits = jobsSection.match(/timeout-minutes: \d+/g) ?? [];
-    expect(jobs.length).toBe(3);
+    expect(jobs.length).toBe(4);
     expect(limits.length).toBe(jobs.length);
   });
 });

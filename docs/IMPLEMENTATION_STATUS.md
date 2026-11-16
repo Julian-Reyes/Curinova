@@ -93,15 +93,15 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 
 ## M5 — Offline, polish, beta readiness (in progress, D28)
 
-| Step | Item                                                                                                    | Where                                                                      | Status |
-| ---- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ |
-| 1    | Starter pack: 3 MB of Discover photos after onboarding, Settings switch, content saved on a first visit | `domain/src/starter-pack.ts`, `app/data/offline.ts`, `e2e/offline.spec.ts` | ✅     |
-| 2    | Offline states for every screen; E2E scenario 6                                                         | `routes/app-layout.tsx`, `public/offline-page.ts`, `e2e/offline.spec.ts`   | ✅     |
-| 3    | Public pages without the app's JavaScript                                                               | `public/site-files.ts`, `react-router.config.ts`                           | ✅     |
-| 4    | Accessibility: axe checks in both languages and themes; manual §8 pass                                  | `e2e/a11y.spec.ts`, `components/QuizRunner.tsx`                            | ✅     |
-| 5    | Speed: size budgets in the build; timing report on a throttled phone                                    |                                                                            |        |
-| 6    | README and `docs/RELEASE_CHECKLIST.md`                                                                  |                                                                            |        |
-| 7    | Docs                                                                                                    |                                                                            |        |
+| Step | Item                                                                                                    | Where                                                                      | Status                                     |
+| ---- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------ |
+| 1    | Starter pack: 3 MB of Discover photos after onboarding, Settings switch, content saved on a first visit | `domain/src/starter-pack.ts`, `app/data/offline.ts`, `e2e/offline.spec.ts` | ✅                                         |
+| 2    | Offline states for every screen; E2E scenario 6                                                         | `routes/app-layout.tsx`, `public/offline-page.ts`, `e2e/offline.spec.ts`   | ✅                                         |
+| 3    | Public pages without the app's JavaScript                                                               | `public/site-files.ts`, `react-router.config.ts`                           | ✅                                         |
+| 4    | Accessibility: axe checks in both languages and themes; manual §8 pass                                  | `e2e/a11y.spec.ts`, `components/QuizRunner.tsx`                            | ✅                                         |
+| 5    | Speed: size budgets in the build; timing report on a throttled phone                                    | `budgets.ts`, `speed/speed.spec.ts`, `pnpm perf`, CI `perf-report`         | ✅ (app first-visit LCP misses its target) |
+| 6    | README and `docs/RELEASE_CHECKLIST.md`                                                                  |                                                                            |                                            |
+| 7    | Docs                                                                                                    |                                                                            |                                            |
 
 ## M4 — Public web and growth surface (done 2026-11-13, D26)
 

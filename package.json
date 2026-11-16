@@ -15,6 +15,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "pnpm --filter @lumen/web test:e2e",
+    "perf": "pnpm --filter @lumen/web perf",
     "build": "pnpm -r --if-present run build",
     "content:validate": "pnpm --filter @lumen/content-pipeline validate",
     "content:build": "pnpm --filter @lumen/content-pipeline content:build",
