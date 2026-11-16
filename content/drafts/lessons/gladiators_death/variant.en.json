@@ -10,7 +10,7 @@
   "cardBlocks": [
     {
       "type": "paragraph",
-      "text": "In the movies, two men walk into the arena and one walks out. But most gladiators were enslaved men who got hard training, a rich diet and expert medical care: an expensive investment. If one died, his owner could charge the sponsor up to a hundred times the price of a gladiator who survived. And it was the sponsor, listening to the crowd, who decided whether the loser was spared."
+      "text": "In the movies, two men walk into the arena and one walks out. But most gladiators were enslaved men who got hard training, a high-energy diet and expert medical care: an expensive investment. If one died, his owner could charge the sponsor up to a hundred times the price of a gladiator who survived. And it was the sponsor, listening to the crowd, who decided whether the loser was spared."
     },
     {
       "type": "paragraph",
@@ -52,7 +52,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The Latin phrase pollice verso just means “with a turned thumb”; nobody knows which way it turned. The poet Martial says crowds asked for mercy by waving handkerchiefs or shouting. The thumbs-down idea took hold with Pollice Verso, a painting the Frenchman Jean-Léon Gérôme finished in 1872, which inspired the film Gladiator (2000)."
+      "text": "The Latin phrase pollice verso just means “with a turned thumb”; nobody knows which way it turned. The poet Martial says crowds asked for mercy by waving handkerchiefs or shouting. The thumbs-down idea spread with Pollice Verso, a painting the Frenchman Jean-Léon Gérôme finished in 1872, which inspired the film Gladiator (2000)."
     },
     {
       "type": "heading",
@@ -201,9 +201,13 @@
         {
           "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
           "excerpt": "Both Hilarus and Raecius must have fought admirably against Attilius, since each of them was granted a reprieve (missio)."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_5a6ca0",
+          "excerpt": "by going on to defeat a fellow-volunteer, Lucius Raecius Felix, who had 12 wreaths to his name."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -218,9 +222,13 @@
         {
           "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
           "excerpt": "The cemetery, identified by tomb reliefs of gladiators, was uncovered by archaeologists in 1993 and is thought to date from the second century AD."
+        },
+        {
+          "sourceId": "src_world_archaeology_com_world_europe_turkey_0a1ee0",
+          "excerpt": "Karl Großschmidt of the Medical University of Vienna in Austria and Fabian Kanz of the Austrian Archaeological Institute"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

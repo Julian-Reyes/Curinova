@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Por volta do ano 600, o latim vulgar já tinha dado lugar a línguas novas, os romances. No noroeste da península surgiu o galego-português, e as palavras foram mudando: manu virou mão, clamare virou chamar. Por isso o português é uma língua românica, irmã do espanhol, do italiano e do francês."
+      "text": "Acredita-se que, por volta do ano 600, o latim vulgar já tinha dado lugar a línguas novas, os romances. No noroeste da península surgiu o galego-português, e as palavras foram mudando: manu virou mão, clamare virou chamar. Por isso o português é uma língua românica, irmã do espanhol, do italiano e do francês."
     },
     {
       "type": "takeaway",
@@ -110,7 +110,7 @@
     },
     {
       "id": "c3",
-      "text": "Por volta do ano 600, o latim vulgar já não era falado em nenhuma região do antigo império; em seu lugar havia novas línguas, os romances.",
+      "text": "Acredita-se que, por volta do ano 600, o latim vulgar já não era falado em nenhuma região do antigo império; em seu lugar havia novas línguas, os romances.",
       "highStakes": false,
       "support": [
         {
@@ -118,7 +118,7 @@
           "excerpt": "Pensa-se que por volta do ano 600 o latim vulgar não fosse falado em nenhuma região do Império. Por essa época falar-se-iam novas línguas na Gália, na Ibéria, na Récia, na Itália, na Dalmácia e na Dácia: eram os romances."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

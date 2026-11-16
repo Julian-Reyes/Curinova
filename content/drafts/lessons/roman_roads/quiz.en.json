@@ -71,7 +71,7 @@
     ],
     "correctOptionId": "a",
     "explanation": "In Britain, for example, paved stretches are highly exceptional; the standard road had gravel or pebbles on a base of earth or stone.",
-    "misconception": "The picture of big paving stones comes from roads like the Appian Way near Rome, which weren’t the rule across the empire.",
+    "misconception": "In Britain, roads paved with big stone blocks are the exception; the picture of stone paving everywhere doesn’t fit them.",
     "claimIds": ["c10"],
     "status": "draft"
   }

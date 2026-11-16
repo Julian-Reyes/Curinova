@@ -258,9 +258,13 @@
         {
           "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
           "excerpt": "Nowadays, the ancient Appian Way is not only a big open-air museum started in the 1800s, but also an immense green area, a place where Romans and tourists go for leisure time, biking, hiking and visiting monuments."
+        },
+        {
+          "sourceId": "src_apnews_com_article_italy_rome_appian_742551",
+          "excerpt": "The whole area is a protected archaeological park."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {

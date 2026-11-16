@@ -206,9 +206,17 @@
         {
           "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
           "excerpt": "This new study says the scientists found significant amounts of tobermorite growing through the fabric of the concrete, with a related, porous mineral called phillipsite."
+        },
+        {
+          "sourceId": "src_bbc_com_news_science_environment_40494248_22f160",
+          "excerpt": "said lead author Marie Jackson from the University of Utah"
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_history_the_secrets_of_83a1c8",
+          "excerpt": "says Marie Jackson, a geologist and research engineer at the University of California at Berkeley"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
