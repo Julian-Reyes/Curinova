@@ -157,7 +157,7 @@
           "excerpt": "In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -268,7 +268,7 @@
           "excerpt": "though scientists can't rule out that it doesn't eventually die naturally"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
