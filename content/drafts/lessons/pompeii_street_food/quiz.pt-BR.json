@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_pompeii_street_food_1__pt-BR",
+    "questionGroupId": "qg_pompeii_street_food_1",
+    "conceptId": "concept_pompeii_street_food",
+    "locale": "pt-BR",
+    "prompt": "O que era um termopólio?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Um balcão de rua que servia comida quente e bebida"
+      },
+      {
+        "id": "b",
+        "text": "Uma casa de banho pública aquecida"
+      },
+      {
+        "id": "c",
+        "text": "Um forno comunitário para assar pão em casa"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Termopólios serviam bebidas e comidas quentes, guardadas em potes embutidos num balcão de alvenaria.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_street_food_2__pt-BR",
+    "questionGroupId": "qg_pompeii_street_food_2",
+    "conceptId": "concept_pompeii_street_food",
+    "locale": "pt-BR",
+    "prompt": "Quantos termopólios havia em Pompeia, segundo o parque arqueológico?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 80"
+      },
+      {
+        "id": "b",
+        "text": "Só um"
+      },
+      {
+        "id": "c",
+        "text": "Mais de mil"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Só em Pompeia há cerca de 80 desses balcões, sinal de que comer fora era comum.",
+    "misconception": "O balcão de 2020 ficou famoso, mas estava longe de ser o único da cidade.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_street_food_3__pt-BR",
+    "questionGroupId": "qg_pompeii_street_food_3",
+    "conceptId": "concept_pompeii_street_food",
+    "locale": "pt-BR",
+    "prompt": "O que os potes do balcão escavado em 2020 revelaram?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ossos de pato e de outros animais, que batiam com as pinturas"
+      },
+      {
+        "id": "b",
+        "text": "Que o balcão só vendia frutas"
+      },
+      {
+        "id": "c",
+        "text": "Que os potes nunca foram usados"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Havia ossos de pato, porco, cabra, peixe e caracóis; as pinturas mostravam ao menos parte do que se vendia.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

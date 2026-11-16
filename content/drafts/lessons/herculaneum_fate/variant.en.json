@@ -1,0 +1,330 @@
+{
+  "id": "lesson_herculaneum_fate__en",
+  "conceptId": "concept_herculaneum_fate",
+  "locale": "en",
+  "slug": "why-was-herculaneums-fate-different",
+  "title": "Why was Herculaneum’s fate different?",
+  "hook": "The town next door was swallowed by 20 metres of scalding mud that preserved even the wood.",
+  "summary": "Herculaneum, closer to Vesuvius, lay under about 20 metres of hot, oxygen-poor volcanic mud that carbonised and preserved wood and food; in 1980, some 300 skeletons turned up by the ancient beach.",
+  "cardText": "Herculaneum ended up under about 20 metres of hot volcanic mud with almost no oxygen. Instead of burning, its wood and food turned to charcoal and survived.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Pompeii was buried under pumice and ash. Herculaneum, a seaside town closer to the volcano, met a different end: a mass of superheated volcanic mud about 20 metres high came down on it. Without oxygen, wood didn’t catch fire; it turned to charcoal and kept its shape. Beds, doors, tables and even an oak cradle that still rocks have survived."
+    },
+    {
+      "type": "paragraph",
+      "text": "In 1980, archaeologists found some 300 skeletons in stone vaults facing the ancient beach, probably storerooms or boat shelters. People had waited there for rescue with their jewellery, coins and house keys. Pompeii left hollows in the ash; Herculaneum left bones."
+    },
+    {
+      "type": "takeaway",
+      "text": "Hot, airless volcanic mud turned Herculaneum to charcoal and preserved its wood, its food and the bones of its victims."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Why the wood didn’t burn"
+    },
+    {
+      "type": "paragraph",
+      "text": "The mud that covered Herculaneum was airtight and cut off oxygen from everything it touched. Without oxygen there is no combustion, so wood, food and other organic materials were carbonised but kept whole, which is extremely rare at ancient sites. In one bathhouse, a wooden door kept moist still shows its nails."
+    },
+    {
+      "type": "heading",
+      "text": "The vaults by the beach"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a long time, historians assumed that Herculaneum’s people had escaped by sea. The skeletons found from 1980 on proved them wrong. They were men and women, young and old, masters and slaves, huddled together hoping for rescue. Beside them lay coins, money boxes, amulets, work tools and even a surgeon’s kit."
+    },
+    {
+      "type": "heading",
+      "text": "How they died is still debated"
+    },
+    {
+      "type": "paragraph",
+      "text": "Archaeologists at the site say the heat was so intense that the victims died instantly. A 2010 study estimated temperatures of about 500 °C in the town. Another study, however, concluded that many people died more slowly than once thought. The question remains open."
+    },
+    {
+      "type": "heading",
+      "text": "A carbonised library"
+    },
+    {
+      "type": "paragraph",
+      "text": "Herculaneum was rediscovered by well diggers in 1709. In a palatial seaside villa, the Villa of the Papyri, excavators found the only library to survive from the classical world: some 2,000 papyrus scrolls, carbonised by gases at about 400 °C."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pompeii was buried under pumice and then ash.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "it sent out a cascade of popcorn-like pumice, followed by ash, burying the city of Pompeii to its south."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Herculaneum, a seaside town, was closer to the volcano than Pompeii.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "But Herculaneum, a seaside resort town that had been frequented by senators and other wealthy Romans, was actually closer to the volcano."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "A mass of superheated volcanic mud about 20 metres high covered Herculaneum and created an oxygen-poor environment in which wood carbonised instead of burning.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_ercolano_cultura_gov_it_the_wood_6eaae9",
+          "excerpt": "the twenty-metre-high mass of superheated pyroclastic mud that descended upon the city created an oxygen-poor environment in which the wood carbonised instead of combusting."
+        },
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "The wooden objects survived in part because the town was sealed off under a 20-metre-thick pyroclastic covering"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The preserved wooden objects include beds, tables, doors and an oak cradle that still rocks.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "Objects on display include everything from decorative door and ceiling frames to a wooden change purse, woodworking tools and tables, bed frames, boats and benches, even a small dresser whose doors still open."
+        },
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "Perhaps most extraordinary among the objects is a child's crib made of oak — now carbonized — which, with a gentle push, still rocks."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "In 1980, about 300 skeletons were found in stone vaults facing the ancient beach, probably used as storerooms or boat shelters.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_ercolano_cultura_gov_it_i_fuggiaschi_4a4eea",
+          "excerpt": "a discovery made in 1980 of some 300 skeletons found in nine of the twelve vaulted spaces (fornici) facing the ancient beach, which were probably used as warehouses or boat shelters."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "The hundreds of refugees sheltering in the vaulted arcades at the seaside in Herculaneum, clutching their jewellery and money, met their end swiftly - from the intense heat of the first surge that reached the city."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The victims carried jewellery, coins, house keys and other valuables.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ercolano_cultura_gov_it_i_fuggiaschi_4a4eea",
+          "excerpt": "The objects found next to the victims tell us how everyone had taken their most treasured possessions with them, jewellery, baskets and bags with coins, money boxes, house keys, but also amulets and work tools, including an incredible surgeon’s set."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "At Pompeii the bodies left hollows in the ash; at Herculaneum, skeletons remain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "In Pompeii, the ash that covered the city encased the bodies of trapped inhabitants, which decomposed, leaving empty molds of people caught in desperate embraces or curled in fetal positions. In Herculaneum, it's skeletons that remain two millennia later."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The airtight mud cut off oxygen and prevented combustion, preserving wood and charred food, which is extremely rare at ancient sites.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "The mud that enveloped Herculaneum was airtight, sealing off oxygen from everything it covered, preventing combustion, and thus preserving the wood and other organic objects, including charred food — an extreme rarity in ancient buried sites."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A wooden door kept moist in a bathhouse preserves details such as its nails.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "But some, like the door in a thermal bath dividing a cold room from a hot steam bath"
+        },
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "\"Because of the humidity in this room, the wood remains 'alive.' That allows you to see amazing detail — the cornices and even the wooden nails,\" said Notomista"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Historians assumed Herculaneum’s people had escaped by sea; the 1980 finds contradicted this.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_nytimes_com_1982_02_14_world_1c513b",
+          "excerpt": "Professor Maggi believes that his continuing finds confirm a view, which he stated publicly for the first time in 1980, that historians were wrong when they assumed the people of Pompeii died while those of Herculaneum managed to escape by sea."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The victims in the vaults were men and women, young and old, masters and slaves, huddled together hoping for rescue.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ercolano_cultura_gov_it_i_fuggiaschi_4a4eea",
+          "excerpt": "The victims are women and men, both young and old, masters and slaves, all equally huddled together in the hope of rescue."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Beside the victims lay coins, money boxes, amulets, tools and a surgeon’s kit.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_ercolano_cultura_gov_it_i_fuggiaschi_4a4eea",
+          "excerpt": "The objects found next to the victims tell us how everyone had taken their most treasured possessions with them, jewellery, baskets and bags with coins, money boxes, house keys, but also amulets and work tools, including an incredible surgeon’s set."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "How Herculaneum’s victims died is debated: some say they died instantly, a 2010 study estimated about 500 °C, and another study concluded many died more slowly than once thought.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "\"The mud that covered Herculaneum travelled at a terrifying speed and was so hot that when it came into contact with people, they instantly evaporated — all but their bones,\" said Mario Notomista"
+        },
+        {
+          "sourceId": "src_journals_plos_org_plosone_article_e92b3a",
+          "excerpt": "These features suggest temperatures of ca 500°C in Herculaneum, which matches well with previous supporting evidence [16]"
+        },
+        {
+          "sourceId": "src_livescience_com_vesuvius_victims_herculaneum_html_3f7a29",
+          "excerpt": "There, scores of people died more slowly than once thought, according to a new study."
+        },
+        {
+          "sourceId": "src_livescience_com_vesuvius_victims_herculaneum_html_3f7a29",
+          "excerpt": "some experts previously concluded that the intense heat of melted rock, volcanic gases and ash, known as pyroclastic flows, vaporized the victims instantly."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Herculaneum was rediscovered by well diggers in 1709.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+          "excerpt": "making it next to impossible for grave robbers to access, after it was discovered by well diggers in 1709."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "The Villa of the Papyri held the only library to survive from the classical world, about 2,000 scrolls; it was a palatial seaside villa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "Piso's grand villa, which has come to be known as the Villa of the Papyri, also contains the only library to have survived from the classical world. It is a relatively small collection, some 2,000 scrolls, which the eruption nearly destroyed and yet preserved at the same time."
+        },
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "In Herculaneum, Piso built a seaside villa on a palatial scale"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "The scrolls were carbonised by volcanic gas at about 400 °C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "A blast of furnace-like gas from the volcano at 400C (752F) carbonised the papyrus scrolls, before the town was buried in a fine volcanic ash which later cooled and solidified into rock."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_amp_cbc_ca_news_world_herculaneum_7dc93a",
+    "src_ercolano_cultura_gov_it_the_wood_6eaae9",
+    "src_ercolano_cultura_gov_it_i_fuggiaschi_4a4eea",
+    "src_bbc_co_uk_history_ancient_romans_643fce",
+    "src_nytimes_com_1982_02_14_world_1c513b",
+    "src_journals_plos_org_plosone_article_e92b3a",
+    "src_livescience_com_vesuvius_victims_herculaneum_html_3f7a29",
+    "src_bbc_com_news_magazine_25106956_0c39ec"
+  ],
+  "quizIds": ["q_herculaneum_fate_1__en", "q_herculaneum_fate_2__en", "q_herculaneum_fate_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

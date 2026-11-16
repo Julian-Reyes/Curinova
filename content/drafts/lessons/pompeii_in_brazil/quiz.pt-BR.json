@@ -1,0 +1,77 @@
+[
+  {
+    "id": "q_pompeii_in_brazil_1__pt-BR",
+    "questionGroupId": "qg_pompeii_in_brazil_1",
+    "conceptId": "concept_pompeii_in_brazil",
+    "locale": "pt-BR",
+    "prompt": "Quem trouxe peças de Pompeia e Herculano para o Brasil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A imperatriz Teresa Cristina, nascida em Nápoles"
+      },
+      {
+        "id": "b",
+        "text": "Dom João VI, ao fugir de Napoleão"
+      },
+      {
+        "id": "c",
+        "text": "Arqueólogos brasileiros no século XX"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Teresa Cristina, nascida em Nápoles, chegou em 1843 trazendo peças que formaram a coleção do Museu Nacional.",
+    "claimIds": ["c1", "c2", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_in_brazil_2__pt-BR",
+    "questionGroupId": "qg_pompeii_in_brazil_2",
+    "conceptId": "concept_pompeii_in_brazil",
+    "locale": "pt-BR",
+    "prompt": "O que aconteceu com a coleção no incêndio do Museu Nacional, em 2018?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foi atingida, mas parte das peças foi resgatada"
+      },
+      {
+        "id": "b",
+        "text": "Saiu intacta, porque estava em outro prédio"
+      },
+      {
+        "id": "c",
+        "text": "Tinha sido devolvida à Itália antes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As peças estavam em exposição quando o museu pegou fogo; no resgate, apareceram itens da coleção.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_in_brazil_3__pt-BR",
+    "questionGroupId": "qg_pompeii_in_brazil_3",
+    "conceptId": "concept_pompeii_in_brazil",
+    "locale": "pt-BR",
+    "prompt": "O que aconteceu com o afresco “Dragão e Dois Golfinhos”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foi achado em fragmentos e restaurado na Itália"
+      },
+      {
+        "id": "b",
+        "text": "Foi destruído sem deixar vestígios"
+      },
+      {
+        "id": "c",
+        "text": "Nunca saiu de Pompeia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "O afresco, do Templo de Ísis, foi encontrado em pedaços e restaurado com uma fundação de Turim.",
+    "claimIds": ["c7", "c15"],
+    "status": "draft"
+  }
+]

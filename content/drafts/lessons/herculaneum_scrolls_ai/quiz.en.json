@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_herculaneum_scrolls_ai_1__en",
+    "questionGroupId": "qg_herculaneum_scrolls_ai_1",
+    "conceptId": "concept_herculaneum_scrolls_ai",
+    "locale": "en",
+    "prompt": "Why aren’t the Herculaneum scrolls simply unrolled?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They are carbonised and fall apart when handled"
+      },
+      {
+        "id": "b",
+        "text": "The law forbids anyone to touch them"
+      },
+      {
+        "id": "c",
+        "text": "They are glued shut with Roman resin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The scrolls turned to charcoal in the eruption; 18th-century attempts to open them destroyed many.",
+    "claimIds": ["c1", "c8", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_scrolls_ai_2__en",
+    "questionGroupId": "qg_herculaneum_scrolls_ai_2",
+    "conceptId": "concept_herculaneum_scrolls_ai",
+    "locale": "en",
+    "prompt": "What was the first word read inside an unopened scroll, in 2023?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porphyras, “purple”"
+      },
+      {
+        "id": "b",
+        "text": "Vesuvius, the volcano’s name"
+      },
+      {
+        "id": "c",
+        "text": "Rome"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A 21-year-old student found porphyras, a rare Greek word meaning “purple”.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_scrolls_ai_3__en",
+    "questionGroupId": "qg_herculaneum_scrolls_ai_3",
+    "conceptId": "concept_herculaneum_scrolls_ai",
+    "locale": "en",
+    "prompt": "What does machine learning do in this work?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It finds the ink, which barely shows in the CT scans"
+      },
+      {
+        "id": "b",
+        "text": "It translates the Greek into English"
+      },
+      {
+        "id": "c",
+        "text": "It glues the scroll fragments back together"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Carbon ink barely appears in the images; the models learn to recognise its traces.",
+    "misconception": "The AI doesn’t “guess” the text: it locates the ink, and papyrologists read and check the letters.",
+    "claimIds": ["c7", "c10", "c13"],
+    "status": "draft"
+  }
+]

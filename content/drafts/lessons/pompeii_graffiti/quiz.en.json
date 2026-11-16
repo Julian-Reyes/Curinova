@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_pompeii_graffiti_1__en",
+    "questionGroupId": "qg_pompeii_graffiti_1",
+    "conceptId": "concept_pompeii_graffiti",
+    "locale": "en",
+    "prompt": "How many inscriptions have been found on Pompeii’s walls?",
+    "options": [
+      {
+        "id": "a",
+        "text": "More than 11,000"
+      },
+      {
+        "id": "b",
+        "text": "About 100"
+      },
+      {
+        "id": "c",
+        "text": "Just over 1,000"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Archaeologists have recorded more than 11,000, left by all kinds of people, from shopkeepers to enslaved workers.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_graffiti_2__en",
+    "questionGroupId": "qg_pompeii_graffiti_2",
+    "conceptId": "concept_pompeii_graffiti",
+    "locale": "en",
+    "prompt": "Who painted Pompeii’s election ads?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Professional signwriters, in red letters"
+      },
+      {
+        "id": "b",
+        "text": "Only the candidates themselves, in charcoal"
+      },
+      {
+        "id": "c",
+        "text": "Children, as a game"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Election dipinti were carefully made by professional signwriters, like sponsored ads.",
+    "claimIds": ["c4", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_graffiti_3__en",
+    "questionGroupId": "qg_pompeii_graffiti_3",
+    "conceptId": "concept_pompeii_graffiti",
+    "locale": "en",
+    "prompt": "A graffito calls the gladiator Celadus the girls’ idol. How do historians read it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Probably as a boast written by Celadus himself"
+      },
+      {
+        "id": "b",
+        "text": "As proof he was Rome’s most famous gladiator"
+      },
+      {
+        "id": "c",
+        "text": "As an official notice from the amphitheatre"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Graffiti are personal opinions; historian Alison Cooley thinks Celadus most likely wrote it himself.",
+    "misconception": "An ancient inscription isn’t a fact just because it’s old: its writer had their own motives.",
+    "claimIds": ["c18"],
+    "status": "draft"
+  }
+]

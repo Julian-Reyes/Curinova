@@ -1,0 +1,35 @@
+{
+  "id": "concept_herculaneum_scrolls_ai",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 6,
+  "tags": ["herculaneum", "papyrus", "machine-learning", "archaeology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_herculaneum_fate",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Como a erupção carbonizou a biblioteca da Vila dos Papiros.",
+        "en": "How the eruption carbonised the library of the Villa of the Papyri."
+      }
+    },
+    {
+      "conceptId": "concept_pompeii_in_brazil",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Objetos das cidades do Vesúvio também atravessaram o Atlântico.",
+        "en": "Objects from the Vesuvius towns also crossed the Atlantic."
+      }
+    },
+    {
+      "conceptId": "concept_pompeii_body_casts",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outro caso em que uma tecnologia nova mudou o que se sabia sobre a cidade.",
+        "en": "Another case where new technology changed what we knew about the town."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

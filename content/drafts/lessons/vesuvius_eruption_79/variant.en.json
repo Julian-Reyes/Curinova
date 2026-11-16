@@ -1,0 +1,421 @@
+{
+  "id": "lesson_vesuvius_eruption_79__en",
+  "conceptId": "concept_vesuvius_eruption_79",
+  "locale": "en",
+  "slug": "what-happened-the-day-vesuvius-erupted",
+  "title": "What happened the day Vesuvius erupted?",
+  "hook": "A 17-year-old watched it all from across the bay and wrote it down.",
+  "summary": "A huge cloud rose from Vesuvius, ash and pumice fell for hours, and at night hot avalanches of gas killed those who stayed; Pliny the Younger left the account, and the exact date is debated.",
+  "cardText": "A vast cloud rose over Vesuvius, ash and stones fell for hours, and that night avalanches of hot gas swept the area. Pliny the Younger described it all in his letters.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Across the Bay of Naples, at Misenum, a 17-year-old saw an enormous cloud shaped like a pine tree climbing from a mountain. It was Vesuvius. His uncle, Pliny the Elder, commanded the Roman fleet there, and he set sail to rescue people living along the shore. He never came back."
+    },
+    {
+      "type": "paragraph",
+      "text": "For hours, ash and pumice rained down. Pumice is a light volcanic rock full of holes. People who fled at once still had a chance. Around midnight came the pyroclastic flows: avalanches of hot gas, ash and rock that race downhill at 100 km/h or more. For those who had stayed, they were deadly."
+    },
+    {
+      "type": "paragraph",
+      "text": "The nephew’s letters give the date as 24 August AD 79, but an inscription found at Pompeii in 2018 suggests the eruption came in October."
+    },
+    {
+      "type": "takeaway",
+      "text": "Pliny the Younger left the account of the AD 79 eruption; its traditional date, 24 August, is now disputed."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Pliny’s letters"
+    },
+    {
+      "type": "paragraph",
+      "text": "The historian Tacitus asked Pliny the Younger how his uncle had died. Pliny the Elder was resting after his bath when the cloud appeared. He wanted a closer look, but a plea for help arrived from Rectina, whose villa lay at the foot of the volcano. He turned his study trip into a rescue and sailed across to Stabiae, where he spent the night. The next day, on the beach, he collapsed and did not get up; his nephew thought the fumes had stopped his breathing. His body was found two days later, unharmed."
+    },
+    {
+      "type": "heading",
+      "text": "Why nobody left earlier"
+    },
+    {
+      "type": "paragraph",
+      "text": "The ground had been shaking for days, but nobody was alarmed: tremors were common in Campania. The Romans didn’t know that earthquakes can announce an eruption. Vesuvius had been quiet for a long time, and that long pause is what volcanologists link to the violence of the AD 79 eruption."
+    },
+    {
+      "type": "heading",
+      "text": "August or October?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the manuscripts of the letters, the eruption begins on 24 August. Since the 19th century, though, autumn fruit found in the ruins had hinted at a later date. In 2018, archaeologists found an inscription in a house at Pompeii dated to the equivalent of 17 October. Many archaeologists now think the traditional reading of the manuscripts is wrong and the eruption came around 24 October. The question is still debated."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Pliny the Elder commanded the Roman fleet at Misenum.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "My uncle was stationed at Misenum, where he was in active command of the fleet, with full powers."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Pliny the Younger compared the cloud rising from Vesuvius to a pine tree.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "but in likeness and form it more closely resembled a pine-tree than anything else"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Pliny the Elder sailed out to rescue people on the shore and died on the mission.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "So he changed his plans, and carried out with the greatest fortitude the task, which he had started as a scholarly inquiry. He had the galleys launched and went on board himself, in the hope of succouring, not only Rectina, but many others, for there were a number of people living along the shore owing to its delightful situation."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "He took a ship to stage a rescue for those in danger from the volcano."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "But he did not return from the venture."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "Pliny depicts his uncle as a model of Stoic fortitude: calmly sailing directly into the danger zone (where he subsequently died)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Pliny the Younger was 17 at the time of the eruption.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "for I was only in my eighteenth year"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Pliny the Younger’s eyewitness account, preserved in his letters, is the main source on what happened.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "It is mainly thanks to the vivid eye-witness account of the younger Pliny (a Roman administrator and poet, whose many vivid letters have been preserved), that we have some understanding of what happened."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "The fall of ash and pumice lasted several hours and was not necessarily lethal; those who fled at once had a chance of survival.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "Those who fled at once, unburdened by possessions, had a chance of survival, for the rain of ash and pumice, mixed with lithics, that descended for several hours was not necessarily lethal."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The first pyroclastic flows came around midnight and were deadly for people in the area.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "It was not until around midnight that the first pyroclastic surges and flows occurred, caused by the progressive collapse of the eruptive column, and these meant certain death for the people of the region."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A pyroclastic flow is an avalanche of hot gas, ash and rock that rushes down a volcano at 100 km/h or more.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "(A pyroclastic flow is a ground-hugging avalanche of hot ash, pumice, rock fragments and volcanic gas, which rushes down the side of a volcano as fast as 100 km/hour or more.)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Pliny’s letters give the date as 24 August AD 79, but an inscription found in 2018 suggests an October date.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "On the 24th of August"
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "Historians have long believed that Mount Vesuvius erupted on 24 August 79 AD, destroying the nearby Roman city of Pompeii."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "But now, an inscription has been uncovered dated to mid-October - almost two months later."
+        },
+        {
+          "sourceId": "src_theguardian_com_world_2018_oct_16_a14d4f",
+          "excerpt": "Archaeologists recently discovered that a worker had inscribed the date of “the 16th day before the calends of November”, meaning 17 October, on a house at Pompeii, the head of archeology at the site, Massimo Osanna, told Italian media."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Tacitus asked Pliny the Younger for an account of his uncle’s death.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "You ask me to send you an account of my uncle's death, so that you may be able to give posterity an accurate description of it."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Pliny the Elder turned his study trip into a rescue after a plea for help from Rectina.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "So he changed his plans, and carried out with the greatest fortitude the task, which he had started as a scholarly inquiry. He had the galleys launched and went on board himself, in the hope of succouring, not only Rectina, but many others, for there were a number of people living along the shore owing to its delightful situation."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Pliny the Elder sailed to Stabiae.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "\"Fortune favours the bold ; try to reach Pomponianus.\" The latter was at Stabiae"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Pliny the Elder collapsed and did not get up; his nephew thought the fumes had obstructed his breathing.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "Leaning on two slaves, he rose to his feet and immediately fell down again, owing, as I think, to his breathing being obstructed by the thickness of the fumes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Pliny the Elder’s body was found unharmed two days later.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "When daylight returned - two days after the last day he had seen - his body was found untouched, uninjured, and covered, dressed just as he had been in life."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "There were earth tremors in the days before, but they were not alarming because they were common in Campania.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "For many days previous there had been slight shocks of earthquake, which were not particularly alarming, because they are common enough in Campania."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "The Romans did not know about the link between earth tremors and volcanic activity.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "Pliny's casual reference to earth tremors 'which were not particularly alarming because they are frequent in Campania' reveals the Roman's comprehensive ignorance of the link between seismic activity (earth tremors) and volcanic activity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "The violence of the AD 79 eruption is linked to the long period of inactivity before it.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "The catastrophic magnitude of the eruption of AD 79 was connected with the extended period of inactivity that preceded it."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c18",
+      "text": "Since the 19th century, autumn fruit found in the ruins had suggested a date later than August.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_world_2018_oct_16_a14d4f",
+          "excerpt": "Nevertheless, evidence such as autumnal fruits on branches found in the ashen ruins had suggested a later date since the 19th century, Osanna said."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c19",
+      "text": "The inscription found in 2018 in a house at Pompeii gives a date equivalent to 17 October.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_world_2018_oct_16_a14d4f",
+          "excerpt": "Archaeologists recently discovered that a worker had inscribed the date of “the 16th day before the calends of November”, meaning 17 October, on a house at Pompeii, the head of archeology at the site, Massimo Osanna, told Italian media."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "But now, an inscription has been uncovered dated to mid-October - almost two months later."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c20",
+      "text": "Many archaeologists think the traditional reading of the manuscripts is wrong and the eruption came around 24 October.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "Most archaeologists now believe that the accepted reading of the manuscripts is wrong, and that the correct date of the eruption was about 24 October"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c21",
+      "text": "When the cloud appeared, Pliny the Elder was resting and reading after a bath and a light meal.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "He had been out in the sun, followed by a cold bath, and after a light meal he was lying down and reading."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c22",
+      "text": "Rectina’s villa lay at the foot of the volcano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "for her villa lay just beneath the mountain"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c23",
+      "text": "Pliny the Elder spent the night at Stabiae and then went with the others to the shore.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "\"Fortune favours the bold ; try to reach Pomponianus.\" The latter was at Stabiae"
+        },
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "Then he betook himself to rest and enjoyed a very deep sleep"
+        },
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "They decided to make their way to the shore"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_attalus_org_pliny_ep6_html_01ddb1",
+    "src_bbc_co_uk_news_world_europe_c46f6d",
+    "src_bbc_co_uk_history_ancient_romans_643fce",
+    "src_theguardian_com_world_2018_oct_16_a14d4f"
+  ],
+  "quizIds": [
+    "q_vesuvius_eruption_79_1__en",
+    "q_vesuvius_eruption_79_2__en",
+    "q_vesuvius_eruption_79_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

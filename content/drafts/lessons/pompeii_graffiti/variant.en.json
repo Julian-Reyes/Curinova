@@ -1,0 +1,327 @@
+{
+  "id": "lesson_pompeii_graffiti__en",
+  "conceptId": "concept_pompeii_graffiti",
+  "locale": "en",
+  "slug": "what-does-pompeiis-graffiti-say",
+  "title": "What does Pompeii’s graffiti say?",
+  "hook": "Election ads, notes to friends and lovers’ jabs: the walls talked.",
+  "summary": "More than 11,000 inscriptions carry election ads, gladiator notices, greetings to friends, verses, jokes and insults.",
+  "cardText": "More than 11,000 inscriptions survive at Pompeii: campaign ads, notices of gladiator games, greetings to friends, love verses, jokes and insults.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Long before social media, the people of Pompeii commented on everything on their walls. Archaeologists have found more than 11,000 inscriptions in the town, left by shopkeepers, labourers, soldiers and enslaved people. One of the most common words is feliciter, roughly “happily”, used to send good wishes to friends and colleagues."
+    },
+    {
+      "type": "paragraph",
+      "text": "There were election ads too, painted in red letters by professional signwriters, and not all were kind: one candidate is backed by “all the late drinkers”. Other notices advertised gladiator games and rooms for rent. One message, repeated around the town, pokes fun at all of it: the writer admires the wall for not collapsing under so much tedious scribbling."
+    },
+    {
+      "type": "takeaway",
+      "text": "Pompeii’s walls keep the voices of ordinary people: politics, friendship, love and jokes from nearly 2,000 years ago."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Painted or scratched"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specialists sort the writing into two kinds. Painted election notices, called dipinti, were carefully made and worked like sponsored ads. They promised things like free bread and free shows in the amphitheatre. Graffiti, by contrast, were scratched into wall plaster, sometimes written in charcoal or chalk, and were usually spontaneous, the work of the person in the street."
+    },
+    {
+      "type": "heading",
+      "text": "A rivalry over Iris"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some walls hold real conversations. Two rivals, Successus the weaver and Severus, competed for the attention of Iris, a barmaid, by trading insults in writing. In one, Severus replies: “You love Iris, but she does not love you.” In houses and public buildings, people also swapped lines from the poets Ovid and Propertius, often twisting them for a laugh."
+    },
+    {
+      "type": "heading",
+      "text": "Where and who"
+    },
+    {
+      "type": "paragraph",
+      "text": "The building with the most inscriptions is a large space with more than 100 columns beside the amphitheatre, with over 400 of them. Men wrote more than women, but the many greetings addressed to women show that they were expected to read them. Even children drew the gladiators they had seen fight."
+    },
+    {
+      "type": "heading",
+      "text": "Read with care"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historian Alison Cooley, of the University of Warwick, points out that graffiti are opinions, not facts. When a wall calls the gladiator Celadus the girls’ idol, the writer was most likely Celadus himself."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Archaeologists have found more than 11,000 inscriptions at Pompeii.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "In Pompeii alone, archaeologists have uncovered more than 11,000 examples of graffiti."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The writers included shopkeepers, labourers, soldiers and enslaved people.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Graffiti writers belonged to all walks of life. Shopkeepers, laborers, soldiers and enslaved people alike left their marks."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Feliciter, “happily”, is one of the most common words in the graffiti and was used to send good wishes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "One of the most commonly found words in this more informal style of graffiti is feliciter (“happily”), which, when paired with personal names, indicates good wishes for friends, colleagues, and even the emperor."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Election ads were painted in red letters by professional signwriters.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Some were political, carefully painted in bright red letters by professional signwriters who drummed up support for candidates in upcoming elections."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "One inscription says “all the late drinkers” ask people to vote for a candidate, an example of negative campaigning.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Some candidates engaged in negative campaigning, using graffiti to question their competitors’ qualifications and associate them with untrustworthy groups. “All the late drinkers ask you to elect Marcus Cerrinius Vatia [as magistrate],” one inscription stated."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Some inscriptions advertised gladiator games and rooms for rent.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "Some of this graffiti promoted political candidates, while other examples advertised everything from gladiatorial games to rooms for rent."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A message that appears several times at Pompeii admires the wall for not collapsing under so much writing.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Cooley’s favorite piece of graffiti is one that appears multiple times throughout Pompeii. It’s a self-referential joke poking fun at how much writing people have left on the walls: “I admire you, wall, for not having collapsed at having to carry the tedious scribblings of so many writers.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "People wrote election notices, gossip, accusations and verses on the walls.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Locals scribbled election notices, market day announcements and gossip on buildings’ walls. They also hurled accusations at each other and exchanged witty verses."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Painted election notices, dipinti, were comparable to today’s sponsored posts.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "These dipinti, or painted rather than engraved inscriptions, were akin to sponsored social media posts today."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Candidates were praised for promised benefits such as free bread and free shows in the amphitheatre.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "“Candidates aspiring to public office were praised for their good character, financial prudence and for benefits they promised to give to the people of Pompeii,” such as free bread and free shows in the amphitheater."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Graffiti were scratched into plaster, sometimes written in charcoal or chalk, and were usually spontaneous, the work of the person in the street.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "writings and drawings incised in wall plaster, or occasionally written with more ephemeral materials such as charcoal and chalk"
+        },
+        {
+          "sourceId": "src_ancientgraffiti_org_about_08b76d",
+          "excerpt": "Graffiti, by contrast, are more often the result of spontaneous composition and are the handwritten creation of the “man on the street.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Successus the weaver and his rival Severus competed for Iris, a barmaid, by trading insults in graffiti.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Alison Cooley, a historian at the University of Warwick in England, points to a conversation between Successus the weaver and his rival, Severus, who competed for the affection of the barmaid Iris by trading clever insults in their graffiti."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Severus wrote: “You love Iris, but she does not love you.”",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Severus, in turn, retorted, “You love Iris, but she does not love you.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "People swapped lines from Ovid and Propertius, often adapting them for humour.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "In both private houses and public buildings, Benefiel has found that people traded quotations from the first-century B.C. love poets Ovid and Propertius, often adapting poetic lines to humorous effect."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "The building with the most graffiti at Pompeii, beside the amphitheatre, has more than 100 columns and more than 400 inscriptions.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "The Campus ad Amphitheatrum, a large multipurpose building with more than 100 columns, boasts the most graffiti of any single building in Pompeii, with more than 400 handwritten inscriptions."
+        },
+        {
+          "sourceId": "src_ancientgraffiti_org_about_08b76d",
+          "excerpt": "the large campus of palaestra beside the amphitheater"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Men left more graffiti than women, but greetings addressed to women show they were expected to read them.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "According to Benefiel, men left behind more graffiti than women. “But plenty of greetings written to women show that it was expected they could read them,” she explains."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "Children drew gladiators they had seen fighting on the walls.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Children even scrawled crude likenesses of gladiators they’d seen fighting in the arena."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c18",
+      "text": "When a graffito calls the gladiator Celadus the girls’ idol, it is more likely a boast by the gladiator himself.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "When we read that the gladiator Celadus is ‘the girls’ idol,’ this is not some sort of objective fact, but more likely a boastful message written by the gladiator himself."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+    "src_archaeology_org_f684cb",
+    "src_ancientgraffiti_org_about_08b76d"
+  ],
+  "quizIds": ["q_pompeii_graffiti_1__en", "q_pompeii_graffiti_2__en", "q_pompeii_graffiti_3__en"],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

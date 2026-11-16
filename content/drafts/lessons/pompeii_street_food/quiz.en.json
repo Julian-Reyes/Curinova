@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_pompeii_street_food_1__en",
+    "questionGroupId": "qg_pompeii_street_food_1",
+    "conceptId": "concept_pompeii_street_food",
+    "locale": "en",
+    "prompt": "What was a thermopolium?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A street counter serving hot food and drinks"
+      },
+      {
+        "id": "b",
+        "text": "A heated public bathhouse"
+      },
+      {
+        "id": "c",
+        "text": "A shared oven for baking bread at home"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Thermopolia served hot food and drinks, kept in jars set into a masonry counter.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_street_food_2__en",
+    "questionGroupId": "qg_pompeii_street_food_2",
+    "conceptId": "concept_pompeii_street_food",
+    "locale": "en",
+    "prompt": "How many thermopolia did Pompeii have, according to the archaeological park?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 80"
+      },
+      {
+        "id": "b",
+        "text": "Just one"
+      },
+      {
+        "id": "c",
+        "text": "More than 1,000"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pompeii alone has about 80 such counters, a sign that eating out was common.",
+    "misconception": "The 2020 counter became famous, but it was far from the only one in town.",
+    "claimIds": ["c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_street_food_3__en",
+    "questionGroupId": "qg_pompeii_street_food_3",
+    "conceptId": "concept_pompeii_street_food",
+    "locale": "en",
+    "prompt": "What did the jars of the counter excavated in 2020 reveal?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duck and other animal bones that matched the paintings"
+      },
+      {
+        "id": "b",
+        "text": "That the counter sold only fruit"
+      },
+      {
+        "id": "c",
+        "text": "That the jars were never used"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "They held bones of duck, pig, goat, fish and snails; the paintings showed at least part of what was sold.",
+    "claimIds": ["c6", "c7"],
+    "status": "draft"
+  }
+]

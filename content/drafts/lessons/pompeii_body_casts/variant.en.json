@@ -1,0 +1,302 @@
+{
+  "id": "lesson_pompeii_body_casts__en",
+  "conceptId": "concept_pompeii_body_casts",
+  "locale": "en",
+  "slug": "how-were-pompeiis-body-casts-made",
+  "title": "How were Pompeii’s body casts made?",
+  "hook": "They aren’t bodies turned to stone: they’re the hollows the bodies left in the ash, filled with plaster.",
+  "summary": "In the 1860s Giuseppe Fiorelli poured plaster into the hollows left in the ash by decayed bodies; in 2024, DNA showed that several stories told about them were assumptions.",
+  "cardText": "The bodies decayed inside the hardened ash and left hollows in their shape. In the 1860s, the archaeologist Giuseppe Fiorelli filled those hollows with liquid plaster.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture an empty cake mould. At Pompeii, a thick layer of ash covered the victims and hardened around them. Over time the bodies decayed, leaving hollows in their exact shape. In the 1860s, the archaeologist Giuseppe Fiorelli poured liquid plaster into those spaces. The casts show even the folds of clothing and the straps of sandals."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fragments of bone stayed inside the plaster. In 2024, a team extracted DNA from 14 casts and found that some stories repeated for generations don’t hold up. The adult with a gold bracelet holding a child, always described as a mother and her child, was a man unrelated to the child."
+    },
+    {
+      "type": "takeaway",
+      "text": "The casts are plaster filling the space the bodies left; DNA showed that some of their stories were modern assumptions."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A new way to dig"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fiorelli directed the Pompeii excavations from 1863 to 1875. Instead of clearing the streets first and digging houses up from the ground floor, he had houses uncovered from the top down, which preserved finds better. The plaster technique also recreated plants, which left hollows in the ash just as people did."
+    },
+    {
+      "type": "heading",
+      "text": "What the DNA showed"
+    },
+    {
+      "type": "paragraph",
+      "text": "The study, published in November 2024 in the journal Current Biology, brought together archaeologists and geneticists from the University of Florence, Harvard and the Max Planck Institute for Evolutionary Anthropology. They looked at 14 of the 86 casts being restored. Besides the bracelet case, a pair seen as two sisters, or mother and daughter, included at least one male. A group of four taken for parents and children turned out to be unrelated. The DNA also showed that many of the people descended mainly from recent immigrants from the eastern Mediterranean."
+    },
+    {
+      "type": "heading",
+      "text": "Beware of new stories"
+    },
+    {
+      "type": "paragraph",
+      "text": "The researchers add a warning of their own. Harvard geneticist David Reich says the results shouldn’t become the seed of new invented narratives, but a reminder of the risk of projecting today’s ideas about gender and family onto past societies. Anthropologist David Caramelli, of Florence, puts it simply: stories built on thin evidence tend to mirror the worldview of the people telling them."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "A thick layer of volcanic ash covered Pompeii’s victims and preserved their forms.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michiganpublic_org_2024_11_09_new_3570a9",
+          "excerpt": "When a volcanic eruption buried the Roman city of Pompeii nearly 2,000 years ago, a thick layer of volcanic ash encased the bodies, preserving their forms."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "The bodies decayed inside the ash and left hollows in their shape; in the 1860s Giuseppe Fiorelli poured liquid plaster into them.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_fall_rise_fall_179399",
+          "excerpt": "In the 1860s a pioneering Italian archaeologist at Pompeii, Giuseppe Fiorelli, poured liquid plaster into the cavities in the solidified ash created by the decomposing flesh, creating perfect casts of Pompeii’s victims at the moment of their deaths—down to the folds in their togas, the straps of their sandals, their agonized facial expressions."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_c9b7cf",
+          "excerpt": "he developed the use of plaster casts to recreate the forms of plants and human bodies that had been covered by the volcanic ash, and had then left a hole - shaped in the form of the plant or person - in that ash after putrefaction."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The casts reproduce details such as the folds of clothing and the straps of sandals.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_fall_rise_fall_179399",
+          "excerpt": "In the 1860s a pioneering Italian archaeologist at Pompeii, Giuseppe Fiorelli, poured liquid plaster into the cavities in the solidified ash created by the decomposing flesh, creating perfect casts of Pompeii’s victims at the moment of their deaths—down to the folds in their togas, the straps of their sandals, their agonized facial expressions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "In 2024, researchers extracted DNA from bone remains mixed with the plaster of 14 casts.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "They extracted DNA from highly fragmented skeletal remains mixed with the plaster casts, focusing on 14 of 86 casts that are undergoing restoration."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The adult with a gold bracelet holding a child, thought to be a mother and child, was a man unrelated to the child.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "For instance, one notable example is the discovery that an adult wearing a golden bracelet and holding a child, traditionally interpreted as a mother and child, were an unrelated adult male and child."
+        },
+        {
+          "sourceId": "src_michiganpublic_org_2024_11_09_new_3570a9",
+          "excerpt": "Another discovery revealed that an adult wearing a golden bracelet and holding a child, long believed to be a mother and child, were actually an adult man and a biologically unrelated child."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Fiorelli directed the Pompeii excavations from 1863 to 1875.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_c9b7cf",
+          "excerpt": "Giuseppe Fiorelli directed the Pompeii excavation from 1863 to 1875 - introducing an entirely new system for the project."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Fiorelli had houses uncovered from the top down instead of clearing the streets first, which preserved finds better.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_c9b7cf",
+          "excerpt": "Instead of uncovering the streets first, in order to excavate the houses from the ground floor up, he imposed a system of uncovering the houses from the top down - a better way of preserving everything that was discovered."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The plaster technique was also used to recreate plants that had left hollows in the ash.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_c9b7cf",
+          "excerpt": "he developed the use of plaster casts to recreate the forms of plants and human bodies that had been covered by the volcanic ash, and had then left a hole - shaped in the form of the plant or person - in that ash after putrefaction."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "The study was published in November 2024 in the journal Current Biology.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "As reported on November 7, 2024, in Current Biology, the DNA evidence shows that individuals’ sexes and family relationships don’t match traditional interpretations that had been formulated largely from modern-day assumptions."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "The team included archaeologists and geneticists from the University of Florence, Harvard and the Max Planck Institute for Evolutionary Anthropology.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michiganpublic_org_2024_11_09_new_3570a9",
+          "excerpt": "A team of archaeologists and geneticists from the University of Florence in Italy, Harvard University and the Max Planck Institute for Evolutionary Anthropology in Germany"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The 14 casts studied are among 86 undergoing restoration.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "They extracted DNA from highly fragmented skeletal remains mixed with the plaster casts, focusing on 14 of 86 casts that are undergoing restoration."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A pair seen as two sisters, or mother and daughter, included at least one male.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "Similarly, a pair of individuals thought to be sisters, or mother and daughter, were found to include at least one genetic male."
+        },
+        {
+          "sourceId": "src_michiganpublic_org_2024_11_09_new_3570a9",
+          "excerpt": "The pair of individuals thought to be sisters, meanwhile, in fact include at least one genetic male."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "A group of four thought to be parents and children had no biological relation to one another.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michiganpublic_org_2024_11_09_new_3570a9",
+          "excerpt": "A group of four long-dead Pompeiians, for instance — once thought to be parents and their children — turned out to have no biological relation to one another."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "The people studied descended mainly from recent immigrants from the eastern Mediterranean.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "They primarily descended from recent immigrants from the eastern Mediterranean."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "David Reich warned against building new narratives and against projecting present-day expectations about gender and family onto the past.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_michiganpublic_org_2024_11_09_new_3570a9",
+          "excerpt": "\"Instead of establishing new narratives that might also misrepresent these people’s experiences, the genetic results encourage reflection on the dangers of making up stories about gender and family relationships in past societies based on present-day expectations,\""
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "David Caramelli said narratives based on limited evidence often reflect the worldview of the researchers of the time.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_eurekalert_org_news_releases_1063333_03cb98",
+          "excerpt": "“This study illustrates how unreliable narratives based on limited evidence can be, often reflecting the worldview of the researchers at the time,” Caramelli says."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_michiganpublic_org_2024_11_09_new_3570a9",
+    "src_smithsonianmag_com_history_fall_rise_fall_179399",
+    "src_bbc_co_uk_history_ancient_romans_c9b7cf",
+    "src_eurekalert_org_news_releases_1063333_03cb98"
+  ],
+  "quizIds": [
+    "q_pompeii_body_casts_1__en",
+    "q_pompeii_body_casts_2__en",
+    "q_pompeii_body_casts_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "concept_vesuvius_eruption_79",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 1,
+  "tags": ["pompeii", "vesuvius", "ancient-rome", "volcanoes", "pliny"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_pompeii_body_casts",
+      "type": "next",
+      "reason": {
+        "pt-BR": "As cinzas que soterraram Pompeia guardaram a forma das vítimas.",
+        "en": "The ash that buried Pompeii kept the shape of its victims."
+      }
+    },
+    {
+      "conceptId": "concept_herculaneum_fate",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A mesma erupção atingiu Herculano de um jeito bem diferente.",
+        "en": "The same eruption struck Herculaneum in a very different way."
+      }
+    },
+    {
+      "conceptId": "concept_flat_earth_myth",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra história do passado que mudou quando se voltou às fontes.",
+        "en": "Another story about the past that changed once people went back to the sources."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

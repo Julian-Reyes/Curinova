@@ -1,0 +1,409 @@
+{
+  "id": "lesson_herculaneum_scrolls_ai__en",
+  "conceptId": "concept_herculaneum_scrolls_ai",
+  "locale": "en",
+  "slug": "how-is-ai-reading-the-burned-scrolls",
+  "title": "How is AI reading the burned scrolls?",
+  "hook": "Nobody can open these scrolls without destroying them, so scientists read them from the inside.",
+  "summary": "Herculaneum’s carbonised scrolls are scanned in 3D and machine-learning programs find the ink on the inner layers; in 2023 the first word came out: “purple”.",
+  "cardText": "Herculaneum’s carbonised scrolls are turned into 3D images by CT scans, and machine-learning programs find the hidden ink. That’s how, in 2023, the first word emerged: “purple”.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Picture a burnt newspaper, rolled up and hard as charcoal: try to open it and it turns to dust. That’s the state of the papyrus scrolls from a villa at Herculaneum, the only library from antiquity to reach us intact. When 18th-century scholars tried to unroll them, many crumbled to pieces."
+    },
+    {
+      "type": "paragraph",
+      "text": "The answer was to read them without opening them. The scrolls were scanned in a particle accelerator, which produces 3D images of their insides. In 2023, a contest called the Vesuvius Challenge offered prizes to anyone who could find the ink in those images. A 21-year-old student trained a machine-learning program, which learns from examples, and read the first whole word: porphyras, Greek for “purple”."
+    },
+    {
+      "type": "takeaway",
+      "text": "CT scans and machine learning have begun to read, unopened, scrolls burned almost 2,000 years ago; most are still waiting."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "From charcoal to text"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the 18th century, the first excavators took the scrolls for lumps of charcoal, and some were even used as torches. Later, Father Antonio Piaggio built a machine to open them slowly, but the first one took about four years to unroll. CT scans solved part of the problem, but there was another: ancient ink has no metal and barely shows up in the images."
+    },
+    {
+      "type": "heading",
+      "text": "How the reading works"
+    },
+    {
+      "type": "paragraph",
+      "text": "After scanning, each scroll’s layers are separated and flattened virtually, like sheets. Machine-learning programs then look for signs of ink. In 2023, contestant Casey Handmer spotted a crackle pattern that marked ink. The student Luke Farritor used that pattern to train his program, which improved with every new patch of crackle it found."
+    },
+    {
+      "type": "heading",
+      "text": "The first text"
+    },
+    {
+      "type": "paragraph",
+      "text": "The contest launched in March 2023 with more than 1 million dollars in prizes. In February 2024, Youssef Nader, Luke Farritor and Julian Schilliger won the grand prize by revealing more than 2,000 characters of a previously unknown philosophical text about music, food and pleasure. About 95% of that scroll was still unread."
+    },
+    {
+      "type": "heading",
+      "text": "A title in 2025"
+    },
+    {
+      "type": "paragraph",
+      "text": "In 2025, for the first time, the title of a still-rolled scroll was recovered: PHerc. 172, kept in Oxford, is On Vices by the philosopher Philodemus, the author of most of the library. It may be Book 1 of the work, but that reading is still uncertain. Researchers suspect the scroll is more legible because its ink contains something denser, such as lead. This story is moving fast and will change soon."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Herculaneum’s scrolls are so fragile they turn to dust if mishandled; 18th-century attempts to unroll them made them crumble.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "In the 1700s, they were excavated, and while they were in some ways preserved by the eruption, they were so fragile that they would turn to dust if mishandled."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "But when 18th-century scholars tried to unroll the charred papyrus, the scrolls crumbled to pieces."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "A papyrologist compares the fragments to burnt newspaper.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "\"They are as black as burnt newspaper,\" says Dirk Obbink"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The scrolls come from the only library of Greco-Roman antiquity to survive intact.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_d41586_023_03212_15cf21",
+          "excerpt": "The breakthrough could open up hundreds of texts from the only intact library to survive from Greco-Roman antiquity."
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "For almost 2,000 years, this lone surviving library from antiquity was buried underground under 20 meters of volcanic mud."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "The scrolls were scanned in a particle accelerator, producing 3D CT scans.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "Our story starts in 2019, when professor Brent Seales at the University of Kentucky’s EduceLab imaged Herculaneum scrolls in a particle accelerator, generating 3D CT-scans at resolutions as high as 4 μm."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The Vesuvius Challenge launched in 2023 and offered prizes for deciphering the scanned scrolls.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "On March 15th, 2023, Nat Friedman, Daniel Gross, and Brent Seales launched the Vesuvius Challenge to answer this question."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "We released these high-resolution CT scans of the scrolls, and we offered more than $1M in prizes, put forward by many generous donors."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A 21-year-old student read the first whole word from inside an unopened scroll: porphyras, meaning “purple”.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_d41586_023_03212_15cf21",
+          "excerpt": "A 21-year-old computer-science student has won a global contest to read the first text inside a carbonized scroll from the ancient Roman city of Herculaneum"
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "That is until Luke Farritor, a contestant of the Vesuvius Challenge, became the first person in two millennia to see an entire word from within an unopened scroll this August."
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "“Porphyras” is an exciting word: it means “purple” and is quite rare in ancient texts."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "In late 2023, a computer science student revealed the first word on an unopened scroll: “porphyras,” an ancient Greek term for “purple.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The carbon-based ink usually isn’t visible in the scans, so machine-learning models are needed.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "At that point, the carbon-based ink usually isn’t visible in the scans, so machine-learning models are necessary to identify the inked sections."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "In the 18th century, excavators mistook the scrolls for charcoal, and some were used as torches.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "When excavators and treasure hunters set about exploring the villa in the 18th Century, they mistook the scrolls for lumps of charcoal and burnt logs. Some were used as torches or thrown on to the fire."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Father Antonio Piaggio’s machine took about four years to unroll the first scroll.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "Later a conservator from the Vatican, Father Antonio Piaggio (1713-1796), devised a machine to delicately open the scrolls. But it was slow work - the first one took around four years to unroll."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Ancient ink contains no metal, which makes it hard to tell from the papyrus in CT scans.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "But the machine could not distinguish \"the chemistry of the ink from the chemistry of the paper,\" he says. It is unfortunate that ancient ink contains no metal."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "After scanning, the scrolls’ layers are separated and flattened into two-dimensional segments.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "After the rolled-up scrolls are scanned, their many layers need to be separated out and flattened into two-dimensional segments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "In 2023, Casey Handmer spotted a crackle pattern that marked ink and was the first to find ink and a letter inside an unopened scroll.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "In early August, contestant Casey Handmer, an ex-JPL startup founder and polymath, wrote a blog post about his discovery of a “crackle pattern” that looks like ink."
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "Casey was the first person in 2,000 years to find ink — and a letter — inside an unopened scroll."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Luke Farritor trained his model on the crackle pattern, and it improved with each new patch of crackle found.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "began spending his evenings and late nights training a machine learning model on the crackle pattern"
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "With each new crackle found, the model improved, revealing more crackle in the scroll — a cycle of discovery and refinement."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "The contest launched in March 2023 with more than 1 million dollars in prizes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "On March 15th, 2023, Nat Friedman, Daniel Gross, and Brent Seales launched the Vesuvius Challenge to answer this question."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "We released these high-resolution CT scans of the scrolls, and we offered more than $1M in prizes, put forward by many generous donors."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Youssef Nader, Luke Farritor and Julian Schilliger won the grand prize with more than 2,000 characters of an unknown philosophical text about music, food and pleasure; the result was announced in February 2024.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "February 5th, 2024 We’re announcing the winners of the Vesuvius Challenge 2023 Grand Prize."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "the Vesuvius Challenge Grand Prize of $700,000 is awarded to a team of three for their excellent submission. Congratulations to Youssef Nader, Luke Farritor, and Julian Schilliger!"
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "And in addition, the submission includes another 11 (!) columns of text — more than 2000 characters total."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "The 2000-year-old scroll discusses music, food, and how to enjoy life’s pleasures."
+        },
+        {
+          "sourceId": "src_nature_com_articles_d41586_024_00346_c71a94",
+          "excerpt": "unveiling a previously unknown philosophical work that discusses the senses and pleasure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "About 95% of that scroll remained unread.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "Roughly 95% of the scroll remains to be read."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "In 2025, scroll PHerc. 172, kept in Oxford, was identified as On Vices by Philodemus; it was the first time the title of a still-rolled scroll was recovered.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_finebooksmagazine_com_fine_books_news_title_dbdedc",
+          "excerpt": "Using ‘virtual unwrapping’, the scroll PHerc. 172 which is housed at the Bodleian Libraries at the University of Oxford has been identified as On Vices by the Greek philosopher Philodemus."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "“This is the first time the title of a still-rolled Herculaneum scroll has ever been recovered noninvasively.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c18",
+      "text": "Philodemus wrote most of the works in the library of the Villa of the Papyri.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_finebooksmagazine_com_fine_books_news_title_dbdedc",
+          "excerpt": "As the author whose works make up the majority of the library in the Villa of Papyri at Herculaneum, it is unsurprising that he was the author of this work too."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c19",
+      "text": "The scroll may be Book 1 of On Vices, but the reading of the number is uncertain.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_finebooksmagazine_com_fine_books_news_title_dbdedc",
+          "excerpt": "The book number in the title image is plausibly read as an alpha, indicating that this scroll is Book 1. However, the reading is still uncertain, and other possibilities (e.g. delta, Book 4), while less likely, cannot be completely ruled out."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c20",
+      "text": "Researchers suspect PHerc. 172 is more legible because its ink contains something denser, such as lead.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "They aren’t sure why this scroll is so much more legible, though they hypothesize it’s because the ink contains a denser contaminant such as lead, according to the University of Oxford’s Bodleian Libraries, which houses the scroll."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_scrollprize_org_firstletters_e74ba6",
+    "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+    "src_bbc_com_news_magazine_25106956_0c39ec",
+    "src_nature_com_articles_d41586_023_03212_15cf21",
+    "src_scrollprize_org_grandprize_b947e3",
+    "src_nature_com_articles_d41586_024_00346_c71a94",
+    "src_finebooksmagazine_com_fine_books_news_title_dbdedc"
+  ],
+  "quizIds": [
+    "q_herculaneum_scrolls_ai_1__en",
+    "q_herculaneum_scrolls_ai_2__en",
+    "q_herculaneum_scrolls_ai_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-05-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

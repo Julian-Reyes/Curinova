@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_pompeii_body_casts_1__pt-BR",
+    "questionGroupId": "qg_pompeii_body_casts_1",
+    "conceptId": "concept_pompeii_body_casts",
+    "locale": "pt-BR",
+    "prompt": "Do que são feitos os famosos moldes das vítimas de Pompeia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gesso despejado nos ocos que os corpos deixaram na cinza"
+      },
+      {
+        "id": "b",
+        "text": "Corpos que viraram pedra com o calor"
+      },
+      {
+        "id": "c",
+        "text": "Esculturas feitas por artistas romanos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os corpos se decompuseram dentro da cinza endurecida; nos anos 1860, Fiorelli encheu os ocos com gesso líquido.",
+    "misconception": "Os moldes não são corpos petrificados: são o formato do vazio que eles deixaram.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_body_casts_2__pt-BR",
+    "questionGroupId": "qg_pompeii_body_casts_2",
+    "conceptId": "concept_pompeii_body_casts",
+    "locale": "pt-BR",
+    "prompt": "O que o estudo de DNA de 2024 mostrou sobre o adulto com pulseira de ouro que segura uma criança?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Era um homem sem parentesco com a criança"
+      },
+      {
+        "id": "b",
+        "text": "Era mesmo a mãe da criança"
+      },
+      {
+        "id": "c",
+        "text": "Era a avó da criança"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A dupla, sempre descrita como mãe e filho, era um homem adulto e uma criança sem parentesco biológico.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_body_casts_3__pt-BR",
+    "questionGroupId": "qg_pompeii_body_casts_3",
+    "conceptId": "concept_pompeii_body_casts",
+    "locale": "pt-BR",
+    "prompt": "Que alerta os próprios pesquisadores fizeram sobre os resultados?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Não projetar ideias atuais sobre gênero e família no passado"
+      },
+      {
+        "id": "b",
+        "text": "O DNA dos moldes não é confiável"
+      },
+      {
+        "id": "c",
+        "text": "Os moldes devem deixar de ser expostos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Reich e Caramelli lembram que histórias baseadas em poucas provas tendem a refletir a visão de quem as conta.",
+    "claimIds": ["c15", "c16"],
+    "status": "draft"
+  }
+]

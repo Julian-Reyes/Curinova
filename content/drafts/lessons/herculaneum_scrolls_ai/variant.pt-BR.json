@@ -1,0 +1,409 @@
+{
+  "id": "lesson_herculaneum_scrolls_ai__pt-BR",
+  "conceptId": "concept_herculaneum_scrolls_ai",
+  "locale": "pt-BR",
+  "slug": "como-a-inteligencia-artificial-esta-lendo-os-papiros-queimados",
+  "title": "Como a inteligência artificial está lendo os papiros queimados?",
+  "hook": "Ninguém consegue abrir esses rolos sem destruí-los. Então os cientistas os leem por dentro.",
+  "summary": "Os rolos carbonizados de Herculano são escaneados em 3D, e programas de aprendizado de máquina acham a tinta nas camadas internas; em 2023 saiu a primeira palavra, “púrpura”.",
+  "cardText": "Os rolos carbonizados de Herculano viram imagens 3D em tomografias, e programas de aprendizado de máquina encontram a tinta escondida. Foi assim que, em 2023, surgiu a primeira palavra: “púrpura”.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine um jornal queimado, enrolado e duro como carvão: se você tentar abrir, ele vira pó. É assim que estão os rolos de papiro de uma vila de Herculano, a única biblioteca da Antiguidade que chegou inteira até nós. Quando estudiosos do século XVIII tentaram desenrolá-los, muitos se desfizeram."
+    },
+    {
+      "type": "paragraph",
+      "text": "A saída foi ler sem abrir. Os rolos foram escaneados num acelerador de partículas, que gera imagens 3D do interior. Em 2023, um concurso chamado Vesuvius Challenge ofereceu prêmios a quem encontrasse a tinta nessas imagens. Um estudante de 21 anos treinou um programa de aprendizado de máquina, que aprende com exemplos, e leu a primeira palavra inteira: porphyras, “púrpura” em grego."
+    },
+    {
+      "type": "takeaway",
+      "text": "Tomografias e aprendizado de máquina começaram a ler, sem abrir, rolos queimados há quase 2.000 anos; a maior parte ainda espera."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Do carvão ao texto"
+    },
+    {
+      "type": "paragraph",
+      "text": "No século XVIII, os primeiros escavadores acharam que os rolos eram pedaços de carvão, e alguns chegaram a ser usados como tochas. Depois, o padre Antonio Piaggio criou uma máquina para abri-los devagar, mas o primeiro levou cerca de quatro anos para ser desenrolado. As tomografias resolveram parte do problema, mas havia outro: a tinta antiga não tem metal e quase não aparece nas imagens."
+    },
+    {
+      "type": "heading",
+      "text": "Como funciona a leitura"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depois do escaneamento, as camadas de cada rolo são separadas e achatadas virtualmente, como se fossem folhas. Programas de aprendizado de máquina procuram então os sinais da tinta. Em 2023, o participante Casey Handmer notou um padrão de rachaduras que indicava tinta. O estudante Luke Farritor usou esse padrão para treinar seu programa, que melhorava a cada nova rachadura encontrada."
+    },
+    {
+      "type": "heading",
+      "text": "O primeiro texto"
+    },
+    {
+      "type": "paragraph",
+      "text": "O concurso foi lançado em março de 2023, com mais de 1 milhão de dólares em prêmios. Em fevereiro de 2024, Youssef Nader, Luke Farritor e Julian Schilliger ganharam o prêmio principal ao revelar mais de 2.000 caracteres de um texto filosófico até então desconhecido, sobre música, comida e prazeres. Cerca de 95% daquele rolo ainda estava por ler."
+    },
+    {
+      "type": "heading",
+      "text": "Um título em 2025"
+    },
+    {
+      "type": "paragraph",
+      "text": "Em 2025, pela primeira vez, o título de um rolo ainda fechado foi recuperado: o PHerc. 172, guardado em Oxford, é Sobre os vícios, do filósofo Filodemo, autor da maior parte da biblioteca. Talvez seja o livro 1 da obra, mas a leitura ainda é incerta. Os pesquisadores suspeitam que esse rolo é mais legível porque a tinta contém algo mais denso, como chumbo. Essa história está em andamento e deve mudar logo."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Os rolos de Herculano são tão frágeis que viram pó se manuseados; tentativas de desenrolá-los no século XVIII os despedaçaram.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "In the 1700s, they were excavated, and while they were in some ways preserved by the eruption, they were so fragile that they would turn to dust if mishandled."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "But when 18th-century scholars tried to unroll the charred papyrus, the scrolls crumbled to pieces."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Um papirólogo compara os fragmentos a jornal queimado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "\"They are as black as burnt newspaper,\" says Dirk Obbink"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Os rolos vêm da única biblioteca da Antiguidade greco-romana que sobreviveu inteira.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_d41586_023_03212_15cf21",
+          "excerpt": "The breakthrough could open up hundreds of texts from the only intact library to survive from Greco-Roman antiquity."
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "For almost 2,000 years, this lone surviving library from antiquity was buried underground under 20 meters of volcanic mud."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Os rolos foram escaneados num acelerador de partículas, gerando tomografias em 3D.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "Our story starts in 2019, when professor Brent Seales at the University of Kentucky’s EduceLab imaged Herculaneum scrolls in a particle accelerator, generating 3D CT-scans at resolutions as high as 4 μm."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O Vesuvius Challenge foi lançado em 2023 e ofereceu prêmios a quem decifrasse os rolos escaneados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "On March 15th, 2023, Nat Friedman, Daniel Gross, and Brent Seales launched the Vesuvius Challenge to answer this question."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "We released these high-resolution CT scans of the scrolls, and we offered more than $1M in prizes, put forward by many generous donors."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Um estudante de 21 anos leu a primeira palavra inteira de dentro de um rolo fechado: porphyras, que quer dizer “púrpura”.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_nature_com_articles_d41586_023_03212_15cf21",
+          "excerpt": "A 21-year-old computer-science student has won a global contest to read the first text inside a carbonized scroll from the ancient Roman city of Herculaneum"
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "That is until Luke Farritor, a contestant of the Vesuvius Challenge, became the first person in two millennia to see an entire word from within an unopened scroll this August."
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "“Porphyras” is an exciting word: it means “purple” and is quite rare in ancient texts."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "In late 2023, a computer science student revealed the first word on an unopened scroll: “porphyras,” an ancient Greek term for “purple.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "A tinta, feita de carbono, geralmente não aparece nas tomografias, e por isso são necessários modelos de aprendizado de máquina.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "At that point, the carbon-based ink usually isn’t visible in the scans, so machine-learning models are necessary to identify the inked sections."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "No século XVIII, escavadores confundiram os rolos com carvão, e alguns foram usados como tochas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "When excavators and treasure hunters set about exploring the villa in the 18th Century, they mistook the scrolls for lumps of charcoal and burnt logs. Some were used as torches or thrown on to the fire."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A máquina do padre Antonio Piaggio levou cerca de quatro anos para desenrolar o primeiro rolo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "Later a conservator from the Vatican, Father Antonio Piaggio (1713-1796), devised a machine to delicately open the scrolls. But it was slow work - the first one took around four years to unroll."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A tinta antiga não contém metal, o que dificulta distingui-la do papiro nas tomografias.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_news_magazine_25106956_0c39ec",
+          "excerpt": "But the machine could not distinguish \"the chemistry of the ink from the chemistry of the paper,\" he says. It is unfortunate that ancient ink contains no metal."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Depois de escaneadas, as camadas dos rolos são separadas e achatadas em segmentos bidimensionais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "After the rolled-up scrolls are scanned, their many layers need to be separated out and flattened into two-dimensional segments."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Em 2023, Casey Handmer notou um padrão de rachaduras que indicava tinta e foi o primeiro a encontrar tinta e uma letra dentro de um rolo fechado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "In early August, contestant Casey Handmer, an ex-JPL startup founder and polymath, wrote a blog post about his discovery of a “crackle pattern” that looks like ink."
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "Casey was the first person in 2,000 years to find ink — and a letter — inside an unopened scroll."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Luke Farritor treinou seu modelo com o padrão de rachaduras, e ele melhorava a cada nova rachadura encontrada.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "began spending his evenings and late nights training a machine learning model on the crackle pattern"
+        },
+        {
+          "sourceId": "src_scrollprize_org_firstletters_e74ba6",
+          "excerpt": "With each new crackle found, the model improved, revealing more crackle in the scroll — a cycle of discovery and refinement."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O concurso foi lançado em março de 2023, com mais de 1 milhão de dólares em prêmios.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "On March 15th, 2023, Nat Friedman, Daniel Gross, and Brent Seales launched the Vesuvius Challenge to answer this question."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "We released these high-resolution CT scans of the scrolls, and we offered more than $1M in prizes, put forward by many generous donors."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Youssef Nader, Luke Farritor e Julian Schilliger ganharam o prêmio principal com mais de 2.000 caracteres de um texto filosófico desconhecido sobre música, comida e prazeres; o resultado foi anunciado em fevereiro de 2024.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "February 5th, 2024 We’re announcing the winners of the Vesuvius Challenge 2023 Grand Prize."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "the Vesuvius Challenge Grand Prize of $700,000 is awarded to a team of three for their excellent submission. Congratulations to Youssef Nader, Luke Farritor, and Julian Schilliger!"
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "And in addition, the submission includes another 11 (!) columns of text — more than 2000 characters total."
+        },
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "The 2000-year-old scroll discusses music, food, and how to enjoy life’s pleasures."
+        },
+        {
+          "sourceId": "src_nature_com_articles_d41586_024_00346_c71a94",
+          "excerpt": "unveiling a previously unknown philosophical work that discusses the senses and pleasure."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Cerca de 95% daquele rolo ainda estava por ler.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_scrollprize_org_grandprize_b947e3",
+          "excerpt": "Roughly 95% of the scroll remains to be read."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "Em 2025, o rolo PHerc. 172, guardado em Oxford, foi identificado como Sobre os vícios, de Filodemo; foi a primeira vez que se recuperou o título de um rolo ainda fechado.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_finebooksmagazine_com_fine_books_news_title_dbdedc",
+          "excerpt": "Using ‘virtual unwrapping’, the scroll PHerc. 172 which is housed at the Bodleian Libraries at the University of Oxford has been identified as On Vices by the Greek philosopher Philodemus."
+        },
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "“This is the first time the title of a still-rolled Herculaneum scroll has ever been recovered noninvasively.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c18",
+      "text": "Filodemo é o autor da maior parte das obras da biblioteca da Vila dos Papiros.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_finebooksmagazine_com_fine_books_news_title_dbdedc",
+          "excerpt": "As the author whose works make up the majority of the library in the Villa of Papyri at Herculaneum, it is unsurprising that he was the author of this work too."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c19",
+      "text": "O rolo talvez seja o livro 1 de Sobre os vícios, mas a leitura do número é incerta.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_finebooksmagazine_com_fine_books_news_title_dbdedc",
+          "excerpt": "The book number in the title image is plausibly read as an alpha, indicating that this scroll is Book 1. However, the reading is still uncertain, and other possibilities (e.g. delta, Book 4), while less likely, cannot be completely ruled out."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c20",
+      "text": "Os pesquisadores supõem que o PHerc. 172 é mais legível porque a tinta contém algo mais denso, como chumbo.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+          "excerpt": "They aren’t sure why this scroll is so much more legible, though they hypothesize it’s because the ink contains a denser contaminant such as lead, according to the University of Oxford’s Bodleian Libraries, which houses the scroll."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_scrollprize_org_firstletters_e74ba6",
+    "src_smithsonianmag_com_smart_news_these_ancient_9a7afe",
+    "src_bbc_com_news_magazine_25106956_0c39ec",
+    "src_nature_com_articles_d41586_023_03212_15cf21",
+    "src_scrollprize_org_grandprize_b947e3",
+    "src_nature_com_articles_d41586_024_00346_c71a94",
+    "src_finebooksmagazine_com_fine_books_news_title_dbdedc"
+  ],
+  "quizIds": [
+    "q_herculaneum_scrolls_ai_1__pt-BR",
+    "q_herculaneum_scrolls_ai_2__pt-BR",
+    "q_herculaneum_scrolls_ai_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-05-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

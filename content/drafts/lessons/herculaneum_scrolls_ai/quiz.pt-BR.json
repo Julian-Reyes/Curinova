@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_herculaneum_scrolls_ai_1__pt-BR",
+    "questionGroupId": "qg_herculaneum_scrolls_ai_1",
+    "conceptId": "concept_herculaneum_scrolls_ai",
+    "locale": "pt-BR",
+    "prompt": "Por que os rolos de Herculano não são simplesmente desenrolados?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Estão carbonizados e se desfazem quando manuseados"
+      },
+      {
+        "id": "b",
+        "text": "São protegidos por lei e não podem ser tocados"
+      },
+      {
+        "id": "c",
+        "text": "Estão colados com resina romana"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os rolos viraram carvão na erupção; as tentativas do século XVIII de abri-los os despedaçaram.",
+    "claimIds": ["c1", "c8", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_scrolls_ai_2__pt-BR",
+    "questionGroupId": "qg_herculaneum_scrolls_ai_2",
+    "conceptId": "concept_herculaneum_scrolls_ai",
+    "locale": "pt-BR",
+    "prompt": "Qual foi a primeira palavra lida dentro de um rolo fechado, em 2023?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Porphyras, “púrpura”"
+      },
+      {
+        "id": "b",
+        "text": "Vesuvius, o nome do vulcão"
+      },
+      {
+        "id": "c",
+        "text": "Roma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Um estudante de 21 anos encontrou porphyras, palavra grega rara que quer dizer “púrpura”.",
+    "claimIds": ["c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_scrolls_ai_3__pt-BR",
+    "questionGroupId": "qg_herculaneum_scrolls_ai_3",
+    "conceptId": "concept_herculaneum_scrolls_ai",
+    "locale": "pt-BR",
+    "prompt": "Para que serve o aprendizado de máquina nessa leitura?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Para achar a tinta, que quase não aparece nas tomografias"
+      },
+      {
+        "id": "b",
+        "text": "Para traduzir o grego para o português"
+      },
+      {
+        "id": "c",
+        "text": "Para colar de volta os pedaços dos rolos"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A tinta de carbono quase não aparece nas imagens; os modelos aprendem a reconhecer os sinais dela.",
+    "misconception": "A IA não “adivinha” o texto: ela localiza a tinta, e papirólogos leem e conferem as letras.",
+    "claimIds": ["c7", "c10", "c13"],
+    "status": "draft"
+  }
+]

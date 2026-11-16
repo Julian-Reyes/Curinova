@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_vesuvius_eruption_79_1__pt-BR",
+    "questionGroupId": "qg_vesuvius_eruption_79_1",
+    "conceptId": "concept_vesuvius_eruption_79",
+    "locale": "pt-BR",
+    "prompt": "De quem é o relato de testemunha da erupção do Vesúvio em 79?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plínio, o Jovem"
+      },
+      {
+        "id": "b",
+        "text": "Plínio, o Velho"
+      },
+      {
+        "id": "c",
+        "text": "Tácito"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Plínio, o Jovem, viu a erupção de Miseno e a descreveu em cartas a Tácito; o tio, Plínio, o Velho, morreu tentando socorrer pessoas.",
+    "claimIds": ["c3", "c5", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_vesuvius_eruption_79_2__pt-BR",
+    "questionGroupId": "qg_vesuvius_eruption_79_2",
+    "conceptId": "concept_vesuvius_eruption_79",
+    "locale": "pt-BR",
+    "prompt": "O que matou quem ficou na região durante a noite?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Avalanches de gás e cinza quentes, as nuvens ardentes"
+      },
+      {
+        "id": "b",
+        "text": "Rios de lava que cobriram as ruas"
+      },
+      {
+        "id": "c",
+        "text": "Um tsunami que veio do mar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A chuva de cinzas e pedra-pomes nem sempre era mortal; as nuvens ardentes, que chegaram por volta da meia-noite, foram fatais.",
+    "misconception": "É comum imaginar Pompeia destruída por lava, mas o que matou foram as nuvens ardentes.",
+    "claimIds": ["c6", "c7", "c8"],
+    "status": "draft"
+  },
+  {
+    "id": "q_vesuvius_eruption_79_3__pt-BR",
+    "questionGroupId": "qg_vesuvius_eruption_79_3",
+    "conceptId": "concept_vesuvius_eruption_79",
+    "locale": "pt-BR",
+    "prompt": "Por que a data de 24 de agosto de 79 é contestada?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Uma inscrição achada em 2018 traz uma data de outubro"
+      },
+      {
+        "id": "b",
+        "text": "As cartas de Plínio não citam nenhuma data"
+      },
+      {
+        "id": "c",
+        "text": "Os romanos usavam outro calendário e erraram o ano"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A inscrição, numa casa de Pompeia, equivale a 17 de outubro; frutas de outono nas ruínas já sugeriam uma data posterior.",
+    "claimIds": ["c9", "c18", "c19"],
+    "status": "draft"
+  }
+]

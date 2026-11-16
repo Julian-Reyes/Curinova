@@ -1,0 +1,77 @@
+[
+  {
+    "id": "q_pompeii_in_brazil_1__en",
+    "questionGroupId": "qg_pompeii_in_brazil_1",
+    "conceptId": "concept_pompeii_in_brazil",
+    "locale": "en",
+    "prompt": "Who brought pieces from Pompeii and Herculaneum to Brazil?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Empress Teresa Cristina, born in Naples"
+      },
+      {
+        "id": "b",
+        "text": "King João VI, fleeing Napoleon"
+      },
+      {
+        "id": "c",
+        "text": "Brazilian archaeologists in the 20th century"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Teresa Cristina, born in Naples, arrived in 1843 with pieces that became the National Museum’s collection.",
+    "claimIds": ["c1", "c2", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_in_brazil_2__en",
+    "questionGroupId": "qg_pompeii_in_brazil_2",
+    "conceptId": "concept_pompeii_in_brazil",
+    "locale": "en",
+    "prompt": "What happened to the collection in the 2018 National Museum fire?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It was hit, but some pieces were recovered"
+      },
+      {
+        "id": "b",
+        "text": "It survived intact in another building"
+      },
+      {
+        "id": "c",
+        "text": "It had been returned to Italy beforehand"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The pieces were on display when the museum burned; items from the collection turned up in the recovery.",
+    "claimIds": ["c4", "c6"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_in_brazil_3__en",
+    "questionGroupId": "qg_pompeii_in_brazil_3",
+    "conceptId": "concept_pompeii_in_brazil",
+    "locale": "en",
+    "prompt": "What happened to the fresco “Dragon and Two Dolphins”?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It was found in fragments and restored in Italy"
+      },
+      {
+        "id": "b",
+        "text": "It was destroyed without a trace"
+      },
+      {
+        "id": "c",
+        "text": "It never left Pompeii"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The fresco, from the Temple of Isis, was found in pieces and restored with a foundation in Turin.",
+    "claimIds": ["c7", "c15"],
+    "status": "draft"
+  }
+]

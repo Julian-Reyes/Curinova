@@ -1,0 +1,48 @@
+{
+  "id": "cluster_pompeii",
+  "topicId": "history",
+  "slug": {
+    "pt-BR": "pompeia-uma-cidade-congelada-no-tempo",
+    "en": "pompeii-a-city-frozen-in-time"
+  },
+  "title": {
+    "pt-BR": "Pompeia: uma cidade congelada no tempo",
+    "en": "Pompeii: a city frozen in time"
+  },
+  "hook": {
+    "pt-BR": "Uma erupção em 79 d.C. guardou uma cidade romana inteira, do pão no forno aos recados nas paredes.",
+    "en": "An eruption in AD 79 preserved a whole Roman town, down to the bread and the graffiti."
+  },
+  "conceptIds": [
+    "concept_vesuvius_eruption_79",
+    "concept_pompeii_body_casts",
+    "concept_pompeii_graffiti",
+    "concept_pompeii_street_food",
+    "concept_herculaneum_fate",
+    "concept_herculaneum_scrolls_ai",
+    "concept_pompeii_in_brazil"
+  ],
+  "links": [
+    {
+      "clusterId": "cluster_middle_ages_myths",
+      "reason": {
+        "pt-BR": "Mais histórias sobre o passado que mudaram quando se olhou para as provas.",
+        "en": "More stories about the past that changed once people looked at the evidence."
+      }
+    },
+    {
+      "clusterId": "cluster_brazil_capitals",
+      "reason": {
+        "pt-BR": "O Rio imperial que recebeu as peças de Pompeia trazidas por Teresa Cristina.",
+        "en": "The imperial Rio that received the Pompeii pieces Teresa Cristina brought."
+      }
+    },
+    {
+      "clusterId": "cluster_rome_what_lasted",
+      "reason": {
+        "pt-BR": "O que mais ficou de Roma, do concreto à língua que falamos.",
+        "en": "What else Rome left behind, from concrete to the language Brazil speaks."
+      }
+    }
+  ]
+}

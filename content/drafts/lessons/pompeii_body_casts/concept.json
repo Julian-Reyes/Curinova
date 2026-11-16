@@ -1,0 +1,35 @@
+{
+  "id": "concept_pompeii_body_casts",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 2,
+  "tags": ["pompeii", "archaeology", "ancient-dna", "ancient-rome"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_vesuvius_eruption_79",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O que aconteceu no dia da erupção que formou esses moldes.",
+        "en": "What happened on the day of the eruption that created these casts."
+      }
+    },
+    {
+      "conceptId": "concept_pompeii_graffiti",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Além das vítimas, Pompeia guardou a voz dos moradores nas paredes.",
+        "en": "Besides its victims, Pompeii kept its people’s voices on the walls."
+      }
+    },
+    {
+      "conceptId": "concept_horned_helmets",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Outra imagem do passado que veio mais das suposições modernas do que das provas.",
+        "en": "Another picture of the past that owed more to modern assumptions than to evidence."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_herculaneum_fate_1__en",
+    "questionGroupId": "qg_herculaneum_fate_1",
+    "conceptId": "concept_herculaneum_fate",
+    "locale": "en",
+    "prompt": "Why didn’t Herculaneum’s wood burn?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The volcanic mud cut off oxygen, so the wood carbonised without catching fire"
+      },
+      {
+        "id": "b",
+        "text": "The town was too far from the volcano to get hot"
+      },
+      {
+        "id": "c",
+        "text": "People soaked their houses before fleeing"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Without oxygen there is no combustion: the wood carbonised and kept its shape.",
+    "claimIds": ["c3", "c8"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_fate_2__en",
+    "questionGroupId": "qg_herculaneum_fate_2",
+    "conceptId": "concept_herculaneum_fate",
+    "locale": "en",
+    "prompt": "What did archaeologists find in 1980 in the vaults by the ancient beach?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 300 skeletons of people waiting for rescue"
+      },
+      {
+        "id": "b",
+        "text": "Intact boats used to escape"
+      },
+      {
+        "id": "c",
+        "text": "Plaster casts like Pompeii’s"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "There were some 300 skeletons, with jewellery, coins and keys, of people hoping for rescue.",
+    "misconception": "For a long time, people thought Herculaneum’s residents had escaped by sea.",
+    "claimIds": ["c5", "c6", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_fate_3__en",
+    "questionGroupId": "qg_herculaneum_fate_3",
+    "conceptId": "concept_herculaneum_fate",
+    "locale": "en",
+    "prompt": "What is the main difference between the victims’ remains at Pompeii and Herculaneum?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pompeii has hollows in the ash; Herculaneum has skeletons"
+      },
+      {
+        "id": "b",
+        "text": "Pompeii has skeletons; Herculaneum has hollows in the ash"
+      },
+      {
+        "id": "c",
+        "text": "There is no difference"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "At Pompeii the bodies decayed inside the ash; at Herculaneum, the bones remained.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

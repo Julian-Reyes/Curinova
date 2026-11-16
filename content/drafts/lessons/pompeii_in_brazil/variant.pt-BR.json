@@ -1,0 +1,354 @@
+{
+  "id": "lesson_pompeii_in_brazil__pt-BR",
+  "conceptId": "concept_pompeii_in_brazil",
+  "locale": "pt-BR",
+  "slug": "existe-um-pedaco-de-pompeia-no-brasil",
+  "title": "Existe um pedaço de Pompeia no Brasil?",
+  "hook": "Uma imperatriz nascida em Nápoles trouxe para o Rio peças das cidades soterradas pelo Vesúvio.",
+  "summary": "Sim: a imperatriz Teresa Cristina, nascida em Nápoles, trouxe peças de Pompeia e Herculano, que ficaram no Museu Nacional; o incêndio de 2018 atingiu a coleção, mas parte foi resgatada.",
+  "cardText": "Sim. A imperatriz Teresa Cristina, nascida em Nápoles, trouxe ao Brasil peças de Pompeia e Herculano. Elas estavam no Museu Nacional, no Rio, e parte foi resgatada depois do incêndio de 2018.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Em 1843, uma princesa nascida em Nápoles chegou ao Rio de Janeiro já casada, por procuração, com dom Pedro II. Na bagagem de Teresa Cristina vinha um afresco, uma pintura de parede, do Templo de Ísis de Pompeia. Peças das cidades soterradas pelo Vesúvio passaram a fazer parte da Coleção Teresa Cristina, no Museu Nacional."
+    },
+    {
+      "type": "paragraph",
+      "text": "Afrescos, joias de bronze, amuletos, vidros e lamparinas estavam em exposição quando o museu pegou fogo, em setembro de 2018. Na busca nos escombros, apareceram itens da coleção. Aquele afresco, “Dragão e Dois Golfinhos”, foi achado em mais de 150 fragmentos e restaurado na Itália."
+    },
+    {
+      "type": "takeaway",
+      "text": "Graças a Teresa Cristina, o Museu Nacional tinha peças de Pompeia e Herculano; parte delas resistiu ao incêndio de 2018."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Uma coleção do Mediterrâneo"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Coleção Teresa Cristina, também chamada de Coleção Mediterrânea, reúne objetos etruscos, gregos e das antigas colônias gregas do sul da Itália, além de peças romanas, sobretudo de Pompeia e Herculano. Segundo a agência italiana ANSA, a coleção arqueológica foi trazida como dote do casamento. A historiadora Anita Correia Lima de Almeida, da UNIRIO, lembra que a formação desse acervo está ligada à política do Segundo Reinado."
+    },
+    {
+      "type": "heading",
+      "text": "Das cinzas às cinzas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os objetos passaram quase dois mil anos sob o material da erupção, foram desenterrados em escavações dos séculos XVIII e XIX e acabaram expostos num museu. Em 2018, voltaram às cinzas, agora as de um incêndio. Entre as peças que o museu esperava recuperar estava justamente a coleção de objetos de Pompeia."
+    },
+    {
+      "type": "heading",
+      "text": "Um afresco remontado"
+    },
+    {
+      "type": "paragraph",
+      "text": "O “Dragão e Dois Golfinhos” é um dos quatro afrescos da coleção e foi pintado entre 62 e 79 d.C. O calor, a luz e a água do combate ao fogo deixaram branco o seu fundo preto e deformaram os pedaços. A restauração foi feita em parceria com uma fundação de Turim, e o afresco foi exposto em Nápoles, com volta prevista ao Brasil."
+    },
+    {
+      "type": "heading",
+      "text": "Ajuda italiana"
+    },
+    {
+      "type": "paragraph",
+      "text": "Depois do incêndio, o governo italiano anunciou que enviaria ao Rio, por um longo período, peças de Pompeia e Herculano para expor no consulado da Itália. Também ofereceu ajuda para restaurar uma estatueta grega trazida por Teresa Cristina e destruída no fogo."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Teresa Cristina, nascida em Nápoles, foi imperatriz do Brasil como esposa de dom Pedro II.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "As chamas atingiram inclusive uma coleção arqueológica trazida ao Brasil por Teresa Cristina de Bourbon-Duas Sicílias, nascida em Nápoles, como dote de seu casamento com o imperador Dom Pedro II."
+        },
+        {
+          "sourceId": "src_correiodamanha_com_br_correio_serrano_2024_f308c6",
+          "excerpt": "Teresa Cristina de Bourbon-Due Sicília, nascida em 14 de março de 1822, na cidade de Nápoles, no sul da Itália, foi uma figura marcante na história brasileira como Imperatriz Consorte do Brasil."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Em 1843, Teresa Cristina chegou ao Brasil casada por procuração com dom Pedro II, trazendo na bagagem um afresco de Pompeia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Ele foi encontrado em escavações na região e trazido na bagagem da imperatriz Teresa Cristina, em 1843, quando ela chegou ao Brasil casada por procuração com D. Pedro II."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "O afresco, uma pintura mural, fazia parte do Templo de Ísis, em Pompeia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "O mural afresco “Dragão e Dois Golfinhos” é um bem cultural que fez parte do Templo de Isis, na cidade italiana de Pompéia, sendo datado entre 62 e 79 d. C."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "painel de pintura mural"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Peças de Pompeia e Herculano da Coleção Teresa Cristina estavam em exposição no Museu Nacional quando ele pegou fogo, em setembro de 2018.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Pertencentes à Coleção Teresa Cristina, peças de Pompeia e Herculano faziam parte da exposição permanente do Museu Nacional quando a instituição foi destruída pelo incêndio devastador de setembro de 2018."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_2019_05_12b936",
+          "excerpt": "uma coleção de objetos resgatados de Pompeia, a cidade romana destruída pela erupção do vulcão Vesúvio há quase 2 mil anos."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Entre as peças havia afrescos, joias de bronze, amuletos, vidros e lamparinas.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Aqueles restos materiais das cidades romanas soterradas pelo Vesúvio em 79 EC, afrescos, joias de bronze, amuletos, vidros, lamparinas e outros objetos da vida cotidiana tinham permanecido debaixo de grossas camadas de material eruptivo por quase dois mil anos."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Itens da coleção da imperatriz Teresa Cristina foram achados no resgate após o incêndio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_museu_nacional_resgata_d7637d",
+          "excerpt": "Itens de outras coleções arqueológicas, como a mexicana, a brasileira, a pré-colombiana e a da imperatriz Teresa Cristina (1822-1889), também foram achados."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "O afresco “Dragão e Dois Golfinhos” foi encontrado em fragmentos após o incêndio e restaurado na Itália.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Durante o Resgate do acervo, após o incêndio de 2018, ele foi encontrado em 156 fragmentos, de diferentes tamanhos."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "O afresco pompeiano “Dragão e Dois Golfinhos”, da Coleção Teresa Cristina, acaba de ser restaurado na Itália."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "A coleção, também chamada de Coleção Mediterrânea, reúne objetos etruscos, gregos e de colônias gregas do sul da Itália, além de peças romanas, sobretudo de Pompeia e Herculano.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_revmae_article_view_bda101",
+          "excerpt": "A coleção, também chamada de Coleção Mediterrânea, é composta por objetos etruscos, gregos e das colônias gregas do sul da Itália, além de importantes peças do período romano, especialmente, aquelas provenientes das cidades de Pompeia e Herculano."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "Segundo a ANSA, a coleção arqueológica foi trazida como dote do casamento de Teresa Cristina com dom Pedro II.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "As chamas atingiram inclusive uma coleção arqueológica trazida ao Brasil por Teresa Cristina de Bourbon-Duas Sicílias, nascida em Nápoles, como dote de seu casamento com o imperador Dom Pedro II."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "A historiadora Anita Correia Lima de Almeida, da UNIRIO, liga a formação da coleção à política do Segundo Reinado.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "A história da formação desse acervo se vincula ao Segundo Reinado por estreitos nexos políticos."
+        },
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "é professora da Universidade Federal do Estado do Rio de Janeiro (UNIRIO)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Os objetos ficaram quase dois mil anos sob material da erupção e foram desenterrados em escavações dos séculos XVIII e XIX.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Aqueles restos materiais das cidades romanas soterradas pelo Vesúvio em 79 EC, afrescos, joias de bronze, amuletos, vidros, lamparinas e outros objetos da vida cotidiana tinham permanecido debaixo de grossas camadas de material eruptivo por quase dois mil anos."
+        },
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Resgatados em sucessivas escavações arqueológicas ao longo dos séculos XVIII e XIX e, afinal, musealizados, eles retornavam às cinzas, agora do incêndio."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Uma coleção de objetos de Pompeia estava entre as peças que o museu esperava recuperar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_2019_05_12b936",
+          "excerpt": "uma coleção de objetos resgatados de Pompeia, a cidade romana destruída pela erupção do vulcão Vesúvio há quase 2 mil anos."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "O “Dragão e Dois Golfinhos” é um dos quatro afrescos da coleção e data de entre 62 e 79 d.C.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "sendo um dos quatro afrescos da Coleção da Imperatriz Teresa Cristina do Museu Nacional/UFRJ"
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "O mural afresco “Dragão e Dois Golfinhos” é um bem cultural que fez parte do Templo de Isis, na cidade italiana de Pompéia, sendo datado entre 62 e 79 d. C."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Calor, luz e contato com a água deixaram branco o fundo preto do afresco e deformaram os pedaços.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Devido às altas temperaturas, luminosidade e contato com a água, a coloração negra desse afresco ficou branca e seus pedaços sofreram mudanças físicas, ficando abauladas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "A restauração foi feita em cooperação com uma fundação de Turim, e o afresco foi exposto em Nápoles, com volta prevista ao Brasil.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "A restauração do painel de pintura mural “Dragão e Dois Golfinhos” foi realizada por meio de uma cooperação técnico-científica entre a Fundação Centro de Conservação e Restauro “La Venaria Reale”, sediada em Turim, e a equipe do Laboratório Central de Conservação e Restauração (LCCR) do Museu Nacional/UFRJ."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Os resultados da mais recente temporada de restaurações estarão dia 23 de junho, na exposição “Fragilidade e Força”, na Gallerie d’Italia, em Nápoles."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Em seguida voltará ao Brasil"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "O governo italiano anunciou o envio, por um longo período, de peças de Pompeia e Herculano para expor no consulado da Itália no Rio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "enviará para exposição no Brasil uma série de itens arqueológicos dos parques de Pompeia e Ercolano"
+        },
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "enviará, por um período prolongado, uma seleção de achados prestigiosos que serão expostos no Consulado-Geral Italiano no Rio"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "A Itália ofereceu ajuda para restaurar uma estatueta grega trazida por Teresa Cristina e destruída no incêndio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "Além disso, Bonisoli ofereceu uma colaboração para restaurar uma estatueta koré (estátua feminina grega em pé e com postura rígida) trazida por Teresa Cristina e destruída no incêndio."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_istoe_com_br_italia_enviara_itens_649d53",
+    "src_correiodamanha_com_br_correio_serrano_2024_f308c6",
+    "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+    "src_revistas_usp_br_cpc_article_view_674a08",
+    "src_revistapesquisa_fapesp_br_en_2019_05_12b936",
+    "src_revistapesquisa_fapesp_br_museu_nacional_resgata_d7637d",
+    "src_revistas_usp_br_revmae_article_view_bda101"
+  ],
+  "quizIds": [
+    "q_pompeii_in_brazil_1__pt-BR",
+    "q_pompeii_in_brazil_2__pt-BR",
+    "q_pompeii_in_brazil_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

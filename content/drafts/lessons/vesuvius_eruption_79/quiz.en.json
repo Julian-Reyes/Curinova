@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_vesuvius_eruption_79_1__en",
+    "questionGroupId": "qg_vesuvius_eruption_79_1",
+    "conceptId": "concept_vesuvius_eruption_79",
+    "locale": "en",
+    "prompt": "Whose eyewitness account of the AD 79 eruption survives?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pliny the Younger’s"
+      },
+      {
+        "id": "b",
+        "text": "Pliny the Elder’s"
+      },
+      {
+        "id": "c",
+        "text": "Tacitus’s"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pliny the Younger watched from Misenum and described it in letters to Tacitus; his uncle, Pliny the Elder, died trying to rescue people.",
+    "claimIds": ["c3", "c5", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_vesuvius_eruption_79_2__en",
+    "questionGroupId": "qg_vesuvius_eruption_79_2",
+    "conceptId": "concept_vesuvius_eruption_79",
+    "locale": "en",
+    "prompt": "What killed the people who stayed in the area that night?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pyroclastic flows: avalanches of hot gas and ash"
+      },
+      {
+        "id": "b",
+        "text": "Rivers of lava running through the streets"
+      },
+      {
+        "id": "c",
+        "text": "A tsunami from the sea"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The fall of ash and pumice was not necessarily lethal; the pyroclastic flows that arrived around midnight were.",
+    "misconception": "Pompeii is often pictured buried by lava, but the killers were pyroclastic flows.",
+    "claimIds": ["c6", "c7", "c8"],
+    "status": "draft"
+  },
+  {
+    "id": "q_vesuvius_eruption_79_3__en",
+    "questionGroupId": "qg_vesuvius_eruption_79_3",
+    "conceptId": "concept_vesuvius_eruption_79",
+    "locale": "en",
+    "prompt": "Why is the date of 24 August AD 79 disputed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An inscription found in 2018 carries an October date"
+      },
+      {
+        "id": "b",
+        "text": "Pliny’s letters give no date at all"
+      },
+      {
+        "id": "c",
+        "text": "The Romans used a different calendar and got the year wrong"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The inscription, in a house at Pompeii, equals 17 October; autumn fruit in the ruins had already hinted at a later date.",
+    "claimIds": ["c9", "c18", "c19"],
+    "status": "draft"
+  }
+]

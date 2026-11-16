@@ -34,6 +34,13 @@
         "pt-BR": "Com o fim do império no Ocidente começa a Idade Média, e seus mitos.",
         "en": "The end of the empire in the West opens the Middle Ages, and their myths."
       }
+    },
+    {
+      "clusterId": "cluster_pompeii",
+      "reason": {
+        "pt-BR": "Uma cidade romana inteira, congelada pela erupção de 79 d.C.",
+        "en": "A whole Roman town, frozen by the AD 79 eruption."
+      }
     }
   ]
 }

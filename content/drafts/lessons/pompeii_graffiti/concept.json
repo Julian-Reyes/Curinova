@@ -1,0 +1,27 @@
+{
+  "id": "concept_pompeii_graffiti",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 3,
+  "tags": ["pompeii", "graffiti", "ancient-rome", "writing"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_pompeii_body_casts",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Os moldes mostram como os moradores morreram; as paredes, como viviam.",
+        "en": "The casts show how Pompeii’s people died; the walls show how they lived."
+      }
+    },
+    {
+      "conceptId": "concept_pompeii_street_food",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Do muro para o balcão: outro retrato do dia a dia na cidade.",
+        "en": "From the wall to the counter: another snapshot of daily life in the town."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

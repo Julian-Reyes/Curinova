@@ -1,0 +1,297 @@
+{
+  "id": "lesson_pompeii_street_food__pt-BR",
+  "conceptId": "concept_pompeii_street_food",
+  "locale": "pt-BR",
+  "slug": "os-romanos-comiam-fast-food",
+  "title": "Os romanos comiam fast-food?",
+  "hook": "Pompeia tinha cerca de 80 balcões de comida de rua, e um deles guardou o próprio cardápio.",
+  "summary": "De certo modo, sim: Pompeia tinha cerca de 80 termopólios, balcões que vendiam comida quente e bebida, e um deles, escavado por inteiro em 2020, mantinha pinturas e restos de comida.",
+  "cardText": "De certo modo, sim. Pompeia tinha cerca de 80 termopólios, balcões de rua que vendiam comida quente e bebida, porque era comum almoçar fora de casa.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Imagine um balcão de alvenaria virado para a rua, com grandes potes de barro embutidos, onde você pede um prato quente. Era um termopólio, nome de origem grega para os lugares que serviam bebidas e comidas quentes. No mundo romano, era comum fazer a refeição do meio do dia fora de casa, e só Pompeia tinha cerca de 80 desses balcões."
+    },
+    {
+      "type": "paragraph",
+      "text": "Em dezembro de 2020, arqueólogos apresentaram um termopólio escavado por inteiro pela primeira vez. O balcão tem pinturas de dois patos pendurados de cabeça para baixo, um galo e um cachorro na coleira. Nos potes havia ossos de pato, porco, cabra, peixe e caracóis: as pinturas mostravam, ao menos em parte, o que se vendia ali."
+    },
+    {
+      "type": "takeaway",
+      "text": "Comer na rua era um hábito romano: Pompeia tinha uns 80 balcões de comida quente, e um deles guardou seu cardápio."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "O balcão da Regio V"
+    },
+    {
+      "type": "paragraph",
+      "text": "O termopólio fica na Regio V, uma das regiões em que Pompeia foi dividida no século XIX. Parte dele apareceu em 2019, durante obras para estabilizar as bordas da escavação. Na frente do balcão há uma nereida, uma ninfa do mar, montada num cavalo-marinho. Na lateral, uma pintura provavelmente mostra a própria loja, como uma marca. Ânforas, vasos altos de barro, foram encontradas diante do balcão, iguais às da pintura."
+    },
+    {
+      "type": "heading",
+      "text": "O que havia nos potes"
+    },
+    {
+      "type": "paragraph",
+      "text": "No fundo de um pote usado para vinho havia favas quebradas ou moídas. Segundo o escritor romano Apício, elas serviam para mudar o sabor e a cor do vinho, deixando-o mais claro. No canto da loja apareceu o esqueleto de um cachorro adulto bem pequeno, com uns 20 a 25 centímetros de altura no ombro, nada parecido com o cão musculoso da pintura."
+    },
+    {
+      "type": "heading",
+      "text": "Vítimas e uma brincadeira"
+    },
+    {
+      "type": "paragraph",
+      "text": "Também havia ossos de pelo menos duas pessoas. Uma delas tinha 50 anos ou mais e provavelmente estava deitada numa espécie de cama quando a nuvem ardente chegou. Na moldura da pintura do cachorro, alguém riscou uma inscrição debochada, talvez para zombar do dono, talvez obra de alguém que trabalhava ali."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Termopólios eram locais que serviam bebidas e comidas quentes, guardadas em grandes potes de barro embutidos num balcão de alvenaria; o nome tem origem grega.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_d1c925",
+          "excerpt": "Thermopolia were places where, as the name of Greek origin would suggest, drinks and hot foods were served, and these goods were stored in largedolia (jars) which were embedded in the masonry serving counter."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "No mundo romano, era comum fazer a refeição fora de casa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_d1c925",
+          "excerpt": "Such establishments were located all over the Roman world, when it was common to go out to eat the prandium (meal)."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Só em Pompeia havia cerca de 80 termopólios.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_d1c925",
+          "excerpt": "At Pompeii alone, there are around eighty of them."
+        },
+        {
+          "sourceId": "src_upi_com_top_news_world_news_4c3522",
+          "excerpt": "Romans in the ancient city of 13,000 near Naples would snack on meals (prandia) outside the home from more than 80 walkup snack shops in Pompeii alone, scientists said."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Em dezembro de 2020, arqueólogos apresentaram um termopólio de Pompeia escavado por inteiro pela primeira vez.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_upi_com_top_news_world_news_4c3522",
+          "excerpt": "Dec. 26 (UPI) -- Pompeii archaeologists on Saturday unveiled the site of a snack shop for hot foods covered with colorful frescoes in the ancient city."
+        },
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "because for the first time an area of this type has been excavated in its entirety"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O balcão tem pinturas de dois patos pendurados de cabeça para baixo, um galo e um cachorro na coleira.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_upi_com_top_news_world_news_4c3522",
+          "excerpt": "Colorful decorations on the counter included a sea nymph riding a seahorse, along with still-life scenes of animals including two mallard ducks hanging upside down, a rooster and a dog on a leash"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Nos potes do balcão havia ossos de pato, porco, cabra, peixe e caracóis.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "The paintings on the counter include two mallard ducks, and indeed a fragment of duck bone was in fact found inside one of the containers, alongside swine, goats, fish and land snails, indicating the great variety of products of animal origin used in the preparation of the dishes."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "As pinturas do balcão mostram, ao menos em parte, os alimentos e bebidas vendidos ali.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "The first analyses confirm that the paintings on the counter depict, at least in part, the foodstuffs and drinks which were actually sold inside the Thermopolium."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Parte do termopólio foi descoberta em 2019, durante obras para estabilizar as bordas da escavação.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "The commercial structure had only been partially studied in 2019, during the interventions of the Great Pompeii Project aimed at stabilising and consolidating the historic excavation fronts."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "A frente do balcão mostra uma nereida num cavalo-marinho, e a lateral provavelmente retrata a própria loja, como uma marca.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "The decorations on the counter - which were the first to emerge during the excavation - comprise the image of a Nereid riding a sea-horse in a marine setting on the front, while the shorter side features an illustration which is probably of the shop itself, like a kind of trademark."
+        },
+        {
+          "sourceId": "src_upi_com_top_news_world_news_4c3522",
+          "excerpt": "Colorful decorations on the counter included a sea nymph riding a seahorse, along with still-life scenes of animals including two mallard ducks hanging upside down, a rooster and a dog on a leash"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "No fundo de um pote de vinho havia favas quebradas ou moídas, que segundo Apício serviam para mudar o sabor e a cor do vinho.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "At the bottom of a dolium - which has been identified as a container for wine on the basis of the bottle for drawing the liquid that was found inside it - the presence of beans was detected, which had been intentionally broken apart or ground. In his De re Coquinaria (I,5), Apicius explains the reason for this, asserting that they were used in order to modify the taste and colour of the wine, bleaching it."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Na loja foi achado o esqueleto de um cachorro adulto muito pequeno, com 20 a 25 cm de altura no ombro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "It was not a large and muscular dog like the one depicted on the counter, but an extremely small specimen, about 20-25cm high at the shoulder despite being an adult dog."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Uma das vítimas tinha pelo menos 50 anos e provavelmente estava numa espécie de cama quando a nuvem ardente chegou; havia ossos de pelo menos mais uma pessoa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "Several belong to an individual of at least fifty years of age, who at the moment when the pyroclastic current arrived, was most likely on some kind of bed"
+        },
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "Other bones, which are yet to be investigated, belong to another individual"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Pompeia é dividida em regiões (regiones), um sistema criado por Fiorelli.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_c9b7cf",
+          "excerpt": "divided it into a system of 'regiones', 'insulae' and 'domus'"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Ânforas encontradas diante do balcão correspondiam às da pintura.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_d1c925",
+          "excerpt": "The discovery of amphorae, which were located in front of the counter, reflected the painted image exactly."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Uma inscrição debochada foi riscada na moldura da pintura do cachorro, talvez por alguém que queria zombar do dono ou por um funcionário.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "A mocking inscription can be found scratched onto the frame which surrounds the painting of the dog"
+        },
+        {
+          "sourceId": "src_pompeiisites_org_en_831305",
+          "excerpt": "This was probably left by a prankster who sought to poke fun at the owner, or by someone who worked in the Thermopolium."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_pompeiisites_org_d1c925",
+    "src_upi_com_top_news_world_news_4c3522",
+    "src_pompeiisites_org_en_831305",
+    "src_bbc_co_uk_history_ancient_romans_c9b7cf"
+  ],
+  "quizIds": [
+    "q_pompeii_street_food_1__pt-BR",
+    "q_pompeii_street_food_2__pt-BR",
+    "q_pompeii_street_food_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

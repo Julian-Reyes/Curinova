@@ -1,0 +1,35 @@
+{
+  "id": "concept_pompeii_street_food",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 4,
+  "tags": ["pompeii", "food", "ancient-rome", "archaeology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_pompeii_graffiti",
+      "type": "background",
+      "reason": {
+        "pt-BR": "O balcão também tinha seu próprio grafite debochado.",
+        "en": "The counter had its own mocking graffito too."
+      }
+    },
+    {
+      "conceptId": "concept_herculaneum_fate",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Na cidade vizinha, até a comida e a madeira viraram carvão e se conservaram.",
+        "en": "In the neighbouring town, even food and wood turned to charcoal and survived."
+      }
+    },
+    {
+      "conceptId": "concept_maillard_reaction",
+      "type": "related",
+      "reason": {
+        "pt-BR": "A química por trás do sabor da comida feita no fogo.",
+        "en": "The chemistry behind the flavour of food cooked over heat."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_pompeii_graffiti_1__pt-BR",
+    "questionGroupId": "qg_pompeii_graffiti_1",
+    "conceptId": "concept_pompeii_graffiti",
+    "locale": "pt-BR",
+    "prompt": "Quantas inscrições já foram encontradas nas paredes de Pompeia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mais de 11 mil"
+      },
+      {
+        "id": "b",
+        "text": "Cerca de 100"
+      },
+      {
+        "id": "c",
+        "text": "Pouco mais de mil"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Arqueólogos já registraram mais de 11 mil inscrições, deixadas por gente de todo tipo, de lojistas a escravizados.",
+    "claimIds": ["c1", "c2"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_graffiti_2__pt-BR",
+    "questionGroupId": "qg_pompeii_graffiti_2",
+    "conceptId": "concept_pompeii_graffiti",
+    "locale": "pt-BR",
+    "prompt": "Quem pintava a propaganda eleitoral nas paredes de Pompeia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Letristas profissionais, em letras vermelhas"
+      },
+      {
+        "id": "b",
+        "text": "Só os próprios candidatos, com carvão"
+      },
+      {
+        "id": "c",
+        "text": "Crianças, como brincadeira"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Os dipinti eleitorais eram feitos com cuidado por letristas profissionais, como anúncios patrocinados.",
+    "claimIds": ["c4", "c9"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_graffiti_3__pt-BR",
+    "questionGroupId": "qg_pompeii_graffiti_3",
+    "conceptId": "concept_pompeii_graffiti",
+    "locale": "pt-BR",
+    "prompt": "Um grafite diz que o gladiador Celadus é o ídolo das moças. Como os historiadores leem isso?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Provavelmente é uma gabolice escrita pelo próprio Celadus"
+      },
+      {
+        "id": "b",
+        "text": "É a prova de que ele era o gladiador mais famoso de Roma"
+      },
+      {
+        "id": "c",
+        "text": "É um anúncio oficial do anfiteatro"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Grafites são opiniões individuais; a historiadora Alison Cooley acha mais provável que o próprio Celadus tenha escrito.",
+    "misconception": "Uma inscrição antiga não é um fato só por ser antiga: quem escrevia tinha seus próprios interesses.",
+    "claimIds": ["c18"],
+    "status": "draft"
+  }
+]

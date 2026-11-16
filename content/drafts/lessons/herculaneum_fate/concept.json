@@ -1,0 +1,35 @@
+{
+  "id": "concept_herculaneum_fate",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 5,
+  "tags": ["herculaneum", "vesuvius", "ancient-rome", "archaeology"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_pompeii_body_casts",
+      "type": "contrast",
+      "reason": {
+        "pt-BR": "Em Pompeia ficaram ocos nas cinzas; em Herculano, os ossos.",
+        "en": "Pompeii left hollows in the ash; Herculaneum left bones."
+      }
+    },
+    {
+      "conceptId": "concept_herculaneum_scrolls_ai",
+      "type": "next",
+      "reason": {
+        "pt-BR": "Os papiros carbonizados da cidade agora estão sendo lidos sem abrir.",
+        "en": "The town’s carbonised scrolls are now being read without being opened."
+      }
+    },
+    {
+      "conceptId": "concept_vesuvius_eruption_79",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Como foi a erupção que soterrou as duas cidades.",
+        "en": "How the eruption that buried both towns unfolded."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

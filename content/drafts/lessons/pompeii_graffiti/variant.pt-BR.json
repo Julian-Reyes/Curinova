@@ -1,0 +1,331 @@
+{
+  "id": "lesson_pompeii_graffiti__pt-BR",
+  "conceptId": "concept_pompeii_graffiti",
+  "locale": "pt-BR",
+  "slug": "o-que-dizem-as-pichacoes-de-pompeia",
+  "title": "O que dizem as pichações de Pompeia?",
+  "hook": "Propaganda eleitoral, recados entre amigos e indiretas amorosas: as paredes falavam.",
+  "summary": "Mais de 11 mil inscrições trazem propaganda eleitoral, anúncios de lutas de gladiadores, cumprimentos a amigos, versos, piadas e provocações.",
+  "cardText": "Mais de 11 mil inscrições sobreviveram em Pompeia: propaganda de candidatos, anúncios de lutas de gladiadores, cumprimentos a amigos, versos de amor, piadas e provocações.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Muito antes das redes sociais, os moradores de Pompeia comentavam tudo nas paredes. Arqueólogos já encontraram mais de 11 mil inscrições na cidade, deixadas por lojistas, trabalhadores, soldados e escravizados. Uma das palavras mais comuns é feliciter, algo como “felicidades”, usada para mandar bons votos a amigos e colegas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Havia também propaganda eleitoral, pintada em letras vermelhas por letristas profissionais, e nem toda era gentil: um candidato aparece apoiado por “todos os que bebem até tarde”. Outros avisos anunciavam lutas de gladiadores e quartos para alugar. Um recado repetido em vários pontos da cidade zomba de tudo isso: o autor admira a parede por não ter desabado com tanta bobagem escrita nela."
+    },
+    {
+      "type": "takeaway",
+      "text": "As paredes de Pompeia guardam a voz de gente comum: política, amizade, amor e humor de quase 2.000 anos atrás."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "Pintadas ou riscadas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Os especialistas separam dois tipos. As pinturas eleitorais, chamadas dipinti, eram feitas com cuidado e funcionavam como anúncios patrocinados. Prometiam, por exemplo, pão e espetáculos de graça no anfiteatro. Já os grafites eram riscados no reboco das paredes, às vezes escritos com carvão ou giz, e costumavam ser espontâneos, obra do cidadão comum."
+    },
+    {
+      "type": "heading",
+      "text": "Uma disputa por Íris"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alguns muros guardam verdadeiras conversas. Dois rivais, o tecelão Successus e Severus, disputavam a atenção de Íris, que trabalhava num bar, trocando provocações por escrito. Numa delas, Severus responde: “Você ama Íris, mas ela não ama você.” Em casas e prédios públicos, moradores também copiavam versos dos poetas Ovídio e Propércio, muitas vezes mudando as palavras para fazer graça."
+    },
+    {
+      "type": "heading",
+      "text": "Onde e quem escrevia"
+    },
+    {
+      "type": "paragraph",
+      "text": "O prédio com mais inscrições é um grande espaço com mais de 100 colunas ao lado do anfiteatro, com mais de 400 delas. Homens escreviam mais que mulheres, mas os muitos cumprimentos dirigidos a mulheres mostram que se esperava que elas soubessem ler. Até crianças desenhavam os gladiadores que tinham visto lutar."
+    },
+    {
+      "type": "heading",
+      "text": "Cuidado ao ler"
+    },
+    {
+      "type": "paragraph",
+      "text": "A historiadora Alison Cooley, da Universidade de Warwick, lembra que os grafites são opiniões, não fatos. Quando uma parede diz que o gladiador Celadus é o ídolo das moças, é bem provável que quem escreveu tenha sido o próprio Celadus."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Arqueólogos encontraram mais de 11 mil inscrições em Pompeia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "In Pompeii alone, archaeologists have uncovered more than 11,000 examples of graffiti."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Os autores das inscrições incluíam lojistas, trabalhadores, soldados e escravizados.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Graffiti writers belonged to all walks of life. Shopkeepers, laborers, soldiers and enslaved people alike left their marks."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Feliciter, “felicidades”, é uma das palavras mais comuns nos grafites e servia para mandar bons votos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "One of the most commonly found words in this more informal style of graffiti is feliciter (“happily”), which, when paired with personal names, indicates good wishes for friends, colleagues, and even the emperor."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "A propaganda eleitoral era pintada em letras vermelhas por letristas profissionais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Some were political, carefully painted in bright red letters by professional signwriters who drummed up support for candidates in upcoming elections."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "Uma inscrição afirma que “todos os que bebem até tarde” pedem votos para um candidato, um exemplo de campanha negativa.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Some candidates engaged in negative campaigning, using graffiti to question their competitors’ qualifications and associate them with untrustworthy groups. “All the late drinkers ask you to elect Marcus Cerrinius Vatia [as magistrate],” one inscription stated."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Algumas inscrições anunciavam lutas de gladiadores e quartos para alugar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "Some of this graffiti promoted political candidates, while other examples advertised everything from gladiatorial games to rooms for rent."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Um recado que aparece várias vezes em Pompeia diz admirar a parede por não ter desabado com tantas inscrições.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Cooley’s favorite piece of graffiti is one that appears multiple times throughout Pompeii. It’s a self-referential joke poking fun at how much writing people have left on the walls: “I admire you, wall, for not having collapsed at having to carry the tedious scribblings of so many writers.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Os moradores escreviam nas paredes avisos eleitorais, fofocas, acusações e versos.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Locals scribbled election notices, market day announcements and gossip on buildings’ walls. They also hurled accusations at each other and exchanged witty verses."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "As inscrições eleitorais pintadas, os dipinti, eram comparáveis a anúncios patrocinados de hoje.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "These dipinti, or painted rather than engraved inscriptions, were akin to sponsored social media posts today."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Os candidatos eram elogiados por benefícios prometidos, como pão e espetáculos de graça no anfiteatro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "“Candidates aspiring to public office were praised for their good character, financial prudence and for benefits they promised to give to the people of Pompeii,” such as free bread and free shows in the amphitheater."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Os grafites eram riscados no reboco, às vezes escritos com carvão ou giz, e costumavam ser espontâneos, obra do cidadão comum.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "writings and drawings incised in wall plaster, or occasionally written with more ephemeral materials such as charcoal and chalk"
+        },
+        {
+          "sourceId": "src_ancientgraffiti_org_about_08b76d",
+          "excerpt": "Graffiti, by contrast, are more often the result of spontaneous composition and are the handwritten creation of the “man on the street.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "O tecelão Successus e seu rival Severus disputavam Íris, que trabalhava num bar, trocando provocações em grafites.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Alison Cooley, a historian at the University of Warwick in England, points to a conversation between Successus the weaver and his rival, Severus, who competed for the affection of the barmaid Iris by trading clever insults in their graffiti."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Severus escreveu: “Você ama Íris, mas ela não ama você.”",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Severus, in turn, retorted, “You love Iris, but she does not love you.”"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Moradores copiavam versos de Ovídio e Propércio, muitas vezes adaptando-os para fazer graça.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_archaeology_org_f684cb",
+          "excerpt": "In both private houses and public buildings, Benefiel has found that people traded quotations from the first-century B.C. love poets Ovid and Propertius, often adapting poetic lines to humorous effect."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "O prédio com mais grafites em Pompeia, ao lado do anfiteatro, tem mais de 100 colunas e mais de 400 inscrições.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "The Campus ad Amphitheatrum, a large multipurpose building with more than 100 columns, boasts the most graffiti of any single building in Pompeii, with more than 400 handwritten inscriptions."
+        },
+        {
+          "sourceId": "src_ancientgraffiti_org_about_08b76d",
+          "excerpt": "the large campus of palaestra beside the amphitheater"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Homens deixaram mais grafites que mulheres, mas cumprimentos dirigidos a mulheres mostram que se esperava que elas soubessem ler.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "According to Benefiel, men left behind more graffiti than women. “But plenty of greetings written to women show that it was expected they could read them,” she explains."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "Crianças desenhavam nas paredes gladiadores que tinham visto lutar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "Children even scrawled crude likenesses of gladiators they’d seen fighting in the arena."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c18",
+      "text": "Quando um grafite chama o gladiador Celadus de ídolo das moças, é mais provável que seja uma gabolice do próprio gladiador.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+          "excerpt": "When we read that the gladiator Celadus is ‘the girls’ idol,’ this is not some sort of objective fact, but more likely a boastful message written by the gladiator himself."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_smithsonianmag_com_history_pompeiis_graffiti_captures_b255f2",
+    "src_archaeology_org_f684cb",
+    "src_ancientgraffiti_org_about_08b76d"
+  ],
+  "quizIds": [
+    "q_pompeii_graffiti_1__pt-BR",
+    "q_pompeii_graffiti_2__pt-BR",
+    "q_pompeii_graffiti_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": null,
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

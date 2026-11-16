@@ -1,0 +1,35 @@
+{
+  "id": "concept_pompeii_in_brazil",
+  "topicId": "history",
+  "clusterId": "cluster_pompeii",
+  "clusterOrder": 7,
+  "tags": ["pompeii", "brazil", "museu-nacional", "rio-de-janeiro", "empire-of-brazil"],
+  "difficulty": "beginner",
+  "related": [
+    {
+      "conceptId": "concept_court_in_rio_1808",
+      "type": "background",
+      "reason": {
+        "pt-BR": "Como o Rio virou sede de uma corte europeia, décadas antes da chegada de Teresa Cristina.",
+        "en": "How Rio became the seat of a European court, decades before Teresa Cristina arrived."
+      }
+    },
+    {
+      "conceptId": "concept_pompeii_body_casts",
+      "type": "related",
+      "reason": {
+        "pt-BR": "As peças vieram da mesma cidade que guardou os moldes das vítimas.",
+        "en": "The pieces came from the same town that kept the victims’ casts."
+      }
+    },
+    {
+      "conceptId": "concept_herculaneum_fate",
+      "type": "related",
+      "reason": {
+        "pt-BR": "Parte da coleção veio de Herculano, a cidade que virou carvão.",
+        "en": "Part of the collection came from Herculaneum, the town turned to charcoal."
+      }
+    }
+  ],
+  "variants": ["pt-BR", "en"]
+}

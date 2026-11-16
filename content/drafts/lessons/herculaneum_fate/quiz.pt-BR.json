@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_herculaneum_fate_1__pt-BR",
+    "questionGroupId": "qg_herculaneum_fate_1",
+    "conceptId": "concept_herculaneum_fate",
+    "locale": "pt-BR",
+    "prompt": "Por que a madeira de Herculano não queimou?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A lama vulcânica isolou o oxigênio, e a madeira virou carvão sem pegar fogo"
+      },
+      {
+        "id": "b",
+        "text": "A cidade estava longe demais do vulcão para esquentar"
+      },
+      {
+        "id": "c",
+        "text": "Os moradores molharam as casas antes de fugir"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sem oxigênio não há combustão: a madeira carbonizou e manteve a forma.",
+    "claimIds": ["c3", "c8"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_fate_2__pt-BR",
+    "questionGroupId": "qg_herculaneum_fate_2",
+    "conceptId": "concept_herculaneum_fate",
+    "locale": "pt-BR",
+    "prompt": "O que os arqueólogos encontraram em 1980 nos arcos junto à antiga praia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cerca de 300 esqueletos de pessoas que esperavam resgate"
+      },
+      {
+        "id": "b",
+        "text": "Barcos intactos usados na fuga"
+      },
+      {
+        "id": "c",
+        "text": "Moldes de gesso como os de Pompeia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Havia uns 300 esqueletos, com joias, moedas e chaves, de gente que esperava socorro.",
+    "misconception": "Por muito tempo se achou que os moradores de Herculano tinham fugido pelo mar.",
+    "claimIds": ["c5", "c6", "c10"],
+    "status": "draft"
+  },
+  {
+    "id": "q_herculaneum_fate_3__pt-BR",
+    "questionGroupId": "qg_herculaneum_fate_3",
+    "conceptId": "concept_herculaneum_fate",
+    "locale": "pt-BR",
+    "prompt": "Qual a principal diferença entre os restos das vítimas de Pompeia e de Herculano?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Em Pompeia ficaram ocos nas cinzas; em Herculano, esqueletos"
+      },
+      {
+        "id": "b",
+        "text": "Em Pompeia ficaram esqueletos; em Herculano, ocos nas cinzas"
+      },
+      {
+        "id": "c",
+        "text": "Não há diferença"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Em Pompeia os corpos se decompuseram dentro da cinza; em Herculano, restaram os ossos.",
+    "claimIds": ["c7"],
+    "status": "draft"
+  }
+]

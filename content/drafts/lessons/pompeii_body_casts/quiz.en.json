@@ -1,0 +1,78 @@
+[
+  {
+    "id": "q_pompeii_body_casts_1__en",
+    "questionGroupId": "qg_pompeii_body_casts_1",
+    "conceptId": "concept_pompeii_body_casts",
+    "locale": "en",
+    "prompt": "What are Pompeii’s famous victim casts made of?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plaster poured into the hollows the bodies left in the ash"
+      },
+      {
+        "id": "b",
+        "text": "Bodies turned to stone by the heat"
+      },
+      {
+        "id": "c",
+        "text": "Statues carved by Roman artists"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The bodies decayed inside the hardened ash; in the 1860s Fiorelli filled the hollows with liquid plaster.",
+    "misconception": "The casts aren’t petrified bodies: they’re the shape of the space the bodies left.",
+    "claimIds": ["c2", "c3"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_body_casts_2__en",
+    "questionGroupId": "qg_pompeii_body_casts_2",
+    "conceptId": "concept_pompeii_body_casts",
+    "locale": "en",
+    "prompt": "What did the 2024 DNA study find about the adult with a gold bracelet holding a child?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It was a man unrelated to the child"
+      },
+      {
+        "id": "b",
+        "text": "It really was the child’s mother"
+      },
+      {
+        "id": "c",
+        "text": "It was the child’s grandmother"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The pair, long described as mother and child, were an adult man and a biologically unrelated child.",
+    "claimIds": ["c4", "c5"],
+    "status": "draft"
+  },
+  {
+    "id": "q_pompeii_body_casts_3__en",
+    "questionGroupId": "qg_pompeii_body_casts_3",
+    "conceptId": "concept_pompeii_body_casts",
+    "locale": "en",
+    "prompt": "What warning did the researchers themselves give?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Don’t project today’s ideas about gender and family onto the past"
+      },
+      {
+        "id": "b",
+        "text": "The DNA from the casts can’t be trusted"
+      },
+      {
+        "id": "c",
+        "text": "The casts should no longer be displayed"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Reich and Caramelli point out that stories built on little evidence tend to reflect the views of those who tell them.",
+    "claimIds": ["c15", "c16"],
+    "status": "draft"
+  }
+]

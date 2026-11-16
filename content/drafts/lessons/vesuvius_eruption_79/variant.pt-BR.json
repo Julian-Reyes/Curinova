@@ -1,0 +1,421 @@
+{
+  "id": "lesson_vesuvius_eruption_79__pt-BR",
+  "conceptId": "concept_vesuvius_eruption_79",
+  "locale": "pt-BR",
+  "slug": "o-que-aconteceu-no-dia-em-que-o-vesuvio-entrou-em-erupcao",
+  "title": "O que aconteceu no dia em que o Vesúvio entrou em erupção?",
+  "hook": "Um rapaz de 17 anos viu tudo do outro lado da baía e contou em cartas.",
+  "summary": "Uma nuvem enorme subiu do Vesúvio, cinzas e pedra-pomes caíram por horas e, à noite, avalanches de gás quente mataram quem ficou; Plínio, o Jovem, deixou o relato, e a data exata é debatida.",
+  "cardText": "Uma nuvem gigante subiu do Vesúvio, cinzas e pedras caíram por horas e, à noite, avalanches de gás quente arrasaram a região. Plínio, o Jovem, contou tudo em cartas.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "Do outro lado da baía de Nápoles, em Miseno, um rapaz de 17 anos viu subir de uma montanha uma nuvem enorme, com formato de pinheiro. Era o Vesúvio. O tio dele, Plínio, o Velho, comandava a frota romana ali e partiu de navio para socorrer quem morava no litoral. Não voltou."
+    },
+    {
+      "type": "paragraph",
+      "text": "Durante horas, choveram cinzas e pedra-pomes, uma rocha vulcânica leve e cheia de furos. Quem fugiu logo ainda tinha chance. Por volta da meia-noite chegaram as nuvens ardentes: avalanches de gás, cinza e rocha que descem a encosta a mais de 100 km/h. Para quem ficou, foram fatais."
+    },
+    {
+      "type": "paragraph",
+      "text": "As cartas do sobrinho dão a data de 24 de agosto do ano 79, mas uma inscrição encontrada em Pompeia em 2018 sugere que a erupção aconteceu em outubro."
+    },
+    {
+      "type": "takeaway",
+      "text": "Plínio, o Jovem, deixou o relato da erupção de 79; a data tradicional, 24 de agosto, hoje é contestada."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "As cartas de Plínio"
+    },
+    {
+      "type": "paragraph",
+      "text": "O historiador Tácito pediu a Plínio, o Jovem, um relato da morte do tio. Plínio, o Velho, estava descansando depois do banho quando a nuvem apareceu. Quis observá-la de perto, mas recebeu um pedido de socorro de Rectina, uma conhecida cuja casa ficava ao pé do vulcão. Transformou a viagem de estudo em missão de resgate e navegou até Estábia, onde passou a noite. No dia seguinte, na praia, caiu e não se levantou mais; o sobrinho achava que a fumaça o impediu de respirar. O corpo foi encontrado dois dias depois, intacto."
+    },
+    {
+      "type": "heading",
+      "text": "Por que ninguém fugiu antes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Havia dias que a terra tremia, mas ninguém se assustava: tremores eram comuns na região da Campânia. Os romanos não sabiam que terremotos podem anunciar uma erupção. O Vesúvio passara muito tempo quieto, e é justamente essa longa pausa que, segundo os vulcanólogos, explica a força da erupção de 79."
+    },
+    {
+      "type": "heading",
+      "text": "Agosto ou outubro?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nos manuscritos das cartas, a erupção começa em 24 de agosto. Desde o século XIX, porém, frutas de outono encontradas nas ruínas faziam suspeitar de uma data posterior. Em 2018, arqueólogos acharam numa casa de Pompeia uma inscrição com a data equivalente a 17 de outubro. Muitos arqueólogos hoje acham que a leitura tradicional dos manuscritos está errada e que a erupção foi por volta de 24 de outubro. A questão continua em debate."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Espaço reservado: a imagem desta lição será adicionada depois.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Plínio, o Velho, comandava a frota romana em Miseno.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "My uncle was stationed at Misenum, where he was in active command of the fleet, with full powers."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "Plínio, o Jovem, comparou a nuvem que subia do Vesúvio a um pinheiro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "but in likeness and form it more closely resembled a pine-tree than anything else"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "Plínio, o Velho, partiu de navio para socorrer moradores do litoral e morreu na missão.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "So he changed his plans, and carried out with the greatest fortitude the task, which he had started as a scholarly inquiry. He had the galleys launched and went on board himself, in the hope of succouring, not only Rectina, but many others, for there were a number of people living along the shore owing to its delightful situation."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "He took a ship to stage a rescue for those in danger from the volcano."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "But he did not return from the venture."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "Pliny depicts his uncle as a model of Stoic fortitude: calmly sailing directly into the danger zone (where he subsequently died)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Plínio, o Jovem, tinha 17 anos na época da erupção.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "for I was only in my eighteenth year"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "O relato de testemunha de Plínio, o Jovem, preservado em suas cartas, é a principal fonte sobre o que aconteceu.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "It is mainly thanks to the vivid eye-witness account of the younger Pliny (a Roman administrator and poet, whose many vivid letters have been preserved), that we have some understanding of what happened."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "A chuva de cinzas e pedra-pomes durou várias horas e não era necessariamente mortal; quem fugiu logo teve chance de sobreviver.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "Those who fled at once, unburdened by possessions, had a chance of survival, for the rain of ash and pumice, mixed with lithics, that descended for several hours was not necessarily lethal."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "Por volta da meia-noite começaram as nuvens ardentes, que foram fatais para quem estava na região.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "It was not until around midnight that the first pyroclastic surges and flows occurred, caused by the progressive collapse of the eruptive column, and these meant certain death for the people of the region."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "Uma nuvem ardente é uma avalanche de gás, cinza e rocha quente que desce a encosta do vulcão a 100 km/h ou mais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "(A pyroclastic flow is a ground-hugging avalanche of hot ash, pumice, rock fragments and volcanic gas, which rushes down the side of a volcano as fast as 100 km/hour or more.)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "As cartas de Plínio dão a data de 24 de agosto de 79, mas uma inscrição encontrada em 2018 sugere uma data em outubro.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "On the 24th of August"
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "Historians have long believed that Mount Vesuvius erupted on 24 August 79 AD, destroying the nearby Roman city of Pompeii."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "But now, an inscription has been uncovered dated to mid-October - almost two months later."
+        },
+        {
+          "sourceId": "src_theguardian_com_world_2018_oct_16_a14d4f",
+          "excerpt": "Archaeologists recently discovered that a worker had inscribed the date of “the 16th day before the calends of November”, meaning 17 October, on a house at Pompeii, the head of archeology at the site, Massimo Osanna, told Italian media."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Tácito pediu a Plínio, o Jovem, um relato da morte do tio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "You ask me to send you an account of my uncle's death, so that you may be able to give posterity an accurate description of it."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "Plínio, o Velho, transformou a viagem de estudo em missão de resgate depois de receber um pedido de socorro de Rectina.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "So he changed his plans, and carried out with the greatest fortitude the task, which he had started as a scholarly inquiry. He had the galleys launched and went on board himself, in the hope of succouring, not only Rectina, but many others, for there were a number of people living along the shore owing to its delightful situation."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "Plínio, o Velho, navegou até Estábia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "\"Fortune favours the bold ; try to reach Pomponianus.\" The latter was at Stabiae"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Plínio, o Velho, caiu e não se levantou; o sobrinho achava que a fumaça o impediu de respirar.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "Leaning on two slaves, he rose to his feet and immediately fell down again, owing, as I think, to his breathing being obstructed by the thickness of the fumes"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "O corpo de Plínio, o Velho, foi encontrado intacto dois dias depois.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "When daylight returned - two days after the last day he had seen - his body was found untouched, uninjured, and covered, dressed just as he had been in life."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "Houve tremores de terra nos dias anteriores, mas não assustavam, porque eram comuns na Campânia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "For many days previous there had been slight shocks of earthquake, which were not particularly alarming, because they are common enough in Campania."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "Os romanos não sabiam da relação entre tremores de terra e atividade vulcânica.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "Pliny's casual reference to earth tremors 'which were not particularly alarming because they are frequent in Campania' reveals the Roman's comprehensive ignorance of the link between seismic activity (earth tremors) and volcanic activity."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "A força da erupção de 79 está ligada ao longo período de inatividade que a precedeu.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_co_uk_history_ancient_romans_643fce",
+          "excerpt": "The catastrophic magnitude of the eruption of AD 79 was connected with the extended period of inactivity that preceded it."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c18",
+      "text": "Desde o século XIX, frutas de outono encontradas nas ruínas sugeriam uma data posterior a agosto.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_world_2018_oct_16_a14d4f",
+          "excerpt": "Nevertheless, evidence such as autumnal fruits on branches found in the ashen ruins had suggested a later date since the 19th century, Osanna said."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c19",
+      "text": "A inscrição de 2018, numa casa de Pompeia, traz uma data equivalente a 17 de outubro.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_theguardian_com_world_2018_oct_16_a14d4f",
+          "excerpt": "Archaeologists recently discovered that a worker had inscribed the date of “the 16th day before the calends of November”, meaning 17 October, on a house at Pompeii, the head of archeology at the site, Massimo Osanna, told Italian media."
+        },
+        {
+          "sourceId": "src_bbc_co_uk_news_world_europe_c46f6d",
+          "excerpt": "But now, an inscription has been uncovered dated to mid-October - almost two months later."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c20",
+      "text": "Muitos arqueólogos acham que a leitura tradicional dos manuscritos está errada e que a erupção foi por volta de 24 de outubro.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "Most archaeologists now believe that the accepted reading of the manuscripts is wrong, and that the correct date of the eruption was about 24 October"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c21",
+      "text": "Quando a nuvem apareceu, Plínio, o Velho, estava descansando e lendo depois do banho e de uma refeição leve.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "He had been out in the sun, followed by a cold bath, and after a light meal he was lying down and reading."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c22",
+      "text": "A casa de Rectina ficava ao pé do vulcão.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "for her villa lay just beneath the mountain"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c23",
+      "text": "Plínio, o Velho, passou a noite em Estábia e depois seguiu com os outros até a praia.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "\"Fortune favours the bold ; try to reach Pomponianus.\" The latter was at Stabiae"
+        },
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "Then he betook himself to rest and enjoyed a very deep sleep"
+        },
+        {
+          "sourceId": "src_attalus_org_pliny_ep6_html_01ddb1",
+          "excerpt": "They decided to make their way to the shore"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_attalus_org_pliny_ep6_html_01ddb1",
+    "src_bbc_co_uk_news_world_europe_c46f6d",
+    "src_bbc_co_uk_history_ancient_romans_643fce",
+    "src_theguardian_com_world_2018_oct_16_a14d4f"
+  ],
+  "quizIds": [
+    "q_vesuvius_eruption_79_1__pt-BR",
+    "q_vesuvius_eruption_79_2__pt-BR",
+    "q_vesuvius_eruption_79_3__pt-BR"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}

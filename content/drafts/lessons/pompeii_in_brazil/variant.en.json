@@ -1,0 +1,354 @@
+{
+  "id": "lesson_pompeii_in_brazil__en",
+  "conceptId": "concept_pompeii_in_brazil",
+  "locale": "en",
+  "slug": "is-there-a-piece-of-pompeii-in-brazil",
+  "title": "Is there a piece of Pompeii in Brazil?",
+  "hook": "An empress born in Naples brought objects from the towns buried by Vesuvius to Rio.",
+  "summary": "Yes: Empress Teresa Cristina, born in Naples, brought pieces from Pompeii and Herculaneum that went to the Museu Nacional; the 2018 fire hit the collection, but some was recovered.",
+  "cardText": "Yes. Empress Teresa Cristina, born in Naples, brought pieces from Pompeii and Herculaneum to Brazil. They were at Rio’s National Museum, and some were recovered after the 2018 fire.",
+  "cardBlocks": [
+    {
+      "type": "paragraph",
+      "text": "In 1843, a princess born in Naples arrived in Rio de Janeiro, already married by proxy to Emperor Pedro II. In Teresa Cristina’s luggage was a fresco, a wall painting, from the Temple of Isis at Pompeii. Pieces from the towns buried by Vesuvius became part of the Teresa Cristina Collection at the Museu Nacional, Brazil’s National Museum."
+    },
+    {
+      "type": "paragraph",
+      "text": "Frescoes, bronze jewellery, amulets, glass and oil lamps were on display when the museum burned in September 2018. As teams searched the rubble, items from the collection turned up. That fresco, “Dragon and Two Dolphins”, was found in more than 150 fragments and restored in Italy."
+    },
+    {
+      "type": "takeaway",
+      "text": "Thanks to Teresa Cristina, Brazil’s National Museum held pieces of Pompeii and Herculaneum; some of them survived the 2018 fire."
+    }
+  ],
+  "deepDiveBlocks": [
+    {
+      "type": "heading",
+      "text": "A Mediterranean collection"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Teresa Cristina Collection, also called the Mediterranean Collection, holds Etruscan and Greek objects and finds from the old Greek colonies of southern Italy, along with Roman pieces, above all from Pompeii and Herculaneum. According to the Italian news agency ANSA, the archaeological collection came as part of her dowry. Historian Anita Correia Lima de Almeida, of UNIRIO, notes that how the collection was formed is tied to the politics of Brazil’s Second Reign."
+    },
+    {
+      "type": "heading",
+      "text": "From ashes to ashes"
+    },
+    {
+      "type": "paragraph",
+      "text": "The objects spent almost two thousand years under the eruption’s debris, were dug up in excavations in the 18th and 19th centuries and ended up in a museum. In 2018 they went back to ashes, this time from a fire. The collection of objects from Pompeii was among the things the museum hoped to recover."
+    },
+    {
+      "type": "heading",
+      "text": "A fresco pieced back together"
+    },
+    {
+      "type": "paragraph",
+      "text": "“Dragon and Two Dolphins” is one of the collection’s four frescoes and was painted between AD 62 and 79. The heat, the light and the water used against the fire turned its black background white and warped the fragments. It was restored in partnership with a foundation in Turin and shown in Naples, with its return to Brazil planned afterwards."
+    },
+    {
+      "type": "heading",
+      "text": "Help from Italy"
+    },
+    {
+      "type": "paragraph",
+      "text": "After the fire, the Italian government announced it would send pieces from Pompeii and Herculaneum to Rio for a long period, to be shown at the Italian consulate. It also offered help restoring a Greek statuette that Teresa Cristina had brought and that was destroyed in the fire."
+    }
+  ],
+  "heroMedia": {
+    "type": "illustration",
+    "illustrationId": "fixture",
+    "alt": "Placeholder: this lesson’s picture will be added later.",
+    "license": "original"
+  },
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Teresa Cristina, born in Naples, was Empress of Brazil as the wife of Pedro II.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "As chamas atingiram inclusive uma coleção arqueológica trazida ao Brasil por Teresa Cristina de Bourbon-Duas Sicílias, nascida em Nápoles, como dote de seu casamento com o imperador Dom Pedro II."
+        },
+        {
+          "sourceId": "src_correiodamanha_com_br_correio_serrano_2024_f308c6",
+          "excerpt": "Teresa Cristina de Bourbon-Due Sicília, nascida em 14 de março de 1822, na cidade de Nápoles, no sul da Itália, foi uma figura marcante na história brasileira como Imperatriz Consorte do Brasil."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c2",
+      "text": "In 1843, Teresa Cristina arrived in Brazil married by proxy to Pedro II, bringing a fresco from Pompeii in her luggage.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Ele foi encontrado em escavações na região e trazido na bagagem da imperatriz Teresa Cristina, em 1843, quando ela chegou ao Brasil casada por procuração com D. Pedro II."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c3",
+      "text": "The fresco, a mural painting, was part of the Temple of Isis at Pompeii.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "O mural afresco “Dragão e Dois Golfinhos” é um bem cultural que fez parte do Templo de Isis, na cidade italiana de Pompéia, sendo datado entre 62 e 79 d. C."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "painel de pintura mural"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c4",
+      "text": "Pieces from Pompeii and Herculaneum in the Teresa Cristina Collection were on display at the Museu Nacional when it burned in September 2018.",
+      "highStakes": true,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Pertencentes à Coleção Teresa Cristina, peças de Pompeia e Herculano faziam parte da exposição permanente do Museu Nacional quando a instituição foi destruída pelo incêndio devastador de setembro de 2018."
+        },
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_2019_05_12b936",
+          "excerpt": "uma coleção de objetos resgatados de Pompeia, a cidade romana destruída pela erupção do vulcão Vesúvio há quase 2 mil anos."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c5",
+      "text": "The pieces included frescoes, bronze jewellery, amulets, glass and oil lamps.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Aqueles restos materiais das cidades romanas soterradas pelo Vesúvio em 79 EC, afrescos, joias de bronze, amuletos, vidros, lamparinas e outros objetos da vida cotidiana tinham permanecido debaixo de grossas camadas de material eruptivo por quase dois mil anos."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c6",
+      "text": "Items from Empress Teresa Cristina’s collection were found in the recovery after the fire.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_museu_nacional_resgata_d7637d",
+          "excerpt": "Itens de outras coleções arqueológicas, como a mexicana, a brasileira, a pré-colombiana e a da imperatriz Teresa Cristina (1822-1889), também foram achados."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c7",
+      "text": "The fresco “Dragon and Two Dolphins” was found in fragments after the fire and restored in Italy.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Durante o Resgate do acervo, após o incêndio de 2018, ele foi encontrado em 156 fragmentos, de diferentes tamanhos."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "O afresco pompeiano “Dragão e Dois Golfinhos”, da Coleção Teresa Cristina, acaba de ser restaurado na Itália."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c8",
+      "text": "The collection, also called the Mediterranean Collection, holds Etruscan and Greek objects and finds from Greek colonies in southern Italy, plus Roman pieces, above all from Pompeii and Herculaneum.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_revmae_article_view_bda101",
+          "excerpt": "A coleção, também chamada de Coleção Mediterrânea, é composta por objetos etruscos, gregos e das colônias gregas do sul da Itália, além de importantes peças do período romano, especialmente, aquelas provenientes das cidades de Pompeia e Herculano."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c9",
+      "text": "According to ANSA, the archaeological collection came as the dowry of Teresa Cristina’s marriage to Pedro II.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "As chamas atingiram inclusive uma coleção arqueológica trazida ao Brasil por Teresa Cristina de Bourbon-Duas Sicílias, nascida em Nápoles, como dote de seu casamento com o imperador Dom Pedro II."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c10",
+      "text": "Historian Anita Correia Lima de Almeida, of UNIRIO, ties the formation of the collection to the politics of the Second Reign.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "A história da formação desse acervo se vincula ao Segundo Reinado por estreitos nexos políticos."
+        },
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "é professora da Universidade Federal do Estado do Rio de Janeiro (UNIRIO)"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c11",
+      "text": "The objects lay almost two thousand years under eruption debris and were dug up in excavations in the 18th and 19th centuries.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Aqueles restos materiais das cidades romanas soterradas pelo Vesúvio em 79 EC, afrescos, joias de bronze, amuletos, vidros, lamparinas e outros objetos da vida cotidiana tinham permanecido debaixo de grossas camadas de material eruptivo por quase dois mil anos."
+        },
+        {
+          "sourceId": "src_revistas_usp_br_cpc_article_view_674a08",
+          "excerpt": "Resgatados em sucessivas escavações arqueológicas ao longo dos séculos XVIII e XIX e, afinal, musealizados, eles retornavam às cinzas, agora do incêndio."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c12",
+      "text": "A collection of objects from Pompeii was among the things the museum hoped to recover.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_revistapesquisa_fapesp_br_en_2019_05_12b936",
+          "excerpt": "uma coleção de objetos resgatados de Pompeia, a cidade romana destruída pela erupção do vulcão Vesúvio há quase 2 mil anos."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "“Dragon and Two Dolphins” is one of the collection’s four frescoes and dates from between AD 62 and 79.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "sendo um dos quatro afrescos da Coleção da Imperatriz Teresa Cristina do Museu Nacional/UFRJ"
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "O mural afresco “Dragão e Dois Golfinhos” é um bem cultural que fez parte do Templo de Isis, na cidade italiana de Pompéia, sendo datado entre 62 e 79 d. C."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c14",
+      "text": "Heat, light and contact with water turned the fresco’s black background white and warped the fragments.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Devido às altas temperaturas, luminosidade e contato com a água, a coloração negra desse afresco ficou branca e seus pedaços sofreram mudanças físicas, ficando abauladas."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c15",
+      "text": "The restoration was done in cooperation with a foundation in Turin, and the fresco was exhibited in Naples, with its return to Brazil planned afterwards.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "A restauração do painel de pintura mural “Dragão e Dois Golfinhos” foi realizada por meio de uma cooperação técnico-científica entre a Fundação Centro de Conservação e Restauro “La Venaria Reale”, sediada em Turim, e a equipe do Laboratório Central de Conservação e Restauração (LCCR) do Museu Nacional/UFRJ."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Os resultados da mais recente temporada de restaurações estarão dia 23 de junho, na exposição “Fragilidade e Força”, na Gallerie d’Italia, em Nápoles."
+        },
+        {
+          "sourceId": "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+          "excerpt": "Em seguida voltará ao Brasil"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c16",
+      "text": "The Italian government announced it would send pieces from Pompeii and Herculaneum for a long period to be shown at the Italian consulate in Rio.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "enviará para exposição no Brasil uma série de itens arqueológicos dos parques de Pompeia e Ercolano"
+        },
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "enviará, por um período prolongado, uma seleção de achados prestigiosos que serão expostos no Consulado-Geral Italiano no Rio"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    },
+    {
+      "id": "c17",
+      "text": "Italy offered help restoring a Greek statuette brought by Teresa Cristina and destroyed in the fire.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_istoe_com_br_italia_enviara_itens_649d53",
+          "excerpt": "Além disso, Bonisoli ofereceu uma colaboração para restaurar uma estatueta koré (estátua feminina grega em pé e com postura rígida) trazida por Teresa Cristina e destruída no incêndio."
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
+    }
+  ],
+  "sourceIds": [
+    "src_istoe_com_br_italia_enviara_itens_649d53",
+    "src_correiodamanha_com_br_correio_serrano_2024_f308c6",
+    "src_harpia_mn_ufrj_br_afresco_restaurado_6ee046",
+    "src_revistas_usp_br_cpc_article_view_674a08",
+    "src_revistapesquisa_fapesp_br_en_2019_05_12b936",
+    "src_revistapesquisa_fapesp_br_museu_nacional_resgata_d7637d",
+    "src_revistas_usp_br_revmae_article_view_bda101"
+  ],
+  "quizIds": [
+    "q_pompeii_in_brazil_1__en",
+    "q_pompeii_in_brazil_2__en",
+    "q_pompeii_in_brazil_3__en"
+  ],
+  "contentLicense": "pending",
+  "generation": {
+    "model": "claude-code (claude-opus-5-5)",
+    "promptVersion": "write-v1",
+    "runId": "2026-11-16-cluster_pompeii"
+  },
+  "reviewStatus": "draft",
+  "publicationStatus": "draft",
+  "reviewedBy": null,
+  "reviewedAt": null,
+  "reviewAfter": "2027-11-01T00:00:00Z",
+  "publishedAt": null,
+  "updatedAt": "2026-11-16T00:00:00Z"
+}
