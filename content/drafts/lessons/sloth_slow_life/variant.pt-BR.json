@@ -64,7 +64,7 @@
           "excerpt": "where they can be found high in the forest canopy sunning, resting, or feeding on leaves."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -77,7 +77,7 @@
           "excerpt": "especially for processing plant matter, which is rich in fibre but low in digestible nutrients."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "The leafy food is digested slowly; a fermenting meal may take up to a week to process."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -111,7 +111,7 @@
           "excerpt": "With little energy at their disposal, sloths are presumed to exist within a narrow and finely tuned energy budget, in which minimal expenditure is linked to minimal energy intake."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -128,7 +128,7 @@
           "excerpt": "Trichophilus welckeri, a green algal species first described more than a century ago, is widely believed to discolor the animals fur and provide the sloth with effective camouflage."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -141,7 +141,7 @@
           "excerpt": "We discovered that sloths consumed algae from their fur, which was highly digestible and lipid-rich."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -162,7 +162,7 @@
           "excerpt": "Sloths defecate only once a week, storing faeces in an anal pouch."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -187,7 +187,7 @@
           "excerpt": "Sloths are limited by the rate at which they can acquire energy and are unable to regulate core body temperature (Tb) to the extent seen in most mammals."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -200,7 +200,7 @@
           "excerpt": "By descending a tree to defecate, sloths transport moths to their oviposition sites in sloth dung, which facilitates moth colonization of sloth fur."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -217,7 +217,7 @@
           "excerpt": "Sloths consume these algae-gardens, presumably to augment their limited diet."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -234,7 +234,7 @@
           "excerpt": "torquatus) is restricted to the small Atlantic forest of southeastern Brazil"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -251,7 +251,7 @@
           "excerpt": "Together, our findings confirm the independent evolutionary paths of these two lineages"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -264,7 +264,7 @@
           "excerpt": "underscore the unique conservation challenges posed by both historical climatic changes and ongoing deforestation of the Atlantic Forest."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

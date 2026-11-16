@@ -76,7 +76,7 @@
           "excerpt": "Geckos are able to scurry up walls and across ceilings thanks to two million microscopic hairs on their toes"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -93,7 +93,7 @@
           "excerpt": "contains hundreds of projections terminating in 0.2–0.5 μm spatula-shaped structures"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -106,7 +106,7 @@
           "excerpt": "which look like broccoli on the tips of the hairs"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -123,7 +123,7 @@
           "excerpt": "We provide the first direct experimental evidence for dry adhesion of gecko setae by van der Waals forces"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -140,7 +140,7 @@
           "excerpt": "the spatulas deform, enabling molecular contact over large areas, thus translating weak van der Waals interactions into enormous attractive forces"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -157,7 +157,7 @@
           "excerpt": "Unlike many insects, geckos lack glands on the surfaces of their feet"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -170,7 +170,7 @@
           "excerpt": "They calculated that suction is much less effective than the measured sticking force of geckos. Plus, geckos can stick to the wall in a vacuum."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -183,7 +183,7 @@
           "excerpt": "When a gecko runs it has to attach and detach its feet 15 times a second."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -200,7 +200,7 @@
           "excerpt": "Geckos have developed an amazing way of walking that rolls these hairs onto the surface, and then peels them off again, just like tape."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -221,7 +221,7 @@
           "excerpt": "In a paper in this week's issue of Nature"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -234,7 +234,7 @@
           "excerpt": "a single hair could lift an ant, while a million hairs covering an area the size of a dime could lift a small child of about 45 pounds."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -247,7 +247,7 @@
           "excerpt": "while in the laboratory geckos may not need more than 10 percent of their setae to stick to glass"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -264,7 +264,7 @@
           "excerpt": "The toes of live Tokay geckos were highly hydrophobic, and adhered equally well to strongly hydrophobic and strongly hydrophilic, polarizable surfaces."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -277,7 +277,7 @@
           "excerpt": "A van der Waals mechanism implies that the remarkable adhesive properties of gecko setae are merely a result of the size and shape of the tips, and are not strongly affected by surface chemistry."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -290,7 +290,7 @@
           "excerpt": "we have replicated the multiscale structure of setae and spatulas using microfabricated multiwalled carbon nanotubes"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -303,7 +303,7 @@
           "excerpt": "Previous studies found that geckos fail to adhere to hydrophobic, weakly polarizable surfaces [polytetrafluoroethylene"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],

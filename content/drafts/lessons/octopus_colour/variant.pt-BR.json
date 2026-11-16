@@ -64,7 +64,7 @@
           "excerpt": "With approximately 230 chromatophores per square millimeter of skin in octopuses"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -81,7 +81,7 @@
           "excerpt": "the chromatophore organs in the skin-pigment sacs each with 15 to 25 radial muscle fibers innervated by neurons"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -94,7 +94,7 @@
           "excerpt": "When these muscles contract, the pigment sac expands from a spherical shape approximately 10 μm in diameter to a flattened disk approximately 300 μm in diameter, thereby providing coloration to a small portion of the skin"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -107,7 +107,7 @@
           "excerpt": "Using a network of pigment cells and specialized muscles in its skin, this invertebrate can almost instantaneously match the colors, patterns, and even textures of its surroundings."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -120,7 +120,7 @@
           "excerpt": "Cephalopod color change, in regard to speed of change and diversity of patterns, is unparalleled among other animals"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -137,7 +137,7 @@
           "excerpt": "cephalopods dramatically change color for both producing chromatically matched camouflage and signaling to conspecifics, despite having a single photoreceptor channel."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -154,7 +154,7 @@
           "excerpt": "Neither of these explanations resolves the puzzle of “color-blind camouflage,” and researchers remain in search of a mechanism that allows for this ability"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -171,7 +171,7 @@
           "excerpt": "primates have not evolved the off-axis pupil shape found in nearly all shallow water cephalopods that enhances this effect"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -184,7 +184,7 @@
           "excerpt": "Although this mechanisms has been questioned"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -201,7 +201,7 @@
           "excerpt": "By creating an action spectrum for the latency to LACE, we found that LACE occurred most quickly in response to blue light."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -218,7 +218,7 @@
           "excerpt": "we hypothesize that LACE may play a role in modulating body patterning for camouflage"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -231,7 +231,7 @@
           "excerpt": "all cephalopod studies to date have found rhodopsin transcripts in the skin identical to those in the eye"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     },
     {
@@ -248,7 +248,7 @@
           "excerpt": "The metabolic demand of the fully activated chromatophore system is nearly as great as an octopus’s resting metabolic rate."
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "partial",
       "humanVerdict": "pending"
     },
     {
@@ -261,7 +261,7 @@
           "excerpt": "selective pressures in octopuses that may influence the adoption of nocturnal lifestyles, the use of dens"
         }
       ],
-      "autoVerdict": "pending",
+      "autoVerdict": "supported",
       "humanVerdict": "pending"
     }
   ],
