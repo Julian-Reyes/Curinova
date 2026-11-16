@@ -5,8 +5,8 @@
   "slug": "is-there-an-animal-that-never-dies-of-old-age",
   "title": "Is there an animal that never dies of old age?",
   "hook": "A jellyfish smaller than a fingernail turns young again when life gets tough.",
-  "summary": "The jellyfish Turritopsis dohrnii can turn back into its young polyp stage again and again, escaping ageing; it can still be eaten or get sick.",
-  "cardText": "Turritopsis dohrnii, a jellyfish a few millimetres across, can turn back into its young polyp stage and start life over, again and again. That does not protect it from predators or disease.",
+  "summary": "The jellyfish Turritopsis dohrnii can turn back into its young polyp stage again and again, escaping ageing; it can still be eaten or die in other ways.",
+  "cardText": "Turritopsis dohrnii, a jellyfish a few millimetres across, can turn back into its young polyp stage and start life over, again and again. That does not protect it from predators or other dangers in the sea.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "It is the only species known to rejuvenate repeatedly after reproducing, hence its nickname, \"the immortal jellyfish\". The nickname is misleading, though: in the sea, most are probably eaten or killed by disease before they ever get the chance to revert."
+      "text": "It is the only species known to rejuvenate repeatedly after reproducing, hence its nickname, \"the immortal jellyfish\". The nickname is misleading, though: in the sea, predators and other hazards, such as a shortage of the plankton they eat, probably kill many before they ever get the chance to revert."
     },
     {
       "type": "takeaway",
-      "text": "Turritopsis dohrnii can turn back into a polyp and escape ageing, but not predators or disease."
+      "text": "Turritopsis dohrnii can turn back into a polyp and escape ageing, but not predators or other dangers."
     }
   ],
   "deepDiveBlocks": [
@@ -145,19 +145,19 @@
     },
     {
       "id": "c6",
-      "text": "In nature, most probably die from predators or disease before they can revert.",
+      "text": "In the wild, predators and other hazards, such as shortages of their plankton food, probably still kill many of them before they can revert.",
       "highStakes": true,
       "support": [
         {
-          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
-          "excerpt": "In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form."
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "And, in the wild, there's plenty of things that probably do kill them – including fluctuating availability of their plankton food, predators or algae that smother jellyfish colonies."
         },
         {
-          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
-          "excerpt": "though scientists can't rule out that it doesn't eventually die naturally"
+          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
+          "excerpt": "In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -257,6 +257,19 @@
       ],
       "autoVerdict": "supported",
       "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Scientists cannot rule out that the jellyfish eventually dies of natural causes.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "though scientists can't rule out that it doesn't eventually die naturally"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
     }
   ],
   "sourceIds": [
@@ -283,5 +296,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

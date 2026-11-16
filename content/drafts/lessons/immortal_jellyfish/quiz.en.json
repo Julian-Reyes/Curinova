@@ -33,7 +33,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Because it can still be eaten or get sick"
+        "text": "Because it can still be eaten or die in other ways"
       },
       {
         "id": "b",
@@ -45,8 +45,8 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Rejuvenating spares it from ageing, not from predators or disease; in the sea, most probably die that way.",
-    "misconception": "Escaping ageing is not the same as never dying: the jellyfish is still vulnerable to predators and disease.",
+    "explanation": "Rejuvenating spares it from ageing, not from predators or other hazards such as food shortages; in the sea, many probably die before they can revert.",
+    "misconception": "Escaping ageing is not the same as never dying: the jellyfish is still vulnerable to predators and other hazards.",
     "claimIds": ["c6", "c12"],
     "status": "draft"
   },

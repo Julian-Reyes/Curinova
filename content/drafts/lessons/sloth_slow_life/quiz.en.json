@@ -71,7 +71,7 @@
       }
     ],
     "correctOptionId": "b",
-    "explanation": "Algae grow in the fur, help camouflage the sloth and even serve as food for it.",
+    "explanation": "Algae grow in the fur and even serve as food for the sloth; they may also help camouflage it, though that is still unproven.",
     "claimIds": ["c5", "c6"],
     "status": "draft"
   }

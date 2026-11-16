@@ -12,7 +12,7 @@
       },
       {
         "id": "b",
-        "text": "Sobreviveram ao vácuo, mas a radiação do Sol reduziu bastante a sobrevivência"
+        "text": "Sobreviveram ao vácuo, mas a radiação do Sol reduziu a sobrevivência"
       },
       {
         "id": "c",
@@ -20,8 +20,8 @@
       }
     ],
     "correctOptionId": "b",
-    "explanation": "O vácuo não foi problema; somada a ele, a radiação ultravioleta do Sol derrubou a sobrevivência.",
-    "misconception": "Os tardígrados são resistentes, mas não invencíveis: a radiação ultravioleta do Sol os prejudicou bastante.",
+    "explanation": "O vácuo não foi problema; somada a ele, a radiação do Sol, incluindo a ultravioleta, reduziu a sobrevivência.",
+    "misconception": "Os tardígrados são resistentes, mas não invencíveis: a radiação do Sol, incluindo a ultravioleta, os prejudicou bastante.",
     "claimIds": ["c6"],
     "status": "draft"
   },

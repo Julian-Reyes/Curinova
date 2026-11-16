@@ -5,8 +5,8 @@
   "slug": "um-tardigrado-sobrevive-no-espaco",
   "title": "Um tardígrado sobrevive no espaço?",
   "hook": "Em 2007, ursos-d’água secos passaram 12 dias em órbita, expostos ao espaço.",
-  "summary": "Sim: em 2007, tardígrados desidratados foram expostos ao espaço aberto em órbita, na missão FOTON-M3, e sobreviveram ao vácuo; a radiação ultravioleta do Sol, porém, reduziu bastante a sobrevivência.",
-  "cardText": "Em 2007, cerca de 3 mil tardígrados secos passaram 12 dias em órbita, expostos ao espaço. O vácuo não foi problema para eles; a radiação do Sol, sim, reduziu bastante a sobrevivência.",
+  "summary": "Sim: em 2007, tardígrados desidratados foram expostos ao espaço aberto em órbita, na missão FOTON-M3, e sobreviveram ao vácuo; a radiação do Sol, incluindo a ultravioleta, porém, reduziu a sobrevivência.",
+  "cardText": "Em 2007, cerca de 3 mil tardígrados secos passaram 12 dias em órbita, expostos ao espaço. O vácuo não foi problema para eles; a radiação do Sol, sim, reduziu a sobrevivência.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Em setembro de 2007, cerca de 3 mil tardígrados passaram 12 dias em órbita na missão FOTON-M3, da Agência Espacial Europeia, no experimento TARDIS, expostos ao espaço aberto. Resultado: o vácuo, que desidrata ao extremo, não foi problema. Quando a radiação ultravioleta do Sol entrou na conta, a sobrevivência caiu bastante. Mesmo assim, eles se tornaram os primeiros animais conhecidos a sobreviver à exposição ao espaço."
+      "text": "Em setembro de 2007, cerca de 3 mil tardígrados passaram 12 dias em órbita na missão FOTON-M3, da Agência Espacial Europeia, no experimento TARDIS, expostos ao espaço aberto. Resultado: o vácuo, que desidrata ao extremo, não foi problema. Quando a radiação do Sol, incluindo a ultravioleta, entrou na conta, a sobrevivência caiu. Mesmo assim, eles se tornaram os primeiros animais conhecidos a sobreviver à exposição ao espaço."
     },
     {
       "type": "takeaway",
-      "text": "Tardígrados secos sobreviveram ao vácuo do espaço em 2007; o que mais os prejudicou foi a radiação ultravioleta do Sol."
+      "text": "Tardígrados secos sobreviveram ao vácuo do espaço em 2007; a radiação do Sol, incluindo a ultravioleta, reduziu a sobrevivência."
     }
   ],
   "deepDiveBlocks": [
@@ -133,7 +133,7 @@
     },
     {
       "id": "c6",
-      "text": "O vácuo do espaço não foi problema para os tardígrados, mas a radiação ultravioleta do Sol reduziu bastante a sobrevivência.",
+      "text": "O vácuo do espaço não foi problema para os tardígrados, mas a radiação do Sol, incluindo a ultravioleta, reduziu a sobrevivência.",
       "highStakes": true,
       "support": [
         {
@@ -145,7 +145,7 @@
           "excerpt": "The experiments showed that tardigrades can survive exposure to the space vacuum, but the addition of factors such as ultraviolet solar radiation, ionising solar radiation and galactic cosmic radiation significantly reduced their survival rate"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -286,5 +286,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

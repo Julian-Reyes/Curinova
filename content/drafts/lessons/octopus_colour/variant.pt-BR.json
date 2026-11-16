@@ -5,7 +5,7 @@
   "slug": "como-o-polvo-muda-de-cor-num-piscar-de-olhos",
   "title": "Como o polvo muda de cor num piscar de olhos?",
   "hook": "Ele imita o tom do fundo do mar, mas, ao que tudo indica, não enxerga cores.",
-  "summary": "A pele do polvo tem bolsinhas de pigmento, os cromatóforos, que músculos comandados por nervos abrem e fecham; o curioso é que ele parece não distinguir cores.",
+  "summary": "A pele do polvo tem bolsinhas de pigmento, os cromatóforos, que músculos comandados por nervos abrem; o curioso é que ele parece não distinguir cores.",
   "cardText": "Milhares de bolsinhas de pigmento na pele, esticadas por músculos ligados a nervos, deixam o polvo trocar de cor quase na hora. O mistério: a maioria dos estudos indica que ele não enxerga cores.",
   "cardBlocks": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Em 2015, cientistas viram que pedaços de pele de polvo, separados do corpo, abrem os cromatóforos quando recebem luz, mais depressa sob luz azul. A pele produz a mesma proteína sensível à luz (opsina) usada nos olhos, e os autores sugerem que isso pode ajudar na camuflagem. Os defensores da hipótese da pupila lembram que, sendo a mesma opsina do olho, a pele responde à luz quase como a retina, o que não resolveria a questão das cores."
+      "text": "Cientistas viram que pedaços de pele de polvo, separados do corpo, abrem os cromatóforos quando recebem luz, mais depressa sob luz azul. A pele produz a mesma proteína sensível à luz (opsina) usada nos olhos, e os autores sugerem que isso pode ajudar na camuflagem. Os defensores da hipótese da pupila lembram que, sendo a mesma opsina do olho, a pele responde à luz quase como a retina, o que não resolveria a questão das cores."
     },
     {
       "type": "heading",
@@ -44,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Mudar de cor gasta energia. Um estudo de 2024 mediu o oxigênio consumido pela pele do polvo e calculou que o sistema de cromatóforos, todo ativado, gasta quase tanto quanto o animal inteiro em repouso. Para os autores, esse custo pode ter favorecido hábitos noturnos e o uso de tocas."
+      "text": "Mudar de cor gasta energia. Um estudo mediu o oxigênio consumido pela pele do polvo e calculou que o sistema de cromatóforos, todo ativado, gasta quase tanto quanto o animal inteiro em repouso. Para os autores, esse custo pode ter favorecido hábitos noturnos e o uso de tocas."
     }
   ],
   "heroMedia": {
@@ -169,9 +169,13 @@
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
           "excerpt": "primates have not evolved the off-axis pupil shape found in nearly all shallow water cephalopods that enhances this effect"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_52d962",
+          "excerpt": "a color vision mechanism recently simulated for Octopus australis by Stubbs and Stubbs (2016a)"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -236,7 +240,7 @@
     },
     {
       "id": "c13",
-      "text": "Um estudo de 2024, medindo o oxigênio consumido pela pele, calculou que o sistema de cromatóforos todo ativado gasta quase tanto quanto o polvo inteiro em repouso.",
+      "text": "Um estudo, medindo o oxigênio consumido pela pele, calculou que o sistema de cromatóforos todo ativado gasta quase tanto quanto o polvo inteiro em repouso.",
       "highStakes": false,
       "support": [
         {
@@ -248,7 +252,7 @@
           "excerpt": "The metabolic demand of the fully activated chromatophore system is nearly as great as an octopus’s resting metabolic rate."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -289,5 +293,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

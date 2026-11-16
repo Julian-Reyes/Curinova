@@ -5,8 +5,8 @@
   "slug": "como-a-preguica-consegue-viver-tao-devagar",
   "title": "Como a preguiça consegue viver tão devagar?",
   "hook": "Uma única refeição pode levar até uma semana para ser digerida.",
-  "summary": "A preguiça tem metabolismo baixo e come folhas que rendem pouca energia e são digeridas devagar; algas no pelo a camuflam, e ela desce da árvore cerca de uma vez por semana para fazer as necessidades.",
-  "cardText": "Folhas rendem pouca energia, e a preguiça gasta pouco: metabolismo baixo, digestão lentíssima e algas no pelo que a camuflam. Ela só desce da árvore cerca de uma vez por semana, para fazer as necessidades.",
+  "summary": "A preguiça tem metabolismo baixo e come folhas que rendem pouca energia e são digeridas devagar; algas no pelo talvez ajudem a camuflá-la, e ela desce da árvore cerca de uma vez por semana para fazer as necessidades.",
+  "cardText": "Folhas rendem pouca energia, e a preguiça gasta pouco: metabolismo baixo, digestão lentíssima e algas no pelo que talvez ajudem a camuflá-la. Ela só desce da árvore cerca de uma vez por semana, para fazer as necessidades.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "O pelo também ajuda. Nele crescem algas que deixam o bicho esverdeado e o camuflam, e um estudo de 2014 descobriu que a preguiça come essas algas, fáceis de digerir e ricas em gordura. E o banheiro? Mais ou menos uma vez por semana, ela desce até o chão para urinar e defecar, uma viagem arriscada."
+      "text": "O pelo também pode ajudar. Nele crescem algas que deixam o bicho esverdeado, e acredita-se que isso o camufle, embora haja poucas evidências. Um estudo descobriu que a preguiça come essas algas, fáceis de digerir e ricas em gordura. E o banheiro? Mais ou menos uma vez por semana, ela desce até o chão para urinar e defecar, uma viagem arriscada."
     },
     {
       "type": "takeaway",
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Descer gasta energia e expõe a preguiça a predadores. Por que, então, não fazer as necessidades lá de cima? Uma hipótese, de 2014, envolve mariposas que vivem no pelo das preguiças-de-três-dedos. Elas põem ovos nas fezes da preguiça, no chão, e a descida ajuda novas mariposas a colonizar o pelo. As mariposas aumentam o nitrogênio no pelo, o que alimenta as algas, que a preguiça come para complementar a dieta. É uma explicação proposta pelos autores, não um fato fechado."
+      "text": "Descer gasta energia e expõe a preguiça a predadores. Por que, então, não fazer as necessidades lá de cima? Uma hipótese envolve mariposas que vivem no pelo das preguiças-de-três-dedos. Elas põem ovos nas fezes da preguiça, no chão, e a descida ajuda novas mariposas a colonizar o pelo. As mariposas aumentam o nitrogênio no pelo, o que alimenta as algas, que a preguiça come para complementar a dieta. É uma explicação proposta pelos autores, não um fato fechado."
     },
     {
       "type": "heading",
@@ -116,7 +116,7 @@
     },
     {
       "id": "c5",
-      "text": "Algas que crescem no pelo deixam a preguiça esverdeada e ajudam a camuflá-la.",
+      "text": "Algas que crescem no pelo deixam a preguiça esverdeada; acredita-se que isso a camufle, mas é uma possibilidade, não algo comprovado.",
       "highStakes": false,
       "support": [
         {
@@ -126,14 +126,22 @@
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_56cae7",
           "excerpt": "Trichophilus welckeri, a green algal species first described more than a century ago, is widely believed to discolor the animals fur and provide the sloth with effective camouflage."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_56cae7",
+          "excerpt": "However, this phenomenon has not been explored in any detail and there is little evidence to substantiate this widely held opinion."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "In addition to providing nutrition, it is possible that algal cultivation enhances sloth survival via camouflage reducing mortality from aerial predators [13]."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c6",
-      "text": "Um estudo de 2014 descobriu que as preguiças comem as algas do próprio pelo, fáceis de digerir e ricas em gordura.",
+      "text": "Um estudo descobriu que as preguiças comem as algas do próprio pelo, fáceis de digerir e ricas em gordura.",
       "highStakes": false,
       "support": [
         {
@@ -141,7 +149,7 @@
           "excerpt": "We discovered that sloths consumed algae from their fur, which was highly digestible and lipid-rich."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -192,7 +200,7 @@
     },
     {
       "id": "c9",
-      "text": "Uma hipótese de 2014 propõe que, ao descer para defecar, a preguiça leva mariposas do seu pelo até as fezes, onde elas põem ovos, o que ajuda novas mariposas a colonizar o pelo.",
+      "text": "Uma hipótese propõe que, ao descer para defecar, a preguiça leva mariposas do seu pelo até as fezes, onde elas põem ovos, o que ajuda novas mariposas a colonizar o pelo.",
       "highStakes": false,
       "support": [
         {
@@ -200,7 +208,7 @@
           "excerpt": "By descending a tree to defecate, sloths transport moths to their oviposition sites in sloth dung, which facilitates moth colonization of sloth fur."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -292,5 +300,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

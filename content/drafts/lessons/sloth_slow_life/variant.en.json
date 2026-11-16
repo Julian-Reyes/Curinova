@@ -5,8 +5,8 @@
   "slug": "how-do-sloths-live-so-slowly",
   "title": "How do sloths live so slowly?",
   "hook": "A single meal can take up to a week to digest.",
-  "summary": "Sloths have a low metabolism and a diet of leaves that yields little energy and digests slowly; algae in their fur camouflage them, and they climb down about once a week to relieve themselves.",
-  "cardText": "Leaves yield little energy, so sloths spend very little: a low metabolism, ultra-slow digestion and camouflaging algae in their fur. They come down from the trees only about once a week, to relieve themselves.",
+  "summary": "Sloths have a low metabolism and a diet of leaves that yields little energy and digests slowly; algae in their fur may help camouflage them, and they climb down about once a week to relieve themselves.",
+  "cardText": "Leaves yield little energy, so sloths spend very little: a low metabolism, ultra-slow digestion and algae in their fur that may help camouflage them. They come down from the trees only about once a week, to relieve themselves.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,7 +14,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Its fur helps too. Algae grow in it, giving the animal a greenish tint that camouflages it, and a 2014 study found that sloths eat these algae, which are easy to digest and rich in fat. And the bathroom? About once a week, a sloth climbs down to the ground to urinate and defecate, a risky trip."
+      "text": "Its fur may help too. Algae grow in it and give the animal a greenish tint, which is widely thought to camouflage it, although there is little evidence for this. A study found that sloths eat these algae, which are easy to digest and rich in fat. And the bathroom? About once a week, a sloth climbs down to the ground to urinate and defecate, a risky trip."
     },
     {
       "type": "takeaway",
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Climbing down costs energy and exposes a sloth to predators. So why not go from up in the tree? A 2014 hypothesis involves moths that live in the fur of three-toed sloths. They lay their eggs in sloth dung on the ground, so the trip down helps new moths colonise the fur. The moths raise nitrogen levels in the fur, which feeds the algae, which the sloth eats to top up its diet. It is an explanation proposed by the authors, not a settled fact."
+      "text": "Climbing down costs energy and exposes a sloth to predators. So why not go from up in the tree? One hypothesis involves moths that live in the fur of three-toed sloths. They lay their eggs in sloth dung on the ground, so the trip down helps new moths colonise the fur. The moths raise nitrogen levels in the fur, which feeds the algae, which the sloth eats to top up its diet. It is an explanation proposed by the authors, not a settled fact."
     },
     {
       "type": "heading",
@@ -116,7 +116,7 @@
     },
     {
       "id": "c5",
-      "text": "Algae growing in the fur give sloths a greenish tint and help camouflage them.",
+      "text": "Algae growing in the fur give sloths a greenish tint; this is widely thought to camouflage them, though it is possible rather than proven.",
       "highStakes": false,
       "support": [
         {
@@ -126,14 +126,22 @@
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_56cae7",
           "excerpt": "Trichophilus welckeri, a green algal species first described more than a century ago, is widely believed to discolor the animals fur and provide the sloth with effective camouflage."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_56cae7",
+          "excerpt": "However, this phenomenon has not been explored in any detail and there is little evidence to substantiate this widely held opinion."
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_de237d",
+          "excerpt": "In addition to providing nutrition, it is possible that algal cultivation enhances sloth survival via camouflage reducing mortality from aerial predators [13]."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
       "id": "c6",
-      "text": "A 2014 study found that sloths eat the algae in their own fur, which are easy to digest and rich in fat.",
+      "text": "A study found that sloths eat the algae in their own fur, which are easy to digest and rich in fat.",
       "highStakes": false,
       "support": [
         {
@@ -141,7 +149,7 @@
           "excerpt": "We discovered that sloths consumed algae from their fur, which was highly digestible and lipid-rich."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -192,7 +200,7 @@
     },
     {
       "id": "c9",
-      "text": "A 2014 hypothesis proposes that by climbing down to defecate, sloths carry moths from their fur to the dung where they lay eggs, helping new moths colonise the fur.",
+      "text": "A hypothesis proposes that by climbing down to defecate, sloths carry moths from their fur to the dung where they lay eggs, helping new moths colonise the fur.",
       "highStakes": false,
       "support": [
         {
@@ -200,7 +208,7 @@
           "excerpt": "By descending a tree to defecate, sloths transport moths to their oviposition sites in sloth dung, which facilitates moth colonization of sloth fur."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -288,5 +296,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

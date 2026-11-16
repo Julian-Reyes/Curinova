@@ -4,7 +4,7 @@
     "questionGroupId": "qg_octopus_colour_1",
     "conceptId": "concept_octopus_colour",
     "locale": "en",
-    "prompt": "What opens and closes an octopus’s chromatophores?",
+    "prompt": "What opens an octopus’s chromatophores?",
     "options": [
       {
         "id": "a",
@@ -55,7 +55,7 @@
     "questionGroupId": "qg_octopus_colour_3",
     "conceptId": "concept_octopus_colour",
     "locale": "en",
-    "prompt": "According to a 2024 study, how much energy does an octopus’s fully activated colour system use?",
+    "prompt": "According to a study, how much energy does an octopus’s fully activated colour system use?",
     "options": [
       {
         "id": "a",

@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Those tips get so close to a surface that a feeble attraction between the molecules of the foot and those of the wall starts to matter: the van der Waals force. On its own it is negligible; added up over billions of spatulae, it holds the animal upside down. Researchers ruled out the alternatives: the feet have no glue glands, suction would be far too weak, and geckos stick even in a vacuum."
+      "text": "Those tips get so close to a surface that a feeble attraction between the molecules of the foot and those of the wall starts to matter: the van der Waals force. On its own it is negligible; added up over about a billion spatulae, it holds the animal upside down. Researchers ruled out the alternatives: the feet have no glue glands, suction would be far too weak, and geckos stick even in a vacuum."
     },
     {
       "type": "takeaway",
-      "text": "Geckos cling because billions of microscopic tips touch the wall so closely that the pull between molecules adds up to plenty of grip."
+      "text": "Geckos cling because about a billion microscopic tips touch the wall so closely that the pull between molecules adds up to plenty of grip."
     }
   ],
   "deepDiveBlocks": [
@@ -44,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In 2000 the authors still could not rule out that a thin film of water helped. In 2002, new tests showed that gecko toes stick equally well to surfaces that repel water and to surfaces that attract it, which pointed to van der Waals forces. A neat consequence: what matters is the size and shape of the tips, more than the chemistry of the wall."
+      "text": "In 2000 the authors still could not rule out that a thin film of water helped. Further tests showed that gecko toes stick equally well to surfaces that repel water and to surfaces that attract it, which pointed to van der Waals forces. A neat consequence: what matters is the size and shape of the tips, more than the chemistry of the wall."
     },
     {
       "type": "heading",
@@ -52,7 +52,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The idea has inspired dry adhesive tapes made of carbon nanotubes that mimic setae and spatulae. Not every surface works, though: geckos cannot stick to Teflon."
+      "text": "The idea has inspired dry adhesive tapes made of carbon nanotubes that mimic setae and spatulae, and one such tape even sticks to Teflon. The gecko itself cannot."
     }
   ],
   "heroMedia": {
@@ -128,7 +128,7 @@
     },
     {
       "id": "c5",
-      "text": "Weak on its own, this attraction adds up over billions of spatulae to hold the animal.",
+      "text": "Weak on its own, this attraction adds up over about a billion spatulae to hold the animal.",
       "highStakes": false,
       "support": [
         {
@@ -140,7 +140,7 @@
           "excerpt": "the spatulas deform, enabling molecular contact over large areas, thus translating weak van der Waals interactions into enormous attractive forces"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -252,7 +252,7 @@
     },
     {
       "id": "c13",
-      "text": "In 2000 a role for water could not be ruled out; in 2002, toes stuck equally well to water-repelling and water-attracting surfaces, pointing to van der Waals forces.",
+      "text": "In 2000 a role for water could not be ruled out; further tests found that toes stuck equally well to water-repelling and water-attracting surfaces, pointing to van der Waals forces.",
       "highStakes": false,
       "support": [
         {
@@ -264,7 +264,7 @@
           "excerpt": "The toes of live Tokay geckos were highly hydrophobic, and adhered equally well to strongly hydrophobic and strongly hydrophilic, polarizable surfaces."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -282,15 +282,19 @@
     },
     {
       "id": "c15",
-      "text": "The idea inspired dry adhesive tapes made of carbon nanotubes that mimic setae and spatulae.",
+      "text": "The idea inspired dry adhesive tapes made of carbon nanotubes that mimic setae and spatulae; one sticks even to Teflon.",
       "highStakes": false,
       "support": [
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
           "excerpt": "we have replicated the multiscale structure of setae and spatulas using microfabricated multiwalled carbon nanotubes"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "The gecko tape can support a shear stress (36 N/cm2) nearly four times higher than the gecko foot and sticks to a variety of surfaces, including Teflon."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -326,5 +330,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

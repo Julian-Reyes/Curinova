@@ -5,8 +5,8 @@
   "slug": "existe-um-animal-que-nao-morre-de-velhice",
   "title": "Existe um animal que não morre de velhice?",
   "hook": "Uma água-viva menor que uma unha volta a ser jovem quando a vida aperta.",
-  "summary": "A água-viva Turritopsis dohrnii consegue voltar à fase jovem de pólipo repetidas vezes e, assim, escapar do envelhecimento; mas ainda pode ser comida ou adoecer.",
-  "cardText": "A Turritopsis dohrnii, uma água-viva de poucos milímetros, consegue voltar à fase jovem de pólipo e recomeçar a vida, de novo e de novo. Isso não a protege de predadores nem de doenças.",
+  "summary": "A água-viva Turritopsis dohrnii consegue voltar à fase jovem de pólipo repetidas vezes e, assim, escapar do envelhecimento; mas ainda pode ser comida ou morrer de outras formas.",
+  "cardText": "A Turritopsis dohrnii, uma água-viva de poucos milímetros, consegue voltar à fase jovem de pólipo e recomeçar a vida, de novo e de novo. Isso não a protege de predadores nem de outros perigos do mar.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "É a única espécie conhecida capaz de rejuvenescer repetidamente depois de se reproduzir, daí o apelido de \"água-viva imortal\". Mas o apelido engana: no mar, a maioria provavelmente morre comida por predadores ou por doenças antes de conseguir reverter."
+      "text": "É a única espécie conhecida capaz de rejuvenescer repetidamente depois de se reproduzir, daí o apelido de \"água-viva imortal\". Mas o apelido engana: no mar, predadores e outros perigos, como a falta do plâncton de que ela se alimenta, provavelmente matam muitas antes que consigam reverter."
     },
     {
       "type": "takeaway",
-      "text": "A Turritopsis dohrnii pode voltar a ser pólipo e escapar do envelhecimento, mas não de predadores nem de doenças."
+      "text": "A Turritopsis dohrnii pode voltar a ser pólipo e escapar do envelhecimento, mas não de predadores nem de outros perigos."
     }
   ],
   "deepDiveBlocks": [
@@ -145,19 +145,19 @@
     },
     {
       "id": "c6",
-      "text": "Na natureza, a maioria provavelmente morre comida por predadores ou por doenças antes de reverter.",
+      "text": "Na natureza, predadores e outros perigos, como a falta do plâncton que lhe serve de alimento, provavelmente ainda matam muitas antes que consigam reverter.",
       "highStakes": true,
       "support": [
         {
-          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
-          "excerpt": "In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form."
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "And, in the wild, there's plenty of things that probably do kill them – including fluctuating availability of their plankton food, predators or algae that smother jellyfish colonies."
         },
         {
-          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
-          "excerpt": "though scientists can't rule out that it doesn't eventually die naturally"
+          "sourceId": "src_en_wikipedia_org_wiki_turritopsis_dohrnii_8f54cc",
+          "excerpt": "In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -257,6 +257,19 @@
       ],
       "autoVerdict": "supported",
       "humanVerdict": "pending"
+    },
+    {
+      "id": "c13",
+      "text": "Os cientistas não descartam que a água-viva acabe morrendo de causas naturais.",
+      "highStakes": false,
+      "support": [
+        {
+          "sourceId": "src_bbc_com_future_article_20261016_the_1ddfa3",
+          "excerpt": "though scientists can't rule out that it doesn't eventually die naturally"
+        }
+      ],
+      "autoVerdict": "pending",
+      "humanVerdict": "pending"
     }
   ],
   "sourceIds": [
@@ -283,5 +296,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

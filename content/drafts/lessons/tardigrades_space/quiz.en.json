@@ -12,7 +12,7 @@
       },
       {
         "id": "b",
-        "text": "They survived the vacuum, but the Sun’s radiation sharply cut survival"
+        "text": "They survived the vacuum, but the Sun’s radiation cut survival"
       },
       {
         "id": "c",
@@ -20,8 +20,8 @@
       }
     ],
     "correctOptionId": "b",
-    "explanation": "The vacuum was no problem; adding the Sun’s ultraviolet radiation sharply cut survival.",
-    "misconception": "Tardigrades are tough, not invincible: the Sun’s ultraviolet radiation did them real harm.",
+    "explanation": "The vacuum was no problem; adding the Sun’s radiation, including ultraviolet, cut survival.",
+    "misconception": "Tardigrades are tough, not invincible: the Sun’s radiation, including ultraviolet, did them real harm.",
     "claimIds": ["c6"],
     "status": "draft"
   },

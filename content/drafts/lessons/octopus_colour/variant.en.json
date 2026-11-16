@@ -5,7 +5,7 @@
   "slug": "how-does-an-octopus-change-colour-in-a-blink",
   "title": "How does an octopus change colour in a blink?",
   "hook": "It matches the colour of the seabed, yet it most likely can’t see colour.",
-  "summary": "Octopus skin is packed with pigment sacs called chromatophores, opened and closed by nerve-controlled muscles; the puzzle is that octopuses appear to be colour-blind.",
+  "summary": "Octopus skin is packed with pigment sacs called chromatophores, stretched open by nerve-controlled muscles; the puzzle is that octopuses appear to be colour-blind.",
   "cardText": "Thousands of pigment sacs in its skin, stretched open by nerve-controlled muscles, let an octopus change colour almost instantly. The mystery: most studies suggest it can’t see colour at all.",
   "cardBlocks": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In 2015, scientists found that pieces of octopus skin, cut away from the body, open their chromatophores when light hits them, fastest under blue light. The skin makes the same light-sensitive protein (opsin) used in the eyes, and the authors suggest this may play a part in camouflage. Supporters of the pupil idea point out that, with the same opsin as the eye, the skin responds to light almost exactly like the retina, so it would not solve the colour puzzle."
+      "text": "Scientists found that pieces of octopus skin, cut away from the body, open their chromatophores when light hits them, fastest under blue light. The skin makes the same light-sensitive protein (opsin) used in the eyes, and the authors suggest this may play a part in camouflage. Supporters of the pupil idea point out that, with the same opsin as the eye, the skin responds to light almost exactly like the retina, so it would not solve the colour puzzle."
     },
     {
       "type": "heading",
@@ -44,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Changing colour costs energy. A 2024 study measured the oxygen used by octopus skin and estimated that the fully activated chromatophore system burns nearly as much as the whole animal at rest. The authors suggest this cost may have favoured night-time habits and the use of dens."
+      "text": "Changing colour costs energy. A study measured the oxygen used by octopus skin and estimated that the fully activated chromatophore system burns nearly as much as the whole animal at rest. The authors suggest this cost may have favoured night-time habits and the use of dens."
     }
   ],
   "heroMedia": {
@@ -169,9 +169,13 @@
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_f3dea5",
           "excerpt": "primates have not evolved the off-axis pupil shape found in nearly all shallow water cephalopods that enhances this effect"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_52d962",
+          "excerpt": "a color vision mechanism recently simulated for Octopus australis by Stubbs and Stubbs (2016a)"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -236,7 +240,7 @@
     },
     {
       "id": "c13",
-      "text": "A 2024 study, measuring oxygen used by the skin, estimated that the fully activated chromatophore system uses nearly as much energy as the whole octopus at rest.",
+      "text": "A study, measuring oxygen used by the skin, estimated that the fully activated chromatophore system uses nearly as much energy as the whole octopus at rest.",
       "highStakes": false,
       "support": [
         {
@@ -248,7 +252,7 @@
           "excerpt": "The metabolic demand of the fully activated chromatophore system is nearly as great as an octopus’s resting metabolic rate."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -285,5 +289,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

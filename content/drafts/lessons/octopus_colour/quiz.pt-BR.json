@@ -4,7 +4,7 @@
     "questionGroupId": "qg_octopus_colour_1",
     "conceptId": "concept_octopus_colour",
     "locale": "pt-BR",
-    "prompt": "O que abre e fecha os cromatóforos do polvo?",
+    "prompt": "O que abre os cromatóforos do polvo?",
     "options": [
       {
         "id": "a",
@@ -55,7 +55,7 @@
     "questionGroupId": "qg_octopus_colour_3",
     "conceptId": "concept_octopus_colour",
     "locale": "pt-BR",
-    "prompt": "Segundo um estudo de 2024, quanto gasta o sistema de cores do polvo todo ativado?",
+    "prompt": "Segundo um estudo, quanto gasta o sistema de cores do polvo todo ativado?",
     "options": [
       {
         "id": "a",

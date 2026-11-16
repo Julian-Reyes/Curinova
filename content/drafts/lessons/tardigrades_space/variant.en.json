@@ -5,8 +5,8 @@
   "slug": "can-a-tardigrade-survive-in-space",
   "title": "Can a tardigrade survive in space?",
   "hook": "In 2007, dried-out water bears spent 12 days in orbit, exposed to open space.",
-  "summary": "Yes: in 2007, dehydrated tardigrades were exposed to open space in orbit on the FOTON-M3 mission and survived the vacuum, although the Sun’s ultraviolet radiation sharply cut their survival.",
-  "cardText": "In 2007, about 3,000 dried-out tardigrades spent 12 days in orbit, exposed to open space. The vacuum did not bother them; the Sun’s radiation, though, sharply cut how many survived.",
+  "summary": "Yes: in 2007, dehydrated tardigrades were exposed to open space in orbit on the FOTON-M3 mission and survived the vacuum, although the Sun’s radiation, including ultraviolet, cut their survival.",
+  "cardText": "In 2007, about 3,000 dried-out tardigrades spent 12 days in orbit, exposed to open space. The vacuum did not bother them; the Sun’s radiation, though, cut how many survived.",
   "cardBlocks": [
     {
       "type": "paragraph",
@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "In September 2007, some 3,000 tardigrades spent 12 days in orbit on the European Space Agency’s FOTON-M3 mission, in an experiment called TARDIS, exposed to open space. The result: the vacuum, which dries things out to the extreme, was no problem. When the Sun’s ultraviolet radiation was added, survival dropped sharply. Even so, they became the first animals known to survive exposure to space."
+      "text": "In September 2007, some 3,000 tardigrades spent 12 days in orbit on the European Space Agency’s FOTON-M3 mission, in an experiment called TARDIS, exposed to open space. The result: the vacuum, which dries things out to the extreme, was no problem. When the Sun’s radiation, including ultraviolet, was added, survival dropped. Even so, they became the first animals known to survive exposure to space."
     },
     {
       "type": "takeaway",
-      "text": "Dried-out tardigrades survived the vacuum of space in 2007; what hurt them most was the Sun’s ultraviolet radiation."
+      "text": "Dried-out tardigrades survived the vacuum of space in 2007; the Sun’s radiation, including ultraviolet, cut their survival."
     }
   ],
   "deepDiveBlocks": [
@@ -133,7 +133,7 @@
     },
     {
       "id": "c6",
-      "text": "The vacuum of space was no problem for the tardigrades, but the Sun’s ultraviolet radiation sharply reduced survival.",
+      "text": "The vacuum of space was no problem for the tardigrades, but adding the Sun’s radiation, including ultraviolet, reduced survival.",
       "highStakes": true,
       "support": [
         {
@@ -145,7 +145,7 @@
           "excerpt": "The experiments showed that tardigrades can survive exposure to the space vacuum, but the addition of factors such as ultraviolet solar radiation, ionising solar radiation and galactic cosmic radiation significantly reduced their survival rate"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -286,5 +286,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }

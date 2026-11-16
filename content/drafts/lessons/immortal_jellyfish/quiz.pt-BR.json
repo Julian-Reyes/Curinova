@@ -33,7 +33,7 @@
     "options": [
       {
         "id": "a",
-        "text": "Porque ela ainda pode ser comida ou adoecer"
+        "text": "Porque ela ainda pode ser comida ou morrer de outras formas"
       },
       {
         "id": "b",
@@ -45,8 +45,8 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation": "Rejuvenescer a livra do envelhecimento, mas não de predadores nem de doenças; no mar, a maioria provavelmente morre assim.",
-    "misconception": "Escapar do envelhecimento não é o mesmo que não morrer: a água-viva continua vulnerável a predadores e doenças.",
+    "explanation": "Rejuvenescer a livra do envelhecimento, mas não de predadores nem de outros perigos, como a falta de comida; no mar, muitas provavelmente morrem antes de reverter.",
+    "misconception": "Escapar do envelhecimento não é o mesmo que não morrer: a água-viva continua vulnerável a predadores e a outros perigos.",
     "claimIds": ["c6", "c12"],
     "status": "draft"
   },

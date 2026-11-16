@@ -14,11 +14,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Essas pontas chegam tão perto da superfície que passa a contar uma atração fraquinha entre as moléculas do pé e as da parede, a força de van der Waals. Sozinha, ela é desprezível; somada em bilhões de espátulas, segura o bicho até de cabeça para baixo. Os pesquisadores descartaram as outras explicações: o pé não tem glândulas de cola, a ventosa seria fraca demais e a lagartixa gruda até no vácuo."
+      "text": "Essas pontas chegam tão perto da superfície que passa a contar uma atração fraquinha entre as moléculas do pé e as da parede, a força de van der Waals. Sozinha, ela é desprezível; somada em cerca de um bilhão de espátulas, segura o bicho até de cabeça para baixo. Os pesquisadores descartaram as outras explicações: o pé não tem glândulas de cola, a ventosa seria fraca demais e a lagartixa gruda até no vácuo."
     },
     {
       "type": "takeaway",
-      "text": "A lagartixa gruda porque bilhões de pontas microscópicas encostam tão perto da parede que a atração entre moléculas vira força de sobra."
+      "text": "A lagartixa gruda porque cerca de um bilhão de pontas microscópicas encostam tão perto da parede que a atração entre moléculas vira força de sobra."
     }
   ],
   "deepDiveBlocks": [
@@ -44,7 +44,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Em 2000, os autores ainda não podiam descartar que uma fina camada de água ajudasse na aderência. Em 2002, novos testes mostraram que os dedos grudam igualmente bem em superfícies que repelem e que atraem água, o que reforçou as forças de van der Waals. A consequência é curiosa: o que importa é o tamanho e a forma das pontas, e não tanto a química da parede."
+      "text": "Em 2000, os autores ainda não podiam descartar que uma fina camada de água ajudasse na aderência. Outros testes mostraram que os dedos grudam igualmente bem em superfícies que repelem e que atraem água, o que reforçou as forças de van der Waals. A consequência é curiosa: o que importa é o tamanho e a forma das pontas, e não tanto a química da parede."
     },
     {
       "type": "heading",
@@ -52,7 +52,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A ideia inspirou fitas adesivas secas feitas de nanotubos de carbono que imitam cerdas e espátulas. Mas nem tudo serve de apoio: a lagartixa não consegue grudar no teflon."
+      "text": "A ideia inspirou fitas adesivas secas feitas de nanotubos de carbono que imitam cerdas e espátulas, e uma dessas fitas gruda até no teflon. Já a lagartixa, não."
     }
   ],
   "heroMedia": {
@@ -128,7 +128,7 @@
     },
     {
       "id": "c5",
-      "text": "Fraca sozinha, essa atração somada em bilhões de espátulas é suficiente para segurar o animal.",
+      "text": "Fraca sozinha, essa atração somada em cerca de um bilhão de espátulas é suficiente para segurar o animal.",
       "highStakes": false,
       "support": [
         {
@@ -140,7 +140,7 @@
           "excerpt": "the spatulas deform, enabling molecular contact over large areas, thus translating weak van der Waals interactions into enormous attractive forces"
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -252,7 +252,7 @@
     },
     {
       "id": "c13",
-      "text": "Em 2000 não se descartava a ajuda de água; em 2002, os dedos grudaram igualmente bem em superfícies que repelem e que atraem água, o que apontou para as forças de van der Waals.",
+      "text": "Em 2000 não se descartava a ajuda de água; outros testes mostraram que os dedos grudam igualmente bem em superfícies que repelem e que atraem água, o que apontou para as forças de van der Waals.",
       "highStakes": false,
       "support": [
         {
@@ -264,7 +264,7 @@
           "excerpt": "The toes of live Tokay geckos were highly hydrophobic, and adhered equally well to strongly hydrophobic and strongly hydrophilic, polarizable surfaces."
         }
       ],
-      "autoVerdict": "partial",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -282,15 +282,19 @@
     },
     {
       "id": "c15",
-      "text": "A ideia inspirou fitas adesivas secas de nanotubos de carbono que imitam cerdas e espátulas.",
+      "text": "A ideia inspirou fitas adesivas secas de nanotubos de carbono que imitam cerdas e espátulas; uma delas gruda até no teflon.",
       "highStakes": false,
       "support": [
         {
           "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
           "excerpt": "we have replicated the multiscale structure of setae and spatulas using microfabricated multiwalled carbon nanotubes"
+        },
+        {
+          "sourceId": "src_pmc_ncbi_nlm_nih_gov_articles_72d536",
+          "excerpt": "The gecko tape can support a shear stress (36 N/cm2) nearly four times higher than the gecko foot and sticks to a variety of surfaces, including Teflon."
         }
       ],
-      "autoVerdict": "supported",
+      "autoVerdict": "pending",
       "humanVerdict": "pending"
     },
     {
@@ -326,5 +330,5 @@
   "reviewedAt": null,
   "reviewAfter": null,
   "publishedAt": null,
-  "updatedAt": "2026-11-13T00:00:00Z"
+  "updatedAt": "2026-11-16T00:00:00Z"
 }
