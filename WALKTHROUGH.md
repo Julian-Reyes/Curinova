@@ -330,6 +330,20 @@ Each page reads like an article: the question, the photo, the explanation, the t
 
 **Credits.** A Credits page names everyone whose photos appear in the app, with the license and a link to each original, plus the typefaces. It's linked at the bottom of every public page and in Settings.
 
+### Step 26: Offline, faster pages, accessibility and speed checks (M5, 13–16 November)
+
+**Works offline after one visit.** Before, the app needed a couple of visits before it would open without a connection. Now the first visit is enough: the app saves its lessons on the device straight away. A few seconds after the welcome, it also quietly saves the photos for the first lessons of each topic, up to 3 MB, so the start of every topic looks right on a plane or in the metro. Settings has a switch for this, _Download lessons for offline use_, on by default. Nothing is downloaded when the phone is in data-saver mode or on a very slow connection.
+
+**Clear messages when offline.** Every screen works offline from what was saved. A lesson whose photo wasn't saved shows its drawing instead of a broken picture. Three situations now get their own message: the lessons couldn't load at all (the app explains, and tries again by itself once the connection is back); switching language while offline (it keeps the current language's lessons until it can load the other); and opening a shared lesson link while offline (a small page says so and offers to open the app).
+
+**Public lesson pages got much lighter.** The plain web pages from step 25 used to download the whole app's code in the background, about 184 KB, in case the reader tapped into the app. They no longer do: _Continue in the app_ already opens the app, so the pages are now plain HTML of about 4 KB and open almost instantly on a slow phone.
+
+**Accessibility checks.** An automatic checker (axe) now looks at every screen, sheet and public page in both languages, in light and dark mode, on a phone and a computer, and the tests fail on any serious problem. A manual pass then covered keyboard use, focus and screen readers. One fix came out of it: after a quiz answer, a screen reader now reads the feedback ("Correct!" and why) on the _Next_ button, where the focus lands, instead of it being cut off. Another new test checks that every screen still fits at 200% zoom without sideways scrolling.
+
+**Speed checks.** The build now fails if the app's code, its styles or a public page grow past a size limit, so the app can't quietly get heavier. A new command, `pnpm perf`, times the app on a simulated mid-range Android phone over slow mobile internet, the realistic baseline in Brazil. Public pages (0.6 s), a returning visit (0.4 s) and moving to the next card all beat their targets. The one miss: a **first-ever visit** takes about 4.6 s to show the welcome screen, against a 2.5 s target. It was diagnosed (the welcome waits for the app's code, all the lessons and the fonts to download one after another) and parked for later. The cloud checks print the timings on every run but never block a release because of them, since shared cloud computers vary in speed.
+
+**What's left before the public beta.** A new [release checklist](docs/RELEASE_CHECKLIST.md) goes through every launch requirement in the spec. Most of what remains isn't code: about 200 more reviewed lessons per language, a legal review (Brazil's data-protection law and its new law protecting minors online), clearing the final name, choosing an analytics provider, setting up an email address, and trying a few things on real phones. The code that's left (downloading your own data, and the Privacy and Terms pages, which need the email) comes with the accounts milestone, next.
+
 ---
 
 ---
@@ -363,6 +377,7 @@ To try the production version instead: `pnpm build`, then `pnpm preview`, then o
 | **Concept / variant** | A concept is one idea; a variant is that idea written in one language.               |
 | **Fixture**           | Obviously fake test data, never shown to real users.                                 |
 | **i18n**              | Internationalization: keeping all text in per-language files.                        |
+| **LCP**               | Largest contentful paint: how long until the main thing on screen has appeared.      |
 | **Lint**              | Automatic code-style and rule checking.                                              |
 | **Monorepo**          | One repository containing several related packages.                                  |
 | **Prerender**         | Producing ready-made HTML pages ahead of time so links preview well and load fast.   |

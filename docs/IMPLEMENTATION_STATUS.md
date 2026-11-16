@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-11-16 (M5 in progress, D28).
+Last updated: 2026-11-16 (M5 done, D28; the accounts milestone is next, D27).
 
 | Milestone                            | Status                          |
 | ------------------------------------ | ------------------------------- |
@@ -9,7 +9,7 @@ Last updated: 2026-11-16 (M5 in progress, D28).
 | M2.5 — Product experience overhaul   | ✅ Done (signed off 2026-11-03) |
 | M3 — Content pipeline tooling        | Pilot and batch 2 published     |
 | M4 — Public web and growth surface   | ✅ Done (2026-11-13)            |
-| M5 — Offline, polish, beta readiness | In progress (D28)               |
+| M5 — Offline, polish, beta readiness | ✅ Done (2026-11-16, D28)       |
 
 ## M1 — Foundation
 
@@ -91,7 +91,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | Plan step 8: Library, You, Settings, Welcome, desktop                     | `routes/`                          | ✅                                     |
 | Plan step 9: review pass (fit, tap targets, contrast, image weight)       | `docs/M2_5_INTEGRATION_PLAN.md` §7 | ✅ founder signed off on phone (11-03) |
 
-## M5 — Offline, polish, beta readiness (in progress, D28)
+## M5 — Offline, polish, beta readiness (done 2026-11-16, D28)
 
 | Step | Item                                                                                                    | Where                                                                      | Status                                     |
 | ---- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------ |
@@ -101,7 +101,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | 4    | Accessibility: axe checks in both languages and themes; manual §8 pass                                  | `e2e/a11y.spec.ts`, `components/QuizRunner.tsx`                            | ✅                                         |
 | 5    | Speed: size budgets in the build; timing report on a throttled phone                                    | `budgets.ts`, `speed/speed.spec.ts`, `pnpm perf`, CI `perf-report`         | ✅ (app first-visit LCP misses its target) |
 | 6    | README and `docs/RELEASE_CHECKLIST.md`                                                                  | `README.md`, `docs/RELEASE_CHECKLIST.md`                                   | ✅                                         |
-| 7    | Docs                                                                                                    |                                                                            |                                            |
+| 7    | Docs                                                                                                    | `WALKTHROUGH.md`, `docs/DEPLOYMENT.md`                                     | ✅                                         |
 
 ## M4 — Public web and growth surface (done 2026-11-13, D26)
 
@@ -147,6 +147,6 @@ Pictures are checked for accuracy with "Images checked" on each lesson (D20, 202
 - Sixth topic, Nature & Animals (D25, 2026-11-12), with the Amazon survival tricks trail moved into it and a jaguar topic picture.
 - Batch 2 "How it works" drawings: all 31 lessons have their own SVG scene and a ChatGPT diagram picture in the new `diagram` slot, waiting for Images checked (D23). All 22 published lessons have theirs too, checked (2026-11-11/12); a picture added later to a published lesson shows in `/_review` under "Published, pictures to check".
 - M4 (done): public pages, preview and story images, Share, Credits, analytics adapter. Waiting for the julianreyes.dev email (accounts milestone): Privacy and Terms pages, _Report a problem_ and the More menu. Waiting for an analytics provider (after the LGPD question): the Settings toggle.
-- M5: starter-pack offline caching, offline states, axe checks, performance budgets. Basic deployment is already live (D13). Export moved to the accounts milestone and import is deferred (D27).
+- M5 (done 2026-11-16): starter pack and offline after one visit, offline states, public pages without app code, axe checks, size budgets and the timing check, README and release checklist. Export moved to the accounts milestone and import is deferred (D27). Remaining P0 gates: `docs/RELEASE_CHECKLIST.md`.
 - Possibly later (founder, 2026-11-16): the app's first visit paints in 4.6 s on the throttled phone against §15's 2.5 s; diagnosis and possible fixes in D28 (Speed).
 - Accounts milestone (after M5, D27): Supabase sign-in and sync, the julianreyes.dev email (maybe Kit), Privacy, Terms, _Report a problem_, _Download my data_.
