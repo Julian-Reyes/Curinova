@@ -1,6 +1,6 @@
 # Implementation status
 
-Last updated: 2026-11-13 (M5 in progress, D28).
+Last updated: 2026-11-16 (M5 in progress, D28).
 
 | Milestone                            | Status                          |
 | ------------------------------------ | ------------------------------- |
@@ -100,7 +100,7 @@ Inserted by the founder on 2026-10-26, before M3. Merged to `main` on 2026-10-28
 | 3    | Public pages without the app's JavaScript                                                               | `public/site-files.ts`, `react-router.config.ts`                           | ✅                                         |
 | 4    | Accessibility: axe checks in both languages and themes; manual §8 pass                                  | `e2e/a11y.spec.ts`, `components/QuizRunner.tsx`                            | ✅                                         |
 | 5    | Speed: size budgets in the build; timing report on a throttled phone                                    | `budgets.ts`, `speed/speed.spec.ts`, `pnpm perf`, CI `perf-report`         | ✅ (app first-visit LCP misses its target) |
-| 6    | README and `docs/RELEASE_CHECKLIST.md`                                                                  |                                                                            |                                            |
+| 6    | README and `docs/RELEASE_CHECKLIST.md`                                                                  | `README.md`, `docs/RELEASE_CHECKLIST.md`                                   | ✅                                         |
 | 7    | Docs                                                                                                    |                                                                            |                                            |
 
 ## M4 — Public web and growth surface (done 2026-11-13, D26)
@@ -148,4 +148,5 @@ Pictures are checked for accuracy with "Images checked" on each lesson (D20, 202
 - Batch 2 "How it works" drawings: all 31 lessons have their own SVG scene and a ChatGPT diagram picture in the new `diagram` slot, waiting for Images checked (D23). All 22 published lessons have theirs too, checked (2026-11-11/12); a picture added later to a published lesson shows in `/_review` under "Published, pictures to check".
 - M4 (done): public pages, preview and story images, Share, Credits, analytics adapter. Waiting for the julianreyes.dev email (accounts milestone): Privacy and Terms pages, _Report a problem_ and the More menu. Waiting for an analytics provider (after the LGPD question): the Settings toggle.
 - M5: starter-pack offline caching, offline states, axe checks, performance budgets. Basic deployment is already live (D13). Export moved to the accounts milestone and import is deferred (D27).
+- Possibly later (founder, 2026-11-16): the app's first visit paints in 4.6 s on the throttled phone against §15's 2.5 s; diagnosis and possible fixes in D28 (Speed).
 - Accounts milestone (after M5, D27): Supabase sign-in and sync, the julianreyes.dev email (maybe Kit), Privacy, Terms, _Report a problem_, _Download my data_.
