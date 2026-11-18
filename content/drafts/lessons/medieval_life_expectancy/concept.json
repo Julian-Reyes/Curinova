@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Detalhe de uma pintura de Domenico Ghirlandaio, de cerca de 1490, com um homem idoso de vermelho diante de uma janela com paisagem",
+        "en": "Detail of a painting by Domenico Ghirlandaio, about 1490, of an elderly man in red before a window onto a landscape"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Domenico Ghirlandaio",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ghirlandaio,_Domenico_-_An_Old_Man_and_His_Grandson_-_Louvre_-_Google_Art_Project.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "5113d641"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Retrato de um homem idoso de túnica vermelha pintado por Jan van Eyck por volta de 1435",
+        "en": "Portrait of an elderly man in a red robe, painted by Jan van Eyck around 1435"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Jan van Eyck",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_van_Eyck_-_Kardinal_Niccol%C3%B2_Albergati_-_Google_Art_Project.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "1a3d490c"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Casas antigas com telhado de palha num campo verde, atrás de uma cerca de galhos trançados",
+        "en": "Old thatched-roof houses in a green field behind a woven wattle fence"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Сокіл Sokil",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/charming-rural-thatched-cottages-in-summer-38214079/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "cea08593"
+    }
+  }
 }

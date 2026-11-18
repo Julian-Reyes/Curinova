@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "O navio viking de Oseberg, com a proa em espiral, exposto num museu em Oslo",
+        "en": "The Oseberg Viking ship, with its spiral prow, on display in a museum in Oslo"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Larry Lamsa",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oseberg_Ship_-_Viking_Ship_Museum_(Oslo).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "20d3ceee"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "O capacete de Gjermundbu, um capacete viking de ferro com proteção para os olhos e sem chifres, exposto num museu em Oslo",
+        "en": "The Gjermundbu helmet, an iron Viking helmet with an eye guard and no horns, on display in a museum in Oslo"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Wolfmann",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cultural_History_(Historisk)_Museum_Oslo_VIKINGR_Norwegian_Viking-Age_Exhibition_08_Iron_helmet_Gjermundbu_(Gjermundbuhjelmen)_Best-preserved_viking_helmet_Grave_find_Destroyed_in_funeral_Equestrian_warrior_950-1000_(2021)_IMG_6932.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "8afd58b2"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Fiorde norueguês entre montanhas verdes, visto do alto",
+        "en": "A Norwegian fjord between green mountains, seen from above"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Ximonic (Simo Räsänen)",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geirangerfjord_from_%C3%98rnesvingen,_2013_June.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "b797ca46"
+    }
+  }
 }

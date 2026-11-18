@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Afresco de cerca de 1400 na Torre Aquila, em Trento, com camponeses colhendo uvas e operando uma prensa de vinho",
+        "en": "Fresco from about 1400 in the Torre Aquila, Trento, of peasants picking grapes and working a wine press"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Harrie Gielen",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vendemmia_torre_aquila.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "50182232"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1821,
+      "alt": {
+        "pt-BR": "Pintura mural de uma dança da morte numa igreja medieval de Inkoo, na Finlândia, com um esqueleto conduzindo um homem pela mão",
+        "en": "Dance of Death wall painting in a medieval church in Inkoo, Finland, with a skeleton leading a man by the hand"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Ninaras",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dance_of_Death,_Mural_in_Inkoo_Church,_Finland_01.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "9a08faf7"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Campo de trigo dourado com uma pequena casa ao longe, junto a uma fileira de árvores",
+        "en": "Golden wheat field with a small cottage in the distance by a line of trees"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Helena Jankovičová Kováčová",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/golden-wheat-field-with-distant-cottage-in-summer-38220072/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "6be54af9"
+    }
+  }
 }

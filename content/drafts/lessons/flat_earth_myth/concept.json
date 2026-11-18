@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Edição impressa de 1482 do tratado De sphaera, de Sacrobosco, aberta numa ilustração da esfera celeste",
+        "en": "A 1482 printed edition of Sacrobosco’s treatise De sphaera, open at an illustration of the celestial sphere"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Erhard Ratdolt (printer), The Metropolitan Museum of Art",
+        "platform": "Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphaera_Mundi_MET_DP108936.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "c4d49539"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Iluminura de um manuscrito francês do século 14 com a Terra como um globo verde e pessoas em pé de todos os lados dele",
+        "en": "Illumination from a 14th-century French manuscript showing the Earth as a green globe with people standing all around it"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Unknown illuminator (Gossuin de Metz, L’image du monde, BnF Fr. 574)",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gossuin_de_Metz_-_L%27image_du_monde_-_BNF_Fr._574_fo42.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "8117cd43"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Claustro românico com arcos de pedra entalhados e um jardim de cascalho",
+        "en": "Romanesque cloister with carved stone arches around a gravel garden"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Till Niermann",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sant_Pau_del_Camp_cloister_2.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "b9ce0427"
+    }
+  }
 }

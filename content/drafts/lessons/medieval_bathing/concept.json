@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Tina de banho de madeira na reconstrução de uma casa de banhos medieval num museu ao ar livre na Alemanha",
+        "en": "Wooden bathtub in a reconstructed medieval bathhouse at an open-air museum in Germany"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Nneuni",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bleiberg_Badehaus_Waschzuber_20260711.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "74e1a477"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Xilogravura de Albrecht Dürer, de cerca de 1496, com homens conversando, bebendo e tocando música numa casa de banhos ao ar livre",
+        "en": "Woodcut by Albrecht Dürer, about 1496, of men talking, drinking and playing music in an open-air bathhouse"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Albrecht Dürer",
+        "platform": "Wikimedia Commons",
+        "license": "CC0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_Bath_House,_c._1496-1497,_NGA_49056.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "a7689d51"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Rua de pedra com casas antigas de enxaimel em Goslar, na Alemanha",
+        "en": "Cobbled street of old half-timbered houses in Goslar, Germany"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Alyona Nagel",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/historic-timber-framed-architecture-in-goslar-germany-38529828/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "c4cf423a"
+    }
+  }
 }
