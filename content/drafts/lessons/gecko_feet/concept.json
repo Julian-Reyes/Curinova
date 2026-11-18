@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração em close de uma pata de lagartixa colada no vidro, com cinco dedos de pontas largas cobertas de estrias finas e uma pequena garra em cada um",
+        "en": "Illustration of a close-up of a gecko's foot pressed on glass, five toes with broad tips covered in fine ridges and a small claw on each"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "23275f85"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma lagartixa subindo pelo vidro de uma janela numa noite de chuva, vista de fora, com a barriga e os dedos largos e estriados colados no vidro e uma sala iluminada ao fundo",
+        "en": "Illustration of a gecko climbing a window pane on a rainy night, seen from outside, its belly and broad ridged toes pressed against the glass, a lit living room behind"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "31d19217"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de uma lagartixa descansando sobre um tronco coberto de musgo ao entardecer, vista de lado",
+        "en": "Illustration of a gecko resting on a mossy tree trunk at dusk, seen from the side"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "c691bae3"
+    }
+  }
 }

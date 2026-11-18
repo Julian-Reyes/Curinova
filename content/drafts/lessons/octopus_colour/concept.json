@@ -31,5 +31,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração em close da pele de um polvo, coberta de pontinhos de pigmento vermelhos, amarelos e marrons, alguns bem abertos e outros reduzidos a pontos",
+        "en": "Illustration of a close-up of octopus skin covered in red, yellow and brown pigment dots, some opened wide and others shrunk to points"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "6d236f01"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de um polvo num recife à noite, com um lado do corpo marrom-avermelhado e o outro cor de areia, os oito braços espalhados sobre as pedras",
+        "en": "Illustration of an octopus on a reef at night, one side of its body reddish-brown and the other sandy, its eight arms spread over the rocks"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "2fc622b7"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um polvo cor de areia escondido numa fenda entre rochas, mostrando só a cabeça, um olho e a base de dois braços",
+        "en": "Illustration of a sandy-coloured octopus hiding in a crevice between rocks, showing only its head, one eye and the bases of two arms"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "a37ebcba"
+    }
+  }
 }
