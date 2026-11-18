@@ -31,5 +31,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração do rosto de uma preguiça-de-três-dedos entre folhas, com a faixa escura nos olhos e o pelo desgrenhado levemente esverdeado",
+        "en": "Illustration of a three-toed sloth's face among leaves, with the dark stripe across its eyes and shaggy, faintly green fur"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "87f1c287"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma preguiça-de-três-dedos pendurada num galho alto da Amazônia ao amanhecer, com as garras curvas no galho e névoa sobre a floresta abaixo",
+        "en": "Illustration of a three-toed sloth hanging from a high branch in the Amazon at dawn, its curved claws hooked over the branch and mist over the forest below"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "3d0587e4"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração da copa da floresta amazônica vista de cima ao amanhecer, com névoa entre as árvores e uma árvore mais alta no centro",
+        "en": "Illustration of the Amazon rainforest canopy seen from above at dawn, with mist between the trees and one taller tree in the centre"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "cd2a6862"
+    }
+  }
 }
