@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Trecho das Muralhas de Teodósio, que protegeram Constantinopla até 1453",
+        "en": "A stretch of the Theodosian Walls, which protected Constantinople until 1453"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Carole Raddato",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theodosian_Walls_of_Constantinople,_Istanbul_(37874293302).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "4a177d8c"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Interior da Hagia Sophia, em Istambul, construída no século 6 como catedral de Constantinopla, sob a grande cúpula iluminada",
+        "en": "Interior of Hagia Sophia in Istanbul, built in the 6th century as the cathedral of Constantinople, beneath its great lit dome"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "ebuyıldız",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/people-at-the-hagia-sophia-20902487/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "0fb135c6"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ruínas do Fórum Romano ao pôr do sol, com as colunas do Templo de Saturno",
+        "en": "Ruins of the Roman Forum at sunset, with the columns of the Temple of Saturn"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Horia Horobeanu",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-roman-forum-at-sunset-in-italy-36846564/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "7324b6e0"
+    }
+  }
 }

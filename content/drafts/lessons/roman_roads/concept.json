@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Trecho escavado da Via Domícia em Narbonne, na França, com grandes pedras de calçamento romanas",
+        "en": "Excavated stretch of the Via Domitia in Narbonne, France, with large Roman paving stones"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Didier Descouens",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Via_Domitia_(Narbonne).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "fbab93b7"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "A Via Ápia Antiga, em Roma, com suas grandes pedras de calçamento entre pinheiros-mansos e ciprestes",
+        "en": "The ancient Appian Way in Rome, its large paving stones running between umbrella pines and cypresses"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "LorenzaCampanella",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Appia_Antica_con_pini.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "e6e2cfd3"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "A ponte romana sobre o rio Guadiana, em Mérida, na Espanha, com seus arcos de pedra",
+        "en": "The Roman bridge over the Guadiana river in Mérida, Spain, with its stone arches"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Sergei Gussev",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/historic-roman-bridge-over-guadiana-river-35883154/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "89c26f52"
+    }
+  }
 }

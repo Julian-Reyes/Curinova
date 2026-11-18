@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Mosaico romano em Bad Kreuznach, na Alemanha, com dois gladiadores lutando de escudo e espada",
+        "en": "Roman mosaic in Bad Kreuznach, Germany, of two gladiators fighting with shields and swords"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Carole Raddato",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detail_of_the_Gladiator_mosaic_floor,_a_Hoplomachus_fighting_a_Thraex,_R%C3%B6merhalle,_Bad_Kreuznach,_Germany_(8196100885).jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "857bc226"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Detalhe de um mosaico romano do século 4, com um gladiador de pé segurando uma espada",
+        "en": "Detail of a 4th-century Roman mosaic of a gladiator standing with a sword raised"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Roman mosaic, 4th century (Galleria Borghese); photo by Daderot",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gladiators,_fragment,_Roman,_300-400_AD,_marble_and_limestone_mosaic_-_Galleria_Borghese_-_Rome,_Italy_-_DSC04925.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "417b04a2"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Os arcos externos do Coliseu, em Roma, ao entardecer",
+        "en": "The outer arches of the Colosseum in Rome at dusk"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Michael Giugliano",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/photo-of-coliseum-2940654/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "704457bf"
+    }
+  }
 }

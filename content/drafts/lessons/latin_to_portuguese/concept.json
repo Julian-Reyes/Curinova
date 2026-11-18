@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Miniaturas das Cantigas de Santa Maria, do século 13, com legendas escritas em galego-português",
+        "en": "Miniatures from the 13th-century Cantigas de Santa Maria, with captions written in Galician-Portuguese"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Unknown miniaturist, court of Alfonso X; Real Biblioteca del Monasterio de El Escorial",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_de_Santa_Maria._Codice_de_El_Escorial._Cantiga_123_miniaturas.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "f4355de0"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Colunas coríntias do templo romano de Évora, em Portugal, contra o céu azul",
+        "en": "Corinthian columns of the Roman temple in Évora, Portugal, against a blue sky"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Fernando Amaral",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/ancient-roman-temple-ruins-under-clear-blue-sky-29820676/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "983d398e"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Oliveiras numa encosta gramada iluminada pelo sol da manhã",
+        "en": "Olive trees on a grassy slope lit by the morning sun"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Toni Seyfert",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/sunlit-olive-grove-in-spring-morning-36713207/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "1e21a2e8"
+    }
+  }
 }

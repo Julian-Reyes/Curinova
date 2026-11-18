@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Muro em ruínas das Termas de Caracalla, em Roma, mostrando o concreto romano por dentro do revestimento de tijolos",
+        "en": "Ruined wall of the Baths of Caracalla in Rome, showing Roman concrete inside its brick facing"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Paolo Villa",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:10_2023_-_Terme_(Baths_of)_Caracalla,_Arte_Romana,_Viale_Guido_Baccelli,_Rome,_Roma,_Lazio,_00154,_Italy_-_Photo_Paolo_Villa_-_FO232091_-_Architettura_-_Architettura_e_piante_di_capperi_-_opus_caementicium.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "237b2fbb"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "A cúpula de concreto do Panteão de Roma vista de baixo, com caixotões e a abertura circular no topo",
+        "en": "The concrete dome of the Pantheon in Rome seen from below, with its coffers and the round opening at the top"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Giuseppe D'Amato",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/low-angle-shot-of-the-ceiling-of-pantheon-12554191/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "ab1dd7a6"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "O aqueduto romano Pont du Gard, na França, refletido no rio",
+        "en": "The Pont du Gard Roman aqueduct in France, reflected in the river"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "SlimMars 13",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/pont-du-gard-ancient-roman-aqueduct-in-france-30187770/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "2a0add5f"
+    }
+  }
 }
