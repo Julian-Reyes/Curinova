@@ -12,107 +12,12 @@ ChatGPT prompts and photo search briefs for every picture slot in the six batch 
 
 **AI origin record:** `{ "kind": "generated", "tool": "ChatGPT (Plus)", "createdBy": "Founder", "createdAt": "<date>" }`, plus alt text in pt-BR and en.
 
-## Still to do (108 pictures)
+## Still to do (69 pictures)
 
-- **Animal superpowers:** all 7 lessons (21), AI.
-- **Why your body does weird things:** all 6 lessons (18), AI.
 - **Myths about the Middle Ages:** all 6 lessons (18), real-first.
 - **Medieval inventions we still use:** all 5 lessons (15), real-first.
 - **Rome: what lasted:** all 5 lessons (15), real-first.
 - **Pompeii: a city frozen in time:** all 7 lessons (21), real-first.
-
-### Animal superpowers (AI, or real photos)
-
-Animals can be AI or real. Check the species against the accuracy note before keeping a picture. If you prefer real photos, the **Search** line gives terms.
-
-#### gecko_feet: How do geckos walk on ceilings?
-
-- **Discover:** `DISCOVER: A gecko clinging upside down to a smooth pale ceiling at night, seen from below, its four splayed toes pressed flat, a warm lamp glow at the top of the frame, the lower part fading to dark.` _Accuracy: wide, flattened toe pads with fine ridges (lamellae) across the underside; no suction cups, no glue, no drips._
-- **Deeper:** `DEEPER: Extreme macro of the underside of a gecko's foot pressed against glass, the toe pads showing rows of fine pale ridges, soft green background.`
-- **Review:** `REVIEW: A gecko resting on a mossy tree trunk at dusk, side view.` _Don't show: suction cups, glue, a frying pan or non-stick coating, peeling toes, microscopic hairs._
-- **Search:** "gecko glass", "tokay gecko", "gecko foot macro".
-
-#### octopus_colour: How does an octopus change colour in a blink?
-
-- **Discover:** `DISCOVER: A common octopus on a dark reef at night, its skin mid-change, mottled red-brown on one side and pale sandy on the other, arms curling below it, soft blue light from above.` _Accuracy: eight arms with two rows of suckers, a rounded mantle, a horizontal slit pupil._
-- **Deeper:** `DEEPER: Macro of octopus skin filling the frame, a pattern of tiny red, yellow and brown dots of different sizes, some opened wide and some shrunk to pinpoints.`
-- **Review:** `REVIEW: An octopus tucked into a rocky crevice, one even colour, only its eye and two arms showing.` _Don't show: colour changing mid-way, muscles or nerves, an eye close-up, anything about energy._
-- **Search:** "octopus reef", "octopus skin macro", "Octopus vulgaris".
-
-#### hummingbird_hover: How does a hummingbird hover in mid-air?
-
-- **Discover:** `DISCOVER: A green hummingbird hovering in front of a red tubular flower in the Atlantic Forest, wings a soft blur, body perfectly still, dark green forest behind, the lower part fading to black.` _Accuracy: long thin straight bill, iridescent green back, tiny feet tucked up; wings blurred, not frozen in a bird-like flap._
-- **Deeper:** `DEEPER: Side view of a hummingbird hovering with its wings frozen at the top of a stroke, wings swept back and nearly flat, against a soft out-of-focus background.`
-- **Review:** `REVIEW: A hummingbird perched on a thin twig in daylight, wings folded.` _Don't show: wing-motion trails or arrows, a sleeping bird at night, a map of Brazil, numbers._
-- **Search:** "hummingbird hovering", "beija-flor".
-
-#### sloth_slow_life: How do sloths live so slowly?
-
-- **Discover:** `DISCOVER: A brown-throated three-toed sloth hanging from a high branch in the Amazon canopy at dawn, long arms hooked over the branch, morning mist below, the lower part fading to dark green shadow.` _Accuracy: three long curved claws on each front limb, a dark stripe through each eye like a mask, a shaggy grey-brown coat._
-- **Deeper:** `DEEPER: Close-up of a three-toed sloth's calm face among leaves, its shaggy coat faintly tinted green.`
-- **Review:** `REVIEW: The Amazon rainforest canopy seen from above in morning mist.` _Don't show: a sloth on the ground, green fur close-ups, leaves being eaten, calendars._
-- **Search:** "three-toed sloth", "Bradypus variegatus".
-
-#### bird_navigation: How do migrating birds find their way?
-
-- **Discover:** `DISCOVER: A long V-shaped skein of migrating geese flying high across a deep twilight sky, the last orange light at the horizon, the lower part dark.`
-- **Deeper:** `DEEPER: A flock of migrating birds flying low over the open sea at sunset, wide view.`
-- **Review:** `REVIEW: A small songbird perched on a branch in soft morning light.` _Don't show: stars, the sun, a compass, magnetic field lines, an eye close-up, a planetarium._
-- **Search:** "geese migration sky", "bird migration flock".
-
-#### immortal_jellyfish: Is there an animal that never dies of old age?
-
-- **Discover:** `DISCOVER: A tiny transparent jellyfish drifting in dark blue water, its bell glowing faintly, a vivid red-orange stomach in the centre and a fringe of fine white tentacles around the rim, specks of plankton around it for scale, the lower part dark.` _Accuracy: Turritopsis is a few millimetres across, bell about as tall as wide, clear with a red-orange centre and many thin tentacles. Not a large moon jelly._
-- **Deeper:** `DEEPER: Several tiny transparent jellyfish with red-orange centres drifting among plankton in dark water.`
-- **Review:** `REVIEW: The calm surface of the sea seen from just below, rays of sunlight in blue water.` _Don't show: polyps, a fish eating a jellyfish, a lab or aquarium, a scientist._
-- **Search:** real photos are rare; Commons "Turritopsis dohrnii" (check license).
-
-#### tardigrades_space: Can a tardigrade survive in space?
-
-- **Discover:** `DISCOVER: A tardigrade walking along a strand of green moss, seen very close, plump translucent segmented body with eight stubby legs ending in tiny claws, dark background below.` _Accuracy: eight legs in four pairs, a rounded snout, no antennae, no tail._
-- **Deeper:** `DEEPER: A small uncrewed capsule orbiting high above Earth, the planet's blue curve and thin atmosphere below, black space above. No logos or flags.`
-- **Review:** `REVIEW: Macro of damp green moss on a rock, soft light.` _Don't show: space, the Sun, a capsule, a dried-out shrunken tardigrade, the year 2007._
-- **Search:** Commons "tardigrade" (electron micrographs, check license).
-
-### Why your body does weird things (AI)
-
-No recognisable faces (house style). Anatomy must be correct and unlabelled.
-
-#### hiccups: Why do we get hiccups?
-
-- **Discover:** `DISCOVER: A person seen from behind in a dim kitchen at night, shoulders jolting up mid-hiccup, holding a glass of water, warm light from above, the lower part dark.`
-- **Deeper:** `DEEPER: A translucent human torso in soft studio light showing the dome-shaped diaphragm beneath the lungs, no labels.` _Accuracy: the diaphragm is a dome under the lungs and heart, above the liver and stomach._
-- **Review:** `REVIEW: A glass of water on a wooden kitchen table in morning light.` _Don't show: throats, vocal cords, the diaphragm, frogs, tadpoles or other amphibians._
-
-#### goosebumps: Why do we get goosebumps?
-
-- **Discover:** `DISCOVER: Macro of a forearm covered in goosebumps, fine hairs standing up, cool blue light, the lower part dark.`
-- **Deeper:** `DEEPER: A red fox in frosty air with its fur fluffed up thick against the cold, snowy background.`
-- **Review:** `REVIEW: Hands in a wool sweater wrapped around a warm mug by a frosty window.` _Don't show: hair muscles, fluffed fur, mice, stem cells._
-
-#### contagious_yawning: Why is yawning contagious?
-
-- **Discover:** `DISCOVER: A person seen from behind at a window at dusk, arms stretched high over their head in a big yawn, warm room light, the lower part dark.`
-- **Deeper:** `DEEPER: A chimpanzee yawning wide in a forest, teeth showing.` _Accuracy: a chimpanzee, not a gorilla or monkey._
-- **Review:** `REVIEW: Two coffee cups on a café table late at night.` _Don't show: chimpanzees, families or groups of friends, anyone yawning._
-
-#### brain_freeze: What is brain freeze?
-
-- **Discover:** `DISCOVER: A hand holding an ice-cream cone with a big bite taken out of it, frost on the cone, against a dark background, the lower part dark.`
-- **Deeper:** `DEEPER: A tall glass of frozen slushy drink with frost on the glass, close-up.`
-- **Review:** `REVIEW: A bowl of vanilla ice cream with a spoon on a café table.` _Don't show: anyone eating fast, a forehead or head, the mouth, clocks or stopwatches, blood vessels._
-
-#### wrinkly_fingers: Why do fingers wrinkle in water?
-
-- **Discover:** `DISCOVER: Close-up of wrinkled fingertips just lifted out of bath water, droplets falling, soft light from above, the lower part dark.`
-- **Deeper:** `DEEPER: A hand reaching into clear water to pick up a smooth wet pebble, seen from the side.`
-- **Review:** `REVIEW: A bathtub full of still water in a softly lit bathroom.` _Don't show: wrinkled fingers, nerves, blood vessels, hands gripping objects._
-
-#### foot_falling_asleep: Why does your foot "fall asleep"?
-
-- **Discover:** `DISCOVER: Bare feet of a person sitting cross-legged on a wooden floor, seen from above, soft window light, the lower part dark.`
-- **Deeper:** `DEEPER: A translucent human leg in soft studio light showing the nerve running down the thigh and wrapping around the outside of the knee, no labels.` _Accuracy: the common fibular nerve curves around the outside of the leg just below the knee._
-- **Review:** `REVIEW: A cosy armchair with a folded blanket.` _Don't show: crossed legs, nerves, a knee, pins or needles._
 
 ### Myths about the Middle Ages (real photos preferred)
 
@@ -285,4 +190,97 @@ No recognisable faces (house style). Anatomy must be correct and unlabelled.
 
 ## Already done
 
-Nothing yet.
+Pictures generated on the founder's ChatGPT account on 2026-11-18 and added to the drafts; each still needs **Images checked** in `/_review`. Notes in italics record what had to change from the first brief.
+
+### Animal superpowers (AI, or real photos)
+
+Animals can be AI or real. Check the species against the accuracy note before keeping a picture. If you prefer real photos, the **Search** line gives terms.
+
+#### gecko_feet: How do geckos walk on ceilings?
+
+- **Discover:** `DISCOVER: A Mediterranean house gecko clinging to a rainy night window, photographed from the other side of the glass: head pointing up, pale belly against the glass, a dark wooden window frame along the left edge and the bottom, raindrops, a softly blurred warm living room with a lamp behind it.` _Used instead of the ceiling view, which read as upside down and floating. Spell out the toes ("digit 1 shortest, like a thumb … count 5 + 5 + 5 + 5 = 20") and check every foot: ChatGPT kept drawing four toes; the back feet needed one follow-up._ _Accuracy: wide, flattened toe pads with fine ridges (lamellae) across the underside; no suction cups, no glue, no drips._
+- **Deeper:** `DEEPER: Extreme macro of the underside of a gecko's foot pressed against glass, the toe pads showing rows of fine pale ridges, soft green background.`
+- **Review:** `REVIEW: A gecko resting on a mossy tree trunk at dusk, side view.` _Don't show: suction cups, glue, a frying pan or non-stick coating, peeling toes, microscopic hairs._
+- **Search:** "gecko glass", "tokay gecko", "gecko foot macro".
+
+#### octopus_colour: How does an octopus change colour in a blink?
+
+- **Discover:** `DISCOVER: A common octopus on a dark reef at night, its skin mid-change, mottled red-brown on one side and pale sandy on the other, arms curling below it, soft blue light from above.` _Accuracy: eight arms with two rows of suckers, a rounded mantle, a horizontal slit pupil._
+- **Deeper:** `DEEPER: Macro of octopus skin filling the frame, a pattern of tiny red, yellow and brown dots of different sizes, some opened wide and some shrunk to pinpoints.`
+- **Review:** `REVIEW: An octopus tucked into a rocky crevice, one even colour, only its eye and two arms showing.` _Don't show: colour changing mid-way, muscles or nerves, an eye close-up, anything about energy._
+- **Search:** "octopus reef", "octopus skin macro", "Octopus vulgaris".
+
+#### hummingbird_hover: How does a hummingbird hover in mid-air?
+
+- **Discover:** `DISCOVER: A green hummingbird hovering in front of a red tubular flower in the Atlantic Forest, wings a soft blur, body perfectly still, dark green forest behind, the lower part fading to black.` _Accuracy: long thin straight bill, iridescent green back, tiny feet tucked up; wings blurred, not frozen in a bird-like flap._
+- **Deeper:** `DEEPER: Side view of a hummingbird hovering with its wings frozen at the top of a stroke, wings swept back and nearly flat, against a soft out-of-focus background.`
+- **Review:** `REVIEW: A hummingbird perched on a thin twig in daylight, wings folded.` _Don't show: wing-motion trails or arrows, a sleeping bird at night, a map of Brazil, numbers._
+- **Search:** "hummingbird hovering", "beija-flor".
+
+#### sloth_slow_life: How do sloths live so slowly?
+
+- **Discover:** `DISCOVER: A brown-throated three-toed sloth hanging from a high branch in the Amazon canopy at dawn, long arms hooked over the branch, morning mist below, the lower part fading to dark green shadow.` _Accuracy: three long curved claws on each front limb, a dark stripe through each eye like a mask, a shaggy grey-brown coat._
+- **Deeper:** `DEEPER: Close-up of a three-toed sloth's calm face among leaves, its shaggy coat faintly tinted green.`
+- **Review:** `REVIEW: The Amazon rainforest canopy seen from above in morning mist.` _Don't show: a sloth on the ground, green fur close-ups, leaves being eaten, calendars._
+- **Search:** "three-toed sloth", "Bradypus variegatus".
+
+#### bird_navigation: How do migrating birds find their way?
+
+- **Discover:** `DISCOVER: A long V-shaped skein of migrating geese flying high across a deep blue dusk sky …` _Ask for every bird in a different wing position (the first try was copy-pasted silhouettes) and only a thin, dim orange line at the horizon, so the title area stays dark._
+- **Deeper:** `DEEPER: A flock of migrating birds flying low over the open sea at sunset, wide view.`
+- **Review:** `REVIEW: A small songbird perched on a branch in soft morning light.` _Don't show: stars, the sun, a compass, magnetic field lines, an eye close-up, a planetarium._
+- **Search:** "geese migration sky", "bird migration flock".
+
+#### immortal_jellyfish: Is there an animal that never dies of old age?
+
+- **Discover:** `DISCOVER: A tiny transparent jellyfish drifting in dark blue water, its bell glowing faintly, a vivid red-orange stomach in the centre and a fringe of fine white tentacles around the rim, specks of plankton around it for scale, the lower part dark.` _Accuracy: Turritopsis is a few millimetres across, bell about as tall as wide, clear with a red-orange centre and many thin tentacles. Not a large moon jelly._
+- **Deeper:** `DEEPER: Several tiny transparent jellyfish with red-orange centres drifting among plankton in dark water.`
+- **Review:** `REVIEW: The calm surface of the sea seen from just below, rays of sunlight in blue water.` _Don't show: polyps, a fish eating a jellyfish, a lab or aquarium, a scientist._
+- **Search:** real photos are rare; Commons "Turritopsis dohrnii" (check license).
+
+#### tardigrades_space: Can a tardigrade survive in space?
+
+- **Discover:** `DISCOVER: A tardigrade walking along a strand of green moss, seen very close, plump translucent segmented body with eight stubby legs ending in tiny claws, dark background below.` _Accuracy: eight legs in four pairs, a rounded snout, no antennae, no tail._
+- **Deeper:** `DEEPER: A small uncrewed capsule orbiting high above Earth …` _Ask for a plain ball-shaped return capsule on a cylindrical equipment module, no windows, hatch or solar wings (closer to the Foton capsule); the first try looked crewed._
+- **Review:** `REVIEW: Macro of damp green moss on a rock, soft light.` _Don't show: space, the Sun, a capsule, a dried-out shrunken tardigrade, the year 2007._
+- **Search:** Commons "tardigrade" (electron micrographs, check license).
+
+### Why your body does weird things (AI)
+
+No recognisable faces (house style). Anatomy must be correct and unlabelled.
+
+#### hiccups: Why do we get hiccups?
+
+- **Discover:** `DISCOVER: A person seen from behind in a dim kitchen at night, shoulders jolting up mid-hiccup, holding a glass of water, warm light from above, the lower part dark.`
+- **Deeper:** `DEEPER: A translucent human torso in soft studio light showing the dome-shaped diaphragm beneath the lungs, no labels.` _Accuracy: the diaphragm is a dome under the lungs and heart, above the liver and stomach._
+- **Review:** `REVIEW: A glass of water on a wooden kitchen table in morning light.` _Don't show: throats, vocal cords, the diaphragm, frogs, tadpoles or other amphibians._
+
+#### goosebumps: Why do we get goosebumps?
+
+- **Discover:** `DISCOVER: Macro of a forearm covered in goosebumps, fine hairs standing up, cool blue light, the lower part dark.`
+- **Deeper:** `DEEPER: A red fox in frosty air with its fur fluffed up thick against the cold, snowy background.`
+- **Review:** `REVIEW: Hands in a wool sweater wrapped around a warm mug by a frosty window.` _Don't show: hair muscles, fluffed fur, mice, stem cells._
+
+#### contagious_yawning: Why is yawning contagious?
+
+- **Discover:** `DISCOVER: A person seen from behind at a window at dusk, arms stretched high over their head in a big yawn, warm room light, the lower part dark.`
+- **Deeper:** `DEEPER: A chimpanzee yawning wide in a forest, teeth showing.` _Accuracy: a chimpanzee, not a gorilla or monkey._
+- **Review:** `REVIEW: Two coffee cups on a café table late at night.` _Don't show: chimpanzees, families or groups of friends, anyone yawning._
+
+#### brain_freeze: What is brain freeze?
+
+- **Discover:** `DISCOVER: A hand holding an ice-cream cone with a big bite taken out of it, frost on the cone, against a dark background, the lower part dark.`
+- **Deeper:** `DEEPER: A tall glass of frozen slushy drink with frost on the glass, close-up.`
+- **Review:** `REVIEW: A bowl of vanilla ice cream with a spoon on a café table.` _Don't show: anyone eating fast, a forehead or head, the mouth, clocks or stopwatches, blood vessels._
+
+#### wrinkly_fingers: Why do fingers wrinkle in water?
+
+- **Discover:** `DISCOVER: Close-up of wrinkled fingertips just lifted out of bath water, droplets falling, soft light from above, the lower part dark.`
+- **Deeper:** `DEEPER: A hand reaching into clear water to pick up a smooth wet pebble, seen from the side.`
+- **Review:** `REVIEW: A bathtub full of still water in a softly lit bathroom.` _Don't show: wrinkled fingers, nerves, blood vessels, hands gripping objects._
+
+#### foot_falling_asleep: Why does your foot "fall asleep"?
+
+- **Discover:** `DISCOVER: Bare feet of a person sitting cross-legged on a wooden floor, seen from above, soft window light, the lower part dark.`
+- **Deeper:** `DEEPER: A translucent human leg in soft studio light showing the nerve running down the thigh and wrapping around the outside of the knee, no labels.` _Accuracy: the common fibular nerve curves around the outside of the leg just below the knee._
+- **Review:** `REVIEW: A cosy armchair with a folded blanket.` _Don't show: crossed legs, nerves, a knee, pins or needles._
