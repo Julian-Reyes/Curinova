@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de um tronco humano translúcido mostrando os pulmões e o coração apoiados no diafragma, um músculo em forma de cúpula, com o fígado e o estômago logo abaixo",
+        "en": "Illustration of a translucent human torso showing the lungs and heart resting on the dome-shaped diaphragm muscle, with the liver and stomach just below"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "98745a0f"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de uma pessoa vista de costas numa cozinha à noite, segurando um copo d'água sob a luz de uma luminária",
+        "en": "Illustration of a person seen from behind in a kitchen at night, holding a glass of water under a pendant lamp"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "c71d1bbe"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração de um copo d'água sobre uma mesa de madeira na luz da manhã",
+        "en": "Illustration of a glass of water on a wooden table in morning light"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "a5561a4a"
+    }
+  }
 }
