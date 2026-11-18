@@ -23,5 +23,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Detalhe de um retábulo de Conrad von Soest, de 1403, com um apóstolo segurando óculos de aro redondo diante dos olhos para ler um livro",
+        "en": "Detail of a 1403 altarpiece by Conrad von Soest of an apostle holding round spectacles to his eyes to read a book"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Conrad von Soest; photo by dierck schaefer",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pfingsten-Wildunger-Altar-Konrad-von-Soest.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "3073ab24"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Afresco de Tommaso da Modena, de 1352, em Treviso, com um frade dominicano de óculos escrevendo numa escrivaninha",
+        "en": "Fresco by Tommaso da Modena, 1352, in Treviso, of a Dominican friar wearing spectacles as he writes at a desk"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Tommaso da Modena",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tommaso_da_modena,_ritratti_di_domenicani_(Ugo_di_Provenza)_1352_150cm,_treviso,_ex_convento_di_san_niccol%C3%B2,_sala_del_capitolo.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "88f52c87"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Nave da catedral de Wells, na Inglaterra, com arcos góticos e abóbadas de pedra",
+        "en": "The nave of Wells Cathedral, England, with Gothic arches and stone vaults"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Michael D Beckwith",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/interior-view-of-wells-cathedral-nave-in-england-31269286/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "633dffc5"
+    }
+  }
 }

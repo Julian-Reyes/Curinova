@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Caixa de tipos móveis de metal com uma linha de texto montada num componedor",
+        "en": "A case of metal movable type with a line of text set in a composing stick"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Willi Heidelbach",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY 2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "ca29b002"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Primeira página do Gênesis numa Bíblia de Gutenberg, com letras góticas impressas e uma inicial iluminada em azul",
+        "en": "Opening page of Genesis in a Gutenberg Bible, with printed Gothic letters and an illuminated blue initial"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Johannes Gutenberg (printer); facsimile scan by Jossi",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible_B42_Genesis.JPG"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "40777a27"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Catedral de Mainz, na Alemanha, com suas torres de arenito vermelho",
+        "en": "Mainz Cathedral, Germany, with its red sandstone towers"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Markus Winkler",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/facade-of-the-mainz-cathedral-in-mainz-germany-10179266/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "d7f185a4"
+    }
+  }
 }

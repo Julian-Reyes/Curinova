@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Mostrador astronômico pintado do relógio medieval da catedral de Wells",
+        "en": "The painted astronomical dial of the medieval clock in Wells Cathedral"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "DeFacto",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wells_clock.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "c7666cca"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Engrenagens de ferro do relógio medieval da catedral de Salisbury, de cerca de 1386, um mecanismo sem mostrador",
+        "en": "Iron gears of the medieval clock in Salisbury Cathedral, from about 1386, a mechanism with no dial"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Rwendland",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salisbury_Cathedral,_medieval_clock.JPG"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "f12436bd"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Campanário de pedra acima dos telhados de uma cidade italiana, com montanhas ao fundo",
+        "en": "A stone bell tower above the rooftops of an Italian town, with mountains behind"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "jonathan emili",
+        "platform": "Pexels",
+        "license": "Pexels License",
+        "sourceUrl": "https://www.pexels.com/photo/tower-of-church-in-palazzo-ducale-in-urbino-italy-12160108/"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "f7ae9c89"
+    }
+  }
 }

@@ -31,5 +31,61 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Mob Quad, o pátio medieval de pedra do Merton College, em Oxford",
+        "en": "Mob Quad, the medieval stone courtyard of Merton College, Oxford"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Tom Murphy VII",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mob_Quad.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "fdfff45c"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Iluminura de Laurentius de Voltolina, do século 14, com estudantes de roupas coloridas assistindo a uma aula em Bolonha",
+        "en": "14th-century illumination by Laurentius de Voltolina of students in colourful robes attending a lecture in Bologna"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "Laurentius de Voltolina, Kupferstichkabinett, Staatliche Museen zu Berlin",
+        "platform": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "19b090be"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Arco de pedra gótico que leva a um pátio, em Oxford",
+        "en": "A Gothic stone archway leading to a courtyard in Oxford"
+      },
+      "origin": {
+        "kind": "licensed",
+        "creator": "sailko",
+        "platform": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merton_college,_mob_quad_02.JPG"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "20e60756"
+    }
+  }
 }
