@@ -23,5 +23,58 @@
       }
     }
   ],
-  "variants": ["pt-BR", "en"]
+  "variants": ["pt-BR", "en"],
+  "media": {
+    "deeper": {
+      "width": 1200,
+      "height": 700,
+      "alt": {
+        "pt-BR": "Ilustração de uma pequena cápsula espacial não tripulada, em forma de bola, em órbita acima da Terra",
+        "en": "Illustration of a small uncrewed, ball-shaped space capsule in orbit above Earth"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "77bdeab5"
+    },
+    "discover": {
+      "width": 1024,
+      "height": 1820,
+      "alt": {
+        "pt-BR": "Ilustração de um tardígrado, um animal microscópico de corpo roliço e oito patas curtas com garras, andando sobre um ramo de musgo",
+        "en": "Illustration of a tardigrade, a microscopic animal with a plump body and eight short clawed legs, walking along a strand of moss"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "aa63538f"
+    },
+    "review": {
+      "width": 1000,
+      "height": 562,
+      "alt": {
+        "pt-BR": "Ilustração em close de um tufo de musgo verde e úmido sobre uma pedra, com gotinhas de água",
+        "en": "Illustration of a close-up of a cushion of damp green moss on a rock, with tiny water droplets"
+      },
+      "origin": {
+        "kind": "generated",
+        "tool": "ChatGPT (Plus)",
+        "createdBy": "Claude Code, on the founder’s ChatGPT account",
+        "createdAt": "2026-11-18"
+      },
+      "accuracyReviewedBy": null,
+      "addedAt": "2026-11-18",
+      "hash": "a4659db5"
+    }
+  }
 }
