@@ -79,14 +79,26 @@ export async function checkDrafts(
       for (const [j, s] of claim.support.entries()) {
         const at = `claims[${String(i)}].support[${String(j)}]`;
         const snapshot = await readSnapshot(s.sourceId);
+        // Snapshots are local working files (D18). Once the verifier, which read the page,
+        // judged a claim supported, a missing snapshot only means another machine (D30).
         if (snapshot === null)
-          issues.push({
-            severity: 'error',
-            code: 'snapshot-missing',
-            file: file.path,
-            field: at,
-            message: `no local snapshot for ${s.sourceId}; fetch it with pnpm content:sources fetch`,
-          });
+          issues.push(
+            claim.autoVerdict === 'supported'
+              ? {
+                  severity: 'warning',
+                  code: 'snapshot-missing',
+                  file: file.path,
+                  field: at,
+                  message: `no local snapshot for ${s.sourceId}; the verifier marked this claim supported, so it is not re-checked here`,
+                }
+              : {
+                  severity: 'error',
+                  code: 'snapshot-missing',
+                  file: file.path,
+                  field: at,
+                  message: `no local snapshot for ${s.sourceId}; fetch it with pnpm content:sources fetch`,
+                },
+          );
         else if (!matchable(snapshot).includes(matchable(s.excerpt)))
           issues.push({
             severity: 'error',

@@ -363,6 +363,14 @@ The founder approved six trails in chat, 36 lessons (37 if Pompeii's optional Br
 - **Discover card text is written with the lessons**, unlike batch 2 (D19). Pictures come later.
 - **Branch `content/batch-3`** from `main`, replacing the retired shared branch `content/c1-moon`. Writer and verifier are separate sessions per trail, as in D18.
 
+### D30 · Verified lessons are reviewable on any machine — Founder (2026-11-19)
+
+Once the writer and verifier sessions are done, a lesson is ready for founder review; what is left after that is mainly its pictures. Source snapshots (page text, never committed, D18) are working files for writing and verifying, so a missing snapshot no longer blocks review of a claim the verifier marked **supported**: check-drafts reports it as a warning. Claims that are pending, partial or unsupported still need the snapshot, and an excerpt that is present but doesn't match its snapshot is still an error.
+
+- **Why:** batch 3 was written and verified on another machine, so on the founder's laptop all 36 lessons showed "check-drafts errors" and could not be reviewed. 54 of the missing pages block automated fetching (403 or bot checks).
+- **Accepted gap:** an excerpt edited after verification is not re-matched on a machine without the snapshot. The review panel shows the quote and source link, without the surrounding passage.
+- Replaces D18's "re-verification needs the authoring machine" for review. A recorded "checked" mark per excerpt was considered and not built.
+
 ### P6 measurements (M2, 2026-10-25, before D11)
 
 Measured with Playwright on all 20 sample lessons (86–105-word bodies plus the takeaway), counting cards whose text fits with no inner scrolling. "Discover" has about 52px more room than trail mode, which shows a trail header.

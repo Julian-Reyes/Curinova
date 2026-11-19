@@ -175,6 +175,19 @@ describe('content:check-drafts', () => {
     );
   });
 
+  it('only warns about a missing snapshot once the verifier marked the claim supported', async () => {
+    const none = () => Promise.resolve(null);
+    const missing = async (verdict: string) => {
+      const v = draft();
+      (v.claims as Json[])[0]!.autoVerdict = verdict;
+      const issues = (await checkDrafts(library(), draftsOf(v), none)).issues;
+      return issues.filter((i) => i.code === 'snapshot-missing').map((i) => i.severity);
+    };
+    expect(new Set(await missing('supported'))).toEqual(new Set(['warning']));
+    expect(new Set(await missing('pending'))).toEqual(new Set(['error']));
+    expect(new Set(await missing('partial'))).toEqual(new Set(['error']));
+  });
+
   it('reports issues against the draft file, not the library copy it replaces', async () => {
     const v = draft();
     v.title = '';
