@@ -73,8 +73,6 @@ test('with the switch off, no starter pack photos are saved', async ({ page }) =
   await feedReady(page);
   await page.waitForTimeout(5000);
   // Only the photos of cards actually shown (the first one or two) are cached.
-  const discover = (await cachedUrls(page, 'lumen-media')).filter((u) =>
-    u.includes('/discover'),
-  );
+  const discover = (await cachedUrls(page, 'lumen-media')).filter((u) => u.includes('/discover'));
   expect(discover.length).toBeLessThanOrEqual(3);
 });
