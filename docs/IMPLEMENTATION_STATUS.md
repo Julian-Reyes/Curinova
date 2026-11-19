@@ -127,6 +127,12 @@ Plan approved 2026-10-28 (D18). Three build sessions, then a C1 pilot.
 | Review tool `/_review` and a fixture dry run (D20)                                                                                              | ✅ session 3 |
 | C1 pilot: all five sample trails (22 lessons) reviewed and published, live 2026-11-03                                                           | ✅           |
 
+### Batch 3 (in review on `content/batch-3`, 2026-11-19)
+
+- All 36 lessons passed the writer and verifier sessions and are ready for founder review on any machine (D30). What is left is mainly pictures.
+- **Open picture picks:** the founder is choosing real photos to replace fake-looking AI pictures (sloth, gecko, hummingbird, goosebumps arm) on a private comparison page in their claude.ai artifacts: **https://claude.ai/artifact/4jiAXBDDCwJu4fMBkFn41V** ("Picture Picks: Batch 3 Animals"). Every candidate's Commons link, credit and license, plus the next steps, are in `docs/content/IMAGE_PROMPTS_BATCH_3.md` under "In progress".
+- **Not started:** "How it works" diagrams for all 36 batch-3 lessons (the How it works box shows a placeholder until then), and the Pompeii pictures.
+
 ### Review tool `/_review` (session 3, 2026-10-30)
 
 Plan: `docs/M3_REVIEW_TOOL_PLAN.md`; how to use it: `docs/CONTENT_PIPELINE.md`.
