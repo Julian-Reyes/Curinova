@@ -11,6 +11,36 @@ Last updated: 2026-11-13 (M5 in progress, D28).
 | M4 — Public web and growth surface   | ✅ Done (2026-11-13)            |
 | M5 — Offline, polish, beta readiness | In progress (D28)               |
 
+## Next session: start here (handoff from the founder's MacBook, 2026-11-19)
+
+The founder is moving from the MacBook to the Mac mini. Work is on branch **`content/batch-3`**, pushed to GitHub.
+
+**1. Set up the Mac mini.**
+
+- `git checkout content/batch-3 && git pull`, then `pnpm install`. The MacBook was missing `satori` (link-preview images) until a fresh install, and `pnpm dev` failed with `Cannot find package 'satori'`.
+- `pnpm dev`, then open the review tool at http://localhost:5273/\_review. All 36 batch-3 lessons should show as reviewable. The Mac mini has the original source snapshots, so its check-drafts may show fewer warnings than the MacBook did.
+
+**2. Finish the picture picks** (the founder's current task).
+
+- The founder is choosing real photos to replace fake-looking AI pictures on a private comparison page: https://claude.ai/artifact/4jiAXBDDCwJu4fMBkFn41V ("Picture Picks: Batch 3 Animals"). Nine slots: sloth (discover, deeper), gecko (discover, deeper, review), hummingbird (discover, deeper, review), goosebumps (discover). Each has options A, B (real photos) and AI (keep the current picture).
+- The founder will paste picks such as `sloth_slow_life discover: A`. For each pick that isn't AI: open its Commons page from the table in `docs/content/IMAGE_PROMPTS_BATCH_3.md` ("In progress"), re-read the author and license there, and download the **full-size original**. Pre-crop Discover sources to 9:16 around the animal (never the blurred fill), name files `<lesson>_<slot>.jpg`, and run `pnpm media:add <folder>`. Then fill in `origin` (`"kind": "licensed"`, creator, `"platform": "Wikimedia Commons"`, license, `sourceUrl`) and new alt text in pt-BR and en in the draft's `concept.json`. Show the founder the result in `/_review`, then run `pnpm content:validate` and a Prettier check (image-only changes need nothing else), and commit. Move finished slots to "Already done" in the briefs doc.
+
+**3. What the founder decided on 2026-11-19** (keep to these):
+
+- **Review means pictures.** Once the writer and verifier sessions are done, the text is trusted. The founder's review is mainly the pictures (D30).
+- **AI pictures are judged by how real they look.** Fake-looking animals and body close-ups get real photos; AI is fine where it looks real (the Amazon survival dolphin, ants and frogs stay) and for diagrams. Don't composite real animals onto new backgrounds. Bird navigation, immortal jellyfish, octopus, tardigrade and the goosebumps fox haven't been judged yet: ask the founder.
+- **Offer choices side by side.** For new pictures, show options in the app's real frames (like the comparison page) instead of picking alone.
+
+**4. Not started yet** (ask before starting):
+
+- "How it works" diagrams for all 36 batch-3 lessons, made the D23 way, one trail at a time (Animal superpowers first was suggested).
+- Pompeii pictures (7 lessons).
+- A one-click "Approve text" button in `/_review` was offered, so the founder's review is only pictures. Not approved yet.
+- `content:sources fetch` crashes the whole run when one page's body read times out. The fix (move the body read inside the error handling in `tools/content-pipeline/src/sources/fetch.ts`) was offered, not approved.
+- The "Still to do (69 pictures)" list in `docs/content/IMAGE_PROMPTS_BATCH_3.md` is stale: only Pompeii is unfinished.
+
+**Never push without the founder's OK** (each push needs its own).
+
 ## M1 — Foundation
 
 | Item (§20 M1)                                                                                    | Where                                                            | Status                                           |
